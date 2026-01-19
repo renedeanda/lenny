@@ -9,48 +9,34 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        void: '#000000',
-        'void-light': '#0a0a0a',
-        amber: '#ffb347',
-        'amber-dark': '#cc7a00',
-        'amber-dim': '#4d3319',
-        crimson: '#dc143c',
-        'crimson-dark': '#8b0000',
-        ash: '#cccccc',
-        'ash-dark': '#666666',
-        'ash-darker': '#333333',
-      },
-      fontFamily: {
-        mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+        cream: '#faf8f5',
+        'cream-dark': '#f5f1e8',
+        orange: '#ff6b35',
+        'orange-light': '#ff8c42',
+        'orange-dark': '#cc5429',
+        ember: '#ffab73',
+        charcoal: '#1a1a1a',
+        'charcoal-light': '#4a4a4a',
+        warm: '#fff5e6',
       },
       animation: {
-        'glitch': 'glitch 3s infinite',
-        'glitch-2': 'glitch-2 3s infinite',
-        'float-slow': 'float-slow 8s ease-in-out infinite',
-        'distort': 'distort 4s ease-in-out infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'float-delayed': 'float 6s ease-in-out 3s infinite',
+        'flicker': 'flicker 3s ease-in-out infinite',
+        'ember-rise': 'ember-rise 8s ease-out infinite',
       },
       keyframes: {
-        'glitch': {
-          '0%, 100%': { transform: 'translate(0)' },
-          '20%': { transform: 'translate(-2px, 2px)' },
-          '40%': { transform: 'translate(-2px, -2px)' },
-          '60%': { transform: 'translate(2px, 2px)' },
-          '80%': { transform: 'translate(2px, -2px)' },
+        'float': {
+          '0%, 100%': { transform: 'translateY(0) scale(1)' },
+          '50%': { transform: 'translateY(-20px) scale(1.05)' },
         },
-        'glitch-2': {
-          '0%, 100%': { transform: 'translate(0)', opacity: '1' },
-          '25%': { transform: 'translate(2px, -2px)', opacity: '0.8' },
-          '50%': { transform: 'translate(-2px, 2px)', opacity: '1' },
-          '75%': { transform: 'translate(1px, 1px)', opacity: '0.9' },
+        'flicker': {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.8' },
         },
-        'float-slow': {
-          '0%, 100%': { transform: 'translateY(0) translateX(0)' },
-          '33%': { transform: 'translateY(-10px) translateX(5px)' },
-          '66%': { transform: 'translateY(5px) translateX(-5px)' },
-        },
-        'distort': {
-          '0%, 100%': { filter: 'hue-rotate(0deg)' },
-          '50%': { filter: 'hue-rotate(10deg)' },
+        'ember-rise': {
+          '0%': { transform: 'translateY(0) translateX(0) scale(1)', opacity: '1' },
+          '100%': { transform: 'translateY(-100vh) translateX(20px) scale(0)', opacity: '0' },
         },
       },
     },
