@@ -1,94 +1,176 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-import CampfireParticles from '@/components/CampfireParticles';
-import Campfire from '@/components/Campfire';
+import InteractiveSpace from '@/components/InteractiveSpace';
 
 export default function Home() {
   const router = useRouter();
+  const [glitchActive, setGlitchActive] = useState(false);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
+  const cursorX = useMotionValue(0);
+  const cursorY = useMotionValue(0);
+
+  const springConfig = { damping: 25, stiffness: 150 };
+  const cursorXSpring = useSpring(cursorX, springConfig);
+  const cursorYSpring = useSpring(cursorY, springConfig);
+
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
+    const moveCursor = (e: MouseEvent) => {
+      cursorX.set(e.clientX);
+      cursorY.set(e.clientY);
       setMousePos({ x: e.clientX, y: e.clientY });
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mousemove', moveCursor);
+    return () => window.removeEventListener('mousemove', moveCursor);
+  }, [cursorX, cursorY]);
+
+  useEffect(() => {
+    const glitchInterval = setInterval(() => {
+      setGlitchActive(true);
+      setTimeout(() => setGlitchActive(false), 150);
+    }, 5000 + Math.random() * 5000);
+
+    return () => clearInterval(glitchInterval);
   }, []);
 
   return (
-    <main className="relative min-h-screen bg-cream text-charcoal overflow-hidden">
-      <CampfireParticles />
+    <main className="relative min-h-screen bg-void text-ash overflow-hidden font-mono">
+      <InteractiveSpace />
+
+      {/* Custom cursor */}
+      <motion.div
+        className="fixed w-8 h-8 border border-amber/30 rounded-full pointer-events-none z-50 mix-blend-difference"
+        style={{
+          left: cursorXSpring,
+          top: cursorYSpring,
+          translateX: '-50%',
+          translateY: '-50%',
+        }}
+      />
+
+      {/* Scanlines */}
+      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
+        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
+      </div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 py-12">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-          className="max-w-6xl w-full space-y-12"
+          transition={{ duration: 1.5 }}
+          className="max-w-5xl w-full space-y-16"
         >
-          {/* Campfire logo */}
+          {/* System status */}
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-            className="flex justify-center"
+            transition={{ delay: 0.3 }}
+            className="flex items-center justify-between text-xs text-amber/50 border-b border-amber/10 pb-2"
           >
-            <Campfire className="w-20 h-20 md:w-24 md:h-24" />
+            <span className="font-mono">SYSTEM.INIT</span>
+            <span className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 bg-amber rounded-full animate-pulse" />
+              ONLINE
+            </span>
           </motion.div>
 
-          {/* Title */}
-          <div className="text-center space-y-6">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.4 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight"
+          {/* Title with glitch */}
+          <div className="space-y-6">
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.5, type: 'spring', damping: 20 }}
+              className="relative"
             >
-              <span className="block text-charcoal">The PM</span>
-              <span className="block text-orange mt-2">Philosophy Map</span>
-            </motion.h1>
+              <h1
+                className={`text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight ${
+                  glitchActive ? 'animate-glitch' : ''
+                }`}
+              >
+                <span className="text-amber drop-shadow-[0_0_30px_rgba(255,179,71,0.3)]">
+                  THE PM
+                </span>
+                <br />
+                <span className="text-ash">PHILOSOPHY</span>
+                <br />
+                <span className="text-amber-dark">MAP</span>
+              </h1>
+
+              {/* Glitch layers */}
+              {glitchActive && (
+                <>
+                  <h1
+                    className="absolute top-0 left-0 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight opacity-70 mix-blend-screen"
+                    style={{
+                      color: '#dc143c',
+                      transform: 'translate(-2px, 2px)',
+                    }}
+                  >
+                    <span>THE PM</span>
+                    <br />
+                    <span>PHILOSOPHY</span>
+                    <br />
+                    <span>MAP</span>
+                  </h1>
+                  <h1
+                    className="absolute top-0 left-0 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight opacity-70 mix-blend-screen"
+                    style={{
+                      color: '#00d4ff',
+                      transform: 'translate(2px, -2px)',
+                    }}
+                  >
+                    <span>THE PM</span>
+                    <br />
+                    <span>PHILOSOPHY</span>
+                    <br />
+                    <span>MAP</span>
+                  </h1>
+                </>
+              )}
+            </motion.div>
 
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-              className="text-xl md:text-2xl text-charcoal-light max-w-3xl mx-auto leading-relaxed"
+              transition={{ delay: 0.8 }}
+              className="text-lg md:text-xl text-ash-dark max-w-2xl leading-relaxed"
             >
-              Every PM navigates the product universe differently.
-              <br />
-              Discover your philosophy.
+              <span className="text-amber">[</span> Every PM navigates the universe differently{' '}
+              <span className="text-amber">]</span>
             </motion.p>
           </div>
 
-          {/* Steps with decorative sparkles */}
+          {/* Steps */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.8 }}
-            className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto"
+            transition={{ delay: 1 }}
+            className="grid md:grid-cols-3 gap-8 md:gap-12"
           >
             {[
-              { num: '01', text: 'Answer 7 questions', emoji: '✨' },
-              { num: '02', text: 'Face contradictions', emoji: '⚡' },
-              { num: '03', text: 'Find your philosophy', emoji: '🔥' },
+              { num: '01', text: 'Answer 7 questions' },
+              { num: '02', text: 'Face contradictions' },
+              { num: '03', text: 'Discover your philosophy' },
             ].map((step, i) => (
               <motion.div
                 key={step.num}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1 + i * 0.1 }}
+                transition={{ delay: 1.2 + i * 0.1 }}
                 className="relative group"
               >
-                <div className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-md transition-all duration-300 border border-orange/10">
-                  <div className="text-4xl mb-4">{step.emoji}</div>
-                  <div className="text-lg font-semibold text-orange mb-2">{step.num}</div>
-                  <div className="text-charcoal-light">{step.text}</div>
+                <div className="border border-amber/20 bg-void-light/50 p-6 backdrop-blur-sm hover:border-amber/40 transition-all duration-300">
+                  <div className="text-3xl font-bold text-amber mb-3">{step.num}</div>
+                  <div className="text-ash-dark group-hover:text-ash transition-colors">
+                    {step.text}
+                  </div>
                 </div>
+                <div className="absolute -inset-0.5 bg-gradient-to-r from-amber/0 via-amber/10 to-amber/0 opacity-0 group-hover:opacity-100 transition-opacity -z-10 blur" />
               </motion.div>
             ))}
           </motion.div>
@@ -97,31 +179,31 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 1.3 }}
+            transition={{ delay: 1.5 }}
             className="flex flex-col items-center gap-6"
           >
             <button
               onClick={() => router.push('/quiz')}
-              className="group relative px-12 py-5 bg-orange hover:bg-orange-dark text-white font-bold text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+              className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
             >
               <span className="relative z-10 flex items-center gap-3">
-                Start Your Journey
+                INITIATE
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
               </span>
+              <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
             </button>
 
-            {/* Stats */}
-            <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-charcoal-light">
+            <div className="flex items-center gap-8 text-xs text-ash-dark">
               <span className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-orange" />8 zones
+                <span className="w-1 h-1 bg-amber-dark" />8 ZONES
               </span>
               <span className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-orange-light" />
-                303 episodes
+                <span className="w-1 h-1 bg-amber-dark" />
+                303 EPISODES
               </span>
               <span className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-ember" />
-                15 contradictions
+                <span className="w-1 h-1 bg-amber-dark" />
+                15 CONTRADICTIONS
               </span>
             </div>
           </motion.div>
@@ -130,38 +212,17 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="text-center text-sm text-charcoal-light pt-8"
+            transition={{ delay: 2 }}
+            className="border-t border-amber/10 pt-4 text-xs text-ash-darker text-center"
           >
             Built from Lenny's Podcast transcripts
           </motion.div>
         </motion.div>
       </div>
 
-      {/* Floating embers decoration */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden">
-        {[...Array(8)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute w-2 h-2 rounded-full bg-orange opacity-40"
-            style={{
-              left: `${Math.random() * 100}%`,
-              bottom: '-10px',
-            }}
-            animate={{
-              y: [0, -1200],
-              x: [0, (Math.random() - 0.5) * 100],
-              opacity: [0.4, 0.8, 0],
-              scale: [1, 1.5, 0.5],
-            }}
-            transition={{
-              duration: 8 + Math.random() * 4,
-              repeat: Infinity,
-              ease: 'easeOut',
-              delay: i * 1.5,
-            }}
-          />
-        ))}
+      {/* Corner coordinates */}
+      <div className="fixed bottom-4 right-4 text-[10px] text-amber/30 font-mono z-30">
+        [{Math.floor(mousePos.x)}, {Math.floor(mousePos.y)}]
       </div>
     </main>
   );
