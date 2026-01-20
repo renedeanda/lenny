@@ -182,16 +182,28 @@ export default function Home() {
             transition={{ delay: 1.5 }}
             className="flex flex-col items-center gap-6"
           >
-            <button
-              onClick={() => router.push('/quiz')}
-              className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
-            >
-              <span className="relative z-10 flex items-center gap-3">
-                INITIATE
-                <span className="group-hover:translate-x-1 transition-transform">→</span>
-              </span>
-              <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
-            </button>
+            <div className="flex flex-col md:flex-row gap-4">
+              <button
+                onClick={() => router.push('/quiz')}
+                className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
+              >
+                <span className="relative z-10 flex items-center gap-3">
+                  INITIATE
+                  <span className="group-hover:translate-x-1 transition-transform">→</span>
+                </span>
+                <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
+              </button>
+
+              <button
+                onClick={() => router.push('/explore')}
+                className="group relative px-12 py-5 bg-void-light border border-ash-darker text-ash-dark font-bold text-lg tracking-wide hover:border-amber hover:text-amber transition-all duration-300"
+              >
+                <span className="relative z-10 flex items-center gap-3">
+                  EXPLORE DATA
+                  <span className="text-amber">🔥</span>
+                </span>
+              </button>
+            </div>
 
             <div className="flex items-center gap-8 text-xs text-ash-dark">
               <span className="flex items-center gap-2">
