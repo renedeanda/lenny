@@ -27,6 +27,8 @@ interface TranscriptSection {
   speaker: string;
   timestamp: string;
   text: string;
+  lineStart: number;
+  lineEnd: number;
 }
 
 interface TranscriptContent {
@@ -83,7 +85,9 @@ export default function EpisodePage() {
   const [showShareToast, setShowShareToast] = useState(false);
   const [showAllQuotes, setShowAllQuotes] = useState(false);
   const [showAllContrarian, setShowAllContrarian] = useState(false);
+  const [showYouTube, setShowYouTube] = useState(false);
   const sectionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+  const youtubePlayerRef = useRef<HTMLIFrameElement | null>(null);
 
   useEffect(() => {
     async function loadTranscript() {
@@ -139,17 +143,43 @@ export default function EpisodePage() {
       section.scrollIntoView({ behavior: 'smooth', block: 'center' });
       setSelectedSection(index);
       setTimeout(() => setSelectedSection(null), 2000);
+
+      // Also jump to video timestamp if YouTube player is visible
+      if (showYouTube && transcript && transcript[index]) {
+        jumpToVideoTimestamp(transcript[index].timestamp);
+      }
     }
   };
 
   const shareQuote = (section: TranscriptSection) => {
     const quoteText = `"${section.text.substring(0, 280)}..."\n\n— ${section.speaker}\nLenny's Podcast\n\n${window.location.href}#${section.timestamp}`;
-    
+
     if (navigator.clipboard) {
       navigator.clipboard.writeText(quoteText);
       setShowShareToast(true);
       setTimeout(() => setShowShareToast(false), 2000);
     }
+  };
+
+  const timestampToSeconds = (timestamp: string): number => {
+    const parts = timestamp.split(':').map(p => parseInt(p, 10));
+    if (parts.length === 3) {
+      return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    } else if (parts.length === 2) {
+      return parts[0] * 60 + parts[1];
+    }
+    return 0;
+  };
+
+  const jumpToVideoTimestamp = (timestamp: string) => {
+    if (!youtubePlayerRef.current || !episode?.videoId) return;
+
+    const seconds = timestampToSeconds(timestamp);
+    const newSrc = `https://www.youtube.com/embed/${episode.videoId}?start=${seconds}&autoplay=1`;
+    youtubePlayerRef.current.src = newSrc;
+
+    // Scroll to video
+    youtubePlayerRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
   };
 
   if (!episode) {
@@ -275,14 +305,52 @@ export default function EpisodePage() {
                 )}
               </div>
 
+              {/* YouTube Embed Section */}
+              {episode.videoId && (
+                <div className="mb-8">
+                  <button
+                    onClick={() => setShowYouTube(!showYouTube)}
+                    className="flex items-center gap-2 text-crimson hover:text-crimson/80 transition-colors font-bold mb-4"
+                  >
+                    <Play className="w-5 h-5" />
+                    {showYouTube ? '▼' : '▶'} WATCH EPISODE
+                  </button>
+                  {showYouTube && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      className="relative w-full aspect-video bg-void-light border-2 border-crimson"
+                    >
+                      <iframe
+                        ref={youtubePlayerRef}
+                        src={`https://www.youtube.com/embed/${episode.videoId}?enablejsapi=1`}
+                        title={`${episode.guest} - ${episode.title}`}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="absolute inset-0 w-full h-full"
+                      />
+                    </motion.div>
+                  )}
+                </div>
+              )}
+
               {/* Verified Quotes Section */}
               {verifiedEnrichment && (
                 <div className="mb-12">
                   <VerifiedQuotes
                     enrichment={verifiedEnrichment}
                     onJumpToTranscript={(lineStart) => {
-                      // TODO: Implement jump to line functionality
-                      console.log('Jump to line:', lineStart);
+                      if (!transcript) return;
+
+                      // Find transcript section containing this line number
+                      const sectionIndex = transcript.findIndex(section =>
+                        lineStart >= section.lineStart && lineStart <= section.lineEnd
+                      );
+
+                      if (sectionIndex !== -1) {
+                        jumpToTimestamp(sectionIndex);
+                      }
                     }}
                   />
                 </div>

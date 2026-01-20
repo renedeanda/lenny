@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Quote as QuoteIcon, Clock, MapPin, ChevronRight } from 'lucide-react';
-import { Quote, EpisodeEnrichment } from '@/lib/types';
+import { Quote, EpisodeEnrichment, ZoneId } from '@/lib/types';
 import { zones } from '@/lib/zones';
 
 interface VerifiedQuotesProps {
@@ -18,7 +18,7 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
   // Filter quotes by selected theme/zone
   const filteredQuotes = enrichment.keyQuotes.filter(quote => {
     if (selectedTheme && !quote.themes.includes(selectedTheme)) return false;
-    if (selectedZone && !quote.zones.includes(selectedZone)) return false;
+    if (selectedZone && !quote.zones.includes(selectedZone as ZoneId)) return false;
     return true;
   });
 

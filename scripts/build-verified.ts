@@ -148,7 +148,7 @@ function detectDuplicateQuotes(quotes: Quote[]): void {
     }
     
     // Flag quotes from first 5 minutes (likely highlights)
-    const timestamp = quote.source?.timestamp || '';
+    const timestamp = quote.timestamp || '';
     const minuteMatch = timestamp.match(/^(\d+):(\d+)/);
     if (minuteMatch) {
       const minutes = parseInt(minuteMatch[1]);

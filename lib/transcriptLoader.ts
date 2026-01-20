@@ -25,6 +25,8 @@ export interface TranscriptSection {
   speaker: string;
   timestamp: string;
   text: string;
+  lineStart: number;  // Line number where this section starts
+  lineEnd: number;    // Line number where this section ends
 }
 
 const EPISODES_DIR = path.join(process.cwd(), 'episodes');
@@ -57,43 +59,51 @@ export async function getTranscriptBySlug(slug: string): Promise<TranscriptConte
 
 function parseTranscriptSections(content: string): TranscriptSection[] {
   const sections: TranscriptSection[] = [];
-  
+  const lines = content.split('\n');
+
   // Match speaker patterns like "Lenny Rachitsky (00:00:00):" or "Brian Chesky (00:05:04):"
   const speakerRegex = /^(.+?)\s\((\d{2}:\d{2}:\d{2})\):/gm;
-  
+
   let match;
-  const matches: Array<{ speaker: string; timestamp: string; index: number }> = [];
-  
+  const matches: Array<{ speaker: string; timestamp: string; index: number; lineNumber: number }> = [];
+
+  // Calculate line numbers for each match
   while ((match = speakerRegex.exec(content)) !== null) {
+    const lineNumber = content.substring(0, match.index).split('\n').length;
     matches.push({
       speaker: match[1].trim(),
       timestamp: match[2],
-      index: match.index
+      index: match.index,
+      lineNumber
     });
   }
-  
+
   // Extract text between matches
   for (let i = 0; i < matches.length; i++) {
     const current = matches[i];
     const next = matches[i + 1];
-    
+
     const startIndex = current.index + content.substring(current.index).indexOf(':') + 1;
     const endIndex = next ? next.index : content.length;
-    
+
     let text = content.substring(startIndex, endIndex).trim();
-    
+
     // Remove duplicate timestamp at the beginning of text (e.g., "00:00):")
     text = text.replace(/^\d{2}:\d{2}\):\s*/, '');
-    
+
     if (text) {
+      const lineEnd = next ? next.lineNumber - 1 : lines.length;
+
       sections.push({
         speaker: current.speaker,
         timestamp: current.timestamp,
-        text
+        text,
+        lineStart: current.lineNumber,
+        lineEnd
       });
     }
   }
-  
+
   return sections;
 }
 

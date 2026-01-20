@@ -2,7 +2,7 @@ import { Quote, EpisodeEnrichment } from './types';
 import verifiedContent from '../data/verified/verified-content.json';
 
 // In-memory cache of the verified content
-const registry = verifiedContent as {
+const registry = verifiedContent as unknown as {
   episodes: EpisodeEnrichment[];
   quotes: Quote[];
   lastUpdated: string;
@@ -54,7 +54,7 @@ export function hasVerifiedContent(slug: string): boolean {
  * Get quotes by zone
  */
 export function getQuotesByZone(zoneId: string): Quote[] {
-  return registry.quotes.filter(q => q.zones.includes(zoneId));
+  return registry.quotes.filter(q => q.zones.includes(zoneId as any));
 }
 
 /**
