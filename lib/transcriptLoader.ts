@@ -67,7 +67,7 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
   // Also match continuation timestamps like "(00:01:27):" without speaker name
   const continuationRegex = /^\((\d{2}:\d{2}:\d{2})\):/gm;
 
-  let match;
+  let match: RegExpExecArray | null;
   const matches: Array<{ speaker: string | null; timestamp: string; index: number; lineNumber: number; isContinuation: boolean }> = [];
 
   // First, collect all speaker matches
