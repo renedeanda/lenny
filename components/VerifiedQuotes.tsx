@@ -8,7 +8,7 @@ import { zones } from '@/lib/zones';
 
 interface VerifiedQuotesProps {
   enrichment: EpisodeEnrichment;
-  onJumpToTranscript?: (lineStart: number) => void;
+  onJumpToTranscript?: (lineStart: number, timestamp?: string) => void;
 }
 
 export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: VerifiedQuotesProps) {
@@ -145,7 +145,7 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
 interface QuoteCardProps {
   quote: Quote;
   index: number;
-  onJumpToTranscript?: (lineStart: number) => void;
+  onJumpToTranscript?: (lineStart: number, timestamp?: string) => void;
 }
 
 function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
@@ -160,7 +160,7 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
 
   const handleViewInTranscript = () => {
     if (onJumpToTranscript) {
-      onJumpToTranscript(quote.source.lineStart);
+      onJumpToTranscript(quote.source.lineStart, quote.timestamp);
     }
   };
 

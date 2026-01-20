@@ -13,10 +13,15 @@ function ResultsContent() {
   const router = useRouter();
 
   const { answers, contradictionSelections, userName, userRole } = useMemo(() => {
-    const answersParam = searchParams.get('answers');
+    let answersParam = searchParams.get('answers');
     const contradictionsParam = searchParams.get('contradictions');
     const nameParam = searchParams.get('name');
     const roleParam = searchParams.get('role');
+
+    // Try localStorage if not in URL
+    if (!answersParam) {
+      answersParam = localStorage.getItem('pm_quiz_answers');
+    }
 
     return {
       answers: answersParam ? JSON.parse(decodeURIComponent(answersParam)) as QuizAnswers : {},

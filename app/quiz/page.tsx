@@ -91,11 +91,17 @@ function QuizContent() {
         setSelectedAnswer(null);
         setIsTransitioning(false);
       } else {
-        // Quiz complete - clear progress and navigate
+        // Quiz complete - save final answers and navigate
         localStorage.removeItem('pm_map_quiz_progress');
         const answersParam = encodeURIComponent(JSON.stringify(newAnswers));
         const nameParam = encodeURIComponent(userName);
         const roleParam = encodeURIComponent(userRole);
+
+        // Save final answers to localStorage for persistence
+        localStorage.setItem('pm_quiz_answers', answersParam);
+        localStorage.setItem('pm_map_name', userName);
+        localStorage.setItem('pm_map_role', userRole);
+
         router.push(`/map?answers=${answersParam}&name=${nameParam}&role=${roleParam}`);
       }
     }, 600);
