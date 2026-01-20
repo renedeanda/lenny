@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import CustomCursor from "@/components/CustomCursor";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -49,7 +50,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased cursor-none">
+        <CustomCursor />
+        {children}
+        <style jsx global>{`
+          * {
+            cursor: none !important;
+          }
+          a, button, [role="button"] {
+            cursor: none !important;
+          }
+        `}</style>
+      </body>
     </html>
   );
 }

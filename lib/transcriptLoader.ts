@@ -80,7 +80,10 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
     const startIndex = current.index + content.substring(current.index).indexOf(':') + 1;
     const endIndex = next ? next.index : content.length;
     
-    const text = content.substring(startIndex, endIndex).trim();
+    let text = content.substring(startIndex, endIndex).trim();
+    
+    // Remove duplicate timestamp at the beginning of text (e.g., "00:00):")
+    text = text.replace(/^\d{2}:\d{2}\):\s*/, '');
     
     if (text) {
       sections.push({
