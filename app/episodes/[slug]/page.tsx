@@ -528,42 +528,6 @@ export default function EpisodePage() {
                   </div>
                 )}
 
-                {/* Insights Stats */}
-                {insights && (transcript || insights.quotableMoments.length > 0 || insights.contrarianViews.length > 0) && (
-                  <div className="border-2 border-ash-darker bg-void-light p-6">
-                    <h3 className="text-lg font-bold text-amber mb-4">INSIGHTS</h3>
-                    <div className="space-y-3">
-                      {transcript && transcript.length > 0 && (
-                        <div className="flex justify-between items-center">
-                          <span className="text-ash-dark flex items-center gap-2">
-                            <MessageSquare className="w-4 h-4" />
-                            Transcript Segments
-                          </span>
-                          <span className="text-amber font-bold">{transcript.length}</span>
-                        </div>
-                      )}
-                      {verifiedEnrichment && verifiedEnrichment.keyQuotes.length > 0 && (
-                        <div className="flex justify-between items-center">
-                          <span className="text-ash-dark flex items-center gap-2">
-                            <QuoteIcon className="w-4 h-4" />
-                            Curated Quotes
-                          </span>
-                          <span className="text-amber font-bold">{verifiedEnrichment.keyQuotes.length}</span>
-                        </div>
-                      )}
-                      {insights.contrarianViews && insights.contrarianViews.length > 0 && (
-                        <div className="flex justify-between items-center">
-                          <span className="text-ash-dark flex items-center gap-2">
-                            <Target className="w-4 h-4" />
-                            Contrarian Views
-                          </span>
-                          <span className="text-amber font-bold">{insights.contrarianViews.length}</span>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )}
-
                 {/* Contrarian Views */}
                 {insights && insights.contrarianViews.length > 0 && (
                   <div className="border-2 border-crimson/30 bg-void-light p-6">

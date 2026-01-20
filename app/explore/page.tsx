@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect, memo } from 'react';
+import { useState, useMemo, useEffect, memo, useRef } from 'react';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink } from 'lucide-react';
@@ -10,41 +10,44 @@ import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 
 const STORAGE_KEY = 'lenny-explore-filters';
 
-export default function ExplorePage() {
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedKeywords, setSelectedKeywords] = useState<string[]>([]);
-  const [sortBy, setSortBy] = useState<SortOption>('date-desc');
-  const [showFilters, setShowFilters] = useState(false);
-  const [isLoaded, setIsLoaded] = useState(false);
+// Helper to safely get initial state from localStorage
+function getInitialState() {
+  if (typeof window === 'undefined') return null;
 
-  // Load filters from localStorage on mount
-  useEffect(() => {
+  try {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved) {
-      try {
-        const { searchQuery: sq, selectedKeywords: sk, sortBy: sb, showFilters: sf } = JSON.parse(saved);
-        if (sq !== undefined) setSearchQuery(sq);
-        if (sk !== undefined) setSelectedKeywords(sk);
-        if (sb !== undefined) setSortBy(sb);
-        if (sf !== undefined) setShowFilters(sf);
-      } catch (e) {
-        console.error('Error loading filters:', e);
-      }
-    }
-    setIsLoaded(true);
-  }, []);
+    return saved ? JSON.parse(saved) : null;
+  } catch (e) {
+    return null;
+  }
+}
 
-  // Save filters to localStorage whenever they change
+export default function ExplorePage() {
+  const initialState = getInitialState();
+  const [searchQuery, setSearchQuery] = useState(initialState?.searchQuery || '');
+  const [selectedKeywords, setSelectedKeywords] = useState<string[]>(initialState?.selectedKeywords || []);
+  const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
+  const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
+  const hasMounted = useRef(false);
+
+  // Save to localStorage only after initial mount
   useEffect(() => {
-    if (isLoaded) {
+    if (!hasMounted.current) {
+      hasMounted.current = true;
+      return;
+    }
+
+    try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
         searchQuery,
         selectedKeywords,
         sortBy,
         showFilters
       }));
+    } catch (e) {
+      // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters, isLoaded]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters]);
 
   const allKeywords = useMemo(() => getAllKeywords(), []);
 
