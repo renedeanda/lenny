@@ -220,15 +220,6 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Footer */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 2 }}
-            className="border-t border-amber/10 pt-4 text-xs text-ash-darker text-center"
-          >
-            Built from Lenny's Podcast transcripts
-          </motion.div>
         </motion.div>
       </div>
 

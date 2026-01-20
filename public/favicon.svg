@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#000000"/>
+  
+  <!-- Amber border -->
+  <rect x="32" y="32" width="448" height="448" fill="none" stroke="#ffb347" stroke-width="8"/>
+  
+  <!-- PM letters in terminal style -->
+  <text x="256" y="320" font-family="monospace" font-size="180" font-weight="bold" fill="#ffb347" text-anchor="middle">PM</text>
+  
+  <!-- Small stars -->
+  <circle cx="100" cy="100" r="4" fill="#ffb347" opacity="0.6"/>
+  <circle cx="412" cy="100" r="4" fill="#ffb347" opacity="0.6"/>
+  <circle cx="100" cy="412" r="4" fill="#ffb347" opacity="0.6"/>
+  <circle cx="412" cy="412" r="4" fill="#ffb347" opacity="0.6"/>
+  <circle cx="256" cy="80" r="3" fill="#ffb347" opacity="0.4"/>
+  <circle cx="80" cy="256" r="3" fill="#ffb347" opacity="0.4"/>
+  <circle cx="432" cy="256" r="3" fill="#ffb347" opacity="0.4"/>
+</svg>

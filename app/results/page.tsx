@@ -12,13 +12,17 @@ function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const { answers, contradictionSelections } = useMemo(() => {
+  const { answers, contradictionSelections, userName, userRole } = useMemo(() => {
     const answersParam = searchParams.get('answers');
     const contradictionsParam = searchParams.get('contradictions');
+    const nameParam = searchParams.get('name');
+    const roleParam = searchParams.get('role');
 
     return {
       answers: answersParam ? JSON.parse(decodeURIComponent(answersParam)) as QuizAnswers : {},
-      contradictionSelections: contradictionsParam ? JSON.parse(decodeURIComponent(contradictionsParam)) : {}
+      contradictionSelections: contradictionsParam ? JSON.parse(decodeURIComponent(contradictionsParam)) : {},
+      userName: nameParam || localStorage.getItem('pm_map_name') || 'Your',
+      userRole: roleParam || localStorage.getItem('pm_map_role') || 'Product Manager'
     };
   }, [searchParams]);
 
@@ -50,10 +54,30 @@ function ResultsContent() {
   const secondaryZone = zones[secondaryZoneId];
   const blindSpotZone = zones[blindSpotZoneId];
 
-  const handleShare = () => {
-    const text = `I just discovered my PM Philosophy: ${primaryZone.name} 🔥\n\n"${primaryZone.tagline}"\n\nWhat's yours?`;
-    const url = window.location.origin;
-    window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`, '_blank');
+  const handleDownload = async () => {
+    const cardElement = document.getElementById('philosophy-card');
+    if (!cardElement) return;
+
+    try {
+      const html2canvas = (await import('html2canvas')).default;
+      const canvas = await html2canvas(cardElement, {
+        backgroundColor: '#000000',
+        scale: 2,
+        logging: false
+      });
+
+      const link = document.createElement('a');
+      link.download = `${userName.replace(/\s+/g, '-')}-pm-philosophy.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    } catch (error) {
+      console.error('Failed to generate image:', error);
+    }
+  };
+
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(window.location.origin);
+    alert('Link copied to clipboard!');
   };
 
   const handleRetake = () => {
@@ -85,7 +109,7 @@ function ResultsContent() {
           </div>
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-amber mb-2 font-mono">
-          YOUR PM PHILOSOPHY
+          {userName !== 'Your' ? `${userName}'s` : 'YOUR'} PM PHILOSOPHY
         </h1>
         <div className="text-ash-dark font-mono text-sm">
           Derived from {Object.keys(answers).length} existential questions + {Object.keys(contradictionSelections).length} contradictions
@@ -93,13 +117,20 @@ function ResultsContent() {
       </motion.div>
 
       <div className="max-w-5xl mx-auto space-y-8">
-        {/* Primary Zone Card */}
+        {/* Primary Zone Card - Downloadable */}
         <motion.div
+          id="philosophy-card"
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2 }}
           className="border-2 border-amber bg-void-light p-8 relative overflow-hidden group"
         >
+          {/* User badge */}
+          {userName !== 'Your' && (
+            <div className="absolute top-4 left-4 px-3 py-1 bg-amber/10 border border-amber/30 text-amber text-xs font-mono">
+              {userName} • {userRole}
+            </div>
+          )}
           <div className="absolute top-4 right-4 text-4xl opacity-20 group-hover:opacity-30 transition-opacity">
             {primaryZone.icon}
           </div>
@@ -344,11 +375,17 @@ function ResultsContent() {
           className="flex flex-wrap gap-4 justify-center pt-8"
         >
           <button
-            onClick={handleShare}
+            onClick={handleDownload}
             className="px-8 py-4 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 flex items-center gap-2"
           >
-            <span>🔥</span>
-            SHARE YOUR PHILOSOPHY
+            <span>📥</span>
+            DOWNLOAD YOUR CARD
+          </button>
+          <button
+            onClick={handleCopyLink}
+            className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95"
+          >
+            COPY LINK TO SHARE
           </button>
           <button
             onClick={handleViewMap}

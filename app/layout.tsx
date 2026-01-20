@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
+import Footer from "@/components/Footer";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   title: "The PM Philosophy Map | Discover Your Product Philosophy",
   description: "Discover your PM philosophy through 7 questions, 303 episodes of Lenny's Podcast, and real debates from the world's best product leaders. Built from actual transcripts.",
   keywords: ["product management", "PM philosophy", "product strategy", "Lenny's Podcast", "product thinking", "product leadership"],
-  authors: [{ name: "Built from Lenny's Podcast" }],
+  authors: [{ name: "René DeAnda", url: "https://github.com/renedeanda" }],
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'),
   openGraph: {
     type: "website",
@@ -50,9 +51,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className="font-sans antialiased cursor-none">
         <CustomCursor />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -46,7 +46,9 @@ function ContradictionsContent() {
         // All contradictions complete - navigate to results
         const contradictionsParam = encodeURIComponent(JSON.stringify(updatedSelections));
         const answersParam = searchParams.get('answers');
-        router.push(`/results?answers=${answersParam}&contradictions=${contradictionsParam}`);
+        const nameParam = searchParams.get('name') || '';
+        const roleParam = searchParams.get('role') || '';
+        router.push(`/results?answers=${answersParam}&contradictions=${contradictionsParam}&name=${nameParam}&role=${roleParam}`);
       }
     }, 600);
   };
@@ -146,12 +148,23 @@ function ContradictionsContent() {
                   </blockquote>
 
                   {/* Attribution */}
-                  <div className="pt-4 border-t border-ash-darker/30">
+                  <div className="pt-4 border-t border-ash-darker/30 space-y-2">
                     <div className="font-semibold text-ash">{contradiction.sideA.guest}</div>
                     <div className="text-sm text-ash-dark">{contradiction.sideA.company}</div>
-                    <div className="text-xs text-ash-darker mt-1">
+                    <div className="text-xs text-ash-darker">
                       Episode: {contradiction.sideA.episode}
                     </div>
+                    {contradiction.sideA.episodeSlug && (
+                      <a
+                        href={`/episodes/${contradiction.sideA.episodeSlug}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1 text-xs text-amber/60 hover:text-amber transition-colors"
+                      >
+                        <span>View Full Episode →</span>
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.button>
@@ -181,12 +194,23 @@ function ContradictionsContent() {
                   </blockquote>
 
                   {/* Attribution */}
-                  <div className="pt-4 border-t border-ash-darker/30">
+                  <div className="pt-4 border-t border-ash-darker/30 space-y-2">
                     <div className="font-semibold text-ash">{contradiction.sideB.guest}</div>
                     <div className="text-sm text-ash-dark">{contradiction.sideB.company}</div>
-                    <div className="text-xs text-ash-darker mt-1">
+                    <div className="text-xs text-ash-darker">
                       Episode: {contradiction.sideB.episode}
                     </div>
+                    {contradiction.sideB.episodeSlug && (
+                      <a
+                        href={`/episodes/${contradiction.sideB.episodeSlug}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1 text-xs text-crimson/60 hover:text-crimson transition-colors"
+                      >
+                        <span>View Full Episode →</span>
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.button>

@@ -4,8 +4,9 @@ import { useState, useEffect, useMemo, useRef } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X } from 'lucide-react';
+import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target } from 'lucide-react';
 import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
+import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 
 // Client-side transcript loading
 async function loadTranscript(slug: string) {
@@ -25,25 +26,76 @@ interface TranscriptSection {
   text: string;
 }
 
+interface TranscriptContent {
+  slug: string;
+  metadata: any;
+  content: string;
+  sections: TranscriptSection[];
+}
+
 export default function EpisodePage() {
   const params = useParams();
   const slug = params.slug as string;
   
   const episode = getEpisodeBySlug(slug);
+  
+  const insights = useMemo(() => {
+    const raw = episodeInsights.find(i => i.slug === slug);
+    if (!raw) return null;
+    
+    // Filter out bad data
+    return {
+      ...raw,
+      quotableMoments: raw.quotableMoments.filter(m => 
+        m.quote.length >= 50 && 
+        m.quote.length <= 300 &&
+        m.timestamp !== '00:00:00' &&
+        !m.speaker.includes('#') &&
+        !m.speaker.includes('##') &&
+        !m.quote.startsWith('And ') &&
+        !m.quote.includes('...')
+      ),
+      contrarianViews: raw.contrarianViews.filter(v =>
+        v.timestamp !== '00:00:00' &&
+        !v.quote.endsWith('...') &&
+        v.quote.length >= 100
+      )
+    };
+  }, [slug]);
+  
   const [transcript, setTranscript] = useState<TranscriptSection[] | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSection, setSelectedSection] = useState<number | null>(null);
   const [showShareToast, setShowShareToast] = useState(false);
+  const [showAllQuotes, setShowAllQuotes] = useState(false);
+  const [showAllContrarian, setShowAllContrarian] = useState(false);
   const sectionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
 
   useEffect(() => {
-    // For now, parse client-side from episode data
-    // TODO: Create API endpoint for server-side transcript loading
-    if (episode) {
-      // Mock transcript sections - you'll need to implement actual loading
-      setTranscript([]);
+    async function loadTranscript() {
+      if (!episode) return;
+      
+      setIsLoading(true);
+      try {
+        const response = await fetch(`/api/transcripts/${slug}`);
+        if (response.ok) {
+          const data: TranscriptContent = await response.json();
+          setTranscript(data.sections);
+        } else {
+          console.error('Failed to load transcript');
+          setTranscript([]);
+        }
+      } catch (error) {
+        console.error('Error loading transcript:', error);
+        setTranscript([]);
+      } finally {
+        setIsLoading(false);
+      }
     }
-  }, [episode]);
+    
+    loadTranscript();
+  }, [episode, slug]);
 
   const relatedEpisodes = useMemo(() => {
     if (!episode) return [];
@@ -133,7 +185,7 @@ export default function EpisodePage() {
 
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Main Content - 2 columns */}
-            <div className="lg:col-span-2">
+            <div className="lg:col-span-2 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pr-4">
               {/* Header */}
               <div className="mb-8 pb-8 border-b-2 border-ash-darker">
                 <h1 className="text-3xl md:text-5xl font-bold text-amber mb-4 leading-tight">
@@ -244,11 +296,15 @@ export default function EpisodePage() {
                 <div className="flex items-center justify-between mb-6">
                   <h3 className="text-2xl font-bold text-amber">TRANSCRIPT</h3>
                   <div className="text-sm text-ash-dark">
-                    {filteredSections.length} segments
+                    {isLoading ? 'Loading...' : `${filteredSections.length} segments`}
                   </div>
                 </div>
 
-                {filteredSections.length > 0 ? (
+                {isLoading ? (
+                  <div className="text-center py-12 text-ash-dark">
+                    <div className="animate-pulse">Loading transcript...</div>
+                  </div>
+                ) : filteredSections.length > 0 ? (
                   filteredSections.map((section, index) => (
                     <div
                       key={index}
@@ -312,26 +368,104 @@ export default function EpisodePage() {
             </div>
 
             {/* Sidebar - 1 column */}
-            <div className="lg:col-span-1">
-              <div className="sticky top-8 space-y-8">
-                {/* Stats */}
-                <div className="border-2 border-ash-darker bg-void-light p-6">
-                  <h3 className="text-lg font-bold text-amber mb-4">INSIGHTS</h3>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center">
-                      <span className="text-ash-dark">Dialogue</span>
-                      <span className="text-amber font-bold">{episode.dialogueCount}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-ash-dark">Key Quotes</span>
-                      <span className="text-amber font-bold">{episode.keyQuotesCount}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-ash-dark">Debates</span>
-                      <span className="text-amber font-bold">{episode.contrarianCount}</span>
+            <div className="lg:col-span-1 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30">
+              <div className="space-y-8 pb-8">
+                {/* Mobile: Sticky header */}
+                <div className="lg:hidden sticky top-0 bg-void z-10 py-4 border-b border-ash-darker">
+                  <h3 className="text-lg font-bold text-amber">INSIGHTS & MORE</h3>
+                  <p className="text-xs text-ash-dark mt-1">Scroll down for extracted insights</p>
+                </div>
+
+                {/* Insights Stats */}
+                {insights && (
+                  <div className="border-2 border-ash-darker bg-void-light p-6">
+                    <h3 className="text-lg font-bold text-amber mb-4">INSIGHTS</h3>
+                    <div className="space-y-3">
+                      <div className="flex justify-between items-center">
+                        <span className="text-ash-dark flex items-center gap-2">
+                          <MessageSquare className="w-4 h-4" />
+                          Transcript Segments
+                        </span>
+                        <span className="text-amber font-bold">{transcript?.length || 0}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-ash-dark flex items-center gap-2">
+                          <Lightbulb className="w-4 h-4" />
+                          Quotable Moments
+                        </span>
+                        <span className="text-amber font-bold">{insights.quotableMoments.length}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-ash-dark flex items-center gap-2">
+                          <Target className="w-4 h-4" />
+                          Contrarian Views
+                        </span>
+                        <span className="text-amber font-bold">{insights.contrarianViews.length}</span>
+                      </div>
+                      <div className="flex justify-between items-center">
+                        <span className="text-ash-dark flex items-center gap-2">
+                          <Hash className="w-4 h-4" />
+                          Frameworks
+                        </span>
+                        <span className="text-amber font-bold">{insights.frameworks.length}</span>
+                      </div>
                     </div>
                   </div>
-                </div>
+                )}
+
+                {/* Contrarian Views */}
+                {insights && insights.contrarianViews.length > 0 && (
+                  <div className="border-2 border-crimson/30 bg-void-light p-6">
+                    <h3 className="text-lg font-bold text-crimson mb-4">🔥 CONTRARIAN TAKES</h3>
+                    <div className="space-y-4">
+                      {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 2).map((view, i) => (
+                        <div key={i} className="border-l-2 border-crimson/50 pl-3">
+                          <p className="text-sm text-ash italic mb-2">"{view.quote.substring(0, 200)}{view.quote.length > 200 ? '...' : ''}"
+                          </p>
+                          <div className="flex items-center gap-2 text-xs text-ash-dark">
+                            <span className="text-crimson font-bold">{view.speaker}</span>
+                            <span>•</span>
+                            <span>{view.timestamp}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    {insights.contrarianViews.length > 2 && (
+                      <button
+                        onClick={() => setShowAllContrarian(!showAllContrarian)}
+                        className="mt-4 text-xs text-crimson hover:text-crimson/80 transition-colors"
+                      >
+                        {showAllContrarian ? '▲ Show Less' : `▼ Show ${insights.contrarianViews.length - 2} More`}
+                      </button>
+                    )}
+                  </div>
+                )}
+
+                {/* Quotable Moments */}
+                {insights && insights.quotableMoments.length > 0 && (
+                  <div className="border-2 border-amber/30 bg-void-light p-6">
+                    <h3 className="text-lg font-bold text-amber mb-4">💡 QUOTABLE MOMENTS</h3>
+                    <div className="space-y-4">
+                      {insights.quotableMoments.slice(0, showAllQuotes ? undefined : 3).map((moment, i) => (
+                        <div key={i} className="border-l-2 border-amber/50 pl-3">
+                          <p className="text-sm text-ash mb-2">"{moment.quote}"
+                          </p>
+                          <div className="flex items-center gap-2 text-xs text-ash-dark">
+                            <span>{moment.timestamp}</span>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                    {insights.quotableMoments.length > 3 && (
+                      <button
+                        onClick={() => setShowAllQuotes(!showAllQuotes)}
+                        className="mt-4 text-xs text-amber hover:text-amber/80 transition-colors"
+                      >
+                        {showAllQuotes ? '▲ Show Less' : `▼ Show ${insights.quotableMoments.length - 3} More`}
+                      </button>
+                    )}
+                  </div>
+                )}
 
                 {/* Related Episodes */}
                 {relatedEpisodes.length > 0 && (

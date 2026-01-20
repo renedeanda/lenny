@@ -10,6 +10,7 @@ export interface Contradiction {
     guest: string;
     company: string;
     episode: string;
+    episodeSlug?: string;
   };
   sideB: {
     position: string;
@@ -17,6 +18,7 @@ export interface Contradiction {
     guest: string;
     company: string;
     episode: string;
+    episodeSlug?: string;
   };
   relevantZones: ZoneId[];
 }
@@ -31,7 +33,8 @@ export const contradictions: Contradiction[] = [
       quote: 'Leaders are in the details. How do you know people are doing a good job if you\'re not in the details? There\'s this negative term called micromanagement. I think there\'s a difference between micromanagement and being in the details.',
       guest: 'Brian Chesky',
       company: 'Airbnb',
-      episode: 'Founder mode and being in the details'
+      episode: 'Founder mode and being in the details',
+      episodeSlug: 'brian-chesky'
     },
     sideB: {
       position: 'Hire Great People and Empower Them',
@@ -51,14 +54,16 @@ export const contradictions: Contradiction[] = [
       quote: 'We ship every week. Speed compounds. You learn more from shipping than thinking. The teams that win are those that ship fastest.',
       guest: 'Rahul Vohra',
       company: 'Superhuman',
-      episode: 'Building product taste through velocity'
+      episode: 'Building product taste through velocity',
+      episodeSlug: 'rahul-vohra'
     },
     sideB: {
       position: 'Details Create Brand',
       quote: 'We wanted a company where a thousand people could work, but it\'ll look like 10 people did it. We spent months on just the homepage. Details matter. First impressions last forever.',
       guest: 'Brian Chesky',
       company: 'Airbnb',
-      episode: 'Crafting experiences that last'
+      episode: 'Crafting experiences that last',
+      episodeSlug: 'brian-chesky'
     },
     relevantZones: ['velocity', 'perfection', 'chaos']
   },
@@ -71,14 +76,16 @@ export const contradictions: Contradiction[] = [
       quote: 'The teams that win are those who talk to customers constantly. You can\'t build great products in a vacuum. Customer research is non-negotiable.',
       guest: 'Marty Cagan',
       company: 'SVPG',
-      episode: 'Transformed product orgs'
+      episode: 'Transformed product orgs',
+      episodeSlug: 'marty-cagan'
     },
     sideB: {
       position: 'Vision Beats Validation',
       quote: 'We built Figma for 2 years before showing anyone. Sometimes vision needs protection. If you ask users what they want, they\'ll say faster horses.',
       guest: 'Dylan Field',
       company: 'Figma',
-      episode: 'Building with conviction'
+      episode: 'Building with conviction',
+      episodeSlug: 'dylan-field'
     },
     relevantZones: ['discovery', 'intuition', 'focus']
   },
@@ -118,7 +125,8 @@ export const contradictions: Contradiction[] = [
       quote: 'Planning is guessing. Just start shipping. You\'ll learn more in a week of shipping than a month of planning. Plans change anyway.',
       guest: 'Amjad Masad',
       company: 'Replit',
-      episode: 'AI-first product development'
+      episode: 'AI-first product development',
+      episodeSlug: 'amjad-masad'
     },
     relevantZones: ['alignment', 'chaos', 'velocity']
   }

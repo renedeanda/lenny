@@ -53,10 +53,10 @@ function InteractiveStars({ mouseX, mouseY }: InteractiveStarsProps) {
       <PointMaterial
         transparent
         color="#ffb347"
-        size={0.0015}
+        size={0.004}
         sizeAttenuation={true}
         depthWrite={false}
-        opacity={0.6}
+        opacity={0.3}
         blending={THREE.AdditiveBlending}
       />
     </Points>
@@ -91,57 +91,17 @@ function DeepStars({ mouseX, mouseY }: InteractiveStarsProps) {
       <PointMaterial
         transparent
         color="#cc7a00"
-        size={0.001}
+        size={0.002}
         sizeAttenuation={true}
         depthWrite={false}
-        opacity={0.3}
+        opacity={0.2}
         blending={THREE.AdditiveBlending}
       />
     </Points>
   );
 }
 
-function MouseTrail({ mouseX, mouseY }: InteractiveStarsProps) {
-  const particlesRef = useRef<THREE.Points>(null);
-  const [trail, setTrail] = useState<THREE.Vector3[]>([]);
-
-  useEffect(() => {
-    setTrail(prev => {
-      const newTrail = [...prev, new THREE.Vector3(mouseX * 2, -mouseY * 2, 0)];
-      return newTrail.slice(-50); // Keep last 50 points
-    });
-  }, [mouseX, mouseY]);
-
-  useFrame(() => {
-    if (!particlesRef.current || trail.length === 0) return;
-
-    const positions = new Float32Array(trail.length * 3);
-    trail.forEach((point, i) => {
-      positions[i * 3] = point.x;
-      positions[i * 3 + 1] = point.y;
-      positions[i * 3 + 2] = point.z;
-    });
-
-    particlesRef.current.geometry.setAttribute(
-      'position',
-      new THREE.BufferAttribute(positions, 3)
-    );
-  });
-
-  return (
-    <Points ref={particlesRef} positions={new Float32Array(50 * 3)} stride={3}>
-      <PointMaterial
-        transparent
-        color="#dc143c"
-        size={0.02}
-        sizeAttenuation={true}
-        depthWrite={false}
-        opacity={0.4}
-        blending={THREE.AdditiveBlending}
-      />
-    </Points>
-  );
-}
+// Mouse trail removed - was too distracting
 
 export default function InteractiveSpace() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -158,16 +118,18 @@ export default function InteractiveSpace() {
   }, []);
 
   return (
-    <div className="fixed inset-0 -z-10 bg-void">
+    <div className="fixed inset-0 z-0 bg-void">
       <Canvas
         camera={{ position: [0, 0, 1], fov: 75 }}
         gl={{ alpha: true, antialias: true }}
       >
         <DeepStars mouseX={mousePos.x} mouseY={mousePos.y} />
         <InteractiveStars mouseX={mousePos.x} mouseY={mousePos.y} />
-        <MouseTrail mouseX={mousePos.x} mouseY={mousePos.y} />
       </Canvas>
 
+      {/* Dark scrim for text readability */}
+      <div className="absolute inset-0 bg-void/60 pointer-events-none" />
+      
       {/* Vignette effect */}
       <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-void pointer-events-none" />
     </div>

@@ -1,13 +1,16 @@
 'use client';
 
-import { useEffect, useState, Suspense } from 'react';
+import { useEffect, useState, Suspense, lazy } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import { calculateZoneScores, getPrimaryZone, getTopZones } from '@/lib/scoring';
 import { zones, getZoneEpisodePercentage, TOTAL_EPISODES } from '@/lib/zones';
 import { QuizAnswers, ZoneId } from '@/lib/types';
-import { ArrowRight, Flame, TrendingUp, Users, Radio } from 'lucide-react';
+import { ArrowRight, Flame, TrendingUp, Users, Radio, Orbit, List } from 'lucide-react';
+
+// Lazy load 3D component for performance
+const UniverseMap3D = lazy(() => import('@/components/UniverseMap3D'));
 
 function MapContent() {
   const router = useRouter();
@@ -15,6 +18,8 @@ function MapContent() {
   const [primaryZone, setPrimaryZone] = useState<ZoneId | null>(null);
   const [topZones, setTopZones] = useState<Array<{ zone: ZoneId; score: number; percentage: number }>>([]);
   const [isRevealed, setIsRevealed] = useState(false);
+  const [show3D, setShow3D] = useState(true);
+  const [selectedZone, setSelectedZone] = useState<ZoneId | null>(null);
 
   useEffect(() => {
     const answersParam = searchParams.get('answers');
@@ -33,7 +38,7 @@ function MapContent() {
       setTopZones(top);
 
       // Reveal after animation
-      setTimeout(() => setIsRevealed(true), 2000);
+      setTimeout(() => setIsRevealed(true), 3000);
     } catch (error) {
       console.error('Error parsing answers:', error);
       router.push('/quiz');
@@ -51,12 +56,19 @@ function MapContent() {
     );
   }
 
-  const zoneData = zones[primaryZone];
+  const displayZone = selectedZone || primaryZone;
+  const zoneData = zones[displayZone];
   const episodePercentage = getZoneEpisodePercentage(zoneData);
+  
+  const handleZoneClick = (zoneId: ZoneId) => {
+    setSelectedZone(zoneId);
+  };
 
   const handleContinue = () => {
     const answersParam = searchParams.get('answers');
-    router.push(`/contradictions?answers=${answersParam}&zone=${primaryZone}`);
+    const nameParam = searchParams.get('name') || '';
+    const roleParam = searchParams.get('role') || '';
+    router.push(`/contradictions?answers=${answersParam}&zone=${primaryZone}&name=${nameParam}&role=${roleParam}`);
   };
 
   return (
@@ -67,6 +79,40 @@ function MapContent() {
       <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
         <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
       </div>
+
+      {/* View Toggle - Top Right (Desktop) / Bottom Fixed (Mobile) */}
+      {isRevealed && (
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="fixed top-8 right-8 md:right-8 left-4 md:left-auto z-30 flex gap-2 justify-end"
+        >
+          <button
+            onClick={() => setShow3D(true)}
+            className={`px-3 md:px-4 py-2 border-2 font-mono text-xs md:text-sm flex items-center gap-2 transition-all ${
+              show3D
+                ? 'border-amber bg-amber text-void'
+                : 'border-ash-darker text-ash-dark hover:border-amber/50'
+            }`}
+          >
+            <Orbit className="w-4 h-4" />
+            <span className="hidden sm:inline">3D UNIVERSE</span>
+            <span className="sm:hidden">3D</span>
+          </button>
+          <button
+            onClick={() => setShow3D(false)}
+            className={`px-3 md:px-4 py-2 border-2 font-mono text-xs md:text-sm flex items-center gap-2 transition-all ${
+              !show3D
+                ? 'border-amber bg-amber text-void'
+                : 'border-ash-darker text-ash-dark hover:border-amber/50'
+            }`}
+          >
+            <List className="w-4 h-4" />
+            <span className="hidden sm:inline">DETAILS</span>
+            <span className="sm:hidden">INFO</span>
+          </button>
+        </motion.div>
+      )}
 
       {/* Main content */}
       <div className="relative z-10 min-h-screen px-4 py-12 flex flex-col items-center justify-center">
@@ -125,8 +171,59 @@ function MapContent() {
             </div>
           </motion.div>
 
+          {/* 3D Universe View */}
+          {isRevealed && show3D && (
+            <Suspense fallback={
+              <div className="w-full h-[600px] flex items-center justify-center">
+                <div className="text-amber animate-pulse">Loading Universe...</div>
+              </div>
+            }>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.8 }}
+                className="w-full h-[400px] md:h-[600px] border-2 border-amber/30 bg-void-light/20 backdrop-blur-sm"
+              >
+                <UniverseMap3D
+                  primaryZone={primaryZone}
+                  topZones={topZones}
+                  onZoneClick={handleZoneClick}
+                />
+              </motion.div>
+
+              {/* Selected Zone Info */}
+              {selectedZone && selectedZone !== primaryZone && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="bg-void-light/50 border border-ash-darker/30 p-6 backdrop-blur-sm"
+                >
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="text-xl font-bold text-amber mb-2">
+                        {zones[selectedZone].icon} {zones[selectedZone].name}
+                      </h3>
+                      <p className="text-ash-dark italic">"{zones[selectedZone].tagline}"</p>
+                    </div>
+                    <button
+                      onClick={() => setSelectedZone(null)}
+                      className="px-4 py-2 border border-ash-darker text-ash-dark hover:border-amber hover:text-amber transition-all text-sm"
+                    >
+                      Back to {zones[primaryZone].name}
+                    </button>
+                  </div>
+                </motion.div>
+              )}
+
+              <div className="text-center text-amber/60 text-sm mt-4">
+                <Orbit className="w-4 h-4 inline mr-2" />
+                Click and drag to rotate • Scroll to zoom • Click zones to explore
+              </div>
+            </Suspense>
+          )}
+
           {/* Details reveal */}
-          {isRevealed && (
+          {isRevealed && !show3D && (
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
