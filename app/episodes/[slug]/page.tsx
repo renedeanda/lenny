@@ -85,14 +85,13 @@ export default function EpisodePage() {
   const [showShareToast, setShowShareToast] = useState(false);
   const [showAllQuotes, setShowAllQuotes] = useState(false);
   const [showAllContrarian, setShowAllContrarian] = useState(false);
-  const [showYouTube, setShowYouTube] = useState(false);
   const sectionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
-  const youtubePlayerRef = useRef<HTMLIFrameElement | null>(null);
+  const youtubePlayerRef = useRef<any>(null);
 
   useEffect(() => {
     async function loadTranscript() {
       if (!episode) return;
-      
+
       setIsLoading(true);
       try {
         const response = await fetch(`/api/transcripts/${slug}`);
@@ -110,9 +109,37 @@ export default function EpisodePage() {
         setIsLoading(false);
       }
     }
-    
+
     loadTranscript();
   }, [episode, slug]);
+
+  // Load YouTube IFrame API
+  useEffect(() => {
+    if (!episode?.videoId) return;
+
+    // Load YouTube IFrame API script
+    const tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    const firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+
+    // Initialize player when API is ready
+    (window as any).onYouTubeIframeAPIReady = () => {
+      youtubePlayerRef.current = new (window as any).YT.Player('youtube-player', {
+        videoId: episode.videoId,
+        playerVars: {
+          enablejsapi: 1,
+          origin: window.location.origin,
+        },
+      });
+    };
+
+    return () => {
+      if (youtubePlayerRef.current?.destroy) {
+        youtubePlayerRef.current.destroy();
+      }
+    };
+  }, [episode?.videoId]);
 
   const relatedEpisodes = useMemo(() => {
     if (!episode) return [];
@@ -144,8 +171,8 @@ export default function EpisodePage() {
       setSelectedSection(index);
       setTimeout(() => setSelectedSection(null), 2000);
 
-      // Also jump to video timestamp if YouTube player is visible
-      if (showYouTube && transcript && transcript[index]) {
+      // Also jump to video timestamp if YouTube player is loaded
+      if (youtubePlayerRef.current && transcript && transcript[index]) {
         jumpToVideoTimestamp(transcript[index].timestamp);
       }
     }
@@ -172,14 +199,19 @@ export default function EpisodePage() {
   };
 
   const jumpToVideoTimestamp = (timestamp: string) => {
-    if (!youtubePlayerRef.current || !episode?.videoId) return;
+    if (!youtubePlayerRef.current?.seekTo) return;
 
     const seconds = timestampToSeconds(timestamp);
-    const newSrc = `https://www.youtube.com/embed/${episode.videoId}?start=${seconds}&autoplay=1`;
-    youtubePlayerRef.current.src = newSrc;
+
+    // Use YouTube API to seek to timestamp and play
+    youtubePlayerRef.current.seekTo(seconds, true);
+    youtubePlayerRef.current.playVideo();
 
     // Scroll to video
-    youtubePlayerRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const videoElement = document.getElementById('youtube-player');
+    if (videoElement) {
+      videoElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   };
 
   if (!episode) {
@@ -268,17 +300,6 @@ export default function EpisodePage() {
 
                 {/* Actions */}
                 <div className="flex flex-wrap gap-3">
-                  {episode.youtubeUrl && (
-                    <a
-                      href={episode.youtubeUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-amber text-void hover:bg-amber-dark transition-colors font-bold"
-                    >
-                      <Play className="w-4 h-4" />
-                      WATCH ON YOUTUBE
-                    </a>
-                  )}
                   <Link
                     href="/quiz"
                     className="inline-flex items-center gap-2 px-6 py-3 border-2 border-amber text-amber hover:bg-amber hover:text-void transition-all font-bold"
@@ -308,30 +329,12 @@ export default function EpisodePage() {
               {/* YouTube Embed Section */}
               {episode.videoId && (
                 <div className="mb-8">
-                  <button
-                    onClick={() => setShowYouTube(!showYouTube)}
-                    className="flex items-center gap-2 text-crimson hover:text-crimson/80 transition-colors font-bold mb-4"
-                  >
-                    <Play className="w-5 h-5" />
-                    {showYouTube ? '▼' : '▶'} WATCH EPISODE
-                  </button>
-                  {showYouTube && (
-                    <motion.div
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: 'auto' }}
-                      exit={{ opacity: 0, height: 0 }}
-                      className="relative w-full aspect-video bg-void-light border-2 border-crimson"
-                    >
-                      <iframe
-                        ref={youtubePlayerRef}
-                        src={`https://www.youtube.com/embed/${episode.videoId}?enablejsapi=1`}
-                        title={`${episode.guest} - ${episode.title}`}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="absolute inset-0 w-full h-full"
-                      />
-                    </motion.div>
-                  )}
+                  <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
+                    <div
+                      id="youtube-player"
+                      className="absolute inset-0 w-full h-full"
+                    />
+                  </div>
                 </div>
               )}
 
