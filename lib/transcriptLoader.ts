@@ -64,24 +64,56 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
   // Match speaker patterns like "Lenny Rachitsky (00:00:00):" or "Brian Chesky (00:05:04):"
   const speakerRegex = /^(.+?)\s\((\d{2}:\d{2}:\d{2})\):/gm;
 
-  let match;
-  const matches: Array<{ speaker: string; timestamp: string; index: number; lineNumber: number }> = [];
+  // Also match continuation timestamps like "(00:01:27):" without speaker name
+  const continuationRegex = /^\((\d{2}:\d{2}:\d{2})\):/gm;
 
-  // Calculate line numbers for each match
+  let match;
+  const matches: Array<{ speaker: string | null; timestamp: string; index: number; lineNumber: number; isContinuation: boolean }> = [];
+
+  // First, collect all speaker matches
   while ((match = speakerRegex.exec(content)) !== null) {
     const lineNumber = content.substring(0, match.index).split('\n').length;
     matches.push({
       speaker: match[1].trim(),
       timestamp: match[2],
       index: match.index,
-      lineNumber
+      lineNumber,
+      isContinuation: false
     });
   }
+
+  // Then, collect continuation timestamp matches
+  while ((match = continuationRegex.exec(content)) !== null) {
+    const lineNumber = content.substring(0, match.index).split('\n').length;
+
+    // Only add if this isn't already captured by speakerRegex
+    const alreadyMatched = matches.some(m => m.index === match.index);
+    if (!alreadyMatched) {
+      matches.push({
+        speaker: null, // Will inherit from previous section
+        timestamp: match[1],
+        index: match.index,
+        lineNumber,
+        isContinuation: true
+      });
+    }
+  }
+
+  // Sort matches by index
+  matches.sort((a, b) => a.index - b.index);
+
+  // Track the current speaker for continuations
+  let currentSpeaker = '';
 
   // Extract text between matches
   for (let i = 0; i < matches.length; i++) {
     const current = matches[i];
     const next = matches[i + 1];
+
+    // Update current speaker if this is not a continuation
+    if (!current.isContinuation && current.speaker) {
+      currentSpeaker = current.speaker;
+    }
 
     const startIndex = current.index + content.substring(current.index).indexOf(':') + 1;
     const endIndex = next ? next.index : content.length;
@@ -95,7 +127,7 @@ function parseTranscriptSections(content: string): TranscriptSection[] {
       const lineEnd = next ? next.lineNumber - 1 : lines.length;
 
       sections.push({
-        speaker: current.speaker,
+        speaker: current.isContinuation ? currentSpeaker : (current.speaker || currentSpeaker),
         timestamp: current.timestamp,
         text,
         lineStart: current.lineNumber,

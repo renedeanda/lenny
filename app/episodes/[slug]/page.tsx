@@ -373,27 +373,6 @@ export default function EpisodePage() {
 
               {/* Transcript Content - Mobile Tab / Desktop Always Visible */}
               <div className={`${activeTab === 'transcript' ? 'block' : 'hidden'} lg:block`}>
-                {/* Verified Quotes Section */}
-                {verifiedEnrichment && (
-                  <div className="mb-12">
-                    <VerifiedQuotes
-                      enrichment={verifiedEnrichment}
-                      onJumpToTranscript={(lineStart) => {
-                        if (!transcript) return;
-
-                        // Find transcript section containing this line number
-                        const sectionIndex = transcript.findIndex(section =>
-                          lineStart >= section.lineStart && lineStart <= section.lineEnd
-                        );
-
-                        if (sectionIndex !== -1) {
-                          jumpToTimestamp(sectionIndex);
-                        }
-                      }}
-                    />
-                  </div>
-                )}
-
                 {/* Search Transcript */}
                 <div className="mb-6">
                 <div className="relative">
@@ -517,6 +496,30 @@ export default function EpisodePage() {
                         </div>
                       ))}
                     </div>
+                  </div>
+                )}
+
+                {/* Verified Quotes Section */}
+                {verifiedEnrichment && (
+                  <div>
+                    <VerifiedQuotes
+                      enrichment={verifiedEnrichment}
+                      onJumpToTranscript={(lineStart) => {
+                        if (!transcript) return;
+
+                        // Find transcript section containing this line number
+                        const sectionIndex = transcript.findIndex(section =>
+                          lineStart >= section.lineStart && lineStart <= section.lineEnd
+                        );
+
+                        if (sectionIndex !== -1) {
+                          // Switch to transcript tab on mobile
+                          setActiveTab('transcript');
+                          // Jump to the timestamp
+                          setTimeout(() => jumpToTimestamp(sectionIndex), 100);
+                        }
+                      }}
+                    />
                   </div>
                 )}
 

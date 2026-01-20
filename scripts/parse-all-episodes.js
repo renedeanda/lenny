@@ -22,16 +22,69 @@ function parseTranscript(filePath) {
   const { data: metadata, content: transcript } = matter(content);
 
   // Extract dialogue entries
-  const dialoguePattern = /^(.+?)\s+\((\d{1,2}:\d{2}:\d{2})\):\s*(.+)$/gm;
-  const dialogue = [];
+  // Match both speaker patterns like "Lenny Rachitsky (00:00:00):" and continuation timestamps like "(00:01:27):"
+  const speakerPattern = /^(.+?)\s+\((\d{1,2}:\d{2}:\d{2})\):/gm;
+  const continuationPattern = /^\((\d{1,2}:\d{2}:\d{2})\):/gm;
+
+  const matches = [];
   let match;
 
-  while ((match = dialoguePattern.exec(transcript)) !== null) {
-    dialogue.push({
+  // First, collect all speaker matches
+  while ((match = speakerPattern.exec(transcript)) !== null) {
+    matches.push({
       speaker: match[1].trim(),
       timestamp: match[2],
-      text: match[3].trim()
+      index: match.index,
+      isContinuation: false
     });
+  }
+
+  // Then, collect continuation timestamp matches
+  while ((match = continuationPattern.exec(transcript)) !== null) {
+    // Only add if this isn't already captured by speakerPattern
+    const alreadyMatched = matches.some(m => m.index === match.index);
+    if (!alreadyMatched) {
+      matches.push({
+        speaker: null, // Will inherit from previous section
+        timestamp: match[1],
+        index: match.index,
+        isContinuation: true
+      });
+    }
+  }
+
+  // Sort matches by index
+  matches.sort((a, b) => a.index - b.index);
+
+  // Extract text between matches
+  const dialogue = [];
+  let currentSpeaker = '';
+
+  for (let i = 0; i < matches.length; i++) {
+    const current = matches[i];
+    const next = matches[i + 1];
+
+    // Update current speaker if this is not a continuation
+    if (!current.isContinuation && current.speaker) {
+      currentSpeaker = current.speaker;
+    }
+
+    const startIndex = current.index + transcript.substring(current.index).indexOf(':') + 1;
+    const endIndex = next ? next.index : transcript.length;
+
+    let text = transcript.substring(startIndex, endIndex).trim();
+
+    // Remove duplicate timestamp at the beginning of text
+    text = text.replace(/^\d{2}:\d{2}\):\s*/, '');
+
+    // Only add if there's actual text content
+    if (text && text.length > 0) {
+      dialogue.push({
+        speaker: current.isContinuation ? currentSpeaker : (current.speaker || currentSpeaker),
+        timestamp: current.timestamp,
+        text: text
+      });
+    }
   }
 
   return {
