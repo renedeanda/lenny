@@ -1,25 +1,21 @@
 import { ZoneId } from './types';
 
+export interface ContradictionSide {
+  position: string;
+  quoteId?: string; // Reference to verified quote
+  quote?: string; // Legacy, will be removed
+  guest: string;
+  company: string;
+  episode: string;
+  episodeSlug?: string;
+}
+
 export interface Contradiction {
   id: string;
   topic: string;
   icon: string;
-  sideA: {
-    position: string;
-    quote: string;
-    guest: string;
-    company: string;
-    episode: string;
-    episodeSlug?: string;
-  };
-  sideB: {
-    position: string;
-    quote: string;
-    guest: string;
-    company: string;
-    episode: string;
-    episodeSlug?: string;
-  };
+  sideA: ContradictionSide;
+  sideB: ContradictionSide;
   relevantZones: ZoneId[];
 }
 
@@ -30,10 +26,10 @@ export const contradictions: Contradiction[] = [
     icon: '🔍',
     sideA: {
       position: 'Leaders Must Be in the Details',
-      quote: 'Leaders are in the details. How do you know people are doing a good job if you\'re not in the details? There\'s this negative term called micromanagement. I think there\'s a difference between micromanagement and being in the details.',
+      quoteId: 'brian-chesky-q001',
       guest: 'Brian Chesky',
       company: 'Airbnb',
-      episode: 'Founder mode and being in the details',
+      episode: 'Brian Chesky\'s new playbook',
       episodeSlug: 'brian-chesky'
     },
     sideB: {
@@ -51,18 +47,18 @@ export const contradictions: Contradiction[] = [
     icon: '⚡',
     sideA: {
       position: 'Speed Compounds',
-      quote: 'We ship every week. Speed compounds. You learn more from shipping than thinking. The teams that win are those that ship fastest.',
+      quoteId: 'rahul-vohra-q005',
       guest: 'Rahul Vohra',
       company: 'Superhuman',
-      episode: 'Building product taste through velocity',
+      episode: 'Superhuman\'s secret to success',
       episodeSlug: 'rahul-vohra'
     },
     sideB: {
       position: 'Details Create Brand',
-      quote: 'We wanted a company where a thousand people could work, but it\'ll look like 10 people did it. We spent months on just the homepage. Details matter. First impressions last forever.',
+      quoteId: 'brian-chesky-q003',
       guest: 'Brian Chesky',
       company: 'Airbnb',
-      episode: 'Crafting experiences that last',
+      episode: 'Brian Chesky\'s new playbook',
       episodeSlug: 'brian-chesky'
     },
     relevantZones: ['velocity', 'perfection', 'chaos']
