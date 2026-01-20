@@ -5,16 +5,15 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { calculateZoneScores, getZonePercentages } from '@/lib/scoring';
 import { zones, getZoneEpisodePercentage, TOTAL_EPISODES } from '@/lib/zones';
-import { contradictions } from '@/lib/contradictions';
+import { getQuoteById } from '@/lib/verifiedQuotes';
 import { QuizAnswers, ZoneId } from '@/lib/types';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const { answers, contradictionSelections, userName, userRole } = useMemo(() => {
+  const { answers, userName, userRole } = useMemo(() => {
     let answersParam = searchParams.get('answers');
-    const contradictionsParam = searchParams.get('contradictions');
     const nameParam = searchParams.get('name');
     const roleParam = searchParams.get('role');
 
@@ -25,7 +24,6 @@ function ResultsContent() {
 
     return {
       answers: answersParam ? JSON.parse(decodeURIComponent(answersParam)) as QuizAnswers : {},
-      contradictionSelections: contradictionsParam ? JSON.parse(decodeURIComponent(contradictionsParam)) : {},
       userName: nameParam || localStorage.getItem('pm_map_name') || 'Your',
       userRole: roleParam || localStorage.getItem('pm_map_role') || 'Product Manager'
     };
@@ -58,6 +56,14 @@ function ResultsContent() {
   const primaryZone = zones[primaryZoneId];
   const secondaryZone = zones[secondaryZoneId];
   const blindSpotZone = zones[blindSpotZoneId];
+
+  // Look up the verified quote for the primary zone
+  const primaryQuote = useMemo(() => {
+    if (primaryZone.quoteId) {
+      return getQuoteById(primaryZone.quoteId);
+    }
+    return null;
+  }, [primaryZone.quoteId]);
 
   // Safe default for optional data
   const episodeCount = primaryZone.episodeCount ?? 0;
@@ -120,7 +126,7 @@ function ResultsContent() {
           {userName !== 'Your' ? `${userName}'s` : 'YOUR'} PM PHILOSOPHY
         </h1>
         <div className="text-ash-dark font-mono text-sm">
-          Derived from {Object.keys(answers).length} existential questions + {Object.keys(contradictionSelections).length} contradictions
+          Derived from {Object.keys(answers).length} questions mapped to {TOTAL_EPISODES} podcast episodes
         </div>
       </motion.div>
 
@@ -226,23 +232,33 @@ function ResultsContent() {
             </motion.div>
 
             {/* From the Transcripts */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.4 }}
-              className="border border-ash-darker bg-void-light p-6"
-            >
-              <h3 className="text-xs text-amber font-mono mb-4 tracking-wider flex items-center gap-2">
-                🔥 FROM THE TRANSCRIPTS
-              </h3>
-              <blockquote className="text-lg text-ash leading-relaxed mb-4 italic border-l-2 border-amber pl-4">
-                "{primaryZone.quote}"
-              </blockquote>
-              <div className="text-ash-dark">
-                <div className="font-semibold text-amber">{primaryZone.quoteAuthor}</div>
-                <div className="text-sm text-ash-darker">Episode: {primaryZone.episode}</div>
-              </div>
-            </motion.div>
+            {primaryQuote && (
+              <motion.div
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.4 }}
+                className="border border-ash-darker bg-void-light p-6"
+              >
+                <h3 className="text-xs text-amber font-mono mb-4 tracking-wider flex items-center gap-2">
+                  🔥 FROM THE TRANSCRIPTS
+                </h3>
+                <blockquote className="text-lg text-ash leading-relaxed mb-4 italic border-l-2 border-amber pl-4">
+                  "{primaryQuote.text}"
+                </blockquote>
+                <div className="text-ash-dark">
+                  <div className="font-semibold text-amber">{primaryQuote.speaker}</div>
+                  <div className="text-sm text-ash-darker flex items-center gap-2">
+                    <span>Episode: {primaryQuote.source.slug}</span>
+                    {primaryQuote.timestamp && (
+                      <>
+                        <span>•</span>
+                        <span>{primaryQuote.timestamp}</span>
+                      </>
+                    )}
+                  </div>
+                </div>
+              </motion.div>
+            )}
           </div>
 
           {/* Right Column */}
@@ -330,50 +346,6 @@ function ResultsContent() {
             </motion.div>
           </div>
         </div>
-
-        {/* Contradiction Stances */}
-        {Object.keys(contradictionSelections).length > 0 && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="border border-ash-darker bg-void-light p-6"
-          >
-            <h3 className="text-xs text-amber font-mono mb-4 tracking-wider">
-              YOUR CONTRADICTION STANCES
-            </h3>
-            <div className="grid md:grid-cols-2 gap-4">
-              {Object.entries(contradictionSelections).map(([contradictionId, selection]: [string, any]) => {
-                const contradiction = contradictions.find(c => c.id === contradictionId);
-                if (!contradiction) return null;
-
-                const isBothSides = selection === 'both';
-                const selectedSide = isBothSides ? null : selection;
-
-                return (
-                  <div key={contradictionId} className="border border-ash-darker p-4">
-                    <div className="text-sm font-bold text-amber mb-2">
-                      {contradiction.topic}
-                    </div>
-                    {isBothSides ? (
-                      <div className="text-sm text-ash-dark italic">
-                        ⚖️ You see value in both perspectives
-                      </div>
-                    ) : (
-                      <div className="text-sm text-ash">
-                        <span className={selectedSide === 'a' ? 'text-amber' : 'text-crimson'}>
-                          {selectedSide === 'a' ? '←' : '→'}
-                        </span>
-                        {' '}
-                        {selectedSide === 'a' ? contradiction.sideA.guest : contradiction.sideB.guest}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-          </motion.div>
-        )}
 
         {/* Action Buttons */}
         <motion.div
