@@ -16,9 +16,9 @@ const config: Config = {
         'amber-dim': '#4d3319',
         crimson: '#dc143c',
         'crimson-dark': '#8b0000',
-        ash: '#cccccc',
-        'ash-dark': '#666666',
-        'ash-darker': '#333333',
+        ash: '#e0e0e0',           // Improved from #cccccc for better contrast
+        'ash-dark': '#999999',    // Improved from #666666 for better readability
+        'ash-darker': '#444444',  // Improved from #333333
       },
       fontFamily: {
         mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],

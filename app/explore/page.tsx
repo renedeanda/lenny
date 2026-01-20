@@ -260,11 +260,10 @@ function EpisodeCard({
 }) {
   return (
     <motion.div
-      layout
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0.9 }}
-      transition={{ delay: Math.min(index * 0.03, 0.3) }}
+      transition={{ duration: 0.2 }}
       className="border-2 border-ash-darker bg-void-light p-6 hover:border-amber
                transition-all group relative overflow-hidden"
     >
@@ -274,24 +273,15 @@ function EpisodeCard({
 
       {/* Guest Name */}
       <div className="flex items-start justify-between mb-3 gap-2">
-        <h3 className="text-xl font-bold text-amber group-hover:text-amber-dark transition-colors leading-tight">
-          {episode.guest}
-        </h3>
-        {episode.youtubeUrl && (
-          <a
-            href={episode.youtubeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-ash-dark hover:text-amber transition-colors flex-shrink-0"
-            title="Watch on YouTube"
-          >
-            <ExternalLink className="w-5 h-5" />
-          </a>
-        )}
+        <Link href={`/episodes/${episode.slug}`}>
+          <h3 className="text-xl font-bold text-amber group-hover:text-amber-dark transition-colors leading-tight cursor-pointer">
+            {episode.guest}
+          </h3>
+        </Link>
       </div>
 
       {/* Metadata */}
-      <div className="flex flex-wrap gap-3 mb-4 text-xs text-ash">
+      <div className="flex flex-wrap gap-3 mb-4 text-xs text-ash-dark">
         {episode.publishDate && (
           <div className="flex items-center gap-1">
             <Calendar className="w-3 h-3" />
@@ -319,7 +309,7 @@ function EpisodeCard({
       </div>
 
       {/* Title/Description */}
-      <p className="text-sm text-ash leading-relaxed mb-4 line-clamp-3">
+      <p className="text-sm text-ash-dark leading-relaxed mb-4 line-clamp-3">
         {episode.description || episode.title}
       </p>
 
@@ -354,17 +344,27 @@ function EpisodeCard({
         </div>
       </div>
 
-      {/* Listen CTA */}
-      <Link
-        href={`/episodes/${episode.slug}`}
-        className="flex items-center justify-between gap-2 text-amber hover:text-amber-dark transition-colors font-bold text-sm group/link"
-      >
-        <span className="flex items-center gap-2">
-          <Play className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
+      {/* Action Buttons */}
+      <div className="flex items-center gap-3">
+        <Link
+          href={`/episodes/${episode.slug}`}
+          className="flex-1 flex items-center justify-center gap-2 px-4 py-3 border-2 border-amber bg-amber/10 text-amber hover:bg-amber hover:text-void transition-all font-bold text-sm"
+        >
+          <Play className="w-4 h-4" />
           VIEW EPISODE
-        </span>
-        <span className="text-ash-dark group-hover/link:text-amber transition-colors">→</span>
-      </Link>
+        </Link>
+        {episode.youtubeUrl && (
+          <a
+            href={episode.youtubeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-3 border-2 border-ash-darker text-ash hover:border-amber hover:text-amber transition-all"
+            title="Watch on YouTube"
+          >
+            <ExternalLink className="w-5 h-5" />
+          </a>
+        )}
+      </div>
     </motion.div>
   );
 }
