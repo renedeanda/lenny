@@ -164,7 +164,106 @@ q7: Product scope philosophy
 
 ---
 
-## 📋 TODO (Session 6: Polish & Deploy)
+---
+
+### Session 6: Evidence-Backed Content System (IN PROGRESS) 🔄
+
+**CRITICAL ISSUE IDENTIFIED:** 
+Original system used generic/synthetic quotes. Building comprehensive verified content system to ground ALL claims in real transcript data.
+
+**Verified Content Infrastructure** ✅
+- Created `data/verified/` directory for verified episode JSON files
+- Built `scripts/build-verified.ts` - validates all content, fails build if zones/contradictions use unverified quotes
+- Built `scripts/propose-quotes.ts` - AI-assisted quote extraction tool
+- Created `lib/verifiedQuotes.ts` - utility functions for verified content
+- Added `lib/types.ts` extensions: Quote, Evidence, EpisodeEnrichment, VerifiedContent
+- Created `components/VerifiedQuotes.tsx` - displays verified quotes on episode pages with theme/zone filters
+
+**Episodes Curated** (5/303 = 1.7% coverage) ⚠️
+1. **Brian Chesky** (10 quotes) - Leadership, details, alignment, perfection
+2. **Rahul Vohra** (11 quotes) - Velocity, PMF, design, focus
+3. **Elena Verna** (12 quotes) - Data, metrics, growth, experimentation  
+4. **Dylan Field** (11 quotes) - Intuition, craft, simplicity, vision
+5. **Amjad Masad** (11 quotes) - Chaos, velocity, flexibility, building
+
+**Total:** 55 verified quotes with exact line numbers, timestamps, themes, zone mappings
+
+**Zones Updated** ✅
+- ALL 8 zones now use verified `quoteId` references (no fake quotes)
+- Velocity: `rahul-vohra-q005`
+- Perfection: `brian-chesky-q001`  
+- Discovery: `dylan-field-009`
+- Data: `elena-verna-002`
+- Intuition: `dylan-field-002`
+- Alignment: `brian-chesky-q010`
+- Chaos: `amjad-masad-010`
+- Focus: `brian-chesky-q009`
+
+**Build Guard Rails** ✅
+- ❌ Build FAILS if zones reference non-existent quote IDs
+- ⚠️ Build WARNS for duplicate quotes
+- ⚠️ Build WARNS for quotes from first 5 minutes (potential highlights)
+- ⚠️ Build WARNS for very short quotes (<150 chars)
+- 📊 Build shows coverage stats (episodes, quotes, zone gaps)
+- ✅ Validates all transcript line number references
+- ✅ Generates `data/verified/verified-content.json` registry
+- ✅ Generates `lib/verifiedContent.ts` with constants
+
+**Coverage Statistics** (Current)
+```
+Episodes curated: 5/303 (1.7%)
+Quotes extracted: 55
+Avg quotes/episode: 11.0
+
+Zones needing more coverage (target: 10+ episodes):
+- chaos: 2 episodes (need 8 more)  
+- data: 3 episodes (need 7 more)
+- perfection: 4 episodes (need 6 more)
+- discovery: 4 episodes (need 6 more)  
+- intuition: 4 episodes (need 6 more)
+- alignment: 4 episodes (need 6 more)
+- velocity: 5 episodes (need 5 more)
+- focus: 5 episodes (need 5 more)
+```
+
+**REMAINING WORK** 🚧
+
+**Phase 1: Fix Verification Issues** (NEXT)
+- [ ] Add transcript deep links - "View in Transcript" scrolls to exact line
+- [ ] Add clickable YouTube timestamps
+- [ ] Create `/zones/[zoneId]/evidence` pages showing all supporting episodes
+- [ ] Improve duplicate detection (currently flags timestamps incorrectly)
+
+**Phase 2: Build Acceleration Tooling** (NEXT)
+- [ ] Create `scripts/curate-batch.ts` - AI-powered batch quote extraction
+- [ ] Create `scripts/curation-stats.ts` - dashboard showing progress and gaps
+- [ ] Enhance `scripts/propose-quotes.ts` with auto-theme tagging
+- [ ] Add highlight segment detection to avoid duplicates
+
+**Phase 3: Scale to 100+ Episodes** (HIGH PRIORITY)
+- [ ] Curate 95 more episodes (prioritize popular + key guests)
+- [ ] Target: 33% coverage minimum (100/303)
+- [ ] Process in batches of 10-15 episodes
+- [ ] Update zone episode counts to show actual evidence
+- [ ] Add confidence levels based on coverage percentage
+
+**Phase 4: UX Enhancements**
+- [ ] Episode pages show which zones they contribute to
+- [ ] Explore page filter by zone/theme
+- [ ] Expand contradictions from 5 to 20+ with full episode evidence
+- [ ] Show related episodes based on zone similarity
+
+**SUCCESS CRITERIA**
+- ✅ Zero fake/generic quotes (achieved with build guards)
+- ⚠️ 100+ episodes curated (currently 5)
+- ⚠️ 800+ verified quotes (currently 55)
+- ⚠️ Every zone has 10+ episodes (currently 2-5)
+- ⚠️ 20+ contradictions (currently 5)
+- ⚠️ All claims verifiable with transcript links (not yet)
+
+---
+
+## 📋 TODO (Session 7+: Comprehensive Curation)
 
 ### Enhancements & Polish
 
@@ -334,10 +433,11 @@ Scale:        1.0→1.02→0.98
 
 ## 📊 Current Status
 
-**Last Updated:** Session 5 Complete - Results Page Built
-**Current Branch:** `claude/interactive-redesign-heCSY`
-**Build Status:** ✅ All pages building successfully
-**Status:** Core experience complete, ready for polish & deploy
+**Last Updated:** Session 6 (In Progress) - Verified Content System
+**Current Branch:** `warp-integrated`
+**Build Status:** ✅ All pages building + verification guards active
+**Status:** Core UX complete, but data inadequate (1.7% coverage)
+**Priority:** Scale from 5 to 100+ curated episodes for credibility
 
 **Commits:**
 - feat: Add contradictions page with real PM debates

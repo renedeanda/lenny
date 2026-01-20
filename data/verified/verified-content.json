@@ -1,6 +1,256 @@
 {
   "episodes": [
     {
+      "episode_slug": "amjad-masad",
+      "guest": "Amjad Masad",
+      "episode_title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "amjad-masad-001",
+          "text": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+          "source": {
+            "line_start": 43,
+            "line_end": 43,
+            "timestamp": "00:00:27",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "velocity",
+            "ideas",
+            "bottlenecks",
+            "execution",
+            "creativity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "amjad-masad-002",
+          "text": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+          "source": {
+            "line_start": 49,
+            "line_end": 49,
+            "timestamp": "00:00:47",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "future",
+            "ai",
+            "automation",
+            "vision",
+            "startups"
+          ],
+          "zones": [
+            "chaos",
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-003",
+          "text": "The vision for Replit has always been is like, okay, making software is fun, is great, more people should do it, but so for more people to do it, it needs to be easier to do, it needs to be in one place, and it needs to be learnable.",
+          "source": {
+            "line_start": 67,
+            "line_end": 67,
+            "timestamp": "00:03:42",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "vision",
+            "democratization",
+            "simplicity",
+            "accessibility"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "amjad-masad-004",
+          "text": "I often go with minimalist prompts. That's also how I code as well. I have a vague idea for what I want to build and iterate from there. Other people, product managers like to write PRDs and more descriptive things, and you can do either of those things.",
+          "source": {
+            "line_start": 124,
+            "line_end": 124,
+            "timestamp": "00:13:47",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "iteration",
+            "building",
+            "process",
+            "flexibility"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-005",
+          "text": "If you think about it's like we're building as you were building, so we're building out the agent so that it can continue getting better as our users are also building their applications.",
+          "source": {
+            "line_start": 142,
+            "line_end": 142,
+            "timestamp": "00:17:56",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "iteration",
+            "building",
+            "meta",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "amjad-masad-006",
+          "text": "When the cost of things go down, the total consumption of it goes up. And so I think that's going to be the case of software. As the costs go down, people will just make a lot more software to improve their lives and to improve their work and start more startups and all of that.",
+          "source": {
+            "line_start": 229,
+            "line_end": 229,
+            "timestamp": "00:24:26",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "economics",
+            "velocity",
+            "startups",
+            "future"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "amjad-masad-007",
+          "text": "These silos between designers, product managers, and engineers. Everyone feels that pain of, we have low bandwidth communication, which is language and then text on Slack and Zoom calls. The common language that everyone shares is code. What if the language becomes actually working prototypes and working applications?",
+          "source": {
+            "line_start": 358,
+            "line_end": 361,
+            "timestamp": "00:41:08",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "collaboration",
+            "communication",
+            "silos",
+            "prototypes"
+          ],
+          "zones": [
+            "alignment",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-008",
+          "text": "Being generative, being able to generate new ideas quickly, because you can think about it as a factory line. Typically you're bottlenecked by the middle part where your ideas are kind of like they're a lot of them and they're not fitting in, because they need to be made and they need to be made quickly. Now you open up that bottleneck. Actually, you become limited by how fast you can generate ideas.",
+          "source": {
+            "line_start": 367,
+            "line_end": 367,
+            "timestamp": "00:44:25",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "creativity",
+            "ideas",
+            "bottlenecks",
+            "velocity",
+            "generative"
+          ],
+          "zones": [
+            "chaos",
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "amjad-masad-009",
+          "text": "The return on investment for learn to code is doubling every six months. Every six months, that's netting you more and more power because you're going to be able to create a lot more. It's going to be easier to create. You're going to be able to create a lot more complete things.",
+          "source": {
+            "line_start": 373,
+            "line_end": 373,
+            "timestamp": "00:47:09",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "learning",
+            "velocity",
+            "roi",
+            "future",
+            "skills"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "amjad-masad-010",
+          "text": "The way we work is going to change rapidly, and it's important to be resilient to that change. You want to be able to react to it really quickly. When the Anthropic drop the computer use set of capability, we slaughtered our roadmap. We immediately jumped on it and started building things. Being agile, not being stuck with roadmaps, being able to just say, oh, we're just going to switch priorities right away, is going to be super important.",
+          "source": {
+            "line_start": 424,
+            "line_end": 424,
+            "timestamp": "00:56:43",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "agility",
+            "change",
+            "roadmaps",
+            "velocity",
+            "adaptation"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "amjad-masad-011",
+          "text": "You got to be fluid because when designers can code and engineers can design, it really becomes, you can't have a lot of structure around that. So you want to build a culture and you want to build an environment or milieu that is really, really flexible, which is uncomfortable for a lot of people.",
+          "source": {
+            "line_start": 427,
+            "line_end": 427,
+            "timestamp": "00:57:59",
+            "speaker": "Amjad Masad"
+          },
+          "themes": [
+            "culture",
+            "flexibility",
+            "silos",
+            "cross-functional"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        }
+      ],
+      "takeaways": [
+        "The bottleneck is shifting from execution to idea generation - when tools make building easy, creativity becomes the constraint",
+        "Amjad's Law: The ROI on learning to code doubles every 6 months as AI tools improve exponentially",
+        "Working prototypes become the common language that breaks down silos between designers, PMs, and engineers",
+        "Resilience > roadmaps - be ready to 'slaughter your roadmap' when new capabilities drop that change everything",
+        "Build flexible, fluid cultures where people can work across traditional role boundaries without rigid structure"
+      ],
+      "zone_influence": {
+        "chaos": 0.35,
+        "velocity": 0.3,
+        "intuition": 0.15,
+        "alignment": 0.1,
+        "discovery": 0.1
+      }
+    },
+    {
       "slug": "brian-chesky",
       "keyQuotes": [
         {
@@ -249,6 +499,525 @@
         "alignment": 5,
         "chaos": 0,
         "focus": 5
+      }
+    },
+    {
+      "episode_slug": "dylan-field",
+      "guest": "Dylan Field",
+      "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "dylan-field-001",
+          "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
+          "source": {
+            "line_start": 100,
+            "line_end": 100,
+            "timestamp": "07:09",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "design",
+            "craft",
+            "problem-solving",
+            "vision",
+            "quality"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "id": "dylan-field-002",
+          "text": "Intuition is like a hypothesis generator and you're constantly generating these hypotheses and others are generating hypotheses as well. And you then take these hypotheses and you put them forward and you debate them and you try to find data to support them or negate them. And then you winnow it down into what is our working hypothesis? And from that you move forward.",
+          "source": {
+            "line_start": 199,
+            "line_end": 199,
+            "timestamp": "11:19",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "intuition",
+            "decision-making",
+            "hypotheses",
+            "data",
+            "product-management"
+          ],
+          "zones": [
+            "intuition",
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "dylan-field-003",
+          "text": "I think the more concrete an artifact is or the more you can debate something, the better. I ask for examples a lot, I try to ask follow up questions about things and make sure I fully understand it. And I think where I get stuck sometimes is if I ask follow up questions and we don't have answers yet, and then my response might be, 'Let's go find the answer to these questions and then let's go back to this conversation.'",
+          "source": {
+            "line_start": 220,
+            "line_end": 220,
+            "timestamp": "15:05",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "decision-making",
+            "leadership",
+            "first-principles",
+            "learning"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-004",
+          "text": "Good product people are able to create great frameworks that bring everyone along with them. And so everyone's able to have a shared head space around what it is they're trying to get to. The best PMs create those frameworks that bring everyone else along and those frameworks also have a point of view and a strategy associated with them. So you're able to take the strategy, take the point of view, wrap it all up in a framework, and then make it so that everyone knows what the destination is and how to get there.",
+          "source": {
+            "line_start": 247,
+            "line_end": 259,
+            "timestamp": "20:16",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "product-management",
+            "frameworks",
+            "strategy",
+            "alignment",
+            "leadership"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-005",
+          "text": "One plus one does not equal three, it sometimes equals one and a half. And the more that you add and the more that you continue to put in something, the more complex it gets and the worse it gets. And I think this is definitely true for tools. We can make it more powerful, but to do that in a way that's not making it more complex at the same time is extremely hard.",
+          "source": {
+            "line_start": 265,
+            "line_end": 267,
+            "timestamp": "23:06",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "simplicity",
+            "complexity",
+            "design",
+            "product-management"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-006",
+          "text": "Keep the simple things simple. Make the complex things possible. I think that's a really important principle to hold as you're designing tools. And I'd say that it's really easy to make the simple things complex, unfortunately.",
+          "source": {
+            "line_start": 289,
+            "line_end": 289,
+            "timestamp": "25:46",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "simplicity",
+            "design",
+            "principles",
+            "craft"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-007",
+          "text": "Get it out as fast as you possibly can. Everything they tell you about making sure that you get a product out really quickly is totally true. The faster you get it out, the more feedback you get. That is a positive thing. And now I index on that when we try to build.",
+          "source": {
+            "line_start": 312,
+            "line_end": 313,
+            "timestamp": "27:49",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "velocity",
+            "shipping",
+            "iteration",
+            "feedback"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "dylan-field-008",
+          "text": "For a new launch, you got quality, features, deadline, choose two. And I think that the beautiful thing about software is you can keep iterating on it. So it's not like a physical product where you have to always have quality in there, otherwise it's never going to have quality. You can ship it with features and deadline and then improve it iteratively over time.",
+          "source": {
+            "line_start": 328,
+            "line_end": 328,
+            "timestamp": "29:32",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "tradeoffs",
+            "shipping",
+            "quality",
+            "iteration",
+            "strategy"
+          ],
+          "zones": [
+            "velocity",
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-009",
+          "text": "I constructed this list of, 'Here are the most central designers in the graph', but also then I looked at their work. And the ones that I was really inspired by as a total fanboy, and someone who wanted to learn as much as I could about design, was inspired by these folks, the ones I was inspired by I reached out to and said, 'Hey, can I buy you a coffee?' And I think it started honestly more as me fanboy and me getting feedback.",
+          "source": {
+            "line_start": 337,
+            "line_end": 340,
+            "timestamp": "31:01",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "user-research",
+            "learning",
+            "community",
+            "feedback",
+            "growth"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "dylan-field-010",
+          "text": "When people give you advice, they're not giving you advice, they're giving themselves advice in your shoes. I think that's an interesting one. So if I gave you advice here, I'm giving myself advice in your shoes.",
+          "source": {
+            "line_start": 496,
+            "line_end": 496,
+            "timestamp": "45:22",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "advice",
+            "mentorship",
+            "learning",
+            "perspective"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "id": "dylan-field-011",
+          "text": "Mentors can come from anywhere. It can come from the community. Mentorship can come from the people you hire. It can come from folks that you actively seek out as investors or explicit mentorship and mentors. There have been plenty of people where they ask me a question at some point and I give them an answer and they think it's insightful for whatever reason. And then years later where we're talking again and I ask them a question and they're like, 'Well, years ago you told me...' And they repeat back what I told them like, 'That's a really good point.'",
+          "source": {
+            "line_start": 433,
+            "line_end": 433,
+            "timestamp": "39:51",
+            "speaker": "Dylan Field"
+          },
+          "themes": [
+            "mentorship",
+            "learning",
+            "growth",
+            "leadership"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Intuition is a hypothesis generator - constantly generate hypotheses, debate them with data, winnow down to working hypotheses",
+        "Design = art applied to problem solving. Without art it's utilitarian and lacks soul; without problem-solving it's not useful",
+        "For new launches: quality, features, deadline - choose two. Software can be iterated so you can ship with less and improve over time",
+        "Keep simple things simple, make complex things possible - but it's extremely hard to add power without adding complexity",
+        "Ship as fast as possible to get feedback - speed of iteration matters more than perfection at launch"
+      ],
+      "zone_influence": {
+        "intuition": 0.3,
+        "perfection": 0.25,
+        "discovery": 0.2,
+        "focus": 0.15,
+        "velocity": 0.1
+      }
+    },
+    {
+      "episode_slug": "elena-verna",
+      "guest": "Elena Verna",
+      "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
+      "verification_date": "2026-01-20",
+      "verified_by": "warp-agent",
+      "quotes": [
+        {
+          "id": "elena-verna-001",
+          "text": "You have to fail to learn. You can't just constantly succeed. Success is an output of a lot of failures, but the question is, how much time do you have to fail? And a lot of times we don't realize how many failure cycles we're going to have to go through before we get a success, and that company, or even market, has no time for that.",
+          "source": {
+            "line_start": 337,
+            "line_end": 337,
+            "timestamp": "00:40:12",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "experimentation",
+            "growth",
+            "failure",
+            "learning",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "elena-verna-002",
+          "text": "Growth cannot function without data. If you have 10 users or 10 customers, that's not data, that's a G-sheet with your customers and you don't need a growth team for that. Until you have data that you can actually do an analysis and you can create hypotheses on and you can start applying experimentation, don't even think about growth team.",
+          "source": {
+            "line_start": 112,
+            "line_end": 112,
+            "timestamp": "00:10:35",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "data",
+            "growth",
+            "metrics",
+            "experimentation",
+            "product-market-fit"
+          ],
+          "zones": [
+            "data",
+            "velocity"
+          ]
+        },
+        {
+          "id": "elena-verna-003",
+          "text": "Growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down and you have issues with either your go-to-market strategy or your core product strategy with your core product market fit, growth is going to be absolutely helpless to do anything.",
+          "source": {
+            "line_start": 178,
+            "line_end": 178,
+            "timestamp": "00:16:59",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "product-market-fit",
+            "growth",
+            "strategy",
+            "retention"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "elena-verna-004",
+          "text": "Never ever once have I seen a rebrand or redesign, especially of UK marketing site produce good performance results. New CMO comes in designing their website or designing the brand as if it was reflection of their personal taste, and oftentimes it's promised with our acquisition is going to go up and it never materializes into anything meaningful.",
+          "source": {
+            "line_start": 193,
+            "line_end": 193,
+            "timestamp": "00:20:22",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "marketing",
+            "design",
+            "optimization",
+            "acquisition"
+          ],
+          "zones": [
+            "data",
+            "perfection"
+          ]
+        },
+        {
+          "id": "elena-verna-005",
+          "text": "Benchmarks are usually done on all of the competition, on all of the softwares out there. And the way people define numbers is so different from company to company. Even if you look as something as simple as signups. So taking also any benchmark that is derived from competition and saying, 'This is where we should be,' is also so dangerous because it might not even be applicable depending on how you define the metric.",
+          "source": {
+            "line_start": 253,
+            "line_end": 256,
+            "timestamp": "00:29:21",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "metrics",
+            "data",
+            "benchmarking",
+            "competition"
+          ],
+          "zones": [
+            "data",
+            "discovery"
+          ]
+        },
+        {
+          "id": "elena-verna-006",
+          "text": "There are patterns and there are frameworks, but there's no shortcuts.",
+          "source": {
+            "line_start": 262,
+            "line_end": 262,
+            "timestamp": "00:30:20",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "frameworks",
+            "patterns",
+            "growth",
+            "decision-making"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "elena-verna-007",
+          "text": "Your problem is not unique. I am 99% sure of that. Your problem has been felt by somebody somewhere in probably many, many places and you trying to re-engineer solution is time lost to market and has a huge opportunity cost. Do not start from scratch. It's the worst thing that you can do because you can waste so many cycles on trying to do something that probably has already been solved.",
+          "source": {
+            "line_start": 301,
+            "line_end": 304,
+            "timestamp": "00:34:49",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "problem-solving",
+            "patterns",
+            "velocity",
+            "learning"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "elena-verna-008",
+          "text": "Focusing on these earned channels that you own becomes the outmost priority. And if you don't have them on your growth roadmap, you are going to be in some really big trouble over the next year to two years because your cost of acquisition is only going to go up. Your competition and those channel is only going to go up.",
+          "source": {
+            "line_start": 394,
+            "line_end": 394,
+            "timestamp": "00:47:05",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "acquisition",
+            "channels",
+            "virality",
+            "product-led-growth"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "elena-verna-009",
+          "text": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem. It's almost like a disease, like a paralyzing disease, that slows down progress, that slows down velocity, that slows down learnings, that creates very terrible consequences to the output that growth teams produce.",
+          "source": {
+            "line_start": 508,
+            "line_end": 511,
+            "timestamp": "01:06:47",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "experimentation",
+            "velocity",
+            "decision-making",
+            "paralysis"
+          ],
+          "zones": [
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "elena-verna-010",
+          "text": "Data is good, but data is only good if you have enough of it. So if you have low volume real estate, that is going to take you eight months to reach some sort of answer. Do you really want to test it for eight months? My rule of thumb, if we cannot collect the sample size in the month, we shouldn't test it, period.",
+          "source": {
+            "line_start": 517,
+            "line_end": 517,
+            "timestamp": "01:07:52",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "data",
+            "experimentation",
+            "metrics",
+            "velocity",
+            "decision-making"
+          ],
+          "zones": [
+            "data",
+            "velocity",
+            "intuition"
+          ]
+        },
+        {
+          "id": "elena-verna-011",
+          "text": "People stop in this age of data, almost rely enough on their element intuition. Experimentation cannot be the way that people make decisions in the company. There's still so much about knowing your user, understanding the market for your brain to connect all of those dots and to know what needs to be an experience that your customers are going to want.",
+          "source": {
+            "line_start": 529,
+            "line_end": 520,
+            "timestamp": "01:10:08",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "intuition",
+            "decision-making",
+            "data",
+            "user-research"
+          ],
+          "zones": [
+            "intuition",
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "elena-verna-012",
+          "text": "Growth teams are often too obsessed about removing friction. If you ever have a line item on your roadmap that says simplified onboarding, please cross it out. It's not going to work because simplifying onboarding is an action. What is the problem that you're solving? You always have a problem of people are confused in it, but people don't know where to go or they get lost in it or they're not educated enough. That is the problem.",
+          "source": {
+            "line_start": 549,
+            "line_end": 553,
+            "timestamp": "01:13:09",
+            "speaker": "Elena Verna"
+          },
+          "themes": [
+            "friction",
+            "onboarding",
+            "problem-solving",
+            "optimization"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        }
+      ],
+      "takeaways": [
+        "Growth requires real data (not 10 users) and proven PMF before you can experiment and optimize effectively",
+        "Over-testing everything creates paralysis - trust your intuition when you don't have volume for fast statistical significance",
+        "Benchmarks are dangerous because companies define metrics differently - focus on your own patterns",
+        "Your problems aren't unique - seek out people who've solved similar problems rather than starting from scratch",
+        "Earned channels (virality, UGC, word-of-mouth) are more sustainable than paid/algorithmic channels you don't control"
+      ],
+      "zone_influence": {
+        "data": 0.35,
+        "velocity": 0.25,
+        "intuition": 0.15,
+        "discovery": 0.1,
+        "focus": 0.1,
+        "chaos": 0.05
       }
     },
     {
@@ -524,6 +1293,233 @@
   ],
   "quotes": [
     {
+      "id": "amjad-masad-001",
+      "text": "Typically, you're bottlenecked where your ideas are not fitting in because they need to be made and they need to be made quickly. Now, you open up that bottleneck. So now actually making things is a lot easier. Actually, you become limited by how fast you can generate ideas.",
+      "source": {
+        "line_start": 43,
+        "line_end": 43,
+        "timestamp": "00:00:27",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "velocity",
+        "ideas",
+        "bottlenecks",
+        "execution",
+        "creativity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "amjad-masad-002",
+      "text": "I could imagine whatever five years from now, someone running a billion-dollar company with zero employees where it's like the support is handled by AI, the development is handled by AI, and you're just building and creating this thing.",
+      "source": {
+        "line_start": 49,
+        "line_end": 49,
+        "timestamp": "00:00:47",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "future",
+        "ai",
+        "automation",
+        "vision",
+        "startups"
+      ],
+      "zones": [
+        "chaos",
+        "intuition",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-003",
+      "text": "The vision for Replit has always been is like, okay, making software is fun, is great, more people should do it, but so for more people to do it, it needs to be easier to do, it needs to be in one place, and it needs to be learnable.",
+      "source": {
+        "line_start": 67,
+        "line_end": 67,
+        "timestamp": "00:03:42",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "vision",
+        "democratization",
+        "simplicity",
+        "accessibility"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "amjad-masad-004",
+      "text": "I often go with minimalist prompts. That's also how I code as well. I have a vague idea for what I want to build and iterate from there. Other people, product managers like to write PRDs and more descriptive things, and you can do either of those things.",
+      "source": {
+        "line_start": 124,
+        "line_end": 124,
+        "timestamp": "00:13:47",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "iteration",
+        "building",
+        "process",
+        "flexibility"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-005",
+      "text": "If you think about it's like we're building as you were building, so we're building out the agent so that it can continue getting better as our users are also building their applications.",
+      "source": {
+        "line_start": 142,
+        "line_end": 142,
+        "timestamp": "00:17:56",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "iteration",
+        "building",
+        "meta",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "amjad-masad-006",
+      "text": "When the cost of things go down, the total consumption of it goes up. And so I think that's going to be the case of software. As the costs go down, people will just make a lot more software to improve their lives and to improve their work and start more startups and all of that.",
+      "source": {
+        "line_start": 229,
+        "line_end": 229,
+        "timestamp": "00:24:26",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "economics",
+        "velocity",
+        "startups",
+        "future"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "amjad-masad-007",
+      "text": "These silos between designers, product managers, and engineers. Everyone feels that pain of, we have low bandwidth communication, which is language and then text on Slack and Zoom calls. The common language that everyone shares is code. What if the language becomes actually working prototypes and working applications?",
+      "source": {
+        "line_start": 358,
+        "line_end": 361,
+        "timestamp": "00:41:08",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "collaboration",
+        "communication",
+        "silos",
+        "prototypes"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-008",
+      "text": "Being generative, being able to generate new ideas quickly, because you can think about it as a factory line. Typically you're bottlenecked by the middle part where your ideas are kind of like they're a lot of them and they're not fitting in, because they need to be made and they need to be made quickly. Now you open up that bottleneck. Actually, you become limited by how fast you can generate ideas.",
+      "source": {
+        "line_start": 367,
+        "line_end": 367,
+        "timestamp": "00:44:25",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "creativity",
+        "ideas",
+        "bottlenecks",
+        "velocity",
+        "generative"
+      ],
+      "zones": [
+        "chaos",
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "amjad-masad-009",
+      "text": "The return on investment for learn to code is doubling every six months. Every six months, that's netting you more and more power because you're going to be able to create a lot more. It's going to be easier to create. You're going to be able to create a lot more complete things.",
+      "source": {
+        "line_start": 373,
+        "line_end": 373,
+        "timestamp": "00:47:09",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "learning",
+        "velocity",
+        "roi",
+        "future",
+        "skills"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "amjad-masad-010",
+      "text": "The way we work is going to change rapidly, and it's important to be resilient to that change. You want to be able to react to it really quickly. When the Anthropic drop the computer use set of capability, we slaughtered our roadmap. We immediately jumped on it and started building things. Being agile, not being stuck with roadmaps, being able to just say, oh, we're just going to switch priorities right away, is going to be super important.",
+      "source": {
+        "line_start": 424,
+        "line_end": 424,
+        "timestamp": "00:56:43",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "agility",
+        "change",
+        "roadmaps",
+        "velocity",
+        "adaptation"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "amjad-masad-011",
+      "text": "You got to be fluid because when designers can code and engineers can design, it really becomes, you can't have a lot of structure around that. So you want to build a culture and you want to build an environment or milieu that is really, really flexible, which is uncomfortable for a lot of people.",
+      "source": {
+        "line_start": 427,
+        "line_end": 427,
+        "timestamp": "00:57:59",
+        "speaker": "Amjad Masad"
+      },
+      "themes": [
+        "culture",
+        "flexibility",
+        "silos",
+        "cross-functional"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
       "id": "brian-chesky-q001",
       "speaker": "Brian Chesky",
       "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
@@ -735,6 +1731,478 @@
       ],
       "zones": [
         "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-001",
+      "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
+      "source": {
+        "line_start": 100,
+        "line_end": 100,
+        "timestamp": "07:09",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "design",
+        "craft",
+        "problem-solving",
+        "vision",
+        "quality"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "dylan-field-002",
+      "text": "Intuition is like a hypothesis generator and you're constantly generating these hypotheses and others are generating hypotheses as well. And you then take these hypotheses and you put them forward and you debate them and you try to find data to support them or negate them. And then you winnow it down into what is our working hypothesis? And from that you move forward.",
+      "source": {
+        "line_start": 199,
+        "line_end": 199,
+        "timestamp": "11:19",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "intuition",
+        "decision-making",
+        "hypotheses",
+        "data",
+        "product-management"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "dylan-field-003",
+      "text": "I think the more concrete an artifact is or the more you can debate something, the better. I ask for examples a lot, I try to ask follow up questions about things and make sure I fully understand it. And I think where I get stuck sometimes is if I ask follow up questions and we don't have answers yet, and then my response might be, 'Let's go find the answer to these questions and then let's go back to this conversation.'",
+      "source": {
+        "line_start": 220,
+        "line_end": 220,
+        "timestamp": "15:05",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "decision-making",
+        "leadership",
+        "first-principles",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-004",
+      "text": "Good product people are able to create great frameworks that bring everyone along with them. And so everyone's able to have a shared head space around what it is they're trying to get to. The best PMs create those frameworks that bring everyone else along and those frameworks also have a point of view and a strategy associated with them. So you're able to take the strategy, take the point of view, wrap it all up in a framework, and then make it so that everyone knows what the destination is and how to get there.",
+      "source": {
+        "line_start": 247,
+        "line_end": 259,
+        "timestamp": "20:16",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "product-management",
+        "frameworks",
+        "strategy",
+        "alignment",
+        "leadership"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-005",
+      "text": "One plus one does not equal three, it sometimes equals one and a half. And the more that you add and the more that you continue to put in something, the more complex it gets and the worse it gets. And I think this is definitely true for tools. We can make it more powerful, but to do that in a way that's not making it more complex at the same time is extremely hard.",
+      "source": {
+        "line_start": 265,
+        "line_end": 267,
+        "timestamp": "23:06",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "simplicity",
+        "complexity",
+        "design",
+        "product-management"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-006",
+      "text": "Keep the simple things simple. Make the complex things possible. I think that's a really important principle to hold as you're designing tools. And I'd say that it's really easy to make the simple things complex, unfortunately.",
+      "source": {
+        "line_start": 289,
+        "line_end": 289,
+        "timestamp": "25:46",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "simplicity",
+        "design",
+        "principles",
+        "craft"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-007",
+      "text": "Get it out as fast as you possibly can. Everything they tell you about making sure that you get a product out really quickly is totally true. The faster you get it out, the more feedback you get. That is a positive thing. And now I index on that when we try to build.",
+      "source": {
+        "line_start": 312,
+        "line_end": 313,
+        "timestamp": "27:49",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "velocity",
+        "shipping",
+        "iteration",
+        "feedback"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dylan-field-008",
+      "text": "For a new launch, you got quality, features, deadline, choose two. And I think that the beautiful thing about software is you can keep iterating on it. So it's not like a physical product where you have to always have quality in there, otherwise it's never going to have quality. You can ship it with features and deadline and then improve it iteratively over time.",
+      "source": {
+        "line_start": 328,
+        "line_end": 328,
+        "timestamp": "29:32",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "tradeoffs",
+        "shipping",
+        "quality",
+        "iteration",
+        "strategy"
+      ],
+      "zones": [
+        "velocity",
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-009",
+      "text": "I constructed this list of, 'Here are the most central designers in the graph', but also then I looked at their work. And the ones that I was really inspired by as a total fanboy, and someone who wanted to learn as much as I could about design, was inspired by these folks, the ones I was inspired by I reached out to and said, 'Hey, can I buy you a coffee?' And I think it started honestly more as me fanboy and me getting feedback.",
+      "source": {
+        "line_start": 337,
+        "line_end": 340,
+        "timestamp": "31:01",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "user-research",
+        "learning",
+        "community",
+        "feedback",
+        "growth"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "dylan-field-010",
+      "text": "When people give you advice, they're not giving you advice, they're giving themselves advice in your shoes. I think that's an interesting one. So if I gave you advice here, I'm giving myself advice in your shoes.",
+      "source": {
+        "line_start": 496,
+        "line_end": 496,
+        "timestamp": "45:22",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "advice",
+        "mentorship",
+        "learning",
+        "perspective"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dylan-field-011",
+      "text": "Mentors can come from anywhere. It can come from the community. Mentorship can come from the people you hire. It can come from folks that you actively seek out as investors or explicit mentorship and mentors. There have been plenty of people where they ask me a question at some point and I give them an answer and they think it's insightful for whatever reason. And then years later where we're talking again and I ask them a question and they're like, 'Well, years ago you told me...' And they repeat back what I told them like, 'That's a really good point.'",
+      "source": {
+        "line_start": 433,
+        "line_end": 433,
+        "timestamp": "39:51",
+        "speaker": "Dylan Field"
+      },
+      "themes": [
+        "mentorship",
+        "learning",
+        "growth",
+        "leadership"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "elena-verna-001",
+      "text": "You have to fail to learn. You can't just constantly succeed. Success is an output of a lot of failures, but the question is, how much time do you have to fail? And a lot of times we don't realize how many failure cycles we're going to have to go through before we get a success, and that company, or even market, has no time for that.",
+      "source": {
+        "line_start": 337,
+        "line_end": 337,
+        "timestamp": "00:40:12",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "experimentation",
+        "growth",
+        "failure",
+        "learning",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "elena-verna-002",
+      "text": "Growth cannot function without data. If you have 10 users or 10 customers, that's not data, that's a G-sheet with your customers and you don't need a growth team for that. Until you have data that you can actually do an analysis and you can create hypotheses on and you can start applying experimentation, don't even think about growth team.",
+      "source": {
+        "line_start": 112,
+        "line_end": 112,
+        "timestamp": "00:10:35",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "data",
+        "growth",
+        "metrics",
+        "experimentation",
+        "product-market-fit"
+      ],
+      "zones": [
+        "data",
+        "velocity"
+      ]
+    },
+    {
+      "id": "elena-verna-003",
+      "text": "Growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down and you have issues with either your go-to-market strategy or your core product strategy with your core product market fit, growth is going to be absolutely helpless to do anything.",
+      "source": {
+        "line_start": 178,
+        "line_end": 178,
+        "timestamp": "00:16:59",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "product-market-fit",
+        "growth",
+        "strategy",
+        "retention"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "elena-verna-004",
+      "text": "Never ever once have I seen a rebrand or redesign, especially of UK marketing site produce good performance results. New CMO comes in designing their website or designing the brand as if it was reflection of their personal taste, and oftentimes it's promised with our acquisition is going to go up and it never materializes into anything meaningful.",
+      "source": {
+        "line_start": 193,
+        "line_end": 193,
+        "timestamp": "00:20:22",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "marketing",
+        "design",
+        "optimization",
+        "acquisition"
+      ],
+      "zones": [
+        "data",
+        "perfection"
+      ]
+    },
+    {
+      "id": "elena-verna-005",
+      "text": "Benchmarks are usually done on all of the competition, on all of the softwares out there. And the way people define numbers is so different from company to company. Even if you look as something as simple as signups. So taking also any benchmark that is derived from competition and saying, 'This is where we should be,' is also so dangerous because it might not even be applicable depending on how you define the metric.",
+      "source": {
+        "line_start": 253,
+        "line_end": 256,
+        "timestamp": "00:29:21",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "metrics",
+        "data",
+        "benchmarking",
+        "competition"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "elena-verna-006",
+      "text": "There are patterns and there are frameworks, but there's no shortcuts.",
+      "source": {
+        "line_start": 262,
+        "line_end": 262,
+        "timestamp": "00:30:20",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "frameworks",
+        "patterns",
+        "growth",
+        "decision-making"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "elena-verna-007",
+      "text": "Your problem is not unique. I am 99% sure of that. Your problem has been felt by somebody somewhere in probably many, many places and you trying to re-engineer solution is time lost to market and has a huge opportunity cost. Do not start from scratch. It's the worst thing that you can do because you can waste so many cycles on trying to do something that probably has already been solved.",
+      "source": {
+        "line_start": 301,
+        "line_end": 304,
+        "timestamp": "00:34:49",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "problem-solving",
+        "patterns",
+        "velocity",
+        "learning"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "elena-verna-008",
+      "text": "Focusing on these earned channels that you own becomes the outmost priority. And if you don't have them on your growth roadmap, you are going to be in some really big trouble over the next year to two years because your cost of acquisition is only going to go up. Your competition and those channel is only going to go up.",
+      "source": {
+        "line_start": 394,
+        "line_end": 394,
+        "timestamp": "00:47:05",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "acquisition",
+        "channels",
+        "virality",
+        "product-led-growth"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "elena-verna-009",
+      "text": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem. It's almost like a disease, like a paralyzing disease, that slows down progress, that slows down velocity, that slows down learnings, that creates very terrible consequences to the output that growth teams produce.",
+      "source": {
+        "line_start": 508,
+        "line_end": 511,
+        "timestamp": "01:06:47",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "experimentation",
+        "velocity",
+        "decision-making",
+        "paralysis"
+      ],
+      "zones": [
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "elena-verna-010",
+      "text": "Data is good, but data is only good if you have enough of it. So if you have low volume real estate, that is going to take you eight months to reach some sort of answer. Do you really want to test it for eight months? My rule of thumb, if we cannot collect the sample size in the month, we shouldn't test it, period.",
+      "source": {
+        "line_start": 517,
+        "line_end": 517,
+        "timestamp": "01:07:52",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "data",
+        "experimentation",
+        "metrics",
+        "velocity",
+        "decision-making"
+      ],
+      "zones": [
+        "data",
+        "velocity",
+        "intuition"
+      ]
+    },
+    {
+      "id": "elena-verna-011",
+      "text": "People stop in this age of data, almost rely enough on their element intuition. Experimentation cannot be the way that people make decisions in the company. There's still so much about knowing your user, understanding the market for your brain to connect all of those dots and to know what needs to be an experience that your customers are going to want.",
+      "source": {
+        "line_start": 529,
+        "line_end": 520,
+        "timestamp": "01:10:08",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "intuition",
+        "decision-making",
+        "data",
+        "user-research"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "elena-verna-012",
+      "text": "Growth teams are often too obsessed about removing friction. If you ever have a line item on your roadmap that says simplified onboarding, please cross it out. It's not going to work because simplifying onboarding is an action. What is the problem that you're solving? You always have a problem of people are confused in it, but people don't know where to go or they get lost in it or they're not educated enough. That is the problem.",
+      "source": {
+        "line_start": 549,
+        "line_end": 553,
+        "timestamp": "01:13:09",
+        "speaker": "Elena Verna"
+      },
+      "themes": [
+        "friction",
+        "onboarding",
+        "problem-solving",
+        "optimization"
+      ],
+      "zones": [
+        "discovery",
         "focus"
       ]
     },
@@ -971,5 +2439,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-20T16:08:18.838Z"
+  "lastUpdated": "2026-01-20T16:25:58.213Z"
 }

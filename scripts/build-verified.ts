@@ -51,7 +51,8 @@ function loadVerifiedEpisodes(): EpisodeEnrichment[] {
     return [];
   }
   
-  const files = fs.readdirSync(verifiedDir).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(verifiedDir)
+    .filter(f => f.endsWith('.json') && f !== 'verified-content.json'); // Skip the generated registry
   const episodes: EpisodeEnrichment[] = [];
   
   for (const file of files) {
@@ -69,7 +70,11 @@ function loadVerifiedEpisodes(): EpisodeEnrichment[] {
 }
 
 function extractAllQuotes(episodes: EpisodeEnrichment[]): Quote[] {
-  return episodes.flatMap(ep => ep.keyQuotes);
+  return episodes.flatMap(ep => {
+    // Handle both old (keyQuotes) and new (quotes) formats
+    const quotes = (ep as any).keyQuotes || (ep as any).quotes || [];
+    return quotes;
+  });
 }
 
 function validateZoneReferences(quotes: Quote[]): void {
@@ -127,15 +132,72 @@ function validateContradictionReferences(quotes: Quote[]): void {
   }
 }
 
+function detectDuplicateQuotes(quotes: Quote[]): void {
+  const warnings: string[] = [];
+  const seenTexts = new Map<string, string>(); // text -> quoteId
+  
+  for (const quote of quotes) {
+    const normalizedText = quote.text.trim().toLowerCase().replace(/\s+/g, ' ');
+    
+    // Check for exact duplicates
+    const existingQuoteId = seenTexts.get(normalizedText);
+    if (existingQuoteId) {
+      warnings.push(`Duplicate quote detected: ${quote.id} matches ${existingQuoteId}`);
+    } else {
+      seenTexts.set(normalizedText, quote.id);
+    }
+    
+    // Flag quotes from first 5 minutes (likely highlights)
+    const timestamp = quote.source?.timestamp || '';
+    const minuteMatch = timestamp.match(/^(\d+):(\d+)/);
+    if (minuteMatch) {
+      const minutes = parseInt(minuteMatch[1]);
+      if (minutes < 5) {
+        warnings.push(`Quote ${quote.id} is from first 5 minutes (${timestamp}) - may be highlight duplicate`);
+      }
+    }
+    
+    // Flag very short quotes (higher duplicate risk)
+    if (quote.text.length < 150) {
+      warnings.push(`Quote ${quote.id} is very short (${quote.text.length} chars) - review for duplicates`);
+    }
+  }
+  
+  if (warnings.length > 0) {
+    console.warn('\n⚠️  Duplicate quote warnings:');
+    warnings.slice(0, 10).forEach(warn => console.warn(`  - ${warn}`));
+    if (warnings.length > 10) {
+      console.warn(`  ... and ${warnings.length - 10} more warnings`);
+    }
+  }
+}
+
 function validateTranscriptReferences(episodes: EpisodeEnrichment[]): void {
   const errors: string[] = [];
   
   for (const episode of episodes) {
-    for (const quote of episode.keyQuotes) {
-      const transcriptPath = path.join(process.cwd(), quote.source.path);
+    const quotes = (episode as any).keyQuotes || (episode as any).quotes || [];
+    const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
+    
+    if (!episodeSlug) {
+      errors.push(`Episode missing slug: ${JSON.stringify(episode).substring(0, 100)}...`);
+      continue;
+    }
+    
+    for (const quote of quotes) {
+      // Handle both old (path) and new (episode_slug) source formats
+      let transcriptPath: string;
+      
+      if (quote.source && quote.source.path) {
+        // Old format: has explicit path
+        transcriptPath = path.join(process.cwd(), quote.source.path);
+      } else {
+        // New format: construct path from episode slug
+        transcriptPath = path.join(process.cwd(), 'episodes', episodeSlug, 'transcript.md');
+      }
       
       if (!fs.existsSync(transcriptPath)) {
-        errors.push(`Quote ${quote.id} references non-existent transcript: ${quote.source.path}`);
+        errors.push(`Quote ${quote.id} references non-existent transcript: ${transcriptPath}`);
         continue;
       }
       
@@ -143,11 +205,14 @@ function validateTranscriptReferences(episodes: EpisodeEnrichment[]): void {
         const content = fs.readFileSync(transcriptPath, 'utf-8');
         const lines = content.split('\n');
         
-        if (quote.source.lineStart > lines.length || quote.source.lineEnd > lines.length) {
-          errors.push(`Quote ${quote.id} line range (${quote.source.lineStart}-${quote.source.lineEnd}) exceeds transcript length (${lines.length})`);
+        const lineStart = quote.source.lineStart || quote.source.line_start;
+        const lineEnd = quote.source.lineEnd || quote.source.line_end;
+        
+        if (lineStart > lines.length || lineEnd > lines.length) {
+          errors.push(`Quote ${quote.id} line range (${lineStart}-${lineEnd}) exceeds transcript length (${lines.length})`);
         }
       } catch (err) {
-        errors.push(`Quote ${quote.id}: Failed to read transcript at ${quote.source.path}`);
+        errors.push(`Quote ${quote.id}: Failed to read transcript at ${transcriptPath}`);
       }
     }
   }
@@ -166,9 +231,12 @@ function computeZoneEpisodeCounts(episodes: EpisodeEnrichment[]): Record<string,
     const episodeSlugs = new Set<string>();
     
     for (const episode of episodes) {
-      for (const quote of episode.keyQuotes) {
+      const quotes = (episode as any).keyQuotes || (episode as any).quotes || [];
+      const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
+      
+      for (const quote of quotes) {
         if (quote.zones.includes(zone)) {
-          episodeSlugs.add(episode.slug);
+          episodeSlugs.add(episodeSlug);
         }
       }
     }
@@ -206,6 +274,10 @@ function main() {
   validateContradictionReferences(quotes);
   console.log('✓ Contradiction references checked');
   
+  // Detect duplicate quotes (warnings only)
+  detectDuplicateQuotes(quotes);
+  console.log('✓ Duplicate quote check completed');
+  
   // Validate transcript references
   validateTranscriptReferences(episodes);
   console.log('✓ Transcript references validated');
@@ -224,6 +296,27 @@ function main() {
   console.log(`\n✅ Registry built: ${registryPath}`);
   console.log(`   ${registry.episodes.length} episodes, ${registry.quotes.length} quotes`);
   
+  // Show coverage stats
+  const TOTAL_EPISODES = 303;
+  const coveragePercent = ((registry.episodes.length / TOTAL_EPISODES) * 100).toFixed(1);
+  console.log(`\n📊 Coverage Statistics:`);
+  console.log(`   Episodes curated: ${registry.episodes.length}/${TOTAL_EPISODES} (${coveragePercent}%)`);
+  console.log(`   Quotes extracted: ${registry.quotes.length}`);
+  console.log(`   Avg quotes/episode: ${(registry.quotes.length / registry.episodes.length).toFixed(1)}`);
+  
+  // Show zone coverage gaps
+  const minEpisodesPerZone = 10; // Target
+  const underservedZones = Object.entries(zoneCounts)
+    .filter(([_, count]) => count < minEpisodesPerZone)
+    .sort((a, b) => a[1] - b[1]);
+  
+  if (underservedZones.length > 0) {
+    console.log(`\n⚠️  Zones needing more coverage (target: ${minEpisodesPerZone}+ episodes):`);
+    underservedZones.forEach(([zone, count]) => {
+      console.log(`   - ${zone}: ${count} episodes (need ${minEpisodesPerZone - count} more)`);
+    });
+  }
+  
   // Generate TypeScript constants
   const tsContent = `// Auto-generated by scripts/build-verified.ts
 // DO NOT EDIT MANUALLY
@@ -233,7 +326,7 @@ export const VERIFIED_QUOTE_COUNT = ${quotes.length};
 
 export const ZONE_EPISODE_COUNTS = ${JSON.stringify(zoneCounts, null, 2)} as const;
 
-export const VERIFIED_EPISODE_SLUGS = ${JSON.stringify(episodes.map(e => e.slug), null, 2)} as const;
+export const VERIFIED_EPISODE_SLUGS = ${JSON.stringify(episodes.map(e => (e as any).slug || (e as any).episode_slug), null, 2)} as const;
 `;
   
   const tsPath = path.join(process.cwd(), 'lib', 'verifiedContent.ts');

@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 
   const title = `${episode.guest} - Lenny's Podcast | PM Philosophy Map`;
-  const description = episode.summary || `Listen to ${episode.guest} on Lenny's Podcast`;
+  const description = episode.description || `Listen to ${episode.guest} on Lenny's Podcast`;
   const ogImageUrl = `/og/${episode.slug}.png`;
 
   return {

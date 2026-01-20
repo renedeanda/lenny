@@ -1,0 +1,168 @@
+{
+  "episode_slug": "elena-verna",
+  "guest": "Elena Verna",
+  "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
+  "verification_date": "2026-01-20",
+  "verified_by": "warp-agent",
+  "quotes": [
+    {
+      "id": "elena-verna-001",
+      "text": "You have to fail to learn. You can't just constantly succeed. Success is an output of a lot of failures, but the question is, how much time do you have to fail? And a lot of times we don't realize how many failure cycles we're going to have to go through before we get a success, and that company, or even market, has no time for that.",
+      "source": {
+        "line_start": 337,
+        "line_end": 337,
+        "timestamp": "00:40:12",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["experimentation", "growth", "failure", "learning", "velocity"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "elena-verna-002",
+      "text": "Growth cannot function without data. If you have 10 users or 10 customers, that's not data, that's a G-sheet with your customers and you don't need a growth team for that. Until you have data that you can actually do an analysis and you can create hypotheses on and you can start applying experimentation, don't even think about growth team.",
+      "source": {
+        "line_start": 112,
+        "line_end": 112,
+        "timestamp": "00:10:35",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["data", "growth", "metrics", "experimentation", "product-market-fit"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "elena-verna-003",
+      "text": "Growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down and you have issues with either your go-to-market strategy or your core product strategy with your core product market fit, growth is going to be absolutely helpless to do anything.",
+      "source": {
+        "line_start": 178,
+        "line_end": 178,
+        "timestamp": "00:16:59",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["product-market-fit", "growth", "strategy", "retention"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "elena-verna-004",
+      "text": "Never ever once have I seen a rebrand or redesign, especially of UK marketing site produce good performance results. New CMO comes in designing their website or designing the brand as if it was reflection of their personal taste, and oftentimes it's promised with our acquisition is going to go up and it never materializes into anything meaningful.",
+      "source": {
+        "line_start": 193,
+        "line_end": 193,
+        "timestamp": "00:20:22",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["marketing", "design", "optimization", "acquisition"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "elena-verna-005",
+      "text": "Benchmarks are usually done on all of the competition, on all of the softwares out there. And the way people define numbers is so different from company to company. Even if you look as something as simple as signups. So taking also any benchmark that is derived from competition and saying, 'This is where we should be,' is also so dangerous because it might not even be applicable depending on how you define the metric.",
+      "source": {
+        "line_start": 253,
+        "line_end": 256,
+        "timestamp": "00:29:21",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["metrics", "data", "benchmarking", "competition"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "elena-verna-006",
+      "text": "There are patterns and there are frameworks, but there's no shortcuts.",
+      "source": {
+        "line_start": 262,
+        "line_end": 262,
+        "timestamp": "00:30:20",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["frameworks", "patterns", "growth", "decision-making"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "elena-verna-007",
+      "text": "Your problem is not unique. I am 99% sure of that. Your problem has been felt by somebody somewhere in probably many, many places and you trying to re-engineer solution is time lost to market and has a huge opportunity cost. Do not start from scratch. It's the worst thing that you can do because you can waste so many cycles on trying to do something that probably has already been solved.",
+      "source": {
+        "line_start": 301,
+        "line_end": 304,
+        "timestamp": "00:34:49",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["problem-solving", "patterns", "velocity", "learning"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "elena-verna-008",
+      "text": "Focusing on these earned channels that you own becomes the outmost priority. And if you don't have them on your growth roadmap, you are going to be in some really big trouble over the next year to two years because your cost of acquisition is only going to go up. Your competition and those channel is only going to go up.",
+      "source": {
+        "line_start": 394,
+        "line_end": 394,
+        "timestamp": "00:47:05",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["acquisition", "channels", "virality", "product-led-growth"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "elena-verna-009",
+      "text": "If every single one of your initiatives that you're doing on growth is an experiment, that's a problem. It's almost like a disease, like a paralyzing disease, that slows down progress, that slows down velocity, that slows down learnings, that creates very terrible consequences to the output that growth teams produce.",
+      "source": {
+        "line_start": 508,
+        "line_end": 511,
+        "timestamp": "01:06:47",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["experimentation", "velocity", "decision-making", "paralysis"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "elena-verna-010",
+      "text": "Data is good, but data is only good if you have enough of it. So if you have low volume real estate, that is going to take you eight months to reach some sort of answer. Do you really want to test it for eight months? My rule of thumb, if we cannot collect the sample size in the month, we shouldn't test it, period.",
+      "source": {
+        "line_start": 517,
+        "line_end": 517,
+        "timestamp": "01:07:52",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["data", "experimentation", "metrics", "velocity", "decision-making"],
+      "zones": ["data", "velocity", "intuition"]
+    },
+    {
+      "id": "elena-verna-011",
+      "text": "People stop in this age of data, almost rely enough on their element intuition. Experimentation cannot be the way that people make decisions in the company. There's still so much about knowing your user, understanding the market for your brain to connect all of those dots and to know what needs to be an experience that your customers are going to want.",
+      "source": {
+        "line_start": 529,
+        "line_end": 520,
+        "timestamp": "01:10:08",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["intuition", "decision-making", "data", "user-research"],
+      "zones": ["intuition", "discovery", "data"]
+    },
+    {
+      "id": "elena-verna-012",
+      "text": "Growth teams are often too obsessed about removing friction. If you ever have a line item on your roadmap that says simplified onboarding, please cross it out. It's not going to work because simplifying onboarding is an action. What is the problem that you're solving? You always have a problem of people are confused in it, but people don't know where to go or they get lost in it or they're not educated enough. That is the problem.",
+      "source": {
+        "line_start": 549,
+        "line_end": 553,
+        "timestamp": "01:13:09",
+        "speaker": "Elena Verna"
+      },
+      "themes": ["friction", "onboarding", "problem-solving", "optimization"],
+      "zones": ["discovery", "focus"]
+    }
+  ],
+  "takeaways": [
+    "Growth requires real data (not 10 users) and proven PMF before you can experiment and optimize effectively",
+    "Over-testing everything creates paralysis - trust your intuition when you don't have volume for fast statistical significance",
+    "Benchmarks are dangerous because companies define metrics differently - focus on your own patterns",
+    "Your problems aren't unique - seek out people who've solved similar problems rather than starting from scratch",
+    "Earned channels (virality, UGC, word-of-mouth) are more sustainable than paid/algorithmic channels you don't control"
+  ],
+  "zone_influence": {
+    "data": 0.35,
+    "velocity": 0.25,
+    "intuition": 0.15,
+    "discovery": 0.10,
+    "focus": 0.10,
+    "chaos": 0.05
+  }
+}
