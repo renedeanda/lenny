@@ -204,9 +204,15 @@ export default function EpisodePage() {
 
     const seconds = timestampToSeconds(timestamp);
 
-    // Use YouTube API to seek to timestamp and play
+    // Seek to timestamp
     youtubePlayerRef.current.seekTo(seconds, true);
-    youtubePlayerRef.current.playVideo();
+
+    // Ensure video starts playing (works even if currently paused)
+    setTimeout(() => {
+      if (youtubePlayerRef.current?.playVideo) {
+        youtubePlayerRef.current.playVideo();
+      }
+    }, 100);
 
     // Scroll to video
     const videoElement = document.getElementById('youtube-player');
@@ -442,7 +448,7 @@ export default function EpisodePage() {
                       <div className="flex items-start gap-4">
                         <button
                           onClick={() => jumpToTimestamp(index)}
-                          className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1"
+                          className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 select-none"
                           title="Jump to timestamp"
                         >
                           <Hash className="w-3 h-3" />

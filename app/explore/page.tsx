@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import {allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
+import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 
 export default function ExplorePage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -337,11 +338,16 @@ function EpisodeCard({
       {/* Stats */}
       <div className="flex items-center gap-4 text-xs text-ash-dark mb-4 pt-4 border-t border-ash-darker">
         <div className="font-mono">
-          <span className="text-amber">{episode.dialogueCount}</span> dialogue
+          <span className="text-amber">{episode.dialogueCount}</span> transcript segments
         </div>
-        <div className="font-mono">
-          <span className="text-amber">{episode.keyQuotesCount}</span> quotes
-        </div>
+        {(() => {
+          const enrichment = getEpisodeEnrichment(episode.slug);
+          return enrichment ? (
+            <div className="font-mono">
+              <span className="text-amber">{enrichment.keyQuotes.length}</span> verified quotes
+            </div>
+          ) : null;
+        })()}
       </div>
 
       {/* Action Buttons */}
