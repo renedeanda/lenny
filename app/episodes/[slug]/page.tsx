@@ -85,6 +85,7 @@ export default function EpisodePage() {
   const [showShareToast, setShowShareToast] = useState(false);
   const [showAllQuotes, setShowAllQuotes] = useState(false);
   const [showAllContrarian, setShowAllContrarian] = useState(false);
+  const [activeTab, setActiveTab] = useState<'transcript' | 'insights'>('transcript');
   const sectionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
   const youtubePlayerRef = useRef<any>(null);
 
@@ -338,29 +339,57 @@ export default function EpisodePage() {
                 </div>
               )}
 
-              {/* Verified Quotes Section */}
-              {verifiedEnrichment && (
-                <div className="mb-12">
-                  <VerifiedQuotes
-                    enrichment={verifiedEnrichment}
-                    onJumpToTranscript={(lineStart) => {
-                      if (!transcript) return;
-
-                      // Find transcript section containing this line number
-                      const sectionIndex = transcript.findIndex(section =>
-                        lineStart >= section.lineStart && lineStart <= section.lineEnd
-                      );
-
-                      if (sectionIndex !== -1) {
-                        jumpToTimestamp(sectionIndex);
-                      }
-                    }}
-                  />
+              {/* Mobile Tabs */}
+              <div className="lg:hidden mb-6 border-b-2 border-ash-darker">
+                <div className="flex gap-4">
+                  <button
+                    onClick={() => setActiveTab('transcript')}
+                    className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
+                      activeTab === 'transcript'
+                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
+                        : 'text-ash-dark hover:text-amber'
+                    }`}
+                  >
+                    TRANSCRIPT
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('insights')}
+                    className={`pb-3 px-2 font-bold text-sm tracking-wider transition-colors ${
+                      activeTab === 'insights'
+                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
+                        : 'text-ash-dark hover:text-amber'
+                    }`}
+                  >
+                    INSIGHTS & MORE
+                  </button>
                 </div>
-              )}
+              </div>
 
-              {/* Search Transcript */}
-              <div className="mb-6">
+              {/* Transcript Content - Mobile Tab / Desktop Always Visible */}
+              <div className={`${activeTab === 'transcript' ? 'block' : 'hidden'} lg:block`}>
+                {/* Verified Quotes Section */}
+                {verifiedEnrichment && (
+                  <div className="mb-12">
+                    <VerifiedQuotes
+                      enrichment={verifiedEnrichment}
+                      onJumpToTranscript={(lineStart) => {
+                        if (!transcript) return;
+
+                        // Find transcript section containing this line number
+                        const sectionIndex = transcript.findIndex(section =>
+                          lineStart >= section.lineStart && lineStart <= section.lineEnd
+                        );
+
+                        if (sectionIndex !== -1) {
+                          jumpToTimestamp(sectionIndex);
+                        }
+                      }}
+                    />
+                  </div>
+                )}
+
+                {/* Search Transcript */}
+                <div className="mb-6">
                 <div className="relative">
                   <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
                   <input
@@ -462,16 +491,14 @@ export default function EpisodePage() {
                   </div>
                 )}
               </div>
+              </div>
             </div>
 
-            {/* Sidebar - 1 column */}
-            <div className="lg:col-span-1 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30">
+            {/* Sidebar - 1 column (Mobile: shown in Insights tab, Desktop: always visible) */}
+            <div className={`lg:col-span-1 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30 ${
+              activeTab === 'insights' ? 'block' : 'hidden'
+            } lg:block`}>
               <div className="space-y-8 pb-8">
-                {/* Mobile: Sticky header */}
-                <div className="lg:hidden sticky top-0 bg-void z-10 py-4 border-b border-ash-darker">
-                  <h3 className="text-lg font-bold text-amber">INSIGHTS & MORE</h3>
-                  <p className="text-xs text-ash-dark mt-1">Scroll down for extracted insights</p>
-                </div>
 
                 {/* Insights Stats */}
                 {insights && (
