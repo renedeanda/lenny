@@ -191,7 +191,13 @@ Original system used generic/synthetic quotes. Building comprehensive verified c
 8. **Marty Cagan** - Discovery, empowerment, product leadership
 
 **Total:** 91 verified quotes with exact line numbers, timestamps, themes, zone mappings
-**In Progress:** 4 more episodes being curated (shreyas-doshi, april-dunford, gibson-biddle, julie-zhuo)
+
+**Next Priority Episodes** (to improve zone coverage):
+- For chaos (need 6): Shreyas Doshi, Paul Graham, Julie Zhuo, Jensen Huang
+- For data (need 5): Anu Hariharan, Lenny Rachitsky, Dan Olsen
+- For perfection/discovery/alignment (need 4 each): April Dunford, Bob Moesta, Gibson Biddle
+- For intuition (need 3): Tony Fadell, Jony Ive, Brian Norgard
+- For velocity/focus (need 2 each): Any high-quality episodes
 
 **Zones Updated** ✅
 - ALL 8 zones now use verified `quoteId` references (no fake quotes)
