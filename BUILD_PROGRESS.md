@@ -178,6 +178,7 @@ Original system used generic/synthetic quotes. Building comprehensive verified c
 - Created `lib/verifiedQuotes.ts` - utility functions for verified content
 - Added `lib/types.ts` extensions: Quote, Evidence, EpisodeEnrichment, VerifiedContent
 - Created `components/VerifiedQuotes.tsx` - displays verified quotes on episode pages with theme/zone filters
+- Created `.claude/skills/curate-episode/SKILL.md` - Claude skill with YAML frontmatter for AI agents to curate episodes
 
 **Episodes Curated** (5/303 = 1.7% coverage) ⚠️
 1. **Brian Chesky** (10 quotes) - Leadership, details, alignment, perfection
@@ -227,6 +228,31 @@ Zones needing more coverage (target: 10+ episodes):
 ```
 
 **REMAINING WORK** 🚧
+
+**OUTPUT FROM WARP**
+I can see the episode page already has the structure in place. The verified quotes component is implemented, but the jump functionality is just a TODO console.log. Let me wire it up properly and replace insightsData with verified quotes. Given the complexity and token usage, let me create a comprehensive summary of what needs to be done:
+
+✅ Completed:
+1. Added contrarian_candidates to jason-fried.json, casey-winters.json, brian-chesky.json (3 of 8)
+
+📝 Remaining Work:
+
+The episode page ALREADY has most functionality:
+•  ✅ VerifiedQuotes component exists with filtering
+•  ✅ Takeaways displayed
+•  ⏳ Jump-to-transcript needs actual implementation (currently just console.log)
+•  ⏳ insightsData still being used for sidebar stats
+•  ⏳ YouTube embed not implemented yet
+
+Next steps summary:
+1. Finish adding contrarian_candidates to remaining 5 episodes
+2. Wire up onJumpToTranscript to actually scroll (find matching timestamp in transcript)
+3. Replace insightsData usage in sidebar with verified quotes 
+4. Add YouTube iframe embed with timestamp sync
+5. Document the deprecation plan
+
+This is a significant upgrade that will make the PM Philosophy Map much more grounded in verified, traceable content! The foundation is already there - we just need to complete the implementation.
+--warp didn't complete--
 
 **Phase 1: Fix Verification Issues** (NEXT)
 - [ ] Add transcript deep links - "View in Transcript" scrolls to exact line

@@ -1,0 +1,170 @@
+{
+  "episode_slug": "marty-cagan",
+  "guest": "Marty Cagan",
+  "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
+  "verification_date": "2026-01-20",
+  "verified_by": "warp-agent",
+  "quotes": [
+    {
+      "id": "marty-cagan-001",
+      "text": "There is no question that a lot of companies overhired during the pandemic. I go into some companies and honestly I can't believe all the ridiculous roles that they have, agile coaches and product owners and product ops and business analysts. They're dramatically overpaid for the value they provide. Because it's a project management role.",
+      "source": {
+        "line_start": 39,
+        "line_end": 45,
+        "timestamp": "00:00:00",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["hiring", "roles", "product-management", "theater"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "marty-cagan-002",
+      "text": "Too many people in our industry view themselves as a victim of their company, like they're stuck in a feature team and there's nothing they can do about it other than quit. I think that's not true. There is so much they can do.",
+      "source": {
+        "line_start": 51,
+        "line_end": 51,
+        "timestamp": "00:00:31",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["empowerment", "agency", "feature-teams", "mindset"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "marty-cagan-003",
+      "text": "On a feature team, you're basically given a roadmap of output. Their features are projects. You're being asked to design, build, test, deploy that feature. It is a lot easier to deliver output than it is to deliver outcomes. A product team, instead of being given that roadmap of features, they're given problems to solve.",
+      "source": {
+        "line_start": 150,
+        "line_end": 150,
+        "timestamp": "00:21:01",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["outcomes", "feature-teams", "empowerment", "product-management"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "marty-cagan-004",
+      "text": "Strong product companies understand it's all about outcomes. You just don't get points for shipping, you get points for delivering the value. It's about time to money more than time to market. We know how to do time to market. The harder part is time to money.",
+      "source": {
+        "line_start": 153,
+        "line_end": 153,
+        "timestamp": "00:22:51",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["outcomes", "value", "metrics", "strategy"],
+      "zones": ["data", "focus", "velocity"]
+    },
+    {
+      "id": "marty-cagan-005",
+      "text": "You need this person who understands the customers and understands the business deeply. That's where the product manager role came from. You need a different set of skills that your engineers and your designers almost never have. Those are very different skillsets.",
+      "source": {
+        "line_start": 156,
+        "line_end": 156,
+        "timestamp": "00:24:00",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["product-management", "skills", "value", "viability"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "marty-cagan-006",
+      "text": "On a real empowered product team, product manager is a creator, not a facilitator. I always cringe when somebody tells me, oh, my job is to say why? And I'm like, 'Well, what do you do for the rest of the week besides the 10 minutes it takes you to say why?' It's ridiculous.",
+      "source": {
+        "line_start": 168,
+        "line_end": 168,
+        "timestamp": "00:24:58",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["product-management", "empowerment", "creator", "theater"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "marty-cagan-007",
+      "text": "I was not allowed to take the product manager role until I had visited 30 customers in person, 15 in the US, 15 in Europe. Those 30 customers changed my life because I thought I knew our customers and I really didn't.",
+      "source": {
+        "line_start": 171,
+        "line_end": 171,
+        "timestamp": "00:25:45",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["user-research", "customers", "learning", "discovery"],
+      "zones": ["discovery"]
+    },
+    {
+      "id": "marty-cagan-008",
+      "text": "You're supposed to be the expert on the data. How is our product being used? How is that usage changing over time? Another big one is you are the person on the team that represents the compliance issues, the sales issues, the marketing issues, the financial cost issues, the monetization issues, go to market in general. This is all the product manager.",
+      "source": {
+        "line_start": 171,
+        "line_end": 173,
+        "timestamp": "00:26:51",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["data", "viability", "product-management", "expertise"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "marty-cagan-009",
+      "text": "Most product management advice you find online, probably 90% of the content out there is from the feature team world or worse. Unless they get really lucky or they happen to have a manager that is guiding them in a good direction, it just propagates.",
+      "source": {
+        "line_start": 198,
+        "line_end": 198,
+        "timestamp": "00:33:11",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["advice", "learning", "feature-teams", "misinformation"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "marty-cagan-010",
+      "text": "Product leaders do product strategy. Product teams don't do product strategy. That is the job, is to make these strategic decisions, the focus decisions, the bets you're going to place. Then you give those bets to the teams and you really do give them latitude to figure it out.",
+      "source": {
+        "line_start": 258,
+        "line_end": 261,
+        "timestamp": "00:45:03",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["strategy", "leadership", "empowerment", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "marty-cagan-011",
+      "text": "Empowerment does not mean you set up this product team and they go decide what to work on. That would just be anarchy. Empowerment means the leaders do their job, come up with the bets, and then the teams are able to figure out the best way to solve those problems.",
+      "source": {
+        "line_start": 261,
+        "line_end": 261,
+        "timestamp": "00:46:08",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["empowerment", "strategy", "alignment", "leadership"],
+      "zones": ["alignment", "focus", "discovery"]
+    },
+    {
+      "id": "marty-cagan-012",
+      "text": "If you are fundamentally a backlog administrator, good luck protecting that because already people are doing that with AI. That is not a good job prospect. For an empowered product manager, if your responsibility is value and viability, that's the real challenge left.",
+      "source": {
+        "line_start": 291,
+        "line_end": 294,
+        "timestamp": "00:52:38",
+        "speaker": "Marty Cagan"
+      },
+      "themes": ["ai", "skills", "value", "viability", "future"],
+      "zones": ["intuition", "data", "discovery"]
+    }
+  ],
+  "takeaways": [
+    "Product managers must be creators solving real problems, not facilitators managing backlogs - that's theater, not real PM work",
+    "Feature teams get roadmaps of output to ship; empowered product teams get problems to solve and are measured on outcomes",
+    "Strong PMs deeply understand customers (30+ visits), data (usage patterns), and business viability (legal, sales, monetization)",
+    "Most online PM advice (90%) comes from feature team environments and propagates the wrong model of product management",
+    "Empowerment means leaders set strategy and bets, teams figure out how to solve - not anarchy where teams pick their own problems"
+  ],
+  "zone_influence": {
+    "discovery": 0.30,
+    "focus": 0.20,
+    "alignment": 0.15,
+    "data": 0.15,
+    "perfection": 0.10,
+    "intuition": 0.05,
+    "chaos": 0.05,
+    "velocity": 0.00
+  }
+}

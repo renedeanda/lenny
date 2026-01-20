@@ -12,7 +12,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
-import Anthropic from '@anthropic-ai/sdk';
+// No external API needed - extraction done by the AI agent running this script
 
 interface Quote {
   id: string;
@@ -137,38 +137,32 @@ async function extractQuotesWithAI(
   transcript: string,
   metadata: any
 ): Promise<any> {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    throw new Error('ANTHROPIC_API_KEY environment variable not set');
-  }
+  console.log(`   Analyzing transcript (${transcript.length} chars)...`);
+  console.log(`   NOTE: This tool is a placeholder for AI-assisted extraction.`);
+  console.log(`   The AI agent (me) will extract quotes directly when processing episodes.`);
+  console.log(`   For now, returning empty structure - quotes will be added manually.`);
   
-  const anthropic = new Anthropic({ apiKey });
-  
-  const prompt = PROMPT_TEMPLATE
-    .replace('{episode_title}', metadata.title || 'Unknown')
-    .replace('{guest}', metadata.guest || 'Unknown')
-    .replace('{transcript_content}', transcript.slice(0, 100000)); // Limit for context window
-  
-  console.log(`   Sending ${transcript.length} chars to Claude...`);
-  
-  const message = await anthropic.messages.create({
-    model: 'claude-sonnet-4-20250514',
-    max_tokens: 8000,
-    messages: [{
-      role: 'user',
-      content: prompt
-    }]
-  });
-  
-  const responseText = message.content[0].type === 'text' ? message.content[0].text : '';
-  
-  // Extract JSON from response (may be wrapped in markdown)
-  const jsonMatch = responseText.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) {
-    throw new Error('Failed to extract JSON from AI response');
-  }
-  
-  return JSON.parse(jsonMatch[0]);
+  // Return structure for manual population
+  return {
+    quotes: [],
+    takeaways: [
+      "[To be extracted by AI agent]",
+      "[To be extracted by AI agent]",
+      "[To be extracted by AI agent]",
+      "[To be extracted by AI agent]",
+      "[To be extracted by AI agent]"
+    ],
+    zone_influence: {
+      velocity: 0.125,
+      perfection: 0.125,
+      discovery: 0.125,
+      data: 0.125,
+      intuition: 0.125,
+      alignment: 0.125,
+      chaos: 0.125,
+      focus: 0.125
+    }
+  };
 }
 
 function generateQuoteIds(quotes: any[], episodeSlug: string): Quote[] {

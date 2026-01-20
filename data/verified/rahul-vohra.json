@@ -164,15 +164,14 @@
     "Game design (not gamification) makes products delightful - create 'toys' that are fun even without goals, that invite playful exploration and pleasant surprises, then combine them into games.",
     "Single Decisive Reason (SDR) cuts through weak justifications - for any important decision, identify one reason that alone supports it. Multiple weak reasons rarely add up to a strong one."
   ],
-  "contradictionsRefs": ["speed", "users"],
-  "zoneInfluence": {
-    "velocity": 4,
-    "perfection": 5,
-    "discovery": 3,
-    "data": 3,
-    "intuition": 2,
-    "alignment": 1,
-    "chaos": 0,
-    "focus": 5
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.25,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.00,
+    "focus": 0.15
   }
 }

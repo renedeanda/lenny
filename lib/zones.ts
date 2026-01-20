@@ -120,5 +120,6 @@ export const TOTAL_EPISODES = 303;
 
 // Get percentage of episodes that cover this zone's philosophy
 export function getZoneEpisodePercentage(zone: Zone): number {
-  return Math.round((zone.episodeCount / TOTAL_EPISODES) * 100);
+  const count = zone.episodeCount ?? 0;
+  return Math.round((count / TOTAL_EPISODES) * 100);
 }

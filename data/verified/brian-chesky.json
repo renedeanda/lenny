@@ -150,15 +150,26 @@
     "Small, expert teams beat large generalist ones - Airbnb has 7,000 employees vs Uber's 30,000, and leaders must be domain experts who manage the work first, people second.",
     "The CEO should be the chief product officer in product-led companies - delegating away your core strength as a founder creates the conditions for organizational decay."
   ],
-  "contradictionsRefs": ["details", "speed"],
-  "zoneInfluence": {
-    "velocity": 3,
-    "perfection": 5,
-    "discovery": 1,
-    "data": 2,
-    "intuition": 2,
-    "alignment": 5,
-    "chaos": 0,
-    "focus": 5
-  }
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.25,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.00,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "brian-chesky-q001",
+      "why": "Leaders must be in the details, not delegate - attacks micromanagement criticism as excuse for ignorance",
+      "related_zones": ["perfection", "alignment"]
+    },
+    {
+      "quoteId": "brian-chesky-q008",
+      "why": "Founders apologize for how they run companies, seeking midpoint makes everyone miserable - anti-consensus",
+      "related_zones": ["focus", "alignment"]
+    }
+  ]
 }

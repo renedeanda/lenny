@@ -1,0 +1,206 @@
+{
+  "episode_slug": "casey-winters",
+  "guest": "Casey Winters",
+  "episode_title": "Why most product managers are unprepared for the demands of a real startup | Casey Winters",
+  "verification_date": "2025-01-20",
+  "verified_by": "warp-agent",
+  "quotes": [
+    {
+      "id": "casey-winters-001",
+      "text": "A lot of managers and leaders would just try to deal with issues on their own and not raise them or escalate them with me. And some of these were really tough situations, so then later on, I'd ask why something went wrong. And I get feedback like, you don't understand the situation. Yeah, of course I don't understand this situation because you haven't told me about it. These people on my team thought that being a leader was handling it the best they could given the circumstances when in many cases the right way is to escalate the issue so that perhaps I could help them change the circumstances. I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
+      "source": {
+        "line_start": 97,
+        "line_end": 100,
+        "timestamp": "00:07:11",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining why communication upward is critical for leadership effectiveness",
+      "themes": ["communication", "leadership", "alignment", "escalation"],
+      "zones": ["alignment"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-002",
+      "text": "If you're not an executive, whatever you're working on, you're basically writing and telling a story. And when you talk to an exec about that story, you have to start with chapter one, which is what part of the company strategy are you working on? What metrics are you trying to improve? What assumptions are you making? Many times when non-executives are presenting to execs, they'll start on like chapter six, so even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
+      "source": {
+        "line_start": 103,
+        "line_end": 103,
+        "timestamp": "00:09:14",
+        "speaker": "Casey Winters"
+      },
+      "context": "Teaching PMs how to communicate effectively with executives",
+      "themes": ["communication", "strategy", "storytelling", "alignment"],
+      "zones": ["alignment", "data"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-003",
+      "text": "Executive communication is actually executives communication. You're communicating with individual executives that all have different styles and different concerns about the business or about the particular problem you're working on. And you want to anticipate that. The other thing that I push a lot of my team to do is have pre-meetings with some of those key individuals, so that they're going to be less surprised in the meeting about what you're talking about, that you've gotten any major concerns brought to your attention before the big meeting. And that helps de-risk how poorly a meeting like that can go.",
+      "source": {
+        "line_start": 115,
+        "line_end": 115,
+        "timestamp": "00:12:28",
+        "speaker": "Casey Winters"
+      },
+      "context": "Coaching PMs on how to prepare for important executive presentations",
+      "themes": ["communication", "preparation", "alignment", "de-risking"],
+      "zones": ["alignment"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-004",
+      "text": "For any of these types of communications, how well do you really know the material, and how well do you really know what your audience is going to care about with that material so that you are prepared for every question you might get. If you haven't thought through all the questions that might be asked from the document that you're sharing or the presentation you're about to present, you're not prepared enough. You need to know the entire universe of how that meeting can go. And that may take you dozens of hours, it might take you three hours, but the most important thing is that you've asked what possible questions can be asked and am I prepared to answer all of those?",
+      "source": {
+        "line_start": 130,
+        "line_end": 130,
+        "timestamp": "00:16:17",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining the importance of thorough preparation for key meetings",
+      "themes": ["preparation", "communication", "diligence", "alignment"],
+      "zones": ["perfection", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-005",
+      "text": "The way that a lot of key decisions are made inside companies are through these types of forums and meetings. And it's an extremely high leverage piece of time for a product manager or a product designer in terms of how much impact they can have. If you are under preparing for those sorts of things, the chances of you being able to have the type of impact you want, to have the type of career growth you want just go down dramatically.",
+      "source": {
+        "line_start": 136,
+        "line_end": 136,
+        "timestamp": "00:17:33",
+        "speaker": "Casey Winters"
+      },
+      "context": "Emphasizing why meeting preparation is high-leverage work for PMs",
+      "themes": ["leverage", "preparation", "impact", "career-growth"],
+      "zones": ["focus"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-006",
+      "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them. And of course the majority of users aren't going to ever look for them, so the advanced more complex areas of the product don't make the product harder to use for the majority who will never need that level of complexity. WhatsApp does the best job of this. At its core, it's a chat app and it's really good at being a chat app. It would take less than a second to figure out how to use the more advanced stuff, but it's effectively kind of hidden if you're not looking for it.",
+      "source": {
+        "line_start": 151,
+        "line_end": 154,
+        "timestamp": "00:21:32",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining Eventbrite's approach to adding complexity while maintaining simplicity",
+      "themes": ["simplicity", "ux", "progressive-disclosure", "design"],
+      "zones": ["perfection", "focus"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-007",
+      "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. For things like user experience, or performance, or developer velocity, or just a product area that's deemed un-sexy, you have to get a team to buy-in to this. You can't really do a lot of this work alone. If you can get a small team, like two, three people aligned on the importance of something that's deemed un-sexy, it's a lot easier to start to build this game plan around metrics or running small tests or structuring OKRs to not only prioritize this work, but to show some really massive impact. Which could then get the rest of the company much more excited to make investments themselves.",
+      "source": {
+        "line_start": 169,
+        "line_end": 172,
+        "timestamp": "00:24:49",
+        "speaker": "Casey Winters"
+      },
+      "context": "Discussing how to justify non-sexy product investments like stability and performance",
+      "themes": ["alignment", "metrics", "unsexy-work", "impact"],
+      "zones": ["alignment", "data"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-008",
+      "text": "When you're an early stage company, everything you're doing is trying to drive upside, trying to drive growth. But when you've actually built a real business, a lot of times people are still in that same mode. But when you're at scale, you can actually lose what you've built. Trying to help whether it's executives or just your manager, understand that this thing we've got, whether it's a high conversion rate or good engagement on this feature, it could go away if we don't do these other things. And here's what it would look like if that goes away, that can be incredibly powerful. Protecting what we've got actually is increasingly important once you build scale, because now you've built something really valuable already.",
+      "source": {
+        "line_start": 187,
+        "line_end": 190,
+        "timestamp": "00:27:57",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining the shift from pure growth to protecting value at scale",
+      "themes": ["scale", "retention", "value-protection", "growth"],
+      "zones": ["data", "focus"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-009",
+      "text": "User expectations just continue to go up every day in terms of their expectations on user experience, on the value that they expect your product to provide, but also the competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, your user experience better, your latency better, then you're eventually not necessarily tomorrow, but maybe in a year, maybe in five years, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be, because then it's going to take a long time to figure that out and make adjustments.",
+      "source": {
+        "line_start": 196,
+        "line_end": 196,
+        "timestamp": "00:29:54",
+        "speaker": "Casey Winters"
+      },
+      "context": "Warning that product-market fit erodes over time without continuous improvement",
+      "themes": ["pmf", "competition", "continuous-improvement", "ux"],
+      "zones": ["discovery", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-010",
+      "text": "Product leaders can struggle with assuming that questions from executives are them trying to learn versus them assuming you don't know something and testing you about it. I find that a lot of people get intimidated by executive questions when the executive is just trying to understand things. And then that changes the interaction you can have. Refusing to specialize served me well. I thought if I could learn all the skills that would allow me to combine them to work on the most important things versus only work on the thing I knew how to work on. That was a much faster path to the true executive role because I could speak better with CEOs about more topics than most of my peers.",
+      "source": {
+        "line_start": 252,
+        "line_end": 253,
+        "timestamp": "00:39:47",
+        "speaker": "Casey Winters"
+      },
+      "context": "Sharing advice on how to get to CPO level",
+      "themes": ["executive-communication", "learning", "generalist", "career-growth"],
+      "zones": ["discovery", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-011",
+      "text": "Early on in your career as a PM, you're going to get the most value by showing that you can ship real things to customers and that the customers like them. But if you want to start managing groups of PMs, if you want to start running a business unit, or a pillar, or a theme. I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. A lot of people couldn't do that step. And that means when you try to become a product leader at the company and the CEO expects that from you and you can't do it, you're going to set yourself up to really cap hard on how fast your career can grow. That's definitely where I've seen the biggest bottleneck in terms of skill sets. That one to get to the top is the great filter.",
+      "source": {
+        "line_start": 280,
+        "line_end": 283,
+        "timestamp": "00:45:30",
+        "speaker": "Casey Winters"
+      },
+      "context": "Explaining that strategic thinking is the key skill for PMs to advance to leadership",
+      "themes": ["strategy", "career-growth", "leadership", "skill-development"],
+      "zones": ["focus", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-012",
+      "text": "The goal of your kindle strategies, these like non-scalable hacks, they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users. It's once you unlock a fire strategy, that's when I think you think about hiring someone full time on growth to fully harness that new growth loop you've built. I still think data network effects are underrated. Leveraging product usage data to make the product value stronger and stronger over time. That could be personalized results in the case of Pinterest or better targeting data for advertising. Especially with Facebook and Apple's platform changes your product being able to generate its own data, versus just relying on the big platforms to do all the work for you. That's a real edge.",
+      "source": {
+        "line_start": 343,
+        "line_end": 352,
+        "timestamp": "00:51:24",
+        "speaker": "Casey Winters"
+      },
+      "context": "Discussing growth strategy phases and the power of data network effects",
+      "themes": ["growth", "data-network-effects", "scaling", "strategy"],
+      "zones": ["data", "velocity"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Under-communication upward kills alignment - escalate issues early so executives can help change circumstances, not just judge outcomes",
+    "Present to executives like telling a story - start with strategy/metrics/assumptions (chapter 1), not implementation details (chapter 6)",
+    "Thorough meeting prep is high-leverage work - anticipate every question, run pre-meetings, know the entire universe of how it can go",
+    "Perceived simplicity hides complexity well - advanced features easily discoverable when sought, effectively hidden when not (see WhatsApp)",
+    "Strategic thinking is the great filter for PM career growth - shipping is table stakes, writing strategy without help unlocks leadership"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "casey-winters-001",
+      "why": "Blames PMs for under-communicating, not executives for being out of touch - flips typical complaint",
+      "related_zones": ["alignment"]
+    },
+    {
+      "quoteId": "casey-winters-009",
+      "why": "Product-market fit erodes constantly and you'll fall out of PMF - challenges idea that PMF is permanent",
+      "related_zones": ["discovery", "perfection"]
+    }
+  ]
+}

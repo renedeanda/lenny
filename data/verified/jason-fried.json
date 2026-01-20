@@ -1,0 +1,223 @@
+{
+  "episode_slug": "jason-fried",
+  "guest": "Jason Fried",
+  "episode_title": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+  "verification_date": "2025-01-20",
+  "verified_by": "warp-agent",
+  "quotes": [
+    {
+      "id": "jason-fried-001",
+      "text": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth. We don't have any salespeople. We don't have 15 different versions of Basecamp. We're not after enterprise, so we don't have the enormous support costs and enormous support infrastructure required to service customers like that. Nobody can pay us more than 300 bucks. What that allows us to do is to just build one product, do a really nice job, keep it tight, and simple, and clear, and not have the complexity that comes with trying to service and satisfy so many different kinds of companies at different price levels with different price points and different expectations.",
+      "source": {
+        "line_start": 100,
+        "line_end": 103,
+        "timestamp": "00:10:31",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why 37signals has 75 employees while competitors have 1000-3000 employees with similar customer counts",
+      "themes": ["simplicity", "constraints", "focus", "efficiency"],
+      "zones": ["focus"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-002",
+      "text": "We build products with two people at a time. So every feature we work on in Basecamp, or HEY, or whatever we're building is two people, one programmer, one designer, and they have a maximum of six weeks to deliver the feature that they're working on. Most of them are usually a couple of weeks, but they have a maximum of six weeks. So we don't get stuck in these big huge projects, with meetings with 18 people, and slow decision-making, and indecision, and complexity, and all the things that come with trying to do too many things for too many people.",
+      "source": {
+        "line_start": 106,
+        "line_end": 106,
+        "timestamp": "00:11:58",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Describing 37signals' Shape Up methodology for product development",
+      "themes": ["small teams", "constraints", "velocity", "simplicity"],
+      "zones": ["velocity", "focus"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-003",
+      "text": "We think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base that we know, small businesses, very tight companies like ours. If you gave me 1,000 people, I wouldn't know what to do with them. We would fall apart. If you gave me 500 people, I wouldn't know what to do with them. We would fall apart. We would be a worse off company with 500 people. I'd be completely lost.",
+      "source": {
+        "line_start": 109,
+        "line_end": 109,
+        "timestamp": "00:12:49",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Discussing why staying small is intentional, not just a stepping stone",
+      "themes": ["constraints", "small teams", "simplicity"],
+      "zones": ["focus", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-004",
+      "text": "For me, it's really about, would I want to do this again? If the answer is, 'Yeah, that was enjoyable. I enjoyed that. That was worthwhile. I'm glad I did that. I'd like to do that again,' then it was successful. On the business side of things, we have to be profitable. It's in total, collectively, are we making more money than we spend? That's the only thing we ultimately look at. We don't have financial goals. We don't have OKRs or KPIs. I don't have revenue targets. I don't have growth targets. It's just, at the end, 'Did we make more than we spend? We did. Then the things we did this year were worth it.'",
+      "source": {
+        "line_start": 139,
+        "line_end": 145,
+        "timestamp": "00:14:53",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Defining what success means at 37signals - enjoyment over metrics",
+      "themes": ["success metrics", "profit", "goals", "sustainability"],
+      "zones": ["chaos", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-005",
+      "text": "This is my day job. I want to create the company that I want to work at, and I want to keep doing this job for as long as I can. As long as I'm useful, I'm good at it, I enjoy it, I want to keep doing that. To get in bed with an investment that would say, 'In five years you have to stop doing what you're doing, you're going to get a big paycheck maybe, but you got to stop doing what you're doing because we're going to sell this business,' that just has no appeal to me at all. I'd rather just keep doing the thing that I'm enjoying doing, as long as I can continue to make it work.",
+      "source": {
+        "line_start": 166,
+        "line_end": 169,
+        "timestamp": "00:18:31",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Discussing infinite games and why raising venture capital doesn't align with his goals",
+      "themes": ["infinite games", "independence", "sustainability", "bootstrapping"],
+      "zones": ["chaos", "focus"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-006",
+      "text": "There's only a few slots for a few companies like that at any one time. Meanwhile, there are hundreds or thousands of slots for other kinds of companies to make it if they don't go for the moon. My interest is optionality. If I could land in 135 different positions and have a sustainable business, that's great. Versus saying there's only one way I'm going to be successful or happy. Those odds aren't really in anyone's favor.",
+      "source": {
+        "line_start": 259,
+        "line_end": 259,
+        "timestamp": "00:29:29",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why the venture-backed unicorn path is not the only path to success",
+      "themes": ["bootstrapping", "optionality", "alternatives", "success"],
+      "zones": ["chaos", "focus"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-007",
+      "text": "We instead have appetites. And our appetite for any individual feature is no more than six weeks. Essentially that's our budget we're willing to spend. I'm only willing to spend six weeks on any feature. So we have to figure out the simplest, most effective version of that to get that done within six weeks and get it done by two people. Work expands to fill the time available. So for us it's about appetite.",
+      "source": {
+        "line_start": 280,
+        "line_end": 280,
+        "timestamp": "00:34:21",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining the Shape Up methodology's concept of appetites vs estimates",
+      "themes": ["appetites", "constraints", "velocity", "simplicity"],
+      "zones": ["velocity", "focus"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-008",
+      "text": "Promises are the downfall of every business. Every time we've made a promise to get something out in a certain period of time and we kind of inevitably seem to miss it, it's funny how it's almost like it would've been out in time, but the fact that we'd promised it made it not deliver in time. There's some strange thing that happens when you promise things. So we've learned to not promise anything. The worst promise is by the end of the year. That's the one promise you got to be very careful of, because it's so easy to make. There's nothing easier than promising work later.",
+      "source": {
+        "line_start": 304,
+        "line_end": 304,
+        "timestamp": "00:38:43",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Discussing why they don't make promises about delivery dates",
+      "themes": ["promises", "deadlines", "flexibility", "planning"],
+      "zones": ["chaos", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-009",
+      "text": "I think everything's a judgment call. Yeah, data can play a part. All sorts of things can play a part, but unless you're letting a machine make the decision, that's purely rational. If you're asking a human to make it's a judgment call. They're bringing to bear thousands of things they know and don't know about that influence them about this particular decision. When companies hire executives, what are they looking for? They typically go judgment and experience. They're not like they can read an Excel spreadsheet. They're looking for judgment and experience, which is a very amorphous thing.",
+      "source": {
+        "line_start": 337,
+        "line_end": 337,
+        "timestamp": "00:44:15",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Defending gut-driven decision making over data-driven approaches",
+      "themes": ["intuition", "judgment", "decision-making", "experience"],
+      "zones": ["intuition"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-010",
+      "text": "Give your intuition credit. Give your gut credit. It's absorbed everything. And plus the things that you don't know it absorbed that are valuable. We ask people, what do you think? We might say, what do you know? But we also say, what do you think more often. We talk about how does this feel? How does this screen feel? How does this flow feel? How does this feature feel? Because human beings feel. While we have a logical side to us and a rational side to us, we're primarily feeling creatures.",
+      "source": {
+        "line_start": 343,
+        "line_end": 352,
+        "timestamp": "00:46:42",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Encouraging teams to trust their instincts and feelings in product decisions",
+      "themes": ["intuition", "gut feel", "decision-making", "product development"],
+      "zones": ["intuition"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-011",
+      "text": "I didn't have any of this planned out. I didn't decide I wanted to be like this or like that. I just figure out what works and keep doing that until it doesn't. And then, maybe we do something else. We're very much an in-the-now company, making it up as we go. I'm not on a path. I can't see the path. I don't know where I'm going, and I'm perfectly comfortable with that. I think the further out you plan, the less you know about the decisions you're making. And by the time you get there, you're probably going to be wrong, or you're going to want to do something else.",
+      "source": {
+        "line_start": 457,
+        "line_end": 463,
+        "timestamp": "01:03:33",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why they don't do long-term planning and embrace uncertainty",
+      "themes": ["planning", "uncertainty", "flexibility", "intuition"],
+      "zones": ["chaos", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "jason-fried-012",
+      "text": "The reason I think it's great for entrepreneurs to start bootstrapping is because they just have more practice making money. They get better and better and better at the fundamental skill you need to have ultimately to run a successful business, which is to make money. Getting good at spending money is not a valuable skill as getting good at making money. You need constraints. When you have just loads of money, you basically have very few constraints. That's what tends to lead to slop.",
+      "source": {
+        "line_start": 577,
+        "line_end": 586,
+        "timestamp": "01:18:36",
+        "speaker": "Jason Fried",
+        "video_id": "LZLdoAq3R7Y"
+      },
+      "context": "Explaining why bootstrapping teaches better business fundamentals than venture capital",
+      "themes": ["bootstrapping", "constraints", "discipline", "profitability"],
+      "zones": ["focus", "chaos"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Constraints and small teams breed better work than unlimited resources - staying small is a destination, not just a stepping stone",
+    "Success means wanting to do it again, not hitting arbitrary metrics - profitable enjoyment over growth targets and OKRs",
+    "Appetites (fixed time budgets) beat estimates - give features 6 weeks max, forcing simplicity and preventing endless projects",
+    "Bootstrapping teaches the fundamental skill of making money through practice and constraints, while VC money teaches spending",
+    "Trust gut and intuition in decisions - executives hire for judgment and experience, not Excel-reading ability"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.05,
+    "chaos": 0.30,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jason-fried-004",
+      "why": "Rejects OKRs, revenue targets, and growth metrics entirely - success is just 'would I do this again?'",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "jason-fried-008",
+      "why": "Claims promises are the downfall of every business - directly challenges roadmap/commitment culture",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "jason-fried-009",
+      "why": "Everything is a judgment call, not data-driven - executives hired for judgment, not Excel skills",
+      "related_zones": ["intuition"]
+    }
+  ]
+}

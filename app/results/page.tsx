@@ -54,6 +54,9 @@ function ResultsContent() {
   const secondaryZone = zones[secondaryZoneId];
   const blindSpotZone = zones[blindSpotZoneId];
 
+  // Safe default for optional data
+  const episodeCount = primaryZone.episodeCount ?? 0;
+
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
     if (!cardElement) return;
@@ -162,7 +165,7 @@ function ResultsContent() {
             </div>
             <div>
               <div className="text-2xl font-bold text-amber font-mono">
-                {primaryZone.episodeCount}
+                {episodeCount}
               </div>
               <div className="text-xs text-ash-darker font-mono">EPISODES</div>
             </div>
@@ -316,7 +319,7 @@ function ResultsContent() {
               </div>
               <div className="mt-4 pt-4 border-t border-ash-darker">
                 <div className="text-xs text-ash-darker font-mono">
-                  + {primaryZone.episodeCount - primaryZone.associatedGuests.length} more guests across {primaryZone.episodeCount} episodes
+                  + {Math.max(episodeCount - primaryZone.associatedGuests.length, 0)} more guests across {episodeCount} episodes
                 </div>
               </div>
             </motion.div>
