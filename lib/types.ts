@@ -32,3 +32,42 @@ export type ZoneId =
 export interface ZoneScores {
   [key: string]: number;
 }
+
+// Verified content types
+export interface QuoteSource {
+  slug: string;
+  path: string;
+  lineStart: number;
+  lineEnd: number;
+}
+
+export interface Quote {
+  id: string;
+  speaker: string;
+  text: string;
+  timestamp?: string;
+  source: QuoteSource;
+  themes: string[];
+  zones: ZoneId[];
+}
+
+export interface Evidence {
+  quoteId: string;
+  claim: string;
+  strength: 'high' | 'medium' | 'low';
+}
+
+export interface EpisodeEnrichment {
+  slug: string;
+  keyQuotes: Quote[];
+  themes: string[];
+  takeaways: string[];
+  contradictionsRefs: string[];
+  zoneInfluence: Record<ZoneId, number>;
+}
+
+export interface VerifiedContent {
+  episodes: EpisodeEnrichment[];
+  quotes: Quote[];
+  lastUpdated: string;
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "brian-chesky",
+  "candidates": [
+    {
+      "id": "brian-chesky-q000",
+      "speaker": "Brian Chesky",
+      "text": "I had no idea you would become a podcast host and that you would have such a successful podcast. But yeah, congrats on everything. This is awesome.",
+      "timestamp": "00:05:12",
+      "lineStart": 69,
+      "lineEnd": 69,
+      "lengthChars": 147,
+      "suggestedThemes": [],
+      "suggestedZones": []
+    },
+    {
+      "id": "brian-chesky-q001",
+      "speaker": "Brian Chesky",
+      "text": "And I was at this private school actually for hockey. Because I had this life where I was playing ice hockey and I thought I was going to play college hockey. My dad was really into it. I was really into it. And I had an art teacher in high school at this military school. That's another fun fact. I basically went to a military high school.",
+      "timestamp": "01:05:18",
+      "lineStart": 312,
+      "lineEnd": 312,
+      "lengthChars": 341,
+      "suggestedThemes": [],
+      "suggestedZones": []
+    }
+  ]
+}

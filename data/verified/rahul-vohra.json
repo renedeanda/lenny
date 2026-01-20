@@ -1,0 +1,178 @@
+{
+  "slug": "rahul-vohra",
+  "keyQuotes": [
+    {
+      "id": "rahul-vohra-q001",
+      "speaker": "Rahul Vohra",
+      "text": "There is no such thing as a truly viral product. Even Facebook in its heyday had a viral factor of about 0.7. What I mean is, no app has sustained a viral factor of greater than one for any real period of time. The true secret behind virality is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.",
+      "timestamp": "00:07:08",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 102
+      },
+      "themes": ["growth", "virality", "word-of-mouth"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "rahul-vohra-q002",
+      "speaker": "Rahul Vohra",
+      "text": "The Switch log. It's born out of the observation that your calendar says what you thought you were going to do, but it's really only your trail of work that describes what you actually did. What if I just did whatever the heck I wanted? Every single time I change task I just Slack DM'd my EA and said, 'TS:,' and then a few words for the task I was doing.",
+      "timestamp": "00:21:45",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": ["productivity", "time-management", "focus"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "rahul-vohra-q003",
+      "speaker": "Rahul Vohra",
+      "text": "I looked at all of the major font families, and honestly none of them was what I would call truly excellent. I was looking for a font that was in and of itself gorgeous, that could convey a message of any kind without overpowering the sentiment, that made reading speed and comprehension really fast, and that made email addresses themselves look great.",
+      "timestamp": "00:33:56",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 255
+      },
+      "themes": ["design", "craft", "details"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "rahul-vohra-q004",
+      "speaker": "Rahul Vohra",
+      "text": "Email is mission-critical. It's not something where you can simply launch with a half-baked product. When you have mission-critical products like email where you are interfacing with customers, with candidates, with investors, it turns out to really matter. That's why you can't just launch with a half-baked product.",
+      "timestamp": "00:42:08",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": ["product", "quality", "launch-strategy"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "rahul-vohra-q005",
+      "speaker": "Rahul Vohra",
+      "text": "You have to pick something. The most well-known brands have stood for one clear thing, they have a clear position. So in order for Superhuman to be memorable, I believed that we needed to occupy a clear position that was unique and which was available and which reinforced our product strategy. That's how speed became our position.",
+      "timestamp": "00:43:37",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 303,
+        "lineEnd": 303
+      },
+      "themes": ["positioning", "strategy", "branding"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "rahul-vohra-q006",
+      "speaker": "Rahul Vohra",
+      "text": "At peak we had about 20 people doing manual onboarding. What we found is two things. Number one, the user metrics are excellent for things like engagement, retention, product market fit score, MPS, virality. And number two, in a world where you can easily and quickly raise funding, you can actually use dollars to avoid building a first-time user experience and instead focus all of your engineers on finding product market fit.",
+      "timestamp": "00:48:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 348
+      },
+      "themes": ["onboarding", "growth", "strategy"],
+      "zones": ["velocity", "focus", "discovery"]
+    },
+    {
+      "id": "rahul-vohra-q007",
+      "speaker": "Rahul Vohra",
+      "text": "You can measure product market fit. You can optimize product market fit. You can systematically, even numerically increase product market fit. And you can even have an algorithm write your roadmap for you, and that is a roadmap that is guaranteed to increase product market fit.",
+      "timestamp": "00:53:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["product-market-fit", "metrics", "roadmap"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "rahul-vohra-q008",
+      "speaker": "Rahul Vohra",
+      "text": "To get to product market fit, you have to deliberately not act on the feedback of many of your early users. You're listening to people intensely and building what people want. But it can't be all people. The question becomes, how do you listen to them? And then even of what they say, what do you pay attention to and what don't you?",
+      "timestamp": "00:54:07",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 363
+      },
+      "themes": ["product-market-fit", "user-feedback", "focus"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "rahul-vohra-q009",
+      "speaker": "Rahul Vohra",
+      "text": "We should make business software like we make games, because when we make products like we make games, people find them fun. They tell their friends, they fall in love with them. It's another way of backing into word of mouth. It's not gamification, that doesn't work. Game design works, but game design is not gamification.",
+      "timestamp": "00:59:58",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 402
+      },
+      "themes": ["product-design", "game-design", "user-experience"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "rahul-vohra-q010",
+      "speaker": "Rahul Vohra",
+      "text": "Make fun toys and then combine those into games. The best games are constructed out of toys. Why? Because then they are fun on both levels, the toy and the game itself. Think about the features of your product. Do those features indulge playful exploration? Are they fun even without a goal? Do they elicit moments of pleasant surprise?",
+      "timestamp": "01:03:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 414,
+        "lineEnd": 423
+      },
+      "themes": ["product-design", "game-design", "user-experience"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "rahul-vohra-q011",
+      "speaker": "Rahul Vohra",
+      "text": "SDR - Single Decisive Reason. For important decisions, you should be able to identify one reason that on its own supports the decision. All too often we rely on a collection of weak reasons to justify decisions. Multiple low quality reasons rarely add up to a high quality reason to do something.",
+      "timestamp": "01:19:22",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 513,
+        "lineEnd": 528
+      },
+      "themes": ["decision-making", "leadership", "clarity"],
+      "zones": ["focus", "alignment"]
+    }
+  ],
+  "themes": ["product-market-fit", "design", "craft", "speed", "positioning", "game-design", "growth", "virality", "focus", "decision-making"],
+  "takeaways": [
+    "True virality comes from word of mouth, not viral mechanics - even Facebook never sustained a viral factor above 1.0. Focus on creating products people spontaneously tell others about.",
+    "Manual onboarding at scale is viable with the right economics - Superhuman had 20 people doing manual onboarding, which drove exceptional engagement metrics and let engineers focus on product-market fit instead of activation flows.",
+    "Product-market fit can be measured and systematically improved - focus on the 'somewhat disappointed' users for whom your main benefit resonates, not the people who already love you or those who don't care.",
+    "Game design (not gamification) makes products delightful - create 'toys' that are fun even without goals, that invite playful exploration and pleasant surprises, then combine them into games.",
+    "Single Decisive Reason (SDR) cuts through weak justifications - for any important decision, identify one reason that alone supports it. Multiple weak reasons rarely add up to a strong one."
+  ],
+  "contradictionsRefs": ["speed", "users"],
+  "zoneInfluence": {
+    "velocity": 4,
+    "perfection": 5,
+    "discovery": 3,
+    "data": 3,
+    "intuition": 2,
+    "alignment": 1,
+    "chaos": 0,
+    "focus": 5
+  }
+}

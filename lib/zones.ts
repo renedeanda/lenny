@@ -8,11 +8,12 @@ export interface Zone {
   color: string;
   coordinates: { x: number; y: number };
   icon: string;
-  quote: string;
-  quoteAuthor: string;
-  episode: string;
+  quoteId?: string; // Reference to verified quote ID
+  quote?: string; // Legacy field, will be removed
+  quoteAuthor?: string; // Legacy field, will be removed
+  episode?: string; // Legacy field, will be removed
   associatedGuests: string[];
-  episodeCount: number;
+  episodeCount?: number; // Will be computed from verified quotes
 }
 
 export const zones: Record<ZoneId, Zone> = {
@@ -24,11 +25,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#ffb347',
     coordinates: { x: 150, y: 150 },
     icon: '⚡',
-    quote: 'Speed compounds. When I look at the most successful founders, what I see time and time again is velocity of shipping.',
-    quoteAuthor: 'Rahul Vohra',
-    episode: 'Superhuman CEO on building product taste',
-    associatedGuests: ['Rahul Vohra (Superhuman)', 'Elena Verna', 'Guillermo Rauch (Vercel)'],
-    episodeCount: 42
+    quoteId: 'rahul-vohra-q005', // "You have to pick something...speed became our position"
+    associatedGuests: ['Rahul Vohra (Superhuman)', 'Elena Verna', 'Guillermo Rauch (Vercel)']
   },
   perfection: {
     id: 'perfection',
@@ -38,11 +36,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#9d4edd',
     coordinates: { x: 650, y: 150 },
     icon: '✨',
-    quote: 'Leaders are in the details. How do you know people are doing a good job if you\'re not in the details? We wanted a company where a thousand people could work, but it\'ll look like 10 people did it.',
-    quoteAuthor: 'Brian Chesky',
-    episode: 'Airbnb CEO on founder mode',
-    associatedGuests: ['Brian Chesky (Airbnb)', 'Dylan Field (Figma)', 'Tobi Lütke (Shopify)'],
-    episodeCount: 38
+    quoteId: 'brian-chesky-q001', // "Leaders are in the details..."
+    associatedGuests: ['Brian Chesky (Airbnb)', 'Dylan Field (Figma)', 'Tobi Lütke (Shopify)']
   },
   discovery: {
     id: 'discovery',
@@ -52,11 +47,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#06ffa5',
     coordinates: { x: 150, y: 650 },
     icon: '🔬',
-    quote: 'The teams that win are those who talk to customers constantly. You can\'t build great products in a vacuum.',
-    quoteAuthor: 'Marty Cagan',
-    episode: 'Transformed: Moving to product-led org',
-    associatedGuests: ['Marty Cagan (SVPG)', 'Teresa Torres', 'April Dunford'],
-    episodeCount: 35
+    // TODO: Add verified quoteId from Marty Cagan, Teresa Torres, or April Dunford episodes
+    associatedGuests: ['Marty Cagan (SVPG)', 'Teresa Torres', 'April Dunford']
   },
   data: {
     id: 'data',
@@ -66,11 +58,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#00d4ff',
     coordinates: { x: 650, y: 650 },
     icon: '📊',
-    quote: 'Data removes bias and politics. The teams that ship fastest are those with the best data infrastructure.',
-    quoteAuthor: 'Reforge Instructors',
-    episode: 'Growth frameworks compilation',
-    associatedGuests: ['Casey Winters (Pinterest)', 'Elena Verna', 'Brian Balfour (Reforge)'],
-    episodeCount: 47
+    // TODO: Add verified quoteId from Casey Winters, Elena Verna, or Brian Balfour episodes
+    associatedGuests: ['Casey Winters (Pinterest)', 'Elena Verna', 'Brian Balfour (Reforge)']
   },
   intuition: {
     id: 'intuition',
@@ -80,11 +69,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#ff006e',
     coordinates: { x: 400, y: 100 },
     icon: '🎯',
-    quote: 'If I asked people what they wanted, they would have said faster horses. Vision must come from somewhere deeper than user requests.',
-    quoteAuthor: 'Steve Jobs School',
-    episode: 'Founder mode philosophy',
-    associatedGuests: ['Amjad Masad (Replit)', 'Paul Graham', 'Jason Fried (37signals)'],
-    episodeCount: 29
+    // TODO: Add verified quoteId from Amjad Masad, Paul Graham, or Jason Fried episodes
+    associatedGuests: ['Amjad Masad (Replit)', 'Paul Graham', 'Jason Fried (37signals)']
   },
   alignment: {
     id: 'alignment',
@@ -94,11 +80,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#ffd60a',
     coordinates: { x: 100, y: 400 },
     icon: '🤝',
-    quote: 'The hardest part of product isn\'t the building, it\'s getting everyone aligned on what to build and why.',
-    quoteAuthor: 'Gokul Rajaram',
-    episode: 'The dream team playbook',
-    associatedGuests: ['Gokul Rajaram (Coinbase)', 'Claire Hughes Johnson (Stripe)', 'Shreyas Doshi'],
-    episodeCount: 41
+    quoteId: 'brian-chesky-q010', // "Everyone should row in the same direction"
+    associatedGuests: ['Gokul Rajaram (Coinbase)', 'Claire Hughes Johnson (Stripe)', 'Shreyas Doshi']
   },
   chaos: {
     id: 'chaos',
@@ -108,11 +91,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#dc143c',
     coordinates: { x: 700, y: 400 },
     icon: '🌪️',
-    quote: 'Planning is guessing. Just start shipping. You\'ll learn more in a week of shipping than a month of planning.',
-    quoteAuthor: 'Amjad Masad',
-    episode: 'AI-first product development',
-    associatedGuests: ['Amjad Masad (Replit)', 'Guillermo Rauch (Vercel)', 'Anton Osika (Lovable)'],
-    episodeCount: 33
+    // TODO: Add verified quoteId from Amjad Masad, Guillermo Rauch, or Anton Osika episodes
+    associatedGuests: ['Amjad Masad (Replit)', 'Guillermo Rauch (Vercel)', 'Anton Osika (Lovable)']
   },
   focus: {
     id: 'focus',
@@ -122,11 +102,8 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#9d4edd',
     coordinates: { x: 400, y: 700 },
     icon: '🎯',
-    quote: 'We say no to literally thousands of things to make sure we don\'t get on the wrong track or try to do too much.',
-    quoteAuthor: 'Linear Team Philosophy',
-    episode: 'Building focused products',
-    associatedGuests: ['Karri Saarinen (Linear)', 'Jason Fried (37signals)', 'Rahul Vohra (Superhuman)'],
-    episodeCount: 36
+    quoteId: 'brian-chesky-q009', // "Five teams should do one thing rather than one team do five things"
+    associatedGuests: ['Karri Saarinen (Linear)', 'Jason Fried (37signals)', 'Rahul Vohra (Superhuman)']
   }
 };
 

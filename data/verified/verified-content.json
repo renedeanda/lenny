@@ -1,0 +1,975 @@
+{
+  "episodes": [
+    {
+      "slug": "brian-chesky",
+      "keyQuotes": [
+        {
+          "id": "brian-chesky-q001",
+          "speaker": "Brian Chesky",
+          "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
+          "timestamp": "00:00:00",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 39,
+            "lineEnd": 39
+          },
+          "themes": [
+            "leadership",
+            "management",
+            "details"
+          ],
+          "zones": [
+            "perfection",
+            "alignment"
+          ]
+        },
+        {
+          "id": "brian-chesky-q002",
+          "speaker": "Brian Chesky",
+          "text": "You can't build a product unless you know how to talk about the product. You can't be an expert in making the product unless you're also an expert in the market of it. If you build a great product and no one knows about it, did you even build a product?",
+          "timestamp": "00:07:42",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 81,
+            "lineEnd": 81
+          },
+          "themes": [
+            "product",
+            "marketing",
+            "strategy"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "brian-chesky-q003",
+          "speaker": "Brian Chesky",
+          "text": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
+          "timestamp": "00:14:26",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 105,
+            "lineEnd": 105
+          },
+          "themes": [
+            "culture",
+            "quality",
+            "design"
+          ],
+          "zones": [
+            "perfection",
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "brian-chesky-q004",
+          "speaker": "Brian Chesky",
+          "text": "I think the CEO should be basically the chief product officer of a product or tech company. If the CEO is not the chief product officer then I don't know if they're a product or tech led company.",
+          "timestamp": "00:16:08",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 117,
+            "lineEnd": 117
+          },
+          "themes": [
+            "leadership",
+            "product",
+            "founder-mode"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "brian-chesky-q005",
+          "speaker": "Brian Chesky",
+          "text": "The less involved I was in the project, the more spin there was, the less clear the goals, the less advocacy the team had, the less resources, the fewer resources they had. And then therefore the slower they moved. And the slower they moved, the more they assumed it was because I was too involved.",
+          "timestamp": "00:17:27",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 123,
+            "lineEnd": 123
+          },
+          "themes": [
+            "leadership",
+            "delegation",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "brian-chesky-q006",
+          "speaker": "Brian Chesky",
+          "text": "There's a great saying that the best way to slow a project down is add more people to it. We have fewer than 7,000 employees today. As a relative comparison, I think Uber has 30,000. And it's not to say they're big, it's just say that's how small we are and we've really benefited from having not a lot of employees.",
+          "timestamp": "00:25:54",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 150,
+            "lineEnd": 150
+          },
+          "themes": [
+            "team-size",
+            "efficiency",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "brian-chesky-q007",
+          "speaker": "Brian Chesky",
+          "text": "A design leader's job should be managing the design first, the people second. That's what Jony did. I could never imagine Jony out at Apple just being a manager of people. He was looking and designing the work with the team. How do you manage the people without managing their work? How do you give them development if you're not in the details with them on the work?",
+          "timestamp": "00:26:28",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 153,
+            "lineEnd": 153
+          },
+          "themes": [
+            "leadership",
+            "design",
+            "management"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "brian-chesky-q008",
+          "speaker": "Brian Chesky",
+          "text": "Way too many founders apologize for how they want to run the company. They find some midpoint between how they want to run a company and how the people they lead want to run the company. That's a good way to make everyone miserable. Because what everyone really wants is clarity. And what everyone really wants is to be able to row in the same direction really quickly.",
+          "timestamp": "00:31:16",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 171,
+            "lineEnd": 171
+          },
+          "themes": [
+            "leadership",
+            "founder-mode",
+            "culture"
+          ],
+          "zones": [
+            "focus",
+            "alignment",
+            "perfection"
+          ]
+        },
+        {
+          "id": "brian-chesky-q009",
+          "speaker": "Brian Chesky",
+          "text": "Five teams should do one thing rather than one team do five things. People should work together. I think that people should consider doing launches. You can by the way, ship every hour of every day, but then package it and tell a story if you want hold the product back.",
+          "timestamp": "00:36:18",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 192,
+            "lineEnd": 192
+          },
+          "themes": [
+            "product",
+            "focus",
+            "velocity",
+            "marketing"
+          ],
+          "zones": [
+            "focus",
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "id": "brian-chesky-q010",
+          "speaker": "Brian Chesky",
+          "text": "Everyone should row in the same direction. If there's only one thing I said in this interview today, actually I'm not sure what it would be, but I think a good candidate is try to get everyone to row together in the same direction. Otherwise, why the hell are you all in the same company?",
+          "timestamp": "00:38:18",
+          "source": {
+            "slug": "brian-chesky",
+            "path": "episodes/brian-chesky/transcript.md",
+            "lineStart": 198,
+            "lineEnd": 198
+          },
+          "themes": [
+            "alignment",
+            "culture",
+            "strategy"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        }
+      ],
+      "themes": [
+        "leadership",
+        "product-management",
+        "founder-mode",
+        "details",
+        "velocity",
+        "quality",
+        "focus",
+        "alignment"
+      ],
+      "takeaways": [
+        "Leaders must be in the details without micromanaging - there's a critical difference between telling people what to do and understanding their work deeply enough to guide and develop them.",
+        "Product and marketing are inseparable - if you can't articulate the product, you haven't truly built it. Brian merged product management with product marketing at Airbnb.",
+        "Company clarity comes from focused direction - everyone rowing together in the same direction beats distributed empowerment that creates politics and bureaucracy.",
+        "Small, expert teams beat large generalist ones - Airbnb has 7,000 employees vs Uber's 30,000, and leaders must be domain experts who manage the work first, people second.",
+        "The CEO should be the chief product officer in product-led companies - delegating away your core strength as a founder creates the conditions for organizational decay."
+      ],
+      "contradictionsRefs": [
+        "details",
+        "speed"
+      ],
+      "zoneInfluence": {
+        "velocity": 3,
+        "perfection": 5,
+        "discovery": 1,
+        "data": 2,
+        "intuition": 2,
+        "alignment": 5,
+        "chaos": 0,
+        "focus": 5
+      }
+    },
+    {
+      "slug": "rahul-vohra",
+      "keyQuotes": [
+        {
+          "id": "rahul-vohra-q001",
+          "speaker": "Rahul Vohra",
+          "text": "There is no such thing as a truly viral product. Even Facebook in its heyday had a viral factor of about 0.7. What I mean is, no app has sustained a viral factor of greater than one for any real period of time. The true secret behind virality is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.",
+          "timestamp": "00:07:08",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 96,
+            "lineEnd": 102
+          },
+          "themes": [
+            "growth",
+            "virality",
+            "word-of-mouth"
+          ],
+          "zones": [
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q002",
+          "speaker": "Rahul Vohra",
+          "text": "The Switch log. It's born out of the observation that your calendar says what you thought you were going to do, but it's really only your trail of work that describes what you actually did. What if I just did whatever the heck I wanted? Every single time I change task I just Slack DM'd my EA and said, 'TS:,' and then a few words for the task I was doing.",
+          "timestamp": "00:21:45",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 168,
+            "lineEnd": 168
+          },
+          "themes": [
+            "productivity",
+            "time-management",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q003",
+          "speaker": "Rahul Vohra",
+          "text": "I looked at all of the major font families, and honestly none of them was what I would call truly excellent. I was looking for a font that was in and of itself gorgeous, that could convey a message of any kind without overpowering the sentiment, that made reading speed and comprehension really fast, and that made email addresses themselves look great.",
+          "timestamp": "00:33:56",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 252,
+            "lineEnd": 255
+          },
+          "themes": [
+            "design",
+            "craft",
+            "details"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q004",
+          "speaker": "Rahul Vohra",
+          "text": "Email is mission-critical. It's not something where you can simply launch with a half-baked product. When you have mission-critical products like email where you are interfacing with customers, with candidates, with investors, it turns out to really matter. That's why you can't just launch with a half-baked product.",
+          "timestamp": "00:42:08",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 294,
+            "lineEnd": 294
+          },
+          "themes": [
+            "product",
+            "quality",
+            "launch-strategy"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q005",
+          "speaker": "Rahul Vohra",
+          "text": "You have to pick something. The most well-known brands have stood for one clear thing, they have a clear position. So in order for Superhuman to be memorable, I believed that we needed to occupy a clear position that was unique and which was available and which reinforced our product strategy. That's how speed became our position.",
+          "timestamp": "00:43:37",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 303,
+            "lineEnd": 303
+          },
+          "themes": [
+            "positioning",
+            "strategy",
+            "branding"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q006",
+          "speaker": "Rahul Vohra",
+          "text": "At peak we had about 20 people doing manual onboarding. What we found is two things. Number one, the user metrics are excellent for things like engagement, retention, product market fit score, MPS, virality. And number two, in a world where you can easily and quickly raise funding, you can actually use dollars to avoid building a first-time user experience and instead focus all of your engineers on finding product market fit.",
+          "timestamp": "00:48:12",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 336,
+            "lineEnd": 348
+          },
+          "themes": [
+            "onboarding",
+            "growth",
+            "strategy"
+          ],
+          "zones": [
+            "velocity",
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q007",
+          "speaker": "Rahul Vohra",
+          "text": "You can measure product market fit. You can optimize product market fit. You can systematically, even numerically increase product market fit. And you can even have an algorithm write your roadmap for you, and that is a roadmap that is guaranteed to increase product market fit.",
+          "timestamp": "00:53:12",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 360,
+            "lineEnd": 360
+          },
+          "themes": [
+            "product-market-fit",
+            "metrics",
+            "roadmap"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q008",
+          "speaker": "Rahul Vohra",
+          "text": "To get to product market fit, you have to deliberately not act on the feedback of many of your early users. You're listening to people intensely and building what people want. But it can't be all people. The question becomes, how do you listen to them? And then even of what they say, what do you pay attention to and what don't you?",
+          "timestamp": "00:54:07",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 363,
+            "lineEnd": 363
+          },
+          "themes": [
+            "product-market-fit",
+            "user-feedback",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q009",
+          "speaker": "Rahul Vohra",
+          "text": "We should make business software like we make games, because when we make products like we make games, people find them fun. They tell their friends, they fall in love with them. It's another way of backing into word of mouth. It's not gamification, that doesn't work. Game design works, but game design is not gamification.",
+          "timestamp": "00:59:58",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 402,
+            "lineEnd": 402
+          },
+          "themes": [
+            "product-design",
+            "game-design",
+            "user-experience"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q010",
+          "speaker": "Rahul Vohra",
+          "text": "Make fun toys and then combine those into games. The best games are constructed out of toys. Why? Because then they are fun on both levels, the toy and the game itself. Think about the features of your product. Do those features indulge playful exploration? Are they fun even without a goal? Do they elicit moments of pleasant surprise?",
+          "timestamp": "01:03:12",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 414,
+            "lineEnd": 423
+          },
+          "themes": [
+            "product-design",
+            "game-design",
+            "user-experience"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "id": "rahul-vohra-q011",
+          "speaker": "Rahul Vohra",
+          "text": "SDR - Single Decisive Reason. For important decisions, you should be able to identify one reason that on its own supports the decision. All too often we rely on a collection of weak reasons to justify decisions. Multiple low quality reasons rarely add up to a high quality reason to do something.",
+          "timestamp": "01:19:22",
+          "source": {
+            "slug": "rahul-vohra",
+            "path": "episodes/rahul-vohra/transcript.md",
+            "lineStart": 513,
+            "lineEnd": 528
+          },
+          "themes": [
+            "decision-making",
+            "leadership",
+            "clarity"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "product-market-fit",
+        "design",
+        "craft",
+        "speed",
+        "positioning",
+        "game-design",
+        "growth",
+        "virality",
+        "focus",
+        "decision-making"
+      ],
+      "takeaways": [
+        "True virality comes from word of mouth, not viral mechanics - even Facebook never sustained a viral factor above 1.0. Focus on creating products people spontaneously tell others about.",
+        "Manual onboarding at scale is viable with the right economics - Superhuman had 20 people doing manual onboarding, which drove exceptional engagement metrics and let engineers focus on product-market fit instead of activation flows.",
+        "Product-market fit can be measured and systematically improved - focus on the 'somewhat disappointed' users for whom your main benefit resonates, not the people who already love you or those who don't care.",
+        "Game design (not gamification) makes products delightful - create 'toys' that are fun even without goals, that invite playful exploration and pleasant surprises, then combine them into games.",
+        "Single Decisive Reason (SDR) cuts through weak justifications - for any important decision, identify one reason that alone supports it. Multiple weak reasons rarely add up to a strong one."
+      ],
+      "contradictionsRefs": [
+        "speed",
+        "users"
+      ],
+      "zoneInfluence": {
+        "velocity": 4,
+        "perfection": 5,
+        "discovery": 3,
+        "data": 3,
+        "intuition": 2,
+        "alignment": 1,
+        "chaos": 0,
+        "focus": 5
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "id": "brian-chesky-q001",
+      "speaker": "Brian Chesky",
+      "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
+      "timestamp": "00:00:00",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 39,
+        "lineEnd": 39
+      },
+      "themes": [
+        "leadership",
+        "management",
+        "details"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q002",
+      "speaker": "Brian Chesky",
+      "text": "You can't build a product unless you know how to talk about the product. You can't be an expert in making the product unless you're also an expert in the market of it. If you build a great product and no one knows about it, did you even build a product?",
+      "timestamp": "00:07:42",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 81
+      },
+      "themes": [
+        "product",
+        "marketing",
+        "strategy"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "brian-chesky-q003",
+      "speaker": "Brian Chesky",
+      "text": "We wanted a company where a thousand people could work, but it'll look like 10 people did it.",
+      "timestamp": "00:14:26",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 105
+      },
+      "themes": [
+        "culture",
+        "quality",
+        "design"
+      ],
+      "zones": [
+        "perfection",
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q004",
+      "speaker": "Brian Chesky",
+      "text": "I think the CEO should be basically the chief product officer of a product or tech company. If the CEO is not the chief product officer then I don't know if they're a product or tech led company.",
+      "timestamp": "00:16:08",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": [
+        "leadership",
+        "product",
+        "founder-mode"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "brian-chesky-q005",
+      "speaker": "Brian Chesky",
+      "text": "The less involved I was in the project, the more spin there was, the less clear the goals, the less advocacy the team had, the less resources, the fewer resources they had. And then therefore the slower they moved. And the slower they moved, the more they assumed it was because I was too involved.",
+      "timestamp": "00:17:27",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": [
+        "leadership",
+        "delegation",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "brian-chesky-q006",
+      "speaker": "Brian Chesky",
+      "text": "There's a great saying that the best way to slow a project down is add more people to it. We have fewer than 7,000 employees today. As a relative comparison, I think Uber has 30,000. And it's not to say they're big, it's just say that's how small we are and we've really benefited from having not a lot of employees.",
+      "timestamp": "00:25:54",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": [
+        "team-size",
+        "efficiency",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "brian-chesky-q007",
+      "speaker": "Brian Chesky",
+      "text": "A design leader's job should be managing the design first, the people second. That's what Jony did. I could never imagine Jony out at Apple just being a manager of people. He was looking and designing the work with the team. How do you manage the people without managing their work? How do you give them development if you're not in the details with them on the work?",
+      "timestamp": "00:26:28",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": [
+        "leadership",
+        "design",
+        "management"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "brian-chesky-q008",
+      "speaker": "Brian Chesky",
+      "text": "Way too many founders apologize for how they want to run the company. They find some midpoint between how they want to run a company and how the people they lead want to run the company. That's a good way to make everyone miserable. Because what everyone really wants is clarity. And what everyone really wants is to be able to row in the same direction really quickly.",
+      "timestamp": "00:31:16",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": [
+        "leadership",
+        "founder-mode",
+        "culture"
+      ],
+      "zones": [
+        "focus",
+        "alignment",
+        "perfection"
+      ]
+    },
+    {
+      "id": "brian-chesky-q009",
+      "speaker": "Brian Chesky",
+      "text": "Five teams should do one thing rather than one team do five things. People should work together. I think that people should consider doing launches. You can by the way, ship every hour of every day, but then package it and tell a story if you want hold the product back.",
+      "timestamp": "00:36:18",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 192
+      },
+      "themes": [
+        "product",
+        "focus",
+        "velocity",
+        "marketing"
+      ],
+      "zones": [
+        "focus",
+        "velocity",
+        "perfection"
+      ]
+    },
+    {
+      "id": "brian-chesky-q010",
+      "speaker": "Brian Chesky",
+      "text": "Everyone should row in the same direction. If there's only one thing I said in this interview today, actually I'm not sure what it would be, but I think a good candidate is try to get everyone to row together in the same direction. Otherwise, why the hell are you all in the same company?",
+      "timestamp": "00:38:18",
+      "source": {
+        "slug": "brian-chesky",
+        "path": "episodes/brian-chesky/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 198
+      },
+      "themes": [
+        "alignment",
+        "culture",
+        "strategy"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q001",
+      "speaker": "Rahul Vohra",
+      "text": "There is no such thing as a truly viral product. Even Facebook in its heyday had a viral factor of about 0.7. What I mean is, no app has sustained a viral factor of greater than one for any real period of time. The true secret behind virality is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.",
+      "timestamp": "00:07:08",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 102
+      },
+      "themes": [
+        "growth",
+        "virality",
+        "word-of-mouth"
+      ],
+      "zones": [
+        "velocity",
+        "perfection"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q002",
+      "speaker": "Rahul Vohra",
+      "text": "The Switch log. It's born out of the observation that your calendar says what you thought you were going to do, but it's really only your trail of work that describes what you actually did. What if I just did whatever the heck I wanted? Every single time I change task I just Slack DM'd my EA and said, 'TS:,' and then a few words for the task I was doing.",
+      "timestamp": "00:21:45",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": [
+        "productivity",
+        "time-management",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q003",
+      "speaker": "Rahul Vohra",
+      "text": "I looked at all of the major font families, and honestly none of them was what I would call truly excellent. I was looking for a font that was in and of itself gorgeous, that could convey a message of any kind without overpowering the sentiment, that made reading speed and comprehension really fast, and that made email addresses themselves look great.",
+      "timestamp": "00:33:56",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 255
+      },
+      "themes": [
+        "design",
+        "craft",
+        "details"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q004",
+      "speaker": "Rahul Vohra",
+      "text": "Email is mission-critical. It's not something where you can simply launch with a half-baked product. When you have mission-critical products like email where you are interfacing with customers, with candidates, with investors, it turns out to really matter. That's why you can't just launch with a half-baked product.",
+      "timestamp": "00:42:08",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": [
+        "product",
+        "quality",
+        "launch-strategy"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q005",
+      "speaker": "Rahul Vohra",
+      "text": "You have to pick something. The most well-known brands have stood for one clear thing, they have a clear position. So in order for Superhuman to be memorable, I believed that we needed to occupy a clear position that was unique and which was available and which reinforced our product strategy. That's how speed became our position.",
+      "timestamp": "00:43:37",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 303,
+        "lineEnd": 303
+      },
+      "themes": [
+        "positioning",
+        "strategy",
+        "branding"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q006",
+      "speaker": "Rahul Vohra",
+      "text": "At peak we had about 20 people doing manual onboarding. What we found is two things. Number one, the user metrics are excellent for things like engagement, retention, product market fit score, MPS, virality. And number two, in a world where you can easily and quickly raise funding, you can actually use dollars to avoid building a first-time user experience and instead focus all of your engineers on finding product market fit.",
+      "timestamp": "00:48:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 348
+      },
+      "themes": [
+        "onboarding",
+        "growth",
+        "strategy"
+      ],
+      "zones": [
+        "velocity",
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q007",
+      "speaker": "Rahul Vohra",
+      "text": "You can measure product market fit. You can optimize product market fit. You can systematically, even numerically increase product market fit. And you can even have an algorithm write your roadmap for you, and that is a roadmap that is guaranteed to increase product market fit.",
+      "timestamp": "00:53:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": [
+        "product-market-fit",
+        "metrics",
+        "roadmap"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q008",
+      "speaker": "Rahul Vohra",
+      "text": "To get to product market fit, you have to deliberately not act on the feedback of many of your early users. You're listening to people intensely and building what people want. But it can't be all people. The question becomes, how do you listen to them? And then even of what they say, what do you pay attention to and what don't you?",
+      "timestamp": "00:54:07",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 363
+      },
+      "themes": [
+        "product-market-fit",
+        "user-feedback",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q009",
+      "speaker": "Rahul Vohra",
+      "text": "We should make business software like we make games, because when we make products like we make games, people find them fun. They tell their friends, they fall in love with them. It's another way of backing into word of mouth. It's not gamification, that doesn't work. Game design works, but game design is not gamification.",
+      "timestamp": "00:59:58",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 402
+      },
+      "themes": [
+        "product-design",
+        "game-design",
+        "user-experience"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q010",
+      "speaker": "Rahul Vohra",
+      "text": "Make fun toys and then combine those into games. The best games are constructed out of toys. Why? Because then they are fun on both levels, the toy and the game itself. Think about the features of your product. Do those features indulge playful exploration? Are they fun even without a goal? Do they elicit moments of pleasant surprise?",
+      "timestamp": "01:03:12",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 414,
+        "lineEnd": 423
+      },
+      "themes": [
+        "product-design",
+        "game-design",
+        "user-experience"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "rahul-vohra-q011",
+      "speaker": "Rahul Vohra",
+      "text": "SDR - Single Decisive Reason. For important decisions, you should be able to identify one reason that on its own supports the decision. All too often we rely on a collection of weak reasons to justify decisions. Multiple low quality reasons rarely add up to a high quality reason to do something.",
+      "timestamp": "01:19:22",
+      "source": {
+        "slug": "rahul-vohra",
+        "path": "episodes/rahul-vohra/transcript.md",
+        "lineStart": 513,
+        "lineEnd": 528
+      },
+      "themes": [
+        "decision-making",
+        "leadership",
+        "clarity"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    }
+  ],
+  "lastUpdated": "2026-01-20T07:12:02.546Z"
+}
