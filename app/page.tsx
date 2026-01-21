@@ -154,7 +154,7 @@ export default function Home() {
           >
             {[
               { num: '01', text: 'Answer 7 questions' },
-              { num: '02', text: 'Face contradictions' },
+              { num: '02', text: 'Explore philosophy zones' },
               { num: '03', text: 'Discover your philosophy' },
             ].map((step, i) => (
               <motion.div
@@ -215,7 +215,7 @@ export default function Home() {
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />
-                15 CONTRADICTIONS
+                CURATED INSIGHTS
               </span>
             </div>
           </motion.div>

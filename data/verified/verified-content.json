@@ -257,12 +257,12 @@
           "id": "brian-chesky-q001",
           "speaker": "Brian Chesky",
           "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
-          "timestamp": "00:00:00",
+          "timestamp": "00:32:17",
           "source": {
             "slug": "brian-chesky",
             "path": "episodes/brian-chesky/transcript.md",
-            "lineStart": 39,
-            "lineEnd": 39
+            "lineStart": 174,
+            "lineEnd": 174
           },
           "themes": [
             "leadership",
@@ -2429,12 +2429,12 @@
       "id": "brian-chesky-q001",
       "speaker": "Brian Chesky",
       "text": "Leaders are in the details. And there's this negative term called micromanagement. I think there's a difference between micromanagement, which is like telling people exactly what to do, and being in the details. Being in the details is what every responsible company's board does to the CEO. That doesn't mean the board is telling them what to do. But if you don't know the details, how do you know people are doing a good job?",
-      "timestamp": "00:00:00",
+      "timestamp": "00:32:17",
       "source": {
         "slug": "brian-chesky",
         "path": "episodes/brian-chesky/transcript.md",
-        "lineStart": 39,
-        "lineEnd": 39
+        "lineStart": 174,
+        "lineEnd": 174
       },
       "themes": [
         "leadership",
@@ -4121,5 +4121,5 @@
       ]
     }
   ],
-  "lastUpdated": "2026-01-20T21:53:03.151Z"
+  "lastUpdated": "2026-01-20T23:54:12.082Z"
 }

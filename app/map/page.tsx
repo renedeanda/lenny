@@ -22,7 +22,13 @@ function MapContent() {
   const [selectedZone, setSelectedZone] = useState<ZoneId | null>(null);
 
   useEffect(() => {
-    const answersParam = searchParams.get('answers');
+    let answersParam = searchParams.get('answers');
+
+    // Try localStorage if not in URL
+    if (!answersParam) {
+      answersParam = localStorage.getItem('pm_quiz_answers');
+    }
+
     if (!answersParam) {
       router.push('/quiz');
       return;
@@ -68,7 +74,15 @@ function MapContent() {
     const answersParam = searchParams.get('answers');
     const nameParam = searchParams.get('name') || '';
     const roleParam = searchParams.get('role') || '';
-    router.push(`/contradictions?answers=${answersParam}&zone=${primaryZone}&name=${nameParam}&role=${roleParam}`);
+
+    // Save to localStorage for persistence
+    if (answersParam) {
+      localStorage.setItem('pm_quiz_answers', answersParam);
+      if (nameParam) localStorage.setItem('pm_map_name', nameParam);
+      if (roleParam) localStorage.setItem('pm_map_role', roleParam);
+    }
+
+    router.push(`/results?answers=${answersParam}&name=${nameParam}&role=${roleParam}`);
   };
 
   return (
@@ -147,7 +161,15 @@ function MapContent() {
                 transition={{ delay: 1.2 }}
                 className="text-amber/60 text-sm tracking-widest mb-4"
               >
-                PHILOSOPHY IDENTIFIED
+                {selectedZone && selectedZone !== primaryZone ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <span className="text-ash-dark">EXPLORING</span>
+                    <span className="text-amber/40">•</span>
+                    <span>YOUR RESULT: {zones[primaryZone].icon} {zones[primaryZone].name}</span>
+                  </span>
+                ) : (
+                  'YOUR PHILOSOPHY'
+                )}
               </motion.div>
 
               <motion.h1

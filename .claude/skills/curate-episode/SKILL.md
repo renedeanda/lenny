@@ -44,7 +44,8 @@ Extract verified quotes from Lenny's Podcast episode transcripts to power the PM
 - ✅ 120-500 characters (substantive but standalone)
 - ✅ From the guest speaker (not Lenny)
 - ✅ Actionable insight, strong opinion, or memorable wisdom
-- ✅ NOT from first 5 minutes (likely episode highlights/duplicates)
+- ✅ **CRITICAL: NOT from first 5 minutes (00:00:00 to 00:05:00)** - These are episode highlights/duplicates that appear later in full form
+- ✅ If you see a great quote in the first 5 minutes, find the FULL version later in the transcript
 - ✅ NOT from sponsor segments or intro/outro
 - ✅ NOT generic platitudes - must be specific and distinctive
 
@@ -154,12 +155,14 @@ Distribute 1.0 total across all 8 zones based on:
 Before saving, verify:
 - [ ] Quote IDs follow pattern: `{slug}-001`, `{slug}-002`, etc.
 - [ ] All line numbers are accurate (check transcript)
+- [ ] **CRITICAL: Timestamps match the ACTUAL location in transcript (not 00:00:00 to 00:05:00)**
 - [ ] Timestamps match format "HH:MM:SS" or "MM:SS"
+- [ ] **NO quotes from first 5 minutes (00:00:00 to 00:05:00)** - These are episode highlights
+- [ ] If quote text appears in first 5 min, verify you extracted from the LATER full version
 - [ ] All zones referenced exist in the 8 zones list
 - [ ] **5 takeaways included** (required)
 - [ ] **Zone influence included and sums to exactly 1.0** (required)
 - [ ] No duplicate quote text across episodes
-- [ ] Quotes avoid first 5 minutes of episode
 - [ ] Each quote has 2-4 themes, 1-3 zones
 - [ ] Takeaways are specific and actionable
 - [ ] contrarian_candidates field included with spicy/provocative quotes (optional but recommended)
@@ -170,10 +173,11 @@ Before saving, verify:
 - Include Lenny's questions as quotes
 - Extract generic advice ("talk to users", "ship fast")
 - Use quotes from sponsor segments
-- Include episode highlights from the first 5 minutes
+- **CRITICAL: Include episode highlights from the first 5 minutes (00:00:00 to 00:05:00)** - These are condensed versions that appear in full later
+- Extract from timestamps 00:00:00 to 00:05:00 - always search for the full version later in the episode
 - Tag every quote with "product-management" theme
 - Assign equal zone influence to all zones
-- Forget to verify line numbers match transcript
+- Forget to verify line numbers AND timestamps match the actual transcript location
 
 ✅ **Do:**
 - Focus on the guest's unique perspective

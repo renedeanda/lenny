@@ -118,26 +118,57 @@ export default function EpisodePage() {
   useEffect(() => {
     if (!episode?.videoId) return;
 
-    // Load YouTube IFrame API script
-    const tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    const firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+    const initializePlayer = () => {
+      if (!(window as any).YT || !(window as any).YT.Player) {
+        // API not ready yet, wait for callback
+        return;
+      }
 
-    // Initialize player when API is ready
-    (window as any).onYouTubeIframeAPIReady = () => {
-      youtubePlayerRef.current = new (window as any).YT.Player('youtube-player', {
-        videoId: episode.videoId,
-        playerVars: {
-          enablejsapi: 1,
-          origin: window.location.origin,
-        },
-      });
+      try {
+        youtubePlayerRef.current = new (window as any).YT.Player('youtube-player', {
+          videoId: episode.videoId,
+          playerVars: {
+            enablejsapi: 1,
+            origin: window.location.origin,
+          },
+          events: {
+            onError: (event: any) => {
+              console.error('YouTube player error:', event.data);
+            }
+          }
+        });
+      } catch (error) {
+        console.error('Failed to initialize YouTube player:', error);
+      }
     };
+
+    // Check if API is already loaded
+    if ((window as any).YT && (window as any).YT.Player) {
+      initializePlayer();
+    } else {
+      // Load YouTube IFrame API script if not already loaded
+      if (!document.querySelector('script[src*="youtube.com/iframe_api"]')) {
+        const tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        tag.async = true;
+        tag.onerror = () => {
+          console.error('Failed to load YouTube IFrame API');
+        };
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag);
+      }
+
+      // Set up callback for when API is ready
+      (window as any).onYouTubeIframeAPIReady = initializePlayer;
+    }
 
     return () => {
       if (youtubePlayerRef.current?.destroy) {
-        youtubePlayerRef.current.destroy();
+        try {
+          youtubePlayerRef.current.destroy();
+        } catch (error) {
+          console.error('Error destroying YouTube player:', error);
+        }
       }
     };
   }, [episode?.videoId]);
@@ -509,7 +540,7 @@ export default function EpisodePage() {
                   <div>
                     <VerifiedQuotes
                       enrichment={verifiedEnrichment}
-                      onJumpToTranscript={(lineStart) => {
+                      onJumpToTranscript={(lineStart, quoteTimestamp) => {
                         if (!transcript) return;
 
                         // Find transcript section containing this line number
@@ -520,8 +551,19 @@ export default function EpisodePage() {
                         if (sectionIndex !== -1) {
                           // Switch to transcript tab on mobile
                           setActiveTab('transcript');
-                          // Jump to the timestamp
-                          setTimeout(() => jumpToTimestamp(sectionIndex), 100);
+
+                          // Scroll to the transcript section
+                          const section = sectionRefs.current[sectionIndex];
+                          if (section) {
+                            section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            setSelectedSection(sectionIndex);
+                            setTimeout(() => setSelectedSection(null), 2000);
+                          }
+
+                          // Jump to video using the quote's actual timestamp (not the section's timestamp)
+                          if (youtubePlayerRef.current && quoteTimestamp) {
+                            jumpToVideoTimestamp(quoteTimestamp);
+                          }
                         }
                       }}
                     />

@@ -149,10 +149,13 @@ function detectDuplicateQuotes(quotes: Quote[]): void {
     
     // Flag quotes from first 5 minutes (likely highlights)
     const timestamp = quote.timestamp || '';
-    const minuteMatch = timestamp.match(/^(\d+):(\d+)/);
-    if (minuteMatch) {
-      const minutes = parseInt(minuteMatch[1]);
-      if (minutes < 5) {
+    // Handle both HH:MM:SS and MM:SS formats
+    const timestampMatch = timestamp.match(/^(?:(\d+):)?(\d+):(\d+)$/);
+    if (timestampMatch) {
+      const hours = timestampMatch[1] ? parseInt(timestampMatch[1]) : 0;
+      const minutes = parseInt(timestampMatch[2]);
+      const totalMinutes = (hours * 60) + minutes;
+      if (totalMinutes < 5) {
         warnings.push(`Quote ${quote.id} is from first 5 minutes (${timestamp}) - may be highlight duplicate`);
       }
     }
