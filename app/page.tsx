@@ -93,12 +93,12 @@ export default function Home() {
                 }`}
               >
                 <span className="text-amber drop-shadow-[0_0_30px_rgba(255,179,71,0.3)]">
-                  THE PM
+                  DISCOVER YOUR
                 </span>
                 <br />
-                <span className="text-ash">PHILOSOPHY</span>
+                <span className="text-ash">PRODUCT</span>
                 <br />
-                <span className="text-amber-dark">MAP</span>
+                <span className="text-amber-dark">PHILOSOPHY</span>
               </h1>
 
               {/* Glitch layers */}
@@ -111,11 +111,11 @@ export default function Home() {
                       transform: 'translate(-2px, 2px)',
                     }}
                   >
-                    <span>THE PM</span>
+                    <span>DISCOVER YOUR</span>
+                    <br />
+                    <span>PRODUCT</span>
                     <br />
                     <span>PHILOSOPHY</span>
-                    <br />
-                    <span>MAP</span>
                   </h1>
                   <h1
                     className="absolute top-0 left-0 text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight opacity-70 mix-blend-screen"
@@ -124,11 +124,11 @@ export default function Home() {
                       transform: 'translate(2px, -2px)',
                     }}
                   >
-                    <span>THE PM</span>
+                    <span>DISCOVER YOUR</span>
+                    <br />
+                    <span>PRODUCT</span>
                     <br />
                     <span>PHILOSOPHY</span>
-                    <br />
-                    <span>MAP</span>
                   </h1>
                 </>
               )}
@@ -140,8 +140,7 @@ export default function Home() {
               transition={{ delay: 0.8 }}
               className="text-lg md:text-xl text-ash-dark max-w-2xl leading-relaxed"
             >
-              <span className="text-amber">[</span> Every PM navigates the universe differently{' '}
-              <span className="text-amber">]</span>
+              Find podcast episodes that match how you work—based on 303 episodes of Lenny's Podcast
             </motion.p>
           </div>
 
@@ -153,9 +152,9 @@ export default function Home() {
             className="grid md:grid-cols-3 gap-8 md:gap-12"
           >
             {[
-              { num: '01', text: 'Answer 7 questions' },
-              { num: '02', text: 'Explore philosophy zones' },
-              { num: '03', text: 'Discover your philosophy' },
+              { num: '01', text: 'Answer 7 questions about how you work' },
+              { num: '02', text: 'Get your product philosophy profile' },
+              { num: '03', text: 'Discover episodes that match your approach' },
             ].map((step, i) => (
               <motion.div
                 key={step.num}
@@ -188,7 +187,7 @@ export default function Home() {
                 className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
               >
                 <span className="relative z-10 flex items-center gap-3">
-                  INITIATE
+                  START QUIZ
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </span>
                 <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
@@ -199,7 +198,7 @@ export default function Home() {
                 className="group relative px-12 py-5 bg-void-light border border-ash-darker text-ash-dark font-bold text-lg tracking-wide hover:border-amber hover:text-amber transition-all duration-300"
               >
                 <span className="relative z-10 flex items-center gap-3">
-                  EXPLORE DATA
+                  BROWSE EPISODES
                   <span className="text-amber">🔥</span>
                 </span>
               </button>
@@ -207,7 +206,7 @@ export default function Home() {
 
             <div className="flex items-center gap-8 text-xs text-ash-dark">
               <span className="flex items-center gap-2">
-                <span className="w-1 h-1 bg-amber-dark" />8 ZONES
+                <span className="w-1 h-1 bg-amber-dark" />7 QUESTIONS
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />
@@ -215,7 +214,7 @@ export default function Home() {
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />
-                CURATED INSIGHTS
+                VERIFIED QUOTES
               </span>
             </div>
           </motion.div>

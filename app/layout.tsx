@@ -11,31 +11,31 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "The PM Philosophy Map | Discover Your Product Philosophy",
-  description: "Discover your PM philosophy through 7 questions, 303 episodes of Lenny's Podcast, and real debates from the world's best product leaders. Built from actual transcripts.",
-  keywords: ["product management", "PM philosophy", "product strategy", "Lenny's Podcast", "product thinking", "product leadership"],
+  title: "Discover Your Product Philosophy | Lenny's Podcast",
+  description: "Take a 7-question quiz and get podcast episode recommendations that match how you work as a PM. Built from 303 episodes of Lenny's Podcast with verified quotes.",
+  keywords: ["product management", "PM philosophy", "product strategy", "Lenny's Podcast", "product thinking", "product leadership", "podcast recommendations"],
   authors: [{ name: "René DeAnda", url: "https://github.com/renedeanda" }],
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net'),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "The PM Philosophy Map",
-    description: "Every PM navigates the universe differently. Discover your philosophy through 303 episodes of Lenny's Podcast.",
-    siteName: "The PM Philosophy Map",
+    title: "Discover Your Product Philosophy",
+    description: "Get podcast episode recommendations that match how you work. Based on 303 episodes of Lenny's Podcast.",
+    siteName: "Product Philosophy Quiz",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "The PM Philosophy Map",
+        alt: "Product Philosophy Quiz",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "The PM Philosophy Map",
-    description: "Discover your PM philosophy through 303 episodes of Lenny's Podcast 🔥",
+    title: "Discover Your Product Philosophy",
+    description: "Find Lenny's Podcast episodes that match how you work 🔥",
     images: ["/og-image.png"],
     creator: "@lennysan",
   },
