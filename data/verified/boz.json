@@ -1,0 +1,211 @@
+{
+  "episode_slug": "boz",
+  "guest": "Boz",
+  "episode_title": "Making Meta | Andrew 'Boz' Bosworth (CTO)",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "boz-001",
+      "text": "Communication is the job. If you want to have an impact on the world around you, it is exclusively done through the creation of artifacts or verbalizations that affect other humans. That is all there is. People always think, 'Oh, I had that idea.' It means nothing. It means absolutely nothing. Or 'Oh, I wrote this post.' Well, you didn't break through with it. That's on you.",
+      "source": {
+        "line_start": 512,
+        "line_end": 516,
+        "timestamp": "00:52:00",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Explaining his most famous principle that having ideas means nothing without effective communication",
+      "themes": ["communication", "impact", "execution", "ownership"],
+      "zones": ["alignment", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "boz-002",
+      "text": "The advice I find I have to give more frequently than any other is for people to more directly leverage their leaders. We want to do it ourselves to prove we can. But your job is not to do it yourself. Your job is to get it done. The tools you need live with your manager, your partner, your mentor. Nobody wants you to succeed more than your manager does, because when you're amazing, their life gets easier.",
+      "source": {
+        "line_start": 213,
+        "line_end": 240,
+        "timestamp": "00:13:40",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Sharing his most frequently given career advice about asking managers for help",
+      "themes": ["management", "asking-for-help", "leverage", "career-advice"],
+      "zones": ["discovery", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "boz-003",
+      "text": "I don't want to take away from the romanticism of it. It's just that most often, we hear those romantic stories from the successes. It's a healthy thing for people to want to throw themselves into something and take that risk, but it is not glamorous at the time. I worked 120 hours per week, I didn't sleep for more than four hours at a time, I'd wake up every four hours and check if anyone was attacking the site.",
+      "source": {
+        "line_start": 152,
+        "line_end": 177,
+        "timestamp": "00:09:18",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Describing the unglamorous reality of early Facebook days as the 10th engineer",
+      "themes": ["startups", "sacrifice", "reality", "early-days"],
+      "zones": ["chaos", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "boz-004",
+      "text": "We joke inside of Meta, to this day, we call it the eye of Sauron. When Mark has determined that the thing you're working on is the most important thing, there is no detail too small for him to notice. He will be in a review and say, 'Strategically, I think we're off course. And also, this one pixel is definitely wrong. You have to fix that.' That's a big range.",
+      "source": {
+        "line_start": 356,
+        "line_end": 360,
+        "timestamp": "00:31:17",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Explaining the legendary 'eye of Sauron' metaphor for founder attention to detail",
+      "themes": ["founder-attention", "details", "priorities", "meta"],
+      "zones": ["focus", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "boz-005",
+      "text": "Multimodality. Repetition never spoiled the prayer. I will give an all-hands and then write a post with the content of the all-hands, because different people are going to respond differently to these modalities. Making sure that you address people's fears and concerns right up top. People will not listen to you if they think you don't know what's going on.",
+      "source": {
+        "line_start": 536,
+        "line_end": 540,
+        "timestamp": "00:56:46",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Sharing practical techniques for effective communication at scale",
+      "themes": ["communication", "leadership", "multimodal", "empathy"],
+      "zones": ["perfection", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "boz-006",
+      "text": "Identity threat is just the biggest threat. Your worst behavior is always going to come out when you think you're under identity threat. When you feel like some core part of how you see yourself is in question, you will react with every ounce of your fiber to defend that conception of yourself because it's so expensive to reconceptualize who you are.",
+      "source": {
+        "line_start": 764,
+        "line_end": 768,
+        "timestamp": "01:24:51",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Explaining why he got into an embarrassing technical argument with his best friend Dave Federman",
+      "themes": ["identity-threat", "emotions", "self-awareness", "conflict"],
+      "zones": ["chaos", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "boz-007",
+      "text": "Ami Vora could have the most profound disagreement with somebody and they would say the thing she thought was not just wrong, but crazy wrong. She would respond, 'Fascinating. You have to tell me more about why you think that.' She meant it from the core of her being. She saw this schism between her and that person and reacted with the most genuine and profound curiosity.",
+      "source": {
+        "line_start": 789,
+        "line_end": 793,
+        "timestamp": "01:27:38",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Describing the transformative leadership lesson he learned from watching Ami Vora handle disagreement",
+      "themes": ["curiosity", "disagreement", "leadership", "open-mindedness"],
+      "zones": ["discovery", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "boz-008",
+      "text": "News Feed was an easier case than people suspect. Everyone was outraged at the same time as they immediately doubled their usage of the product. We had cognitive dissonance between stated preferences and revealed preferences in the economic sense. So we were like, Okay, there's something real here.",
+      "source": {
+        "line_start": 377,
+        "line_end": 384,
+        "timestamp": "00:35:05",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Explaining how they had conviction to stick with News Feed despite user backlash by watching actual behavior",
+      "themes": ["product-conviction", "news-feed", "metrics", "user-feedback"],
+      "zones": ["data", "focus"],
+      "verified": true
+    },
+    {
+      "id": "boz-009",
+      "text": "Mark is somebody who is maybe the strongest willpower of a person I've ever met. You'll give him feedback, he'll listen. He'll most often tell you that you're wrong, why you're wrong. What will happen is over the course of the next week or two, you'll just see shifts. The information gets to him, and at night he re-compiles the whole world with all that information and comes back.",
+      "source": {
+        "line_start": 450,
+        "line_end": 453,
+        "timestamp": "00:45:55",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Describing Mark Zuckerberg's unique way of processing feedback and iterating on his mental model",
+      "themes": ["feedback", "mark-zuckerberg", "learning", "leadership"],
+      "zones": ["data", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "boz-010",
+      "text": "Gell-Mann Amnesia: You'll read a newspaper article about a thing you're an expert in, and you'll be baffled because it's not just wrong, it's inverted causality. It's a 'wet sidewalks make rain' story. And then you turn the page and it's another article about a topic you know nothing about, and you'll read it as if it's gospel truth. You know more than the critics do.",
+      "source": {
+        "line_start": 695,
+        "line_end": 699,
+        "timestamp": "01:13:22",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Explaining why Meta's team needed to trust their own expertise during the stock downturn rather than external narratives",
+      "themes": ["expertise", "criticism", "conviction", "media"],
+      "zones": ["data", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "boz-011",
+      "text": "Extreme ownership: Whenever thing goes wrong, I ask myself, what could I have done differently in terms of how I communicated things for this to have gone better? I give somebody a piece of work and they come back six months later and they have done the wrong thing, I'll take the L. That's my responsibility. I did not communicate clearly what I wanted.",
+      "source": {
+        "line_start": 516,
+        "line_end": 521,
+        "timestamp": "00:53:25",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Explaining how he applies extreme ownership from US Marines/SEALs to all communication failures",
+      "themes": ["ownership", "accountability", "communication", "leadership"],
+      "zones": ["alignment", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "boz-012",
+      "text": "The motto my family has is just trust yourself. I really think so much of the success I've had was just having faith that I was making good decisions. You have to believe you, your eyes, ears and intellect have combined to give you a point of view that has intrinsic value and deserves your respect. Trusting yourself also includes taking risks because you trust that you can deal with what happens when the risks don't pay out.",
+      "source": {
+        "line_start": 891,
+        "line_end": 900,
+        "timestamp": "01:37:17",
+        "speaker": "Andrew 'Boz' Bosworth"
+      },
+      "context": "Sharing his family's life motto and how conviction in yourself enables both risk-taking and resilience",
+      "themes": ["conviction", "trust", "life-motto", "risk-taking"],
+      "zones": ["intuition", "chaos"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Communication is the job - having ideas means nothing without creating artifacts or verbalizations that affect other humans; if you didn't break through, that's on you not the audience",
+    "Leverage your leaders more often - your job isn't to do it yourself, it's to get it done; nobody wants you to succeed more than your manager because when you're amazing, their life gets easier",
+    "Embrace curiosity over defensiveness when challenged - when someone disagrees profoundly, respond with 'Fascinating, tell me more' from genuine curiosity rather than identity threat (lesson from Ami Vora)",
+    "Identity threat triggers your worst behavior - when core parts of your self-concept feel questioned, you'll defend with every ounce because reconceptualizing who you are is expensive; recognize this pattern",
+    "Trust yourself to take conviction-driven risks - you have to believe your eyes, ears, and intellect give you a point of view with intrinsic value; trusting yourself includes knowing you can handle when risks don't pay out"
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.20,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "boz-001",
+      "why": "Brutally dismisses the 'I had that idea' excuse - argues having ideas means literally nothing without effective communication, which contradicts the innovation mythology that celebrates ideation",
+      "related_zones": ["alignment", "perfection"]
+    },
+    {
+      "quoteId": "boz-003",
+      "why": "Deflates startup romanticism by exposing the unglamorous reality - 120 hour weeks, waking every 4 hours for 2 years, no social life, contradicting the 'fun startup journey' narrative",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "boz-010",
+      "why": "Challenges the authority of external critics and media - argues you know more than analysts/press/Twitter and should trust your own expertise despite public narratives",
+      "related_zones": ["data", "intuition"]
+    }
+  ]
+}
