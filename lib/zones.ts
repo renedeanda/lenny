@@ -19,7 +19,7 @@ export interface Zone {
 export const zones: Record<ZoneId, Zone> = {
   velocity: {
     id: 'velocity',
-    name: 'The Velocity Nebula',
+    name: 'Velocity',
     tagline: 'Ship fast, iterate constantly',
     description: 'You believe speed compounds. Every week without shipping is a week of lost learning. You might skip polish for velocity, but you know when to slow down for what matters.',
     color: '#ffb347',
@@ -30,7 +30,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   perfection: {
     id: 'perfection',
-    name: 'Perfection Peak',
+    name: 'Perfection',
     tagline: 'Leaders are in the details',
     description: 'You believe first impressions matter eternally. Details compound into brand. Leaders who care are in the details. You ship slower but create moments users never forget.',
     color: '#9d4edd',
@@ -41,7 +41,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   discovery: {
     id: 'discovery',
-    name: 'Discovery Station',
+    name: 'Discovery',
     tagline: 'Talk to users, validate everything',
     description: 'You believe building without users is guessing. Customer research is non-negotiable. You might over-validate, but you never build the wrong thing.',
     color: '#06ffa5',
@@ -52,7 +52,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   data: {
     id: 'data',
-    name: 'Data Constellation',
+    name: 'Data-Driven',
     tagline: 'Metrics guide every decision',
     description: 'You believe numbers reveal truth. Every hypothesis needs an experiment. You might over-analyze, but you never fly blind.',
     color: '#00d4ff',
@@ -63,7 +63,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   intuition: {
     id: 'intuition',
-    name: 'Intuition Vortex',
+    name: 'Intuition',
     tagline: 'Trust your gut, move on instinct',
     description: 'You believe taste beats data. The best products come from vision, not validation. You might miss user signals, but you create category-defining experiences.',
     color: '#ff006e',
@@ -74,7 +74,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   alignment: {
     id: 'alignment',
-    name: 'Alignment Galaxy',
+    name: 'Alignment',
     tagline: 'Bring everyone along',
     description: 'You believe great products need great buy-in. Stakeholder management IS product management. You might move slower for consensus, but you ship with conviction.',
     color: '#ffd60a',
@@ -85,7 +85,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   chaos: {
     id: 'chaos',
-    name: 'Chaos Cluster',
+    name: 'Adaptability',
     tagline: 'Embrace uncertainty, adapt constantly',
     description: 'You believe plans are fiction. The best strategy is speed + learning. You might frustrate process-lovers, but you thrive in zero-to-one environments.',
     color: '#dc143c',
@@ -96,7 +96,7 @@ export const zones: Record<ZoneId, Zone> = {
   },
   focus: {
     id: 'focus',
-    name: 'Focus Singularity',
+    name: 'Focus',
     tagline: 'Do one thing perfectly',
     description: 'You believe constraints breed creativity. The best products do one thing incredibly well. You might miss adjacent opportunities, but you never dilute your vision.',
     color: '#9d4edd',
