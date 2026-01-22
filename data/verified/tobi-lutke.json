@@ -1,0 +1,211 @@
+{
+  "episode_slug": "tobi-lutke",
+  "guest": "Tobi Lütke",
+  "episode_title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "tobi-lutke-001",
+      "text": "My energy source is dissatisfaction with status quo. I think today is the dystopia of the future. It behooves us to try to build the kinds of products that lead towards progress.",
+      "source": {
+        "line_start": 155,
+        "line_end": 155,
+        "timestamp": "00:29:38",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Describing what drives him as a founder and why he rejects copying existing solutions",
+      "themes": ["first-principles", "progress", "dissatisfaction", "innovation"],
+      "zones": ["chaos", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-002",
+      "text": "A Tobi tornado is a whole lot of change management compressed into a very short timeframe. If I imagine something might not be the right thing to work on, I'm either incorrect or I'm correct - and it's super unfair for letting people work on something that isn't going to make it.",
+      "source": {
+        "line_start": 74,
+        "line_end": 80,
+        "timestamp": "00:06:32",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining the 'Tobi tornado' phenomenon of rapidly killing projects when he realizes they won't work",
+      "themes": ["change-management", "decision-speed", "compressing-time", "courage"],
+      "zones": ["chaos", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-003",
+      "text": "I really, really, really think that there is not a single person on this planet who is even close to being at their maximum potential. Reminding people of their own potential constantly is actually a wonderful thing to do.",
+      "source": {
+        "line_start": 89,
+        "line_end": 92,
+        "timestamp": "00:09:33",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining his philosophy of maximizing human potential through high standards and direct feedback",
+      "themes": ["potential", "feedback", "ambition", "growth"],
+      "zones": ["chaos", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-004",
+      "text": "The most powerful unquantifiable things in the world of business are fun and delight. If all the metrics are pointing down but everyone says 'My God, I'm having so much more fun,' I think the very next thing that will happen with some time delay is all metrics will start going up.",
+      "source": {
+        "line_start": 127,
+        "line_end": 128,
+        "timestamp": "00:21:03",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining why Shopify doesn't use OKRs and instead prioritizes unquantifiable things over metrics",
+      "themes": ["metrics", "intuition", "fun", "delight", "okrs"],
+      "zones": ["intuition", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-005",
+      "text": "Optimism always sounds dumb, or at least naive. Pessimism sounds extremely sophisticated. Metrics driven sounds sophisticated. Talking about fun sounds naive. But almost all of the alpha in the world is now in exactly the things that are unobvious but true.",
+      "source": {
+        "line_start": 137,
+        "line_end": 140,
+        "timestamp": "00:24:14",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Challenging conventional business aesthetics and why contrarian approaches often win",
+      "themes": ["contrarian", "optimism", "aesthetics", "alpha"],
+      "zones": ["intuition", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-006",
+      "text": "If you want to do something better than what exists, you have to do it differently. That's axiomatically not possible to do the same thing and get better results. It fails Archimedean logic.",
+      "source": {
+        "line_start": 169,
+        "line_end": 170,
+        "timestamp": "00:31:46",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining why first principles thinking requires doing things differently from everyone else",
+      "themes": ["first-principles", "differentiation", "logic", "innovation"],
+      "zones": ["focus", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-007",
+      "text": "100 years, you can't talk about this software product but you can talk about the mission itself. Entrepreneurship is just precious. Shopify exists basically to make entrepreneurship more common.",
+      "source": {
+        "line_start": 304,
+        "line_end": 305,
+        "timestamp": "01:03:14",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Describing Shopify's 100-year vision and how long-term thinking shapes decision-making",
+      "themes": ["long-term-thinking", "mission", "entrepreneurship", "vision"],
+      "zones": ["focus", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-008",
+      "text": "On a long enough timeline, playing positive-sum games with your customers is the ultimate growth hack. The best companies resemble a room full of dials or levers for monetization. My job is adding as many of these levers as possible to the room, and then not pulling any of them.",
+      "source": {
+        "line_start": 323,
+        "line_end": 323,
+        "timestamp": "01:09:11",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining why Shopify doesn't maximize short-term monetization despite having pricing power",
+      "themes": ["long-term-thinking", "monetization", "positive-sum", "customer-alignment"],
+      "zones": ["focus", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-009",
+      "text": "The business world only talks about tactics - conversion optimization, A/B tests, growth hacks. I don't think that's important. The positional game is what matters: what territory are you taking? How much trust do you have? If you do that well, the tactics are yours. But if you extract through tactics all the value you created, you have nothing left in the tank.",
+      "source": {
+        "line_start": 341,
+        "line_end": 347,
+        "timestamp": "01:11:36",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Contrasting short-term tactical optimization with long-term strategic positioning",
+      "themes": ["strategy", "tactics", "positioning", "long-term-thinking"],
+      "zones": ["focus", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-010",
+      "text": "Goodhart's law: Any metric that becomes a goal ceases to be a good metric. It's the same as overfitting in machine learning. School optimizes for marks, and overfitting in school is literally kids cheating to get marks. We're extremely data-informed but we don't have KPIs because no metric by itself is a complete heuristic for a complex business.",
+      "source": {
+        "line_start": 104,
+        "line_end": 119,
+        "timestamp": "00:14:39",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining why Shopify core product team operates without KPIs despite being extremely data-informed",
+      "themes": ["metrics", "goodharts-law", "overfitting", "data"],
+      "zones": ["chaos", "data"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-011",
+      "text": "Most of the time you end up in a bad part of a tree, in a local maxima of a path-dependent environment, by only making good choices. The presence of a downside of an idea does not disqualify the idea. You need to rerun the entire function over the state that is now updated with higher fidelity information.",
+      "source": {
+        "line_start": 209,
+        "line_end": 211,
+        "timestamp": "00:42:59",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Explaining why Shopify went fully remote during COVID by re-running first principles analysis when foundational assumptions changed",
+      "themes": ["path-dependence", "first-principles", "decision-making", "re-evaluation"],
+      "zones": ["chaos", "data"],
+      "verified": true
+    },
+    {
+      "id": "tobi-lutke-012",
+      "text": "When someone disagrees with me, I immediately love it. I really crave it. I think courage is really rare. I found a lot more high IQ in industry than courage. I found a lot more genius than courage. What I'm looking for is unstated foundational assumptions - what is our divergence point?",
+      "source": {
+        "line_start": 254,
+        "line_end": 257,
+        "timestamp": "00:56:08",
+        "speaker": "Tobi Lütke"
+      },
+      "context": "Describing how to disagree with him and why he values courage over intelligence",
+      "themes": ["disagreement", "courage", "assumptions", "debate"],
+      "zones": ["chaos", "discovery"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Dissatisfaction with status quo is a founder's energy source - today is the dystopia of the future, so we must build products that lead toward progress rather than accept conventional solutions",
+    "Maximize human potential through high standards and compressed feedback - no one is close to their maximum potential, and holding people accountable to that potential (not just current performance + 10%) unlocks extraordinary results",
+    "Prioritize unquantifiable things (fun, delight, quality) over pure metrics - Goodhart's law means any metric that becomes a goal ceases to be useful, so Shopify is data-informed but doesn't use KPIs or OKRs",
+    "Think in 100-year timeframes to make better decisions today - long-term thinking enables playing positive-sum games, resisting short-term value extraction, and building lasting strategic position over tactical wins",
+    "Re-run first principles analysis when foundational assumptions change - being in a local maxima from 'good choices' is dangerous; when core booleans flip (like COVID lockdowns), re-derive everything from scratch"
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.10,
+    "discovery": 0.08,
+    "data": 0.10,
+    "intuition": 0.25,
+    "alignment": 0.10,
+    "chaos": 0.20,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tobi-lutke-004",
+      "why": "Directly challenges metrics-obsessed culture by arguing fun and delight matter more than quantifiable KPIs - sounds naive but produces better results",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "tobi-lutke-005",
+      "why": "Argues that optimism and 'naive' approaches contain all the alpha while sophisticated pessimism leads astray - counterfactuals are winning",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "tobi-lutke-008",
+      "why": "Rejects conventional monetization wisdom - builds levers for pricing power then deliberately doesn't pull them to play long-term positive-sum games",
+      "related_zones": ["focus", "alignment"]
+    }
+  ]
+}
