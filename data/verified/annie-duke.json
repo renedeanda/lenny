@@ -1,0 +1,211 @@
+{
+  "episode_slug": "annie-duke",
+  "guest": "Annie Duke",
+  "episode_title": "This will make you a better decision maker | Annie Duke (Thinking In Bets, former pro poker player)",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "annie-duke-001",
+      "text": "It's so incredibly necessary in improving decision quality to take what's implicit and make it explicit. It's not that intuition is crap, your intuition is sometimes right. If you don't make it explicit, then you don't get to find out when it's wrong.",
+      "source": {
+        "line_start": 391,
+        "line_end": 391,
+        "timestamp": "01:04:07",
+        "speaker": "Annie Duke"
+      },
+      "context": "Explaining why structured decision-making processes outperform pure intuition, drawing from work with First Round Capital",
+      "themes": ["decision-making", "intuition", "explicit-thinking", "process"],
+      "zones": ["data", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-002",
+      "text": "People generally think the purpose of a meeting is for three things, discover, discuss, decide. The only thing that's ever supposed to happen in a meeting is the discussion part.",
+      "source": {
+        "line_start": 208,
+        "line_end": 214,
+        "timestamp": "00:26:29",
+        "speaker": "Annie Duke"
+      },
+      "context": "Introducing the concept of nominal groups - discovering opinions independently before meetings to avoid groupthink",
+      "themes": ["meetings", "decision-making", "collaboration", "process"],
+      "zones": ["data", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-003",
+      "text": "The word alignment in terms of we're all aligned as a group is stupid and it shouldn't be used. People don't actually agree, they're not actually aligned on the decision. That's just the thing that makes you feel better.",
+      "source": {
+        "line_start": 232,
+        "line_end": 232,
+        "timestamp": "00:32:38",
+        "speaker": "Annie Duke"
+      },
+      "context": "Challenging the common goal of 'alignment' in meetings - arguing that forcing agreement creates coercion and ignores reality",
+      "themes": ["alignment", "decision-making", "contrarian", "disagreement"],
+      "zones": ["chaos", "data"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-004",
+      "text": "The best way to get somebody's opinion is independently of other people's opinions, independently asynchronously. I want people to stop talking to each other so much. There's cross influence, the loudest person in the room tends to have an outsized influence on the decision.",
+      "source": {
+        "line_start": 208,
+        "line_end": 209,
+        "timestamp": "00:26:29",
+        "speaker": "Annie Duke"
+      },
+      "context": "Explaining why teams should collect opinions before meetings to avoid groupthink and anchoring bias",
+      "themes": ["decision-making", "groupthink", "independence", "bias"],
+      "zones": ["data", "discovery"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-005",
+      "text": "There is no such thing as a long feedback loop. You can make a decision about how long the feedback loop is. The way you choose to shorten the feedback loop is to say, what are the things that are correlated with the outcome that I eventually desire?",
+      "source": {
+        "line_start": 337,
+        "line_end": 337,
+        "timestamp": "00:50:51",
+        "speaker": "Annie Duke"
+      },
+      "context": "Pushing back on VCs who said they can't improve decision-making because feedback takes 10 years - explaining how to find leading indicators",
+      "themes": ["feedback-loops", "metrics", "leading-indicators", "contrarian"],
+      "zones": ["data", "focus"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-006",
+      "text": "A pre-mortem is great only if you set up kill criteria. Commit to actions that you're going to take if you see those signals. People won't quit until it actually isn't a decision. Until you've fallen in the crevasse already, then you'll make the decision to quit because then you know it was really bad.",
+      "source": {
+        "line_start": 412,
+        "line_end": 454,
+        "timestamp": "01:06:18",
+        "speaker": "Annie Duke"
+      },
+      "context": "Explaining why pre-mortems fail without pre-committed kill criteria - citing Richard Thaler's observation about delayed quitting",
+      "themes": ["pre-mortems", "kill-criteria", "quitting", "commitment"],
+      "zones": ["focus", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-007",
+      "text": "When Kahneman took hiring from completely unstructured to structured decision rubrics, the hit rate went from 50% to 65%. That's pretty huge. The problem is nobody does it. If you do it, the answer is quite a bit. But nobody does it.",
+      "source": {
+        "line_start": 190,
+        "line_end": 202,
+        "timestamp": "00:22:04",
+        "speaker": "Annie Duke"
+      },
+      "context": "Describing Daniel Kahneman's work on structured hiring and the implementation gap between knowing and doing",
+      "themes": ["hiring", "structured-decisions", "kahneman", "implementation"],
+      "zones": ["data", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-008",
+      "text": "Nevertheless is a really good leadership skill. I hear you. Nevertheless, you're grounded for two weeks. I heard what you're saying and I understand. Nevertheless, this is what's going to happen. You have to have the balance between them feeling heard and following through on what you know or believe is right.",
+      "source": {
+        "line_start": 169,
+        "line_end": 172,
+        "timestamp": "00:18:56",
+        "speaker": "Annie Duke"
+      },
+      "context": "Teaching a leadership framework that acknowledges input while maintaining decision authority",
+      "themes": ["leadership", "decision-making", "empathy", "authority"],
+      "zones": ["alignment", "focus"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-009",
+      "text": "Mental time travel is a really good decision tool. They would be really upset about something and I would say this is going to be so great for you when you're 40 at Thanksgiving. You're going to be able to tell these stories to your children. It allowed them to get some time and space from it to realize this is going to be funny at some point.",
+      "source": {
+        "line_start": 157,
+        "line_end": 160,
+        "timestamp": "00:15:46",
+        "speaker": "Annie Duke"
+      },
+      "context": "Describing how to use mental time travel to gain perspective on decisions that feel huge in the moment",
+      "themes": ["perspective", "decision-making", "time-travel", "parenting"],
+      "zones": ["discovery", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-010",
+      "text": "By the time you quit, it's probably long after you ought to have quit. When we walk away, we feel like we'll have wasted everything that we've already put into what we're doing. But of course, waste is a prospective problem, not a retrospective one. Everything that you're putting into this going forward is the actual waste.",
+      "source": {
+        "line_start": 450,
+        "line_end": 457,
+        "timestamp": "01:12:28",
+        "speaker": "Annie Duke"
+      },
+      "context": "Explaining sunk cost fallacy and why people wait too long to quit projects, jobs, or relationships",
+      "themes": ["quitting", "sunk-cost", "waste", "decision-making"],
+      "zones": ["chaos", "focus"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-011",
+      "text": "Stewart Butterfield shut down Glitch when they had $6 million in the bank, 5,000 diehard users, and growing 6-7% week over week. He woke up with dead certainty that Glitch was over. Two days later, he's like, 'Maybe that internal communication tool should be the next product.' That thing now gets a name: Slack.",
+      "source": {
+        "line_start": 463,
+        "line_end": 473,
+        "timestamp": "01:16:04",
+        "speaker": "Annie Duke"
+      },
+      "context": "Iconic example of strategic quitting - Stewart couldn't see Slack until he quit Glitch despite apparent success",
+      "themes": ["quitting", "opportunity-cost", "slack", "pivoting"],
+      "zones": ["chaos", "focus"],
+      "verified": true
+    },
+    {
+      "id": "annie-duke-012",
+      "text": "When we think about something as simple as forecasting how long it's going to take to launch a product feature, if you're senior and you say 'I think this is going to take three months' and I was thinking four weeks, you're never going to hear four weeks from me, ever. But if we get those opinions independently, you will actually hear that I think it's going to take four weeks.",
+      "source": {
+        "line_start": 266,
+        "line_end": 268,
+        "timestamp": "00:41:48",
+        "speaker": "Annie Duke"
+      },
+      "context": "Explaining how independent forecasting reveals true disagreement that gets hidden in meetings due to hierarchy and conformity",
+      "themes": ["forecasting", "hierarchy", "independence", "bias"],
+      "zones": ["data", "discovery"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Make implicit thinking explicit - intuition is sometimes right and sometimes wrong, but you can't improve it unless you surface and examine your assumptions through structured processes",
+    "Collect opinions independently before meetings to avoid groupthink - the loudest or most senior person shouldn't anchor everyone else's thinking, discover differences asynchronously then discuss them",
+    "'Alignment' is a harmful fiction that creates coercion - people never truly agree, and pretending they must leads to worse decisions and silenced voices",
+    "There's no such thing as a long feedback loop - you choose how long it is by identifying leading indicators that correlate with eventual outcomes (e.g., Series A funding predicts eventual exits)",
+    "Quit earlier than you think - by the time you're thinking about quitting, you've usually waited too long due to sunk cost fallacy (see: Stewart Butterfield quitting Glitch to discover Slack)"
+  ],
+  "zone_influence": {
+    "velocity": 0.03,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.35,
+    "intuition": 0.02,
+    "alignment": 0.10,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "annie-duke-003",
+      "why": "Directly attacks the sacred corporate concept of 'alignment' - argues forcing agreement is stupid and counterproductive",
+      "related_zones": ["chaos", "data"]
+    },
+    {
+      "quoteId": "annie-duke-005",
+      "why": "Challenges the common excuse that 'we can't improve because feedback takes too long' - argues you actively choose the feedback loop length",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "annie-duke-011",
+      "why": "Shows strategic quitting as a feature not a bug - Stewart quit a 'successful' product at its peak to discover Slack",
+      "related_zones": ["chaos", "focus"]
+    }
+  ]
+}
