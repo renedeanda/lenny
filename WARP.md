@@ -40,7 +40,7 @@ node scripts/parse-all-episodes.js
 ```
 ├── app/                          # Next.js 15 App Router
 │   ├── page.tsx                  # Landing page with 3D starfield
-│   ├── quiz/page.tsx             # 7-question flow
+│   ├── quiz/page.tsx             # 10-question flow
 │   ├── map/page.tsx              # Cosmic Product Universe map reveal
 │   ├── contradictions/page.tsx   # PM debates from transcripts
 │   ├── results/page.tsx          # Final philosophy card (shareable)
