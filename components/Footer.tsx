@@ -98,7 +98,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-ash-darker">
             <div>
               © 2026 <a href="https://renedeanda.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">René DeAnda</a>
-              {' '} • Data from Lenny's Podcast
+              {' '} • <a href="https://github.com/ChatPRD/lennys-podcast-transcripts" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">Data from Lenny's Podcast</a>
             </div>
             <div className="flex gap-4">
               <a

@@ -9,6 +9,7 @@ import { zones } from '@/lib/zones';
 import { QuizAnswers, ZoneId } from '@/lib/types';
 import PhilosophyInsightCard from '@/components/PhilosophyInsightCard';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
+import TopNav from '@/components/TopNav';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
@@ -79,6 +80,7 @@ function ResultsContent() {
   if (!recommendations) {
     return (
       <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
+        <TopNav />
         <div className="text-center">
           <h1 className="text-2xl font-bold text-amber mb-4">No quiz answers found</h1>
           <p className="text-ash-dark mb-6">Take the quiz to discover your philosophy</p>
@@ -96,7 +98,8 @@ function ResultsContent() {
   const { userProfile, primary, contrarian } = recommendations;
 
   return (
-    <div className="min-h-screen bg-void text-ash p-4 md:p-8">
+    <div className="min-h-screen bg-void text-ash p-4 md:p-8 pt-20 md:pt-24">
+      <TopNav />
       {/* Header */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}

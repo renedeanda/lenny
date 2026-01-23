@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import InteractiveSpace from '@/components/InteractiveSpace';
+import TopNav from '@/components/TopNav';
 
 export default function Home() {
   const router = useRouter();
@@ -72,6 +73,7 @@ export default function Home() {
   return (
     <main className="relative min-h-screen bg-void text-ash overflow-hidden font-mono">
       <InteractiveSpace />
+      <TopNav />
 
       {/* Custom cursor */}
       <motion.div
@@ -90,7 +92,7 @@ export default function Home() {
       </div>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12 pt-20 md:pt-24">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
