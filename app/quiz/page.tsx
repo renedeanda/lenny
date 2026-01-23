@@ -114,30 +114,6 @@ function QuizContent() {
     }
   };
 
-  // Keyboard navigation
-  useEffect(() => {
-    const handleKeyPress = (e: KeyboardEvent) => {
-      if (isTransitioning) return;
-      
-      // Numbers 1-4 to select answers
-      if (e.key >= '1' && e.key <= '4') {
-        const index = parseInt(e.key) - 1;
-        if (index < question.answers.length) {
-          handleAnswer(question.answers[index].id);
-        }
-      }
-      
-      // Backspace to go back
-      if (e.key === 'Backspace' && currentQuestion > 0) {
-        e.preventDefault();
-        handleBack();
-      }
-    };
-    
-    window.addEventListener('keydown', handleKeyPress);
-    return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [currentQuestion, isTransitioning, question]);
-
   return (
     <main className="min-h-screen bg-void text-ash overflow-hidden font-mono">
       <InteractiveSpace />
@@ -233,11 +209,6 @@ function QuizContent() {
                           {answer.text}
                         </div>
                       </div>
-                      
-                      {/* Keyboard shortcut hint */}
-                      <div className="text-xs text-ash-darker/50 group-hover:text-amber/50 transition-colors font-mono">
-                        [{index + 1}]
-                      </div>
                     </div>
 
                     {/* Previously selected badge */}
@@ -281,16 +252,6 @@ function QuizContent() {
               <span className="text-sm">BACK</span>
             </motion.button>
           )}
-          
-          {/* Keyboard shortcuts hint */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1 }}
-            className="text-xs text-ash-darker/40 font-mono text-center"
-          >
-            Press 1-4 to select • Backspace to go back
-          </motion.div>
         </div>
       </div>
 
