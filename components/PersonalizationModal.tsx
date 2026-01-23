@@ -59,14 +59,6 @@ export default function PersonalizationModal({ onComplete }: PersonalizationModa
         <div className="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-amber" />
 
         <div className="text-center mb-8">
-          <motion.div
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{ delay: 0.3, type: 'spring' }}
-            className="text-5xl mb-4"
-          >
-            🌌
-          </motion.div>
           <h2 className="text-2xl font-bold text-amber mb-2">INITIATE SEQUENCE</h2>
           <p className="text-ash-dark text-sm">
             Personalize your philosophy profile
