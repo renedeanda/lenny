@@ -65,7 +65,7 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-ash-darker/50">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-ash-darker">
             <div>
-              © 2026 <a href="https://github.com/renedeanda" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">René DeAnda</a>
+              © 2026 <a href="https://renedeanda.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">René DeAnda</a>
               {' '} • Data from Lenny's Podcast
             </div>
             <div className="flex gap-4">

@@ -380,7 +380,7 @@ Scale:        1.0→1.02→0.98
 /lenny
 ├── app/
 │   ├── page.tsx                 ✅ Landing page with 3D starfield
-│   ├── quiz/page.tsx            ✅ 7-question quiz flow
+│   ├── quiz/page.tsx            ✅ 10-question quiz flow
 │   ├── map/page.tsx             ✅ Map reveal with zone details
 │   ├── contradictions/page.tsx  ✅ PM debates with real quotes
 │   ├── results/page.tsx         ✅ Full philosophy profile
@@ -436,7 +436,7 @@ Scale:        1.0→1.02→0.98
 
 **Core Experience: COMPLETE ✅**
 - ✅ Landing page with 3D starfield
-- ✅ 7-question quiz flow
+- ✅ 10-question quiz flow
 - ✅ Map reveal with zone details
 - ✅ 5 PM contradictions with real debates
 - ✅ Full philosophy profile results page

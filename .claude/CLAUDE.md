@@ -27,7 +27,7 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 │       └── update-og-images/     # OG image management
 ├── app/                          # Next.js App Router pages
 │   ├── episodes/[slug]/          # Individual episode pages
-│   ├── quiz/                     # 7-question philosophy quiz
+│   ├── quiz/                     # 10-question philosophy quiz
 │   ├── results/                  # Philosophy profile results
 │   ├── explore/                  # Browse all episodes
 │   └── layout.tsx                # Root layout + metadata

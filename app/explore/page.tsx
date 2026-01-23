@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
-import {allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
+import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
 import { getVerifiedEpisodeSlugs } from '@/lib/verifiedQuotes';
 
 const STORAGE_KEY = 'lenny-explore-filters';
@@ -153,9 +153,9 @@ export default function ExplorePage() {
                   onClick={() => setShowFilters(!showFilters)}
                   className={`px-6 py-4 border-2 transition-all flex items-center gap-2
                            ${showFilters
-                             ? 'border-amber bg-amber/10 text-amber'
-                             : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
-                           }`}
+                      ? 'border-amber bg-amber/10 text-amber'
+                      : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                    }`}
                 >
                   <Filter className="w-4 h-4" />
                   <span className="hidden sm:inline">FILTERS</span>
@@ -208,9 +208,9 @@ export default function ExplorePage() {
                         onClick={() => toggleKeyword(keyword)}
                         className={`px-3 py-2 text-sm border-2 transition-all font-medium
                                  ${selectedKeywords.includes(keyword)
-                                   ? 'border-amber bg-amber text-void'
-                                   : 'border-ash-darker text-ash bg-void-light hover:border-amber hover:text-amber'
-                                 }`}
+                            ? 'border-amber bg-amber text-void'
+                            : 'border-ash-darker text-ash bg-void-light hover:border-amber hover:text-amber'
+                          }`}
                       >
                         {keyword}
                       </button>
@@ -288,9 +288,9 @@ export default function ExplorePage() {
                       onClick={() => setCurrentPage(pageNum)}
                       className={`px-4 py-2 border-2 font-bold transition-all
                                ${currentPage === pageNum
-                                 ? 'border-amber bg-amber text-void'
-                                 : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
-                               }`}
+                          ? 'border-amber bg-amber text-void'
+                          : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                        }`}
                     >
                       {pageNum}
                     </button>
@@ -365,9 +365,15 @@ export default function ExplorePage() {
                 <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
               </div>
             </div>
-            <div className="text-xs text-ash-dark">
-              Data sourced from Lenny's Podcast transcripts
-            </div>
+            <a
+              href="https://github.com/ChatPRD/lennys-podcast-transcripts"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-ash-dark cursor-pointer hover:underline"
+            >
+              Data sourced from Lenny&apos;s Podcast transcripts
+            </a>
+
           </motion.div>
         </div>
       </div>
@@ -444,9 +450,9 @@ const EpisodeCard = memo(function EpisodeCard({
             key={keyword}
             className={`px-2 py-1 text-xs border transition-colors font-medium
                      ${selectedKeywords.includes(keyword)
-                       ? 'border-amber bg-amber text-void'
-                       : 'border-ash-darker text-ash-dark bg-void'
-                     }`}
+                ? 'border-amber bg-amber text-void'
+                : 'border-ash-darker text-ash-dark bg-void'
+              }`}
           >
             {keyword}
           </span>
