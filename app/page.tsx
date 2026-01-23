@@ -152,7 +152,7 @@ export default function Home() {
             className="grid md:grid-cols-3 gap-8 md:gap-12"
           >
             {[
-              { num: '01', text: 'Answer 7 questions about how you work' },
+              { num: '01', text: 'Answer 10 questions about how you work' },
               { num: '02', text: 'Get your product philosophy profile' },
               { num: '03', text: 'Discover episodes that match your approach' },
             ].map((step, i) => (
@@ -206,7 +206,7 @@ export default function Home() {
 
             <div className="flex items-center gap-8 text-xs text-ash-dark">
               <span className="flex items-center gap-2">
-                <span className="w-1 h-1 bg-amber-dark" />7 QUESTIONS
+                <span className="w-1 h-1 bg-amber-dark" />10 QUESTIONS
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />
