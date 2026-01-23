@@ -1,0 +1,211 @@
+{
+  "episode_slug": "guillermo-rauch",
+  "guest": "Guillermo Rauch",
+  "episode_title": "Everyone's an engineer now: Inside v0's mission to create 100 million builders",
+  "verification_date": "2026-01-23",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "guillermo-rauch-001",
+      "text": "People could be more full stack. Imagine a designer that can ship a fully baked product, a product manager that can prototype and ship to production. We shouldn't put limits on ourselves and what we can build, and what we can ship, and what we can dream about making possible on these web surfaces.",
+      "source": {
+        "line_start": 161,
+        "line_end": 167,
+        "timestamp": "00:17:47",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Discussing how AI tools like v0 enable people to become more full-stack and remove traditional role limitations",
+      "themes": ["ai-workflows", "full-stack", "empowerment", "velocity"],
+      "zones": ["velocity", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-002",
+      "text": "A lot of the programming jobs to be done that used to be specializations, I think, are going away, in a way. They're translation tasks. Knowing how things work under the hood is going to be very important for you because you're going to be able to influence the model and make it follow your intention a lot better.",
+      "source": {
+        "line_start": 173,
+        "line_end": 183,
+        "timestamp": "00:20:32",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Explaining which programming jobs AI will replace (translation tasks) versus what skills remain valuable (understanding how things work)",
+      "themes": ["ai-vs-human", "learning", "specialization", "fundamentals"],
+      "zones": ["velocity", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-003",
+      "text": "Taste, sometimes I think we think of as this inaccessible thing that, 'Oh, that person was born with taste.' I see it as a skill that it can develop. I think is extremely important to try lots of products. We have one of our internal operating principles as increasing exposure hours. Try to quantify how much time you expose yourself to watching how people use your products and you'll develop that muscle.",
+      "source": {
+        "line_start": 57,
+        "line_end": 63,
+        "timestamp": "00:00:57",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Answering how to build taste in product development, emphasizing it's a learnable skill through exposure",
+      "themes": ["taste", "learning", "user-research", "craft"],
+      "zones": ["discovery", "perfection", "intuition"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-004",
+      "text": "We need to stop talking about AI at some point. I just see a future where AI becomes synonymous with software. We build software and we use software to build software.",
+      "source": {
+        "line_start": 671,
+        "line_end": 672,
+        "timestamp": "01:25:41",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Closing thoughts on AI's future - it will just become part of normal software development",
+      "themes": ["ai-adoption", "future", "normalization"],
+      "zones": ["velocity", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-005",
+      "text": "How many product builders are people with aspirations of building products exist? My back of the napkin, minimum calculation is a hundred million. Slack has about a hundred million monthly active users. A lot of those people are building digital products. They talk to one another about what they would want to see in the world.",
+      "source": {
+        "line_start": 107,
+        "line_end": 110,
+        "timestamp": "00:08:45",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Explaining the TAM expansion opportunity - from 5 million developers to 100 million potential builders",
+      "themes": ["market-opportunity", "democratization", "tam-expansion"],
+      "zones": ["velocity", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-006",
+      "text": "v0 inverts that. The Git commit is you go into the chat and say, 'Please change the color of this button. And when I click it, save this form to a database.' And so you're starting with the intent and the output is the code.",
+      "source": {
+        "line_start": 152,
+        "line_end": 153,
+        "timestamp": "00:14:36",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Explaining how v0 inverts the traditional development workflow - intent comes first, code comes second",
+      "themes": ["ai-workflows", "intent-driven", "development-process"],
+      "zones": ["velocity", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-007",
+      "text": "My number one guidance or piece of advice I would give to any startup founder was, 'Create a lot of opportunities for people to give you feedback inside the product.' When you're building AI products, it's a constant stream of user feedback. It's going to be hard to compete with something that has such a tight feedback loop with users.",
+      "source": {
+        "line_start": 517,
+        "line_end": 519,
+        "timestamp": "01:01:30",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Discussing the competitive advantage of AI products - they create tight feedback loops that improve the product constantly",
+      "themes": ["feedback-loops", "iteration", "ai-product-strategy", "competitive-advantage"],
+      "zones": ["velocity", "discovery", "data"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-008",
+      "text": "A great product is made up of a thousand little details and so you're never really done. There's a humility that comes from the process. When you say yes, it's like adopting a puppy. A feature is like adopting a puppy. It grows into a beast that you have to take care of, and it's very demanding and loving. But also it's a lot, and poops everywhere.",
+      "source": {
+        "line_start": 644,
+        "line_end": 645,
+        "timestamp": "01:20:42",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Explaining why product quality requires obsession and why saying no to features is critical",
+      "themes": ["product-quality", "scope-management", "feature-restraint", "craft"],
+      "zones": ["perfection", "focus"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-009",
+      "text": "The model output more accessible code than what I wrote. It follows the accessibility guidelines that the web standards consortiums put out better than I did, because it just knows everything.",
+      "source": {
+        "line_start": 180,
+        "line_end": 182,
+        "timestamp": "00:22:22",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Sharing an anecdote about v0 generating more accessible code than he (an expert engineer) wrote, demonstrating AI's comprehensive knowledge",
+      "themes": ["ai-quality", "accessibility", "best-practices", "ai-vs-human"],
+      "zones": ["perfection", "data"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-010",
+      "text": "Developing eloquence and your linguistic ability I think is going to be very important. Your ability to steer the model with your words into those references, into those inspirations, is going to be very important. The difference between knowing that word and not knowing it is getting that style into that beautiful thing you created.",
+      "source": {
+        "line_start": 209,
+        "line_end": 217,
+        "timestamp": "00:26:18",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Discussing essential skills for the AI era - eloquence and knowing the right words to prompt effectively",
+      "themes": ["communication", "eloquence", "ai-prompting", "language-skills"],
+      "zones": ["intuition", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-011",
+      "text": "The most profound one is that conversations between product builders and their customers will be mediated by these zero links, these artifacts. The idea that when we talk, we would not have the power to make those ideas a reality, it seems like an L to me. I would love to see people constantly live in the product, be in the design, spend time tuning and trying out new ideas.",
+      "source": {
+        "line_start": 161,
+        "line_end": 162,
+        "timestamp": "00:16:19",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Describing the future of product development where ideas can immediately become prototypes during conversations",
+      "themes": ["collaboration", "prototyping", "ai-workflows", "artifacts"],
+      "zones": ["velocity", "discovery", "chaos"],
+      "verified": true
+    },
+    {
+      "id": "guillermo-rauch-012",
+      "text": "v0 is making you such a powerful generalist that you can step out of your comfort zone of like, 'Well, my job was to do only this.' You can just create. Us giving permission to people to build and ship things is part of that cultural backdrop that makes these things possible.",
+      "source": {
+        "line_start": 666,
+        "line_end": 669,
+        "timestamp": "01:24:06",
+        "speaker": "Guillermo Rauch"
+      },
+      "context": "Explaining how AI tools like v0 enable people at Vercel to step outside traditional role boundaries and create",
+      "themes": ["empowerment", "culture", "generalist", "ai-workflows"],
+      "zones": ["velocity", "chaos", "focus"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "AI is democratizing software development from 5 million developers to 100 million potential builders by removing the need for specialized translation skills",
+    "Understanding how things work (fundamentals, systems thinking) remains critical even as AI handles implementation - it helps you steer the model better",
+    "Taste is a learnable skill developed through 'exposure hours' - deliberately increasing time watching users interact with your product",
+    "AI products have a competitive advantage through constant user feedback loops that improve the model, making it hard for non-AI products to compete",
+    "Product quality comes from obsessing over thousands of details and saying no often - features are like adopting puppies that grow into demanding beasts"
+  ],
+  "zone_influence": {
+    "velocity": 0.30,
+    "perfection": 0.15,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.05,
+    "chaos": 0.15,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "guillermo-rauch-002",
+      "why": "Contrarian take that specialized programming jobs are translation tasks being automated away, challenges the 'learn to code' narrative",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "guillermo-rauch-008",
+      "why": "Provocative metaphor comparing features to puppies that 'poop everywhere' - challenges feature-factory mindset",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "guillermo-rauch-010",
+      "why": "Counterintuitive that eloquence and language skills become MORE important in AI era, not less",
+      "related_zones": ["intuition", "perfection"]
+    }
+  ]
+}
