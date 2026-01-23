@@ -9,6 +9,7 @@ export default function Home() {
   const router = useRouter();
   const [glitchActive, setGlitchActive] = useState(false);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [hasQuizResults, setHasQuizResults] = useState(false);
 
   const cursorX = useMotionValue(0);
   const cursorY = useMotionValue(0);
@@ -36,6 +37,37 @@ export default function Home() {
 
     return () => clearInterval(glitchInterval);
   }, []);
+
+  // Check if user has completed the quiz
+  useEffect(() => {
+    const checkQuizCompletion = () => {
+      try {
+        const savedAnswers = localStorage.getItem('pm_quiz_answers');
+        if (savedAnswers) {
+          const answers = JSON.parse(savedAnswers);
+          // Check if quiz has at least 7 answers (old quiz had 7, new has 10)
+          const answerCount = Object.keys(answers).length;
+          setHasQuizResults(answerCount >= 7);
+        }
+      } catch (e) {
+        console.error('Error checking quiz completion:', e);
+      }
+    };
+
+    checkQuizCompletion();
+  }, []);
+
+  const handleRetakeQuiz = () => {
+    try {
+      localStorage.removeItem('pm_quiz_answers');
+      localStorage.removeItem('pm_map_name');
+      setHasQuizResults(false);
+      router.push('/quiz');
+    } catch (e) {
+      console.error('Error clearing quiz data:', e);
+      router.push('/quiz');
+    }
+  };
 
   return (
     <main className="relative min-h-screen bg-void text-ash overflow-hidden font-mono">
@@ -182,16 +214,41 @@ export default function Home() {
             className="flex flex-col items-center gap-6"
           >
             <div className="flex flex-col md:flex-row gap-4">
-              <button
-                onClick={() => router.push('/quiz')}
-                className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
-              >
-                <span className="relative z-10 flex items-center gap-3">
-                  START QUIZ
-                  <span className="group-hover:translate-x-1 transition-transform">→</span>
-                </span>
-                <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
-              </button>
+              {hasQuizResults ? (
+                <>
+                  <button
+                    onClick={() => router.push('/results')}
+                    className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
+                  >
+                    <span className="relative z-10 flex items-center gap-3">
+                      SEE YOUR RESULTS
+                      <span className="group-hover:translate-x-1 transition-transform">→</span>
+                    </span>
+                    <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
+                  </button>
+
+                  <button
+                    onClick={handleRetakeQuiz}
+                    className="group relative px-12 py-5 bg-void-light border border-ash-darker text-ash-dark font-bold text-lg tracking-wide hover:border-amber hover:text-amber transition-all duration-300"
+                  >
+                    <span className="relative z-10 flex items-center gap-3">
+                      RETAKE QUIZ
+                      <span className="text-amber">↻</span>
+                    </span>
+                  </button>
+                </>
+              ) : (
+                <button
+                  onClick={() => router.push('/quiz')}
+                  className="group relative px-12 py-5 bg-void-light border-2 border-amber text-amber font-bold text-lg tracking-wide hover:bg-amber hover:text-void transition-all duration-300"
+                >
+                  <span className="relative z-10 flex items-center gap-3">
+                    START QUIZ
+                    <span className="group-hover:translate-x-1 transition-transform">→</span>
+                  </span>
+                  <div className="absolute inset-0 bg-amber opacity-0 group-hover:opacity-10 transition-opacity" />
+                </button>
+              )}
 
               <button
                 onClick={() => router.push('/explore')}

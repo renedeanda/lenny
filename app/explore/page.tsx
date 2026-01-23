@@ -2,11 +2,15 @@
 
 import { useState, useMemo, useEffect, memo, useRef } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
 import { getVerifiedEpisodeSlugs } from '@/lib/verifiedQuotes';
+import { generateRecommendations, EpisodeAlignment } from '@/lib/recommendations';
+import { QuizAnswers } from '@/lib/types';
+import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 
 const STORAGE_KEY = 'lenny-explore-filters';
 const EPISODES_PER_PAGE = 24;
@@ -24,12 +28,15 @@ function getInitialState() {
 }
 
 export default function ExplorePage() {
+  const router = useRouter();
   const initialState = getInitialState();
   const [searchQuery, setSearchQuery] = useState(initialState?.searchQuery || '');
   const [selectedKeywords, setSelectedKeywords] = useState<string[]>(initialState?.selectedKeywords || []);
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
   const [currentPage, setCurrentPage] = useState(1);
+  const [showRecommendations, setShowRecommendations] = useState(false);
+  const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
   const hasMounted = useRef(false);
 
   // Save to localStorage only after initial mount
@@ -50,6 +57,23 @@ export default function ExplorePage() {
       // Silently fail if localStorage is not available
     }
   }, [searchQuery, selectedKeywords, sortBy, showFilters]);
+
+  // Check if user has quiz results and generate recommendations
+  useEffect(() => {
+    try {
+      const savedAnswers = localStorage.getItem('pm_quiz_answers');
+      if (savedAnswers) {
+        const answers: QuizAnswers = JSON.parse(savedAnswers);
+        const answerCount = Object.keys(answers).length;
+        if (answerCount >= 7) {
+          const recs = generateRecommendations(answers);
+          setRecommendations({ primary: recs.primary, contrarian: recs.contrarian });
+        }
+      }
+    } catch (e) {
+      console.error('Error loading recommendations:', e);
+    }
+  }, []);
 
   const allKeywords = useMemo(() => getAllKeywords(), []);
 
@@ -124,7 +148,113 @@ export default function ExplorePage() {
               Search, filter, and explore every conversation from Lenny's Podcast.
               Real insights from the world's best product leaders, builders, and founders.
             </p>
+
+            {/* Recommendations Toggle */}
+            {recommendations && (
+              <motion.button
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                onClick={() => setShowRecommendations(!showRecommendations)}
+                className={`mt-6 px-6 py-3 border-2 font-bold text-sm tracking-wider transition-all flex items-center gap-2 ${
+                  showRecommendations
+                    ? 'border-amber bg-amber text-void'
+                    : 'border-amber/50 bg-amber/10 text-amber hover:border-amber'
+                }`}
+              >
+                <Sparkles className="w-4 h-4" />
+                {showRecommendations ? 'HIDE' : 'SHOW'} YOUR RECOMMENDATIONS
+                <span className="text-xs opacity-75">
+                  ({recommendations.primary.length + recommendations.contrarian.length})
+                </span>
+              </motion.button>
+            )}
+
+            {/* Take Quiz CTA for non-quiz takers */}
+            {!recommendations && (
+              <motion.div
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+                className="mt-6 px-6 py-4 border border-amber/30 bg-amber/5"
+              >
+                <div className="flex items-center justify-between gap-4">
+                  <div className="flex items-center gap-3">
+                    <Sparkles className="w-5 h-5 text-amber" />
+                    <div>
+                      <div className="text-sm font-bold text-amber">Get personalized recommendations</div>
+                      <div className="text-xs text-ash-dark mt-1">Take the quiz to discover episodes that match your philosophy</div>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => router.push('/quiz')}
+                    className="px-4 py-2 bg-amber text-void font-bold text-sm hover:bg-amber-dark transition-all whitespace-nowrap"
+                  >
+                    TAKE QUIZ →
+                  </button>
+                </div>
+              </motion.div>
+            )}
           </motion.div>
+
+          {/* Recommendations Section */}
+          {showRecommendations && recommendations && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              className="mb-12 space-y-8"
+            >
+              {/* Primary Recommendations */}
+              {recommendations.primary.length > 0 && (
+                <div>
+                  <div className="mb-6">
+                    <h2 className="text-2xl font-bold text-amber mb-2">Episodes For You</h2>
+                    <p className="text-ash-dark text-sm">Based on your quiz results, these episodes will resonate with how you work</p>
+                  </div>
+                  <div className="grid gap-6 md:grid-cols-2">
+                    {recommendations.primary.slice(0, 4).map((episode, index) => (
+                      <EpisodeRecommendationCard
+                        key={episode.slug}
+                        episode={episode}
+                        index={index}
+                        variant="primary"
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Contrarian Recommendations */}
+              {recommendations.contrarian.length > 0 && (
+                <div>
+                  <div className="mb-6">
+                    <h2 className="text-2xl font-bold text-crimson mb-2">Perspectives to Explore</h2>
+                    <p className="text-ash-dark text-sm">These episodes offer different viewpoints that might expand your thinking</p>
+                  </div>
+                  <div className="grid gap-6 md:grid-cols-2">
+                    {recommendations.contrarian.slice(0, 2).map((episode, index) => (
+                      <EpisodeRecommendationCard
+                        key={episode.slug}
+                        episode={episode}
+                        index={index}
+                        variant="contrarian"
+                      />
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div className="border-t-2 border-ash-darker pt-8">
+                <p className="text-center text-sm text-ash-dark">
+                  Browse all episodes below or{' '}
+                  <Link href="/results" className="text-amber hover:text-amber-dark transition-colors">
+                    view your full results
+                  </Link>
+                </p>
+              </div>
+            </motion.div>
+          )}
 
           {/* Search & Filter Bar */}
           <motion.div

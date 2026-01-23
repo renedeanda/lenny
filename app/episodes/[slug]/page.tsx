@@ -300,7 +300,7 @@ export default function EpisodePage() {
 
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Main Content - 2 columns */}
-            <div className="lg:col-span-2 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pr-4">
+            <div className="lg:col-span-2 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pr-4">
               {/* Header */}
               <div className="mb-8 pb-8 border-b-2 border-ash-darker">
                 <h1 className="text-3xl md:text-5xl font-bold text-amber mb-4 leading-tight">
@@ -358,7 +358,7 @@ export default function EpisodePage() {
 
               {/* YouTube Embed Section - Sticky */}
               {episode.videoId && (
-                <div className="mb-8 sticky top-0 z-10 bg-void pb-4">
+                <div className="mb-8 sticky top-0 z-20 bg-void pb-4">
                   <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
                     <div
                       id="youtube-player"
@@ -368,8 +368,8 @@ export default function EpisodePage() {
                 </div>
               )}
 
-              {/* Mobile Tabs */}
-              <div className="lg:hidden mb-6 border-b-2 border-ash-darker">
+              {/* Mobile Tabs - Sticky below video */}
+              <div className="lg:hidden mb-6 border-b-2 border-ash-darker sticky top-[calc(100vw*9/16+2rem)] z-10 bg-void pb-2">
                 <div className="flex gap-4">
                   <button
                     onClick={() => setActiveTab('transcript')}
@@ -508,7 +508,7 @@ export default function EpisodePage() {
             </div>
 
             {/* Sidebar - 1 column (Mobile: shown in Insights tab, Desktop: always visible) */}
-            <div className={`lg:col-span-1 lg:h-[calc(100vh-12rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30 ${
+            <div className={`lg:col-span-1 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:pl-4 lg:border-l lg:border-ash-darker/30 ${
               activeTab === 'insights' ? 'block' : 'hidden'
             } lg:block`}>
               <div className="space-y-8 pb-8">
