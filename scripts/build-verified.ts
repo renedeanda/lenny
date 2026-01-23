@@ -30,7 +30,7 @@ interface Quote {
 
 interface EpisodeEnrichment {
   slug: string;
-  keyQuotes: Quote[];
+  quotes: Quote[];
   themes: string[];
   takeaways: string[];
   contradictionsRefs: string[];
@@ -71,8 +71,7 @@ function loadVerifiedEpisodes(): EpisodeEnrichment[] {
 
 function extractAllQuotes(episodes: EpisodeEnrichment[]): Quote[] {
   return episodes.flatMap(ep => {
-    // Handle both old (keyQuotes) and new (quotes) formats
-    const quotes = (ep as any).keyQuotes || (ep as any).quotes || [];
+    const quotes = ep.quotes || [];
     return quotes;
   });
 }
@@ -179,7 +178,7 @@ function validateTranscriptReferences(episodes: EpisodeEnrichment[]): void {
   const errors: string[] = [];
   
   for (const episode of episodes) {
-    const quotes = (episode as any).keyQuotes || (episode as any).quotes || [];
+    const quotes = (episode as any).quotes || [];
     const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
     
     if (!episodeSlug) {
@@ -234,7 +233,7 @@ function computeZoneEpisodeCounts(episodes: EpisodeEnrichment[]): Record<string,
     const episodeSlugs = new Set<string>();
     
     for (const episode of episodes) {
-      const quotes = (episode as any).keyQuotes || (episode as any).quotes || [];
+      const quotes = (episode as any).quotes || [];
       const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
       
       for (const quote of quotes) {

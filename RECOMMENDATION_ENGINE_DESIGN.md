@@ -96,7 +96,7 @@ function calculateEpisodeAlignment(
   alignmentScore *= 100;
 
   // Find matching quotes (quotes in user's top zones)
-  for (const quote of episode.keyQuotes) {
+  for (const quote of episode.quotes) {
     for (const zoneId of quote.zones) {
       if (userProfile.zonePercentages[zoneId] > 15) {
         matchingQuotes.push(quote);

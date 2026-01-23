@@ -59,7 +59,7 @@ export interface Evidence {
 
 export interface EpisodeEnrichment {
   slug: string;
-  keyQuotes: Quote[];
+  quotes: Quote[];
   themes: string[];
   takeaways: string[];
   contradictionsRefs: string[];

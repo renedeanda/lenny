@@ -151,7 +151,7 @@ function processAllEpisodes() {
       const slug = path.basename(dir);
 
       // Extract key quotes
-      const keyQuotes = extractKeyQuotes(parsed.dialogue);
+      const quotes = extractKeyQuotes(parsed.dialogue);
       const contrarian = detectContrarianPatterns(parsed.dialogue);
 
       const episode = {
@@ -167,10 +167,10 @@ function processAllEpisodes() {
         description: parsed.metadata.description || '',
         keywords: parsed.metadata.keywords || [],
         dialogueCount: parsed.transcriptLength,
-        keyQuotesCount: keyQuotes.length,
+        keyQuotesCount: quotes.length,
         contrarianCount: contrarian.length,
         // Store sample quotes (limit to avoid huge file)
-        sampleQuotes: keyQuotes.slice(0, 10),
+        sampleQuotes: quotes.slice(0, 10),
         sampleContrarian: contrarian.slice(0, 5)
       };
 

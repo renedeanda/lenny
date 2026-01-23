@@ -50,7 +50,7 @@ function calculateZoneStats(episodes: any[]): Record<string, ZoneStats> {
     let quoteCount = 0;
     
     for (const episode of episodes) {
-      const quotes = episode.keyQuotes || episode.quotes || [];
+      const quotes = episode.quotes || [];
       const slug = episode.slug || episode.episode_slug;
       
       for (const quote of quotes) {
@@ -82,7 +82,7 @@ function calculateThemeStats(episodes: any[]): ThemeStats[] {
   const themeMap = new Map<string, Set<string>>();
   
   for (const episode of episodes) {
-    const quotes = episode.keyQuotes || episode.quotes || [];
+    const quotes = episode.quotes || [];
     const slug = episode.slug || episode.episode_slug;
     
     for (const quote of quotes) {
@@ -188,7 +188,7 @@ function main() {
   
   // Total quotes
   const totalQuotes = episodes.reduce((sum, ep) => {
-    const quotes = ep.keyQuotes || ep.quotes || [];
+    const quotes = ep.quotes || [];
     return sum + quotes.length;
   }, 0);
   const avgQuotes = episodes.length > 0 ? (totalQuotes / episodes.length).toFixed(1) : 0;

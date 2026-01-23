@@ -1851,7 +1851,7 @@
     },
     {
       "slug": "brian-chesky",
-      "keyQuotes": [
+      "quotes": [
         {
           "id": "brian-chesky-q001",
           "speaker": "Brian Chesky",
@@ -4797,7 +4797,7 @@
     },
     {
       "slug": "rahul-vohra",
-      "keyQuotes": [
+      "quotes": [
         {
           "id": "rahul-vohra-q001",
           "speaker": "Rahul Vohra",
@@ -11115,5 +11115,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-23T03:05:47.342Z"
+  "lastUpdated": "2026-01-23T05:28:12.820Z"
 }

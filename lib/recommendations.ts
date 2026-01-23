@@ -115,7 +115,7 @@ function findMatchingQuotes(
     .filter(([_, percentage]) => percentage > 15) // Only zones with >15% strength
     .map(([zone, _]) => zone as ZoneId);
 
-  for (const quote of episode.keyQuotes) {
+  for (const quote of episode.quotes ?? []) {
     // Check if quote has zones that match user's top zones
     const hasMatchingZone = quote.zones.some(zoneId =>
       topZones.includes(zoneId as ZoneId)
