@@ -299,7 +299,7 @@ function main() {
   console.log(`   ${registry.episodes.length} episodes, ${registry.quotes.length} quotes`);
   
   // Show coverage stats
-  const TOTAL_EPISODES = 303;
+  const TOTAL_EPISODES = 299;
   const coveragePercent = ((registry.episodes.length / TOTAL_EPISODES) * 100).toFixed(1);
   console.log(`\n📊 Coverage Statistics:`);
   console.log(`   Episodes curated: ${registry.episodes.length}/${TOTAL_EPISODES} (${coveragePercent}%)`);

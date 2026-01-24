@@ -165,7 +165,7 @@ function ResultsContent() {
             {primary.length < 5 && (
               <div className="mt-4 p-4 border border-ash-darker bg-void-light">
                 <p className="text-sm text-ash-dark">
-                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 302 total episodes.
+                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 299 total episodes.
                 </p>
               </div>
             )}

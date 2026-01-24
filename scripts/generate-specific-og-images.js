@@ -5,29 +5,14 @@ const path = require('path');
 // Manually define episodes that need OG images
 const episodes = [
   {
-    slug: 'jason-fried',
-    guest: 'Jason Fried',
-    title: 'Jason Fried challenges your thinking on fundraising, goals, growth, and more'
+    slug: 'casey-winters-20',
+    guest: 'Casey Winters 2.0',
+    title: 'Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)'
   },
   {
-    slug: 'guillermo-rauch',
-    guest: 'Guillermo Rauch',
-    title: 'The magic of shipping fast: How to 10x your output with AI'
-  },
-  {
-    slug: 'amjad-masad',
-    guest: 'Amjad Masad',
-    title: 'Building in public, raising $100M, and betting on AI'
-  },
-  {
-    slug: 'nikita-bier',
-    guest: 'Nikita Bier',
-    title: 'Driving alignment within teams, work-life balance, and the changing PM landscape'
-  },
-  {
-    slug: 'stewart-butterfield',
-    guest: 'Stewart Butterfield',
-    title: 'Mental models for building products people love'
+    slug: 'elena-verna-30',
+    guest: 'Elena Verna 3.0',
+    title: '10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)'
   }
 ];
 

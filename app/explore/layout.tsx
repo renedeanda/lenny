@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
 
 export const metadata: Metadata = {
-  title: 'Explore 300 Episodes | Lenny\'s Podcast',
+  title: 'Explore 299 Episodes | Lenny\'s Podcast',
   description: 'Browse 299 episodes from Lenny\'s Podcast featuring product leaders, growth experts, and innovators. Searchable transcripts, verified quotes, and insights.',
   keywords: [
     'product management',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'startup advice'
   ],
   openGraph: {
-    title: 'Explore 300 Episodes | Lenny\'s Podcast',
+    title: 'Explore 299 Episodes | Lenny\'s Podcast',
     description: 'Browse 299 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     url: `${baseUrl}/explore`,
     siteName: 'PM Philosophy Quiz',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Explore 300 Episodes | Lenny\'s Podcast',
+    title: 'Explore 299 Episodes | Lenny\'s Podcast',
     description: 'Browse 299 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     images: [`${baseUrl}/explore-og-image.png`]
   }
