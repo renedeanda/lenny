@@ -2115,14 +2115,14 @@
       ]
     },
     {
-      "episode_slug": "casey-winters",
-      "guest": "Casey Winters",
-      "episode_title": "Why most product managers are unprepared for the demands of a real startup | Casey Winters",
+      "episode_slug": "casey-winters-20",
+      "guest": "Casey Winters 2.0",
+      "episode_title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
       "verification_date": "2025-01-20",
       "verified_by": "warp-agent",
       "quotes": [
         {
-          "id": "casey-winters-001",
+          "id": "casey-winters-20-001",
           "text": "A lot of managers and leaders would just try to deal with issues on their own and not raise them or escalate them with me. And some of these were really tough situations, so then later on, I'd ask why something went wrong. And I get feedback like, you don't understand the situation. Yeah, of course I don't understand this situation because you haven't told me about it. These people on my team thought that being a leader was handling it the best they could given the circumstances when in many cases the right way is to escalate the issue so that perhaps I could help them change the circumstances. I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
           "source": {
             "line_start": 97,
@@ -2143,7 +2143,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-002",
+          "id": "casey-winters-20-002",
           "text": "If you're not an executive, whatever you're working on, you're basically writing and telling a story. And when you talk to an exec about that story, you have to start with chapter one, which is what part of the company strategy are you working on? What metrics are you trying to improve? What assumptions are you making? Many times when non-executives are presenting to execs, they'll start on like chapter six, so even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
           "source": {
             "line_start": 103,
@@ -2165,7 +2165,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-003",
+          "id": "casey-winters-20-003",
           "text": "Executive communication is actually executives communication. You're communicating with individual executives that all have different styles and different concerns about the business or about the particular problem you're working on. And you want to anticipate that. The other thing that I push a lot of my team to do is have pre-meetings with some of those key individuals, so that they're going to be less surprised in the meeting about what you're talking about, that you've gotten any major concerns brought to your attention before the big meeting. And that helps de-risk how poorly a meeting like that can go.",
           "source": {
             "line_start": 115,
@@ -2186,7 +2186,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-004",
+          "id": "casey-winters-20-004",
           "text": "For any of these types of communications, how well do you really know the material, and how well do you really know what your audience is going to care about with that material so that you are prepared for every question you might get. If you haven't thought through all the questions that might be asked from the document that you're sharing or the presentation you're about to present, you're not prepared enough. You need to know the entire universe of how that meeting can go. And that may take you dozens of hours, it might take you three hours, but the most important thing is that you've asked what possible questions can be asked and am I prepared to answer all of those?",
           "source": {
             "line_start": 130,
@@ -2208,7 +2208,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-005",
+          "id": "casey-winters-20-005",
           "text": "The way that a lot of key decisions are made inside companies are through these types of forums and meetings. And it's an extremely high leverage piece of time for a product manager or a product designer in terms of how much impact they can have. If you are under preparing for those sorts of things, the chances of you being able to have the type of impact you want, to have the type of career growth you want just go down dramatically.",
           "source": {
             "line_start": 136,
@@ -2229,7 +2229,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-006",
+          "id": "casey-winters-20-006",
           "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them. And of course the majority of users aren't going to ever look for them, so the advanced more complex areas of the product don't make the product harder to use for the majority who will never need that level of complexity. WhatsApp does the best job of this. At its core, it's a chat app and it's really good at being a chat app. It would take less than a second to figure out how to use the more advanced stuff, but it's effectively kind of hidden if you're not looking for it.",
           "source": {
             "line_start": 151,
@@ -2251,7 +2251,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-007",
+          "id": "casey-winters-20-007",
           "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. For things like user experience, or performance, or developer velocity, or just a product area that's deemed un-sexy, you have to get a team to buy-in to this. You can't really do a lot of this work alone. If you can get a small team, like two, three people aligned on the importance of something that's deemed un-sexy, it's a lot easier to start to build this game plan around metrics or running small tests or structuring OKRs to not only prioritize this work, but to show some really massive impact. Which could then get the rest of the company much more excited to make investments themselves.",
           "source": {
             "line_start": 169,
@@ -2273,7 +2273,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-008",
+          "id": "casey-winters-20-008",
           "text": "When you're an early stage company, everything you're doing is trying to drive upside, trying to drive growth. But when you've actually built a real business, a lot of times people are still in that same mode. But when you're at scale, you can actually lose what you've built. Trying to help whether it's executives or just your manager, understand that this thing we've got, whether it's a high conversion rate or good engagement on this feature, it could go away if we don't do these other things. And here's what it would look like if that goes away, that can be incredibly powerful. Protecting what we've got actually is increasingly important once you build scale, because now you've built something really valuable already.",
           "source": {
             "line_start": 187,
@@ -2295,7 +2295,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-009",
+          "id": "casey-winters-20-009",
           "text": "User expectations just continue to go up every day in terms of their expectations on user experience, on the value that they expect your product to provide, but also the competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, your user experience better, your latency better, then you're eventually not necessarily tomorrow, but maybe in a year, maybe in five years, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be, because then it's going to take a long time to figure that out and make adjustments.",
           "source": {
             "line_start": 196,
@@ -2317,7 +2317,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-010",
+          "id": "casey-winters-20-010",
           "text": "Product leaders can struggle with assuming that questions from executives are them trying to learn versus them assuming you don't know something and testing you about it. I find that a lot of people get intimidated by executive questions when the executive is just trying to understand things. And then that changes the interaction you can have. Refusing to specialize served me well. I thought if I could learn all the skills that would allow me to combine them to work on the most important things versus only work on the thing I knew how to work on. That was a much faster path to the true executive role because I could speak better with CEOs about more topics than most of my peers.",
           "source": {
             "line_start": 252,
@@ -2339,7 +2339,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-011",
+          "id": "casey-winters-20-011",
           "text": "Early on in your career as a PM, you're going to get the most value by showing that you can ship real things to customers and that the customers like them. But if you want to start managing groups of PMs, if you want to start running a business unit, or a pillar, or a theme. I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. A lot of people couldn't do that step. And that means when you try to become a product leader at the company and the CEO expects that from you and you can't do it, you're going to set yourself up to really cap hard on how fast your career can grow. That's definitely where I've seen the biggest bottleneck in terms of skill sets. That one to get to the top is the great filter.",
           "source": {
             "line_start": 280,
@@ -2361,7 +2361,7 @@
           "verified": true
         },
         {
-          "id": "casey-winters-012",
+          "id": "casey-winters-20-012",
           "text": "The goal of your kindle strategies, these like non-scalable hacks, they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users. It's once you unlock a fire strategy, that's when I think you think about hiring someone full time on growth to fully harness that new growth loop you've built. I still think data network effects are underrated. Leveraging product usage data to make the product value stronger and stronger over time. That could be personalized results in the case of Pinterest or better targeting data for advertising. Especially with Facebook and Apple's platform changes your product being able to generate its own data, versus just relying on the big platforms to do all the work for you. That's a real edge.",
           "source": {
             "line_start": 343,
@@ -2414,6 +2414,311 @@
           "related_zones": [
             "discovery",
             "perfection"
+          ]
+        }
+      ]
+    },
+    {
+      "episode_slug": "casey-winters",
+      "guest": "Casey Winters",
+      "episode_title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+      "verification_date": "2026-01-24",
+      "verified_by": "claude-sonnet-4.5",
+      "quotes": [
+        {
+          "id": "casey-winters-001",
+          "text": "I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
+          "source": {
+            "line_start": 94,
+            "line_end": 96,
+            "timestamp": "00:08:14",
+            "speaker": "Casey Winters"
+          },
+          "context": "On the importance of proactive upward communication when facing challenges, rather than silently struggling and later blaming leadership for being disconnected.",
+          "themes": [
+            "communication",
+            "leadership",
+            "transparency"
+          ],
+          "zones": [
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-002",
+          "text": "Many times when non-executives are presenting to execs, they'll start on like chapter six. Even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
+          "source": {
+            "line_start": 98,
+            "line_end": 99,
+            "timestamp": "00:10:20",
+            "speaker": "Casey Winters"
+          },
+          "context": "On communicating effectively with executives by starting with company strategy and assumptions before diving into implementation details.",
+          "themes": [
+            "communication",
+            "executive-presentations",
+            "stakeholder-management"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-003",
+          "text": "You want to de-risk that meeting not make it a big success or fail moment. If there is a big presentation coming up, I try to run through it with the team, pretending to be the other members of the audience, so I'll say what the CFO's going to ask about here is X. You want to answer that question before it gets asked.",
+          "source": {
+            "line_start": 107,
+            "line_end": 108,
+            "timestamp": "00:11:33",
+            "speaker": "Casey Winters"
+          },
+          "context": "On preparing for important meetings by role-playing different executive perspectives and anticipating their questions.",
+          "themes": [
+            "meeting-preparation",
+            "de-risking",
+            "executive-communication"
+          ],
+          "zones": [
+            "alignment",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-004",
+          "text": "The point is not how much time you spend, it's how well do you really know the material, and how well do you really know what your audience is going to care about with that material. If you haven't thought through all the questions that might be asked from the document you're sharing, you're not prepared enough.",
+          "source": {
+            "line_start": 121,
+            "line_end": 126,
+            "timestamp": "00:15:10",
+            "speaker": "Casey Winters"
+          },
+          "context": "On the depth of preparation required for high-stakes meetings with executives, emphasizing knowing the material inside-out rather than memorizing a script.",
+          "themes": [
+            "preparation",
+            "meeting-excellence",
+            "communication"
+          ],
+          "zones": [
+            "perfection",
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-005",
+          "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them.",
+          "source": {
+            "line_start": 145,
+            "line_end": 146,
+            "timestamp": "00:21:32",
+            "speaker": "Casey Winters"
+          },
+          "context": "On solving the product complexity problem at Eventbrite by making advanced features discoverable but not intrusive, inspired by WhatsApp's approach.",
+          "themes": [
+            "product-design",
+            "complexity",
+            "user-experience",
+            "progressive-disclosure"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-006",
+          "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. You can't really do a lot of this work alone. If you're a PM, you want to be approaching this from a well, my engineering manager and my design leader also bought in that we need to work on performance.",
+          "source": {
+            "line_start": 163,
+            "line_end": 167,
+            "timestamp": "00:24:49",
+            "speaker": "Casey Winters"
+          },
+          "context": "On justifying non-sexy product improvements like stability and performance by first getting peer leaders aligned before approaching executives.",
+          "themes": [
+            "prioritization",
+            "non-sexy-work",
+            "stakeholder-buy-in",
+            "technical-debt"
+          ],
+          "zones": [
+            "alignment",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-007",
+          "text": "When you're an early stage company, everything is trying to drive upside. But when you've actually built a real business, you can actually lose what you've built. Trying to help executives understand that this thing we've got could go away if we don't do these other things can be incredibly powerful.",
+          "source": {
+            "line_start": 181,
+            "line_end": 185,
+            "timestamp": "00:27:57",
+            "speaker": "Casey Winters"
+          },
+          "context": "On shifting mindset from pure growth to protecting existing gains once you've achieved scale.",
+          "themes": [
+            "scaling",
+            "growth-vs-retention",
+            "mindset-shift",
+            "defensive-product"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-008",
+          "text": "User expectations just continue to go up every day. The competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be.",
+          "source": {
+            "line_start": 190,
+            "line_end": 191,
+            "timestamp": "00:29:54",
+            "speaker": "Casey Winters"
+          },
+          "context": "On product-market fit as a constantly moving target that requires continuous iteration to maintain, not a one-time achievement.",
+          "themes": [
+            "product-market-fit",
+            "competitive-landscape",
+            "continuous-improvement"
+          ],
+          "zones": [
+            "chaos",
+            "discovery",
+            "perfection"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-009",
+          "text": "Having marketing ops means you suck at marketing. It scares me when the first tactic people go to is to add people to help scale. When you say their job is to do this manual process long term, that's where I get super concerned because you're not rooting out efficiency in how you build your company.",
+          "source": {
+            "line_start": 209,
+            "line_end": 214,
+            "timestamp": "00:31:26",
+            "speaker": "Casey Winters"
+          },
+          "context": "On operations roles as a sign of inefficiency, arguing teams should invest in automation and process instead of scaling ops headcount.",
+          "themes": [
+            "operations",
+            "efficiency",
+            "automation",
+            "team-structure",
+            "empire-building"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-010",
+          "text": "You have two extreme types of product managers: the crazy innovator types who have ideas all the time, and the executional focused PM who can take a strong strategy and turn it into action. What we all want is people in the middle. There just aren't a ton of those people in the world.",
+          "source": {
+            "line_start": 260,
+            "line_end": 264,
+            "timestamp": "00:41:06",
+            "speaker": "Casey Winters"
+          },
+          "context": "On the spectrum of product managers from strategic innovators to tactical executors, and the challenge of recruiting balanced PMs who excel at both.",
+          "themes": [
+            "product-management",
+            "hiring",
+            "team-composition",
+            "strategy-vs-execution"
+          ],
+          "zones": [
+            "intuition",
+            "discovery",
+            "velocity"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-011",
+          "text": "If you want to start managing groups of PMs, I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. That's the great filter. You'll get stuck at the senior PM level because you can't show that you can drive decision making on your own.",
+          "source": {
+            "line_start": 275,
+            "line_end": 278,
+            "timestamp": "00:45:30",
+            "speaker": "Casey Winters"
+          },
+          "context": "On strategy as the primary skill gap preventing PMs from advancing to leadership roles, emphasizing the ability to independently drive strategic decision-making.",
+          "themes": [
+            "career-growth",
+            "product-strategy",
+            "leadership",
+            "skill-development"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ],
+          "verified": true
+        },
+        {
+          "id": "casey-winters-012",
+          "text": "I separate growth into two phases. Kindle strategies are those non-scalable hacks to get your early users. Fire strategies drive scale. The goal of your kindle strategies is they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users.",
+          "source": {
+            "line_start": 337,
+            "line_end": 341,
+            "timestamp": "00:50:40",
+            "speaker": "Casey Winters"
+          },
+          "context": "On distinguishing between early-stage growth tactics (kindle) and scalable growth engines (fire), with kindle strategies serving solely to unlock fire strategies.",
+          "themes": [
+            "growth-strategy",
+            "scaling",
+            "growth-tactics",
+            "non-scalable-hacks"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ],
+          "verified": true
+        }
+      ],
+      "takeaways": [
+        "Under-communicating upward is a common career limiter. Executives need context on challenges and trade-offs to support you effectively—proactively share what's blocking you rather than silently struggling.",
+        "Preparing for high-stakes meetings requires anticipating every possible question and knowing your material deeply, not just rehearsing slides. De-risk big presentations through role-playing and pre-meetings with key stakeholders.",
+        "At scale, protecting what you've built becomes as important as adding new growth. Product-market fit decays over time as user expectations and competition evolve—continuous investment in quality and performance isn't optional.",
+        "Operations roles signal inefficiency. Teams should invest in automation and process improvements rather than scaling ops headcount. The goal of ops should be to eliminate itself by rooting out inefficiencies.",
+        "Strategy development is the great filter for PM career advancement. You can ship your way to Senior PM, but to reach leadership you must demonstrate the ability to independently craft product strategy and drive decision-making without hand-holding."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.2,
+        "discovery": 0.05,
+        "data": 0.1,
+        "intuition": 0.1,
+        "alignment": 0.3,
+        "chaos": 0.05,
+        "focus": 0.2
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "casey-winters-009",
+          "why": "Provocative stance that ops roles are a sign of dysfunction rather than scaling success",
+          "related_zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "casey-winters-008",
+          "why": "Challenges the notion that product-market fit is an achievement—frames it as a constantly decaying state",
+          "related_zones": [
+            "chaos",
+            "discovery"
           ]
         }
       ]
@@ -2988,7 +3293,7 @@
     },
     {
       "episode_slug": "elena-verna-30",
-      "guest": "Elena Verna",
+      "guest": "Elena Verna 3.0",
       "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
       "verification_date": "2026-01-20",
       "verified_by": "warp-agent",
@@ -4529,6 +4834,334 @@
       ]
     },
     {
+      "slug": "kunal-shah",
+      "quotes": [
+        {
+          "id": "kunal-shah-q001",
+          "speaker": "Kunal Shah",
+          "text": "Every time you see that the product efficiency delta is greater than or equal to four, three things happen. It is irreversible. Second is that you have a very high tolerance for it to fail. And the third thing is what I call the UBP, 'Unique Brag-worthy Proposition.' Every time humans unlock a Delta 4 product or service, they cannot stop talking or sharing about it.",
+          "timestamp": "00:07:05",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 261,
+            "lineEnd": 279
+          },
+          "themes": [
+            "product-strategy",
+            "frameworks",
+            "delta-4",
+            "efficiency"
+          ],
+          "zones": [
+            "intuition",
+            "focus"
+          ]
+        },
+        {
+          "id": "kunal-shah-q002",
+          "speaker": "Kunal Shah",
+          "text": "A lot of CEOs have done well because they follow the 'dharma' of the founders quite well. They have not diluted the dharma of the founders who have started these companies, and managed to sustain that. Maintaining 'dharma', where I will say that 'These principles were given to me and I'm going to sustain this and make it even bigger,' comes from the humility of saying that there is something that was built with some pure form factor.",
+          "timestamp": "00:15:05",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 510,
+            "lineEnd": 519
+          },
+          "themes": [
+            "leadership",
+            "indian-ceos",
+            "culture",
+            "philosophy"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "kunal-shah-q003",
+          "speaker": "Kunal Shah",
+          "text": "ARPU is a function of per capita income of a country. You cannot make $100 per user from a country for a product when their income is let's say $2,500 per year as an average for the whole country. A lot of Indian founders who tried to copy the Western market saying, 'I'm going to have a few hundred million users' make a terrible mistake because they will need to then go abroad to find their ARPUs to balance the act.",
+          "timestamp": "00:23:37",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 711,
+            "lineEnd": 729
+          },
+          "themes": [
+            "business-model",
+            "india",
+            "monetization",
+            "market-dynamics"
+          ],
+          "zones": [
+            "data",
+            "intuition"
+          ]
+        },
+        {
+          "id": "kunal-shah-q004",
+          "speaker": "Kunal Shah",
+          "text": "No Indian has ever been paid an hourly salary in their entire life. When you're not paid an hourly salary, the concept of time is not the same. And when the concept of time is not the same, paying for time is hard to do. Many Indian languages do not have a word for 'efficiency.' And that's true for many Asian languages, the word for 'efficiency' does not exist. So then how do you value it if it's not in the vocabulary?",
+          "timestamp": "00:26:00",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 753,
+            "lineEnd": 816
+          },
+          "themes": [
+            "culture",
+            "india",
+            "time-value",
+            "efficiency",
+            "language"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "id": "kunal-shah-q005",
+          "speaker": "Kunal Shah",
+          "text": "In a low trust country, and all developing nations are low trust by design, because the institutions are not strong enough, what happens is there is concentration of trust. So you will see that super apps, superstars, super companies all exist in low trust markets because the lack of trust creates concentration of trust, and therefore you will see one app can do 400 things.",
+          "timestamp": "00:28:44",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 843,
+            "lineEnd": 861
+          },
+          "themes": [
+            "trust",
+            "market-dynamics",
+            "india",
+            "super-apps",
+            "strategy"
+          ],
+          "zones": [
+            "intuition",
+            "data"
+          ]
+        },
+        {
+          "id": "kunal-shah-q006",
+          "speaker": "Kunal Shah",
+          "text": "I often tell people that entrepreneurs are uncertainty absorbers for everybody - for employees, for investors, for customers - and therefore they get rewarded for being those people who remove uncertainty from people's lives.",
+          "timestamp": "00:35:19",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 1041,
+            "lineEnd": 1043
+          },
+          "themes": [
+            "entrepreneurship",
+            "leadership",
+            "risk",
+            "philosophy"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "kunal-shah-q007",
+          "speaker": "Kunal Shah",
+          "text": "One of the things I've learned is that profit pools of a country tell you a lot about what the country values. And trying to copy somebody else's profit pool to your country will not be a wise idea because the country's values are demonstrated in what profit pools exist.",
+          "timestamp": "00:36:39",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 1080,
+            "lineEnd": 1084
+          },
+          "themes": [
+            "strategy",
+            "market-dynamics",
+            "india",
+            "culture"
+          ],
+          "zones": [
+            "intuition",
+            "data"
+          ]
+        },
+        {
+          "id": "kunal-shah-q008",
+          "speaker": "Kunal Shah",
+          "text": "I think a curious person is somebody who is constantly demonstrating that they are not proud of their expertise, and they will demonstrate extraordinary amounts of excitement when they face a problem which they have no clue how to solve. A lot of people stop growing because they want to constantly demonstrate their expertise versus demonstrating their curiosity.",
+          "timestamp": "00:47:57",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 1419,
+            "lineEnd": 1432
+          },
+          "themes": [
+            "curiosity",
+            "growth",
+            "learning",
+            "mindset"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "kunal-shah-q009",
+          "speaker": "Kunal Shah",
+          "text": "My method of learning is to constantly come up with conjectures from the dots that you have connected and then absolutely work hard to find proof of it and then use that to connect to the next dot. So I often tell people that every book you read makes your brain poorer to read the next book. That's the purpose of books, but that's true for every single thing we learn.",
+          "timestamp": "00:56:48",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 1656,
+            "lineEnd": 1665
+          },
+          "themes": [
+            "learning",
+            "curiosity",
+            "mental-models",
+            "philosophy"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "id": "kunal-shah-q010",
+          "speaker": "Kunal Shah",
+          "text": "Second order thinking is known to be the most powerful trait to predict the success of somebody. But I often wonder what happened in the childhood of people who became great at second order thinking. I've found some loose examples such as if you played strategy games or only physical games as a strong correlation. Rigor came from physical games, but second order thinking came from playing strategy games as a kid.",
+          "timestamp": "01:00:15",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 1758,
+            "lineEnd": 1774
+          },
+          "themes": [
+            "second-order-thinking",
+            "strategy",
+            "mental-models",
+            "childhood"
+          ],
+          "zones": [
+            "intuition",
+            "data"
+          ]
+        },
+        {
+          "id": "kunal-shah-q011",
+          "speaker": "Kunal Shah",
+          "text": "I think entrepreneurs have this weird ability to forget about failures and almost turn that into a lesson that you hold, and you forget the story. I often believe that life is too short to make all our mistakes ourselves. So we should be learning from other people's failures as well. And a lot of times we don't do that because we believe that we are special, nothing like that will happen to us.",
+          "timestamp": "01:06:21",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 1947,
+            "lineEnd": 1969
+          },
+          "themes": [
+            "failure",
+            "learning",
+            "mindset",
+            "entrepreneurship"
+          ],
+          "zones": [
+            "chaos",
+            "discovery"
+          ]
+        },
+        {
+          "id": "kunal-shah-q012",
+          "speaker": "Kunal Shah",
+          "text": "All success comes from an extraordinary amount of pain and struggle and hard work, and there is no shortcut to anything material coming in life. The best way to love yourself is to keep evolving. My motivation comes from evolution, connecting dots, solving harder problems than I've solved in the past. Life is ultimately a game where you want to feel that your levels have changed and your skills have changed constantly.",
+          "timestamp": "01:17:22",
+          "source": {
+            "slug": "kunal-shah",
+            "path": "episodes/kunal-shah/transcript.md",
+            "lineStart": 2340,
+            "lineEnd": 2353
+          },
+          "themes": [
+            "motivation",
+            "growth",
+            "mindset",
+            "philosophy"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ]
+        }
+      ],
+      "themes": [
+        "product-strategy",
+        "delta-4",
+        "india",
+        "second-order-thinking",
+        "curiosity",
+        "trust",
+        "efficiency",
+        "market-dynamics",
+        "learning",
+        "entrepreneurship",
+        "philosophy",
+        "culture"
+      ],
+      "takeaways": [
+        "The Delta 4 framework provides a measurable way to evaluate product-market fit: when efficiency improves by 4+ points (on a 1-10 scale), products become irreversible, users tolerate failures, and word-of-mouth becomes your primary growth engine through 'Unique Brag-worthy Propositions.'",
+        "Building in India requires completely different strategies than Western markets: low ARPU demands multi-product approaches, low trust creates super apps, time is valued differently (no hourly wages), and profit pools reveal what cultures actually value versus what founders assume.",
+        "Curiosity and second-order thinking are the most powerful predictors of entrepreneurial success, but most people prioritize demonstrating expertise over admitting ignorance - the willingness to ask 'dumb questions' from a position of security enables compounding growth.",
+        "Indian immigrant CEOs succeed by maintaining founder 'dharma' (principles) rather than imposing their own identity - they balance being Krishna (high values, low obedience for crisis) and Rama (high values, high obedience for scaling) without diluting core company values.",
+        "Entrepreneurs are uncertainty absorbers who get rewarded for removing ambiguity from employees, investors, and customers - but the best ones also learn from others' failures because life is too short to make every mistake yourself."
+      ],
+      "zone_influence": {
+        "velocity": 0,
+        "perfection": 0,
+        "discovery": 0.2,
+        "data": 0.2,
+        "intuition": 0.35,
+        "alignment": 0.1,
+        "chaos": 0.15,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "kunal-shah-q004",
+          "why": "Challenges Western assumptions about time value and efficiency - argues cultural context shapes fundamental product and business assumptions",
+          "related_zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "quoteId": "kunal-shah-q005",
+          "why": "Flips conventional startup wisdom that focus is always good - in low trust markets, super apps dominate because users concentrate trust rather than distribute it",
+          "related_zones": [
+            "intuition",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "kunal-shah-q008",
+          "why": "Argues that demonstrating curiosity matters more than demonstrating expertise for growth - counterintuitive for people trying to establish credibility",
+          "related_zones": [
+            "discovery",
+            "chaos"
+          ]
+        }
+      ]
+    },
+    {
       "episode_slug": "marty-cagan",
       "guest": "Marty Cagan",
       "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
@@ -4796,6 +5429,315 @@
         "chaos": 0.05,
         "velocity": 0
       }
+    },
+    {
+      "slug": "mike-krieger",
+      "quotes": [
+        {
+          "id": "mike-krieger-q001",
+          "speaker": "Mike Krieger",
+          "text": "I had this notion coming in like, 'Yes, these models are great, but are they able to have an independent opinion?' And it's actually really flipped for me only in the last month. My go-to product strategy partner is Claude. Opus 4 really looked at it in a new way. That is a new angle that I hadn't been looking at before and I'm going to incorporate that immediately.",
+          "timestamp": "00:05:04",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 92,
+            "lineEnd": 96
+          },
+          "themes": [
+            "AI-capabilities",
+            "product-strategy",
+            "creativity"
+          ],
+          "zones": [
+            "intuition",
+            "chaos"
+          ]
+        },
+        {
+          "id": "mike-krieger-q002",
+          "speaker": "Mike Krieger",
+          "text": "We really rapidly became bottlenecked on other things like our merge queue. We had to completely re-architect it because so much more code was being written and so many more pull requests were being submitted that it just completely blew out the expectations of it. I've just found all these new bottlenecks in our system.",
+          "timestamp": "00:13:54",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 141,
+            "lineEnd": 141
+          },
+          "themes": [
+            "AI-development",
+            "bottlenecks",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "mike-krieger-q003",
+          "speaker": "Mike Krieger",
+          "text": "The upstream bottleneck is decision making and alignment. A lot of things that I'm thinking about right now is how do I provide the minimum viable strategy to let people feel empowered to go run and type and build and explore at the edge of model capabilities.",
+          "timestamp": "00:13:54",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 141,
+            "lineEnd": 143
+          },
+          "themes": [
+            "strategy",
+            "alignment",
+            "empowerment"
+          ],
+          "zones": [
+            "alignment",
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "mike-krieger-q004",
+          "speaker": "Mike Krieger",
+          "text": "The team that works in the most futuristic way is the Claude Code team. They're using Claude Code to build Claude Code in a very self-improving kind of way. They've realized Claude is generally right and it's producing pull requests that are probably larger than most people are going to be able to review. So can you use a different Claude to review it?",
+          "timestamp": "00:16:38",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 149,
+            "lineEnd": 150
+          },
+          "themes": [
+            "AI-development",
+            "code-review",
+            "self-improvement"
+          ],
+          "zones": [
+            "velocity",
+            "chaos",
+            "data"
+          ]
+        },
+        {
+          "id": "mike-krieger-q005",
+          "speaker": "Mike Krieger",
+          "text": "If the proportion was already skewing towards having more of that embedding, I've just become more and more convinced. If we're shipping things that could have been built by anybody just using our models off the shelf, where we should play and what we can do uniquely should be stuff that's really at that magic intersection between product and research.",
+          "timestamp": "00:22:11",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 203,
+            "lineEnd": 205
+          },
+          "themes": [
+            "product-strategy",
+            "differentiation",
+            "research"
+          ],
+          "zones": [
+            "focus",
+            "intuition"
+          ]
+        },
+        {
+          "id": "mike-krieger-q006",
+          "speaker": "Mike Krieger",
+          "text": "Making this all comprehensible. What's still the difference between somebody who's really adept at using these tools in their work and most people is huge. Strategy, how we win, where we'll play. And opening people's eyes to what's possible—the delta between what the models and the products can do and how they're being used on a daily basis. Huge overhang.",
+          "timestamp": "00:25:21",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 219,
+            "lineEnd": 226
+          },
+          "themes": [
+            "product-management",
+            "strategy",
+            "comprehension"
+          ],
+          "zones": [
+            "discovery",
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "mike-krieger-q007",
+          "speaker": "Mike Krieger",
+          "text": "Sometimes I'm like, 'Be brutal, Claude, roast me. Tell me what's wrong with this strategy.' Claude's like a pretty nice entity. It's hard to push it to be super brutal, but it forces it to be a little bit more critical as well. Make the other mistake—if you tend to be too nice, can you focus on being more critical?",
+          "timestamp": "00:28:18",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 238,
+            "lineEnd": 239
+          },
+          "themes": [
+            "AI-usage",
+            "prompting",
+            "feedback"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ]
+        },
+        {
+          "id": "mike-krieger-q008",
+          "speaker": "Mike Krieger",
+          "text": "More than headcount we need a couple of almost founder type engineers. I'm a huge believer in the founding engineer tech lead with an idea and pair them with the right design and product supports. I'm 10 times more a believer in that than before.",
+          "timestamp": "00:35:10",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 303,
+            "lineEnd": 303
+          },
+          "themes": [
+            "hiring",
+            "team-building",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "focus",
+            "chaos"
+          ]
+        },
+        {
+          "id": "mike-krieger-q009",
+          "speaker": "Mike Krieger",
+          "text": "How do we figure out what we want to be when we grow up versus what we currently aren't or wish that we were or see other players in the space being? I think there's room for several generationally important companies to be built in AI right now. Let's figure out what we can be uniquely good at.",
+          "timestamp": "00:46:20",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 350,
+            "lineEnd": 357
+          },
+          "themes": [
+            "strategy",
+            "differentiation",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "intuition"
+          ]
+        },
+        {
+          "id": "mike-krieger-q010",
+          "speaker": "Mike Krieger",
+          "text": "For utility of AI products, it's three parts. One is model intelligence, the second part is context and memory, and the third part is applications and UI and you need all three of those to converge to actually be a useful product in AI. MCP really tried to tackle that middle one.",
+          "timestamp": "00:54:49",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 399,
+            "lineEnd": 400
+          },
+          "themes": [
+            "AI-products",
+            "MCP",
+            "context"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "mike-krieger-q011",
+          "speaker": "Mike Krieger",
+          "text": "You know when your product is really serving people and it's doing a good job of doing that. So much of when you get really metrics obsessed is when you're trying to convince yourself that it is when it's not. Do we repeatedly hear from people that Claude is the way that they're unlocking their own creativity and getting things done?",
+          "timestamp": "01:02:35",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 444,
+            "lineEnd": 447
+          },
+          "themes": [
+            "metrics",
+            "product-management",
+            "intuition"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "id": "mike-krieger-q012",
+          "speaker": "Mike Krieger",
+          "text": "There's tremendous power in distribution and reach, but there's also people have an assumption about how to use things. I get excited about startups that have a completely different take on what the form factor is by which we interface with AI. Do something that feels very advanced user, very power user, very weird and out there at the beginning.",
+          "timestamp": "00:50:23",
+          "source": {
+            "slug": "mike-krieger",
+            "path": "episodes/mike-krieger/transcript.md",
+            "lineStart": 375,
+            "lineEnd": 378
+          },
+          "themes": [
+            "startups",
+            "differentiation",
+            "innovation"
+          ],
+          "zones": [
+            "chaos",
+            "intuition",
+            "velocity"
+          ]
+        }
+      ],
+      "themes": [
+        "AI-development",
+        "product-strategy",
+        "differentiation",
+        "team-building",
+        "MCP",
+        "metrics",
+        "AI-capabilities",
+        "velocity",
+        "focus"
+      ],
+      "takeaways": [
+        "AI is fundamentally changing product development bottlenecks - with 70%+ of code AI-written, the constraint has shifted from engineering capacity to decision-making, alignment, and merge infrastructure. The traditional PM→Engineer→Ship flow is breaking down.",
+        "Product value in AI comes from the intersection of product and research - the highest leverage work happens when product teams embed with model training, not just building UX on top of finished models. Ship things only you can uniquely build.",
+        "Founder-type engineers matter more than headcount in the AI era - one or two strong technical leads with an idea can move faster than large teams. The ability to compose the right prompts and architect AI-augmented systems is now a specialized, high-value skill.",
+        "Don't optimize for Web 2.0 engagement metrics with AI products - time spent, session length, and DAU miss the point. Instead, focus on whether people are unlocking creativity and getting work done they couldn't before. You know it when you see it.",
+        "Differentiation beats imitation in crowded AI markets - rather than chasing ChatGPT's consumer adoption, lean into your unique strengths. For Anthropic, that's builders, makers, and hackers who create at the edge of model capabilities."
+      ],
+      "zone_influence": {
+        "velocity": 0.2,
+        "perfection": 0,
+        "discovery": 0.15,
+        "data": 0.1,
+        "intuition": 0.2,
+        "alignment": 0.1,
+        "chaos": 0.15,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "mike-krieger-q008",
+          "why": "One or two founder-type engineers beat headcount - attacks traditional scaling wisdom that more people = more capacity",
+          "related_zones": [
+            "velocity",
+            "focus",
+            "chaos"
+          ]
+        },
+        {
+          "quoteId": "mike-krieger-q011",
+          "why": "Being metrics obsessed means you're trying to convince yourself it's working when it's not - anti-data-driven orthodoxy",
+          "related_zones": [
+            "intuition",
+            "discovery"
+          ]
+        }
+      ]
     },
     {
       "episode_slug": "nikita-bier",
@@ -8102,7 +9044,7 @@
       ]
     },
     {
-      "id": "casey-winters-001",
+      "id": "casey-winters-20-001",
       "text": "A lot of managers and leaders would just try to deal with issues on their own and not raise them or escalate them with me. And some of these were really tough situations, so then later on, I'd ask why something went wrong. And I get feedback like, you don't understand the situation. Yeah, of course I don't understand this situation because you haven't told me about it. These people on my team thought that being a leader was handling it the best they could given the circumstances when in many cases the right way is to escalate the issue so that perhaps I could help them change the circumstances. I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
       "source": {
         "line_start": 97,
@@ -8123,7 +9065,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-002",
+      "id": "casey-winters-20-002",
       "text": "If you're not an executive, whatever you're working on, you're basically writing and telling a story. And when you talk to an exec about that story, you have to start with chapter one, which is what part of the company strategy are you working on? What metrics are you trying to improve? What assumptions are you making? Many times when non-executives are presenting to execs, they'll start on like chapter six, so even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
       "source": {
         "line_start": 103,
@@ -8145,7 +9087,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-003",
+      "id": "casey-winters-20-003",
       "text": "Executive communication is actually executives communication. You're communicating with individual executives that all have different styles and different concerns about the business or about the particular problem you're working on. And you want to anticipate that. The other thing that I push a lot of my team to do is have pre-meetings with some of those key individuals, so that they're going to be less surprised in the meeting about what you're talking about, that you've gotten any major concerns brought to your attention before the big meeting. And that helps de-risk how poorly a meeting like that can go.",
       "source": {
         "line_start": 115,
@@ -8166,7 +9108,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-004",
+      "id": "casey-winters-20-004",
       "text": "For any of these types of communications, how well do you really know the material, and how well do you really know what your audience is going to care about with that material so that you are prepared for every question you might get. If you haven't thought through all the questions that might be asked from the document that you're sharing or the presentation you're about to present, you're not prepared enough. You need to know the entire universe of how that meeting can go. And that may take you dozens of hours, it might take you three hours, but the most important thing is that you've asked what possible questions can be asked and am I prepared to answer all of those?",
       "source": {
         "line_start": 130,
@@ -8188,7 +9130,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-005",
+      "id": "casey-winters-20-005",
       "text": "The way that a lot of key decisions are made inside companies are through these types of forums and meetings. And it's an extremely high leverage piece of time for a product manager or a product designer in terms of how much impact they can have. If you are under preparing for those sorts of things, the chances of you being able to have the type of impact you want, to have the type of career growth you want just go down dramatically.",
       "source": {
         "line_start": 136,
@@ -8209,7 +9151,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-006",
+      "id": "casey-winters-20-006",
       "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them. And of course the majority of users aren't going to ever look for them, so the advanced more complex areas of the product don't make the product harder to use for the majority who will never need that level of complexity. WhatsApp does the best job of this. At its core, it's a chat app and it's really good at being a chat app. It would take less than a second to figure out how to use the more advanced stuff, but it's effectively kind of hidden if you're not looking for it.",
       "source": {
         "line_start": 151,
@@ -8231,7 +9173,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-007",
+      "id": "casey-winters-20-007",
       "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. For things like user experience, or performance, or developer velocity, or just a product area that's deemed un-sexy, you have to get a team to buy-in to this. You can't really do a lot of this work alone. If you can get a small team, like two, three people aligned on the importance of something that's deemed un-sexy, it's a lot easier to start to build this game plan around metrics or running small tests or structuring OKRs to not only prioritize this work, but to show some really massive impact. Which could then get the rest of the company much more excited to make investments themselves.",
       "source": {
         "line_start": 169,
@@ -8253,7 +9195,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-008",
+      "id": "casey-winters-20-008",
       "text": "When you're an early stage company, everything you're doing is trying to drive upside, trying to drive growth. But when you've actually built a real business, a lot of times people are still in that same mode. But when you're at scale, you can actually lose what you've built. Trying to help whether it's executives or just your manager, understand that this thing we've got, whether it's a high conversion rate or good engagement on this feature, it could go away if we don't do these other things. And here's what it would look like if that goes away, that can be incredibly powerful. Protecting what we've got actually is increasingly important once you build scale, because now you've built something really valuable already.",
       "source": {
         "line_start": 187,
@@ -8275,7 +9217,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-009",
+      "id": "casey-winters-20-009",
       "text": "User expectations just continue to go up every day in terms of their expectations on user experience, on the value that they expect your product to provide, but also the competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, your user experience better, your latency better, then you're eventually not necessarily tomorrow, but maybe in a year, maybe in five years, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be, because then it's going to take a long time to figure that out and make adjustments.",
       "source": {
         "line_start": 196,
@@ -8297,7 +9239,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-010",
+      "id": "casey-winters-20-010",
       "text": "Product leaders can struggle with assuming that questions from executives are them trying to learn versus them assuming you don't know something and testing you about it. I find that a lot of people get intimidated by executive questions when the executive is just trying to understand things. And then that changes the interaction you can have. Refusing to specialize served me well. I thought if I could learn all the skills that would allow me to combine them to work on the most important things versus only work on the thing I knew how to work on. That was a much faster path to the true executive role because I could speak better with CEOs about more topics than most of my peers.",
       "source": {
         "line_start": 252,
@@ -8319,7 +9261,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-011",
+      "id": "casey-winters-20-011",
       "text": "Early on in your career as a PM, you're going to get the most value by showing that you can ship real things to customers and that the customers like them. But if you want to start managing groups of PMs, if you want to start running a business unit, or a pillar, or a theme. I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. A lot of people couldn't do that step. And that means when you try to become a product leader at the company and the CEO expects that from you and you can't do it, you're going to set yourself up to really cap hard on how fast your career can grow. That's definitely where I've seen the biggest bottleneck in terms of skill sets. That one to get to the top is the great filter.",
       "source": {
         "line_start": 280,
@@ -8341,7 +9283,7 @@
       "verified": true
     },
     {
-      "id": "casey-winters-012",
+      "id": "casey-winters-20-012",
       "text": "The goal of your kindle strategies, these like non-scalable hacks, they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users. It's once you unlock a fire strategy, that's when I think you think about hiring someone full time on growth to fully harness that new growth loop you've built. I still think data network effects are underrated. Leveraging product usage data to make the product value stronger and stronger over time. That could be personalized results in the case of Pinterest or better targeting data for advertising. Especially with Facebook and Apple's platform changes your product being able to generate its own data, versus just relying on the big platforms to do all the work for you. That's a real edge.",
       "source": {
         "line_start": 343,
@@ -8359,6 +9301,267 @@
       "zones": [
         "data",
         "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-001",
+      "text": "I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
+      "source": {
+        "line_start": 94,
+        "line_end": 96,
+        "timestamp": "00:08:14",
+        "speaker": "Casey Winters"
+      },
+      "context": "On the importance of proactive upward communication when facing challenges, rather than silently struggling and later blaming leadership for being disconnected.",
+      "themes": [
+        "communication",
+        "leadership",
+        "transparency"
+      ],
+      "zones": [
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-002",
+      "text": "Many times when non-executives are presenting to execs, they'll start on like chapter six. Even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
+      "source": {
+        "line_start": 98,
+        "line_end": 99,
+        "timestamp": "00:10:20",
+        "speaker": "Casey Winters"
+      },
+      "context": "On communicating effectively with executives by starting with company strategy and assumptions before diving into implementation details.",
+      "themes": [
+        "communication",
+        "executive-presentations",
+        "stakeholder-management"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-003",
+      "text": "You want to de-risk that meeting not make it a big success or fail moment. If there is a big presentation coming up, I try to run through it with the team, pretending to be the other members of the audience, so I'll say what the CFO's going to ask about here is X. You want to answer that question before it gets asked.",
+      "source": {
+        "line_start": 107,
+        "line_end": 108,
+        "timestamp": "00:11:33",
+        "speaker": "Casey Winters"
+      },
+      "context": "On preparing for important meetings by role-playing different executive perspectives and anticipating their questions.",
+      "themes": [
+        "meeting-preparation",
+        "de-risking",
+        "executive-communication"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-004",
+      "text": "The point is not how much time you spend, it's how well do you really know the material, and how well do you really know what your audience is going to care about with that material. If you haven't thought through all the questions that might be asked from the document you're sharing, you're not prepared enough.",
+      "source": {
+        "line_start": 121,
+        "line_end": 126,
+        "timestamp": "00:15:10",
+        "speaker": "Casey Winters"
+      },
+      "context": "On the depth of preparation required for high-stakes meetings with executives, emphasizing knowing the material inside-out rather than memorizing a script.",
+      "themes": [
+        "preparation",
+        "meeting-excellence",
+        "communication"
+      ],
+      "zones": [
+        "perfection",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-005",
+      "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them.",
+      "source": {
+        "line_start": 145,
+        "line_end": 146,
+        "timestamp": "00:21:32",
+        "speaker": "Casey Winters"
+      },
+      "context": "On solving the product complexity problem at Eventbrite by making advanced features discoverable but not intrusive, inspired by WhatsApp's approach.",
+      "themes": [
+        "product-design",
+        "complexity",
+        "user-experience",
+        "progressive-disclosure"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-006",
+      "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. You can't really do a lot of this work alone. If you're a PM, you want to be approaching this from a well, my engineering manager and my design leader also bought in that we need to work on performance.",
+      "source": {
+        "line_start": 163,
+        "line_end": 167,
+        "timestamp": "00:24:49",
+        "speaker": "Casey Winters"
+      },
+      "context": "On justifying non-sexy product improvements like stability and performance by first getting peer leaders aligned before approaching executives.",
+      "themes": [
+        "prioritization",
+        "non-sexy-work",
+        "stakeholder-buy-in",
+        "technical-debt"
+      ],
+      "zones": [
+        "alignment",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-007",
+      "text": "When you're an early stage company, everything is trying to drive upside. But when you've actually built a real business, you can actually lose what you've built. Trying to help executives understand that this thing we've got could go away if we don't do these other things can be incredibly powerful.",
+      "source": {
+        "line_start": 181,
+        "line_end": 185,
+        "timestamp": "00:27:57",
+        "speaker": "Casey Winters"
+      },
+      "context": "On shifting mindset from pure growth to protecting existing gains once you've achieved scale.",
+      "themes": [
+        "scaling",
+        "growth-vs-retention",
+        "mindset-shift",
+        "defensive-product"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-008",
+      "text": "User expectations just continue to go up every day. The competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be.",
+      "source": {
+        "line_start": 190,
+        "line_end": 191,
+        "timestamp": "00:29:54",
+        "speaker": "Casey Winters"
+      },
+      "context": "On product-market fit as a constantly moving target that requires continuous iteration to maintain, not a one-time achievement.",
+      "themes": [
+        "product-market-fit",
+        "competitive-landscape",
+        "continuous-improvement"
+      ],
+      "zones": [
+        "chaos",
+        "discovery",
+        "perfection"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-009",
+      "text": "Having marketing ops means you suck at marketing. It scares me when the first tactic people go to is to add people to help scale. When you say their job is to do this manual process long term, that's where I get super concerned because you're not rooting out efficiency in how you build your company.",
+      "source": {
+        "line_start": 209,
+        "line_end": 214,
+        "timestamp": "00:31:26",
+        "speaker": "Casey Winters"
+      },
+      "context": "On operations roles as a sign of inefficiency, arguing teams should invest in automation and process instead of scaling ops headcount.",
+      "themes": [
+        "operations",
+        "efficiency",
+        "automation",
+        "team-structure",
+        "empire-building"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-010",
+      "text": "You have two extreme types of product managers: the crazy innovator types who have ideas all the time, and the executional focused PM who can take a strong strategy and turn it into action. What we all want is people in the middle. There just aren't a ton of those people in the world.",
+      "source": {
+        "line_start": 260,
+        "line_end": 264,
+        "timestamp": "00:41:06",
+        "speaker": "Casey Winters"
+      },
+      "context": "On the spectrum of product managers from strategic innovators to tactical executors, and the challenge of recruiting balanced PMs who excel at both.",
+      "themes": [
+        "product-management",
+        "hiring",
+        "team-composition",
+        "strategy-vs-execution"
+      ],
+      "zones": [
+        "intuition",
+        "discovery",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-011",
+      "text": "If you want to start managing groups of PMs, I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. That's the great filter. You'll get stuck at the senior PM level because you can't show that you can drive decision making on your own.",
+      "source": {
+        "line_start": 275,
+        "line_end": 278,
+        "timestamp": "00:45:30",
+        "speaker": "Casey Winters"
+      },
+      "context": "On strategy as the primary skill gap preventing PMs from advancing to leadership roles, emphasizing the ability to independently drive strategic decision-making.",
+      "themes": [
+        "career-growth",
+        "product-strategy",
+        "leadership",
+        "skill-development"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-012",
+      "text": "I separate growth into two phases. Kindle strategies are those non-scalable hacks to get your early users. Fire strategies drive scale. The goal of your kindle strategies is they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users.",
+      "source": {
+        "line_start": 337,
+        "line_end": 341,
+        "timestamp": "00:50:40",
+        "speaker": "Casey Winters"
+      },
+      "context": "On distinguishing between early-stage growth tactics (kindle) and scalable growth engines (fire), with kindle strategies serving solely to unlock fire strategies.",
+      "themes": [
+        "growth-strategy",
+        "scaling",
+        "growth-tactics",
+        "non-scalable-hacks"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
       ],
       "verified": true
     },
@@ -10158,6 +11361,272 @@
       "verified": true
     },
     {
+      "id": "kunal-shah-q001",
+      "speaker": "Kunal Shah",
+      "text": "Every time you see that the product efficiency delta is greater than or equal to four, three things happen. It is irreversible. Second is that you have a very high tolerance for it to fail. And the third thing is what I call the UBP, 'Unique Brag-worthy Proposition.' Every time humans unlock a Delta 4 product or service, they cannot stop talking or sharing about it.",
+      "timestamp": "00:07:05",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 279
+      },
+      "themes": [
+        "product-strategy",
+        "frameworks",
+        "delta-4",
+        "efficiency"
+      ],
+      "zones": [
+        "intuition",
+        "focus"
+      ]
+    },
+    {
+      "id": "kunal-shah-q002",
+      "speaker": "Kunal Shah",
+      "text": "A lot of CEOs have done well because they follow the 'dharma' of the founders quite well. They have not diluted the dharma of the founders who have started these companies, and managed to sustain that. Maintaining 'dharma', where I will say that 'These principles were given to me and I'm going to sustain this and make it even bigger,' comes from the humility of saying that there is something that was built with some pure form factor.",
+      "timestamp": "00:15:05",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 510,
+        "lineEnd": 519
+      },
+      "themes": [
+        "leadership",
+        "indian-ceos",
+        "culture",
+        "philosophy"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "kunal-shah-q003",
+      "speaker": "Kunal Shah",
+      "text": "ARPU is a function of per capita income of a country. You cannot make $100 per user from a country for a product when their income is let's say $2,500 per year as an average for the whole country. A lot of Indian founders who tried to copy the Western market saying, 'I'm going to have a few hundred million users' make a terrible mistake because they will need to then go abroad to find their ARPUs to balance the act.",
+      "timestamp": "00:23:37",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 711,
+        "lineEnd": 729
+      },
+      "themes": [
+        "business-model",
+        "india",
+        "monetization",
+        "market-dynamics"
+      ],
+      "zones": [
+        "data",
+        "intuition"
+      ]
+    },
+    {
+      "id": "kunal-shah-q004",
+      "speaker": "Kunal Shah",
+      "text": "No Indian has ever been paid an hourly salary in their entire life. When you're not paid an hourly salary, the concept of time is not the same. And when the concept of time is not the same, paying for time is hard to do. Many Indian languages do not have a word for 'efficiency.' And that's true for many Asian languages, the word for 'efficiency' does not exist. So then how do you value it if it's not in the vocabulary?",
+      "timestamp": "00:26:00",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 753,
+        "lineEnd": 816
+      },
+      "themes": [
+        "culture",
+        "india",
+        "time-value",
+        "efficiency",
+        "language"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "kunal-shah-q005",
+      "speaker": "Kunal Shah",
+      "text": "In a low trust country, and all developing nations are low trust by design, because the institutions are not strong enough, what happens is there is concentration of trust. So you will see that super apps, superstars, super companies all exist in low trust markets because the lack of trust creates concentration of trust, and therefore you will see one app can do 400 things.",
+      "timestamp": "00:28:44",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 843,
+        "lineEnd": 861
+      },
+      "themes": [
+        "trust",
+        "market-dynamics",
+        "india",
+        "super-apps",
+        "strategy"
+      ],
+      "zones": [
+        "intuition",
+        "data"
+      ]
+    },
+    {
+      "id": "kunal-shah-q006",
+      "speaker": "Kunal Shah",
+      "text": "I often tell people that entrepreneurs are uncertainty absorbers for everybody - for employees, for investors, for customers - and therefore they get rewarded for being those people who remove uncertainty from people's lives.",
+      "timestamp": "00:35:19",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 1041,
+        "lineEnd": 1043
+      },
+      "themes": [
+        "entrepreneurship",
+        "leadership",
+        "risk",
+        "philosophy"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "kunal-shah-q007",
+      "speaker": "Kunal Shah",
+      "text": "One of the things I've learned is that profit pools of a country tell you a lot about what the country values. And trying to copy somebody else's profit pool to your country will not be a wise idea because the country's values are demonstrated in what profit pools exist.",
+      "timestamp": "00:36:39",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 1080,
+        "lineEnd": 1084
+      },
+      "themes": [
+        "strategy",
+        "market-dynamics",
+        "india",
+        "culture"
+      ],
+      "zones": [
+        "intuition",
+        "data"
+      ]
+    },
+    {
+      "id": "kunal-shah-q008",
+      "speaker": "Kunal Shah",
+      "text": "I think a curious person is somebody who is constantly demonstrating that they are not proud of their expertise, and they will demonstrate extraordinary amounts of excitement when they face a problem which they have no clue how to solve. A lot of people stop growing because they want to constantly demonstrate their expertise versus demonstrating their curiosity.",
+      "timestamp": "00:47:57",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 1419,
+        "lineEnd": 1432
+      },
+      "themes": [
+        "curiosity",
+        "growth",
+        "learning",
+        "mindset"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "kunal-shah-q009",
+      "speaker": "Kunal Shah",
+      "text": "My method of learning is to constantly come up with conjectures from the dots that you have connected and then absolutely work hard to find proof of it and then use that to connect to the next dot. So I often tell people that every book you read makes your brain poorer to read the next book. That's the purpose of books, but that's true for every single thing we learn.",
+      "timestamp": "00:56:48",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 1656,
+        "lineEnd": 1665
+      },
+      "themes": [
+        "learning",
+        "curiosity",
+        "mental-models",
+        "philosophy"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "kunal-shah-q010",
+      "speaker": "Kunal Shah",
+      "text": "Second order thinking is known to be the most powerful trait to predict the success of somebody. But I often wonder what happened in the childhood of people who became great at second order thinking. I've found some loose examples such as if you played strategy games or only physical games as a strong correlation. Rigor came from physical games, but second order thinking came from playing strategy games as a kid.",
+      "timestamp": "01:00:15",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 1758,
+        "lineEnd": 1774
+      },
+      "themes": [
+        "second-order-thinking",
+        "strategy",
+        "mental-models",
+        "childhood"
+      ],
+      "zones": [
+        "intuition",
+        "data"
+      ]
+    },
+    {
+      "id": "kunal-shah-q011",
+      "speaker": "Kunal Shah",
+      "text": "I think entrepreneurs have this weird ability to forget about failures and almost turn that into a lesson that you hold, and you forget the story. I often believe that life is too short to make all our mistakes ourselves. So we should be learning from other people's failures as well. And a lot of times we don't do that because we believe that we are special, nothing like that will happen to us.",
+      "timestamp": "01:06:21",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 1947,
+        "lineEnd": 1969
+      },
+      "themes": [
+        "failure",
+        "learning",
+        "mindset",
+        "entrepreneurship"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "kunal-shah-q012",
+      "speaker": "Kunal Shah",
+      "text": "All success comes from an extraordinary amount of pain and struggle and hard work, and there is no shortcut to anything material coming in life. The best way to love yourself is to keep evolving. My motivation comes from evolution, connecting dots, solving harder problems than I've solved in the past. Life is ultimately a game where you want to feel that your levels have changed and your skills have changed constantly.",
+      "timestamp": "01:17:22",
+      "source": {
+        "slug": "kunal-shah",
+        "path": "episodes/kunal-shah/transcript.md",
+        "lineStart": 2340,
+        "lineEnd": 2353
+      },
+      "themes": [
+        "motivation",
+        "growth",
+        "mindset",
+        "philosophy"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ]
+    },
+    {
       "id": "marty-cagan-001",
       "text": "There is no question that a lot of companies overhired during the pandemic. I go into some companies and honestly I can't believe all the ridiculous roles that they have, agile coaches and product owners and product ops and business analysts. They're dramatically overpaid for the value they provide. Because it's a project management role.",
       "source": {
@@ -10398,6 +11867,263 @@
         "intuition",
         "data",
         "discovery"
+      ]
+    },
+    {
+      "id": "mike-krieger-q001",
+      "speaker": "Mike Krieger",
+      "text": "I had this notion coming in like, 'Yes, these models are great, but are they able to have an independent opinion?' And it's actually really flipped for me only in the last month. My go-to product strategy partner is Claude. Opus 4 really looked at it in a new way. That is a new angle that I hadn't been looking at before and I'm going to incorporate that immediately.",
+      "timestamp": "00:05:04",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 92,
+        "lineEnd": 96
+      },
+      "themes": [
+        "AI-capabilities",
+        "product-strategy",
+        "creativity"
+      ],
+      "zones": [
+        "intuition",
+        "chaos"
+      ]
+    },
+    {
+      "id": "mike-krieger-q002",
+      "speaker": "Mike Krieger",
+      "text": "We really rapidly became bottlenecked on other things like our merge queue. We had to completely re-architect it because so much more code was being written and so many more pull requests were being submitted that it just completely blew out the expectations of it. I've just found all these new bottlenecks in our system.",
+      "timestamp": "00:13:54",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": [
+        "AI-development",
+        "bottlenecks",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "mike-krieger-q003",
+      "speaker": "Mike Krieger",
+      "text": "The upstream bottleneck is decision making and alignment. A lot of things that I'm thinking about right now is how do I provide the minimum viable strategy to let people feel empowered to go run and type and build and explore at the edge of model capabilities.",
+      "timestamp": "00:13:54",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 143
+      },
+      "themes": [
+        "strategy",
+        "alignment",
+        "empowerment"
+      ],
+      "zones": [
+        "alignment",
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "mike-krieger-q004",
+      "speaker": "Mike Krieger",
+      "text": "The team that works in the most futuristic way is the Claude Code team. They're using Claude Code to build Claude Code in a very self-improving kind of way. They've realized Claude is generally right and it's producing pull requests that are probably larger than most people are going to be able to review. So can you use a different Claude to review it?",
+      "timestamp": "00:16:38",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 149,
+        "lineEnd": 150
+      },
+      "themes": [
+        "AI-development",
+        "code-review",
+        "self-improvement"
+      ],
+      "zones": [
+        "velocity",
+        "chaos",
+        "data"
+      ]
+    },
+    {
+      "id": "mike-krieger-q005",
+      "speaker": "Mike Krieger",
+      "text": "If the proportion was already skewing towards having more of that embedding, I've just become more and more convinced. If we're shipping things that could have been built by anybody just using our models off the shelf, where we should play and what we can do uniquely should be stuff that's really at that magic intersection between product and research.",
+      "timestamp": "00:22:11",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 203,
+        "lineEnd": 205
+      },
+      "themes": [
+        "product-strategy",
+        "differentiation",
+        "research"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ]
+    },
+    {
+      "id": "mike-krieger-q006",
+      "speaker": "Mike Krieger",
+      "text": "Making this all comprehensible. What's still the difference between somebody who's really adept at using these tools in their work and most people is huge. Strategy, how we win, where we'll play. And opening people's eyes to what's possible—the delta between what the models and the products can do and how they're being used on a daily basis. Huge overhang.",
+      "timestamp": "00:25:21",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 226
+      },
+      "themes": [
+        "product-management",
+        "strategy",
+        "comprehension"
+      ],
+      "zones": [
+        "discovery",
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "mike-krieger-q007",
+      "speaker": "Mike Krieger",
+      "text": "Sometimes I'm like, 'Be brutal, Claude, roast me. Tell me what's wrong with this strategy.' Claude's like a pretty nice entity. It's hard to push it to be super brutal, but it forces it to be a little bit more critical as well. Make the other mistake—if you tend to be too nice, can you focus on being more critical?",
+      "timestamp": "00:28:18",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 239
+      },
+      "themes": [
+        "AI-usage",
+        "prompting",
+        "feedback"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
+      "id": "mike-krieger-q008",
+      "speaker": "Mike Krieger",
+      "text": "More than headcount we need a couple of almost founder type engineers. I'm a huge believer in the founding engineer tech lead with an idea and pair them with the right design and product supports. I'm 10 times more a believer in that than before.",
+      "timestamp": "00:35:10",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 303,
+        "lineEnd": 303
+      },
+      "themes": [
+        "hiring",
+        "team-building",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "focus",
+        "chaos"
+      ]
+    },
+    {
+      "id": "mike-krieger-q009",
+      "speaker": "Mike Krieger",
+      "text": "How do we figure out what we want to be when we grow up versus what we currently aren't or wish that we were or see other players in the space being? I think there's room for several generationally important companies to be built in AI right now. Let's figure out what we can be uniquely good at.",
+      "timestamp": "00:46:20",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 350,
+        "lineEnd": 357
+      },
+      "themes": [
+        "strategy",
+        "differentiation",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ]
+    },
+    {
+      "id": "mike-krieger-q010",
+      "speaker": "Mike Krieger",
+      "text": "For utility of AI products, it's three parts. One is model intelligence, the second part is context and memory, and the third part is applications and UI and you need all three of those to converge to actually be a useful product in AI. MCP really tried to tackle that middle one.",
+      "timestamp": "00:54:49",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 400
+      },
+      "themes": [
+        "AI-products",
+        "MCP",
+        "context"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "mike-krieger-q011",
+      "speaker": "Mike Krieger",
+      "text": "You know when your product is really serving people and it's doing a good job of doing that. So much of when you get really metrics obsessed is when you're trying to convince yourself that it is when it's not. Do we repeatedly hear from people that Claude is the way that they're unlocking their own creativity and getting things done?",
+      "timestamp": "01:02:35",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 447
+      },
+      "themes": [
+        "metrics",
+        "product-management",
+        "intuition"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "mike-krieger-q012",
+      "speaker": "Mike Krieger",
+      "text": "There's tremendous power in distribution and reach, but there's also people have an assumption about how to use things. I get excited about startups that have a completely different take on what the form factor is by which we interface with AI. Do something that feels very advanced user, very power user, very weird and out there at the beginning.",
+      "timestamp": "00:50:23",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 378
+      },
+      "themes": [
+        "startups",
+        "differentiation",
+        "innovation"
+      ],
+      "zones": [
+        "chaos",
+        "intuition",
+        "velocity"
       ]
     },
     {
@@ -11690,5 +13416,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-23T19:57:37.406Z"
+  "lastUpdated": "2026-01-24T23:28:50.691Z"
 }

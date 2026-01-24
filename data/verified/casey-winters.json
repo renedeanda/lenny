@@ -1,0 +1,206 @@
+{
+  "episode_slug": "casey-winters",
+  "guest": "Casey Winters",
+  "episode_title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+  "verification_date": "2026-01-24",
+  "verified_by": "claude-sonnet-4.5",
+  "quotes": [
+    {
+      "id": "casey-winters-001",
+      "text": "I find that in general people just way under communicate upward inside of companies. And then they'll complain that executives are out of touch when they aren't telling executives what the executives need to know.",
+      "source": {
+        "line_start": 94,
+        "line_end": 96,
+        "timestamp": "00:08:14",
+        "speaker": "Casey Winters"
+      },
+      "context": "On the importance of proactive upward communication when facing challenges, rather than silently struggling and later blaming leadership for being disconnected.",
+      "themes": ["communication", "leadership", "transparency"],
+      "zones": ["alignment"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-002",
+      "text": "Many times when non-executives are presenting to execs, they'll start on like chapter six. Even if that part of the story is right, you haven't earned the right to tell that part of the story yet because you skipped the first five chapters.",
+      "source": {
+        "line_start": 98,
+        "line_end": 99,
+        "timestamp": "00:10:20",
+        "speaker": "Casey Winters"
+      },
+      "context": "On communicating effectively with executives by starting with company strategy and assumptions before diving into implementation details.",
+      "themes": ["communication", "executive-presentations", "stakeholder-management"],
+      "zones": ["alignment", "focus"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-003",
+      "text": "You want to de-risk that meeting not make it a big success or fail moment. If there is a big presentation coming up, I try to run through it with the team, pretending to be the other members of the audience, so I'll say what the CFO's going to ask about here is X. You want to answer that question before it gets asked.",
+      "source": {
+        "line_start": 107,
+        "line_end": 108,
+        "timestamp": "00:11:33",
+        "speaker": "Casey Winters"
+      },
+      "context": "On preparing for important meetings by role-playing different executive perspectives and anticipating their questions.",
+      "themes": ["meeting-preparation", "de-risking", "executive-communication"],
+      "zones": ["alignment", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-004",
+      "text": "The point is not how much time you spend, it's how well do you really know the material, and how well do you really know what your audience is going to care about with that material. If you haven't thought through all the questions that might be asked from the document you're sharing, you're not prepared enough.",
+      "source": {
+        "line_start": 121,
+        "line_end": 126,
+        "timestamp": "00:15:10",
+        "speaker": "Casey Winters"
+      },
+      "context": "On the depth of preparation required for high-stakes meetings with executives, emphasizing knowing the material inside-out rather than memorizing a script.",
+      "themes": ["preparation", "meeting-excellence", "communication"],
+      "zones": ["perfection", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-005",
+      "text": "We strive for this concept of what we call perceived simplicity, which is there are advanced features in the product and they are easily discoverable when you look for them, but they're effectively hidden if you're not looking for them.",
+      "source": {
+        "line_start": 145,
+        "line_end": 146,
+        "timestamp": "00:21:32",
+        "speaker": "Casey Winters"
+      },
+      "context": "On solving the product complexity problem at Eventbrite by making advanced features discoverable but not intrusive, inspired by WhatsApp's approach.",
+      "themes": ["product-design", "complexity", "user-experience", "progressive-disclosure"],
+      "zones": ["perfection", "focus"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-006",
+      "text": "Some of the most impactful projects that product teams can work on at scale are the hardest to measure. And because of that, they just get chronically underfunded. You can't really do a lot of this work alone. If you're a PM, you want to be approaching this from a well, my engineering manager and my design leader also bought in that we need to work on performance.",
+      "source": {
+        "line_start": 163,
+        "line_end": 167,
+        "timestamp": "00:24:49",
+        "speaker": "Casey Winters"
+      },
+      "context": "On justifying non-sexy product improvements like stability and performance by first getting peer leaders aligned before approaching executives.",
+      "themes": ["prioritization", "non-sexy-work", "stakeholder-buy-in", "technical-debt"],
+      "zones": ["alignment", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-007",
+      "text": "When you're an early stage company, everything is trying to drive upside. But when you've actually built a real business, you can actually lose what you've built. Trying to help executives understand that this thing we've got could go away if we don't do these other things can be incredibly powerful.",
+      "source": {
+        "line_start": 181,
+        "line_end": 185,
+        "timestamp": "00:27:57",
+        "speaker": "Casey Winters"
+      },
+      "context": "On shifting mindset from pure growth to protecting existing gains once you've achieved scale.",
+      "themes": ["scaling", "growth-vs-retention", "mindset-shift", "defensive-product"],
+      "zones": ["focus", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-008",
+      "text": "User expectations just continue to go up every day. The competitive landscape in the market continues to get better. If you're not continually pushing to make your product better, you might find yourself fall out of product market fit entirely. And that's a really dangerous place to be.",
+      "source": {
+        "line_start": 190,
+        "line_end": 191,
+        "timestamp": "00:29:54",
+        "speaker": "Casey Winters"
+      },
+      "context": "On product-market fit as a constantly moving target that requires continuous iteration to maintain, not a one-time achievement.",
+      "themes": ["product-market-fit", "competitive-landscape", "continuous-improvement"],
+      "zones": ["chaos", "discovery", "perfection"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-009",
+      "text": "Having marketing ops means you suck at marketing. It scares me when the first tactic people go to is to add people to help scale. When you say their job is to do this manual process long term, that's where I get super concerned because you're not rooting out efficiency in how you build your company.",
+      "source": {
+        "line_start": 209,
+        "line_end": 214,
+        "timestamp": "00:31:26",
+        "speaker": "Casey Winters"
+      },
+      "context": "On operations roles as a sign of inefficiency, arguing teams should invest in automation and process instead of scaling ops headcount.",
+      "themes": ["operations", "efficiency", "automation", "team-structure", "empire-building"],
+      "zones": ["velocity", "focus"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-010",
+      "text": "You have two extreme types of product managers: the crazy innovator types who have ideas all the time, and the executional focused PM who can take a strong strategy and turn it into action. What we all want is people in the middle. There just aren't a ton of those people in the world.",
+      "source": {
+        "line_start": 260,
+        "line_end": 264,
+        "timestamp": "00:41:06",
+        "speaker": "Casey Winters"
+      },
+      "context": "On the spectrum of product managers from strategic innovators to tactical executors, and the challenge of recruiting balanced PMs who excel at both.",
+      "themes": ["product-management", "hiring", "team-composition", "strategy-vs-execution"],
+      "zones": ["intuition", "discovery", "velocity"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-011",
+      "text": "If you want to start managing groups of PMs, I as a chief product officer, I'm going to expect you to be able to write that strategy doc without me. That's the great filter. You'll get stuck at the senior PM level because you can't show that you can drive decision making on your own.",
+      "source": {
+        "line_start": 275,
+        "line_end": 278,
+        "timestamp": "00:45:30",
+        "speaker": "Casey Winters"
+      },
+      "context": "On strategy as the primary skill gap preventing PMs from advancing to leadership roles, emphasizing the ability to independently drive strategic decision-making.",
+      "themes": ["career-growth", "product-strategy", "leadership", "skill-development"],
+      "zones": ["focus", "alignment"],
+      "verified": true
+    },
+    {
+      "id": "casey-winters-012",
+      "text": "I separate growth into two phases. Kindle strategies are those non-scalable hacks to get your early users. Fire strategies drive scale. The goal of your kindle strategies is they only exist to unlock the fire strategies, to unlock the things that could take you to millions of users.",
+      "source": {
+        "line_start": 337,
+        "line_end": 341,
+        "timestamp": "00:50:40",
+        "speaker": "Casey Winters"
+      },
+      "context": "On distinguishing between early-stage growth tactics (kindle) and scalable growth engines (fire), with kindle strategies serving solely to unlock fire strategies.",
+      "themes": ["growth-strategy", "scaling", "growth-tactics", "non-scalable-hacks"],
+      "zones": ["velocity", "focus"],
+      "verified": true
+    }
+  ],
+  "takeaways": [
+    "Under-communicating upward is a common career limiter. Executives need context on challenges and trade-offs to support you effectively—proactively share what's blocking you rather than silently struggling.",
+    "Preparing for high-stakes meetings requires anticipating every possible question and knowing your material deeply, not just rehearsing slides. De-risk big presentations through role-playing and pre-meetings with key stakeholders.",
+    "At scale, protecting what you've built becomes as important as adding new growth. Product-market fit decays over time as user expectations and competition evolve—continuous investment in quality and performance isn't optional.",
+    "Operations roles signal inefficiency. Teams should invest in automation and process improvements rather than scaling ops headcount. The goal of ops should be to eliminate itself by rooting out inefficiencies.",
+    "Strategy development is the great filter for PM career advancement. You can ship your way to Senior PM, but to reach leadership you must demonstrate the ability to independently craft product strategy and drive decision-making without hand-holding."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.05,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.30,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "casey-winters-009",
+      "why": "Provocative stance that ops roles are a sign of dysfunction rather than scaling success",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "casey-winters-008",
+      "why": "Challenges the notion that product-market fit is an achievement—frames it as a constantly decaying state",
+      "related_zones": ["chaos", "discovery"]
+    }
+  ]
+}
