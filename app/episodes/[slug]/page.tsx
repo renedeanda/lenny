@@ -176,7 +176,7 @@ export default function EpisodePage() {
 
   const relatedEpisodes = useMemo(() => {
     if (!episode) return [];
-    
+
     return allEpisodes
       .filter(ep => {
         if (ep.slug === episode.slug) return false;
@@ -185,6 +185,28 @@ export default function EpisodePage() {
         return overlap.length >= 2;
       })
       .slice(0, 3);
+  }, [episode]);
+
+  // Find other episodes with the same guest (for multi-time guests)
+  const otherGuestEpisodes = useMemo(() => {
+    if (!episode) return [];
+
+    // Extract base guest name (remove version numbers like "2.0", "3.0", etc.)
+    const baseGuestName = episode.guest.replace(/\s+\d+\.0.*$/i, '').trim();
+
+    return allEpisodes
+      .filter(ep => {
+        if (ep.slug === episode.slug) return false;
+        // Match if guest name starts with the same base name
+        const epBaseGuestName = ep.guest.replace(/\s+\d+\.0.*$/i, '').trim();
+        return epBaseGuestName === baseGuestName;
+      })
+      .sort((a, b) => {
+        // Sort by publish date (newest first)
+        const dateA = new Date(a.publishDate || 0).getTime();
+        const dateB = new Date(b.publishDate || 0).getTime();
+        return dateB - dateA;
+      });
   }, [episode]);
 
   const filteredSections = useMemo(() => {
@@ -582,6 +604,43 @@ export default function EpisodePage() {
                         {showAllContrarian ? '▲ Show Less' : `▼ Show ${insights.contrarianViews.length - 2} More`}
                       </button>
                     )}
+                  </div>
+                )}
+
+                {/* Other Episodes with Same Guest */}
+                {otherGuestEpisodes.length > 0 && (
+                  <div className="border-2 border-amber bg-void-light p-6">
+                    <h3 className="text-lg font-bold text-amber mb-4">
+                      🎙️ MORE FROM {episode?.guest.replace(/\s+\d+\.0.*$/i, '').trim().toUpperCase()}
+                    </h3>
+                    <div className="space-y-4">
+                      {otherGuestEpisodes.map((other) => (
+                        <Link
+                          key={other.slug}
+                          href={`/episodes/${other.slug}`}
+                          className="block group"
+                        >
+                          <div className="flex items-start gap-3">
+                            <div className="flex-1">
+                              <div className="text-sm font-bold text-amber group-hover:text-amber/80 transition-colors mb-1">
+                                {other.guest}
+                              </div>
+                              <div className="text-xs text-ash-dark line-clamp-2 mb-1">
+                                {other.title}
+                              </div>
+                              {other.publishDate && (
+                                <div className="text-xs text-ash-darker">
+                                  {new Date(other.publishDate).toLocaleDateString('en-US', {
+                                    month: 'short',
+                                    year: 'numeric'
+                                  })}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 )}
 
