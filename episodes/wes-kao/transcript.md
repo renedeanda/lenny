@@ -1,5 +1,5 @@
 ---
-guest: Wes Kao
+guest: Wes Kao 1.0
 title: Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)
 youtube_url: https://www.youtube.com/watch?v=4jtGsyz4jLs
 video_id: 4jtGsyz4jLs

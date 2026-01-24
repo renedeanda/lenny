@@ -1,5 +1,5 @@
 ---
-guest: Tomer Cohen
+guest: Tomer Cohen 1.0
 title: Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn
   CPO)
 youtube_url: https://www.youtube.com/watch?v=R-zCfLQD_84

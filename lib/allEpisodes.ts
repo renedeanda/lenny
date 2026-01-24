@@ -1916,7 +1916,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "bob-moesta",
-    "guest": "Bob Moesta",
+    "guest": "Bob Moesta 1.0",
     "title": "How to find work you love | Bob Moesta (Jobs-to-be-Done co-creator, author of \"Job Moves”)",
     "publishDate": "2025-02-23T00:00:00.000Z",
     "duration": "1:24:56",
@@ -4456,127 +4456,6 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "donna-lichaw",
-    "guest": "Donna Lichaw",
-    "title": "How to discover your superpowers, own your story, and unlock personal growth | Donna Lichaw",
-    "publishDate": "2024-02-25T00:00:00.000Z",
-    "duration": "1:27:03",
-    "durationSeconds": 5223,
-    "viewCount": 11727,
-    "youtubeUrl": "https://www.youtube.com/watch?v=7fA8DMMUNPI",
-    "videoId": "7fA8DMMUNPI",
-    "description": "Donna Lichaw is an internationally sought-after executive coach, keynote speaker, and best-selling author. She helps visionary founders, CEOs, and executive teams level up their leadership...\n",
-    "keywords": [
-      "growth",
-      "retention",
-      "roadmap",
-      "prioritization",
-      "user research",
-      "customer discovery",
-      "data-driven",
-      "conversion",
-      "hiring",
-      "leadership",
-      "management",
-      "strategy",
-      "vision",
-      "mission",
-      "market"
-    ],
-    "dialogueCount": 195,
-    "keyQuotesCount": 53,
-    "contrarianCount": 55,
-    "sampleQuotes": [
-      {
-        "speaker": "Donna Lichaw",
-        "timestamp": "00:00:00",
-        "quote": "When superheroes discover what their superpowers actually are, they wreak havoc and they make a mess, and it's uncomfortable. And even Superman tries to get rid of his superpowers. It's hard to know what you're really great at.",
-        "length": 227
-      },
-      {
-        "speaker": "Donna Lichaw",
-        "timestamp": "00:00:17",
-        "quote": "Pull your superpowers out of your stories from your past, your present, and then eventually figure out how to apply them and transpose them to your future.",
-        "length": 155
-      },
-      {
-        "speaker": "Donna Lichaw",
-        "timestamp": "00:00:31",
-        "quote": "The most effective stories are the ones that we tell ourselves. They may or may not be true; our brain doesn't know the difference. Once you can really understand that, you may as well leverage it to be that hero.",
-        "length": 213
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:04:31",
-        "quote": "We connected through a former colleague of mine who could not stop raving about how much value she got from working with you. Also, you have a new book app right here that I have, The Leader's journey, and so I thought it would be awesome to bring you on and share your wisdom with a wider audience.",
-        "length": 299
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:05:00",
-        "quote": "You actually were a product manager in a previous life. You're also a designer in a previous life. These days you're an executive coach. Just briefly, I'm curious what pulled you from product management design and the things you did before this life into executive coaching. And maybe another way to ask this question is what's your origin story? And this is a little foreshadowing to the stuff we're going to be talking about later.",
-        "length": 433
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:14:49",
-        "quote": "Can you give an example of someone you worked with that changed their story and what impact it had on their career to make this even more real?",
-        "length": 143
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:16:45",
-        "quote": "Yeah, that's exactly what I was going to ask. Yeah, if you could share what you did to help shift his story, and then also just how do people do this for themselves?",
-        "length": 165
-      },
-      {
-        "speaker": "And so they were able to write a better ending of that story together. It was exactly like user research of any kind or customer discovery, which is you find out what could be possible from your customers and then ideally you co-create a better ending together. If you're building products or services, that's how you do it. If you're a leader, you do it by showing up and helping others do what they need to do in a way that feels good for you and that aligns with how you want to be doing things.",
-        "timestamp": "00:20:44",
-        "quote": "And so this is one example, but I find using real research and data and actually talking to people is most effective. There are other ways to take best guesses, and I'll use the product metaphor again, which is you can try things and experiment and then see how it works and not talk to your users, but you should probably talk to your customers, in other words, your colleagues and everyone who works for you, and really find out what is the true story and what is possible.",
-        "length": 475
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:25:09",
-        "quote": "That's an awesome example. By the way, on the personal OS, an another term for that I've heard is README, like your own personal README file.",
-        "length": 141
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:30:49",
-        "quote": "I love that advice. It's so much easier to just, okay, yep, it's true. Maybe I am an imposter, but here's how he can maybe help me while I feel this. And this actually reminds me of another coach who did a guest post on my newsletter a long time ago, and her advice is, \"Yeah, you probably are an imposter. You're in a role you've never done before. And that's pretty normal, and that's okay. And here's how you should approach it.\"",
-        "length": 432
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Donna Lichaw",
-        "timestamp": "00:00:00",
-        "text": "When superheroes discover what their superpowers actually are, they wreak havoc and they make a mess, and it's uncomfortable. And even Superman tries to get rid of his superpowers. It's hard to know what you're really great at."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:05:00",
-        "text": "You actually were a product manager in a previous life. You're also a designer in a previous life. These days you're an executive coach. Just briefly, I'm curious what pulled you from product management design and the things you did before this life into executive coaching. And maybe another way to ask this question is what's your origin story? And this is a little foreshadowing to the stuff we're going to be talking about later."
-      },
-      {
-        "speaker": "And what they were able to tell me is that their leaders wanted them to be more effective by having greater influence. And these are terms that we throw around all the time. Be more influential and be a better leader, whatever that means. And what was happening on the ground with these executives was that they were all fighting. I'd hear, \"Oh, the head of engineering is such a jerk,\" or, \"This person won't listen to me,\" or, \"My team is demotivated. And I get it, but they need to step up and work more.\" And there was just a lot of conflict going on here and there that storytelling wouldn't fix. When that happens, and I talk about this in the book a bunch, no one wants to hear your stories. You have to actually be able to connect with people and to work with people and feel good as a leader in order to really step up and lead. I didn't have an answer for this team at the time, and I left this offsite just honestly feeling terrible and not knowing what to do about it except telling them, \"I think you got to go work with a coach because this is beyond my pay grade.\"",
-        "timestamp": "00:08:05",
-        "text": "But when I left that day, I just couldn't stop thinking about this team because I had a hunch that stories were still a part of something but not what they needed. Telling stories was not the answer, and so I ended up spending what now is the next decade figuring out, all right, how do you become an effective leader? And of course because I can't do anything lightly, once I went down that path, I ended up switching up my entire business. And now that's all I do is help people be better, more effective, confident leaders who really make the impact that they want to make."
-      },
-      {
-        "speaker": "Lenny",
-        "timestamp": "00:08:39",
-        "text": "Along those same lines, what's interesting is you actually found that this idea of storytelling was actually much more effective in your coaching practice. Instead of helping them figure out the story of the product, it's the story of the person. And so transitioning into the meat of your approach to coaching, I think you call it story-driven leadership. Essentially, your finding is that story and the person's story is extremely important and powerful in helping them level up as a leader and also seeing them as the hero of their story. I guess just with that foundation, can you just talk about why that is so powerful, the idea of figuring out your own story and why you need to be the hero of your own story and just what all this means?"
-      },
-      {
-        "speaker": "We also have obstacles, so that's a part of any great story. There are challenges. It shouldn't be easy. It shouldn't be so hard that you fail, that's a tragedy, but there are challenges, and it makes life more exciting. You don't do it alone. It's rare that a story just has a single individual. It happens, but that's not most of life. And there are other elements that I ended up uncovering when I looked deeper into what makes the most effective leaders effective, and the biggest thing is stories that we tell people, it's like the tip of the iceberg. And if anything, it even doesn't matter, I've worked with a lot of folks who their teams say, \"Stop it with the storytelling. Stop talking at us.\" And they don't want any of that.",
-        "timestamp": "00:10:43",
-        "text": "But the most effective stories are the ones that we experience as we live life and that we tell ourselves as well because we have the ability by saying things like, \"Oh, I'll never succeed,\" or, \"Oh, she'll never go for it,\" or, \"He's such a jerk.\" Or whatever the stories are, these are all stories. And they may or may not be true, they're usually not true, but our brain doesn't know the difference. It's the most powerful ability our brain has is to understand and see stories everywhere. And so once you can really understand that, you may as well leverage it to be that hero in your life. And even as I say it out loud, it sounds so cheesy, but it's true. This is neuroscience and psychology. We just want to be the heroes, and that's what our focus is."
-      }
-    ]
-  },
-  {
     "slug": "christian-idiodi",
     "guest": "Christian Idiodi",
     "title": "The essence of product management | Christian Idiodi (SVPG)",
@@ -5183,7 +5062,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "april-dunford",
-    "guest": "April Dunford",
+    "guest": "April Dunford 1.0",
     "title": "A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)",
     "publishDate": "2023-10-22T00:00:00.000Z",
     "duration": "1:30:53",
@@ -6908,6 +6787,40 @@ export const allEpisodes: Episode[] = [
         "text": "So to summarize, I wrote these pieces down. The concept broadly is if you want advice on a decision you're trying to make, pick some friends and this is... I guess I'll go through the four things you just mentioned. And part two is actually pick the right friends. But one is just, come up with a question that's specific. As in just like, what should I do with my life? But more, should I take the specific role at the specific company? Figure out the people that know you well and maybe have some context on this decision. How many people do you usually email for this sort of thing? What's a number?"
       }
     ]
+  },
+  {
+    "slug": "casey-winters-20",
+    "guest": "Casey Winters 2.0",
+    "title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
+    "publishDate": "2023-04-14T00:00:00.000Z",
+    "duration": "1:17:44",
+    "durationSeconds": 4664,
+    "viewCount": 12000,
+    "youtubeUrl": "https://www.youtube.com/watch?v=QMFvz8utx-Q",
+    "videoId": "QMFvz8utx-Q",
+    "description": "Casey Winters shares advice on making tradeoffs as a product leader, justifying non-sexy product investments, growth trends and tactics, when to focus on growth, and so much more.",
+    "keywords": [
+      "growth",
+      "acquisition",
+      "metrics",
+      "okrs",
+      "roadmap",
+      "user research",
+      "analytics",
+      "conversion",
+      "pricing",
+      "hiring",
+      "leadership",
+      "management",
+      "strategy",
+      "market",
+      "segmentation"
+    ],
+    "dialogueCount": 0,
+    "keyQuotesCount": 0,
+    "contrarianCount": 0,
+    "sampleQuotes": [],
+    "sampleContrarian": []
   },
   {
     "slug": "christina-wodtke",
@@ -8673,7 +8586,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "casey-winters",
-    "guest": "Casey Winters",
+    "guest": "Casey Winters 1.0",
     "title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
     "publishDate": "2022-07-21T00:00:00.000Z",
     "duration": "55:09",
@@ -9762,7 +9675,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "sander-schulhoff",
-    "guest": "Sander Schulhoff",
+    "guest": "Sander Schulhoff 1.0",
     "title": "AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff",
     "publishDate": "2025-06-19T00:00:00.000Z",
     "duration": "1:37:47",
@@ -10398,40 +10311,6 @@ export const allEpisodes: Episode[] = [
         "text": "0.4 is good for a viral feature, 0.6 is great, something like 0.7 is absolutely incredible. You're in the stratosphere up with Facebook at that time. So I said, \"Well, okay, all of these things by definition are going to Peter out. There's going to be an asymptote. None of these viral mechanics keep on compounding. Which actually makes sense, it would be a little absurd if things just kept on growing. What then is the true secret behind virality?\" And he said, \"It is word of mouth. It is the virality you can't measure that isn't a mechanic that isn't in a feature. It is when one user spontaneously tells another user about your product.\" That really colored how I think about growth and virality. Since then, it has shaped so much of what we do at Superhuman and so much of how I think about growing brands."
       }
     ]
-  },
-  {
-    "slug": "seth-godin",
-    "guest": "Seth Godin",
-    "title": "Seth Godin's best tactics for building remarkable products, strategies, brands and more",
-    "publishDate": "2024-12-08T00:00:00.000Z",
-    "duration": "45:16",
-    "durationSeconds": 2716,
-    "viewCount": 37826,
-    "youtubeUrl": "https://www.youtube.com/watch?v=UyWTDmDjNy4",
-    "videoId": "UyWTDmDjNy4",
-    "description": "Seth Godin is a legend. He’s a marketer, teacher, entrepreneur, and author of more than 20 books, including Purple Cow, Permission Marketing, and Linchpin. He also writes one of the most...",
-    "keywords": [
-      "metrics",
-      "roadmap",
-      "culture",
-      "leadership",
-      "management",
-      "strategy",
-      "mission",
-      "competition",
-      "market",
-      "design",
-      "ux",
-      "ui",
-      "engineering",
-      "startup",
-      "founder"
-    ],
-    "dialogueCount": 0,
-    "keyQuotesCount": 0,
-    "contrarianCount": 0,
-    "sampleQuotes": [],
-    "sampleContrarian": []
   },
   {
     "slug": "raaz-herzberg",
@@ -12733,6 +12612,127 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
+    "slug": "nikita-bier",
+    "guest": "Nikita Bier",
+    "title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
+    "publishDate": "2023-04-06T00:00:00.000Z",
+    "duration": "59:20",
+    "durationSeconds": 3560,
+    "viewCount": 6020,
+    "youtubeUrl": "https://www.youtube.com/watch?v=4PhfAbRQpbI",
+    "videoId": "4PhfAbRQpbI",
+    "description": "Nikita Miller is a product leader, angel investor, and advisor. She has built and led product teams at companies ranging from early-stage startups to multinationals, and she is currently SVP...\n",
+    "keywords": [
+      "product-market fit",
+      "growth",
+      "retention",
+      "acquisition",
+      "activation",
+      "onboarding",
+      "churn",
+      "metrics",
+      "roadmap",
+      "prioritization",
+      "user research",
+      "experimentation",
+      "analytics",
+      "funnel",
+      "conversion"
+    ],
+    "dialogueCount": 191,
+    "keyQuotesCount": 68,
+    "contrarianCount": 58,
+    "sampleQuotes": [
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:00",
+        "quote": "... Honored to be on a product management podcast for a person who doesn't believe product management is real.",
+        "length": 110
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:07",
+        "quote": "We're already getting into the hot takes. You launched tbh, went viral, you end up selling it to Facebook. What was the insight that helped you come up with this is a big idea that we should try?",
+        "length": 195
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:15",
+        "quote": "I looked on the App Store and the number one app in the United States was an app called Surah, but the entire app was in Arabic, like the strongest signal that you could ever have that people want something.",
+        "length": 207
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:30",
+        "quote": "We launched this app, it immediately took off, servers started crashing. I looked at our numbers and I'm like, \"We will be number one in the United States in six days.\"",
+        "length": 168
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:43",
+        "quote": "Where people are trying to obtain a particular value and going through a very distortive process. If you can actually crystallize what their motivation is, you can have this kind of intense adoption.",
+        "length": 199
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:59",
+        "quote": "The thing I didn't realize as a product manager in a large tech company is there is very little product management that you do. They're mainly just writing documents and then being the team secretary and running around getting approvals, but products live and die in the pixels. You should be designing the hierarchy, the pixels, the flows, everything. That's on you.",
+        "length": 367
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:01:21",
+        "quote": "At some point you started tweeting like, \"Hey, I'm working on new app. Everyone was going nuts.\" I saw a stat that you made $11 million in sales, 10 million downloads.",
+        "length": 167
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:01:28",
+        "quote": "The thing that is hard to really understand is it is absolute chaos to keep the thing online. I was sleeping three hours a day for three months. Our team was also relentless though. They would come over to my house, 9:00 AM, stay until midnight and just do that seven days a week.",
+        "length": 280
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:01:44",
+        "quote": "Is there anything else that's just like this is something that is probably going to help you with your app?",
+        "length": 107
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:01:48",
+        "quote": "With certainty, if you're good at your job, you can make an app grow and go viral. Over the years of building all these apps, I've accrued all these growth hacks that still nobody knows about.",
+        "length": 192
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:15",
+        "text": "I looked on the App Store and the number one app in the United States was an app called Surah, but the entire app was in Arabic, like the strongest signal that you could ever have that people want something."
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:43",
+        "text": "Where people are trying to obtain a particular value and going through a very distortive process. If you can actually crystallize what their motivation is, you can have this kind of intense adoption."
+      },
+      {
+        "speaker": "Lenny Rachitsky",
+        "timestamp": "00:00:57",
+        "text": "I didn't know you're actually a product manager at Facebook."
+      },
+      {
+        "speaker": "Nikita Bier",
+        "timestamp": "00:00:59",
+        "text": "The thing I didn't realize as a product manager in a large tech company is there is very little product management that you do. They're mainly just writing documents and then being the team secretary and running around getting approvals, but products live and die in the pixels. You should be designing the hierarchy, the pixels, the flows, everything. That's on you."
+      },
+      {
+        "speaker": "Today, my guest is Nikita Bier. Nikita has built, launched and helped get more apps to the top of the app store than any human I've ever come across. He sold his first big hit tbh to Facebook for over $30 million. He sold his second big app Gas to Discord for many millions more. He did this all with a tiny team and very little funding. He's also helped dozens of founders and apps, and as an advisor or investor to companies like Flow, Citizen, BeReal, LOCKit and Wealthsimple and many more. Today, he spends his time advising companies on viral growth strategies, design feedback, structuring their product development process and a lot more.",
+        "timestamp": "00:02:38",
+        "text": "What I love about Nikita is that he has very strong opinions about how to build successful products that are rooted in him actually doing the work over the past decade to see for himself what works and what doesn't. Nikita has been the single most requested guests on this podcast, and you'll soon see why. This episode is packed with tactics and stories and lessons that I am sure will leave you wanting more. If you want to work with Nikita on your app, you can actually book his time at intro.co/nikitabier. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes and helps the podcast tremendously. With that, I bring you Nikita Bier. Nikita, thank you so much for being here. Welcome to the podcast."
+      }
+    ]
+  },
+  {
     "slug": "nikita-miller",
     "guest": "Nikita Miller",
     "title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
@@ -13131,7 +13131,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "tomer-cohen",
-    "guest": "Tomer Cohen",
+    "guest": "Tomer Cohen 1.0",
     "title": "Why AI is disrupting traditional product management | Tomer Cohen (LinkedIn CPO)",
     "publishDate": "2025-12-04T00:00:00.000Z",
     "duration": "1:07:32",
@@ -14220,7 +14220,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "nicole-forsgren",
-    "guest": "Nicole Forsgren",
+    "guest": "Nicole Forsgren 1.0",
     "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
     "publishDate": "2025-10-19T00:00:00.000Z",
     "duration": "1:07:48",
@@ -14462,7 +14462,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "dylan-field",
-    "guest": "Dylan Field",
+    "guest": "Dylan Field 1.0",
     "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
     "publishDate": "2025-10-16T00:00:00.000Z",
     "duration": "1:26:50",
@@ -14893,7 +14893,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "julie-zhuo",
-    "guest": "Julie Zhuo",
+    "guest": "Julie Zhuo 1.0",
     "title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo",
     "publishDate": "2025-09-21T00:00:00.000Z",
     "duration": "1:36:24",
@@ -15861,7 +15861,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "madhavan-ramanujam",
-    "guest": "Madhavan Ramanujam",
+    "guest": "Madhavan Ramanujam 1.0",
     "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
     "publishDate": "2025-07-27T00:00:00.000Z",
     "duration": "1:11:44",
@@ -17744,7 +17744,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "uri-levine",
-    "guest": "Uri Levine",
+    "guest": "Uri Levine 1.0",
     "title": "A founder’s guide to crisis management | Uri Levine (Waze co-founder, serial entrepreneur)",
     "publishDate": "2025-02-16T00:00:00.000Z",
     "duration": "1:23:46",
@@ -18348,8 +18348,8 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "slug": "elena-verna",
-    "guest": "Elena Verna",
+    "slug": "elena-verna-30",
+    "guest": "Elena Verna 3.0",
     "title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
     "publishDate": "2025-01-19T00:00:00.000Z",
     "duration": "1:35:10",
@@ -19231,6 +19231,40 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
+    "slug": "seth-godin",
+    "guest": "Seth Godin",
+    "title": "Seth Godin's best tactics for building remarkable products, strategies, brands and more",
+    "publishDate": "2024-12-08T00:00:00.000Z",
+    "duration": "45:16",
+    "durationSeconds": 2716,
+    "viewCount": 37826,
+    "youtubeUrl": "https://www.youtube.com/watch?v=UyWTDmDjNy4",
+    "videoId": "UyWTDmDjNy4",
+    "description": "Seth Godin is a legend. He’s a marketer, teacher, entrepreneur, and author of more than 20 books, including Purple Cow, Permission Marketing, and Linchpin. He also writes one of the most...",
+    "keywords": [
+      "metrics",
+      "roadmap",
+      "culture",
+      "leadership",
+      "management",
+      "strategy",
+      "mission",
+      "competition",
+      "market",
+      "design",
+      "ux",
+      "ui",
+      "engineering",
+      "startup",
+      "founder"
+    ],
+    "dialogueCount": 0,
+    "keyQuotesCount": 0,
+    "contrarianCount": 0,
+    "sampleQuotes": [],
+    "sampleContrarian": []
+  },
+  {
     "slug": "jonathan-lowenhar",
     "guest": "Jonathan Lowenhar",
     "title": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
@@ -19353,7 +19387,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "jen-abel",
-    "guest": "Jen Abel",
+    "guest": "Jen Abel 1.0",
     "title": "The ultimate guide to founder-led sales | Jen Abel (co-founder of JJELLYFISH)",
     "publishDate": "2024-11-24T00:00:00.000Z",
     "duration": "1:16:05",
@@ -23049,7 +23083,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "marty-cagan",
-    "guest": "Marty Cagan",
+    "guest": "Marty Cagan 1.0",
     "title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
     "publishDate": "2024-03-10T00:00:00.000Z",
     "duration": "1:25:15",
@@ -23165,6 +23199,127 @@ export const allEpisodes: Episode[] = [
         "speaker": "Marty Cagan",
         "timestamp": "00:12:18",
         "text": "I do. In fact, I've got some very uncomfortable things to talk about, which I know the more intelligent part of me is like, \"Don't bring that up.\" But also the other side of me is like, \"But people need to hear it.\""
+      }
+    ]
+  },
+  {
+    "slug": "donna-lichaw",
+    "guest": "Donna Lichaw",
+    "title": "How to discover your superpowers, own your story, and unlock personal growth | Donna Lichaw",
+    "publishDate": "2024-02-25T00:00:00.000Z",
+    "duration": "1:27:03",
+    "durationSeconds": 5223,
+    "viewCount": 11727,
+    "youtubeUrl": "https://www.youtube.com/watch?v=7fA8DMMUNPI",
+    "videoId": "7fA8DMMUNPI",
+    "description": "Donna Lichaw is an internationally sought-after executive coach, keynote speaker, and best-selling author. She helps visionary founders, CEOs, and executive teams level up their leadership...\n",
+    "keywords": [
+      "growth",
+      "retention",
+      "roadmap",
+      "prioritization",
+      "user research",
+      "customer discovery",
+      "data-driven",
+      "conversion",
+      "hiring",
+      "leadership",
+      "management",
+      "strategy",
+      "vision",
+      "mission",
+      "market"
+    ],
+    "dialogueCount": 195,
+    "keyQuotesCount": 53,
+    "contrarianCount": 55,
+    "sampleQuotes": [
+      {
+        "speaker": "Donna Lichaw",
+        "timestamp": "00:00:00",
+        "quote": "When superheroes discover what their superpowers actually are, they wreak havoc and they make a mess, and it's uncomfortable. And even Superman tries to get rid of his superpowers. It's hard to know what you're really great at.",
+        "length": 227
+      },
+      {
+        "speaker": "Donna Lichaw",
+        "timestamp": "00:00:17",
+        "quote": "Pull your superpowers out of your stories from your past, your present, and then eventually figure out how to apply them and transpose them to your future.",
+        "length": 155
+      },
+      {
+        "speaker": "Donna Lichaw",
+        "timestamp": "00:00:31",
+        "quote": "The most effective stories are the ones that we tell ourselves. They may or may not be true; our brain doesn't know the difference. Once you can really understand that, you may as well leverage it to be that hero.",
+        "length": 213
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:04:31",
+        "quote": "We connected through a former colleague of mine who could not stop raving about how much value she got from working with you. Also, you have a new book app right here that I have, The Leader's journey, and so I thought it would be awesome to bring you on and share your wisdom with a wider audience.",
+        "length": 299
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:05:00",
+        "quote": "You actually were a product manager in a previous life. You're also a designer in a previous life. These days you're an executive coach. Just briefly, I'm curious what pulled you from product management design and the things you did before this life into executive coaching. And maybe another way to ask this question is what's your origin story? And this is a little foreshadowing to the stuff we're going to be talking about later.",
+        "length": 433
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:14:49",
+        "quote": "Can you give an example of someone you worked with that changed their story and what impact it had on their career to make this even more real?",
+        "length": 143
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:16:45",
+        "quote": "Yeah, that's exactly what I was going to ask. Yeah, if you could share what you did to help shift his story, and then also just how do people do this for themselves?",
+        "length": 165
+      },
+      {
+        "speaker": "And so they were able to write a better ending of that story together. It was exactly like user research of any kind or customer discovery, which is you find out what could be possible from your customers and then ideally you co-create a better ending together. If you're building products or services, that's how you do it. If you're a leader, you do it by showing up and helping others do what they need to do in a way that feels good for you and that aligns with how you want to be doing things.",
+        "timestamp": "00:20:44",
+        "quote": "And so this is one example, but I find using real research and data and actually talking to people is most effective. There are other ways to take best guesses, and I'll use the product metaphor again, which is you can try things and experiment and then see how it works and not talk to your users, but you should probably talk to your customers, in other words, your colleagues and everyone who works for you, and really find out what is the true story and what is possible.",
+        "length": 475
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:25:09",
+        "quote": "That's an awesome example. By the way, on the personal OS, an another term for that I've heard is README, like your own personal README file.",
+        "length": 141
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:30:49",
+        "quote": "I love that advice. It's so much easier to just, okay, yep, it's true. Maybe I am an imposter, but here's how he can maybe help me while I feel this. And this actually reminds me of another coach who did a guest post on my newsletter a long time ago, and her advice is, \"Yeah, you probably are an imposter. You're in a role you've never done before. And that's pretty normal, and that's okay. And here's how you should approach it.\"",
+        "length": 432
+      }
+    ],
+    "sampleContrarian": [
+      {
+        "speaker": "Donna Lichaw",
+        "timestamp": "00:00:00",
+        "text": "When superheroes discover what their superpowers actually are, they wreak havoc and they make a mess, and it's uncomfortable. And even Superman tries to get rid of his superpowers. It's hard to know what you're really great at."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:05:00",
+        "text": "You actually were a product manager in a previous life. You're also a designer in a previous life. These days you're an executive coach. Just briefly, I'm curious what pulled you from product management design and the things you did before this life into executive coaching. And maybe another way to ask this question is what's your origin story? And this is a little foreshadowing to the stuff we're going to be talking about later."
+      },
+      {
+        "speaker": "And what they were able to tell me is that their leaders wanted them to be more effective by having greater influence. And these are terms that we throw around all the time. Be more influential and be a better leader, whatever that means. And what was happening on the ground with these executives was that they were all fighting. I'd hear, \"Oh, the head of engineering is such a jerk,\" or, \"This person won't listen to me,\" or, \"My team is demotivated. And I get it, but they need to step up and work more.\" And there was just a lot of conflict going on here and there that storytelling wouldn't fix. When that happens, and I talk about this in the book a bunch, no one wants to hear your stories. You have to actually be able to connect with people and to work with people and feel good as a leader in order to really step up and lead. I didn't have an answer for this team at the time, and I left this offsite just honestly feeling terrible and not knowing what to do about it except telling them, \"I think you got to go work with a coach because this is beyond my pay grade.\"",
+        "timestamp": "00:08:05",
+        "text": "But when I left that day, I just couldn't stop thinking about this team because I had a hunch that stories were still a part of something but not what they needed. Telling stories was not the answer, and so I ended up spending what now is the next decade figuring out, all right, how do you become an effective leader? And of course because I can't do anything lightly, once I went down that path, I ended up switching up my entire business. And now that's all I do is help people be better, more effective, confident leaders who really make the impact that they want to make."
+      },
+      {
+        "speaker": "Lenny",
+        "timestamp": "00:08:39",
+        "text": "Along those same lines, what's interesting is you actually found that this idea of storytelling was actually much more effective in your coaching practice. Instead of helping them figure out the story of the product, it's the story of the person. And so transitioning into the meat of your approach to coaching, I think you call it story-driven leadership. Essentially, your finding is that story and the person's story is extremely important and powerful in helping them level up as a leader and also seeing them as the hero of their story. I guess just with that foundation, can you just talk about why that is so powerful, the idea of figuring out your own story and why you need to be the hero of your own story and just what all this means?"
+      },
+      {
+        "speaker": "We also have obstacles, so that's a part of any great story. There are challenges. It shouldn't be easy. It shouldn't be so hard that you fail, that's a tragedy, but there are challenges, and it makes life more exciting. You don't do it alone. It's rare that a story just has a single individual. It happens, but that's not most of life. And there are other elements that I ended up uncovering when I looked deeper into what makes the most effective leaders effective, and the biggest thing is stories that we tell people, it's like the tip of the iceberg. And if anything, it even doesn't matter, I've worked with a lot of folks who their teams say, \"Stop it with the storytelling. Stop talking at us.\" And they don't want any of that.",
+        "timestamp": "00:10:43",
+        "text": "But the most effective stories are the ones that we experience as we live life and that we tell ourselves as well because we have the ability by saying things like, \"Oh, I'll never succeed,\" or, \"Oh, she'll never go for it,\" or, \"He's such a jerk.\" Or whatever the stories are, these are all stories. And they may or may not be true, they're usually not true, but our brain doesn't know the difference. It's the most powerful ability our brain has is to understand and see stories everywhere. And so once you can really understand that, you may as well leverage it to be that hero in your life. And even as I say it out loud, it sounds so cheesy, but it's true. This is neuroscience and psychology. We just want to be the heroes, and that's what our focus is."
       }
     ]
   },
@@ -23291,7 +23446,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "jake-knapp-john-zeratsky",
-    "guest": "Jake Knapp + John Zeratsky",
+    "guest": "Jake Knapp + John Zeratsky 1.0",
     "title": "Making time for what matters | Jake Knapp and John Zeratsky (Authors of Make Time, Character VC)",
     "publishDate": "2024-02-11T00:00:00.000Z",
     "duration": "1:35:39",
@@ -24138,7 +24293,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "ethan-evans",
-    "guest": "Ethan Evans",
+    "guest": "Ethan Evans 1.0",
     "title": "Taking control of your career | Ethan Evans (Amazon)",
     "publishDate": "2024-01-14T00:00:00.000Z",
     "duration": "1:21:08",
@@ -28471,127 +28626,6 @@ export const allEpisodes: Episode[] = [
     "sampleContrarian": []
   },
   {
-    "slug": "nikita-bier",
-    "guest": "Nikita Bier",
-    "title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
-    "publishDate": "2023-04-06T00:00:00.000Z",
-    "duration": "59:20",
-    "durationSeconds": 3560,
-    "viewCount": 6020,
-    "youtubeUrl": "https://www.youtube.com/watch?v=4PhfAbRQpbI",
-    "videoId": "4PhfAbRQpbI",
-    "description": "Nikita Miller is a product leader, angel investor, and advisor. She has built and led product teams at companies ranging from early-stage startups to multinationals, and she is currently SVP...\n",
-    "keywords": [
-      "product-market fit",
-      "growth",
-      "retention",
-      "acquisition",
-      "activation",
-      "onboarding",
-      "churn",
-      "metrics",
-      "roadmap",
-      "prioritization",
-      "user research",
-      "experimentation",
-      "analytics",
-      "funnel",
-      "conversion"
-    ],
-    "dialogueCount": 191,
-    "keyQuotesCount": 68,
-    "contrarianCount": 58,
-    "sampleQuotes": [
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:00",
-        "quote": "... Honored to be on a product management podcast for a person who doesn't believe product management is real.",
-        "length": 110
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:07",
-        "quote": "We're already getting into the hot takes. You launched tbh, went viral, you end up selling it to Facebook. What was the insight that helped you come up with this is a big idea that we should try?",
-        "length": 195
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:15",
-        "quote": "I looked on the App Store and the number one app in the United States was an app called Surah, but the entire app was in Arabic, like the strongest signal that you could ever have that people want something.",
-        "length": 207
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:30",
-        "quote": "We launched this app, it immediately took off, servers started crashing. I looked at our numbers and I'm like, \"We will be number one in the United States in six days.\"",
-        "length": 168
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:43",
-        "quote": "Where people are trying to obtain a particular value and going through a very distortive process. If you can actually crystallize what their motivation is, you can have this kind of intense adoption.",
-        "length": 199
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:59",
-        "quote": "The thing I didn't realize as a product manager in a large tech company is there is very little product management that you do. They're mainly just writing documents and then being the team secretary and running around getting approvals, but products live and die in the pixels. You should be designing the hierarchy, the pixels, the flows, everything. That's on you.",
-        "length": 367
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:01:21",
-        "quote": "At some point you started tweeting like, \"Hey, I'm working on new app. Everyone was going nuts.\" I saw a stat that you made $11 million in sales, 10 million downloads.",
-        "length": 167
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:01:28",
-        "quote": "The thing that is hard to really understand is it is absolute chaos to keep the thing online. I was sleeping three hours a day for three months. Our team was also relentless though. They would come over to my house, 9:00 AM, stay until midnight and just do that seven days a week.",
-        "length": 280
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:01:44",
-        "quote": "Is there anything else that's just like this is something that is probably going to help you with your app?",
-        "length": 107
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:01:48",
-        "quote": "With certainty, if you're good at your job, you can make an app grow and go viral. Over the years of building all these apps, I've accrued all these growth hacks that still nobody knows about.",
-        "length": 192
-      }
-    ],
-    "sampleContrarian": [
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:15",
-        "text": "I looked on the App Store and the number one app in the United States was an app called Surah, but the entire app was in Arabic, like the strongest signal that you could ever have that people want something."
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:43",
-        "text": "Where people are trying to obtain a particular value and going through a very distortive process. If you can actually crystallize what their motivation is, you can have this kind of intense adoption."
-      },
-      {
-        "speaker": "Lenny Rachitsky",
-        "timestamp": "00:00:57",
-        "text": "I didn't know you're actually a product manager at Facebook."
-      },
-      {
-        "speaker": "Nikita Bier",
-        "timestamp": "00:00:59",
-        "text": "The thing I didn't realize as a product manager in a large tech company is there is very little product management that you do. They're mainly just writing documents and then being the team secretary and running around getting approvals, but products live and die in the pixels. You should be designing the hierarchy, the pixels, the flows, everything. That's on you."
-      },
-      {
-        "speaker": "Today, my guest is Nikita Bier. Nikita has built, launched and helped get more apps to the top of the app store than any human I've ever come across. He sold his first big hit tbh to Facebook for over $30 million. He sold his second big app Gas to Discord for many millions more. He did this all with a tiny team and very little funding. He's also helped dozens of founders and apps, and as an advisor or investor to companies like Flow, Citizen, BeReal, LOCKit and Wealthsimple and many more. Today, he spends his time advising companies on viral growth strategies, design feedback, structuring their product development process and a lot more.",
-        "timestamp": "00:02:38",
-        "text": "What I love about Nikita is that he has very strong opinions about how to build successful products that are rooted in him actually doing the work over the past decade to see for himself what works and what doesn't. Nikita has been the single most requested guests on this podcast, and you'll soon see why. This episode is packed with tactics and stories and lessons that I am sure will leave you wanting more. If you want to work with Nikita on your app, you can actually book his time at intro.co/nikitabier. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing feature episodes and helps the podcast tremendously. With that, I bring you Nikita Bier. Nikita, thank you so much for being here. Welcome to the podcast."
-      }
-    ]
-  },
-  {
     "slug": "hila-qu",
     "guest": "Hila Qu",
     "title": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
@@ -32885,7 +32919,7 @@ export const allEpisodes: Episode[] = [
   },
   {
     "slug": "wes-kao",
-    "guest": "Wes Kao",
+    "guest": "Wes Kao 1.0",
     "title": "Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)",
     "publishDate": "2022-08-28T00:00:00.000Z",
     "duration": "53:08",

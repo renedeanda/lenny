@@ -36,7 +36,7 @@ export default function ExplorePage() {
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [showRecommendations, setShowRecommendations] = useState(false);
+  const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
   const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
   const hasMounted = useRef(false);
 
@@ -52,12 +52,13 @@ export default function ExplorePage() {
         searchQuery,
         selectedKeywords,
         sortBy,
-        showFilters
+        showFilters,
+        showRecommendations
       }));
     } catch (e) {
       // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, showRecommendations]);
 
   // Check if user has quiz results and generate recommendations
   useEffect(() => {
@@ -69,7 +70,10 @@ export default function ExplorePage() {
         if (answerCount >= 7) {
           const recs = generateRecommendations(answers);
           setRecommendations({ primary: recs.primary, contrarian: recs.contrarian });
-          setShowRecommendations(true); // Show recommendations by default
+          // Only show recommendations by default if user hasn't explicitly hidden them
+          if (initialState?.showRecommendations === undefined) {
+            setShowRecommendations(false); // Default to hidden
+          }
         }
       }
     } catch (e) {

@@ -1,5 +1,5 @@
 ---
-guest: Marty Cagan
+guest: Marty Cagan 1.0
 title: Product management theater | Marty Cagan (Silicon Valley Product Group)
 youtube_url: https://www.youtube.com/watch?v=9N4ZgNaWvI0
 video_id: 9N4ZgNaWvI0

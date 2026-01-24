@@ -1,5 +1,5 @@
 ---
-guest: Casey Winters
+guest: Casey Winters 1.0
 title: How to sell your ideas and rise within your company | Casey Winters, Eventbrite
 youtube_url: https://www.youtube.com/watch?v=6XMUDEYf2OE
 video_id: 6XMUDEYf2OE

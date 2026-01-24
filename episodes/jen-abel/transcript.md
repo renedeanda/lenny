@@ -1,5 +1,5 @@
 ---
-guest: Jen Abel
+guest: Jen Abel 1.0
 title: The ultimate guide to founder-led sales | Jen Abel (co-founder of JJELLYFISH)
 youtube_url: https://www.youtube.com/watch?v=969dwgu98qc
 video_id: 969dwgu98qc

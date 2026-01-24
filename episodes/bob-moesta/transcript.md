@@ -1,5 +1,5 @@
 ---
-guest: Bob Moesta
+guest: Bob Moesta 1.0
 title: How to find work you love | Bob Moesta (Jobs-to-be-Done co-creator, author
   of "Job Moves”)
 youtube_url: https://www.youtube.com/watch?v=2wypVv9wZtI

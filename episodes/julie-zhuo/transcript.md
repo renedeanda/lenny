@@ -1,5 +1,5 @@
 ---
-guest: Julie Zhuo
+guest: Julie Zhuo 1.0
 title: 'From managing people to managing AI: The leadership skills everyone needs
   now | Julie Zhuo'
 youtube_url: https://www.youtube.com/watch?v=c_w0LaFahxk

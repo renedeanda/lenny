@@ -1,5 +1,5 @@
 ---
-guest: Madhavan Ramanujam
+guest: Madhavan Ramanujam 1.0
 title: 'Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan
   Ramanujam'
 youtube_url: https://www.youtube.com/watch?v=NR85H55eYkM

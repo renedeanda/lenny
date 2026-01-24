@@ -1,5 +1,5 @@
 ---
-guest: Dylan Field
+guest: Dylan Field 1.0
 title: 'Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups
   | Dylan Field'
 youtube_url: https://www.youtube.com/watch?v=WyJV6VwEGA8

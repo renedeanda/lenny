@@ -1,5 +1,5 @@
 ---
-guest: Elena Verna
+guest: Elena Verna 3.0
 title: 10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox,
   SurveyMonkey)
 youtube_url: https://www.youtube.com/watch?v=IHwS2By9UKM

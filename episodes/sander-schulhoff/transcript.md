@@ -1,5 +1,5 @@
 ---
-guest: Sander Schulhoff
+guest: Sander Schulhoff 1.0
 title: 'AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff'
 youtube_url: https://www.youtube.com/watch?v=eKuFqQKYRrA
 video_id: eKuFqQKYRrA

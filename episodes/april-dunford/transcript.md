@@ -1,5 +1,5 @@
 ---
-guest: April Dunford
+guest: April Dunford 1.0
 title: A step-by-step guide to crafting a sales pitch that wins | April Dunford (author
   of Sales Pitch)
 youtube_url: https://www.youtube.com/watch?v=-VqmFI9vY7w

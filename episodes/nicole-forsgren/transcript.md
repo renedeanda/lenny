@@ -1,5 +1,5 @@
 ---
-guest: Nicole Forsgren
+guest: Nicole Forsgren 1.0
 title: How to measure AI developer productivity in 2025 | Nicole Forsgren
 youtube_url: https://www.youtube.com/watch?v=SWcDfPVTizQ
 video_id: SWcDfPVTizQ
