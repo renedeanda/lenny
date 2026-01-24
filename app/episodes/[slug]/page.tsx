@@ -50,7 +50,7 @@ export default function EpisodePage() {
     if (episode) {
       document.title = `${episode.guest} | Lenny's Podcast Philosophy`;
     } else {
-      document.title = 'Episode Not Found | Lenny\\'s Podcast Philosophy';
+      document.title = "Episode Not Found | Lenny's Podcast Philosophy";
     }
   }, [episode]);
   const verifiedEnrichment = useMemo(() => getEpisodeEnrichment(slug), [slug]);
