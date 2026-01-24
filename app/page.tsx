@@ -275,7 +275,7 @@ export default function Home() {
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />
-                302 EPISODES
+                299 EPISODES
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />

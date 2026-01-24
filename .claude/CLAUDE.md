@@ -6,7 +6,7 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 
 ## 🎯 Project Overview
 
-**PM Philosophy Map** is an interactive experience where product managers discover their philosophy through a dark sci-fi quiz built from 302 episodes of Lenny's Podcast. Every insight, quote, and recommendation is grounded in actual transcript data.
+**PM Philosophy Map** is an interactive experience where product managers discover their philosophy through a dark sci-fi quiz built from 299 episodes of Lenny's Podcast. Every insight, quote, and recommendation is grounded in actual transcript data.
 
 **Live Site:** https://lenny.productbuilder.net
 **Repository:** https://github.com/renedeanda/lenny
@@ -42,7 +42,7 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 ├── episodes/                     # Raw transcript markdown files
 │   └── [slug]/transcript.md      # Episode transcripts (302 total)
 ├── lib/                          # Core business logic
-│   ├── allEpisodes.ts            # Episode metadata (302 episodes)
+│   ├── allEpisodes.ts            # Episode metadata (299 episodes)
 │   ├── zones.ts                  # 8 philosophy zones
 │   ├── questions.ts              # Quiz questions
 │   ├── scoring.ts                # Quiz → philosophy calculation
@@ -124,7 +124,7 @@ Validate dynamic sitemap generation.
 - When changing domain
 
 **What it checks:**
-- 306 total URLs (3 static + 302 episodes)
+- 306 total URLs (3 static + 299 episodes)
 - Correct domain (lenny.productbuilder.net)
 - No localhost references
 - Valid XML structure
@@ -301,7 +301,7 @@ git push
 ## 🚧 Current Priorities
 
 ### 1. Scale Episode Curation (HIGH)
-- **Current:** 8/302 episodes (2.6%)
+- **Current:** 8/299 episodes (2.6%)
 - **Target:** 100+ episodes (33%)
 - **Focus:** Curate 10-15 episodes per session
 

@@ -357,7 +357,7 @@ function ResultsContent() {
           className="text-center py-8 border-t border-ash-darker mt-12"
         >
           <div className="text-xs text-ash-darker font-mono">
-            Based on {Object.keys(answers).length} questions and 302 episodes of Lenny's Podcast
+            Based on {Object.keys(answers).length} questions and 299 episodes of Lenny's Podcast
           </div>
           <div className="text-xs text-ash-darker font-mono mt-2">
             Built for the PM community
