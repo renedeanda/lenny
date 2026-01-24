@@ -58,7 +58,7 @@ export const zones: Record<ZoneId, Zone> = {
     color: '#00d4ff',
     coordinates: { x: 650, y: 650 },
     icon: '📊',
-    quoteId: 'elena-verna-002', // "Growth cannot function without data"
+    quoteId: 'elena-verna-30-002', // "Growth cannot function without data"
     associatedGuests: ['Casey Winters (Pinterest)', 'Elena Verna', 'Brian Balfour (Reforge)']
   },
   intuition: {

@@ -218,8 +218,13 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
     .sort((a, b) => b.alignmentScore - a.alignmentScore)
     .slice(0, 5);
 
+  // Get slugs of primary recommendations to exclude from contrarian
+  const primarySlugs = new Set(primary.map(ep => ep.slug));
+
   // Contrarian recommendations: Episodes strong in user's blind spot zone
+  // EXCLUDING episodes already in primary recommendations
   const contrarian = allAlignments
+    .filter(ep => !primarySlugs.has(ep.slug)) // Exclude primary recommendations
     .map(ep => ({
       ...ep,
       blindSpotStrength: ep.episodeZones[userProfile.blindSpotZone] || 0,

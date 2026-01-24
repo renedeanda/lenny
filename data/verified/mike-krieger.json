@@ -1,0 +1,203 @@
+{
+  "slug": "mike-krieger",
+  "quotes": [
+    {
+      "id": "mike-krieger-q001",
+      "speaker": "Mike Krieger",
+      "text": "I had this notion coming in like, 'Yes, these models are great, but are they able to have an independent opinion?' And it's actually really flipped for me only in the last month. My go-to product strategy partner is Claude. Opus 4 really looked at it in a new way. That is a new angle that I hadn't been looking at before and I'm going to incorporate that immediately.",
+      "timestamp": "00:05:04",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 92,
+        "lineEnd": 96
+      },
+      "themes": ["AI-capabilities", "product-strategy", "creativity"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "mike-krieger-q002",
+      "speaker": "Mike Krieger",
+      "text": "We really rapidly became bottlenecked on other things like our merge queue. We had to completely re-architect it because so much more code was being written and so many more pull requests were being submitted that it just completely blew out the expectations of it. I've just found all these new bottlenecks in our system.",
+      "timestamp": "00:13:54",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": ["AI-development", "bottlenecks", "velocity"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "mike-krieger-q003",
+      "speaker": "Mike Krieger",
+      "text": "The upstream bottleneck is decision making and alignment. A lot of things that I'm thinking about right now is how do I provide the minimum viable strategy to let people feel empowered to go run and type and build and explore at the edge of model capabilities.",
+      "timestamp": "00:13:54",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 143
+      },
+      "themes": ["strategy", "alignment", "empowerment"],
+      "zones": ["alignment", "velocity", "chaos"]
+    },
+    {
+      "id": "mike-krieger-q004",
+      "speaker": "Mike Krieger",
+      "text": "The team that works in the most futuristic way is the Claude Code team. They're using Claude Code to build Claude Code in a very self-improving kind of way. They've realized Claude is generally right and it's producing pull requests that are probably larger than most people are going to be able to review. So can you use a different Claude to review it?",
+      "timestamp": "00:16:38",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 149,
+        "lineEnd": 150
+      },
+      "themes": ["AI-development", "code-review", "self-improvement"],
+      "zones": ["velocity", "chaos", "data"]
+    },
+    {
+      "id": "mike-krieger-q005",
+      "speaker": "Mike Krieger",
+      "text": "If the proportion was already skewing towards having more of that embedding, I've just become more and more convinced. If we're shipping things that could have been built by anybody just using our models off the shelf, where we should play and what we can do uniquely should be stuff that's really at that magic intersection between product and research.",
+      "timestamp": "00:22:11",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 203,
+        "lineEnd": 205
+      },
+      "themes": ["product-strategy", "differentiation", "research"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "mike-krieger-q006",
+      "speaker": "Mike Krieger",
+      "text": "Making this all comprehensible. What's still the difference between somebody who's really adept at using these tools in their work and most people is huge. Strategy, how we win, where we'll play. And opening people's eyes to what's possible—the delta between what the models and the products can do and how they're being used on a daily basis. Huge overhang.",
+      "timestamp": "00:25:21",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 226
+      },
+      "themes": ["product-management", "strategy", "comprehension"],
+      "zones": ["discovery", "focus", "alignment"]
+    },
+    {
+      "id": "mike-krieger-q007",
+      "speaker": "Mike Krieger",
+      "text": "Sometimes I'm like, 'Be brutal, Claude, roast me. Tell me what's wrong with this strategy.' Claude's like a pretty nice entity. It's hard to push it to be super brutal, but it forces it to be a little bit more critical as well. Make the other mistake—if you tend to be too nice, can you focus on being more critical?",
+      "timestamp": "00:28:18",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 239
+      },
+      "themes": ["AI-usage", "prompting", "feedback"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "mike-krieger-q008",
+      "speaker": "Mike Krieger",
+      "text": "More than headcount we need a couple of almost founder type engineers. I'm a huge believer in the founding engineer tech lead with an idea and pair them with the right design and product supports. I'm 10 times more a believer in that than before.",
+      "timestamp": "00:35:10",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 303,
+        "lineEnd": 303
+      },
+      "themes": ["hiring", "team-building", "velocity"],
+      "zones": ["velocity", "focus", "chaos"]
+    },
+    {
+      "id": "mike-krieger-q009",
+      "speaker": "Mike Krieger",
+      "text": "How do we figure out what we want to be when we grow up versus what we currently aren't or wish that we were or see other players in the space being? I think there's room for several generationally important companies to be built in AI right now. Let's figure out what we can be uniquely good at.",
+      "timestamp": "00:46:20",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 350,
+        "lineEnd": 357
+      },
+      "themes": ["strategy", "differentiation", "focus"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "mike-krieger-q010",
+      "speaker": "Mike Krieger",
+      "text": "For utility of AI products, it's three parts. One is model intelligence, the second part is context and memory, and the third part is applications and UI and you need all three of those to converge to actually be a useful product in AI. MCP really tried to tackle that middle one.",
+      "timestamp": "00:54:49",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 400
+      },
+      "themes": ["AI-products", "MCP", "context"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "mike-krieger-q011",
+      "speaker": "Mike Krieger",
+      "text": "You know when your product is really serving people and it's doing a good job of doing that. So much of when you get really metrics obsessed is when you're trying to convince yourself that it is when it's not. Do we repeatedly hear from people that Claude is the way that they're unlocking their own creativity and getting things done?",
+      "timestamp": "01:02:35",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 447
+      },
+      "themes": ["metrics", "product-management", "intuition"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "mike-krieger-q012",
+      "speaker": "Mike Krieger",
+      "text": "There's tremendous power in distribution and reach, but there's also people have an assumption about how to use things. I get excited about startups that have a completely different take on what the form factor is by which we interface with AI. Do something that feels very advanced user, very power user, very weird and out there at the beginning.",
+      "timestamp": "00:50:23",
+      "source": {
+        "slug": "mike-krieger",
+        "path": "episodes/mike-krieger/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 378
+      },
+      "themes": ["startups", "differentiation", "innovation"],
+      "zones": ["chaos", "intuition", "velocity"]
+    }
+  ],
+  "themes": ["AI-development", "product-strategy", "differentiation", "team-building", "MCP", "metrics", "AI-capabilities", "velocity", "focus"],
+  "takeaways": [
+    "AI is fundamentally changing product development bottlenecks - with 70%+ of code AI-written, the constraint has shifted from engineering capacity to decision-making, alignment, and merge infrastructure. The traditional PM→Engineer→Ship flow is breaking down.",
+    "Product value in AI comes from the intersection of product and research - the highest leverage work happens when product teams embed with model training, not just building UX on top of finished models. Ship things only you can uniquely build.",
+    "Founder-type engineers matter more than headcount in the AI era - one or two strong technical leads with an idea can move faster than large teams. The ability to compose the right prompts and architect AI-augmented systems is now a specialized, high-value skill.",
+    "Don't optimize for Web 2.0 engagement metrics with AI products - time spent, session length, and DAU miss the point. Instead, focus on whether people are unlocking creativity and getting work done they couldn't before. You know it when you see it.",
+    "Differentiation beats imitation in crowded AI markets - rather than chasing ChatGPT's consumer adoption, lean into your unique strengths. For Anthropic, that's builders, makers, and hackers who create at the edge of model capabilities."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.00,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.20,
+    "alignment": 0.10,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "mike-krieger-q008",
+      "why": "One or two founder-type engineers beat headcount - attacks traditional scaling wisdom that more people = more capacity",
+      "related_zones": ["velocity", "focus", "chaos"]
+    },
+    {
+      "quoteId": "mike-krieger-q011",
+      "why": "Being metrics obsessed means you're trying to convince yourself it's working when it's not - anti-data-driven orthodoxy",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ]
+}
