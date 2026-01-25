@@ -1,5 +1,5 @@
 {
-  "episode_slug": "dylan-field",
+  "slug": "dylan-field",
   "guest": "Dylan Field",
   "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
   "verification_date": "2026-01-20",
@@ -151,5 +151,27 @@
     "discovery": 0.20,
     "focus": 0.15,
     "velocity": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dylan-field-005",
+      "why": "Challenges additive thinking: 'One plus one sometimes equals one and a half' - more features can make products worse",
+      "related_zones": ["perfection", "focus"]
+    },
+    {
+      "quoteId": "dylan-field-008",
+      "why": "Argues you CAN ship without quality for software - iterate later. Contrarian to perfection-first approach",
+      "related_zones": ["velocity", "perfection"]
+    },
+    {
+      "quoteId": "dylan-field-010",
+      "why": "Reframes all advice as self-advice: 'When people give you advice, they're giving themselves advice in your shoes'",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["design", "intuition", "simplicity", "craft", "collaboration"]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "episode_slug": "aishwarya-naresh-reganti-kiriti-badam",
+  "slug": "aishwarya-naresh-reganti-kiriti-badam",
   "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
   "episode_title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
   "verification_date": "2026-01-23",
@@ -207,5 +207,10 @@
       "why": "Contrarian stance that building is overrated and design is underrated in AI era - opposite of 'ship fast' mentality",
       "related_zones": ["intuition", "discovery", "focus"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["ai-products", "reliability", "deployment", "openai", "google"]
+  }
 }

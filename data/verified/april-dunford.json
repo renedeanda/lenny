@@ -1,5 +1,5 @@
 {
-  "episode_slug": "april-dunford",
+  "slug": "april-dunford",
   "guest": "April Dunford",
   "episode_title": "A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)",
   "verification_date": "2026-01-22",
@@ -207,5 +207,10 @@
       "why": "Punctures the myth that category creators always win by citing MySpace and Ask Jeeves as examples of pioneers who lost",
       "related_zones": ["data", "chaos"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["positioning", "marketing", "go-to-market", "b2b", "category-creation"]
+  }
 }

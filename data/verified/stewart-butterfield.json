@@ -1,5 +1,5 @@
 {
-  "episode_slug": "stewart-butterfield",
+  "slug": "stewart-butterfield",
   "guest": "Stewart Butterfield",
   "episode_title": "Mental models for building products people love ft. Stewart Butterfield",
   "verification_date": "2026-01-22",
@@ -207,5 +207,10 @@
       "why": "Argues pivoting requires 'cold rationality' and admits it's 'fucking humiliating' - challenges the romanticized 'pivot early, pivot often' Silicon Valley narrative",
       "related_zones": ["chaos", "focus"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["pivoting", "slack", "flickr", "craft", "workplace"]
+  }
 }

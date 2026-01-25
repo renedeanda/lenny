@@ -1,5 +1,5 @@
 {
-  "episode_slug": "casey-winters-20",
+  "slug": "casey-winters-20",
   "guest": "Casey Winters 2.0",
   "episode_title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
   "verification_date": "2026-01-24",
@@ -212,5 +212,10 @@
       "why": "Advocates overreaction to threats rather than measured response - citing Taleb's provocative maxim",
       "related_zones": ["chaos"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["frameworks", "hiring", "ai", "founder-delegation", "disruption"]
+  }
 }

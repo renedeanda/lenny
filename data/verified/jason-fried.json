@@ -1,5 +1,5 @@
 {
-  "episode_slug": "jason-fried",
+  "slug": "jason-fried",
   "guest": "Jason Fried",
   "episode_title": "The magic of constraints, small teams, and independent businesses",
   "verification_date": "2026-01-23",
@@ -212,5 +212,10 @@
       "why": "Provocative admission: we intentionally miss opportunities and we're proud of it",
       "related_zones": ["focus", "perfection"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["simplicity", "calm", "bootstrapping", "craft", "remote-work"]
+  }
 }

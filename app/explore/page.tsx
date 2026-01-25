@@ -12,6 +12,7 @@ import { getVerifiedEpisodeSlugs } from '@/lib/verifiedQuotes';
 import { generateRecommendations, EpisodeAlignment } from '@/lib/recommendations';
 import { QuizAnswers } from '@/lib/types';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
+import { trackRecommendationsExpanded } from '@/lib/analytics';
 
 const STORAGE_KEY = 'lenny-explore-filters';
 const EPISODES_PER_PAGE = 24;
@@ -162,7 +163,12 @@ export default function ExplorePage() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                onClick={() => setShowRecommendations(!showRecommendations)}
+                onClick={() => {
+                  if (!showRecommendations) {
+                    trackRecommendationsExpanded();
+                  }
+                  setShowRecommendations(!showRecommendations);
+                }}
                 className={`mt-6 px-6 py-3 border-2 font-bold text-sm tracking-wider transition-all flex items-center gap-2 ${
                   showRecommendations
                     ? 'border-amber bg-amber text-void'
@@ -220,7 +226,7 @@ export default function ExplorePage() {
                     <p className="text-ash-dark text-sm">Based on your quiz results, these episodes will resonate with how you work</p>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
-                    {recommendations.primary.slice(0, 4).map((episode, index) => (
+                    {recommendations.primary.map((episode, index) => (
                       <EpisodeRecommendationCard
                         key={episode.slug}
                         episode={episode}
@@ -236,11 +242,11 @@ export default function ExplorePage() {
               {recommendations.contrarian.length > 0 && (
                 <div>
                   <div className="mb-6">
-                    <h2 className="text-2xl font-bold text-crimson mb-2">Perspectives to Explore</h2>
+                    <h2 className="text-2xl font-bold text-rose-400 mb-2">Perspectives to Explore</h2>
                     <p className="text-ash-dark text-sm">These episodes offer different viewpoints that might expand your thinking</p>
                   </div>
                   <div className="grid gap-6 md:grid-cols-2">
-                    {recommendations.contrarian.slice(0, 2).map((episode, index) => (
+                    {recommendations.contrarian.map((episode, index) => (
                       <EpisodeRecommendationCard
                         key={episode.slug}
                         episode={episode}

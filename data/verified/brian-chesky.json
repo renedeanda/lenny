@@ -171,5 +171,10 @@
       "why": "Founders apologize for how they run companies, seeking midpoint makes everyone miserable - anti-consensus",
       "related_zones": ["focus", "alignment"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["leadership", "founder-mode", "product-marketing", "org-design"]
+  }
 }

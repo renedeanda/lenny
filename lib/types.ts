@@ -57,6 +57,22 @@ export interface Evidence {
   strength: 'high' | 'medium' | 'low';
 }
 
+export interface ContrarianCandidate {
+  quoteId: string;
+  why: string;
+  related_zones: ZoneId[];
+}
+
+// Guest metadata for diversity scoring
+export type GuestType = 'founder' | 'operator' | 'investor' | 'advisor' | 'academic';
+export type CompanyStage = 'pre-seed' | 'seed' | 'series-a' | 'growth' | 'public' | 'mixed';
+
+export interface GuestMetadata {
+  guest_type: GuestType;
+  company_stage: CompanyStage;
+  primary_topics: string[];
+}
+
 export interface EpisodeEnrichment {
   slug: string;
   quotes: Quote[];
@@ -65,6 +81,8 @@ export interface EpisodeEnrichment {
   contradictionsRefs: string[];
   zoneInfluence: Record<ZoneId, number>; // TypeScript uses camelCase
   zone_influence?: Record<ZoneId, number>; // JSON uses snake_case (for compatibility)
+  contrarian_candidates?: ContrarianCandidate[];
+  guest_metadata?: GuestMetadata; // For diversity scoring
 }
 
 export interface VerifiedContent {

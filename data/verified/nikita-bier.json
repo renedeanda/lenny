@@ -1,5 +1,5 @@
 {
-  "episode_slug": "nikita-bier",
+  "slug": "nikita-bier",
   "guest": "Nikita Bier",
   "episode_title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
   "verification_date": "2026-01-22",
@@ -207,5 +207,10 @@
       "why": "Advocates for unscalable 24/7 live chat in apps - completely opposite to standard 'automated, self-serve' SaaS wisdom that dominates Silicon Valley thinking",
       "related_zones": ["discovery", "velocity"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "seed",
+    "primary_topics": ["consumer-social", "virality", "teens", "iteration", "exits"]
+  }
 }

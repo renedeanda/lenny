@@ -1,5 +1,5 @@
 {
-  "episode_slug": "gokul-rajaram",
+  "slug": "gokul-rajaram",
   "guest": "Gokul Rajaram",
   "episode_title": "Gokul Rajaram on designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in your career, how to get started angel investing, and more",
   "verification_date": "2026-01-22",
@@ -207,5 +207,10 @@
       "why": "Argues sins of omission (passing on investments) are worse than sins of commission (losing money) - contrarian to VC conventional wisdom",
       "related_zones": ["intuition", "chaos"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["frameworks", "decision-making", "ads", "marketplaces", "angel-investing"]
+  }
 }

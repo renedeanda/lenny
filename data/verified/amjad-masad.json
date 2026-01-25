@@ -1,5 +1,5 @@
 {
-  "episode_slug": "amjad-masad",
+  "slug": "amjad-masad",
   "guest": "Amjad Masad",
   "episode_title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
   "verification_date": "2026-01-20",
@@ -151,5 +151,27 @@
     "intuition": 0.15,
     "alignment": 0.10,
     "discovery": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "amjad-masad-002",
+      "why": "Predicts billion-dollar companies with zero employees - provocative vision that challenges traditional company structures",
+      "related_zones": ["chaos", "intuition", "velocity"]
+    },
+    {
+      "quoteId": "amjad-masad-010",
+      "why": "Advocates 'slaughtering your roadmap' when new capabilities drop - anti-planning, embracing radical adaptability",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "amjad-masad-011",
+      "why": "Says structured organizations are incompatible with fluid cross-functional work - 'uncomfortable for a lot of people'",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["ai", "developer-tools", "velocity", "org-design", "chaos"]
   }
 }

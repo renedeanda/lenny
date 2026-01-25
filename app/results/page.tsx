@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useMemo } from 'react';
+import { Suspense, useMemo, useState, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { generateRecommendations, getBlindSpotDescription } from '@/lib/recommendations';
@@ -11,30 +11,62 @@ import PhilosophyInsightCard from '@/components/PhilosophyInsightCard';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import QuizAnswersOverview from '@/components/QuizAnswersOverview';
 import TopNav from '@/components/TopNav';
+import { trackQuizCompleted, trackResultsShared, trackResultsDownloaded } from '@/lib/analytics';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const { answers, userName } = useMemo(() => {
-    // Always load from localStorage (no longer using URL params)
-    const answersParam = localStorage.getItem('pm_quiz_answers');
+  // Use state for client-side only data to avoid SSR hydration issues
+  const [isClient, setIsClient] = useState(false);
+  const [answers, setAnswers] = useState<QuizAnswers>({});
+  const [userName, setUserName] = useState('Your');
 
-    return {
-      answers: answersParam ? JSON.parse(answersParam) as QuizAnswers : {},
-      userName: localStorage.getItem('pm_map_name') || 'Your'
-    };
-  }, [searchParams]);
+  // Load from localStorage only on client side
+  useEffect(() => {
+    setIsClient(true);
+    try {
+      const answersParam = localStorage.getItem('pm_quiz_answers');
+      const nameParam = localStorage.getItem('pm_map_name');
+
+      if (answersParam) {
+        setAnswers(JSON.parse(answersParam) as QuizAnswers);
+      }
+      if (nameParam) {
+        setUserName(nameParam);
+      }
+    } catch (error) {
+      console.error('Error loading quiz answers from localStorage:', error);
+    }
+  }, []);
 
   // Generate recommendations using new algorithm
+  // Only compute after client-side hydration is complete
   const recommendations = useMemo(() => {
-    if (Object.keys(answers).length === 0) return null;
-    return generateRecommendations(answers);
-  }, [answers]);
+    if (!isClient || Object.keys(answers).length === 0) return null;
+    try {
+      return generateRecommendations(answers);
+    } catch (error) {
+      console.error('Error generating recommendations:', error);
+      return null;
+    }
+  }, [answers, isClient]);
+
+  // Track quiz completion when results are first viewed
+  const [hasTrackedCompletion, setHasTrackedCompletion] = useState(false);
+  useEffect(() => {
+    if (recommendations && !hasTrackedCompletion) {
+      trackQuizCompleted(
+        recommendations.userProfile.primaryZone,
+        recommendations.userProfile.secondaryZone
+      );
+      setHasTrackedCompletion(true);
+    }
+  }, [recommendations, hasTrackedCompletion]);
 
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
-    if (!cardElement) return;
+    if (!cardElement || !recommendations) return;
 
     try {
       const html2canvas = (await import('html2canvas')).default;
@@ -48,6 +80,8 @@ function ResultsContent() {
       link.download = `${userName.replace(/\s+/g, '-')}-pm-philosophy.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
+
+      trackResultsDownloaded(recommendations.userProfile.primaryZone);
     } catch (error) {
       console.error('Failed to generate image:', error);
     }
@@ -57,16 +91,27 @@ function ResultsContent() {
     if (!recommendations) return;
 
     const primaryZone = zones[recommendations.userProfile.primaryZone];
-    const shareText = `I just discovered my product philosophy: ${primaryZone.name}! ${primaryZone.tagline}\n\nTake the quiz: ${window.location.origin}`;
+    const secondaryZone = zones[recommendations.userProfile.secondaryZone];
+
+    // Craft engaging share text
+    const shareText = `🎯 My PM Philosophy: ${primaryZone.name}
+
+"${primaryZone.tagline}"
+
+With a touch of ${secondaryZone.name} - discover yours:
+${window.location.origin}`;
 
     if (navigator.share) {
       navigator.share({
-        title: 'My Product Philosophy',
+        title: `My PM Philosophy: ${primaryZone.name}`,
         text: shareText,
+      }).then(() => {
+        trackResultsShared('native_share');
       }).catch(err => console.log('Error sharing:', err));
     } else {
       navigator.clipboard.writeText(shareText);
-      alert('Shareable text copied to clipboard!');
+      trackResultsShared('copy_link');
+      alert('Copied to clipboard!');
     }
   };
 
@@ -77,6 +122,19 @@ function ResultsContent() {
   const handleExplore = () => {
     router.push('/explore');
   };
+
+  // Show loading state during SSR/hydration
+  if (!isClient) {
+    return (
+      <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
+        <TopNav />
+        <div className="text-center">
+          <div className="text-4xl mb-4 animate-pulse">⚡</div>
+          <div className="text-ash-dark font-mono text-sm">Loading your philosophy...</div>
+        </div>
+      </div>
+    );
+  }
 
   if (!recommendations) {
     return (
@@ -180,7 +238,7 @@ function ResultsContent() {
             transition={{ delay: 0.5 }}
           >
             <div className="mb-6">
-              <h2 className="text-3xl font-bold text-crimson mb-2">
+              <h2 className="text-3xl font-bold text-rose-400 mb-2">
                 Perspectives to Explore
               </h2>
               <p className="text-ash-dark">

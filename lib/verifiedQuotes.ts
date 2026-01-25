@@ -33,32 +33,21 @@ export function getQuotesByEpisode(slug: string): Quote[] {
  * Get episode enrichment data
  */
 export function getEpisodeEnrichment(slug: string): EpisodeEnrichment | undefined {
-  return registry.episodes.find(ep => {
-    // Handle both old (slug) and new (episode_slug) formats
-    const episodeSlug = (ep as any).slug || (ep as any).episode_slug;
-    return episodeSlug === slug;
-  });
+  return registry.episodes.find(ep => ep.slug === slug);
 }
 
 /**
  * Get all verified episode slugs
  */
 export function getVerifiedEpisodeSlugs(): string[] {
-  return registry.episodes.map(ep => {
-    // Handle both old (slug) and new (episode_slug) formats
-    return (ep as any).slug || (ep as any).episode_slug;
-  }).filter(Boolean); // Remove any undefined values
+  return registry.episodes.map(ep => ep.slug).filter(Boolean);
 }
 
 /**
  * Check if episode has verified content
  */
 export function hasVerifiedContent(slug: string): boolean {
-  return registry.episodes.some(ep => {
-    // Handle both old (slug) and new (episode_slug) formats
-    const episodeSlug = (ep as any).slug || (ep as any).episode_slug;
-    return episodeSlug === slug;
-  });
+  return registry.episodes.some(ep => ep.slug === slug);
 }
 
 /**

@@ -1164,4 +1164,261 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 - All zone references point to real quotes
 - **Transcripts working**: 303/303 episodes (100%!) thanks to MM:SS parser fix
 
-**Next Priority:** Implement 4 priority recommendations enhancements, continue curation to 30+ episodes
+**Next Priority:** Continue curation to 30+ episodes, add guest metadata for diversity scoring
+
+---
+
+## ✅ Session 10: Podcast Recommendations Engine Implementation (Jan 25, 2026)
+
+### 🎯 Major Implementation Complete
+
+All 4 priority enhancements from Session 9's review have been implemented and hardened:
+
+#### 1. Smarter Quote Matching ✅
+- **Before:** Binary zone overlap check, returned first matching quote
+- **After:** Quotes scored by relevance to user's zone profile
+  - Primary zone matches: 3x weight
+  - Secondary zone matches: 2x weight
+  - Other zone matches: 1x weight
+- Returns BEST matching quote per episode, not just first alphabetically
+- Falls back to first quotes if no zone matches found
+
+#### 2. Better Match Reasons ✅
+- **Before:** Generic "Both prioritize velocity and data"
+- **After:** References actual quote snippets in match reasons
+- Format: `"Brian on craft: 'The details matter...'"`
+- Extracts first sentence of best quote (max 80 chars)
+- Falls back to zone-based reason if no good quote
+
+#### 3. Contrarian Recommendations Using contrarian_candidates ✅
+- **Before:** Just found episodes strong in user's blind spot
+- **After:** Uses curated `contrarian_candidates` field from all 24 episodes
+- Scores each contrarian candidate:
+  - +3 if challenges user's primary zone
+  - +2 if challenges secondary zone
+  - +1 if related to blind spot
+- Adds blind spot strength bonus to total score
+- Sorts ALL candidates by score, picks top 3 (not first 3 with candidates)
+- Shows "Challenges your thinking: [why]" with the curator's explanation
+
+#### 4. Diversity Scoring ✅
+- **Before:** Top 5 by alignment score (could all be similar)
+- **After:** Applies similarity penalty based on zone overlap
+- Checks if both episodes are >20% in same zones
+- Caps penalty at 30% to preserve quality
+- Only skips if penalty drops score below 70% of current cutoff
+- Results in more diverse recommendation sets
+
+### 🔒 Hardening & Edge Cases
+
+Made the engine bulletproof with comprehensive fixes:
+
+1. **Fixed Contrarian Scoring Bug** (was calculated but never used)
+2. **Fixed SSR localStorage Issue** (crashed on server-side render)
+   - Added `isClient` state with useEffect
+   - Shows loading spinner during hydration
+   - Wrapped localStorage in try/catch
+3. **Comprehensive Null Checks**
+   - All zone percentages use `?? 0` fallback
+   - Quote zones array defaults to `[]`
+   - Episodes with no zone_influence skipped
+   - contrarian_candidates checked before iteration
+4. **Edge Case Handling**
+   - Default zone if sortedZones empty
+   - topZones guaranteed minimum 2 entries
+   - Empty quotes returns first quotes as fallback
+   - getBlindSpotDescription has unknown zone fallback
+
+### 📦 Data Curation Updates
+
+**Added contrarian_candidates to 5 remaining episodes:**
+- rahul-vohra (3 candidates: virality myth, no half-baked, game design vs gamification)
+- amjad-masad (already had them)
+- dylan-field (already had them)
+- elena-verna-30 (already had them)
+- marty-cagan (already had them)
+
+**All 24 episodes now have contrarian_candidates** ✅
+
+### 🎨 Enhanced EpisodeRecommendationCard UI
+
+- Distinct crimson styling for contrarian cards (border, background, text)
+- "PERSPECTIVE" badge for contrarian vs "RECOMMENDED" for primary
+- Lightbulb icon for contrarian match reasons
+- Better quote truncation (200 char limit with "...")
+- Quote border color matches card variant
+
+### 📁 Files Changed
+
+**Core Algorithm:**
+- `lib/recommendations.ts` - Complete rewrite with all 4 enhancements + hardening
+- `lib/types.ts` - Added ContrarianCandidate interface
+
+**UI:**
+- `components/EpisodeRecommendationCard.tsx` - Enhanced contrarian styling
+- `app/results/page.tsx` - Fixed SSR localStorage issue
+
+**Data:**
+- `data/verified/rahul-vohra.json` - Added contrarian_candidates
+- `data/verified/verified-content.json` - Rebuilt registry
+
+### 📊 Algorithm Details
+
+**Alignment Score Calculation:**
+```
+baseScore = Σ (userZoneStrength × episodeZoneStrength) for all 8 zones
+depthBonus = +0.30 if primary zone >25%, +0.15 if >15%
+           + +0.10 if secondary zone >15%
+           + +0.05 if 3+ zones matched
+normalizedScore = min(100, rawScore × 120)
+```
+
+**Contrarian Score Calculation:**
+```
+quoteScore = +3 (primary zone) + 2 (secondary) + 1 (blind spot)
+blindSpotBonus = +3 if episode >20% in blind spot, +1 if >10%
+totalScore = quoteScore + blindSpotBonus
+→ Sort all candidates, take top 3
+```
+
+**Diversity Penalty:**
+```
+For each existing recommendation:
+  similarity = count of zones where both >20%
+maxSimilarity = highest similarity to any existing rec
+penalty = min(0.30, maxSimilarity × 0.1)
+adjustedScore = alignmentScore × (1 - penalty)
+```
+
+### ✅ Data Compatibility
+
+The algorithm handles legacy data format inconsistencies:
+- Both `slug` and `episode_slug` field names
+- Both `zone_influence` (snake_case) and `zoneInfluence` (camelCase)
+- Both `line_start`/`line_end` and `lineStart`/`lineEnd` in quote sources
+- Missing `context` field in older episodes (not currently used)
+
+### 🚀 What's Working Now
+
+1. **Quiz → Recommendations** flow is fully functional
+2. **5 primary episodes** matched by zone alignment + quote relevance
+3. **3 contrarian episodes** selected by challenge score + blind spot strength
+4. **Match reasons** reference actual quote snippets
+5. **Contrarian reasons** show curator's "why" explanation
+6. **SSR-safe** with proper client-side hydration
+7. **Edge cases** handled gracefully (empty answers, missing data, etc.)
+
+### 🎯 Remaining Opportunities (Future Sessions)
+
+**Nice-to-have UX:**
+- Show alignment score percentage on cards (e.g., "85% match")
+- Add zone badges showing which zones matched
+- Episode count indicator on cards
+
+**Data Quality:**
+- Standardize all episodes to `episode_slug` format
+- Add `context` field to older episodes
+- Add guest_type metadata for enhanced diversity (founder/operator/investor)
+
+**Scale:**
+- Continue curation to 30+ episodes
+- Prioritize episodes that fill zone gaps
+- Add more contrarian_candidates to strengthen recommendations
+
+---
+
+### Session 10 Continued: UX & Data Quality Improvements
+
+#### Zone Badges ✅
+Added color-coded zone badges to EpisodeRecommendationCard:
+- Shows top 3 zones with >10% influence
+- Color scheme:
+  - Speed (amber), Craft (purple), Discovery (blue)
+  - Data (green), Intuition (pink), Alignment (cyan)
+  - Adaptability (orange), Focus (yellow)
+- Helps users understand episode focus at a glance
+
+#### Data Format Standardization ✅
+- Converted all 24 episodes from `episode_slug` to `slug`
+- Removed all fallback logic (`(ep as any).slug || (ep as any).episode_slug`)
+- Cleaner, type-safe code throughout
+
+#### Guest Metadata Structure ✅
+Added types for diversity scoring:
+```typescript
+type GuestType = 'founder' | 'operator' | 'investor' | 'advisor' | 'academic'
+type CompanyStage = 'pre-seed' | 'seed' | 'series-a' | 'growth' | 'public' | 'mixed'
+
+interface GuestMetadata {
+  guest_type: GuestType;
+  company_stage: CompanyStage;
+  primary_topics: string[];
+}
+```
+
+Added to 4 sample episodes:
+- **brian-chesky**: founder, public, [leadership, founder-mode, product-marketing, org-design]
+- **ben-horowitz**: investor, mixed, [decision-making, leadership, psychology, investing]
+- **marty-cagan**: advisor, mixed, [product-management, empowerment, discovery, product-leadership]
+- **casey-winters**: operator, growth, [growth, stakeholder-management, communication, career]
+
+---
+
+### Session 10 Part 3: Guest Metadata Complete & Diversity-Aware Recommendations (Jan 25, 2026)
+
+#### Guest Metadata - All Episodes ✅
+Added `guest_metadata` to all 24 verified episodes:
+- **Founders (10):** brian-chesky, tobi-lutke, dylan-field, rahul-vohra, stewart-butterfield, jason-fried, guillermo-rauch, nikita-bier, mike-krieger, amjad-masad
+- **Operators (8):** shreyas-doshi, julie-zhuo, boz, casey-winters-20, elena-verna-30, gokul-rajaram, kunal-shah, aishwarya-naresh-reganti-kiriti-badam
+- **Investors (1):** dalton-caldwell
+- **Advisors (5):** marty-cagan, ben-horowitz, april-dunford, annie-duke, paul-graham
+
+Company stages represented:
+- **Public (4):** Airbnb, Shopify, Instagram, Slack
+- **Growth (8):** Figma, Superhuman, Stripe, Vercel, etc.
+- **Mixed (7):** Multi-company experience
+- **Pre-seed/Seed (4):** Early-stage focused guests
+
+#### Diversity-Aware Recommendations ✅
+Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts` to consider:
+
+1. **Zone overlap** (existing) - Episodes strong in same zones
+2. **Guest type diversity** (new) - Avoid 3+ founders in a row
+   - 15% penalty after 2 of same type
+   - 5% penalty after 1 of same type
+3. **Company stage diversity** (new) - Mix public companies with startups
+   - 10% penalty after 2 of same stage
+   - 3% penalty after 1 of same stage
+
+**Result:** Recommendations now naturally mix perspectives - a founder at a public company, an operator at a growth startup, and an advisor with multi-company experience.
+
+#### Curate-Episode Skill Updated ✅
+Added Step 6 to `.claude/skills/curate-episode/SKILL.md`:
+- Guidance on capturing guest_type (founder/operator/investor/advisor/academic)
+- Guidance on company_stage (pre-seed through public)
+- Guidance on primary_topics (3-5 key themes)
+- Ensures future curations include diversity metadata
+
+#### Files Modified
+- `lib/recommendations.ts` - Enhanced diversity scoring
+- `lib/types.ts` - Added GuestType, CompanyStage imports
+- All 24 `data/verified/*.json` files - Added guest_metadata
+- `.claude/skills/curate-episode/SKILL.md` - Added Step 6
+
+---
+
+## 🎯 NEXT PRIORITIES
+
+### Scale Episode Curation
+- Current: 24/299 episodes (8%)
+- Target: 50+ episodes (17%)
+- Priority: Fill zone gaps (chaos/focus need more coverage)
+
+### Content Improvements
+- Add `context` field to older episodes that lack it
+- Add more contrarian_candidates for richer contrarian recommendations
+
+### Future Enhancements
+- Consider topic-based diversity (avoid 3 episodes about "growth" in a row)
+- Add "why this mix" explanation to results page
+- Show guest type badges alongside zone badges

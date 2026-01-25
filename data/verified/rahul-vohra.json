@@ -173,5 +173,27 @@
     "alignment": 0.05,
     "chaos": 0.00,
     "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "rahul-vohra-q001",
+      "why": "Claims there's 'no such thing as a truly viral product' - even Facebook never sustained viral factor above 1.0",
+      "related_zones": ["velocity", "perfection"]
+    },
+    {
+      "quoteId": "rahul-vohra-q004",
+      "why": "Argues you CAN'T just ship half-baked for mission-critical products like email - counter to 'move fast' dogma",
+      "related_zones": ["perfection", "focus"]
+    },
+    {
+      "quoteId": "rahul-vohra-q009",
+      "why": "Distinguishes game design from gamification: 'gamification doesn't work, game design works' - nuanced contrarian take",
+      "related_zones": ["perfection", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["product-market-fit", "design", "game-design", "email", "productivity"]
   }
 }

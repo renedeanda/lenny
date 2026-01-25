@@ -1,5 +1,5 @@
 {
-  "episode_slug": "marty-cagan",
+  "slug": "marty-cagan",
   "guest": "Marty Cagan",
   "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
   "verification_date": "2026-01-20",
@@ -166,5 +166,27 @@
     "intuition": 0.05,
     "chaos": 0.05,
     "velocity": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "marty-cagan-001",
+      "why": "Calls agile coaches, product owners, and product ops 'ridiculous roles' - provocative critique of common PM org structures",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "marty-cagan-006",
+      "why": "Cringes at PMs who say 'my job is to say why' - challenges the popular PM-as-facilitator narrative",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "marty-cagan-009",
+      "why": "Claims 90% of PM content online is from feature teams and propagates the wrong model - contrarian on PM advice",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["product-management", "empowerment", "discovery", "product-leadership"]
   }
 }

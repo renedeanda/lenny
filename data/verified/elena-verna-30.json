@@ -1,5 +1,5 @@
 {
-  "episode_slug": "elena-verna-30",
+  "slug": "elena-verna-30",
   "guest": "Elena Verna 3.0",
   "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
   "verification_date": "2026-01-20",
@@ -164,5 +164,27 @@
     "discovery": 0.10,
     "focus": 0.10,
     "chaos": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "elena-verna-30-004",
+      "why": "Claims rebrands/redesigns NEVER produce good results - directly challenges every new CMO's first instinct",
+      "related_zones": ["data", "perfection"]
+    },
+    {
+      "quoteId": "elena-verna-30-009",
+      "why": "Calls over-experimentation a 'paralyzing disease' - contrarian in an era obsessed with A/B testing",
+      "related_zones": ["velocity", "intuition"]
+    },
+    {
+      "quoteId": "elena-verna-30-011",
+      "why": "Argues people rely too LITTLE on intuition in the data age - pushes back on pure data-driven culture",
+      "related_zones": ["intuition", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "plg", "experimentation", "metrics", "rebranding"]
   }
 }

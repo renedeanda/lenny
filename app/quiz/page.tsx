@@ -8,6 +8,7 @@ import PersonalizationModal from '@/components/PersonalizationModal';
 import { questions } from '@/lib/questions';
 import { QuizAnswers, AnswerId } from '@/lib/types';
 import { ArrowLeft, Flame, User } from 'lucide-react';
+import { trackQuizStarted, trackQuizProgress, trackQuizCompleted } from '@/lib/analytics';
 
 function QuizContent() {
   const router = useRouter();
@@ -68,6 +69,7 @@ function QuizContent() {
     localStorage.setItem('pm_map_name', data.name);
     localStorage.setItem('pm_map_role', data.role);
     setShowPersonalization(false);
+    trackQuizStarted();
   };
 
   const question = questions[currentQuestion];
@@ -85,6 +87,9 @@ function QuizContent() {
         [question.id]: answerId
       };
       setAnswers(newAnswers);
+
+      // Track quiz progress
+      trackQuizProgress(currentQuestion + 1, questions.length);
 
       if (currentQuestion < questions.length - 1) {
         setCurrentQuestion(currentQuestion + 1);

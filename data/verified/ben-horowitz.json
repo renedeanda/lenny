@@ -1,5 +1,5 @@
 {
-  "episode_slug": "ben-horowitz",
+  "slug": "ben-horowitz",
   "guest": "Ben Horowitz",
   "episode_title": "$46B of hard truths: Why founders fail and why you need to run toward fear | Ben Horowitz (a16z)",
   "verification_date": "2026-01-23",
@@ -212,5 +212,10 @@
       "why": "Argues AI is NOT a bubble when many (including Sam Altman) say it is - cites unprecedented PMF and working unit economics",
       "related_zones": ["data", "intuition"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "mixed",
+    "primary_topics": ["decision-making", "leadership", "psychology", "investing"]
+  }
 }
