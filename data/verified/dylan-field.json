@@ -168,5 +168,10 @@
       "why": "Reframes all advice as self-advice: 'When people give you advice, they're giving themselves advice in your shoes'",
       "related_zones": ["intuition", "discovery"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["design", "intuition", "simplicity", "craft", "collaboration"]
+  }
 }

@@ -207,5 +207,10 @@
       "why": "Claims startups don't die from running out of money but from founders losing hope - shifts blame from capital to psychology",
       "related_zones": ["chaos", "velocity"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "seed",
+    "primary_topics": ["startups", "yc", "resilience", "pivoting", "customer-discovery"]
+  }
 }

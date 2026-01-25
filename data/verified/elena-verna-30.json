@@ -181,5 +181,10 @@
       "why": "Argues people rely too LITTLE on intuition in the data age - pushes back on pure data-driven culture",
       "related_zones": ["intuition", "data"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "plg", "experimentation", "metrics", "rebranding"]
+  }
 }

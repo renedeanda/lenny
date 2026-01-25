@@ -207,5 +207,10 @@
       "why": "Argues sins of omission (passing on investments) are worse than sins of commission (losing money) - contrarian to VC conventional wisdom",
       "related_zones": ["intuition", "chaos"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["frameworks", "decision-making", "ads", "marketplaces", "angel-investing"]
+  }
 }

@@ -207,5 +207,10 @@
       "why": "Counterintuitive that eloquence and language skills become MORE important in AI era, not less",
       "related_zones": ["intuition", "perfection"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["developer-tools", "ai", "velocity", "taste", "open-source"]
+  }
 }

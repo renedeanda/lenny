@@ -207,5 +207,10 @@
       "why": "Reveals Google's contrarian filter of ignoring $100M opportunities - most companies would celebrate such wins, but thinking bigger meant only pursuing billion-dollar bets",
       "related_zones": ["focus", "velocity"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["frameworks", "prioritization", "lno", "pre-mortems", "career"]
+  }
 }

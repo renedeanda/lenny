@@ -190,5 +190,10 @@
       "why": "Distinguishes game design from gamification: 'gamification doesn't work, game design works' - nuanced contrarian take",
       "related_zones": ["perfection", "velocity"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["product-market-fit", "design", "game-design", "email", "productivity"]
+  }
 }

@@ -321,7 +321,18 @@
             "focus"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "ai-products",
+          "reliability",
+          "deployment",
+          "openai",
+          "google"
+        ]
+      }
     },
     {
       "slug": "amjad-masad",
@@ -598,7 +609,18 @@
             "alignment"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "ai",
+          "developer-tools",
+          "velocity",
+          "org-design",
+          "chaos"
+        ]
+      }
     },
     {
       "slug": "annie-duke",
@@ -914,7 +936,18 @@
             "focus"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "advisor",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "decision-making",
+          "quitting",
+          "poker",
+          "psychology",
+          "risk"
+        ]
+      }
     },
     {
       "slug": "april-dunford",
@@ -1230,7 +1263,18 @@
             "chaos"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "advisor",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "positioning",
+          "marketing",
+          "go-to-market",
+          "b2b",
+          "category-creation"
+        ]
+      }
     },
     {
       "slug": "ben-horowitz",
@@ -1884,7 +1928,18 @@
             "intuition"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "public",
+        "primary_topics": [
+          "leadership",
+          "meta",
+          "ar-vr",
+          "management",
+          "decision-making"
+        ]
+      }
     },
     {
       "slug": "brian-chesky",
@@ -2483,7 +2538,18 @@
             "chaos"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "frameworks",
+          "hiring",
+          "ai",
+          "founder-delegation",
+          "disruption"
+        ]
+      }
     },
     {
       "slug": "casey-winters",
@@ -3116,7 +3182,18 @@
             "velocity"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "investor",
+        "company_stage": "seed",
+        "primary_topics": [
+          "startups",
+          "yc",
+          "resilience",
+          "pivoting",
+          "customer-discovery"
+        ]
+      }
     },
     {
       "slug": "dylan-field",
@@ -3392,7 +3469,18 @@
             "discovery"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "design",
+          "intuition",
+          "simplicity",
+          "craft",
+          "collaboration"
+        ]
+      }
     },
     {
       "slug": "elena-verna-30",
@@ -3687,7 +3775,18 @@
             "data"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "growth",
+          "plg",
+          "experimentation",
+          "metrics",
+          "rebranding"
+        ]
+      }
     },
     {
       "slug": "gokul-rajaram",
@@ -4003,7 +4102,18 @@
             "chaos"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "public",
+        "primary_topics": [
+          "frameworks",
+          "decision-making",
+          "ads",
+          "marketplaces",
+          "angel-investing"
+        ]
+      }
     },
     {
       "slug": "guillermo-rauch",
@@ -4320,7 +4430,18 @@
             "perfection"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "developer-tools",
+          "ai",
+          "velocity",
+          "taste",
+          "open-source"
+        ]
+      }
     },
     {
       "slug": "jason-fried",
@@ -4644,7 +4765,18 @@
             "perfection"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "simplicity",
+          "calm",
+          "bootstrapping",
+          "craft",
+          "remote-work"
+        ]
+      }
     },
     {
       "slug": "julie-zhuo",
@@ -4960,7 +5092,18 @@
             "intuition"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "public",
+        "primary_topics": [
+          "design",
+          "management",
+          "feedback",
+          "career",
+          "ai"
+        ]
+      }
     },
     {
       "slug": "kunal-shah",
@@ -5288,7 +5431,18 @@
             "chaos"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "mental-models",
+          "curiosity",
+          "delta-4",
+          "india",
+          "consumer"
+        ]
+      }
     },
     {
       "slug": "marty-cagan",
@@ -5902,7 +6056,18 @@
             "discovery"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "public",
+        "primary_topics": [
+          "ai",
+          "product-development",
+          "instagram",
+          "anthropic",
+          "engineering"
+        ]
+      }
     },
     {
       "slug": "nikita-bier",
@@ -6218,7 +6383,18 @@
             "velocity"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "seed",
+        "primary_topics": [
+          "consumer-social",
+          "virality",
+          "teens",
+          "iteration",
+          "exits"
+        ]
+      }
     },
     {
       "slug": "rahul-vohra",
@@ -6510,7 +6686,18 @@
             "velocity"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "growth",
+        "primary_topics": [
+          "product-market-fit",
+          "design",
+          "game-design",
+          "email",
+          "productivity"
+        ]
+      }
     },
     {
       "slug": "shreyas-doshi",
@@ -6826,7 +7013,18 @@
             "velocity"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "public",
+        "primary_topics": [
+          "frameworks",
+          "prioritization",
+          "lno",
+          "pre-mortems",
+          "career"
+        ]
+      }
     },
     {
       "slug": "stewart-butterfield",
@@ -7142,7 +7340,18 @@
             "focus"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "public",
+        "primary_topics": [
+          "pivoting",
+          "slack",
+          "flickr",
+          "craft",
+          "workplace"
+        ]
+      }
     },
     {
       "slug": "tobi-lutke",
@@ -7459,7 +7668,18 @@
             "alignment"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "public",
+        "primary_topics": [
+          "long-term-thinking",
+          "ecommerce",
+          "standards",
+          "first-principles",
+          "culture"
+        ]
+      }
     }
   ],
   "quotes": [
@@ -13612,5 +13832,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-25T15:32:00.659Z"
+  "lastUpdated": "2026-01-25T15:38:16.068Z"
 }

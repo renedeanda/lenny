@@ -207,5 +207,10 @@
       "why": "Contrarian stance that building is overrated and design is underrated in AI era - opposite of 'ship fast' mentality",
       "related_zones": ["intuition", "discovery", "focus"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["ai-products", "reliability", "deployment", "openai", "google"]
+  }
 }

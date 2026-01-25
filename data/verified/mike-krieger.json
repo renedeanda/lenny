@@ -199,5 +199,10 @@
       "why": "Being metrics obsessed means you're trying to convince yourself it's working when it's not - anti-data-driven orthodoxy",
       "related_zones": ["intuition", "discovery"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["ai", "product-development", "instagram", "anthropic", "engineering"]
+  }
 }

@@ -207,5 +207,10 @@
       "why": "Shows strategic quitting as a feature not a bug - Stewart quit a 'successful' product at its peak to discover Slack",
       "related_zones": ["chaos", "focus"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["decision-making", "quitting", "poker", "psychology", "risk"]
+  }
 }

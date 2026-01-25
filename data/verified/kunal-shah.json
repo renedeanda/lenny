@@ -204,5 +204,10 @@
       "why": "Argues that demonstrating curiosity matters more than demonstrating expertise for growth - counterintuitive for people trying to establish credibility",
       "related_zones": ["discovery", "chaos"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["mental-models", "curiosity", "delta-4", "india", "consumer"]
+  }
 }

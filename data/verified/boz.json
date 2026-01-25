@@ -207,5 +207,10 @@
       "why": "Challenges the authority of external critics and media - argues you know more than analysts/press/Twitter and should trust your own expertise despite public narratives",
       "related_zones": ["data", "intuition"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["leadership", "meta", "ar-vr", "management", "decision-making"]
+  }
 }

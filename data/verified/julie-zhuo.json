@@ -207,5 +207,10 @@
       "why": "Warns against using AI as shortcuts - while most focus on AI's productivity gains, Julie argues emotional regulation and choosing hard things is more important for human fulfillment",
       "related_zones": ["chaos", "intuition"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["design", "management", "feedback", "career", "ai"]
+  }
 }

@@ -104,6 +104,29 @@ Distribute 1.0 total across all 8 zones based on:
 - Example: `{"discovery": 0.30, "focus": 0.20, "data": 0.15, ...}`
 - **Must sum to exactly 1.0**
 
+### Step 6: Add Guest Metadata (REQUIRED)
+Capture guest metadata for diversity scoring in recommendations:
+
+**guest_type** (required - pick one):
+- `founder` - Started/co-founded a company (Brian Chesky, Dylan Field, Tobi Lutke)
+- `operator` - Executive/VP at companies they didn't found (Shreyas Doshi, Julie Zhuo, Boz)
+- `investor` - VC, angel, or fund partner (Ben Horowitz, Dalton Caldwell)
+- `advisor` - Consultant, author, or domain expert (Marty Cagan, April Dunford, Annie Duke)
+- `academic` - Professor, researcher (rare in Lenny's podcast)
+
+**company_stage** (required - pick one):
+- `pre-seed` - Very early stage, pre-product
+- `seed` - Early product, finding PMF (Nikita Bier's companies)
+- `series-a` - Post-PMF, early growth
+- `growth` - Series B+ private company (Figma pre-acquisition, Superhuman)
+- `public` - Public company (Airbnb, Shopify, Meta, Slack)
+- `mixed` - Guest has experience across multiple stages (advisors, investors)
+
+**primary_topics** (required - 3-5 tags):
+- Core themes this guest is known for
+- Should be specific and searchable
+- Examples: "product-market-fit", "growth-loops", "founder-mode", "ai", "design"
+
 ## What Gets Used Where
 
 **PM Philosophy Map Flow (Quiz → Map → Contradictions → Results):**
