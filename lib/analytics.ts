@@ -167,9 +167,19 @@ export function trackZoneFilter(zoneName: string) {
 /**
  * User shared their results
  */
-export function trackResultsShared(platform: 'twitter' | 'linkedin' | 'copy_link') {
+export function trackResultsShared(method: 'native_share' | 'copy_link') {
   trackEvent('results_shared', {
     event_category: 'social',
-    platform: platform,
+    share_method: method,
+  });
+}
+
+/**
+ * User downloaded their results as an image
+ */
+export function trackResultsDownloaded(primaryZone: string) {
+  trackEvent('results_downloaded', {
+    event_category: 'social',
+    primary_zone: primaryZone,
   });
 }

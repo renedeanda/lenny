@@ -11,7 +11,7 @@ import PhilosophyInsightCard from '@/components/PhilosophyInsightCard';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import QuizAnswersOverview from '@/components/QuizAnswersOverview';
 import TopNav from '@/components/TopNav';
-import { trackQuizCompleted, trackResultsShared } from '@/lib/analytics';
+import { trackQuizCompleted, trackResultsShared, trackResultsDownloaded } from '@/lib/analytics';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
@@ -66,7 +66,7 @@ function ResultsContent() {
 
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
-    if (!cardElement) return;
+    if (!cardElement || !recommendations) return;
 
     try {
       const html2canvas = (await import('html2canvas')).default;
@@ -80,6 +80,8 @@ function ResultsContent() {
       link.download = `${userName.replace(/\s+/g, '-')}-pm-philosophy.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
+
+      trackResultsDownloaded(recommendations.userProfile.primaryZone);
     } catch (error) {
       console.error('Failed to generate image:', error);
     }
@@ -89,19 +91,27 @@ function ResultsContent() {
     if (!recommendations) return;
 
     const primaryZone = zones[recommendations.userProfile.primaryZone];
-    const shareText = `I just discovered my product philosophy: ${primaryZone.name}! ${primaryZone.tagline}\n\nTake the quiz: ${window.location.origin}`;
+    const secondaryZone = zones[recommendations.userProfile.secondaryZone];
+
+    // Craft engaging share text
+    const shareText = `🎯 My PM Philosophy: ${primaryZone.name}
+
+"${primaryZone.tagline}"
+
+With a touch of ${secondaryZone.name} - discover yours:
+${window.location.origin}`;
 
     if (navigator.share) {
       navigator.share({
-        title: 'My Product Philosophy',
+        title: `My PM Philosophy: ${primaryZone.name}`,
         text: shareText,
       }).then(() => {
-        trackResultsShared('twitter'); // Native share - assume social
+        trackResultsShared('native_share');
       }).catch(err => console.log('Error sharing:', err));
     } else {
       navigator.clipboard.writeText(shareText);
       trackResultsShared('copy_link');
-      alert('Shareable text copied to clipboard!');
+      alert('Copied to clipboard!');
     }
   };
 
