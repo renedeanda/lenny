@@ -4,6 +4,19 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { ArrowRight, Quote, Lightbulb } from 'lucide-react';
 import { EpisodeAlignment } from '@/lib/recommendations';
+import { ZoneId } from '@/lib/types';
+
+// Zone display names and colors
+const ZONE_CONFIG: Record<ZoneId, { name: string; color: string }> = {
+  velocity: { name: 'Speed', color: 'bg-amber/20 text-amber border-amber/40' },
+  perfection: { name: 'Craft', color: 'bg-purple-500/20 text-purple-400 border-purple-500/40' },
+  discovery: { name: 'Discovery', color: 'bg-blue-500/20 text-blue-400 border-blue-500/40' },
+  data: { name: 'Data', color: 'bg-green-500/20 text-green-400 border-green-500/40' },
+  intuition: { name: 'Intuition', color: 'bg-pink-500/20 text-pink-400 border-pink-500/40' },
+  alignment: { name: 'Alignment', color: 'bg-cyan-500/20 text-cyan-400 border-cyan-500/40' },
+  chaos: { name: 'Adaptability', color: 'bg-orange-500/20 text-orange-400 border-orange-500/40' },
+  focus: { name: 'Focus', color: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/40' },
+};
 
 interface Props {
   episode: EpisodeAlignment;
@@ -17,6 +30,13 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
 
   // Get the most relevant quote to display
   const displayQuote = episode.matchingQuotes?.[0];
+
+  // Get top 3 zones for this episode (sorted by influence)
+  const topZones = Object.entries(episode.episodeZones || {})
+    .filter(([_, value]) => value > 0.1) // Only show zones with >10% influence
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([zone]) => zone as ZoneId);
 
   return (
     <motion.div
@@ -57,6 +77,20 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
           <p className="text-sm text-ash-dark line-clamp-2">
             {episode.title}
           </p>
+
+          {/* Zone Badges */}
+          {topZones.length > 0 && (
+            <div className="flex flex-wrap gap-2 mt-3">
+              {topZones.map(zone => (
+                <span
+                  key={zone}
+                  className={`px-2 py-0.5 text-xs font-mono border ${ZONE_CONFIG[zone].color}`}
+                >
+                  {ZONE_CONFIG[zone].name}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Match Reason - Enhanced with quote snippets */}

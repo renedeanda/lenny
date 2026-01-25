@@ -1,5 +1,5 @@
 {
-  "episode_slug": "casey-winters",
+  "slug": "casey-winters",
   "guest": "Casey Winters",
   "episode_title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
   "verification_date": "2026-01-24",
@@ -202,5 +202,10 @@
       "why": "Challenges the notion that product-market fit is an achievement—frames it as a constantly decaying state",
       "related_zones": ["chaos", "discovery"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "stakeholder-management", "communication", "career"]
+  }
 }

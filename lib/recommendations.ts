@@ -183,9 +183,8 @@ function generateEnhancedMatchReason(
     })
     .sort((a, b) => b[1] - a[1]);
 
-  // Get episode guest name - handle both slug formats
-  const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
-  const episodeData = allEpisodes.find(ep => ep.slug === episodeSlug);
+  // Get episode guest name
+  const episodeData = allEpisodes.find(ep => ep.slug === episode.slug);
   const guestName = episodeData?.guest?.split(' ')[0] || 'This guest'; // First name only
 
   // If we have a good quote, reference it in the match reason

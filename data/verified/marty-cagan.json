@@ -1,5 +1,5 @@
 {
-  "episode_slug": "marty-cagan",
+  "slug": "marty-cagan",
   "guest": "Marty Cagan",
   "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
   "verification_date": "2026-01-20",
@@ -183,5 +183,10 @@
       "why": "Claims 90% of PM content online is from feature teams and propagates the wrong model - contrarian on PM advice",
       "related_zones": ["discovery", "chaos"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["product-management", "empowerment", "discovery", "product-leadership"]
+  }
 }

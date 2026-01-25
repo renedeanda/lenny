@@ -1,7 +1,7 @@
 {
   "episodes": [
     {
-      "episode_slug": "aishwarya-naresh-reganti-kiriti-badam",
+      "slug": "aishwarya-naresh-reganti-kiriti-badam",
       "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
       "episode_title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
       "verification_date": "2026-01-23",
@@ -324,7 +324,7 @@
       ]
     },
     {
-      "episode_slug": "amjad-masad",
+      "slug": "amjad-masad",
       "guest": "Amjad Masad",
       "episode_title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
       "verification_date": "2026-01-20",
@@ -601,7 +601,7 @@
       ]
     },
     {
-      "episode_slug": "annie-duke",
+      "slug": "annie-duke",
       "guest": "Annie Duke",
       "episode_title": "This will make you a better decision maker | Annie Duke (Thinking In Bets, former pro poker player)",
       "verification_date": "2026-01-22",
@@ -917,7 +917,7 @@
       ]
     },
     {
-      "episode_slug": "april-dunford",
+      "slug": "april-dunford",
       "guest": "April Dunford",
       "episode_title": "A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)",
       "verification_date": "2026-01-22",
@@ -1233,7 +1233,7 @@
       ]
     },
     {
-      "episode_slug": "ben-horowitz",
+      "slug": "ben-horowitz",
       "guest": "Ben Horowitz",
       "episode_title": "$46B of hard truths: Why founders fail and why you need to run toward fear | Ben Horowitz (a16z)",
       "verification_date": "2026-01-23",
@@ -1558,10 +1558,20 @@
             "intuition"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "investor",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "decision-making",
+          "leadership",
+          "psychology",
+          "investing"
+        ]
+      }
     },
     {
-      "episode_slug": "boz",
+      "slug": "boz",
       "guest": "Boz",
       "episode_title": "Making Meta | Andrew 'Boz' Bosworth (CTO)",
       "verification_date": "2026-01-22",
@@ -2139,10 +2149,20 @@
             "alignment"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "public",
+        "primary_topics": [
+          "leadership",
+          "founder-mode",
+          "product-marketing",
+          "org-design"
+        ]
+      }
     },
     {
-      "episode_slug": "casey-winters-20",
+      "slug": "casey-winters-20",
       "guest": "Casey Winters 2.0",
       "episode_title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
       "verification_date": "2026-01-24",
@@ -2466,7 +2486,7 @@
       ]
     },
     {
-      "episode_slug": "casey-winters",
+      "slug": "casey-winters",
       "guest": "Casey Winters",
       "episode_title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
       "verification_date": "2026-01-24",
@@ -2768,10 +2788,20 @@
             "discovery"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "growth",
+          "stakeholder-management",
+          "communication",
+          "career"
+        ]
+      }
     },
     {
-      "episode_slug": "dalton-caldwell",
+      "slug": "dalton-caldwell",
       "guest": "Dalton Caldwell",
       "episode_title": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (YC)",
       "verification_date": "2026-01-23",
@@ -3089,7 +3119,7 @@
       ]
     },
     {
-      "episode_slug": "dylan-field",
+      "slug": "dylan-field",
       "guest": "Dylan Field",
       "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
       "verification_date": "2026-01-20",
@@ -3365,7 +3395,7 @@
       ]
     },
     {
-      "episode_slug": "elena-verna-30",
+      "slug": "elena-verna-30",
       "guest": "Elena Verna 3.0",
       "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
       "verification_date": "2026-01-20",
@@ -3660,7 +3690,7 @@
       ]
     },
     {
-      "episode_slug": "gokul-rajaram",
+      "slug": "gokul-rajaram",
       "guest": "Gokul Rajaram",
       "episode_title": "Gokul Rajaram on designing your product development process, when and how to hire your first PM, a playbook for hiring leaders, getting ahead in your career, how to get started angel investing, and more",
       "verification_date": "2026-01-22",
@@ -3976,7 +4006,7 @@
       ]
     },
     {
-      "episode_slug": "guillermo-rauch",
+      "slug": "guillermo-rauch",
       "guest": "Guillermo Rauch",
       "episode_title": "Everyone's an engineer now: Inside v0's mission to create 100 million builders",
       "verification_date": "2026-01-23",
@@ -4293,7 +4323,7 @@
       ]
     },
     {
-      "episode_slug": "jason-fried",
+      "slug": "jason-fried",
       "guest": "Jason Fried",
       "episode_title": "The magic of constraints, small teams, and independent businesses",
       "verification_date": "2026-01-23",
@@ -4617,7 +4647,7 @@
       ]
     },
     {
-      "episode_slug": "julie-zhuo",
+      "slug": "julie-zhuo",
       "guest": "Julie Zhuo",
       "episode_title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo",
       "verification_date": "2026-01-22",
@@ -5261,7 +5291,7 @@
       ]
     },
     {
-      "episode_slug": "marty-cagan",
+      "slug": "marty-cagan",
       "guest": "Marty Cagan",
       "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
       "verification_date": "2026-01-20",
@@ -5553,7 +5583,17 @@
             "chaos"
           ]
         }
-      ]
+      ],
+      "guest_metadata": {
+        "guest_type": "advisor",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "product-management",
+          "empowerment",
+          "discovery",
+          "product-leadership"
+        ]
+      }
     },
     {
       "slug": "mike-krieger",
@@ -5865,7 +5905,7 @@
       ]
     },
     {
-      "episode_slug": "nikita-bier",
+      "slug": "nikita-bier",
       "guest": "Nikita Bier",
       "episode_title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
       "verification_date": "2026-01-22",
@@ -6473,7 +6513,7 @@
       ]
     },
     {
-      "episode_slug": "shreyas-doshi",
+      "slug": "shreyas-doshi",
       "guest": "Shreyas Doshi",
       "episode_title": "The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)",
       "verification_date": "2026-01-22",
@@ -6789,7 +6829,7 @@
       ]
     },
     {
-      "episode_slug": "stewart-butterfield",
+      "slug": "stewart-butterfield",
       "guest": "Stewart Butterfield",
       "episode_title": "Mental models for building products people love ft. Stewart Butterfield",
       "verification_date": "2026-01-22",
@@ -7105,7 +7145,7 @@
       ]
     },
     {
-      "episode_slug": "tobi-lutke",
+      "slug": "tobi-lutke",
       "guest": "Tobi Lütke",
       "episode_title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
       "verification_date": "2026-01-22",
@@ -13572,5 +13612,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-25T14:33:29.446Z"
+  "lastUpdated": "2026-01-25T15:32:00.659Z"
 }
