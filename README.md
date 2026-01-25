@@ -1,6 +1,6 @@
 # PM Philosophy Recommendations
 
-> Discover your product management philosophy through an interactive quiz powered by 298 episodes of Lenny's Podcast
+> Discover your product management philosophy through an interactive quiz powered by 299 episodes of Lenny's Podcast
 
 🔗 **Live:** [lenny.productbuilder.net](https://lenny.productbuilder.net)
 
@@ -14,7 +14,7 @@ PM Philosophy Recommendations helps product managers discover their unique appro
 - 🧭 **10-question philosophy quiz** with AI-focused questions
 - 🎨 **Dark sci-fi aesthetic** with 3D starfield and terminal vibes
 - 📊 **8 philosophy zones** (Velocity, Perfection, Discovery, Data, Intuition, Alignment, Chaos, Focus)
-- 🎙️ **298 episodes** with searchable transcripts
+- 🎙️ **299 episodes** with searchable transcripts
 - ✨ **20 curated episodes** with 235 verified quotes
 - 🎯 **Personalized recommendations** based on your philosophy
 - 🔍 **Smart search & filtering** across all episodes
@@ -77,7 +77,7 @@ npm run stats            # Show coverage statistics
 │   ├── quiz/                    # 10-question philosophy quiz
 │   ├── results/                 # Philosophy profile & recommendations
 │   ├── episodes/[slug]/         # Individual episode pages
-│   └── explore/                 # Browse all 298 episodes
+│   └── explore/                 # Browse all 299 episodes
 ├── components/                  # React components
 │   ├── InteractiveSpace.tsx     # 3D starfield background
 │   ├── VerifiedQuotes.tsx       # Curated quote display
@@ -172,7 +172,7 @@ Each episode includes:
 
 ### 4. Smart Explore Page
 
-Browse all 298 episodes with:
+Browse all 299 episodes with:
 - Full-text search
 - Keyword filtering (130+ topics)
 - Multiple sort options

@@ -4,7 +4,7 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilde
 
 export const metadata: Metadata = {
   title: 'Explore 298 Episodes | Lenny\'s Podcast',
-  description: 'Browse 298 episodes from Lenny\'s Podcast featuring product leaders, growth experts, and innovators. Searchable transcripts, verified quotes, and insights.',
+  description: 'Browse 299 episodes from Lenny\'s Podcast featuring product leaders, growth experts, and innovators. Searchable transcripts, verified quotes, and insights.',
   keywords: [
     'product management',
     'growth',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Explore 298 Episodes | Lenny\'s Podcast',
-    description: 'Browse 298 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
+    description: 'Browse 299 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     url: `${baseUrl}/explore`,
     siteName: 'PM Philosophy Quiz',
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Explore 298 Episodes | Lenny\'s Podcast',
-    description: 'Browse 298 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
+    description: 'Browse 299 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     images: [`${baseUrl}/explore-og-image.png`]
   }
 };
