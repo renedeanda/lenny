@@ -26881,24 +26881,6 @@ export const episodeInsights: EpisodeInsights[] = [
     ]
   },
   {
-    "slug": "shreyas-doshi-live",
-    "guest": "Shreyas Doshi Live",
-    "contrarianViews": [],
-    "quotableMoments": [],
-    "decisions": [],
-    "philosophyAlignment": {
-      "velocity": 5,
-      "perfection": 1,
-      "discovery": 2,
-      "data": 1,
-      "intuition": 2,
-      "alignment": 1,
-      "chaos": 1,
-      "focus": 1
-    },
-    "frameworks": []
-  },
-  {
     "slug": "shweta-shriva",
     "guest": "Shweta Shriva",
     "contrarianViews": [],

@@ -139,7 +139,7 @@ Episodes discussing **product management**:
 - [Phyl Terry](../episodes/phyl-terry/transcript.md)
 - [Sean Ellis](../episodes/sean-ellis/transcript.md)
 - [Shishir Mehrotra](../episodes/shishir-mehrotra/transcript.md)
-- [Shreyas Doshi Live](../episodes/shreyas-doshi-live/transcript.md)
+- [Shreyas Doshi Live](../episodes/shreyas-doshi-20/transcript.md)
 - [Stewart Butterfield](../episodes/stewart-butterfield/transcript.md)
 - [Tomer Cohen](../episodes/tomer-cohen/transcript.md)
 - [Upasna Gautam](../episodes/upasna-gautam/transcript.md)

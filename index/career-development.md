@@ -37,7 +37,7 @@ Episodes discussing **career development**:
 - [Paul Millerd](../episodes/paul-millerd/transcript.md)
 - [Phyl Terry](../episodes/phyl-terry/transcript.md)
 - [Rachel Lockett](../episodes/rachel-lockett/transcript.md)
-- [Shreyas Doshi Live](../episodes/shreyas-doshi-live/transcript.md)
+- [Shreyas Doshi Live](../episodes/shreyas-doshi-20/transcript.md)
 - [Tomer Cohen](../episodes/tomer-cohen/transcript.md)
 - [Tristan de Montebello](../episodes/tristan-de-montebello/transcript.md)
 - [Upasna Gautam](../episodes/upasna-gautam/transcript.md)

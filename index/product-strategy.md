@@ -51,6 +51,6 @@ Episodes discussing **product strategy**:
 - [Melissa Perri](../episodes/melissa-perri/transcript.md)
 - [Noah Weiss](../episodes/noah-weiss/transcript.md)
 - [Noam Lovinsky](../episodes/noam-lovinsky/transcript.md)
-- [Shreyas Doshi Live](../episodes/shreyas-doshi-live/transcript.md)
+- [Shreyas Doshi Live](../episodes/shreyas-doshi-20/transcript.md)
 - [Stewart Butterfield](../episodes/stewart-butterfield/transcript.md)
 - [Tomer Cohen](../episodes/tomer-cohen/transcript.md)

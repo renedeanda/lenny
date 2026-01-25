@@ -69,7 +69,7 @@ Episodes discussing **leadership**:
 - [Sahil Mansuri](../episodes/sahil-mansuri/transcript.md)
 - [Scott Wu](../episodes/scott-wu/transcript.md)
 - [Shishir Mehrotra](../episodes/shishir-mehrotra/transcript.md)
-- [Shreyas Doshi Live](../episodes/shreyas-doshi-live/transcript.md)
+- [Shreyas Doshi Live](../episodes/shreyas-doshi-20/transcript.md)
 - [Stewart Butterfield](../episodes/stewart-butterfield/transcript.md)
 - [Tomer Cohen](../episodes/tomer-cohen/transcript.md)
 - [Tristan de Montebello](../episodes/tristan-de-montebello/transcript.md)

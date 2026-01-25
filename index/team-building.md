@@ -21,4 +21,4 @@ Episodes discussing **team building**:
 - [Noah Weiss](../episodes/noah-weiss/transcript.md)
 - [Rachel Lockett](../episodes/rachel-lockett/transcript.md)
 - [Shishir Mehrotra](../episodes/shishir-mehrotra/transcript.md)
-- [Shreyas Doshi Live](../episodes/shreyas-doshi-live/transcript.md)
+- [Shreyas Doshi Live](../episodes/shreyas-doshi-20/transcript.md)

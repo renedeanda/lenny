@@ -20,6 +20,6 @@ Episodes discussing **decision making**:
 - [Paul Millerd](../episodes/paul-millerd/transcript.md)
 - [Sahil Mansuri](../episodes/sahil-mansuri/transcript.md)
 - [Shishir Mehrotra](../episodes/shishir-mehrotra/transcript.md)
-- [Shreyas Doshi Live](../episodes/shreyas-doshi-live/transcript.md)
+- [Shreyas Doshi Live](../episodes/shreyas-doshi-20/transcript.md)
 - [Stewart Butterfield](../episodes/stewart-butterfield/transcript.md)
 - [Upasna Gautam](../episodes/upasna-gautam/transcript.md)
