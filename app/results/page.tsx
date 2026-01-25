@@ -1,6 +1,6 @@
 'use client';
 
-import { Suspense, useMemo } from 'react';
+import { Suspense, useMemo, useState, useEffect } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { generateRecommendations, getBlindSpotDescription } from '@/lib/recommendations';
@@ -16,21 +16,40 @@ function ResultsContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const { answers, userName } = useMemo(() => {
-    // Always load from localStorage (no longer using URL params)
-    const answersParam = localStorage.getItem('pm_quiz_answers');
+  // Use state for client-side only data to avoid SSR hydration issues
+  const [isClient, setIsClient] = useState(false);
+  const [answers, setAnswers] = useState<QuizAnswers>({});
+  const [userName, setUserName] = useState('Your');
 
-    return {
-      answers: answersParam ? JSON.parse(answersParam) as QuizAnswers : {},
-      userName: localStorage.getItem('pm_map_name') || 'Your'
-    };
-  }, [searchParams]);
+  // Load from localStorage only on client side
+  useEffect(() => {
+    setIsClient(true);
+    try {
+      const answersParam = localStorage.getItem('pm_quiz_answers');
+      const nameParam = localStorage.getItem('pm_map_name');
+
+      if (answersParam) {
+        setAnswers(JSON.parse(answersParam) as QuizAnswers);
+      }
+      if (nameParam) {
+        setUserName(nameParam);
+      }
+    } catch (error) {
+      console.error('Error loading quiz answers from localStorage:', error);
+    }
+  }, []);
 
   // Generate recommendations using new algorithm
+  // Only compute after client-side hydration is complete
   const recommendations = useMemo(() => {
-    if (Object.keys(answers).length === 0) return null;
-    return generateRecommendations(answers);
-  }, [answers]);
+    if (!isClient || Object.keys(answers).length === 0) return null;
+    try {
+      return generateRecommendations(answers);
+    } catch (error) {
+      console.error('Error generating recommendations:', error);
+      return null;
+    }
+  }, [answers, isClient]);
 
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
@@ -77,6 +96,19 @@ function ResultsContent() {
   const handleExplore = () => {
     router.push('/explore');
   };
+
+  // Show loading state during SSR/hydration
+  if (!isClient) {
+    return (
+      <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
+        <TopNav />
+        <div className="text-center">
+          <div className="text-4xl mb-4 animate-pulse">⚡</div>
+          <div className="text-ash-dark font-mono text-sm">Loading your philosophy...</div>
+        </div>
+      </div>
+    );
+  }
 
   if (!recommendations) {
     return (

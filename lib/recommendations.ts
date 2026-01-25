@@ -1,6 +1,6 @@
 import { QuizAnswers, ZoneId, ZoneScores, Quote, EpisodeEnrichment, ContrarianCandidate } from './types';
 import { calculateZoneScores, getZonePercentages } from './scoring';
-import { getEpisodeEnrichment, getVerifiedEpisodeSlugs, getQuoteById } from './verifiedQuotes';
+import { getEpisodeEnrichment, getVerifiedEpisodeSlugs } from './verifiedQuotes';
 import { allEpisodes } from './allEpisodes';
 
 /**
@@ -55,25 +55,35 @@ const ALL_ZONES: ZoneId[] = [
   'intuition', 'alignment', 'chaos', 'focus'
 ];
 
+const DEFAULT_ZONE: ZoneId = 'discovery';
+
 /**
  * Calculate user profile from quiz answers
+ * Handles edge cases like empty answers or all-zero scores
  */
 export function calculateUserProfile(answers: QuizAnswers): UserProfile {
   const zoneScores = calculateZoneScores(answers);
   const zonePercentages = getZonePercentages(zoneScores);
 
-  // Get sorted zones
+  // Get sorted zones - ensure we always have all 8 zones
   const sortedZones = Object.entries(zonePercentages)
     .sort((a, b) => b[1] - a[1]);
 
-  const primaryZone = sortedZones[0][0] as ZoneId;
-  const secondaryZone = sortedZones[1][0] as ZoneId;
-  const blindSpotZone = sortedZones[sortedZones.length - 1][0] as ZoneId;
+  // Defensive: ensure we have at least 2 zones for primary/secondary
+  // This shouldn't happen in practice but prevents crashes
+  const primaryZone = (sortedZones[0]?.[0] as ZoneId) || DEFAULT_ZONE;
+  const secondaryZone = (sortedZones[1]?.[0] as ZoneId) || primaryZone;
+  const blindSpotZone = (sortedZones[sortedZones.length - 1]?.[0] as ZoneId) || DEFAULT_ZONE;
 
-  // Get top zones (>15%) for matching
-  const topZones = sortedZones
+  // Get top zones (>15%) for matching, minimum 2
+  let topZones = sortedZones
     .filter(([_, pct]) => pct > 15)
     .map(([zone]) => zone as ZoneId);
+
+  // Ensure at least primary and secondary are in topZones
+  if (topZones.length < 2) {
+    topZones = [primaryZone, secondaryZone];
+  }
 
   return {
     zoneScores,
@@ -96,8 +106,11 @@ function scoreQuoteRelevance(
   let relevanceScore = 0;
   const matchedZones: ZoneId[] = [];
 
-  for (const zone of quote.zones) {
-    const userStrength = userProfile.zonePercentages[zone] || 0;
+  // Defensive: ensure quote has zones array
+  const quoteZones = quote.zones ?? [];
+
+  for (const zone of quoteZones) {
+    const userStrength = userProfile.zonePercentages[zone] ?? 0;
 
     if (userStrength > 0) {
       matchedZones.push(zone);
@@ -131,14 +144,26 @@ function findBestMatchingQuotes(
 ): Quote[] {
   const quotes = episode.quotes ?? [];
 
+  if (quotes.length === 0) {
+    return [];
+  }
+
   // Score all quotes
   const scoredQuotes = quotes
     .map(q => scoreQuoteRelevance(q, userProfile))
     .filter(sq => sq.relevanceScore > 0)
     .sort((a, b) => b.relevanceScore - a.relevanceScore);
 
-  // Return top quotes
-  return scoredQuotes.slice(0, maxQuotes);
+  // If no quotes matched by zone, return first quotes as fallback
+  if (scoredQuotes.length === 0) {
+    return quotes.slice(0, maxQuotes);
+  }
+
+  // Return top quotes (strip the extra scoring fields)
+  return scoredQuotes.slice(0, maxQuotes).map(sq => {
+    const { relevanceScore, matchedZones, ...quote } = sq;
+    return quote as Quote;
+  });
 }
 
 /**
@@ -153,19 +178,20 @@ function generateEnhancedMatchReason(
   // Find the strongest shared zone
   const sharedZones = Object.entries(episodeZones)
     .filter(([zone, influence]) => {
-      const userStrength = userProfile.zonePercentages[zone as ZoneId];
+      const userStrength = userProfile.zonePercentages[zone as ZoneId] ?? 0;
       return influence > 0.15 && userStrength > 20;
     })
     .sort((a, b) => b[1] - a[1]);
 
-  // Get episode guest name
-  const episodeData = allEpisodes.find(ep => ep.slug === episode.slug || ep.slug === (episode as any).episode_slug);
+  // Get episode guest name - handle both slug formats
+  const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
+  const episodeData = allEpisodes.find(ep => ep.slug === episodeSlug);
   const guestName = episodeData?.guest?.split(' ')[0] || 'This guest'; // First name only
 
   // If we have a good quote, reference it in the match reason
-  if (bestQuote && bestQuote.text.length > 50) {
+  if (bestQuote?.text && bestQuote.text.length > 50) {
     // Extract a key phrase from the quote (first meaningful sentence or clause)
-    const snippet = bestQuote.text.split(/[.!?]/)[0];
+    const snippet = bestQuote.text.split(/[.!?]/)[0] || bestQuote.text;
     const shortSnippet = snippet.length > 80
       ? snippet.substring(0, 77) + '...'
       : snippet;
@@ -217,8 +243,8 @@ function calculateEnhancedAlignmentScore(
 
   // Calculate base alignment (dot product)
   for (const zone of ALL_ZONES) {
-    const userStrength = userProfile.zonePercentages[zone] / 100;
-    const episodeStrength = episodeZones[zone] || 0;
+    const userStrength = (userProfile.zonePercentages[zone] ?? 0) / 100;
+    const episodeStrength = episodeZones[zone] ?? 0;
 
     if (userStrength > 0.1 && episodeStrength > 0.1) {
       zonesMatched++;
@@ -228,7 +254,7 @@ function calculateEnhancedAlignmentScore(
   }
 
   // Primary zone depth bonus (episode very strong in user's #1 zone)
-  const primaryStrength = episodeZones[userProfile.primaryZone] || 0;
+  const primaryStrength = episodeZones[userProfile.primaryZone] ?? 0;
   if (primaryStrength > 0.25) {
     depthBonus += 0.3; // Big bonus for depth
   } else if (primaryStrength > 0.15) {
@@ -236,7 +262,7 @@ function calculateEnhancedAlignmentScore(
   }
 
   // Secondary zone bonus
-  const secondaryStrength = episodeZones[userProfile.secondaryZone] || 0;
+  const secondaryStrength = episodeZones[userProfile.secondaryZone] ?? 0;
   if (secondaryStrength > 0.15) {
     depthBonus += 0.1;
   }
@@ -259,11 +285,12 @@ function calculateEnhancedAlignmentScore(
 /**
  * Find best contrarian quote from episode's contrarian_candidates
  * Prioritizes quotes that challenge the user's PRIMARY zone
+ * Returns null if no valid contrarian candidates
  */
 function findBestContrarianQuote(
   userProfile: UserProfile,
   episode: EpisodeEnrichment
-): { quote: Quote; why: string } | null {
+): { quote: Quote; why: string; score: number } | null {
   const candidates = (episode as any).contrarian_candidates as ContrarianCandidate[] | undefined;
 
   if (!candidates || candidates.length === 0) {
@@ -273,19 +300,20 @@ function findBestContrarianQuote(
   // Score each contrarian candidate
   const scoredCandidates = candidates.map(candidate => {
     let score = 0;
+    const relatedZones = candidate.related_zones ?? [];
 
     // Prioritize quotes that challenge user's primary zone
-    if (candidate.related_zones.includes(userProfile.primaryZone)) {
+    if (relatedZones.includes(userProfile.primaryZone)) {
       score += 3;
     }
 
     // Also good if it challenges secondary zone
-    if (candidate.related_zones.includes(userProfile.secondaryZone)) {
+    if (relatedZones.includes(userProfile.secondaryZone)) {
       score += 2;
     }
 
     // Boost if related to user's blind spot (offers perspective they lack)
-    if (candidate.related_zones.includes(userProfile.blindSpotZone)) {
+    if (relatedZones.includes(userProfile.blindSpotZone)) {
       score += 1;
     }
 
@@ -294,15 +322,17 @@ function findBestContrarianQuote(
 
   // Get the best candidate
   const best = scoredCandidates[0];
-  if (!best) return null;
+  if (!best || !best.candidate.quoteId) return null;
 
   // Find the actual quote
-  const quote = (episode.quotes ?? []).find(q => q.id === best.candidate.quoteId);
+  const quotes = episode.quotes ?? [];
+  const quote = quotes.find(q => q.id === best.candidate.quoteId);
   if (!quote) return null;
 
   return {
     quote,
-    why: best.candidate.why,
+    why: best.candidate.why || 'Offers a different perspective',
+    score: best.score,
   };
 }
 
@@ -311,7 +341,6 @@ function findBestContrarianQuote(
  * Returns penalty (0-1) where higher = more similar to existing recommendations
  */
 function calculateSimilarityPenalty(
-  episode: EpisodeEnrichment,
   episodeZones: Record<ZoneId, number>,
   existingRecommendations: EpisodeAlignment[]
 ): number {
@@ -324,8 +353,8 @@ function calculateSimilarityPenalty(
 
     // Check zone overlap
     for (const zone of ALL_ZONES) {
-      const thisStrength = episodeZones[zone] || 0;
-      const existingStrength = existing.episodeZones[zone] || 0;
+      const thisStrength = episodeZones[zone] ?? 0;
+      const existingStrength = existing.episodeZones[zone] ?? 0;
 
       // Both strong in same zone = similar
       if (thisStrength > 0.2 && existingStrength > 0.2) {
@@ -340,7 +369,141 @@ function calculateSimilarityPenalty(
 }
 
 /**
+ * Internal type for building alignments
+ */
+interface AlignmentWithEpisode extends EpisodeAlignment {
+  episode: EpisodeEnrichment;
+}
+
+/**
+ * Generate complete recommendations for a user with enhanced matching
+ */
+export function generateRecommendations(answers: QuizAnswers): Recommendations {
+  const userProfile = calculateUserProfile(answers);
+  const verifiedSlugs = getVerifiedEpisodeSlugs();
+
+  // Calculate initial alignments for all episodes
+  const initialAlignments: AlignmentWithEpisode[] = [];
+
+  for (const slug of verifiedSlugs) {
+    const episode = getEpisodeEnrichment(slug);
+    if (!episode) continue;
+
+    const episodeMetadata = allEpisodes.find(ep => ep.slug === slug);
+    if (!episodeMetadata) continue;
+
+    const episodeZones: Record<ZoneId, number> =
+      (episode as any).zoneInfluence || (episode as any).zone_influence || {};
+
+    // Skip episodes with no zone data
+    if (Object.keys(episodeZones).length === 0) continue;
+
+    const alignmentScore = calculateEnhancedAlignmentScore(userProfile, episodeZones);
+    const matchingQuotes = findBestMatchingQuotes(userProfile, episode, 2);
+    const matchReason = generateEnhancedMatchReason(
+      userProfile,
+      episode,
+      episodeZones,
+      matchingQuotes[0]
+    );
+
+    initialAlignments.push({
+      slug,
+      guest: episodeMetadata.guest,
+      title: episodeMetadata.title,
+      alignmentScore,
+      matchingQuotes,
+      matchReason,
+      episodeZones,
+      episode,
+    });
+  }
+
+  // Build primary recommendations with diversity
+  const primary: EpisodeAlignment[] = [];
+  const sortedAlignments = [...initialAlignments].sort((a, b) => b.alignmentScore - a.alignmentScore);
+
+  for (const alignment of sortedAlignments) {
+    if (primary.length >= 5) break;
+
+    // Apply diversity penalty based on already-selected recommendations
+    const penalty = calculateSimilarityPenalty(alignment.episodeZones, primary);
+    const adjustedScore = Math.round(alignment.alignmentScore * (1 - penalty));
+
+    // Only skip if penalty makes it significantly worse AND we already have 3+ recs
+    if (primary.length >= 3 && adjustedScore < (primary[primary.length - 1]?.alignmentScore ?? 0) * 0.7) {
+      continue;
+    }
+
+    // Strip episode reference before adding to results
+    const { episode, ...result } = alignment;
+    primary.push({ ...result, alignmentScore: adjustedScore });
+  }
+
+  // Sort final primary list by adjusted score
+  primary.sort((a, b) => b.alignmentScore - a.alignmentScore);
+
+  // Build contrarian recommendations using contrarian_candidates
+  const primarySlugs = new Set(primary.map(ep => ep.slug));
+
+  // Score ALL episodes for contrarian value, then pick best 3
+  const contrarianCandidates: Array<{
+    alignment: AlignmentWithEpisode;
+    contrarianData: { quote: Quote; why: string; score: number };
+    totalScore: number;
+  }> = [];
+
+  for (const alignment of initialAlignments) {
+    // Skip episodes already in primary recommendations
+    if (primarySlugs.has(alignment.slug)) continue;
+
+    // Find the best contrarian quote for this user
+    const contrarianData = findBestContrarianQuote(userProfile, alignment.episode);
+    if (!contrarianData) continue;
+
+    // Calculate total contrarian score:
+    // 1. Quote relevance to user's zones (from findBestContrarianQuote)
+    // 2. Episode strength in user's blind spot
+    const blindSpotStrength = alignment.episodeZones[userProfile.blindSpotZone] ?? 0;
+    const blindSpotBonus = blindSpotStrength > 0.2 ? 3 : blindSpotStrength > 0.1 ? 1 : 0;
+
+    const totalScore = contrarianData.score + blindSpotBonus;
+
+    contrarianCandidates.push({
+      alignment,
+      contrarianData,
+      totalScore,
+    });
+  }
+
+  // Sort by total contrarian score (descending) and take top 3
+  contrarianCandidates.sort((a, b) => b.totalScore - a.totalScore);
+
+  const contrarian: EpisodeAlignment[] = contrarianCandidates
+    .slice(0, 3)
+    .map(({ alignment, contrarianData }) => {
+      const { episode, ...rest } = alignment;
+      return {
+        ...rest,
+        matchingQuotes: [contrarianData.quote],
+        matchReason: `Challenges your thinking: "${contrarianData.why}"`,
+        contrarian: {
+          quote: contrarianData.quote,
+          why: contrarianData.why,
+        },
+      };
+    });
+
+  return {
+    userProfile,
+    primary: primary.slice(0, 5),
+    contrarian,
+  };
+}
+
+/**
  * Calculate episode alignment with enhanced scoring and diversity
+ * Exported for use in other contexts (e.g., episode pages)
  */
 export function calculateEpisodeAlignment(
   userProfile: UserProfile,
@@ -359,8 +522,8 @@ export function calculateEpisodeAlignment(
   // Calculate base alignment
   let alignmentScore = calculateEnhancedAlignmentScore(userProfile, episodeZones);
 
-  // Apply diversity penalty
-  const similarityPenalty = calculateSimilarityPenalty(episode, episodeZones, existingRecommendations);
+  // Apply diversity penalty if needed
+  const similarityPenalty = calculateSimilarityPenalty(episodeZones, existingRecommendations);
   alignmentScore = Math.round(alignmentScore * (1 - similarityPenalty));
 
   // Find best matching quotes
@@ -386,122 +549,6 @@ export function calculateEpisodeAlignment(
 }
 
 /**
- * Generate complete recommendations for a user with enhanced matching
- */
-export function generateRecommendations(answers: QuizAnswers): Recommendations {
-  const userProfile = calculateUserProfile(answers);
-  const verifiedSlugs = getVerifiedEpisodeSlugs();
-
-  // Calculate initial alignments for all episodes (no diversity penalty yet)
-  const initialAlignments = verifiedSlugs
-    .map(slug => {
-      const episode = getEpisodeEnrichment(slug);
-      if (!episode) return null;
-
-      const episodeMetadata = allEpisodes.find(ep => ep.slug === slug);
-      if (!episodeMetadata) return null;
-
-      const episodeZones: Record<ZoneId, number> =
-        (episode as any).zoneInfluence || (episode as any).zone_influence || {};
-
-      const alignmentScore = calculateEnhancedAlignmentScore(userProfile, episodeZones);
-      const matchingQuotes = findBestMatchingQuotes(userProfile, episode, 2);
-      const matchReason = generateEnhancedMatchReason(
-        userProfile,
-        episode,
-        episodeZones,
-        matchingQuotes[0]
-      );
-
-      return {
-        slug,
-        guest: episodeMetadata.guest,
-        title: episodeMetadata.title,
-        alignmentScore,
-        matchingQuotes,
-        matchReason,
-        episodeZones,
-        episode, // Keep reference for diversity calculation
-      };
-    })
-    .filter((a): a is NonNullable<typeof a> => a !== null);
-
-  // Build primary recommendations with diversity
-  const primary: EpisodeAlignment[] = [];
-  const sortedAlignments = [...initialAlignments].sort((a, b) => b.alignmentScore - a.alignmentScore);
-
-  for (const alignment of sortedAlignments) {
-    if (primary.length >= 5) break;
-
-    // Apply diversity penalty based on already-selected recommendations
-    const penalty = calculateSimilarityPenalty(
-      alignment.episode,
-      alignment.episodeZones,
-      primary
-    );
-    const adjustedScore = Math.round(alignment.alignmentScore * (1 - penalty));
-
-    // Only skip if penalty makes it much worse than current cutoff
-    if (primary.length >= 3 && adjustedScore < primary[primary.length - 1].alignmentScore * 0.7) {
-      continue;
-    }
-
-    const { episode, ...rest } = alignment;
-    primary.push({ ...rest, alignmentScore: adjustedScore });
-  }
-
-  // Sort by adjusted score
-  primary.sort((a, b) => b.alignmentScore - a.alignmentScore);
-
-  // Build contrarian recommendations using contrarian_candidates
-  const primarySlugs = new Set(primary.map(ep => ep.slug));
-
-  const contrarian: EpisodeAlignment[] = [];
-
-  for (const alignment of initialAlignments) {
-    if (primarySlugs.has(alignment.slug)) continue;
-    if (contrarian.length >= 3) break;
-
-    const episode = getEpisodeEnrichment(alignment.slug);
-    if (!episode) continue;
-
-    // Find the best contrarian quote for this user
-    const contrarianData = findBestContrarianQuote(userProfile, episode);
-    if (!contrarianData) continue;
-
-    // Check if episode is strong in user's blind spot
-    const blindSpotStrength = alignment.episodeZones[userProfile.blindSpotZone] || 0;
-
-    // Prioritize episodes with both:
-    // 1. Good contrarian quotes
-    // 2. Strong in user's blind spot
-    const contrarianScore = (blindSpotStrength > 0.15 ? 2 : 1) +
-                           (contrarianData.quote.zones.includes(userProfile.primaryZone) ? 1 : 0);
-
-    const { episode: _, ...rest } = alignment;
-    contrarian.push({
-      ...rest,
-      matchingQuotes: [contrarianData.quote], // Use contrarian quote instead
-      matchReason: `Challenges your thinking: "${contrarianData.why}"`,
-      contrarian: contrarianData,
-    });
-  }
-
-  // Sort contrarian by how relevant they are to challenging user's views
-  contrarian.sort((a, b) => {
-    const aBlindSpot = a.episodeZones[userProfile.blindSpotZone] || 0;
-    const bBlindSpot = b.episodeZones[userProfile.blindSpotZone] || 0;
-    return bBlindSpot - aBlindSpot;
-  });
-
-  return {
-    userProfile,
-    primary: primary.slice(0, 5),
-    contrarian: contrarian.slice(0, 3),
-  };
-}
-
-/**
  * Get a description of user's blind spot for contrarian section header
  */
 export function getBlindSpotDescription(zoneId: ZoneId): string {
@@ -516,5 +563,5 @@ export function getBlindSpotDescription(zoneId: ZoneId): string {
     focus: 'These perspectives advocate ruthless prioritization you might resist',
   };
 
-  return descriptions[zoneId];
+  return descriptions[zoneId] || 'These episodes offer different perspectives';
 }
