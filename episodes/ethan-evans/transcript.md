@@ -1,5 +1,5 @@
 ---
-guest: Ethan Evans 1.0
+guest: Ethan Evans
 title: Taking control of your career | Ethan Evans (Amazon)
 youtube_url: https://www.youtube.com/watch?v=GB0P0_nFPTA
 video_id: GB0P0_nFPTA
