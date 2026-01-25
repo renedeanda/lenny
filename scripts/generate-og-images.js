@@ -2,7 +2,7 @@ const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-// Import episode data from allEpisodes (303 episodes)
+// Import episode data from allEpisodes (299 episodes)
 const episodesPath = path.join(__dirname, '../lib/allEpisodes.ts');
 const episodesContent = fs.readFileSync(episodesPath, 'utf-8');
 

@@ -125,8 +125,27 @@ export default function EpisodePage() {
         return;
       }
 
+      // Determine which player element to use based on screen size
+      const isDesktop = window.innerWidth >= 1024;
+      const playerId = isDesktop ? 'youtube-player-desktop' : 'youtube-player';
+      const playerElement = document.getElementById(playerId);
+
+      if (!playerElement) {
+        console.error('YouTube player element not found:', playerId);
+        return;
+      }
+
       try {
-        youtubePlayerRef.current = new (window as any).YT.Player('youtube-player', {
+        // Destroy existing player if any
+        if (youtubePlayerRef.current?.destroy) {
+          try {
+            youtubePlayerRef.current.destroy();
+          } catch (e) {
+            // Ignore errors during cleanup
+          }
+        }
+
+        youtubePlayerRef.current = new (window as any).YT.Player(playerId, {
           videoId: episode.videoId,
           playerVars: {
             enablejsapi: 1,
@@ -162,7 +181,30 @@ export default function EpisodePage() {
       }
     }
 
+    // Handle resize - reinitialize player if switching between mobile/desktop
+    const handleResize = () => {
+      const isDesktop = window.innerWidth >= 1024;
+      const currentPlayerId = isDesktop ? 'youtube-player-desktop' : 'youtube-player';
+      const currentElement = document.getElementById(currentPlayerId);
+
+      // Only reinitialize if the target element exists and is different
+      if (currentElement && (window as any).YT?.Player) {
+        initializePlayer();
+      }
+    };
+
+    // Debounced resize handler
+    let resizeTimeout: NodeJS.Timeout;
+    const debouncedResize = () => {
+      clearTimeout(resizeTimeout);
+      resizeTimeout = setTimeout(handleResize, 250);
+    };
+
+    window.addEventListener('resize', debouncedResize);
+
     return () => {
+      window.removeEventListener('resize', debouncedResize);
+      clearTimeout(resizeTimeout);
       // Cleanup
       if (youtubePlayerRef.current?.destroy) {
         try {
@@ -595,7 +637,7 @@ export default function EpisodePage() {
         {/* Desktop Layout */}
         <div className="hidden lg:block w-full max-w-[1800px] mx-auto">
           <div className="grid grid-cols-12 gap-8">
-            {/* Left Column: Header + Transcript (65% width) */}
+            {/* Left Column: Header + Tabs (Transcript/Insights) */}
             <div className="col-span-7">
               {/* Header */}
               <div className="mb-8 pb-8 border-b-2 border-ash-darker">
@@ -652,126 +694,140 @@ export default function EpisodePage() {
                 )}
               </div>
 
-              {/* Search Transcript */}
-              <div className="mb-6">
-                <div className="relative">
-                  <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder="Search transcript..."
-                    className="w-full bg-void-light border-2 border-ash-darker text-ash pl-12 pr-12 py-3
-                             focus:border-amber focus:outline-none transition-colors
-                             placeholder:text-ash-dark"
-                  />
-                  {searchQuery && (
-                    <button
-                      onClick={() => setSearchQuery('')}
-                      className="absolute right-4 top-1/2 -translate-y-1/2 text-ash-dark hover:text-amber transition-colors"
-                    >
-                      <X className="w-5 h-5" />
-                    </button>
-                  )}
+              {/* Desktop Tabs */}
+              <div className="mb-6 border-b-2 border-ash-darker">
+                <div className="flex gap-8">
+                  <button
+                    onClick={() => setActiveTab('transcript')}
+                    className={`pb-4 px-2 font-bold text-lg tracking-wider transition-colors ${
+                      activeTab === 'transcript'
+                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
+                        : 'text-ash-dark hover:text-amber'
+                    }`}
+                  >
+                    TRANSCRIPT
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('insights')}
+                    className={`pb-4 px-2 font-bold text-lg tracking-wider transition-colors ${
+                      activeTab === 'insights'
+                        ? 'text-amber border-b-2 border-amber -mb-[2px]'
+                        : 'text-ash-dark hover:text-amber'
+                    }`}
+                  >
+                    INSIGHTS
+                  </button>
                 </div>
-                {searchQuery && (
-                  <p className="text-sm text-ash-dark mt-2">
-                    {filteredSections.length} result{filteredSections.length !== 1 ? 's' : ''} found
-                  </p>
-                )}
               </div>
 
-              {/* Transcript */}
-              <div>
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-2xl font-bold text-amber">TRANSCRIPT</h3>
-                  <div className="text-sm text-ash-dark">
-                    {isLoading ? 'Loading...' : `${filteredSections.length} segments`}
-                  </div>
-                </div>
-
-                {isLoading ? (
-                  <div className="text-center py-12 text-ash-dark">
-                    <div className="animate-pulse">Loading transcript...</div>
-                  </div>
-                ) : filteredSections.length > 0 ? (
-                  <div className="space-y-1">
-                    {filteredSections.map(({ section, originalIndex }) => (
-                      <div
-                        key={originalIndex}
-                        ref={el => { sectionRefs.current[originalIndex] = el; }}
-                        className={`group hover:bg-void-light transition-colors p-4 -mx-4 ${
-                          selectedSection === originalIndex ? 'bg-amber/10' : ''
-                        }`}
-                      >
-                        <div className="flex items-start gap-4">
-                          <button
-                            onClick={(e) => {
-                              e.preventDefault();
-                              jumpToTimestamp(originalIndex);
-                            }}
-                            className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 cursor-pointer"
-                            title="Jump to timestamp"
-                          >
-                            <Hash className="w-3 h-3" />
-                            {section.timestamp}
-                          </button>
-                          <div className="flex-1 min-w-0">
-                            <div className="font-bold text-amber text-sm mb-2">
-                              {section.speaker}
-                            </div>
-                            <div className="text-ash-dark leading-relaxed">
-                              {searchQuery ? (
-                                <span dangerouslySetInnerHTML={{
-                                  __html: section.text.replace(
-                                    new RegExp(`(${searchQuery})`, 'gi'),
-                                    '<mark class="bg-amber/30 text-ash">$1</mark>'
-                                  )
-                                }} />
-                              ) : (
-                                section.text
-                              )}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                ) : (
-                  <div className="text-center py-12">
-                    <p className="text-ash-dark mb-4">
-                      {searchQuery ? 'No results found' : 'No transcript available'}
-                    </p>
+              {/* Desktop Tab Content */}
+              {activeTab === 'transcript' && (
+                <div>
+                  {/* Search Transcript */}
+                  <div className="mb-6">
+                    <div className="relative">
+                      <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-amber" />
+                      <input
+                        type="text"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        placeholder="Search transcript..."
+                        className="w-full bg-void-light border-2 border-ash-darker text-ash pl-12 pr-12 py-3
+                                 focus:border-amber focus:outline-none transition-colors
+                                 placeholder:text-ash-dark"
+                      />
+                      {searchQuery && (
+                        <button
+                          onClick={() => setSearchQuery('')}
+                          className="absolute right-4 top-1/2 -translate-y-1/2 text-ash-dark hover:text-amber transition-colors"
+                        >
+                          <X className="w-5 h-5" />
+                        </button>
+                      )}
+                    </div>
                     {searchQuery && (
-                      <button
-                        onClick={() => setSearchQuery('')}
-                        className="text-amber hover:text-amber-dark transition-colors"
-                      >
-                        Clear search
-                      </button>
+                      <p className="text-sm text-ash-dark mt-2">
+                        {filteredSections.length} result{filteredSections.length !== 1 ? 's' : ''} found
+                      </p>
                     )}
                   </div>
-                )}
-              </div>
-            </div>
 
-            {/* Right Column: YouTube (sticky) + Insights (scrollable) (35% width) */}
-            <div className="col-span-5">
-              <div className="sticky top-24">
-                {/* YouTube Embed */}
-                {episode.videoId && (
-                  <div className="mb-8">
-                    <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
-                      <div
-                        id="youtube-player-desktop"
-                        className="absolute inset-0 w-full h-full"
-                      />
+                  {/* Transcript Content */}
+                  <div>
+                    <div className="flex items-center justify-between mb-6">
+                      <div className="text-sm text-ash-dark">
+                        {isLoading ? 'Loading...' : `${filteredSections.length} segments`}
+                      </div>
                     </div>
-                  </div>
-                )}
 
-                {/* Insights - Scrollable below video */}
-                <div className="max-h-[calc(100vh-24rem-200px)] overflow-y-auto pr-4 space-y-6">
+                    {isLoading ? (
+                      <div className="text-center py-12 text-ash-dark">
+                        <div className="animate-pulse">Loading transcript...</div>
+                      </div>
+                    ) : filteredSections.length > 0 ? (
+                      <div className="space-y-1">
+                        {filteredSections.map(({ section, originalIndex }) => (
+                          <div
+                            key={originalIndex}
+                            ref={el => { sectionRefs.current[originalIndex] = el; }}
+                            className={`group hover:bg-void-light transition-colors p-4 -mx-4 ${
+                              selectedSection === originalIndex ? 'bg-amber/10' : ''
+                            }`}
+                          >
+                            <div className="flex items-start gap-4">
+                              <button
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  jumpToTimestamp(originalIndex);
+                                }}
+                                className="flex-shrink-0 w-20 text-xs font-mono text-ash-dark hover:text-amber transition-colors flex items-center gap-1 cursor-pointer"
+                                title="Jump to timestamp"
+                              >
+                                <Hash className="w-3 h-3" />
+                                {section.timestamp}
+                              </button>
+                              <div className="flex-1 min-w-0">
+                                <div className="font-bold text-amber text-sm mb-2">
+                                  {section.speaker}
+                                </div>
+                                <div className="text-ash-dark leading-relaxed">
+                                  {searchQuery ? (
+                                    <span dangerouslySetInnerHTML={{
+                                      __html: section.text.replace(
+                                        new RegExp(`(${searchQuery})`, 'gi'),
+                                        '<mark class="bg-amber/30 text-ash">$1</mark>'
+                                      )
+                                    }} />
+                                  ) : (
+                                    section.text
+                                  )}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <div className="text-center py-12">
+                        <p className="text-ash-dark mb-4">
+                          {searchQuery ? 'No results found' : 'No transcript available'}
+                        </p>
+                        {searchQuery && (
+                          <button
+                            onClick={() => setSearchQuery('')}
+                            className="text-amber hover:text-amber-dark transition-colors"
+                          >
+                            Clear search
+                          </button>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+
+              {activeTab === 'insights' && (
+                <div className="space-y-6">
                   {/* Key Takeaways */}
                   {verifiedEnrichment && verifiedEnrichment.takeaways && verifiedEnrichment.takeaways.length > 0 && (
                     <div className="border-2 border-amber bg-void-light p-6">
@@ -799,16 +855,20 @@ export default function EpisodePage() {
                         );
 
                         if (sectionIndex !== -1) {
-                          const section = sectionRefs.current[sectionIndex];
-                          if (section) {
-                            section.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                            setSelectedSection(sectionIndex);
-                            setTimeout(() => setSelectedSection(null), 2000);
-                          }
+                          setActiveTab('transcript');
 
-                          if (youtubePlayerRef.current && quoteTimestamp) {
-                            jumpToVideoTimestamp(quoteTimestamp);
-                          }
+                          setTimeout(() => {
+                            const section = sectionRefs.current[sectionIndex];
+                            if (section) {
+                              section.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                              setSelectedSection(sectionIndex);
+                              setTimeout(() => setSelectedSection(null), 2000);
+                            }
+
+                            if (youtubePlayerRef.current && quoteTimestamp) {
+                              jumpToVideoTimestamp(quoteTimestamp);
+                            }
+                          }, 100);
                         }
                       }}
                     />
@@ -819,10 +879,9 @@ export default function EpisodePage() {
                     <div className="border-2 border-crimson/30 bg-void-light p-6">
                       <h3 className="text-lg font-bold text-crimson mb-4">🔥 CONTRARIAN TAKES</h3>
                       <div className="space-y-4">
-                        {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 2).map((view, i) => (
-                          <div key={i} className="border-l-2 border-crimson/50 pl-3">
-                            <p className="text-sm text-ash italic mb-2">"{view.quote.substring(0, 200)}{view.quote.length > 200 ? '...' : ''}"
-                            </p>
+                        {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 3).map((view, i) => (
+                          <div key={i} className="border-l-2 border-crimson/50 pl-4">
+                            <p className="text-sm text-ash italic mb-2">"{view.quote}"</p>
                             <div className="flex items-center gap-2 text-xs text-ash-dark">
                               <span className="text-crimson font-bold">{view.speaker}</span>
                               <span>•</span>
@@ -831,12 +890,12 @@ export default function EpisodePage() {
                           </div>
                         ))}
                       </div>
-                      {insights.contrarianViews.length > 2 && (
+                      {insights.contrarianViews.length > 3 && (
                         <button
                           onClick={() => setShowAllContrarian(!showAllContrarian)}
                           className="mt-4 text-xs text-crimson hover:text-crimson/80 transition-colors"
                         >
-                          {showAllContrarian ? '▲ Show Less' : `▼ Show ${insights.contrarianViews.length - 2} More`}
+                          {showAllContrarian ? '▲ Show Less' : `▼ Show ${insights.contrarianViews.length - 3} More`}
                         </button>
                       )}
                     </div>
@@ -861,6 +920,21 @@ export default function EpisodePage() {
                     </div>
                   )}
                 </div>
+              )}
+            </div>
+
+            {/* Right Column: YouTube (sticky) */}
+            <div className="col-span-5">
+              <div className="sticky top-24">
+                {/* YouTube Embed */}
+                {episode.videoId && (
+                  <div className="relative w-full aspect-video bg-void-light border-2 border-crimson">
+                    <div
+                      id="youtube-player-desktop"
+                      className="absolute inset-0 w-full h-full"
+                    />
+                  </div>
+                )}
               </div>
             </div>
           </div>
