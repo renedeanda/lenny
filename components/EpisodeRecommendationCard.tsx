@@ -1,8 +1,9 @@
 'use client';
 
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, Quote, Lightbulb } from 'lucide-react';
+import { ArrowRight, Quote, ChevronDown, ChevronUp } from 'lucide-react';
 import { EpisodeAlignment } from '@/lib/recommendations';
 import { ZoneId } from '@/lib/types';
 
@@ -25,18 +26,30 @@ interface Props {
 }
 
 export default function EpisodeRecommendationCard({ episode, index, variant = 'primary' }: Props) {
+  const [isExpanded, setIsExpanded] = useState(false);
   const isPrimary = variant === 'primary';
   const isContrarian = variant === 'contrarian';
 
   // Get the most relevant quote to display
   const displayQuote = episode.matchingQuotes?.[0];
+  const quoteText = displayQuote?.text || '';
+  const isLongQuote = quoteText.length > 150;
 
   // Get top 3 zones for this episode (sorted by influence)
   const topZones = Object.entries(episode.episodeZones || {})
-    .filter(([_, value]) => value > 0.1) // Only show zones with >10% influence
+    .filter(([_, value]) => value > 0.1)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 3)
     .map(([zone]) => zone as ZoneId);
+
+  // For contrarian cards, extract the "why" from the contrarian object
+  const contrarianWhy = episode.contrarian?.why;
+
+  const handleExpandClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setIsExpanded(!isExpanded);
+  };
 
   return (
     <motion.div
@@ -47,18 +60,18 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
     >
       <Link
         href={`/episodes/${episode.slug}`}
-        className={`block p-6 border-2 transition-all hover:bg-void ${
+        className={`block p-6 border transition-all ${
           isContrarian
-            ? 'border-crimson/30 bg-crimson/5 hover:border-crimson'
-            : 'border-ash-darker bg-void-light hover:border-amber'
+            ? 'border-rose-900/40 bg-rose-950/10 hover:border-rose-700/60 hover:bg-rose-950/20'
+            : 'border-ash-darker bg-void-light hover:border-amber hover:bg-void'
         }`}
       >
         {/* Header */}
-        <div className="mb-4">
-          <div className="flex items-start justify-between mb-2">
+        <div className="mb-3">
+          <div className="flex items-start justify-between mb-1">
             <h3 className={`text-xl font-bold transition-colors ${
               isContrarian
-                ? 'text-crimson group-hover:text-crimson/80'
+                ? 'text-rose-400 group-hover:text-rose-300'
                 : 'text-amber group-hover:text-amber-dark'
             }`}>
               {episode.guest}
@@ -69,18 +82,18 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
               </div>
             )}
             {isContrarian && (
-              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-crimson/10 border border-crimson/30 text-crimson text-xs font-mono">
+              <div className="flex-shrink-0 ml-4 px-3 py-1 bg-rose-950/30 border border-rose-800/40 text-rose-400 text-xs font-mono">
                 PERSPECTIVE
               </div>
             )}
           </div>
-          <p className="text-sm text-ash-dark line-clamp-2">
+          <p className="text-sm text-ash-dark line-clamp-1">
             {episode.title}
           </p>
 
           {/* Zone Badges */}
           {topZones.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-3">
+            <div className="flex flex-wrap gap-2 mt-2">
               {topZones.map(zone => (
                 <span
                   key={zone}
@@ -93,43 +106,55 @@ export default function EpisodeRecommendationCard({ episode, index, variant = 'p
           )}
         </div>
 
-        {/* Match Reason - Enhanced with quote snippets */}
-        {episode.matchReason && (
-          <div className={`mb-4 flex items-start gap-2 ${
-            isContrarian ? 'text-crimson/80' : 'text-ash'
-          }`}>
-            {isContrarian && (
-              <Lightbulb className="w-4 h-4 flex-shrink-0 mt-0.5" />
-            )}
-            <p className="text-sm leading-relaxed">
-              {episode.matchReason}
-            </p>
-          </div>
+        {/* Contrarian "Why" - Clean, separate from quote */}
+        {isContrarian && contrarianWhy && (
+          <p className="text-sm text-rose-300/80 mb-3 italic">
+            {contrarianWhy}
+          </p>
         )}
 
-        {/* Matching Quote Preview */}
-        {displayQuote && displayQuote.text && (
+        {/* Quote Section with Expand/Collapse */}
+        {quoteText && (
           <div className={`border-l-2 pl-4 mb-4 ${
-            isContrarian ? 'border-crimson/30' : 'border-amber/30'
+            isContrarian ? 'border-rose-800/40' : 'border-amber/30'
           }`}>
             <div className="flex items-start gap-2">
               <Quote className={`w-4 h-4 flex-shrink-0 mt-1 ${
-                isContrarian ? 'text-crimson' : 'text-amber'
+                isContrarian ? 'text-rose-500/60' : 'text-amber/60'
               }`} />
-              <p className="text-sm text-ash-dark italic line-clamp-3">
-                "{displayQuote.text.length > 200
-                  ? displayQuote.text.substring(0, 197) + '...'
-                  : displayQuote.text}"
-              </p>
+              <div className="flex-1 min-w-0">
+                <p className="text-sm text-ash italic">
+                  {isExpanded || !isLongQuote
+                    ? `"${quoteText}"`
+                    : `"${quoteText.substring(0, 147)}..."`
+                  }
+                </p>
+                {isLongQuote && (
+                  <button
+                    onClick={handleExpandClick}
+                    className={`mt-2 flex items-center gap-1 text-xs font-mono transition-colors ${
+                      isContrarian
+                        ? 'text-rose-400/70 hover:text-rose-300'
+                        : 'text-amber/70 hover:text-amber'
+                    }`}
+                  >
+                    {isExpanded ? (
+                      <>Show less <ChevronUp className="w-3 h-3" /></>
+                    ) : (
+                      <>Show more <ChevronDown className="w-3 h-3" /></>
+                    )}
+                  </button>
+                )}
+              </div>
             </div>
           </div>
         )}
 
         {/* CTA */}
         <div className={`flex items-center gap-2 text-sm font-mono group-hover:gap-3 transition-all ${
-          isContrarian ? 'text-crimson' : 'text-amber'
+          isContrarian ? 'text-rose-400' : 'text-amber'
         }`}>
-          <span>{isPrimary ? 'Listen to Episode' : 'Explore This Perspective'}</span>
+          <span>{isPrimary ? 'Listen to Episode' : 'Explore Perspective'}</span>
           <ArrowRight className="w-4 h-4" />
         </div>
       </Link>

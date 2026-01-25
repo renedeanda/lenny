@@ -212,7 +212,7 @@ function ResultsContent() {
             transition={{ delay: 0.5 }}
           >
             <div className="mb-6">
-              <h2 className="text-3xl font-bold text-crimson mb-2">
+              <h2 className="text-3xl font-bold text-rose-400 mb-2">
                 Perspectives to Explore
               </h2>
               <p className="text-ash-dark">
