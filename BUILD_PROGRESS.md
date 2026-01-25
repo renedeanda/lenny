@@ -1239,16 +1239,31 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 
 ---
 
+## ✅ Additional Fixes (Session 10 continued)
+
+### shreyas-doshi-live Duplicate Removed ✅
+- Removed stale `shreyas-doshi-live` entry from allEpisodes.ts
+- Updated `shreyas-doshi-20` dialogueCount from 0 to 100 (fixes card showing 0 segments)
+- Updated all index files and insightsData.ts references
+- Episode count now correct: 298 entries, 298 directories
+
+### Chip Conley Metadata Fixed ✅
+- **Problem**: Episode had Maggie Crowley's metadata (wrong title, video ID, description)
+- **Fix**: Updated to correct metadata:
+  - Title: "Brian Chesky's secret mentor who scaled Airbnb (after dying 9 times & building a hotel empire)"
+  - Video ID: R5_ypwiRIyo
+  - Publish date: Aug 3, 2025
+  - Duration: 1:19:36
+  - Views: 15,880
+- Note: Transcript content was always correct, only metadata was wrong
+
+---
+
 ## 🚧 Known Issues to Fix Later
 
 ### Data Quality Issues
 
-**1. Stale Entry in allEpisodes.ts** ⚠️
-- `shreyas-doshi-live` still exists in `allEpisodes.ts` but directory was renamed to `shreyas-doshi-20`
-- Need to regenerate allEpisodes.ts or manually remove the stale entry
-- Current state: 299 entries in allEpisodes.ts, 298 directories
-
-**2. Missing Transcripts (9 episodes)** ⚠️
+**1. Missing Transcripts (9 episodes)** ⚠️
 Transcripts need to be obtained/added for:
 | Episode | Guest | Content |
 |---------|-------|---------|
@@ -1262,42 +1277,35 @@ Transcripts need to be obtained/added for:
 | benjamin-mann | Benjamin Mann | Anthropic co-founder |
 | uri-levine | Uri Levine 1.0 | Jun 2024 episode |
 
-**3. Episode Count Inconsistency** ⚠️
-- allEpisodes.ts header says "299 episodes"
-- Actual array has 299 entries (including stale shreyas-doshi-live)
-- Physical directories: 298
-- References in codebase: Mix of 298/299
-
 ### Fixes Required (TODO)
 
-1. **Regenerate allEpisodes.ts** - Run `scripts/parse-all-episodes.js` to sync with actual directories
-2. **Update episode count references** - Standardize on correct count (298)
-3. **Obtain missing transcripts** - Source 1.0 episode transcripts from Dropbox archive or YouTube captions
-4. **Verify curated episodes** - Ensure no curated episodes reference missing transcripts
+1. **Obtain missing transcripts** - Source 1.0 episode transcripts from Dropbox archive or YouTube captions
+2. **Verify curated episodes** - Ensure no curated episodes reference missing transcripts
 
 ---
 
 ## 📊 Updated Coverage Status (Post-Session 10)
 
 **Episode Directories:** 298
-**Entries in allEpisodes.ts:** 299 (1 stale entry)
+**Entries in allEpisodes.ts:** 298 ✅
 **Transcripts Available:** 289 (9 missing)
 **Episodes Curated:** 24/298 (8.1%)
 
 **Data Quality:**
 - ✅ Multi-time guest metadata corrected for 14 guests
 - ✅ Duplicate transcripts identified and marked as missing
+- ✅ shreyas-doshi-live duplicate removed
+- ✅ shreyas-doshi-20 dialogueCount fixed (0 → 100)
+- ✅ Chip Conley metadata corrected
 - ⚠️ 9 transcripts need to be sourced
-- ⚠️ 1 stale entry in allEpisodes.ts needs removal
 
 **Next Priority:**
-1. Fix stale `shreyas-doshi-live` entry in allEpisodes.ts
-2. Source missing 1.0 transcripts
-3. Continue recommendation engine enhancements
+1. Source missing 1.0 transcripts
+2. Continue recommendation engine enhancements
 
 ---
 
-## ✅ Session 11: Podcast Recommendations Engine & Additional Fixes (Jan 26, 2026)
+## ✅ Session 11: Podcast Recommendations Engine (Jan 26, 2026)
 
 ### 🎯 Recommendations Engine Implementation Complete
 
@@ -1423,14 +1431,6 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 - Removed `teaser_2021` episode (promotional content, not real episode)
 - Fixed curated episode slug mismatches
 
-**Chip Conley Episode Metadata Fix** ✅
-- Chip Conley episode was incorrectly showing Maggie Crowley's metadata
-- Corrected to proper episode content
-
-**shreyas-doshi-live Duplicate Removed** ✅
-- Removed duplicate `shreyas-doshi-live` entry
-- Fixed 2.0 episode `dialogueCount` field
-
 ### 📁 Files Changed
 
 **Core Algorithm:**
@@ -1454,7 +1454,7 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 ## 📊 Updated Coverage Status (Post-Session 11)
 
 **Episode Directories:** 298
-**Entries in allEpisodes.ts:** 299 (1 stale entry to remove)
+**Entries in allEpisodes.ts:** 298 ✅
 **Transcripts Available:** 289 (9 missing)
 **Episodes Curated:** 24/298 (8.1%)
 
@@ -1462,29 +1462,24 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 - ✅ Recommendations engine fully functional with diversity scoring
 - ✅ Guest metadata added to all 24 curated episodes
 - ✅ Multi-time guest metadata corrected for 14 guests
+- ✅ shreyas-doshi-live duplicate removed
+- ✅ Chip Conley metadata corrected
 - ⚠️ 9 transcripts need to be sourced
-- ⚠️ 1 stale entry in allEpisodes.ts needs removal
-
-**Known Issues to Fix:**
-1. `shreyas-doshi-live` stale entry in allEpisodes.ts
-2. Missing 1.0 transcripts for 9 episodes
-3. Episode count inconsistency (298 vs 299 references)
 
 ---
 
 ## 🎯 NEXT PRIORITIES
-
-### Immediate
-1. Remove stale `shreyas-doshi-live` entry from allEpisodes.ts
-2. Standardize episode count to 298 throughout codebase
 
 ### Scale Episode Curation
 - Current: 24/298 episodes (8.1%)
 - Target: 50+ episodes (17%)
 - Priority: Fill zone gaps
 
+### Content Improvements
+- Source missing 1.0 transcripts for 9 episodes
+- Add more contrarian_candidates for richer recommendations
+
 ### Future Enhancements
 - Consider topic-based diversity (avoid 3 episodes about "growth" in a row)
 - Add "why this mix" explanation to results page
 - Show guest type badges alongside zone badges
-- Source missing 1.0 transcripts
