@@ -1,18 +1,17 @@
 ---
 guest: Marty Cagan 2.0
-title: The disease of process people | Marty Cagan
-youtube_url: https://www.youtube.com/watch?v=gXDg88rSG8U
-video_id: gXDg88rSG8U
-publish_date: 2023-02-06
-description: 'Lenny Rachitsky interviews world-class product leaders and growth experts
-  to uncover concrete, actionable, and tactical advice to help you build, launch,
-  and grow your own product.
+title: Product management theater | Marty Cagan (Silicon Valley Product Group)
+youtube_url: https://www.youtube.com/watch?v=9N4ZgNaWvI0
+video_id: 9N4ZgNaWvI0
+publish_date: 2024-03-10
+description: 'Marty Cagan is a luminary in the world of product. He’s the author of
+  two of the most foundational books for product teams and product leaders (Inspired and Empowered),
+  he’s the founder...
 
-
-  🎙️...'
-duration_seconds: 123.0
-duration: '2:03'
-view_count: 10749
+  '
+duration_seconds: 5115.0
+duration: '1:25:15'
+view_count: 226150
 channel: Lenny's Podcast
 keywords:
 - product-market fit
@@ -32,7 +31,7 @@ keywords:
 - competition
 ---
 
-# The disease of process people | Marty Cagan
+# Product management theater | Marty Cagan (Silicon Valley Product Group)
 
 ## Transcript
 

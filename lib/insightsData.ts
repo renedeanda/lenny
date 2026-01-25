@@ -1,6 +1,6 @@
 // Auto-generated episode insights
 // Generated: 2026-01-20T05:57:17.783Z
-// Total episodes analyzed: 299
+// Total episodes analyzed: 298
 
 export interface EpisodeInsights {
   slug: string;
@@ -29729,7 +29729,7 @@ export function getInsightsBySlug(slug: string): EpisodeInsights | undefined {
 }
 
 export const insightsStats = {
-  totalEpisodes: 299,
+  totalEpisodes: 298,
   totalContrarianViews: 284,
   totalQuotableMoments: 2730,
   totalDecisions: 218,

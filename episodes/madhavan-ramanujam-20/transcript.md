@@ -1,16 +1,18 @@
 ---
 guest: Madhavan Ramanujam 2.0
-title: The art and science of pricing | Madhavan Ramanujam (Monetizing Innovation,
-  Simon-Kucher)
-youtube_url: https://www.youtube.com/watch?v=A6veeCbKIzw
-video_id: A6veeCbKIzw
-publish_date: 2022-12-08
-description: Madhavan Ramanujam is a senior partner at Simon-Kucher, where he works
-  with tier-one tech companies like Uber, Asana, and LinkedIn to help them develop
-  their pricing and monetization strategies....
-duration_seconds: 5913.0
-duration: '1:38:33'
-view_count: 29355
+title: 'Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan
+  Ramanujam'
+youtube_url: https://www.youtube.com/watch?v=NR85H55eYkM
+video_id: NR85H55eYkM
+publish_date: 2025-07-27
+description: 'Madhavan Ramanujam is the world’s foremost expert on pricing and monetization
+  strategy. As managing partner at Simon-Kucher, he helped over 250 companies, including
+  30 unicorns, architect...
+
+  '
+duration_seconds: 4304.0
+duration: '1:11:44'
+view_count: 46113
 channel: Lenny's Podcast
 keywords:
 - growth
@@ -30,7 +32,7 @@ keywords:
 - strategy
 ---
 
-# The art and science of pricing | Madhavan Ramanujam (Monetizing Innovation, Simon-Kucher)
+# Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam
 
 ## Transcript
 

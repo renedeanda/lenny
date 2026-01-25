@@ -917,7 +917,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 - casey-winters-20.json - 12 quotes from 2.0 episode (CORRECTED)
 
 **Updated Statistics:**
-- **Episodes**: 24/299 (8.0%) — up from 20 (6.6%)
+- **Episodes**: 24/298 (8.0%) — up from 20 (6.6%)
 - **Quotes**: 283 total — up from 235
 - **Avg quotes/episode**: 11.8 (maintained quality)
 
@@ -1143,7 +1143,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 
 ## 📊 Updated Coverage Status (Post-Session 9)
 
-**Episodes Curated:** 24/299 (8.0%)
+**Episodes Curated:** 24/298 (8.0%)
 **Target:** 100+ episodes (33%)
 **Verified Quotes:** 283
 **Avg quotes/episode:** 11.8

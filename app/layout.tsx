@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: "Discover Your Product Philosophy | Lenny's Podcast",
-  description: "Take a 10-question quiz and get podcast episode recommendations that match how you work as a PM. Built from 299 episodes of Lenny's Podcast with verified quotes.",
+  description: "Take a 10-question quiz and get podcast episode recommendations that match how you work as a PM. Built from 298 episodes of Lenny's Podcast with verified quotes.",
   keywords: ["product management", "PM philosophy", "product strategy", "Lenny's Podcast", "product thinking", "product leadership", "podcast recommendations"],
   authors: [{ name: "René DeAnda", url: "https://renedeanda.com" }],
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net'),
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "/",
     title: "Discover Your Product Philosophy",
-    description: "Get podcast episode recommendations that match how you work. Based on 299 episodes of Lenny's Podcast.",
+    description: "Get podcast episode recommendations that match how you work. Based on 298 episodes of Lenny's Podcast.",
     siteName: "Product Philosophy Quiz",
     images: [
       {

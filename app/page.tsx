@@ -180,7 +180,7 @@ export default function Home() {
               transition={{ delay: 0.8 }}
               className="text-lg md:text-xl text-ash-dark max-w-2xl leading-relaxed"
             >
-              Find podcast episodes that match how you work—based on 299 episodes of Lenny's Podcast
+              Find podcast episodes that match how you work—based on 298 episodes of Lenny's Podcast
             </motion.p>
           </div>
 
@@ -275,7 +275,7 @@ export default function Home() {
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />
-                299 EPISODES
+                298 EPISODES
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-1 h-1 bg-amber-dark" />

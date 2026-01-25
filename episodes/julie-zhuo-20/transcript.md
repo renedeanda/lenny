@@ -1,16 +1,18 @@
 ---
 guest: Julie Zhuo 2.0
-title: How To Win Friends & Influence Decisions (Julie Zhuo) | Lenny & Friends Summit
-  2024
-youtube_url: https://www.youtube.com/watch?v=0Z5FCYDeZXs
-video_id: 0Z5FCYDeZXs
-publish_date: 2024-12-12
-description: Julie Zhuo shares her approach to influencing decisions in product leadership,
-  moving beyond the traditional right-vs-wrong mindset to create collaborative, data-informed
-  choices that benefit...
-duration_seconds: 1820.0
-duration: '30:20'
-view_count: 12443
+title: 'From managing people to managing AI: The leadership skills everyone needs
+  now | Julie Zhuo'
+youtube_url: https://www.youtube.com/watch?v=c_w0LaFahxk
+video_id: c_w0LaFahxk
+publish_date: 2025-09-21
+description: 'Julie Zhuo is the former VP and Head of Design at Facebook (now Meta),
+  author of the bestselling book The Making of a Manager, and co-founder of Sundial,
+  an AI-powered data analysis company....
+
+  '
+duration_seconds: 5784.0
+duration: '1:36:24'
+view_count: 49142
 channel: Lenny's Podcast
 keywords:
 - growth
@@ -30,7 +32,7 @@ keywords:
 - design
 ---
 
-# How To Win Friends & Influence Decisions (Julie Zhuo) | Lenny & Friends Summit 2024
+# From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo
 
 ## Transcript
 

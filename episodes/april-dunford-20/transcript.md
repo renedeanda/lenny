@@ -1,15 +1,18 @@
 ---
 guest: April Dunford 2.0
-title: How to nail your product positioning | April Dunford (Obviously Awesome)
-youtube_url: https://www.youtube.com/watch?v=hdjlCLb9Hl8
-video_id: hdjlCLb9Hl8
-publish_date: 2023-01-22
-description: April Dunford is the author of the must-read best-selling book Obviously
-  Awesome, a definitive guide to product positioning. She spent 25 years leading marketing,
-  product, and sales teams and...
-duration_seconds: 3939.0
-duration: '1:05:39'
-view_count: 38246
+title: A step-by-step guide to crafting a sales pitch that wins | April Dunford (author
+  of Sales Pitch)
+youtube_url: https://www.youtube.com/watch?v=-VqmFI9vY7w
+video_id: -VqmFI9vY7w
+publish_date: 2023-10-22
+description: 'April Dunford is a speaker, mentor, podcaster, best-selling author,
+  and beloved returning guest to the show. Last year, she joined me on the pod to
+  discuss product positioning and differentiated...
+
+  '
+duration_seconds: 5453.0
+duration: '1:30:53'
+view_count: 57522
 channel: Lenny's Podcast
 keywords:
 - growth
@@ -29,7 +32,7 @@ keywords:
 - positioning
 ---
 
-# How to nail your product positioning | April Dunford (Obviously Awesome)
+# A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)
 
 ## Transcript
 
