@@ -1362,4 +1362,63 @@ Added to 4 sample episodes:
 - **marty-cagan**: advisor, mixed, [product-management, empowerment, discovery, product-leadership]
 - **casey-winters**: operator, growth, [growth, stakeholder-management, communication, career]
 
-**Future:** Add guest_metadata to remaining 20 episodes for diversity-aware recommendations
+---
+
+### Session 10 Part 3: Guest Metadata Complete & Diversity-Aware Recommendations (Jan 25, 2026)
+
+#### Guest Metadata - All Episodes ✅
+Added `guest_metadata` to all 24 verified episodes:
+- **Founders (10):** brian-chesky, tobi-lutke, dylan-field, rahul-vohra, stewart-butterfield, jason-fried, guillermo-rauch, nikita-bier, mike-krieger, amjad-masad
+- **Operators (8):** shreyas-doshi, julie-zhuo, boz, casey-winters-20, elena-verna-30, gokul-rajaram, kunal-shah, aishwarya-naresh-reganti-kiriti-badam
+- **Investors (1):** dalton-caldwell
+- **Advisors (5):** marty-cagan, ben-horowitz, april-dunford, annie-duke, paul-graham
+
+Company stages represented:
+- **Public (4):** Airbnb, Shopify, Instagram, Slack
+- **Growth (8):** Figma, Superhuman, Stripe, Vercel, etc.
+- **Mixed (7):** Multi-company experience
+- **Pre-seed/Seed (4):** Early-stage focused guests
+
+#### Diversity-Aware Recommendations ✅
+Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts` to consider:
+
+1. **Zone overlap** (existing) - Episodes strong in same zones
+2. **Guest type diversity** (new) - Avoid 3+ founders in a row
+   - 15% penalty after 2 of same type
+   - 5% penalty after 1 of same type
+3. **Company stage diversity** (new) - Mix public companies with startups
+   - 10% penalty after 2 of same stage
+   - 3% penalty after 1 of same stage
+
+**Result:** Recommendations now naturally mix perspectives - a founder at a public company, an operator at a growth startup, and an advisor with multi-company experience.
+
+#### Curate-Episode Skill Updated ✅
+Added Step 6 to `.claude/skills/curate-episode/SKILL.md`:
+- Guidance on capturing guest_type (founder/operator/investor/advisor/academic)
+- Guidance on company_stage (pre-seed through public)
+- Guidance on primary_topics (3-5 key themes)
+- Ensures future curations include diversity metadata
+
+#### Files Modified
+- `lib/recommendations.ts` - Enhanced diversity scoring
+- `lib/types.ts` - Added GuestType, CompanyStage imports
+- All 24 `data/verified/*.json` files - Added guest_metadata
+- `.claude/skills/curate-episode/SKILL.md` - Added Step 6
+
+---
+
+## 🎯 NEXT PRIORITIES
+
+### Scale Episode Curation
+- Current: 24/299 episodes (8%)
+- Target: 50+ episodes (17%)
+- Priority: Fill zone gaps (chaos/focus need more coverage)
+
+### Content Improvements
+- Add `context` field to older episodes that lack it
+- Add more contrarian_candidates for richer contrarian recommendations
+
+### Future Enhancements
+- Consider topic-based diversity (avoid 3 episodes about "growth" in a row)
+- Add "why this mix" explanation to results page
+- Show guest type badges alongside zone badges

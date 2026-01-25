@@ -1,4 +1,4 @@
-import { QuizAnswers, ZoneId, ZoneScores, Quote, EpisodeEnrichment, ContrarianCandidate } from './types';
+import { QuizAnswers, ZoneId, ZoneScores, Quote, EpisodeEnrichment, ContrarianCandidate, GuestType, CompanyStage } from './types';
 import { calculateZoneScores, getZonePercentages } from './scoring';
 import { getEpisodeEnrichment, getVerifiedEpisodeSlugs } from './verifiedQuotes';
 import { allEpisodes } from './allEpisodes';
@@ -38,7 +38,8 @@ export interface EpisodeAlignment {
     quote: Quote;
     why: string;
   };
-  guestType?: string;            // For diversity: founder, operator, investor
+  guestType?: GuestType;         // For diversity: founder, operator, investor, etc.
+  companyStage?: CompanyStage;   // For diversity: pre-seed to public
 }
 
 /**
@@ -338,15 +339,53 @@ function findBestContrarianQuote(
 /**
  * Calculate diversity score to avoid recommending similar episodes
  * Returns penalty (0-1) where higher = more similar to existing recommendations
+ *
+ * Considers three dimensions of similarity:
+ * 1. Zone overlap - episodes strong in same zones
+ * 2. Guest type - avoid 3+ founders in a row, mix with operators/investors
+ * 3. Company stage - mix public companies with startups
  */
 function calculateSimilarityPenalty(
   episodeZones: Record<ZoneId, number>,
-  existingRecommendations: EpisodeAlignment[]
+  existingRecommendations: EpisodeAlignment[],
+  guestType?: GuestType,
+  companyStage?: CompanyStage
 ): number {
   if (existingRecommendations.length === 0) return 0;
 
   let maxSimilarity = 0;
+  let guestTypePenalty = 0;
+  let stagePenalty = 0;
 
+  // Count how many of same guest type are already recommended
+  if (guestType) {
+    const sameTypeCount = existingRecommendations.filter(
+      ep => ep.guestType === guestType
+    ).length;
+
+    // Penalize after 2 of same type (avoid 3+ founders in a row)
+    if (sameTypeCount >= 2) {
+      guestTypePenalty = 0.15;
+    } else if (sameTypeCount >= 1) {
+      guestTypePenalty = 0.05;
+    }
+  }
+
+  // Count how many of same company stage are already recommended
+  if (companyStage) {
+    const sameStageCount = existingRecommendations.filter(
+      ep => ep.companyStage === companyStage
+    ).length;
+
+    // Light penalty for same stage clustering
+    if (sameStageCount >= 2) {
+      stagePenalty = 0.1;
+    } else if (sameStageCount >= 1) {
+      stagePenalty = 0.03;
+    }
+  }
+
+  // Calculate zone-based similarity
   for (const existing of existingRecommendations) {
     let similarity = 0;
 
@@ -364,7 +403,10 @@ function calculateSimilarityPenalty(
     maxSimilarity = Math.max(maxSimilarity, similarity);
   }
 
-  return Math.min(0.3, maxSimilarity); // Cap at 30% penalty
+  // Combine penalties: zone similarity + guest type + company stage
+  const totalPenalty = maxSimilarity + guestTypePenalty + stagePenalty;
+
+  return Math.min(0.4, totalPenalty); // Cap at 40% penalty
 }
 
 /**
@@ -406,6 +448,11 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
       matchingQuotes[0]
     );
 
+    // Extract guest metadata for diversity scoring
+    const guestMetadata = (episode as any).guest_metadata;
+    const guestType = guestMetadata?.guest_type as GuestType | undefined;
+    const companyStage = guestMetadata?.company_stage as CompanyStage | undefined;
+
     initialAlignments.push({
       slug,
       guest: episodeMetadata.guest,
@@ -414,6 +461,8 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
       matchingQuotes,
       matchReason,
       episodeZones,
+      guestType,
+      companyStage,
       episode,
     });
   }
@@ -426,7 +475,13 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
     if (primary.length >= 5) break;
 
     // Apply diversity penalty based on already-selected recommendations
-    const penalty = calculateSimilarityPenalty(alignment.episodeZones, primary);
+    // Now considers zone overlap, guest type, and company stage
+    const penalty = calculateSimilarityPenalty(
+      alignment.episodeZones,
+      primary,
+      alignment.guestType,
+      alignment.companyStage
+    );
     const adjustedScore = Math.round(alignment.alignmentScore * (1 - penalty));
 
     // Only skip if penalty makes it significantly worse AND we already have 3+ recs
@@ -518,11 +573,21 @@ export function calculateEpisodeAlignment(
   const episodeZones: Record<ZoneId, number> =
     (episode as any).zoneInfluence || (episode as any).zone_influence || {};
 
+  // Extract guest metadata for diversity scoring
+  const guestMetadata = (episode as any).guest_metadata;
+  const guestType = guestMetadata?.guest_type as GuestType | undefined;
+  const companyStage = guestMetadata?.company_stage as CompanyStage | undefined;
+
   // Calculate base alignment
   let alignmentScore = calculateEnhancedAlignmentScore(userProfile, episodeZones);
 
-  // Apply diversity penalty if needed
-  const similarityPenalty = calculateSimilarityPenalty(episodeZones, existingRecommendations);
+  // Apply diversity penalty if needed (now considers guest type and stage)
+  const similarityPenalty = calculateSimilarityPenalty(
+    episodeZones,
+    existingRecommendations,
+    guestType,
+    companyStage
+  );
   alignmentScore = Math.round(alignmentScore * (1 - similarityPenalty));
 
   // Find best matching quotes
@@ -544,6 +609,8 @@ export function calculateEpisodeAlignment(
     matchingQuotes,
     matchReason,
     episodeZones,
+    guestType,
+    companyStage,
   };
 }
 
