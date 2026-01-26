@@ -1193,23 +1193,6 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 13. **Benjamin Mann**: Frontmatter fixed to match correct Anthropic co-founder episode
 14. **Ethan Evans**: Removed incorrect "1.0" label (single appearance guest)
 
-### 🗑️ Duplicate Content Cleanup
-
-**Transcripts Marked as Missing (were duplicates of 2.0):**
-- `april-dunford/transcript.md` - Now placeholder (1.0 had duplicate of 2.0 content)
-- `julie-zhuo/transcript.md` - Now placeholder (Summit 2024 had duplicate of Managing AI)
-- `madhavan-ramanujam/transcript.md` - Now placeholder (1.0 had duplicate of 2.0)
-- `nicole-forsgren/transcript.md` - Now placeholder (1.0 content was never available)
-- `marty-cagan/transcript.md` - Now placeholder (1.0 content was never available)
-- `uri-levine/transcript.md` - Now placeholder (restored incorrectly, then fixed)
-- `wes-kao/transcript.md` - Now placeholder (1.0 content never added)
-- `elena-verna/transcript.md` - Now placeholder (short/incomplete)
-- `benjamin-mann/transcript.md` - Now placeholder (correct metadata, no transcript)
-
-**Directories Removed:**
-- `episodes/ethan-evans-20/` - Was incorrectly created duplicate
-- `episodes/shreyas-doshi-live/` - Renamed to `shreyas-doshi-20`
-
 ### ✅ Episode Page UX Improvements
 
 **Related Episodes Component Restored** ✅
