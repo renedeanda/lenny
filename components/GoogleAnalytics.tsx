@@ -11,7 +11,8 @@ export default function GoogleAnalytics({ gaId }: { gaId: string }) {
   useEffect(() => {
     if (!gaId) return;
 
-    const url = pathname + searchParams.toString();
+    const params = searchParams.toString();
+    const url = pathname + (params ? `?${params}` : '');
 
     // Send pageview with custom URL
     if (typeof window !== 'undefined' && (window as any).gtag) {
