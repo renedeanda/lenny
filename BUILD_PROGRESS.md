@@ -917,7 +917,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 - casey-winters-20.json - 12 quotes from 2.0 episode (CORRECTED)
 
 **Updated Statistics:**
-- **Episodes**: 24/299 (8.0%) — up from 20 (6.6%)
+- **Episodes**: 24/295 (8.0%) — up from 20 (6.6%)
 - **Quotes**: 283 total — up from 235
 - **Avg quotes/episode**: 11.8 (maintained quality)
 
@@ -1143,7 +1143,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 
 ## 📊 Updated Coverage Status (Post-Session 9)
 
-**Episodes Curated:** 24/299 (8.0%)
+**Episodes Curated:** 24/295 (8.0%)
 **Target:** 100+ episodes (33%)
 **Verified Quotes:** 283
 **Avg quotes/episode:** 11.8
@@ -1215,7 +1215,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 **Code Fixes:**
 - `lib/allEpisodes.ts` - Corrected metadata for all multi-time guests
 - `app/episodes/[slug]/page.tsx` - Related episodes restored
-- Episode count references updated (299 → 298 in some places)
+- Episode count references updated (295 → 298 in some places)
 
 **Infrastructure:**
 - `package.json` - Added sharp as dev dependency for OG images
