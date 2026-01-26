@@ -1,0 +1,208 @@
+{
+  "slug": "bill-carr",
+  "quotes": [
+    {
+      "id": "bill-carr-q001",
+      "speaker": "Bill Carr",
+      "text": "Amazon was actually equally focused on process innovation. In many cases, we stood on other people's shoulders. That was what all great companies should do. That's why we wrote the book - we would like to allow people to stand on Amazon's shoulders to learn what we learned.",
+      "timestamp": "00:06:43",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 83,
+        "lineEnd": 84
+      },
+      "themes": ["innovation", "process", "learning"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "bill-carr-q002",
+      "speaker": "Bill Carr",
+      "text": "Jeff Bezos is fundamentally a very scientific and analytical thinker. He said, 'I need to be scientific about this. There needs to be some mechanism for me to manage such a company. So I'm going to experiment, like a scientist would, with different ideas, different hypotheses, implement them and see what works.'",
+      "timestamp": "00:09:07",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 96
+      },
+      "themes": ["leadership", "experimentation", "management"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "bill-carr-q003",
+      "speaker": "Bill Carr",
+      "text": "The fitness function was not a good idea. This is a compound metric where you try to take several important metrics and munge them into one. The problem is it becomes totally meaningless. When you're measuring things, you're trying to understand what actions create the good outputs. By putting them all together, you obfuscate that.",
+      "timestamp": "00:10:55",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 108
+      },
+      "themes": ["metrics", "measurement", "learning-from-failure"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "bill-carr-q004",
+      "speaker": "Bill Carr",
+      "text": "The three things we really wanted were ownership, speed and agility. Let's create teams that can stand alone, where there's a single leader and the cross-functional resources they need are all either directly report to them or are dedicated to them. We moved from a project orientation to a program orientation.",
+      "timestamp": "00:13:35",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 120
+      },
+      "themes": ["org-design", "single-threaded-leadership", "ownership"],
+      "zones": ["velocity", "focus", "alignment"]
+    },
+    {
+      "id": "bill-carr-q005",
+      "speaker": "Bill Carr",
+      "text": "A project orientation means the resources will come and swarm on that, then move off to some other thing. The program based orientation says there's a team that works on search, and they always work on search. They think holistically about what they need to do to improve search rather than on a project by project basis.",
+      "timestamp": "00:14:24",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 123
+      },
+      "themes": ["org-design", "team-structure", "ownership"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "bill-carr-q006",
+      "speaker": "Bill Carr",
+      "text": "Once we'd had those discussions and interchanges, then the teams were free to sprint hard after their plan. They didn't have to worry about 'Am I aligned with my CEO?' They could know that they were. This creates clear accountability - if they're going to deliver it or not, it's up to that owner and that team.",
+      "timestamp": "00:19:17",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 141
+      },
+      "themes": ["alignment", "autonomy", "accountability"],
+      "zones": ["alignment", "velocity", "focus"]
+    },
+    {
+      "id": "bill-carr-q007",
+      "speaker": "Bill Carr",
+      "text": "Have backbone and disagree means when we are making any kind of important decision, it is your obligation to voice your point of view if you disagree. The point of that disagreement is to provide additional information or a new point of view that people have not considered.",
+      "timestamp": "00:25:49",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 170,
+        "lineEnd": 172
+      },
+      "themes": ["decision-making", "leadership", "culture"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "bill-carr-q008",
+      "speaker": "Bill Carr",
+      "text": "The commit part done well means it's not just 'I'm going to commit, I don't really agree but I'm going to get behind this.' Ideally you've heard the argument, actually thought about it and now understood why we're taking that direction. The worst thing is to say, 'I don't agree but I'm committed.' That's not actually commitment.",
+      "timestamp": "00:29:39",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 186
+      },
+      "themes": ["decision-making", "commitment", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "bill-carr-q009",
+      "speaker": "Bill Carr",
+      "text": "The data rarely makes the decision for you. What is happening is judgment and interpretation of the data, weighing various factors. The right a lot part comes from having sound judgment, which generally comes through experience - a lot of experiences actually about being wrong, making mistakes.",
+      "timestamp": "00:33:03",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 210
+      },
+      "themes": ["decision-making", "judgment", "data"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "bill-carr-q010",
+      "speaker": "Bill Carr",
+      "text": "Jeff would say, we took it as an article of faith. If we served customers well, if we prioritized customers and delivered for them, things like sales, revenue, active customers, share price and free cash flow would follow. So when making a decision, we start with what's best for the customer and come backward from there.",
+      "timestamp": "00:37:22",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 234
+      },
+      "themes": ["customer-obsession", "working-backwards", "strategy"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "bill-carr-q011",
+      "speaker": "Bill Carr",
+      "text": "You should think of yourself honestly as a venture capitalist. They don't fund every company that they meet with. We had lots of PRFAQs that were a great idea, but we didn't ship them because we had other ones that were just a better idea, which had a bigger potential impact. You want a product funnel, not a product tunnel.",
+      "timestamp": "00:50:27",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 300,
+        "lineEnd": 303
+      },
+      "themes": ["prioritization", "product-development", "roadmap"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "bill-carr-q012",
+      "speaker": "Bill Carr",
+      "text": "We identified things on our flywheel and realized we need to focus on how do I measure and improve each one of those things. It shifted our focus away from short-term thinking of pushing the revenue number up to longer-term thinking that if we just improve these inputs, this is our path to winning.",
+      "timestamp": "00:58:06",
+      "source": {
+        "slug": "bill-carr",
+        "path": "episodes/bill-carr/transcript.md",
+        "lineStart": 339,
+        "lineEnd": 342
+      },
+      "themes": ["metrics", "input-metrics", "strategy"],
+      "zones": ["data", "focus", "velocity"]
+    }
+  ],
+  "themes": ["working-backwards", "single-threaded-leadership", "input-metrics", "disagree-and-commit", "customer-obsession", "process-innovation"],
+  "takeaways": [
+    "Single-threaded leadership creates ownership, speed, and agility - teams that always work on one thing think holistically rather than project-by-project, and can sprint once aligned with leadership.",
+    "Disagree and commit means providing new information, not just voicing opinions - once you're heard and understood, commit fully by understanding the reasoning, not just going through the motions.",
+    "Working backwards means starting with customer needs without constraints - take it as an article of faith that if you serve customers well, revenue and growth will follow.",
+    "Input metrics beat output metrics because they're controllable - focus on improving selection, price, and speed rather than chasing revenue numbers through fire drills.",
+    "Product development should be a funnel, not a tunnel - like VCs, say no to good ideas because you have better ideas, creating a corpus of well-thought-out options."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.05,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "bill-carr-q003",
+      "why": "Compound metrics (fitness functions) are meaningless - they obfuscate rather than clarify what's working",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "bill-carr-q008",
+      "why": "Saying 'I disagree but I'm committed' is not actually commitment - true commitment requires understanding the reasoning",
+      "related_zones": ["alignment", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["working-backwards", "amazon-practices", "org-design", "metrics"]
+  }
+}

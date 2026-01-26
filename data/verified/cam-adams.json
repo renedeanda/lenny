@@ -1,0 +1,194 @@
+{
+  "slug": "cam-adams",
+  "quotes": [
+    {
+      "id": "cam-adams-q001",
+      "speaker": "Cameron Adams",
+      "text": "We've been profitable for seven years and one of the reasons is that we never want to be put in the situation where we have to go to someone for money to ensure the survival of the business. Being profitable means that we can always do it on our own terms and in our own time.",
+      "timestamp": "00:07:05",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 107
+      },
+      "themes": ["profitability", "independence", "strategy"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "cam-adams-q002",
+      "speaker": "Cameron Adams",
+      "text": "We've always been an incredibly product-led company. We always think first and foremost about the product. That was the whole genesis of Canva itself, having a product that we thought people would love to use and desperately needed to get out into the world.",
+      "timestamp": "00:10:32",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 121
+      },
+      "themes": ["product-led-growth", "product-obsession", "vision"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "cam-adams-q003",
+      "speaker": "Cameron Adams",
+      "text": "You can bring in the world's best person at X, Y, and Z, but if they're not fitting into your team and understanding your culture and have the same passion and vision that you do, they're not going to succeed. Everyone at Canva mightn't be the number one person in the world, but they get more done because they've built that trust and safety.",
+      "timestamp": "00:12:26",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 131
+      },
+      "themes": ["culture", "hiring", "team-building"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "cam-adams-q004",
+      "speaker": "Cameron Adams",
+      "text": "One of those sections in the cultural onboarding is on giving away your Lego. You need to think about who you're going to bring in to help you. Finding joy in building a team, passing on your experience, helping other people do great writing or great product building or great engineering is what giving away your Lego is about.",
+      "timestamp": "00:17:00",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 158
+      },
+      "themes": ["leadership", "scaling", "delegation"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "cam-adams-q005",
+      "speaker": "Cameron Adams",
+      "text": "We have a system we call coaching at Canva. We don't really have managers. Your coach is the person who thinks about you in a specialty sense. They know the skills that you have to use, the trajectory that you could possibly grow into, the structures around Canva that you could slot into when you want to go to the next level.",
+      "timestamp": "00:20:10",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 172
+      },
+      "themes": ["org-design", "coaching", "growth"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "cam-adams-q006",
+      "speaker": "Cameron Adams",
+      "text": "For us, product managers are really connectives. They connect the team, ideas, data, a whole bunch of different things. It's very messy. There's no exact recipe for how to do it, but connecting these disparate areas and moving the team and the technology and our customers to a new place, a new vision is essentially what product managers do.",
+      "timestamp": "00:27:00",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 215
+      },
+      "themes": ["product-management", "org-design", "leadership"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "cam-adams-q007",
+      "speaker": "Cameron Adams",
+      "text": "The product is the experience and giving people a great experience is an intrinsic part of the product. People having a good experience of being enthusiastic about it has been how we've spread the word of Canva. Organic word-of-mouth growth was the biggest driver of Canva's growth for many years and probably still is.",
+      "timestamp": "00:30:59",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 233
+      },
+      "themes": ["product-led-growth", "word-of-mouth", "user-experience"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "cam-adams-q008",
+      "speaker": "Cameron Adams",
+      "text": "Even today we build for ourselves. I think we're fortunate that we are our customer and that the problems we experience are the problems that hundreds of millions of people experience. That's one aspect of it and I think that is also about being passionate, entering an area that you are extremely passionate about.",
+      "timestamp": "00:34:20",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 247
+      },
+      "themes": ["customer-obsession", "founder-market-fit", "passion"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "cam-adams-q009",
+      "speaker": "Cameron Adams",
+      "text": "There's a real fear of the blank page. We just got people to walk through, keeping their interest up, keeping the bar of effort quite low, but within three or four steps, they'd built up something that they'd never been able to do before. The words we literally got were, 'I didn't know I could be a designer.'",
+      "timestamp": "00:42:18",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 283
+      },
+      "themes": ["onboarding", "user-experience", "activation"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "cam-adams-q010",
+      "speaker": "Cameron Adams",
+      "text": "Andre thought through that whole end-to-end flow from first landing on Google and typing into the search box through to that magic moment where they're like, 'Canva just helped me do something amazing and I want to do it again.' You can't just SEO the hell out of something that is a terrible experience.",
+      "timestamp": "00:45:51",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 307,
+        "lineEnd": 316
+      },
+      "themes": ["seo", "growth", "user-experience"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "cam-adams-q011",
+      "speaker": "Cameron Adams",
+      "text": "Freemium for us wasn't so much a growth strategy or a monetization strategy as much as it spoke to our core mission of empowering the world to design. We truly want to democratize design, which means we want to get design into the hands of as many people as we can.",
+      "timestamp": "00:50:59",
+      "source": {
+        "slug": "cam-adams",
+        "path": "episodes/cam-adams/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 341
+      },
+      "themes": ["freemium", "mission", "strategy"],
+      "zones": ["discovery", "focus"]
+    }
+  ],
+  "themes": ["product-led-growth", "coaching-culture", "giving-away-legos", "freemium", "internationalization", "word-of-mouth", "onboarding"],
+  "takeaways": [
+    "Profitability creates independence - being profitable for seven years means never being forced to take money on bad terms, allowing decisions on your own timeline.",
+    "Replace managers with coaches - Canva's coaching model focuses on skill development and career trajectory, with coaches in the same specialty helping people level up.",
+    "Giving away your Legos is essential for scaling - find joy in building teams and helping others grow rather than holding onto the work that gave you identity.",
+    "Product managers are connectives, not controllers - PMs connect teams, ideas, and data, constantly reorienting around constraints rather than following a recipe.",
+    "Freemium is mission alignment, not just growth strategy - when your mission is democratization, free access becomes philosophically essential, not just tactically smart."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "cam-adams-q005",
+      "why": "We don't really have managers - Canva replaced traditional management with a coaching model focused on specialty skill development",
+      "related_zones": ["alignment", "discovery"]
+    },
+    {
+      "quoteId": "cam-adams-q008",
+      "why": "Build for yourself contradicts common advice - when you are your customer, your intuition becomes valid research",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["product-led-growth", "culture", "scaling", "freemium"]
+  }
+}

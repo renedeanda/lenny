@@ -1,0 +1,194 @@
+{
+  "slug": "chip-conley",
+  "quotes": [
+    {
+      "id": "chip-conley-q001",
+      "speaker": "Chip Conley",
+      "text": "I was mentoring Brian, but he was also my boss. I was 52, the average age was 26. I had to be both wise and curious, and often the dumbest person in the room. It required me to have a certain amount of humility as well as to be reporting to a guy 21 years younger than me.",
+      "timestamp": "00:07:42",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 105
+      },
+      "themes": ["mentorship", "humility", "intergenerational"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "chip-conley-q002",
+      "speaker": "Chip Conley",
+      "text": "Brian assumed everybody else was going to work at the same pace and duration. His point of view is like, 'Hey, we're having a meeting in the office tonight at 10 o'clock. Be there.' The fact that Brian assumed everybody else was as one-dimensional in their focus as him was at times a problem.",
+      "timestamp": "00:14:20",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 161
+      },
+      "themes": ["founder-mode", "work-life-balance", "leadership"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "chip-conley-q003",
+      "speaker": "Chip Conley",
+      "text": "One of the challenges for a CEO is it feels good when you feel needed. To come into a room and point out the things that are wrong makes you feel good. If you don't have emotional intelligence, that process can really piss people off or demotivate people.",
+      "timestamp": "00:15:05",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 165
+      },
+      "themes": ["leadership", "emotional-intelligence", "feedback"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "chip-conley-q004",
+      "speaker": "Chip Conley",
+      "text": "When you have older brains connecting the dots, thinking broadly, peripherally, younger team members being really fast and focused, and being able to think linearly how to get things done, that combination can either be successful or not. When it's successful, it's brilliant.",
+      "timestamp": "00:22:36",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 203
+      },
+      "themes": ["intergenerational", "team-composition", "diversity"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "chip-conley-q005",
+      "speaker": "Chip Conley",
+      "text": "I call this invisible productivity. It's productivity in which you make everybody else around you better. That's something I tried to do with my teams at Airbnb. I wasn't solving all the problems, but I was trying to elevate.",
+      "timestamp": "00:26:11",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 219
+      },
+      "themes": ["leadership", "mentorship", "team-building"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "chip-conley-q006",
+      "speaker": "Chip Conley",
+      "text": "A confidant is somebody who gives you confidence. That's what a mentor can be - someone who gives you confidence and helps by asking questions, helps you as the younger mentee find your roadmap to success.",
+      "timestamp": "00:26:42",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 225
+      },
+      "themes": ["mentorship", "confidence", "coaching"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "chip-conley-q007",
+      "speaker": "Chip Conley",
+      "text": "Show up with curiosity and a passionate engagement for what you do, and people won't necessarily notice your wrinkles as much as they'll notice your energy. Energy has two parts - they notice you're not resting on your laurels, you have physical energy. And being positive - good energy that draws people to you.",
+      "timestamp": "00:32:04",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 258
+      },
+      "themes": ["career", "energy", "aging"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "chip-conley-q008",
+      "speaker": "Chip Conley",
+      "text": "Culture is what happens around here when the boss is not around. The more distributed a company, the more culture is important. In the remote work world we live in, there are fewer cues about how we do things around here, which is why it's all the more important for you to have in-person gatherings more often.",
+      "timestamp": "00:48:52",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 402
+      },
+      "themes": ["culture", "remote-work", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "chip-conley-q009",
+      "speaker": "Chip Conley",
+      "text": "I like to say culture add, because culture fit to me can be quite negative toward somebody who is the aberration. A culture add suggests that having some diversity on the team is helpful, because it actually adds to the culture.",
+      "timestamp": "00:50:37",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 409,
+        "lineEnd": 411
+      },
+      "themes": ["culture", "diversity", "hiring"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "chip-conley-q010",
+      "speaker": "Chip Conley",
+      "text": "The employee pyramid is really simple. It's money or compensation at the base, recognition in the middle, and meaning at the top. The differentiation often is in recognition and meaning. Understanding how to create an environment where people feel a sense of meaning is essential.",
+      "timestamp": "00:54:39",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 435,
+        "lineEnd": 438
+      },
+      "themes": ["employee-motivation", "culture", "leadership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "chip-conley-q011",
+      "speaker": "Chip Conley",
+      "text": "I define wisdom as metabolized experience, mindfully shared for the common good. Your painful life lessons are the raw material for your future wisdom. When you're in the midst of a really challenging time, you are developing your future wisdom that's going to be valuable to you.",
+      "timestamp": "01:06:01",
+      "source": {
+        "slug": "chip-conley",
+        "path": "episodes/chip-conley/transcript.md",
+        "lineStart": 528,
+        "lineEnd": 531
+      },
+      "themes": ["wisdom", "growth", "leadership"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["mentorship", "intergenerational-collaboration", "culture", "leadership", "emotional-intelligence", "wisdom", "aging"],
+  "takeaways": [
+    "A modern elder is as curious as they are wise - being 52 at a company where the average age was 26 required humility and being comfortable as the dumbest person in the room.",
+    "Invisible productivity is making everyone around you better - focus on elevating others rather than solving all the problems yourself.",
+    "Culture is what happens when the boss isn't around - the more distributed your company, the more culture matters and the harder it is to maintain.",
+    "Culture add beats culture fit - 'fit' can exclude people who are different, while 'add' recognizes diversity strengthens the culture.",
+    "Employee motivation follows a hierarchy: compensation at the base, recognition in the middle, meaning at the top - differentiation usually comes from recognition and meaning, not money."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.00,
+    "intuition": 0.20,
+    "alignment": 0.40,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "chip-conley-q001",
+      "why": "At 52, reporting to a 31-year-old boss while mentoring him - inverts typical corporate hierarchy",
+      "related_zones": ["alignment", "discovery"]
+    },
+    {
+      "quoteId": "chip-conley-q009",
+      "why": "Culture fit is actually negative - it excludes the aberrations that add the most value",
+      "related_zones": ["discovery", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["mentorship", "culture", "leadership", "hospitality"]
+  }
+}

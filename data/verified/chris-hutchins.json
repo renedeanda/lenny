@@ -1,0 +1,194 @@
+{
+  "slug": "chris-hutchins",
+  "quotes": [
+    {
+      "id": "chris-hutchins-q001",
+      "speaker": "Chris Hutchins",
+      "text": "Yes, there are four million podcasts. However, there are only about 150,000 podcasts that have had 10 episodes and have published in the last 10 days. The easiest way to be in that top 3%, 4% is to just stick to it. If you just do an episode a week for 10 weeks, you're now in the top 4% of all podcasts.",
+      "timestamp": "00:00:00",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 39,
+        "lineEnd": 40
+      },
+      "themes": ["consistency", "content-creation", "podcasting"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "chris-hutchins-q002",
+      "speaker": "Chris Hutchins",
+      "text": "You think that customer research is all you need to build a product at a company, but figuring out how to create excitement internally and get buy-in from other teams because they're the ones that are going to build it. Sometimes you get caught up as a PM of like, 'Oh, we got the customer insights, we did the testing.' That's not the end of it.",
+      "timestamp": "00:12:37",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 125
+      },
+      "themes": ["internal-alignment", "stakeholder-management", "product-management"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "chris-hutchins-q003",
+      "speaker": "Chris Hutchins",
+      "text": "As a founder, I was like every week, 'Hey everybody, before we get started, this is the mission we're on, this is why we're doing it.' As a PM sometimes you're like, 'Well, I told people three weeks ago and it was in the top of the PRD.' I realized that same thing is true - you have to bring people along with you.",
+      "timestamp": "00:13:27",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 127
+      },
+      "themes": ["communication", "vision", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "chris-hutchins-q004",
+      "speaker": "Chris Hutchins",
+      "text": "I start my show with saying, 'Hello and welcome to another episode of All the Hacks, the show about upgrading your life, money and travel.' Because I want everyone to know exactly what this show's about, so when their friend asks them a question, they're like, 'This is exactly what it is.'",
+      "timestamp": "00:14:28",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["positioning", "clarity", "messaging"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "chris-hutchins-q005",
+      "speaker": "Chris Hutchins",
+      "text": "The people that seem to always be the outperformers are always the people that are just solely focused on having the most impact on the company. When you push so hard for your ideas, you have to also make sure you state your intent. Say, 'I just want you to know all I care about is that the company is successful.'",
+      "timestamp": "00:18:55",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 157
+      },
+      "themes": ["career", "impact", "influence"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "chris-hutchins-q006",
+      "speaker": "Chris Hutchins",
+      "text": "Andy always talks about slugging average, not batting average. He's like, 'I don't care if you hit the ball every time. If one in 10 times you hit a home run that's better than someone who hits it three out of 10 times but gets out a lot.'",
+      "timestamp": "00:21:15",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 167
+      },
+      "themes": ["risk-taking", "big-bets", "innovation"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "chris-hutchins-q007",
+      "speaker": "Chris Hutchins",
+      "text": "Absolutely do not start the podcast if you wouldn't do it for free, making no amount of money in perpetuity. You are most likely going to start a podcast and it will not take off and be wildly successful. However, I've met plenty of people who have hundreds of listeners and hundreds of episodes and they stuck at it because they truly loved it.",
+      "timestamp": "00:25:31",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 191,
+        "lineEnd": 193
+      },
+      "themes": ["passion", "persistence", "content-creation"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "chris-hutchins-q008",
+      "speaker": "Chris Hutchins",
+      "text": "I remember Tim Ferriss saying, 'I did an episode about how to make violins or something. 80% of people were like, what is this episode? But 20% thought it was one of the best episodes that year.' Half of his top 10 episodes of all time are people you wouldn't recognize. Focus on what gets you excited, not what you think will move the metrics.",
+      "timestamp": "00:34:24",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 262
+      },
+      "themes": ["authenticity", "content-strategy", "passion"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "chris-hutchins-q009",
+      "speaker": "Chris Hutchins",
+      "text": "There's this whole idea of building your 1000 true fans. Those are the people that are going to share it, write the reviews, send you ideas. Podcasting is such an intimate medium. You're in someone's ear and they're actively listening to you while going about their life. You create this really close relationship.",
+      "timestamp": "00:35:08",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 271
+      },
+      "themes": ["audience-building", "connection", "content-creation"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "chris-hutchins-q010",
+      "speaker": "Chris Hutchins",
+      "text": "Gary Vaynerchuk told me 13 years ago, when he was starting Wine Library, he went on Twitter and looked for every single person that asked a question about wine and he replied to them. Find every person asking questions about the thing your podcast answers, and go be a value add to them.",
+      "timestamp": "00:46:32",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 326,
+        "lineEnd": 328
+      },
+      "themes": ["growth", "community", "hustle"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "chris-hutchins-q011",
+      "speaker": "Chris Hutchins",
+      "text": "The ranking charts are all driven by different variables than you would imagine. They're driven a lot by momentum of new subscribers rather than actual downloads. A friend launched a podcast with a huge social media following and was the number two podcast overall, all podcasts in the world, for a week or two.",
+      "timestamp": "00:31:18",
+      "source": {
+        "slug": "chris-hutchins",
+        "path": "episodes/chris-hutchins/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 241
+      },
+      "themes": ["growth", "metrics", "distribution"],
+      "zones": ["data", "velocity"]
+    }
+  ],
+  "themes": ["podcasting", "content-creation", "product-management", "growth", "consistency", "authenticity", "audience-building"],
+  "takeaways": [
+    "Consistency beats talent in podcasting - just showing up weekly for 10 weeks puts you in the top 4% of all podcasts ever created.",
+    "Customer insights alone don't build products - you need to create internal excitement and repeat your vision constantly, just like founders do at every all-hands.",
+    "Focus on being someone's favorite podcast, not everyone's okay podcast - every episode should be someone's favorite, even if it's niche.",
+    "State your intent when pushing hard for ideas - saying 'all I care about is company success' prevents people from thinking you're acting out of self-interest.",
+    "Don't start a podcast unless you'd do it for free forever - most won't take off, but people who love the topic stick with it anyway."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "chris-hutchins-q001",
+      "why": "Most advice focuses on quality - this says consistency alone puts you ahead of 96% of podcasters",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "chris-hutchins-q008",
+      "why": "Follow your curiosity, not metrics - Tim Ferriss's best episodes are often about obscure topics most listeners skip",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["podcasting", "content-creation", "product-management", "growth"]
+  }
+}

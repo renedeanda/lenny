@@ -1,0 +1,208 @@
+{
+  "slug": "adam-grenier",
+  "quotes": [
+    {
+      "id": "adam-grenier-q001",
+      "speaker": "Adam Grenier",
+      "text": "The exploring emerging channels framework has three core ingredients. The first is understanding if there is an overlap between what the customers need is, what your company's goals are, and what the channel actually does really well.",
+      "timestamp": "00:14:38",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 167,
+        "lineEnd": 168
+      },
+      "themes": ["growth", "channels", "frameworks"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "adam-grenier-q002",
+      "speaker": "Adam Grenier",
+      "text": "I was pretty amazed how many more people were trying to crack Clubhouse than TikTok. TikTok is very clearly not going away anytime soon, where Clubhouse hopefully won't but was clearly very early. Part of this reason is to accept the risks of going into that channel.",
+      "timestamp": "00:19:41",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 213
+      },
+      "themes": ["channels", "risk", "strategy"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "adam-grenier-q003",
+      "speaker": "Adam Grenier",
+      "text": "I like to spend a lot of time thinking about how they monetize. If you, as a business, can match or support their monetization strategy, it gives you a really interesting leg up. The likelihood of you being able to call them up and do custom stuff with them, or partner with them, goes up pretty drastically.",
+      "timestamp": "00:21:37",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 222
+      },
+      "themes": ["channels", "partnerships", "strategy"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "adam-grenier-q004",
+      "speaker": "Adam Grenier",
+      "text": "Do you actually have comfort in being a true first mover? Nobody knows anything, tracking's not going to work, it's not going to be programmatic. You're probably going to show up on content that's offensive. It's going to be really painful to be a true first mover. Do you have that appetite?",
+      "timestamp": "00:24:18",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 241
+      },
+      "themes": ["risk", "strategy", "first-mover"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "adam-grenier-q005",
+      "speaker": "Adam Grenier",
+      "text": "Generally I wouldn't let anything bleed past a quarter. You can probably get some good signal in a month or less, what I would call fishing - putting bait in the water to figure out where the fish are, not necessarily getting statistically significant repeatable solutions.",
+      "timestamp": "00:27:33",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 257,
+        "lineEnd": 258
+      },
+      "themes": ["experimentation", "channels", "testing"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "adam-grenier-q006",
+      "speaker": "Adam Grenier",
+      "text": "Start by assuming you no longer have product market fit, because you had product market fit in a different market. It's a different market now, so you have to start over. If you just assume you need to launch a new channel to fix this problem, you're going to be wrong, because your entire customer base changed.",
+      "timestamp": "00:40:57",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 372
+      },
+      "themes": ["product-market-fit", "strategy", "market-changes"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "adam-grenier-q007",
+      "speaker": "Adam Grenier",
+      "text": "Data driven generally - performance is a very loaded word because people think it means not brand. But you absolutely can measure retention, brand, and the consideration funnel. Making data part of the DNA of everything that's happening is pretty quintessential of being a growth driven CMO.",
+      "timestamp": "00:45:00",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 400
+      },
+      "themes": ["growth-cmo", "data", "marketing"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "adam-grenier-q008",
+      "speaker": "Adam Grenier",
+      "text": "The iteration process is not thinking about things as 'We need to plan for the next 24 months.' Having a more agile type approach to everything - the storytelling your salespeople are doing, landing pages, logo design, brand itself. Being more open to everything being possibly iterated on using data to validate.",
+      "timestamp": "00:45:38",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 403
+      },
+      "themes": ["iteration", "agile", "growth-cmo"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "adam-grenier-q009",
+      "speaker": "Adam Grenier",
+      "text": "Learn product development. Go learn agile product development. Any great marketing CMO should be able to consume how to do product development, how to run sprints. And their mind will be like, 'Oh my gosh, I could do this with this big event. I could do this with everything.' There's nothing off the table.",
+      "timestamp": "00:50:02",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 430
+      },
+      "themes": ["growth-cmo", "learning", "product-development"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "adam-grenier-q010",
+      "speaker": "Adam Grenier",
+      "text": "The one that I see the most is adaptability goes down really fast. Your openness to change in the business, or trying new things, has shifted from 'Here are the flags but let's give it a shot' to 'Why are we wasting our time?' That's a pretty good signal they may be more burnt out than just exhaustion.",
+      "timestamp": "01:06:12",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 537,
+        "lineEnd": 540
+      },
+      "themes": ["burnout", "mental-health", "leadership"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "adam-grenier-q011",
+      "speaker": "Adam Grenier",
+      "text": "I can pretty cleanly tell the difference between exhaustion and depression. It tends to tie to my broader motivations, not just my motivation to work. When I'm exhausted, I'll still show up to improv class and enjoy it. If I'm depressed, I won't go. I'll just cancel it.",
+      "timestamp": "01:00:14",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 494,
+        "lineEnd": 496
+      },
+      "themes": ["mental-health", "depression", "self-awareness"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "adam-grenier-q012",
+      "speaker": "Adam Grenier",
+      "text": "Now I have five or six different friends that we're massively transparent with about this stuff. The second I shared any of this with them, they shared it with me. And now we've become safe places to have those conversations where I can figure out which thing is causing this energy right now.",
+      "timestamp": "01:02:06",
+      "source": {
+        "slug": "adam-grenier",
+        "path": "episodes/adam-grenier/transcript.md",
+        "lineStart": 498,
+        "lineEnd": 501
+      },
+      "themes": ["mental-health", "vulnerability", "support"],
+      "zones": ["alignment", "discovery"]
+    }
+  ],
+  "themes": ["emerging-channels", "growth-cmo", "mental-health", "burnout", "experimentation", "channel-strategy", "product-market-fit"],
+  "takeaways": [
+    "Evaluate emerging channels with three ingredients: overlap between customer needs, company goals, and channel strengths - if they don't align, it's not worth your time.",
+    "Understand a channel's monetization strategy before investing heavily - if your goals align with theirs, you get access and partnership opportunities others don't.",
+    "Don't let channel experiments bleed past a quarter - you can get good signal in a month through 'fishing' before committing to statistically significant tests.",
+    "Growth CMOs must learn agile product development - applying sprint methodology to brand, events, and storytelling opens possibilities traditional marketers never see.",
+    "Burnout's clearest signal is declining adaptability - when 'let's try it' becomes 'why bother,' it's not exhaustion but something deeper needing attention."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "adam-grenier-q006",
+      "why": "Assume you no longer have product-market fit when markets change - challenges the assumption that PMF is durable",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "adam-grenier-q010",
+      "why": "Adaptability declining is the clearest burnout signal - not tiredness, but resistance to change reveals deeper issues",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "advisor",
+    "primary_topics": ["growth-marketing", "emerging-channels", "mental-health", "growth-cmo"]
+  }
+}

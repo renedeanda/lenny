@@ -1,0 +1,208 @@
+{
+  "slug": "claire-butler",
+  "quotes": [
+    {
+      "id": "claire-butler-q001",
+      "speaker": "Claire Butler",
+      "text": "This bottoms-up motion is focused on ICs. They love you so much that they're willing to put their social capital and themselves on the line and spread the product throughout their communities. The one connected most to revenue is companies - individual contributors become internal champions who spearhead adoption.",
+      "timestamp": "00:14:17",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 113,
+        "lineEnd": 116
+      },
+      "themes": ["bottom-up-gtm", "internal-champions", "product-led-growth"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "claire-butler-q002",
+      "speaker": "Claire Butler",
+      "text": "You can't optimize your way to product market fit. I don't care at the early stages if something's optimized by 5% from an email. That doesn't fundamentally tell me if something's working or not. Signal is actually way more important - can you get a couple people who love it?",
+      "timestamp": "00:23:50",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 165
+      },
+      "themes": ["product-market-fit", "metrics", "signal"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "claire-butler-q003",
+      "speaker": "Claire Butler",
+      "text": "Designers don't want to hear from marketers. They have an extremely high bullshit meter. Use a word like efficiency or collaboration and they're like, 'I don't want to hear this.' They wanted technical features. One of my bars for if something would be good enough was if I could have written it, it's not good enough.",
+      "timestamp": "00:32:55",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 244
+      },
+      "themes": ["marketing", "credibility", "technical-content"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "claire-butler-q004",
+      "speaker": "Claire Butler",
+      "text": "The designer advocacy position has scaled with Figma. It's the magic dust that we sprinkle on go-to-market to make a lot of our go-to-market function work. We didn't focus on marketing or traditional marketing - we focused on the technical aspects.",
+      "timestamp": "00:35:32",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 248
+      },
+      "themes": ["designer-advocates", "go-to-market", "scaling"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "claire-butler-q005",
+      "speaker": "Claire Butler",
+      "text": "Dylan built this scraper where he identified influencers in the design community. He figured out who followed them and made this massive node graph of pockets of different design topics. You'd see clusters of iconographers, graphic designers, product managers, and who the influencers were in those areas.",
+      "timestamp": "00:46:00",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 314
+      },
+      "themes": ["community", "twitter", "growth-tactics"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "claire-butler-q006",
+      "speaker": "Claire Butler",
+      "text": "Using it isn't enough to get someone over that stage of going from just a user to a champion. You're putting yourself on the line, taking a risk. You're not going to do that unless you really believe in something. You just don't get the scalability and spread unless they have that level of passion.",
+      "timestamp": "00:42:09",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 290,
+        "lineEnd": 290
+      },
+      "themes": ["internal-champions", "product-love", "word-of-mouth"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "claire-butler-q007",
+      "speaker": "Claire Butler",
+      "text": "We always do a public postmortem if something happens or goes wrong. 'Yeah, that was bad. Here's what happened, here's the technical reason, here's how we fixed it.' We promoted it and took full accountability. We always choose to make those choices when they're hard.",
+      "timestamp": "00:55:01",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 359
+      },
+      "themes": ["transparency", "trust", "community"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "claire-butler-q008",
+      "speaker": "Claire Butler",
+      "text": "They called him the Tom Factor because he was so powerful - their deals were so much more likely to close if he joined the calls. It wasn't his full-time job either. He talks to hundreds of customers, so he has the best way of synthesizing product feedback and bringing it back to the product team.",
+      "timestamp": "01:09:51",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 460,
+        "lineEnd": 462
+      },
+      "themes": ["designer-advocates", "sales", "product-feedback"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "claire-butler-q009",
+      "speaker": "Claire Butler",
+      "text": "Design systems was our biggest blocker. But we decided to focus on it. We had meetups, brought design systems people together, met with our product team, started having informal meetups to learn from them. Then we really leaned into the technical aspects of how companies use and scale design systems.",
+      "timestamp": "01:12:25",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 484,
+        "lineEnd": 490
+      },
+      "themes": ["design-systems", "product-strategy", "enterprise"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "claire-butler-q010",
+      "speaker": "Claire Butler",
+      "text": "We have these node graphs that show pockets of people at Microsoft. It would jump from one pocket to another as they'd add one collaborator. Eventually we got to this massive thing of all these people using the product. But still, it was only on credit cards. Microsoft said, 'We need to organize this.'",
+      "timestamp": "00:26:28",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 197
+      },
+      "themes": ["bottom-up-gtm", "enterprise", "product-spread"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "claire-butler-q011",
+      "speaker": "Claire Butler",
+      "text": "Initially you could have unlimited files but only collaborate with two or three people. We realized that's hurting us. So we switched it - three files but unlimited collaborators. That was huge. It's really easy for people now to share before they have to start paying.",
+      "timestamp": "01:03:01",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 409,
+        "lineEnd": 411
+      },
+      "themes": ["freemium", "pricing", "growth"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "claire-butler-q012",
+      "speaker": "Claire Butler",
+      "text": "It really helps if people are technical and care about the craft. They get a lot of value out of the tool by themselves. That gives you something to talk about that's not collaboration - because no one wants to talk about collaboration. Nobody wants to talk about it. They just want it to work.",
+      "timestamp": "01:15:25",
+      "source": {
+        "slug": "claire-butler",
+        "path": "episodes/claire-butler/transcript.md",
+        "lineStart": 502,
+        "lineEnd": 504
+      },
+      "themes": ["product-led-growth", "technical-audience", "craft"],
+      "zones": ["perfection", "focus"]
+    }
+  ],
+  "themes": ["bottom-up-gtm", "designer-advocates", "internal-champions", "product-led-growth", "figma", "transparency", "design-systems", "freemium"],
+  "takeaways": [
+    "Bottom-up GTM requires users who love you enough to put their social capital on the line - using isn't enough, they need passion to become internal champions.",
+    "You can't optimize your way to product market fit - signal from a few people who truly love it matters more than 5% conversion improvements in the early days.",
+    "Designer advocates are 'magic dust' for technical audiences - someone who deeply understands the craft builds credibility that marketers and salespeople never can.",
+    "Turn your biggest blocker into your biggest advantage - Figma's lack of design systems became a reason enterprises upgraded once they invested in solving it.",
+    "Don't gate your growth engine - switching from limited collaborators to unlimited collaborators (with limited files) unlocked viral spread before payment."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.00,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "claire-butler-q002",
+      "why": "You can't optimize your way to product market fit - early-stage optimization is misleading, signal from passionate users matters more",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "claire-butler-q012",
+      "why": "Nobody wants to talk about collaboration - even though it's the differentiator, people care about the tool itself, not the collaboration features",
+      "related_zones": ["perfection", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["bottom-up-gtm", "figma", "product-led-growth", "designer-advocates"]
+  }
+}
