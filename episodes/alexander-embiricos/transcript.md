@@ -1,37 +1,25 @@
 ---
 guest: Alexander Embiricos
-title: How to drive word of mouth | Nilan Peiris (CPO of Wise)
-youtube_url: https://www.youtube.com/watch?v=xZifSLGOrrw
-video_id: xZifSLGOrrw
-publish_date: 2023-09-24
-description: 'Nilan Peiris is Chief Product Officer at Wise, one of the fastest-growing
-  (and profitable) tech companies in the world. Wise allows anyone to send money in
-  more than 60 currencies to over 160...
-
-  '
-duration_seconds: 4594.0
-duration: '1:16:34'
-view_count: 13919
+title: 'Why humans are AI''s biggest bottleneck (and what''s coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)'
+youtube_url: https://www.youtube.com/watch?v=z1ISq9Ty4Cg
+video_id: z1ISq9Ty4Cg
+publish_date: 2025-12-14
+description: 'Alexander Embiricos leads product on Codex, OpenAI''s powerful coding agent, which has grown 20x since August and now serves trillions of tokens weekly. Before joining OpenAI, Alexander spent five years building a pair programming product for engineers.'
+duration_seconds: 5100
+duration: '1:25:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- retention
-- roadmap
-- prioritization
-- hiring
-- team building
-- culture
-- strategy
-- vision
-- mission
-- market
-- persona
-- design
-- ux
-- ui
+- AI
+- OpenAI
+- Codex
+- coding agents
+- software engineering
+- AGI
+- product management
 ---
 
-# How to drive word of mouth | Nilan Peiris (CPO of Wise)
+# Why humans are AI's biggest bottleneck (and what's coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)
 
 ## Transcript
 

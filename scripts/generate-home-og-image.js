@@ -55,7 +55,7 @@ async function generateHomeOGImage() {
       <!-- Subtitle -->
       <text x="600" y="480" font-family="monospace" font-size="28"
             fill="#999999" text-anchor="middle">
-        10-question quiz • 297 episodes • Verified quotes
+        10-question quiz • 295 episodes • Verified quotes
       </text>
 
       <!-- Bottom brand -->

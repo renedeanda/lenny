@@ -1,506 +1,465 @@
 ---
 guest: Melissa Perri
-title: Everything you’ve ever wanted to know about SAFe and the product owner role
-  | Melissa Perri
-youtube_url: https://www.youtube.com/watch?v=wbi9chsAHp4
-video_id: wbi9chsAHp4
-publish_date: 2024-11-10
-description: 'Melissa Perri is the founder of Product Institute, author of Escaping
-  the Build Trap, and host of the Product Thinking Podcast. She has worked with startups, Fortune
-  50 companies, and everything...
-
-  '
-duration_seconds: 5060.0
-duration: '1:24:20'
-view_count: 29280
+title: How to create a winning product strategy | Melissa Perri
+youtube_url: https://www.youtube.com/watch?v=FCxkT8ULrVg
+video_id: FCxkT8ULrVg
+publish_date: 2022-07-28
+description: 'Every company wants to develop a winning strategy—but what are signs your strategy isn’t working, and how do you change course? Melissa Perri has worked trained PMs and product leaders at nearly all the Fortune 100 companies, and in this conversation shares how to reset a struggling strategy, align your team, and build winning strategy.'
+duration_seconds: 3221.0 
+duration: '0:53:41'
+view_count: 50096
 channel: Lenny's Podcast
 keywords:
 - growth
-- churn
+- retention
 - metrics
 - okrs
 - roadmap
 - user research
-- mvp
 - experimentation
 - analytics
+- conversion
+- subscription
+- revenue
 - hiring
 - culture
 - leadership
 - management
-- strategy
-- vision
 ---
 
-# Everything you’ve ever wanted to know about SAFe and the product owner role | Melissa Perri
+# How to create a winning product strategy | Melissa Perri
 
 ## Transcript
 
-Lenny Rachitsky (00:00:00):
-There's this whole concept of SAFe, basically Scaled Agile, right?
+Melissa Perri (00:00):
+I've met a lot of organizations that think most of their issues are in the training of their people. And 99% of the time I see that it's actually in the way that they're setting their goals and deploying their strategy. Because once you train those people, they have no context on what to work towards. So it's such a holistic approach when you actually go through these transformations, or try to set up a product organization, so you either need somebody in there to do it, or you've got to really be ready to move when somebody comes in to help you.
 
-Melissa Perri (00:00:03):
-Scaled Agile Framework came out of the desire to figure out how do we scale Scrum and different processes. I do not recommend using SAFe. Every single person I have talked to who likes SAFe, found success with SAFe, they ended up ripping it up and making it into something else.
+Lenny (00:31):
+Through her speaking, consulting, interim CPO roles, and teaching at both Harvard Business School and online, Melissa Perri has seen more product orgs up close then possibly any human alive. In our chat, we cover the most common problems that product teams face, and how to overcome them, when to hire your first PM, how to hone your craft as a PM, signs you're doing a bad job as a PM, also how to structure your product teams and product development process, signs your team doesn't have a strategy and how to come up with one, also how to come up with a product vision, and so much more.
 
-Lenny Rachitsky (00:00:18):
-You've been up close and personal with a lot of companies working with product owners, Scaled Agile, and all these things.
+(01:05):
+I loved chatting with Melissa, and I learned a ton. And I can't wait for you to hear this episode.
 
-Melissa Perri (00:00:23):
-This product owner role did not emerge from product management as we know it today. It was a way to help the developers prioritize what to work on. I ended up going to a ton of Agile conferences and speaking about product management, and I started to learn that there was this product owner role in Scrum.
+(01:11):
+If you're setting up your analytic stack but you're not using Amplitude, what are you doing? Amplitude is the number one most popular analytics solution in the world, used by both big companies like Shopify, Instacart, and Atlassian, and also most tech startups. Amplitude has everything you need, including a powerful and fully self-service analytics product, an experimentation platform, and even an integrated customer data platform to help you understand your users like never before. Give your teams self-service product data to understand your users, drive conversions, and increase engagement, growth, and revenue. Get your vanity metrics, trust your data, work smarter, and grow your business. Try Amplitude for free. Just visit amplitude.com to get started.
 
-Lenny Rachitsky (00:00:39):
-It feels like it's growing. More and more companies are adopting this as the way to work.
+(01:59):
+This episode's brought to you by Revenuecat. Revenuecat makes it easy to build, analyze, and grow in app subscriptions on iOS, Android, and the web. Their platform lets you focus on growth, rather than getting bogged down in subscription infrastructure. Revenuecat provides a backend and wrapper around Apple Store [inaudible 00:02:18] and Google Play billing to handle the implementation and upkeep of in app purchases. Revenuecat is your source of truth for customer status across platforms, and provides out-of-the-box analytics for key subscription metrics, like monthly recurring revenue, lifetime value, retention, and more.
 
-Melissa Perri (00:00:44):
-A lot of large companies turn to Scrum or to the frameworks, and it's because they traditionally didn't grow up building software. When you look at agile methodologies, what we're really saying there is we want to be able to move quickly and deliver great value to customers. If you embrace those principles, you're going to do well.
+(02:35):
+With Revenuecat, you also get prebuilt integrations with best in class tools, like Amplitude, Appsquire, and Firebase. That means reliable, consistent data synced to your entire product [inaudible 00:02:46] in minutes. QI companies like Notion, VSCO, and Life360 use Revenuecat to power in app subscriptions. Learn more at revenuecat.com.
 
-Lenny Rachitsky (00:01:05):
-Today my guest is Melissa Perri. Melissa is a legend in the product management community. She's the author of the foundational book Escaping the Build Trap, and her most recent book Product Operations. She's also the CEO and founder of The Product Institute, which trains product managers at all levels. She's trained PMs at almost every Fortune 500 company at this point, and in our conversation we dive deep into a topic that I don't spend a lot of time on on this podcast, product owners, Scrum, Scaled Agile, and building product at very large non-tech companies.
+(03:00):
+Melissa, welcome. Thank you so much for joining me.
 
-(00:01:38):
-Melissa shares the history behind these ways of working, what she's seen work and not work when companies roll out these frameworks, and most importantly what you can do as a leader at one of these companies and as a product owner working in one of these companies to level up your organization and yourself. I learned a ton from this conversation and I'm really curious to hear what you think since we don't cover this kind of stuff on this podcast too much. If you enjoy this podcast, don't forget to subscribe and follow it in your favorite podcasting app or YouTube. It's the best way to avoid missing future episodes, and it helps the podcast tremendously. With that, I bring you Melissa Perri. Melissa, thank you so much for being here and welcome to the podcast.
+Melissa Perri (03:03):
+Thanks for having me.
 
-Melissa Perri (00:02:19):
-Thanks, Lenny. Thanks for having me.
+Lenny (03:04):
+It's absolutely my pleasure. I wanted to set a little context for folks that may not be familiar with you. How many PMs have you worked with and helped, would you say, over the course of your career?
 
-Lenny Rachitsky (00:02:21):
-First, let me give a little context on this conversation that we're having. I think it's going to be a little bit unique. I was doing a deep dive on the job market in tech, and I saw something that was really surprising to me that the product owner role was the third-fastest growing role in tech, and this was just in the US, the data I was looking at, but I think it's probably true broadly. This was extremely surprising to me because I've never worked with a product owner, I don't hear anyone in my circles talking about product owners, I've never wanted to hire a product owner, and it feels like it's just this very different part of the tech ecosystem that you don't hear a lot about on podcasts like this, and it's clearly growing so I felt like it'd be really helpful to spend some time helping people and helping me understand this part of the world.
+Melissa Perri (03:17):
+Between teaching, consulting, and all of those different things, it's probably north of 4,000 at this point. I think we're approaching 5,000 now.
 
-(00:03:08):
-I asked you to come on to talk about this. You've been up close and personal with a lot of companies working with this way of working with product owners, Scaled Agile and all these things, so I couldn't think of a better person to have on here to help us understand what's happening here, and also just to help people do this better. Melissa, thank you again for coming on and helping us understand this.
+Lenny (03:28):
+Oh my God. Okay. And then, how many companies would you say you've worked with?
 
-Melissa Perri (00:03:28):
-Yeah, I'm excited to talk about this. I have been really passionate about this topic for many years and I've been talking about it in both agile circles and product management circles, so pretty excited for the listeners to hear what else is going on out there.
+Melissa Perri (03:35):
+If we're talking deep consulting since I started Produx Labs, we've done over 30 companies where we've been in there, did something with them, either transformation-wise or setting up their PM work or setting their strategy, helping with roadmaps. If we're talking training, we're into the multiple hundreds.
 
-Lenny Rachitsky (00:03:43):
-This episode is brought to you by Pendo, the only all-in-one product experience platform for any type of application. Tired of bouncing around multiple tools to uncover what's really happening inside your product? With all the tools you need in one simple to use platform, Pendo makes it easy to answer critical questions about how users are engaging with your product, and then turn those insights into action. Also, you can get your users to do what you actually want them to do.
+Lenny (03:54):
+Okay. Insane. Would you say that you're maybe in the top three, maybe top five people in the world that have worked with the most product managers, or have even met the most product managers?
 
-(00:04:10):
-First, Pendo is built around product analytics, seeing what your users are actually doing in your apps so that you can optimize their experience. Next, Pendo lets you deploy in-app guides that lead users through the actions that matter most. Then Pendo integrates user feedback so that you can capture and analyze what people actually want. The new thing in Pendo, session replays, a very cool way to visualize user sessions. I'm not surprised at all that over 10,000 companies use it today. Visit Pendo.io/lenny to create your free Pendo account today and start building better experiences across every corner of your product. Yes, you want to take your product-led know-how a step further, check out Pendo's lineup of free certification courses led by talk product experts and designed to help you grow and advance in your career. Learn more and experience the power of the Pendo platform today at Pendo.io/lenny.
+Melissa Perri (04:04):
+I know a lot of people who do what I do, so I think probably among them. Probably among them. But I haven't counted everybody else's.
 
-(00:05:06):
-I'm excited to chat with Christina Gilbert, the founder of OneSchema, one of our long-time podcast sponsors. Hi Christina.
+Lenny (04:13):
+Okay. For all these reasons, I'm really excited to dig into a lot of the stuff that you've learned along this journey, and things that people can take away from your experience. What do you spend your time doing these days? I know there's a lot in your portfolio.
 
-Christina Gilbert (00:05:13):
-Yes, thank you for having me on, Lenny.
+Melissa Perri (04:25):
+Well, right now I would say my primary focus is on training in education in product management. So, I'm teaching at Harvard. I teach the second year MBAs in their elective program, product management, so they can choose whether or not they want to take that. But that's been really great. And then, I have had an online school since 2016 called Product Institute. So it's all a self-serve, online education place where we have multiple courses in product management.
 
-Lenny Rachitsky (00:05:15):
-What is the latest with OneSchema? I know you now work with some of my favorite companies like Ramp, [inaudible 00:05:22], and Watershed. I heard that you just launched a new product to help product teams import CSVs from especially tricky systems like ERPs.
+(04:51):
+We have trained almost all of the Fortune 100 companies at this point through that with product management, which is great. But a lot of different growth stage companies coming in there too, and smaller companies as well. Been doing that for quite some time.
 
-Christina Gilbert (00:05:31):
-Yes. We just launched OneSchema FileFeeds, which allows you to build an integration with any system in 15 minutes as long as you can export a CSV to an SFTP folder. We see our customers all the time getting stuck with hacks and workarounds, and the product teams that we work with don't have to turn down prospects because their systems are too hard to integrate with. We allow our customers to offer thousands of integrations without involving their engineering team at all.
+(05:04):
+And then, I more recently started CPO Accelerator, which is a program to help VPs and heads of product really make the leap into the C suite. So that's been really great because I believe that the more we train people to be better product executives, the better products they'll make, and the better product managers they'll make by training them as well.
 
-Lenny Rachitsky (00:05:53):
-I can tell you that if my team had to build integrations like this, how nice would it be to be able to take this off my roadmap and instead use something like OneSchema, not just to build it, but also to maintain it forever.
+(05:25):
+That's been my primary focus. I am writing another book called Product Operations. After writing Escaping The Build Trap, I thought I would never write again, but it's time.
 
-Christina Gilbert (00:06:05):
-Absolutely, Lenny. We've heard so many horror stories of multi-day outages from even just a handful of ad records. We are laser-focused on integration reliability to help teams end all of those distractions that come up with integrations. We have a built-in validation layer that stops any bad data from entering your system, and OneSchema will notify your team immediately of any data that looks incorrect.
+Lenny (05:33):
+I know the feeling.
 
-Lenny Rachitsky (00:06:24):
-I know that importing incorrect data can cause all kinds of pain for your customers and quickly lose their trust. Christina, thank you for joining us, and if you want to learn more, head on over to oneschema.co, that's oneschema.co.
+Melissa Perri (05:35):
+So I'm excited about that. I'm writing it with my former VP of product at Products Labs, Denise. Before I was doing what I'm doing right now, I was doing all of that, plus I was also consulting pretty deeply with companies through Produx Labs. But at the end of 2020, I took a step back from that to take a little break from it, focus more the teaching aspects of things, and try to figure out what else I'm going to do from here.
 
-(00:06:39):
-Before we get into the history, is there just anything broadly that you think might be helpful to share before we dive into the history of the product owner role and all these things?
+Lenny (05:59):
+I love that you mentioned your book. You almost didn't, and I was going to make sure to mention it. And we're going to talk about it more in a little bit. And I have it right here. And hopefully I can get it signed someday in real life.
 
-Melissa Perri (00:06:46):
-Maybe it'll help to set some context of where did I see all of this start emerging as well. When I started in tech, I was very much a product manager, never heard of the product owner role before in my life. In Escaping the Build Trap I talk a lot about how we used Scrum when I started working with this team in a startup, and it was the first time I ever heard of it. That was 2011. At the time, the person who was teaching me about agile was very like, "Hey, this is flexible. We're just going to break things into sprints. We're going to sit there and actually talk about the work. This is made for us to actually get better at our jobs." We were pretty sold on it and it was never dogmatic. As I worked at other companies, I found that they were being a little more dogmatic with their Scrum, with their stand-ups, how we actually run things.
+(06:11):
+Before we get into that, you've worked with dozens of companies directly, hundreds, maybe, indirectly through the course, and then, like you said, thousands of PMs. When you come into a company, they basically bring you in to help them level up their product team, their product management function. What are two of the most common problems that you run into, or even unexpected problems you run into? Especially at modern tech companies, not Ford and things like that. No offense. What do you run into usually?
 
-(00:07:36):
-Then I started speaking at conferences, and one of the first conferences I spoke at in New York City was called Lean UX, and there was a bunch of people from the agile world there too. I learned that this was much bigger than what we were learning in my company and what we were doing in these companies. There's this whole group of people out there practicing agile, and I was like, "Oh, this is cool. I want to learn how to do things better. Teach me about your philosophies." I ended up going to a ton of agile conferences and speaking about product management.
+Melissa Perri (06:44):
+In 2014, I started consulting with companies through Produx Labs. And it's funny because some people will be like, oh, well you've never worked with... I get two sides of it. I'll get the, well, you don't really work with the SaaS companies, but I had a whole partnership with Insight Venture Partners, where we'd go in and play the interim CPO role in their high-growth SaaS companies. We'd help them scale, we'd set their strategy and their roadmaps and all that stuff. So we did that for a long time.
 
-(00:08:04):
-At the time, people were really excited to hear more about it, and I started to learn that there was this product owner role in Scrum where I was talking more about how we traditionally talk about product management, understand your customer, go out test things, make sure there's a hypothesis, don't just blindly build what you want to build. I found out that that was not the case in a lot of these companies who are adopting Scrum and introducing a product owner role, so I started doing a lot of trainings through my school product institute and I'd get called into these large companies, all these large banks, probably around 2014, 2015, to help them learn product management. I was really excited about this because before, they didn't want anything to do with it. They were like, "I don't know what product management is. I don't need this."
+(07:07):
+And then, I have also come in and helped organizations that aren't really SaaS, like banks, a lot of banks. A lot, a lot of banks. But your pharmaceutical companies, and all these other ones too, kind of set up product management for the first time. So I've seen the whole gamut, from super software-focused teams to companies that are still just figuring out software. And it's been great because some of the companies I've worked with now, since 2014, I've been able to see eight years of their progressions and what they go through with that.
 
-(00:08:47):
-I go in to train people and I found that a lot of them had been going through an agile transformation and they had all of these new product owners where they came in and they basically said, "Hey, you're a product owner now. Your whole role has changed." They came from all different backgrounds. Some were developers, so a lot were business people who worked on the banking side, a lot were business analysts, some were project managers, but they just collectively took a bunch of people and said, "Tada, today you're going to be a product owner because we're going to do agile now." I will come in and help train these people.
+(07:41):
+And I'd say it's very different if you're SaaS versus non-SaaS. But if we're talking about the SaaS companies that get software, software is what they sell, software is a critical part of their strategy, they're bought in, they know that it's really important, one of the issues I see with them and product management is, at this pivotal scale up phase, where they go from, hey, I found product market fit, to I'm ready to scale, one, it's hiring a great chief product officer that can help them figure out what the next phase is. So it's basically there is this junction point where they go from single product to multiproduct, but then they have to manage a complex portfolio and then they have to scale rapidly. At that point, they have to rethink their entire strategy. And then they have to focus because they have all of these choices to keep building for their existing customers and just take everything off the backlog because everybody's requesting things, they really have to focus and prioritize.
 
-(00:09:20):
-What I found was that there was a really big misconception about what those people should be doing compared to what they teach in agile and Scrum versus what we all consider great product management. I've been trying to fill that gap for the last almost 10 years working with these companies here. Then I would go to their leaders and at the beginning of these agile transformations, I'd be like, "You can't just do Scrum. That's not going to make you amazing at delivering products. There's so much more to this." The leaders didn't quite understand that.
+(08:36):
+And that becomes absolutely critical, but it's usually the first time that company has actually had to form a comprehensive strategy and a prioritized strategy, and deploy it to hundreds of employees, which will scale to thousands of employees. And that is hard. It's not easy to do. And if you've never done it before, which a lot of people haven't in that position, that becomes really complicated.
 
-(00:09:51):
-I'm noticing this really big shift in the industry where we're finally getting there. A lot of companies are doing it well now. Capital One is a great example that took their agile transformation and started adding product management on it, and they've really turned that around in the card business. So many organizations are still at the beginning of this journey and they're at the place where I saw people 10 years ago. I think there's still a lot of companies out there. Maybe we take it for granted in tech or in Silicon Valley about how many companies are doing this and how big this scope is where they're making these roles, but they're not really doing product management end to end. That's where I've seen all of these areas and I've been trying to help organizations for the last 10 years really set up robust product management practices. It's not just one piece of development, it's how do we actually build better products?
+(09:00):
+And then there's some companies, too, that bypass that initial growth phase, because they already could clearly see what their second and third product should be, and they were scaling really fast, and it's awesome, and they're really, really successful. But then they start to plateau. And they have the same problem, where they have to rethink, reprioritize. And it just always comes back to how do I set strategy, how do I deploy strategy, and how do I make sure it's well communicated and that everything that we're doing on the tech teams, on the product teams, is laddered up into a company strategy that's well prioritized.
 
-Lenny Rachitsky (00:10:42):
-I love this example of Capital One. It can work really well and you can get to a place where it's actually really productive. There's a few ways we can go about this. Do you think it would be helpful to talk through the history of the product owner role just like where it initially emerged?
+(09:33):
+But that has to be the biggest issue that I see with companies at all. They get the software piece, they know it's a critical part of their business, it's just, how do we prioritize it and double down?
 
-Melissa Perri (00:10:56):
-Yeah, I think that's a great place to start. I think it brings a lot of context too to what's happening. People forget about the history here. When I explain it to people, I say we had product managers in Silicon Valley, right? They were in Google, they were in all of these companies, Amazon, and they were born out of this business role. From a software native company, your software is the business, right? It's what you sell, it's what you actually look at. Our product managers in Silicon Valley, they're doing market research, they're talking to customers, they're working with developers, they're iterating, they're doing the end-to-end product management.
+Lenny (09:44):
+And build the org and find the right people to build it all out. I'd love to double-click on that. What is a sign that it's time for a CPO, and then what do you look for when you're hiring a CPO? I know these are big questions, but I'd love to hear your thoughts.
 
-(00:11:31):
-What happened on the other side of things, especially in large companies, is the emergence of product management from Scrum, from product ownership. That's usually the first time these companies were introduced to product management was from implementing a product owner role and then going, "Hey, we're still not meeting our goals. Are we building the right thing?" Then they started thinking product management. Where that role came from is Scrum. If we go back and talk about the history of agile, agile was a movement that got started by software developers. In 2001, the Agile Manifesto was written. A bunch of developers got together in Park City, Utah, they were all skiing together and they said, "Hey, we've been independently all working on how to develop software better."
+Melissa Perri (09:57):
+Usually, whoever was the product leader, whether it was the founder or maybe somebody who was a little bit more junior. In those phases at the beginning, finding product market fit, trying to get into the growth stage, early growth stage, it's really about execution at that point. It's rapidly experimentation, trying to figure that out. And all hands on deck, you're usually a little bit in the weeds as well, doing the work yourself, too.
 
-(00:12:18):
-Some people were practicing Scrum as we know it today. That was Ken Schwaber, Jeff Sutherland. There were people who were doing different types of agile frameworks as well, Kanban, where you were moving it through a Kanban board. There was behavioral-driven development, there was feature-driven development. That was the style of agile. There was XP, extreme programming, that was started by Ron Jeffries. All of these people found each other saying, "Hey, we've been trying to push the boundaries of how do we develop better software," and they got together and they wrote the Agile Manifesto as we know it today.
+(10:18):
+And then, when you get into needing a CPO, it's like, hey, we actually have to pull together a product strategy that's all encompassing. We have to have great communication between product and the executive team. A big sign for me, when I've come in and worked with boards or executive teams as well, is they're telling me, I don't really know what's going on in tech or product. I have no idea if we're achieving our goals.
 
-(00:12:51):
-The Agile Manifesto is really just a guideline on how they're striving to not just be people who code what people want, but building better products. How do we build better products through software development? The premise to remember this is, and I keep saying it, but they're all software developers. Nobody was a product manager who went to that meeting. Nobody who wrote the Agile Manifesto was actually a product manager. I've spent a long time talking to these people as well over the past 10 years just saying, "Hey, how did this come about? Where did this come from?"
+(10:42):
+If your executives and your board are telling you that, the person who's communicating those things to them are usually not chief product officer level. If your executives don't know what you're doing, that's a big problem. So that's usually the sign, to me, that we need that.
 
-(00:13:23):
-The one person who was really close to them who was a product manager was Jeff Patton, but he never signed the Agile Manifesto, he wasn't at that meeting. He talked to them a lot, he was able to see what was going on, but all of this was a purge from how do we build better products from a development perspective. That's really important to know. Two of the people who signed the Agile Manifesto, Jeff and Ken, as I was talking about, they were independently coming up with Scrum on their own in their different companies, and they got together and started to codify it and they said, "This is how I'm doing it, this is how I'm doing it." They ended up writing the Scrum Guide. The Scrum Guide is what a lot of people base their agile practices off of today. In the Scrum Guide, it outlines a bunch of roles that you would do on the development team, and then it says how you should be developing products.
+(11:00):
+When I was going in and consulting pretty deeply, the first thing I would do is go to all the teams... if there was 5,000 teams, a smattering of teams. But I'd always ask them, what are you working on? What's the most important thing you could be doing, and why? And I would try to ladder that up myself into a strategy and see if it was connected. And if it wasn't connected, that's telling me somebody's not formulating the strategy and deploying it down. And then, that's telling me there is a lack of strategy at the top. And that would be like, hey, is there a CPO here? And if there is, maybe this person isn't right for the job. Or there's no CPO, and we do need somebody around this to actually formulate the strategy.
 
-(00:14:11):
-Most people out there are working in Scrum today, and what they say is, "Let's break things down into two-week sprints." You can change the length of your sprint if you want to, but two-week sprints is pretty standard at the beginning. We define what we're going to work on in the backlog. It's the product owner's responsibility to define what goes into the backlog, write down the user stories for it, do all that. Then the development team comes in, they discuss it, the product owner prioritizes it, they ask questions, and then the development team commits to what they want to build and they go out and do it. At the end, the result is a potentially shippable product, not necessarily shippable, but potentially shippable.
+(11:40):
+On an org design perspective with the team, I'd look at the product managers. If the product managers aren't... Sometimes you have great product managers, and they're frustrated because they're not getting the direction they need. And you can tell they're great product managers. They know what they're doing, they're in there, showing me there's a lack of leadership there. If there's trouble hiring product managers, that's a good sign that you need a CPO, you need somebody they can learn from and give them those opportunities. And if there's a lot of junior product managers who've never done it before, it's like, what's their training path? Is there something in there? Is there a process implemented where everybody can follow it? Is there a way for them to learn? If those things are lacking, it's telling me there's a gap in leadership on the product level.
 
-(00:14:48):
-They're trying to break it down into small chunks and build things instead of what they had been doing in a lot of companies, which was building stuff for three years and then releasing it in a big bang. What all of the people who signed the Agile Manifesto realized was if we do it the other way, if we do a waterfall type environment, agile waterfall, that's where we go across, there's a lot of risk because we don't test it with the customer and we don't get feedback on it if we spend three years building it and never show it to somebody. It really approached a different way of building software. It said let's chunk it down and try to get feedback faster. Really noble intention.
+Lenny (12:23):
+Awesome. That is really helpful. Is there a number of PMs that it usually ends up being, of how many PMs you have when it's time to maybe hire a CPO?
 
-(00:15:24):
-In the Scrum guide though, it introduces these new roles. We have developers as we know and love them, we also have a product owner, then we have a Scrum master, and the Scrum master is in charge in Scrum of actually helping people do Scrum better. That's literally their job. How do I do Scrum better? How do I make sure that the team is working well together? They host things like retrospectives where at the end of a sprint we say what went well, what didn't go well, how should we actually inspect and adapt our process. The product owner is where things get murky.
+Melissa Perri (12:31):
+It really differs. I'd say the critical junction points I've found deal more with company strategy. We used to talk about this a lot at Insight, but it's like if you're going above $10 million in ARR, it's usually when you hit around 20 to 30, you start to bring on a CPO in a high-growth company. What the product starts to look like is you have multi-products, so you have more than two or more. Sometimes you can have a VP of product over two, that's totally fine, but as soon as you start to think about expanding into a more complex portfolio after that, I'd look for probably a CPO. If you're expanding geographically, if you're going into new markets, drastically new markets... The more complex your portfolio, the bigger the sign is that you need a CPO. If you're doing a major transformation or pivot, if you're doing a huge merger of two companies, you're probably going to need a CPO of those two things. So those types of events usually lead to, if you don't have a CPO, it's time to get one.
 
-(00:15:57):
-The product owner in general first showed up with Scrum, and if you go and you read the first Scrum guide, which I pulled up and started reading, because I've been very fascinated about how this is described, it says that the product owner is responsible for maximizing the value of work done, the team does the work. Interesting, because now the product owner is not quite part of the team. The team consists of developers with all the skills to turn the product owner's request into the potentially shippable increment each sprint. The team is usually seven plus or minus two members.
+(13:28):
+The number of product managers, I'd probably say it starts to hit around maybe eight, seven to eight is usually what I'd look for. But it depends on what the rest of the team looks like, too. A lot of times, chief product officers, especially in a high-growth company, are not going to be over just product. We'd have product reporting into them, design, some kind of product operations, sometimes analytics, depending on what company it is. And then, even in certain cases, I've put engineering underneath a CPO when there hasn't been really strong engineering leadership, and you need to have product leading tech. And maybe there's a disconnect there, and you don't have time. You need one leader. You need to simplify it and go.
 
-(00:16:29):
-Then when you go further into the first version of the Scrum Guide, it does say that the Scrum master works with the customers and management to identify and instantiate a product owner. The Scrum master teaches the product owner how to do his or her job in order to optimize the value of the use of Scrum. If they don't, the Scrum master is held accountable. Then it's got another tip if we go deeper into this. It says per commercial development, the product owner may be the product manager. For in-house development efforts, the product owner could be the user department manager.
+(14:11):
+So depending on the scope that somebody is covering as well, if they're only seeing product, and there's no opportunity for them to be over design or something else, we would probably stick with a VP of product. But if you need a singular leader to bring all those things together, that's where I would start looking for a chief product officer, too.
 
-(00:17:01):
-What's interesting is that that was the first version of the Scrum Guide, and I get into arguments about the Scrum Guide with people all the time. 2013's version though, the more updated one that you could go and find is the one that almost every company has run an agile transformation off of. It loses that thing that says the product manager could be the product owner. It doesn't say it anywhere in that guide. This was the first version, and you can kind of tell it was an aside. It's like, "Oh, by the way, the product owner in Scrum doesn't need to be a product manager, it could be the customer, it could be a developer." It's usually the customer.
+Lenny (14:28):
+What do you suggest companies do up until that point? I know titles are not necessarily consistent. I imagine usually there's a head of product before that point. Is that what you'd recommend? What should you do up until you get to a point where it's time for a CPO?
 
-(00:17:34):
-When they were writing this too, sometimes the customer was an internal person at a bank or somewhere where we were building software who was asking for the software. They were like, "Go build me an internal tool. Go do this." Now we're just asking for requirements inside a company, and that's where you can start to see how the product owner role kind of evolved into somebody going to ask, "Hey, what do you want me to build? What's required here?," and then just listening to somebody come back and say, "I need this feature, I need this feature, I need this feature." Scrum doesn't describe how to get the stuff into the backlog, and it didn't in the 2013 manuals. The manuals have all been a little bit better, they've all kind of been updated since then, and they do describe it has to start with the vision a little bit more, you have to break down the vision for the product and get in there, but none of that existed in the early versions of Scrum.
+Melissa Perri (14:41):
+Head of product or VP of product, I think, are very interchangeable, in my head. What a VP of product or a head of product is, is a functional leader around product management. Sometimes you have design reporting into them, sometimes not. But they're very good at implementing processes so that product works smoothly. They can pull together the roadmap across all other product managers. They can usually train lower level people.
 
-(00:18:29):
-When people got trained on how to be a product owner, what was happening here is, and this is the whole other world of Scrum over here, when people get trained to be a product owner, it's usually a two-day class where they teach them, "Hey, this is how you break down a backlog. This is how you do stand-ups with your teams. This is how you think about prioritizing work. This is how you manage your backlog, prioritize it for the developers. This is how you work with the retrospectives," but it doesn't teach them about experimentation, it doesn't teach them about market research, it doesn't teach them about data, it doesn't teach them about any of the things that we need to be a product manager.
+(15:03):
+Where the gaps come between that and becoming an executive is interfacing with the board, understanding the financials super deeply so that you can create revenue projections off of what your roadmaps and your product's strategy is going to be. So chief product officers have to deeply understand how to get from roadmap to revenue and how to analyze those things and put it into perspective. So they're usually joined at the hip with the chief revenue officer, or the head of sales, the CFO. They can confidently project to the board. They're a fantastic executive navigator when it comes to dealing with other executives and bringing those things together. And they can oversee a lot more functions than just product, usually. Everything can kind of... They're a senior enough person where you can have a couple different functional lines report into them with a head of design, head of product reporting up.
 
-(00:19:06):
-Then what happened was we went into these agile transformations at these companies and they said, "Hey, let's adopt Scrum because Scrum was built as a way to build better products faster." It's literally the tagline. Everybody was like, "Yeah, I want to build products faster. Okay, great. Let's do Scrum." All these large organizations back in the early 2010s, in the 2000s said, "Oh, we got to be better at software. How do we do this better? Otherwise, we're going to lose when it comes to innovation." They adopted Scrum as a way to build software faster.
+(15:53):
+So VPs of product are usually fantastic at growing one or two products. But then, when you get into multiproduct strategies, or very complex platform strategies, and the scope starts to really creep, that's where I would start to bring in a CPO.
 
-(00:19:42):
-Now, what happened is in order to do Scrum, Scrum basically sells training. That's what Scrum does. All of these agile coaches would come in and teach the product owners, newly minted product owners, took all those people, made them into product owners, put them through a two-day class and then say, "Go." That was the beginning of all the agile transformations, and that's where a lot of companies still are today. This product owner role did not emerge from product management as we know it today, it was a way to help the developers prioritize what to work on, but that was it. The product owner was held accountable for making sure that they were working on the most pressing things or the highest value things, they do say that, but to me, if you look at it from a developer perspective, it's also the person where you can say, "Hey, well, you told me to build that, right? We didn't build it wrong. You told me to build that."
+Lenny (16:12):
+I was going to ask you about what to look for in a CPO, and you answered it. So, amazing. Real quick, before you move on to the scale of product management and some thoughts there, when would it make sense for a company to consider bringing in someone like you to do either interim CPO role or just to help out?
 
-(00:20:35):
-It almost gets into consulting territory where you're like, "Okay. If the product owner prioritized all this stuff for me and told me what to do, I can't be held accountable if it was the wrong thing to build." Some of that stuff does come up in a lot of teams that struggle to adopt agile, to adopt Scrum. I feel like there's a big misunderstanding out there about what is this role and what should we be doing, but the premise of this is when we talk about Scrum, it's just one piece of the puzzle, and when people talk about agile now, they almost always associate it with Scrum.
+Melissa Perri (16:28):
+Yeah. I hope you never need me. That's my goal with everything I do. I'm always like, I would love to put myself out of business one day because I just want this to work really well. But where I am needed is usually when a CEO isn't sure who is the right person to hire. They're usually on the fence. I've come into organizations to help CEOs where they're like, do we need a product person to oversee this? I don't know what a product person does. And I usually talk them through like, hey, what are the challenges you're having? And they tell me everything, and I'm like, okay, these ones are actually caused by you not having that partner to work with. If you had that partner, this is what they could take off your plate and free you up to focus on your vision, and fundraising, and all the other stuff that you have to do as a CEO.
 
-(00:21:10):
-I was actually Googling agile methodologies, and like I said, the other ones, Kanbans is an agile methodology, XP is an agile methodology. They don't have product owners, they do not exist in those methodologies. There are four developers to work on things, or teams to work on things. XP would consider product managers in the teams as far as I know it, but Scrum kind of sees it as a separate thing.  Agile methodologies, everybody says, "Oh, they're Scrum now," so it gets a bad connotation out there about what to do with it. I think Scrum if you do it well is bad, but you have to understand that it's just one piece of building great products, it's not the whole thing, and companies will adopt it like it's going to radically transform everything. To be fair, a lot of times it's sold that way too.
+(17:20):
+So typically, that's where I'd come in to advise. And when I came in in consulting in the past, my motto was always... Well, first I will say I spent a long time doing transformational work, where I would deeply embed and try to push org design, and deploying strategy, and really taking these organizations that didn't understand product management and helping them design how to do it. So I did that for quite a while. And then, when I started working with growth stage companies, my objective was, how do I get in and get out as fast as possible, and bring them in the right leaders?
 
-Lenny Rachitsky (00:21:59):
-There's a bigger picture question that's coming to mind as you talk about this. I'm imagining founders listening to this and smaller companies listening to this be like, "Why do we need any of this?", especially Silicon Valley startups, "We're just going to build stuff. We don't need these frameworks, we don't need a Scrum master. We just have awesome developers and product managers and we're just going to build awesome stuff." I don't know anyone that has worked this way that has built amazing things. Can you talk a bit about who ends up looking for solutions here, where this even comes from, what companies need help here versus, "I just don't need any of this?"
+(17:56):
+So what I learned, being deeply embedded with these organizations doing this transformation work, was somebody needs to be at the helm of all of this work consistently. And they also have to be able to make the decisions, as well. So you can hire a consultant, but if you don't listen to the consultant, nothing's going to change. And that does happen more often than you think, where everybody just hires and they're like, no, not that way, and you're like, okay, well, it's up to you at the end of the day. I can't change it for you.
 
-Melissa Perri (00:22:36):
-A lot of large companies turn to Scrum or to the frameworks, and it's because they traditionally didn't grow up building software. They're looking at how do I implement something that has rigor at scale, and that's where you see a lot of Scrum come up. Now, I've seen startups using Scrum. Some of them do it fine, they understand that it's just more about trying to get things out the door every two weeks to test it with customers. I think if you keep that philosophy, like I said, I used it and we didn't have a lot of rigor around it, that was fine. When we were doing Scrum, when I did it with my team back in OpenSky, we got to this point where we were like, "Two weeks is too long. We're just going to ship things every week."
+(18:26):
+I've also had people hire me as a consultant and be like, well, no, you change it. And I'm like, I can't. You can't just tell me to do your job. You have to go out there and do it yourself. But I will give you all the informed choices and try to design it to meet your needs. And sometimes it's not coming out super ideal and perfect, but it's all a transition. We make roadmaps for transformations.
 
-(00:23:12):
-We just talked to each other, we skipped stand-ups, which is sacrilege in Scrum, but we kipped daily stand-ups. We didn't need to stand around and talk about it, we talked to each other every day. For me, what was amazing and where I see teams actually thrive when they start using Scrum is when you go and talk to people. You're having the conversations about the work, you're breaking it down, you're understanding it, so the developers and the rest of the team can go hit the road running and people can ask important questions. If you're not doing that, that's where I think things like a framework help, but if you already are doing that, you don't need a framework, you don't need Scrum, you don't need to be prescribed to this two-week sprint or anything like that.
+(18:47):
+But, being deeply embedded like this, I was starting to think, how do I make sure that this lasts? And that's where I believe strong product leadership comes in. Whether you train somebody up in the organization to take that role over and keep driving it forward, or you hire in somebody who knows what they're doing.
 
-(00:23:52):
-As long as you have a methodology, it doesn't even have to be a defined methodology. As long as you have a way of working that gets things out to customers, well, who cares? Who actually cares? Where there's a lot of, I think, baggage in the industry and where I hear product managers get really frustrated and other people as well, developers too, is that when you do Scrum by the book or how people teach it and how they write about it, it's a million meetings. I know they were put in there so that people were forced to talk, but when you already know what you're supposed to work on, why do you need to keep doing meetings? Shouldn't you just go do some work?
+(19:04):
+So when I started working with Insight, our premise was, we will never touch a company, or be in a company hands-on, for more than three months. The idea was, within that three months, we hire in a chief product Officer to take the helm, and we do just enough to keep it on track, playing an interim CPO role, to make sure that they can keep delivering, they can keep growing. We'd have just enough of a roadmap to keep the teams moving. We train them a little bit, we'd help implement some processes. We'd help get all the information a CPO would need so that when they walked into that organization, they could read the background on their customers, understand what the strategy is so far, look at the current roadmap, watch some customer interviews, know who to talk to, get the lay of the land and have some people working on stuff. And then they could take the time they need to actually build a strategy that's going to help grow the company.
 
-(00:24:28):
-A lot of developers complain, a lot of product managers complain that Scrum has too many meetings and they don't actually get to do work. That's where I think you have to go back to the inspect and adapt part. A lot of people who are very religious about Scrum will come and yell at me about this. They're like, "Oh, well, that's not how it's supposed to be. You're supposed to inspect and adapt." Agree, but a lot of people aren't doing it and that's the piece where you go and you say, "Is this serving us? If not, let's get rid of it. Let's not do those types of things." When you're a small startup, I don't think you need a lot of this overhead. It's really much designed for larger scale companies, and those are the ones that you see really adopting it.
+(19:57):
+So really, at the end of the day, when you need some help, you realize something is not working but you're not sure how to make it right. And then, you can either hire in a leader... Sometimes the question is what kind of leader. That's when you try to hire consulting, get some outside expertise on that. Or, if you want to hire an interim CPO type person, you have to understand that's very temporary, unless you're trying to convert that person into a full-time, which is totally fine if you want to do that and have those expectations going in. But consultants can only help as well when you're willing to take action.
 
-Lenny Rachitsky (00:25:06):
-From what I've seen on the data, it's also companies that are as you I think alluded to at the beginning, not necessarily software first, product first companies. Feels like it's very common in banks and telecom companies and companies that aren't product First and software first.
+(20:25):
+So I tell some companies as well at the beginning, you're not ready for this unless you are ready to take action. And sometimes that's drastic change. Sometimes that's changing up people. Sometimes you look at your organization and say, this isn't the organization that's going to get me to the next level, so we're going to have to make some changes, we're going to have to hire in some more senior people as well who can help train the masses of other people that need training. We're going to have to make some hard decisions, and you have to reevaluate your strategy a lot of the times, and figure out how to set course with that too.
 
-Melissa Perri (00:25:21):
-There are SaaS companies that do Scrum out there and they like it, and I don't think they're very dogmatic about it.
+(20:57):
+I've met a lot of organizations that think most of their issues are in the training of their people. And 99% of the time, I see that it's actually in the way that they're setting their goals and deploying their strategy. Because once you train those people, they have no context on what to work towards.
 
-Lenny Rachitsky (00:25:27):
-Got it. Yeah.
+(21:15):
+So it's such a holistic approach when you actually go through these transformations, or try to set up a product organization. So you either need somebody in there to do it, or you've got to really be ready to move when somebody comes in to help you.
 
-Melissa Perri (00:25:28):
-They do it for a reason of just trying to provide some more context to their teams about how to work together at scale. I've also seen places where they don't prescribe whatever methodology you want to work with for the teams, but instead they'll spend a lot more effort breaking down the road maps, thinking about what are we going to do each quarter, trying to set those themes, and then they just let the teams run, and that works as well. I think it really depends how they adopt it, but I would say it's not a hard and fast rule that no startups are doing this. Some are doing it, I just don't know how it's going for them. To me, it might be overkill if you're doing that with a team that's pretty experienced in doing this.
+Lenny (21:26):
+I was going to save these questions for later, but it's as good a time as any to get into them around strategy, which your book is about, I would say, is the fact that people just build features, features, features, and don't really have a strategy or aren't using a strategy. And so, just spending a little time there, what are signs that your team or your company either doesn't have a strategy or aren't using their strategy?
 
-Lenny Rachitsky (00:26:12):
-What I was insinuating is less just Scrum as a general idea and more very structured rigid processes and also product owners. Then there's this whole concept of SAFe that we can talk about. Should we get into that or should we talk about product manager versus product owner and just the challenges people have there?
+Melissa Perri (21:51):
+Yeah, that's a fair question. Signs that there are no strategy, teams are all working like dogs. They're working 80 hours a week. I see this all the time. People are heads down, crunching, crunching, crunching, releasing, releasing, releasing. Or sometimes not releasing, but they're working like crazy and none of the metrics are moving. So the executive team is going, what is happening? Product is a black box. Tech is a black box. We've got all these people. What do they do all day? A great example of when there is no strategy.
 
-Melissa Perri (00:26:33):
-Let's talk about SAFe because that's where a lot of this started to get Confusing
+(22:23):
+And what usually is happening is there's this missing middle. It's like, we all know exactly what each team... We don't all know, actually, what each team is working on. The teams all know exactly what they're working on, which is usually some kind of feature enhancement, new features, whatever you've got. Bug fixes, all that wonderful stuff. The people they report to usually know what the teams are doing, but the executives are like, cool, how does that matter to our business? How does that actually ladder up into our vision, where we want to go, our objectives for the year, our goals? Great sign that there is actually no strategy deployed correctly.
 
-Lenny Rachitsky (00:26:33):
-Okay, cool. Let's go there. Yeah.
+(22:59):
+Now, when I say, too, there's no strategy, there's usually some kind of strategy, but it lives in people's heads, and they're really bad about writing it down and getting it out. So I always tell people, too, if you think that there's no strategy, go interrogate people for awhile. Go talk to the leaders. Is this good if we hit these numbers? Is this bad? Why? If I release this thing, what do you think will happen? What numbers will change? What behaviors will change? How will this make us better? I usually can pull out what people believe the goals to be, and sometimes they're just not explicitly written down.
 
-Melissa Perri (00:26:37):
-Scaled Agile Framework came out of the desire to figure out how do we scale Scrum and different processes and bring it to organizations at scale. It originated from a more structured approach to agile too called Rational Unified Processing. Now, SAFe wasn't the first thing that started at scale. There was also LeSS, which is a Scaled Agile Framework, and then Jeff Sutherland who did Scrum has Scrum@Scale. It's not the only scaling framework out there. There's a lot, there's actually a lot out there, but SAFe was one that was marketed the best. The way it's marketed is will tell you everything you need to do, to do all of your agile teams with Scrum and put them all together.
+(23:34):
+So that's an exercise that I typically do, too, when I don't see strategy well-manifested in these organizations. I just go in and I say, okay, what does good look like for you? Where is the vision and where are we going? And I ask all of these questions, too, to a lot of people. And you find that there's different answers across the organization, and that shows a lack of alignment on a complete strategy, as well.
 
-(00:27:22):
-The idea behind SAFe was that Dean Leffingwell came up with it. He wanted to really show how you tie multiple teams together at scale in an organization and how do you bring some rigor and process to that. The executives at really large enterprises, we're talking tens of thousands of people, they love SAFe because it prescribes a lot of an operating model of what to do when it comes to development, but it also gets billed as like, "Hey, this is the whole model for you to go do software." If you look at it, it's a big map that everybody kind of makes fun of a little bit, and it describes all different things on it if you look at the map. You can click in and you can see the definitions and you can see what's going on in the areas.
+(23:57):
+I once asked all the executive team at a healthcare company, what's the vision for this company? And they said, to be the backbone of healthcare. And I said, what does that mean? And they couldn't elaborate. Nobody could elaborate on that. And I said, cool, that's a tagline, but it's not a vision. What are we manifesting into? What are we doing? What are we not doing? Who do we want to be when we grow up? Five to ten years from now, how are we different than we are today? Those things, more often than not, are not written down, and they're not clearly communicated.
 
-(00:28:10):
-The SAFe image has gotten bigger and bigger over time. I think, what is this? Version six. I do know a lot of people who worked on SAFe, so I know a lot of trainers and I've worked with companies. The first time I was introduced to SAFe was when I was working with a bank back in 2015. I came in to train their product managers, I'm doing my training, we're setting them up on how to go talk to customers, talk about hypotheses, MVP, and somebody came up to me and they said, "Hey, Melissa, all of this is great, but I don't have time to go talk to customers because I'm a product owner." I was like, "Well, what are you doing on a day-to-day basis? What don't you have time for it?", "I got to write my user stories." I'm like, "Okay. How many user stories do you write per day?"
+(24:28):
+So one of the exercises we do is we write. If I see that there's no strategy, I have CEOs write two-pagers on where did the company come from? How is it different today? What are our external treats to our market? What's our competition? How do you view our competition? What should we care about? What should we not care about? What are we going to do? What are we not going to do? And then prioritize their strategic intents, or what I call them, which are really big business movers, for the next two, three years. So it's like, are we going to go up market? Are we going to go down market? Are we going to expand geographically? Are we going to innovate into a completely new market or a new opportunity?
 
-(00:28:53):
-This was for the developers to have a full backlog so they could all work, right? She's like, "Oh, yeah. I spend pretty much 40 hours a day writing user stories." I'm like, "On what?" We're like, "What are you controlling?" She's like, "The login API for a bank." I'm like, "Can you log in?" She's like, "Yeah," and I'm like, "So what else are you working on? Is there a new initiative? Is there a new thing?" It's like, "No, I was reorganized into a team where I became the product owner. I have a product manager who goes and talks to customers, but then she comes and she tells me what to build, and then I write the user stories around it and I put it into the backlog for the teams." I was like, "What is this?" Then they said, "That's SAFe. This is what we're working towards."
+(25:13):
+Those types of things need to be clearly prioritized at the top, and then we can start to make the product portfolio at the bottom. And when there's a missing strategy piece... I call it the missing middle is usually gone, which connects those strategic intents and those business outcomes back into what the teams are actually doing. So it's like, great, that team is building a widget for sales people to do cold emails. Why? How is that going to move us into what we want to do for our vision? Is it retaining people because we have a problem with our current market? Is it allowing us to enter a new market if we put it together?
 
-(00:29:34):
-This was my first experience with SAFe, and then I ran into another company that did it, another company, same thing over and over and over again, where all these product owners were just basically trying to keep these backlogs full for developers, and they were working on such a narrow level. When a lot of organizations too I saw it reorganized into agile teams, they did it by component. Everybody was over every tiny little feature, and these teams were massive, super huge scope, and some of the stuff was just not prioritized. It was done, you didn't need to work on it. They were finding work to do so people wouldn't get fired. That's how the product owners operated. There was all this legacy baggage sometimes in companies where they were all re-put on things by component, and they're just making up work to do.
+(25:51):
+But if we think about all the things that teams do in isolation, it's not enough, usually, to move those business metrics. So what people do in a lack of strategy is they spread the team too thin across tons of initiatives. One team usually isn't enough to get some really hard hitting metrics out there. And then, you don't see the progress that you're actually looking to see as an executive.
 
-(00:30:21):
-SAFe introduced this kind of split between product manager and product owner, and if you look at the map, the product owner is part of the agile team where they sit with the Scrum masters, which is a team coach that they call here and the developers, and then the product manager is sitting with a system architect and what they call a release train engineer. What SAFe does is they pull a bunch of agile teams into a release train and you get on the train when you're ready to ship things and you make sure that it all goes pretty smoothly to get to that potential shippable increment or that big feature launch that you would be doing with SAFe. 
+Lenny (26:16):
+If a feature ships but no one knows about it, did it really ship? Keeping customers and internal teams like sales support and marketing in the loop on what's changing across your product is surprisingly hard. First, you have to dig through tickets and poll requests just to see what's been done. Then, you have to figure out what's relevant to each person, craft updates, and then share them across all of your channels. Multiply this by the number of things that ship every week, and that's basically a full-time job just to keep everyone updated on what's changing.
 
-(00:30:58):
-SAFe's really good at prescribing how to do that, they're great at describing how to do the release trains, how to bring those teams together, how to put them on it. Then they do this thing called big room planning where they get the entire release train together, all these teams, they put them in a room and in every quarter you're breaking down what we're all going to work on. Where I hear frustration from teams every time I come in and train them is that when you do big room planning, a lot of times it's a commitment. You start at the quarter, they haven't been doing good discovery because remember, these people have not been trained on good discovery so they don't really know what they should be working on, they haven't been out talking to customers a lot of times. They kind of scramble, they figure out what needs to happen. Usually they have a backlog of stuff that does need to happen, it just has to get done. They map it all out in a big room together, they commit to it, and then that's the quarter.
+(26:44):
+That's why high velocity product teams like Monte Carlo, Armory, and Popsicle use Makelog. Makelog makes it easy to see what's happening across tools like [inaudible 00:26:54], Linear, Assan, and GitHub, and then to write bite-sized updates, which you can immediately share with your audience, wherever they are, including within your app, on Slack, over email, and even on Twitter. No more long, boring, blog-style change log posts that slow you down. Just quick and easy updates that keep your users informed and happy.
 
-(00:31:47):
-They ask me, "When am I supposed to do discovery?" I'm like, "Well before that ideally you should have a vision. You should be breaking it down, you should be putting discovery into that vision, talking to customers, feeding that in there." Then I hear, "We don't have time to do that because we sprint back to back." I was like, "What does that mean?", and they're like, "As a team, we go and we basically do two-week sprint into two-week sprint into two-week sprint, and I got to make sure my developers are full. I got to make sure they have things to work on. If I go take time off to go talk to customers, which also is not my job as a product owner, it's my product manager's job, they'll feed me in what the customers are saying, then I break those down into features and I can work with the developers on it." That's how all of this stuff starts going.
+(27:14):
+Try Makelog for free today. Just visit makelog.com/lenny to get started.
 
-(00:32:32):
-What happens in organizations that they don't understand here is that it's not the most efficient way to work. I see a lot of developers out there become almost ... How do you describe it? Reliant on the product manager or product owner to tell them what to do. Even though you build them this great vision and you explain what needs to happen, they go, "Oh, I can't work on it because the product owner hasn't prioritized it." Then they asked me, "If I don't have enough for the developers to do on feature work, what are they supposed to do?" I said, "I guarantee you there's a ton of tech debt they could be working on. You don't have to scope that out. Let them choose what's the most important thing. They should be working together as developers and architects to figure out how to tackle some of that tech debt, how to get into it while you're figuring out is this the right thing to be building."
+(27:20):
+So you're a PM on a team, or even just a leader of a company, and you're like, hmm, I think we might have a strategy, maybe we don't. I'm hearing things that are true at our company, and I'm worried. What does it look like for me to have a strategy? You named a few things that you should probably have, a vision, intents and actions, and things like that. What's the checklist of, oh, if I have this, this, this, that, we probably have a strategy in place, at least?
 
-(00:33:23):
-With all of this stuff, people feel like they don't have time because they're in a million meetings, and the expectations of these companies is that every sprint, we're delivering software towards these roadmaps that we promised in the last quarter and we're not checking to see if they're right, we're not checking to see if they're actually helping us move it forward, and a lot of times the organizations are not set up with the right feedback mechanisms, the right user research and the right data to tell us if everything is working so they can feed that in to the next release planning. They're just planning, planning, planning, breaking it down into sprints and going.
+Melissa Perri (27:48):
+A good test is you go to all of your teams, and you ask them what they're doing and why, exactly what I was talking about before. And they all tell a similar story. We're working on X, Y, and Z because it goes into this initiative, and it causes this type of value for these customers, which, in return, is going to get us this business value and help us enter these new markets. They can connect everything they're doing, from the tactical stuff on the team, all the way back up to the business metrics.
 
-(00:33:58):
-SAFe is not good at describing how you do all that other work. In a lot of this stuff too, there's pieces that they put onto this map of SAFe where they're like, "Hey, you should do OKRs," and it's like, "This is what OKRs are. You should do a roadmap. This is what a roadmap is." How all of that cycle works together where you're balancing discovery and delivery and feeding it in is really confusing in organizations. Then what it's basically saying is a lot of the discovery work goes into the product managers, and the product managers, the product owners report into the product managers. What I've seen that doesn't work here is that you're basically making these product owners order-takers. They are extremely tactical, and then when it's time to actually be more strategic, let's say you want to be promoted to a product manager, some organizations, that's not even the same business line, not even the same career path. It's product owners go over here and product managers go here and they report into different people.
+(28:14):
+And if you deploy your strategy well, your product teams will deeply understand how their stuff actually impacts the business. And if you don't deploy it well, they're going to be like, I don't know why I'm building this stuff. If you have a bunch of people asking you, why are we building this, then you didn't do a good job as a leader explaining what it is that you're after. So everybody should be telling the same story.
 
-(00:34:58):
-If you ever want to move from product owner to product manager, a lot of times you don't get experience with the strategy, figuring out what customers want, breaking it down, looking at the market research, determining is this valuable, is this what we should be working on. They're not even getting exposure or a chance to do that because SAFe is like, "No, that's the product manager's job. Your job is to go really deep and work with the developers."
+(28:39):
+Another amazing sign when this is all done really well, too, that I love, is there's usually way less infighting across stakeholders and executives. One of the biggest issues I see in organizations is when executives all have different goals, and they're not aligned on the same goals for the company. So it's like, sales teams over here are like, no, our goal is new logos. And you're like, cool, but in what markets, and how is that prioritized against what we're building from our product roadmap, and why is this not in sync?
 
-Lenny Rachitsky (00:35:21):
-Wow, okay. A lot of this sounds quite absurd as someone hearing all of the details and looking at this image. That being said, many companies are adopting this. It feels like it's growing. More and more companies are adopting this as the way to work. I imagine the incentive is we just want to build great software and we don't know exactly how, and there's this process we can plug in and it'll help us do it. I guess thoughts on that, and do you find it can work or often works or often doesn't work? What is your experience with people adopting this and how it goes?
+(29:13):
+And I've seen really bad CEOs pit their executives against each other with different goals, so they don't see each other as one team. And the executive team should be one team. And the best teams I've ever seen, the most successful companies I've ever seen, everybody works together, and they're like, these are our goals, and these are our business goals.
 
-Melissa Perri (00:35:59):
-I know a ton of companies that adopted SAFe about eight years ago and have gotten rid of it. Capital One just came out and said they got rid of all their agile roles, all their Scrum roles. They were early adopter of SAFe, they don't do it anymore. They wrote about that in the newspaper. I've seen it happen more often. Now, in a lot of our organizations too I'll see parts of them do SAFe and other parts not do SAFe. It could change business line to business line. I don't think though that people grasp how much it's still out there. I get questions on SAFe every single day on the podcast. Everybody asks me, "Why are we still doing this?" It's for what you said, executives buy SAFe because it's the only framework out there that basically draws them a map and says, "Plug and play, do this."
+(29:32):
+So when strategy is deployed correctly and you have that type of culture, too, with your executives, they're all on the same page. So you can have very calm trade-off talks about, are we going to do strategic intent one or two? If we do this, then we don't get that. Are we okay with that? And it's not emotional, it's more objective, because we're all there together to further the business.
 
-(00:36:50):
-That's why everybody's so excited about it because it's the only thing that specifies things to this level, and they went, "Oh, it's something I can understand, it's something that actually has definitions around it." To be fair, that was a great thing for SAFe to do as a marketing tool. Bravo, they created this thing that everybody wants, a good product to sell, but it's overkill, and that's what I keep hearing from organizations is it's basically taking the responsibility away from leaders to go figure their stuff out themselves as well. If you are a new leader and you've just been dropped into this role, I have tremendous empathy for them because yeah, where do you get started? How do you try to run a technology organization?
+(29:57):
+And a lot of times, we complain, as product managers, about stakeholders all asking for different things, and that's always going to be the case. There's always going to be a little bit of that. But you typically will get less of that on the team two, because the priorities within each part of the business should be aligned to the overall priorities. And it will be easier to manage, and it's easier to push back on why we're not doing one thing over the other thing, because we all know what our goals are, we all know what the company priorities are, and we can see why one thing versus the other won't work.
 
-(00:37:33):
-Somebody came and told me, the CIO came and told me I'm in charge now. I'm in charge of all of the developers, or I'm in charge of all the product managers. Now, where do you start? I can totally tell why people adopt SAFe because you're like, "Oh, I've been looking for the handbook. I've been looking for something to do here." The problem is it's only solving a little bit of the puzzle, which is bringing those teams together. People do say it does really strains well, but it doesn't tell you also how to do your job as a leader, it leaves it all out. They talk about portfolio visions and portfolio management and SAFe there too, but more often than not, I come in and I find everybody above product owners and product managers, let's talk about directors of product, VPs of product, they don't know what they should be doing as a VP of product or a director of product. It's like, "What's my role? What should I be feeding in here?"
+Lenny (30:30):
+So you have these conversations, which make so much sense. Just talk it out, see if everyone's on the same page about your goals, how you think you're going to get to that goal. What do you do with that? Do you usually recommend people throw it into a Google doc that everybody sits there and just confirms as happy, and is there a template that you share with people, like, here's what we're going to fill out by the end of this, say, three month process?
 
-(00:38:23):
-SAFe doesn't even have that in there, that's not even a role. Product manager going up into those levels is not really there. What do you do when you own a whole product line in an organization? What you do when you're the head of product for a credit card at a bank, right? What's my job? Doesn't say that. There's a lot of people out there in these organizations that I've been working with who I'm like, "You are supposed to be doing strategy, and this is how you do strategy. This is how you go out and talk to customers. This is the patterns that we have in software. Are you doing a platform strategy? Do you need APIs? How do you think about your app strategy, rolling it out? How do you do this here?" All of that stuff doesn't quite come from ways of working, which is what SAFe is doing. It's about how do you do your jobs in those areas?
+Melissa Perri (30:50):
+Yeah, I think it varies from company to company. Some companies already have their own template, and I'll just use that. I don't try to reinvent the wheel when it doesn't need to be reinvented. But I'll say the memos that we would write are probably... They're very easy to explain, two pages for me on what's the vision, where are we going after, how are we positioned in the market and against competition to reach that vision, where are we today, what's the current state of our product, what does it actually look like, what are we going to do to get there, what's our priorities. And then I make people prioritize them, so I'm like, if we're going this way, are we solving this problem? What does that mean, context-wise? And then, what are the outcomes that we're actually trying to achieve when we get there?
 
-(00:39:12):
-A lot of organizations who adopt SAFe don't realize that you need a head of product, you need somebody to actually be feeding that vision all the way down and make sure it's breaking up around the teams and controlling that portfolio vision and doing all of these things into it. I have not seen SAFe slowing down by any means out there for people adopting it, I see more and more organizations adopting it. I think we take for granted too in Silicon Valley how many people are just starting on their journey for digital transformation. There's a lot of pharmaceutical companies, banks, insurance companies, they outsource their development or they had an IT team, but they never had to really think about it before because digital wasn't as important. Now they do.
+(31:33):
+And I do that at different levels. So we typically have executive teams writing the strategic intents for the business level. We've got product management leadership, directors, VPs, CPOs writing the product initiatives. Usually the CPOs aren't writing them, it's more like director-level VP for their scope. Product initiatives are usually very problem-oriented around big problems we can solve for our customers. They're meaty. They're usually made up of multiple epics. And then you've got your product teams on the ground floor working with the developers. I use [inaudible 00:32:07] everybody doesn't agree on what they are. I call them options, sometimes, too, but it's the solutions. What's the solutions you're going to build to actually get into those product initiatives? Solve those problems for the users, and then hit those strategic intents.
 
-(00:39:59):
-Some of these companies, most of these companies are Fortune 50 companies, right? Fortune 100 companies. I think a lot of the ones I see, at least banks, realized early on, "Hey, when it comes to apps and how people interact with our stuff, software is important," but there's a lot of companies that did not catch that train and they're just starting, and then they turn to things like SAFe because it gives them a guideline. "Hey, I've never done this before. I've been in this bank for 40 years. All I know is waterfall type development. What do we do?" Then we'll go, "We'll go look at SAFe."
+(32:22):
+So you have to pretty much write a one-pager or two-pager like that for every one of those levels, and I think that's great. I think the more we write about these things, the more we talk about it, the more we put it into pros, the better. And it's not like a product requirements document that's 20 pages, it's like a two-pager, just explaining what we're doing and why. And that context, we usually throw into Google docs or Wiki or something like that, link them all together so that you can go from one to the next, and then read all the way up the strategy tree.
 
-Lenny Rachitsky (00:40:33):
-I love that we spend time on that because I think it's really important. You can be cynical about all this and be like, "What the hell are people thinking? This is crazy," but as you described, people just have a problem to solve, they've never done this before, they look for solutions, they find something that seems right, they see other people doing this and like, "Okay, let's try this thing." What you've seen is it rarely actually works out the SAFe specific approach.
+Lenny (32:50):
+I love that. It's so simple and not so formulaic that it feels like any company could do it, and it's not this rigid, one way to do it process.
 
-(00:40:59):
-There's a few ways I think we can help folks. One is someone trying to do say an agile transformation or a digital transformation, your advice for how to actually do that better. Then I want to talk about say you're a product owner or a PM within an organization that works like this. What can you do? Maybe let's start with the first. Say someone's trying to figure out, "We need to build better products. Something's not working right." SAFe is an option. Your suggestion is don't maybe do that. What should people do? I know you're not going to have the answer in a short answer, but generally, how should people approach this?
+Melissa Perri (33:00):
+Yeah. And I don't think there should be for certain things. I think every company, with a lot of these processes and tools and frameworks that we get into, you've got to massage it all and make it your own. And you're going to find certain things are going to work for one company that don't work for the other company, based on their culture and what they do. But I think the more that we can write and talk about things, the easier it is for all these different companies to find their way of working. And then you codify that, and you deploy that throughout your organization.
 
-Melissa Perri (00:41:33):
-Yeah. When I've worked with companies on digital transformations, you want a development operating model. That's where a lot of these agile methodologies came out of. You have to understand that's just the development operating model, that's not actually going to help you with go-to-market, with launching your products and with product management. What I advise for companies to do is first sit down and say, "Hey, how do we think about building our operating model?" When I think of product operating models and what I do with companies is we break out how do you determine product strategy? Do you have a good product strategy? You look at your organizational design. How are we actually organized around our products? Do we have good coverage of product managers and do we have skilled product managers up and down the organization?
+Lenny (33:29):
+On the vision piece specifically, it reminds me, when I was managing PMs, one of the most common areas of development for them was get better vision. Because it always is like, mm, here's an opportunity to get better, vision. And it's always hard to explain exactly what that means and how it looks when they're doing better at vision, other than just coming up with an incredible idea that we execute on. So maybe very tactically, what's a form factor you suggest for folks to even lay out a vision? It sounds like you really encourage writing. Is that how you like to think about it? Or do you find storyboards are often great, or sketches, or anything else?
 
-(00:42:20):
-Then we want to look at product operations. Do we have the infrastructure in there to help support these teams? Can they get the data to make decisions? Can they actually be in touch with customers? A lot of these large organizations haven't actually thought through many of those steps as well that enable product managers and development teams to be successful. They don't have ways for them to go and talk to customers. That's why they're not doing it. I have a lot of empathy for people in these organizations as well who can't do product management well because of the bureaucracy or the things around it. Leaders need to solve that, right? They need to understand what the role is and they need to open it up.
+Melissa Perri (34:03):
+Yeah. When I write out visions, I like writing. I think that, to me, is probably the easiest way I've seen people lay it out. I've also seen people put together a great [inaudible 00:34:14] was in there consulting. We had one team with a fantastic head of UX and a VP of product who would sit there together, and they made a great presentation of the vision. But they mocked up prototypes of what it could be. And it wasn't tested or set, but the visual pieces of that got people really aligned over, oh, okay. And the diagrams, I find, when you can show how certain things relate to each other, sometimes it does come off in words.
 
-(00:42:57):
-Then we got to look at our culture and incentives. Are we just rewarding people for shipping as many things as possible, which is like, "Hey, just put everything you possibly can into that release train or that backlog," or are we coming back and saying, "Hey, is this valuable? Is this tying it back to our business?" Many organizations do not have a great product strategy, many large organizations that I've worked with, and it's that tying it back to the value piece, tying it back to, is this going to reach our company goals? If you are a huge organization and let's say making billions of dollars a year, and your goal is expand geographically, what are you doing in your portfolio to actually enable that? What products are you building to expand geographically? So many organizations don't have the transparency to actually even see that.
+(34:44):
+So I like a combination. I like a combination of some kind of presentation plus writing. And I think if you do those two things together, it becomes really powerful. But for me and for a lot of people, especially executives I've seen too, sometimes they're more visually oriented. So if you can grab your UX designer and sit there and sketch out ideas... And it doesn't even have to be wire frames. It doesn't have to be the end state of the product. It could just be how customers interact with things, or diagrams about the ecosystem and stuff like that. That just helps to draw a little bit more color on it. But I think those two things go hand-in-hand.
 
-(00:43:50):
-One crazy thing, a lot of people give large organizations a lot of flack for, and I know Marty does this too, for focusing on processes. I don't think processes are the enemy here. For example, if I hear somebody really worried about getting a roadmapping tool in there or something like that, I'm like, "Yes, you need that because you have no idea what your 4,000 teams are doing." If they're actually coming back to the business goals, you have no infrastructure in there to be able to see that transparency. Those types of blocking tackling is absolutely necessary for a transformation for a organization to be stood up around software product management. You have to have the transparency to actually see those things.
+Lenny (35:20):
+I love that. I find that anytime I have a designer helping me with anything like that, I always look so much smarter...
 
-(00:44:29):
-You do need to have enough process so that you as an organization can be efficient in getting things out the door, and that's what I think SAFe was trying to do, but it's not working because it's not solving the problems of the product management and it's not solving that problem of connecting the value back to the product teams. Instead, it's seen as a role that almost babysits developers or tells everybody what to do. Where's the discovery? Where do those things come in? I know with the SAFe image that we got over here, they try to drop things like Lean UX in there, which Jeff Gothelf thinks it's hilarious, but it's not really pulling it all together of how do we do this on a cadence? How do we help people go out there and actually talk to customers? How do we enable them to do it?
+Melissa Perri (35:20):
+Oh, so much better.
 
-(00:45:15):
-If you're starting a transformation, it's not just thinking about how do we build the product, but you should also be thinking about how do we launch the product and how do we make sure this is the right product to do. That's the big pieces of it, and that's where all that product strategy comes in. You should also look at the career paths. This is what really bothers me about agile transformations and what bothers me with Scrum and SAFe is that when we organized in these large organizations into agile teams, we made all these new roles called a product owner, and so many organizations don't have a career path for them so they email me and they go, "What's my career path? What do I do next? Where am I supposed to go?"
+Lenny (35:20):
+... because they made it look so much better. Yeah, exactly.
 
-(00:45:59):
-I've been saying for 10 years, this is not a team role, it's not just a team role, it's a business role and it rolls all the way up to helping you further your business. You have to make sure that people on teams can be promoted to running multiple teams, can be promoted to running an entire product line. To us, that's so simple in Silicon Valley native software companies, but it's still unheard of in other organizations. What happens too, and this is where I think leadership and C-suite needs to really pay attention, because we're transforming in this way of working, what happens is some of the roles that we had before do not serve us now. Maybe we don't need a million project managers, maybe people in the business who decided what we're going to build, are they the right people to bring with us on this next phase into product management? Can they learn? Can they grok software? Do they understand those pieces? That's what we have to ask.
+Melissa Perri (35:20):
+Oh, I love it.
 
-(00:46:58):
-Organizations are so afraid sometimes to put these career ladders in because it kind of overhauls their traditional ways of working, and then they've got people who've been in these organizations for 40 years and now you're saying, "Hey, you're actually not in charge of that, the product manager is in charge of that," and that's scary. A lot of them get in the way because of that. If you really want to transform though, the C-suite has to be like, "Hey, we're going in this direction," and just put it down because I've seen it run by a lot of middle managers, a transformation run by tons of middle managers, and those are the jobs that are usually in most jeopardy when you start transforming and you have to re-skill and you have to figure out what to do, and they don't want to do that. They're not going to be the ones who jump up and down and say, "Hey, let's do this."
+Lenny (35:20):
+Such a superpower.
 
-(00:47:41):
-There's a lot of people out there, I think, pushing organizations to try harder and to internally as well. I've worked with a lot of people who run these transformations who just really want it to work, and I think they do it with the best of intentions, but the C-suite has to understand this is not just a transformation project, this is a whole new way of working, and if we want a whole new way of working, we have to really rise to that occasion.
+Melissa Perri (35:32):
+It is. And it's amazing. But I've seen that in every type of presentation. You bring in a designer to help you with board slides, and you're like, oh my God, it all makes sense now. I could talk over these types of things...
 
-Lenny Rachitsky (00:48:07):
-This episode is brought to you by Coda. I use Coda every day to coordinate my podcasting and newsletter workflows, from collecting questions for guests, to storing all my research, to managing my newsletter content calendar. Coda is my go-to app and has been for years. Coda combines the best of documents, spreadsheets, and apps to help me get more done, and Coda can help your team to stay aligned and ship faster by managing your planning cycle in just one location, set and measure OKRs with full visibility across teams and stakeholders, map dependencies, create progress visualizations, and identify risk areas.
+Lenny (35:32):
+Right, you look like a genius.
 
-(00:48:42):
-You can also access hundreds of pressure-tested templates, everything from roadmap strategy to final decision-making frameworks. See for yourself why companies like DoorDash, Figma, and Qualtrics run on Coda. Take advantage of this special limited-time offer just for startups. Head over to coda.io/lenny and sign up to get six free months of the team plan. That's coda.io/lenny to sign up and get six months of the team plan. Coda.io/lenny.
+Melissa Perri (35:45):
+Yeah, you look like a genius. You're like, damn, these look real good. So I think there's just such a joint relationship with any type of presentation where you're trying to explain where you're going or what you want to do. If you can explain it through visuals and with design, it's just going to be so much better for everybody.
 
-(00:49:13):
-There's a few things I want to pull out from what you just shared. One is, just to clarify, you recommend not using SAFe, you don't think that's a good approach?
+Lenny (36:02):
+Yeah. On the vision piece, do you have any general advice for getting better at vision?
 
-Melissa Perri (00:49:21):
-I do not recommend using SAFe. Yeah.
+Melissa Perri (36:07):
+I try to think about a lot of... There's a couple tips, here. One, a vision should be concrete enough where people can picture what it will be in their head. It can't be a fluffy... be the backbone of healthcare. What does that mean? I don't get it. So people need to be able to look at a vision and say, I can understand that we're going to get there one day. I don't know how we're going to get there today, but we will find out along the way. That's a good vision. It's lofty, far enough away where you can't just be like, oh, we build that one thing, we hit it. That's not a lofty enough vision. It should be something that you really want to iterate through, and test, and try to figure out how to get there.
 
-Lenny Rachitsky (00:49:24):
-Great.
+(36:53):
+It should not be what you are at today. That's a sign of, you hit the vision already and maybe you're just tweaking and exploiting it, which is totally fine. But that's not really a good vision for the future.
 
-Melissa Perri (00:49:25):
-There are people who like SAFe. Let me just say this, there are people who found success with SAFe. Every single person I have talked to who like SAFe found success with SAFe, they ended up ripping it up and making it into something else. It's not actually SAFe by the book. If you do that, fine, that's any process. If you ended up adopting SAFe and you want to go back and look at it and say, "Actually let's just get rid of all the stuff that's not working and keep the stuff that is," fine, but being open to understanding this is not the way that we do good product management. There's not a lot in SAFe about doing good product management. That's the stuff that we have to understand. It could help in certain areas, and I do think it does help in certain areas, bring some rigor to things, but if you take it too far, it will destroy things.
+(37:04):
+I'd say, too, the way that I think through it is, how are we different? And it's crazy how many visions I've read where nobody actually talks about how they're different. It's like, we're going to be the best. Be the best, all right. How are you going to do that? And I think it's fine, while you're formulating a vision.
 
-(00:50:17):
-There's actually a great story about a water company in the Netherlands and they decided to adopt SAFe, and this was on the news a couple months ago. They decided to adopt SAFe in their IT teams and start working with it. They ended up going bankrupt, and the reason they ended up going bankrupt is because the teams were learning the processes for SAFe, they were taking so long to deploy their new invoicing system and payment collections that they couldn't collect payments from customers because they got so caught up in the process.
+(37:27):
+And this is why I personally like writing. I just literally brain dump in there, and be like, well, our competitor A does X, Y, and Z, and we definitely don't want to be like that. So what could we do to be different? We could do this, this, and this. And if you just brain dump all those ideas about what type of value it will bring for your customers, who you want your customers to be. Sometimes I don't read about future customers or who you want those customers to be in the future. How is the value different than the value you provide today? Is it going to be different, or just doubling down on what you do? The ways that you provide those values, how is it different than your competitors? Why is it better? Not just being better, but why is it better? What's the ways that you're going to win?
 
-(00:50:53):
-That's what I see happen a lot in these organizations. Instead of talking about what's really important, which is, "Hey, how are we serving our customers? How are we winning in this market? How do we stem churn? How do we do all these things?", we're talking instead about, "What stand-ups are we doing? Oh, how do we do this release planning? Oh, my God, you guys didn't sprint back to back, you did it wrong." We're talking about work about work, but we're not actually getting into what are we achieving here, and that's the part I do not like about rigid processes when it comes to this.
+(38:15):
+And then also, I think good visions also say what you don't want to do. I love reading a vision that's like, we're not going to be like that. And that, to me, is so powerful because you're like, oh, okay, we're not going to copy that. We're not going to go after that. Because you can easily have a whole team be like, oh, let's just copy what they did over there.
 
-Lenny Rachitsky (00:51:28):
-That touches on the other theme I wanted to bring up is it feels like the stuff is a kind of replacement for skilled, talented people, a product leader that understands how to do these things and has product taste and has organized teams to build great product. It feels like people are just, "We don't have that so we're going to create this. This process is going to fix all our problems." Can you talk about just the importance of that, the people you hire to run these things as key to this, if that's true?
+Lenny (38:33):
+I'm learning a ton. Thank you for sharing all this. This is, for me, really helpful, too.
 
-Melissa Perri (00:52:00):
-In a lot of organizations, the people who buy SAFe, they have not run large scale technology organizations before, or they're new to this way of working so they adopt SAFe and they hope it works because it looks like a nice plan, like we said, to go out and do things. When you're doing a transformation, a lot of companies are pulling people into these roles for the first time. I've said since day one that I've been working with companies, it's okay and I think it's noble to want to train people and put them in different roles. Cool. If you're going to spend money upskilling your people, do that, but you also have to intersperse people who know what they're doing. I think at leadership it's really important to bring in somebody who knows what they're doing to help run this type of thing.
+(38:38):
+On that topic a little bit, say a PM wants to get better at strategy, which we talked a little bit about. Do you have any advice, someone trying to get better at being more strategic in thinking about strategy?
 
-(00:52:44):
-There are more people out there and more leaders who have done this before because we've been doing this for 10 years. There's Shruti Patel, she's chief product officer at US Bank for small business banking. I just had her on the podcast. She worked at Shopify, she saw how great teams worked, and then she was able to come and help apply that at a bank. She's experienced, right? She's an experienced product person who comes in to help. Melissa Douros is the CPO of Green Dot Bank and she had worked at Discover Financial leading the transformation there, did all that work, and then could bring it to Green Dot Bank. She can see what needs to happen, what needs to actually go on here.
+Melissa Perri (38:49):
+Yeah. It was interesting. I was just talking to one of the chief product officers who graduated from my program last year, and now she's the CPO of a company. And I said, what was your advice for especially people who are not chief product officers yet, or ICs? Because I hear from a lot of people, I'm not getting the opportunity to work on strategy. And I loved her advice because she said, even when I didn't have that role or responsibility or that scope, I sat there and I still imagined what I would do if I was in their position. And I think that's powerful. Pretend you're the CPO. Would you do something different? What would you do? Can you dig into the data? Can you ask questions? Can you get into there?
 
-(00:53:23):
-We've got more and more people out there who have done this before who are looking for these opportunities to do it in the bank, and I think it's important for C-suite to bring them in to actually look at that. Where I've seen transformations be the most successful in all these organizations is when you do that mix, you keep some of your people, but you also bring people in to learn. I get hired all the time to come in and train. I've worked with almost every Fortune 50 company at this point, fortune 100 company too, and I get in, I come in to train a lot of product managers. We do it through Product Institute and we'll train everybody. What used to happen about eight years ago is they train everybody and they would say, "Go." Where do you go after you bring in the consultants to do training to keep learning? How do they watch other people in the organization do great product management if there's nobody in the organization who's done it before?
+(39:29):
+And I'm not saying, go reinvent the wheel for the company. But it's going to give you reps. It's going to give you the experience asking those questions. So I think that's powerful, picturing what you would do in their scenario.
 
-(00:54:20):
-Luckily I think a lot of organizations are realizing that, so more leaders are out there who are saying, "Hey, I've got to actually intersperse skills here. I need to bring in some more directors who are experienced here, some more individual contributors who are experienced here." Those organizations I think are wildly successful because they recognize it and they say, "I've got to make sure that people can learn from others." That's how you keep developing, that's how we all keep developing, it's not just doing all external classes. That's where I think these things become powerful. You could do that at all levels. You don't have to just do it with the teams, you could do it at director level, you could do it at VP level. That's how we should be thinking about this.
+(39:42):
+If you want to get better at strategy, talk to people who really understand the market, really understand the financials. I'd go talk to your chief product officer if you have one and just ask them, what's your process? How do you set this? We got to these three priorities, or something, how'd you get there? What'd you look at? I think that's important, just having conversations with people about what their thought process is, how they analyzed it, what that means. I think that's really important.
 
-(00:54:57):
-Now, there are some CPOs out there and some VPs of product in these large organizations who are new to this way of working, but they've committed themselves to learning and to trying to figure out how to do it best. They're not saying, "Hey, I'm just going to adopt SAFe or I'm just going to do whatever is over here," they're actually saying, "What don't I know?" I'm watching them go out to talk to other CPOs, do all these other things. They usually have great market knowledge, great business knowledge, and they're fantastic at strategy, and then they hire people underneath them who are great at the other pieces like the execution and getting the software at the door. I think those people are successful in it as well because they notice their skill gaps and they hire for it just like any great leader would.
+(40:08):
+When you get into setting strategy at higher levels for product, a lot of it has to do with the market, and the customers, and the financials, and things that we don't get exposed to as much as a team-level product manager. So the more you can talk to people in other disciplines... Go have a conversation with sales and see why people were buying competitors? What was your win-loss analysis? Why are we losing? What do you think is the issue? A lot of times, we just don't go and talk to other departments. And they have a wealth of knowledge. And we've got subject matter experts sitting in certain places that can fill you in on how the market's moving, and what things are happening there, and how people are innovating. And it is fascinating to talk to those people.
 
-(00:55:41):
-In these organizations, I do see sometimes SAFe for something being a crutch for people who don't know what they're doing to bring in. If you really think about, "Hey, how do I make this better?", and have that continuous learning mindset and that way to want to propel this forward, I think you'll consider other options and start to think about broader than just SAFe, broader than just agile, what do we need to make this successful?
+(40:50):
+So I would do that. I would talk to other departments. I would talk to your leadership, try to understand their thought process.
 
-(00:56:07):
-The key part of this too is recognizing that product management is not just this role in Scrum. I say this in my talk too, I say Take Scrum away. You still need product management, right? Product owner doesn't exist without Scrum, that's not a thing, but you still need product managers and that's why all product owners should be product managers, they should be fundamentally product managers. That's why I do not like these career trajectories that keep them separate. Sure, if you want to have a principal IC product manager like they do in a lot of large Silicon Valley companies, perfect, let people keep working on those things. They don't have to go into management, but that doesn't mean they're different. Between an IC product owner and an IC product manager, it shouldn't be different there.
+(40:56):
+If you are a leader and trying to figure out how to do a lot of this, one of the biggest issues I see for leaders, and why I got very excited about product operations over the last couple years, is the lack of data. One issue I see is that leaders have never really set strategy before, so they get into these positions and they don't know where to start.
 
-Lenny Rachitsky (00:56:55):
-Perfect segue to where I wanted to go next, which is say you are a product owner today listening to this and you're like, "Man, this is exactly my life. What can I do?", what's your advice to folks in that role right now about how to potentially become product managers, build the skills they need to not just be stuck in this career path that doesn't go anywhere?
+(41:17):
+And the place that you need to start is data from everywhere. You need to start with internal data, and you need to have an analyst on your team. I also tell them, hire a data analyst. Hire somebody, some ex-McKinsey consultants. They're great at crunching data. I had them on my team. It's amazing. But they'll pull the numbers out. They'll find interesting patterns for you. And you say, I want to answer these questions, and they will go get the data for you, put it into ways that you can actually look at it, and then you can actually start making informed decisions.
 
-Melissa Perri (00:57:14):
-Yeah. I think the first thing is bringing awareness to that your role is more than just working with the developers. A lot of leaders argue with me that we need product owners because it just doesn't scale. You've seen massive companies at scale where they don't have any product owners. I do not understand that. It's a weak argument to me, it's a very weak argument. It just means you don't know how to distribute the work evenly and give a little bit of strategic guidance to product owners so that they can gon, or product managers, on a team so that they can go and build visions and cut down features and stuff like that. If you're a product owner and you're like, "Hey, I don't have the opportunity to talk to customers, my product manager does that. I am just working with the teams. I want to be more strategic, I want to think longer term," I'd say try to take some ownership over that and push back on the things that are being given to you.
+(41:45):
+So you want to take that data. You want to take customer research, so whoever is talking to customers, you want to bubble that up and make sure that you can see that as well. You want to take the company goals and put that into context.
 
-(00:58:04):
-I was doing a workshop for Mind the Product back in the day, and I had a product owner in my workshop and she said, "I don't think that things we're working on," they were doing SAFe, "are the right things to work on." I said, "You should bring this to your manager," and she was like, "I don't know. I'm going to get fired. I don't think it's the right thing. What am I going to work on if we're not going to work on this?" I'm like, "Well, this is the beauty of product instead of project, we stay with the product." Just because your project ends doesn't mean that you lose a job. She put together this whole thing, went and said, "I don't think we should be working on this," and they promoted her. They were like, "Fantastic." She took this leap of faith and went out there and started saying, "This is more. We need to do more."
+(41:55):
+And then, really, strategy always comes down to asking the questions about how can we win, how can we get further to the goal, which is the vision. But it's also keeping into context of where we are now and what we're able to execute on now. And I think it's interesting because we don't always make the right choice when it comes to strategy, but you've got to make a choice. And I think that's the hardest part for some people. They're like, I want to be 100% certain this is going to work. And you can't. And I think a good aspect of being a leader, whether you're a product manager on a team or even an executive, is making the best informed decision that you possibly can at the time, but then also being willing to correct yourself if you find out it's the wrong one by looking at all the information, and then saying, okay, let's try something different.
 
-(00:58:44):
-I think if you're a product owner and there's no career path for you, start asking leaders what your career path is because it's going to make them go, "Oh, great question. What should the career path be?" There's a lot of literature out there about how we make career paths, so you can start there. Ask what's next for you after this product owner role. I would ask the product managers if they're doing all the customer research, see if you can do some customer research with them. Go sit in on this. A lot of them will say, "I don't have time. I don't have time to do this." Strip back all the user stories you're working on, stop thinking about it as a quantitative metric that needs to just go up and up. Instead, really think about the value you're delivering with your team. Is this the right thing?
+(42:44):
+And that, to me, is how we do great strategy. We take all the information we can, we make the best possible guess to go in one direction, and then we just keep reevaluating it to make sure it's the right direction. And if it's not, we pivot.
 
-(00:59:24):
-When you talk to leaders and when you present your case, you say it in a way of, "Hey, I'm working on X, Y, and Z feature. What's the goal here? When we release this, what do we hope will happen?" I think that's one of the best questions anybody can ask if they're worried their company is not focused on outcomes. What do we hope will happen when we release this? What metrics are we going to change? How do we instrument it to make sure that's true? Then we can go back and actually see if it changed. One simple question to get alignment on it, and then you can start to say, "Oh, that didn't work or this did work." Great. Why did it work? You can open up those conversations.
+Lenny (43:00):
+I love that your answer is talking to people, getting information, gathering data, thinking, and it's not, go read books on strategy, go get an MBA, or anything like that. You get better by doing it and learning from other people, right?
 
-(01:00:00):
-I'd say there's a lot of things you can do to help move your companies forward, and I have seen in a lot of these organizations too, a groundswell of product owners and product managers saying, "Hey, what's next for me? What's going on?" That makes the organizations go and figure it out. I was working with one Fortune 10 company not too long ago, their C-suite, I've been working with them for a very long time and they're finally like, "Hey, we're going to codify the product manager role and we're going to have it all the way up and down our organization, we're going to make roles, we're going to make responsibilities." To me, that was music to my ears, but the reason they were doing it too is because they noticed there was a lot of churn in the organization in that role, and they also realized it's a critical role.
+Melissa Perri (43:12):
+Yeah, and seeing it, too. For me, when I'm learning about strategy, because it's not like I just started project management and started doing strategy immediately, I analyzed how other companies did it. So I was like, how did Netflix do their strategy? How did this company do their strategy? And reading how a company goes from point A to point B is fascinating. There's tons of articles on there about how companies have done it. But it just helps you see that everybody does it differently. Everybody's got a different framework. Doesn't matter what framework you use, as long as it works for your company. But they all got to that framework by asking those questions, and looking at the data, and deeply understanding their market, and deeply understanding their customers, and just trying to piece it all together.
 
-(01:00:44):
-They're losing good people because people from the outside are coming because they want to work for this great big organization that's doing super well, fantastic, but they get in there and they go, "Where's my career path? What am I supposed to do? Where am I supposed to go?" A lot of leaders are out there now realizing, "Hey, we do have to get our stuff together," and the only reason they're coming to this conclusion as well is because they're looking around seeing other people doing it and they hear it from the teams, they hear it from the product managers. I don't want people to think, "Hey, I have no power. I'm in a 10,000 person organization." The more you bring this up, the more your leaders will respect it because they don't want to lose you, they don't want to lose good people. If you want to be great at your job and you need more support there, speak up, speak up.
+Lenny (43:54):
+Awesome. You touched on product operations, which I know is the book that you're working on now. I know that there's a role, an emerging role, product operations. Can you give us a preview of that this book's going to be about and what people should be thinking about there?
 
-(01:01:31):
-At a certain point, I do tell people this. If you feel like you can't do great product management in your organization, try to find another organization. I know that is hard to say and I respect people are tied to insurances and it's hard to change jobs, but if you do have the opportunity to look for another organization that does it well, I would go there. I would also say in large corporations too, I've seen certain business lines and certain divisions do it super well and then others not. If you are in a large corporation, maybe think about moving internally, laterally to a different team and seeing if you can work there. I'd find the leaders who know what they're doing and go work for that. That's usually the best move here.
+Melissa Perri (44:07):
+Yeah. Having worked with all these companies, especially the ones that are scaling pretty rapidly, I started realizing, hey, we trained all the teams. We deployed the strategy. We've got a bunch of people, now, in this product management role. And then you look at certain things, and you realize it just didn't scale to the rest of the team. And things broke down. One standardization of processes, everybody had a different roadmap. Cool, I can't do anything with that when I'm trying to set a strategy. If I can't compare your roadmap to that roadmap, all your time horizons are off, all your data is off, nothing's set in the right format, I can't roll that up into my strategy as product leader.
 
-Lenny Rachitsky (01:02:11):
-The point you made about how a lot of companies don't have any product owners and have scaled very wide, just to reinforce that in the data dive that we did on job market trends, no tech company has a product owner basically, no top tech company. I know there's an important distinction here. These are tech, software first, product first businesses where their business is the software they're building, and a lot of the companies we're talking about here are not that. They're banks and telecoms, pharmaceutical companies. I get that it's a very different world, but I think it's important to highlight, "You can become very big." Google has no product owners as far as I know, Amazon, Microsoft, Netflix, no company you've heard of that's a tech company has a product owner. They're all product managers, they're all product managers.
+(44:47):
+Two, maybe there's no career ladders for the product mangers. Three, we're having 18 different types of meetings and all the wrong people are in the room.
 
-Melissa Perri (01:02:56):
-Yeah. I don't want people to think that there aren't people who build great software in these large corporations too because there are. There's pockets of people who are doing it super, super well. If you are one of those people who's been pushing the boundaries, doing great work, and your title is a product owner, what I always tell people on your resume, if you're looking for your next job so that you're not pushed out, let's say, of these large corporations like a Google or somewhere like that, and that's where you want to work in a tech firm, make sure you describe how you did your job from a value perspective. Do not talk about your agile cadences. Get Scrum out of there. Talk about what value you brought to the users and what metrics you moved, and that's how your resume should be laid out.
+(44:55):
+Product mangers can get the data that they need to make the informed decisions on the product strategy. We're interviewing customers one off, and then I find out the same team is hitting up all these customers over here again. They're getting really upset. These customers don't want to talk to the same team over and over and over again.
 
-(01:03:40):
-I do read tons of resumes to hire people, and also chief product officer, same thing. If I see immediately implemented Scrum processes across the organization, I'm like, "No, that's not what I need. That's not what I was looking for." I was looking for what are you going to do to push the strategy in that part of the organization? What are you going to do to actually build better products for customers? Then when you get into the interview, you can talk about what things you did to do that, but you want to make sure that you're focused on really understanding the customer and translating that into great products, and the outcomes that we were looking for when you do it on your resume, I think that's important.
+(45:11):
+Product management at scale is really hard, and that's where product operations comes in. So what it does is it helps you get the right insights to the team, and then help standardize those outputs and those check-ins to make sure that you're on track for the right strategy.
 
-Lenny Rachitsky (01:04:15):
-Okay. I want to spend more time here because this is so important. This is highlighting here's the difference between a product owner and a product manager. If you want to move into product management and become a great PM, if you're a product owner today, even if you're not a product owner and just want to get into product management, can you again just highlight here's the big difference and here's the skills that people value most in a PM versus a product owner.
+(45:26):
+There's usually three parts to it that I say, and not all companies have all three. And it depends where you're at for where you want to start with this. But typically, we have internal data and insights, and that's a team that's going in and taking all the data that we have that lives in our financial systems, our user analytics, all of these different things that live inside our company, and they're helping to surface this up in ways that people can look at them, see the progress of our strategy, and track those OKRs, and say, okay, we're going to go this way or that way. So that helps give us the inputs we need for strategy, helps monitor the strategy, and it helps us make decisions.
 
-Melissa Perri (01:04:38):
-Yeah. When I see product owners write out their resumes or describe their job functions, they always approach it from a process standpoint. I prioritize the backlog, I worked with the developers to break down the work, I checked the developer's work and did the acceptance criteria, I wrote the user stories, all those functions is what I see over and over and over again in product owner resume. What you want to do instead is say, "I led the," we can even do the login API,"I led the work around the login API. The problem that I was solving around it was trying to enhance security for our login protocols to meet regulatory requirements. I interviewed a bunch of users, I got up to speed on the regulatory requirements, I worked really closely with our legal teams and our compliance teams to translate that into something that was going to secure our bank, and when we launched, we were able to meet our compliance, save our bank a couple million dollars, and we smoothly transitioned into these new security requirements without disrupting any service for customers for four million customers."
+(46:02):
+Then, there's also customer research and user insight, so that's really the external data. And market research. Customer insights and market research. So that's the external data that doesn't live in our company that we need to get from our customers or our market to help inform strategy.
 
-(01:05:40):
-Way different story than I prioritized backlog and I shipped it off to developers. Take it a step further. If you're working on customer-facing things, who are your customers? Did you go out and talk to them? By interfacing with customers and understanding them, I was able to solve XY, and Z problem with them, which resulted in a measurable amount of XY and Z metric going up for the business. I ran this function, I ran this feature, I launched this feature, I watched it through, I iterated on it, I did the stuff that was needed to make this successful. That's what I want to see on a resume.
+(46:17):
+So from a market research perspective, that might mean having subscriptions to publications, or making sure that we have subject matter experts who are giving this great advice where the market's moving. But then also, for customer research, it's standardizing the approach so that product managers can go talk to customers so we're not hitting up the same person all the time. We're recording all the user interviews we do in a way where we can actually search through it and gain that information later, when we go and revisit those things. It's really helping to streamline it. It's not centralizing user research as a practice, it's helping to scale user research so that we can enable more people to do user research, especially when you get into some of these companies.
 
-(01:06:15):
-Even if you have a product owner title, I'll still read the details and everybody else will too, but I will say there's sometimes a poor connotation when you have that title unfortunately because of the baggage that's associated with agile. Even just on resumes, I would say do product owner/product manager in there just to let people know that I know how to do this and I've been doing this well. If you do that in your bullet points, that shows up as well. There's also this whole concept that we didn't even get into about certifications. People keep asking me if I want to transition into product management, should I get a certification, an agile certification?" I feel like these were bigger a couple years ago, but they're still big. If you ever see somebody with a CSPO on the end of their profile, which you probably have seen on LinkedIn, it's a certified Scrum product owner.
+(46:59):
+When I first started doing this, it was at Athena Health, and we had 350 product managers. And we had to make sure they weren't bothering the people at the same hospital over and over and over again because they were when we came in. And we said, wow, okay, cool. We've asked these people, now, the same question 10 times from 10 different teams. How do we make sure that those things don't happen, but how do we also empower those product managers to go still talk to them when they need to? So we're not taking user research away, we're just helping make it more scalable, more efficient, give them more tools for it.
 
-(01:07:05):
-Now, one thing to remember, and this is about all agile stuff, is we call it the agile industrial complex, agile coaches and agile trainers, the whole Scrum team, scrum.org, Scrum Inc, SAFe, everybody, the way they make their money is through consulting to teach you these processes and by having people be trained to get these certifications. They come in and they say, "All your people need to be certified Scrum product owners. Give me 2,500 bucks per person," and then they get a certificate at the end of a two-day class that says they're a certified Scrum product owner. It doesn't necessarily mean they could do the job, it doesn't necessarily mean they could do product management, but let's think about when we're talking about too should we adopt SAFe in general, should we adopt these things, think about how these organizations make money.
+(47:30):
+And then the last one is standardizing your processes, your cadences for strategy check-in. So it's like, hey, we do roadmap check-ins every month. These are the people that need to be in the room. We do quarterly planning sessions with executives, and this is the inputs to it, this is the outputs to it, here's the decisions we make in this meeting. This is what we review. And those people can help do that part, and then help standardize the product management processes that touch other divisions. For instance, if I need to update roadmaps to sales, they will help own that cadence of what that looks like and how those formats go out.
 
-(01:07:56):
-They're selling certifications. Of course they want more and more people to adopt it. That's the idea here. They're selling you this dream that you just certify all your people and then you could be working on it. They take all these people, they put them in two-day classes or whatever, and they turn them out and then they say, "Go, you're a completely new role." It doesn't work that way. That's not in the best interest of your company, that's not really what we're looking for here, and that's why all of this stuff needs to go deeper. If you've done a CSPO class and you have that certification, it may help you get hired at another large enterprise that is adopting Scrum and SAFe. That will probably help you there.
+(48:08):
+But what I say is it doesn't standardize stuff that only belongs to a team. I don't care how a team does their stand-ups. You choose how to do that. I'm not going to standardize that. But I do care what format your roadmap comes in. I do care how we make sure that we have a good working relationship with sales. I do care that we have a good working relationship with product marketing, those types of functions. That's the interactions we want to standardize.
 
-(01:08:36):
-If you want to transition into tech and go into the companies that we talk about, they're probably going to look at that and say, "This person doesn't know what they're doing. This is not here." If you do know what you're doing and you did that for a reason, because some people need that to get promoted, some companies actually require it, which is crazy, but to get promoted or be that thing, I have tremendous sympathy for that, but you're going to have to do a lot of work explaining in your resumes and stuff as you transition that you know more than that. You're not just a CSPO with a two-day class, you have done the work. That's where all of this building up on your resume becomes really, really important. It's not just about getting certified.
+Lenny (48:32):
+I can't wait to read this book. When do you think it'll be coming out?
 
-(01:09:14):
-I had people ask me, they're like, "Can you just certify product managers?" I'm like, "No. If people take my course, I give them a certificate of completion and as a completion." You finished a course just like any other course, but I will not certify product managers because I do not think you can ever say somebody is prepared and able to do their job from a short class. Now, there are some agile agencies that do a lot more training where you have different levels, and what they would do is they would train people, but then they would make them go do work and they had a coach that they worked with, and they go back and forth and they could demonstrate that they could do the work over time to get to the next level.
+Melissa Perri (48:35):
+We're aiming to get it out before the end of the year.
 
-(01:09:56):
-It's almost like the PMP, the project management certification where you have to have time actually doing the job. That's different, that's a different type of skill, it's a different type of certification, but if you see any CSPOs, it's typically a two-day workshop that they went to and then got certified. That's the difference with this. I would say be careful if you are a product owner wanting to be a product manager of just certifications. All the large tech organizations I know too, they're not looking for certifications in product management or product ownership to hire people, they're looking for experience, but the organizations that might not know what they're doing, they are looking for CSPOs, they are looking for that.
+Lenny (48:38):
+Oh, wow. Okay. That's pretty soon.
 
-(01:10:37):
-If it's required by your organization, you might have to ask, "Are we all well set up here to do our best job? Is this the place where I'm going to learn how to be a better product manager?" I also feel bad though for people because it's hard to be a product manager, it's hard to get your foot in the door. I'm so torn on it because there are organizations that hire people with a CSPO and they require it, so of course if it gets your foot in the door and it helps you do it, but if it's not going to help you and it's not going to put you on the career path you want, I don't think it's worth money.
+Melissa Perri (48:40):
+I know. It's coming up.
 
-Lenny Rachitsky (01:11:14):
-I think one interesting thread throughout this whole conversation is rarely is a plug-in play-ish easy solution going to be the answer to your problem, whether it's plugging in SAFe and it's going to help us build great software, taking a class helping you become a great product manager, be skeptical of that.
+Lenny (48:43):
+On that topic, as a PM trying to learn, trying to get better, there's so much information out there. There's books, newsletters (guilty of that), tweets, advice, podcast, all these things that are always coming at you as a PM. And I hear a lot from PMs that are burnt out from all the information always coming at them. It's just never ending advice. Do you have any advice for either new PMs or just any PM of how to take in knowledge that's all out there, and not just burn out?
 
-Melissa Perri (01:11:31):
-Yeah. There's no quick way to doing any of this, there's no fast track. You don't get to skip over all the hard things.
+Melissa Perri (49:14):
+I'm going to burn them out with more advice. [inaudible 00:49:17] the advice.
 
-Lenny Rachitsky (01:11:39):
-Yeah. Bummer.
+Lenny (49:17):
+This is the only advice they'll need.
 
-Melissa Perri (01:11:41):
-Yeah. I wish.
+Melissa Perri (49:21):
+So I'd say, one, the best thing that you could possibly do as a product manager, even if you've been in this role for a while, is to make sure that you're always learning. But the way that you're going to learn the most, usually, is from execution. So what I'd say is first, focus on that. Focus on doing your job every day.
 
-Lenny Rachitsky (01:11:43):
-Yeah. One question I wanted to clarify. When you come into an org and they have product owners, do you encourage them to get rid of product owner as a title and role and make them product managers or do you keep product owners?
+(49:41):
+Then, I would analyze your job and say, what's working? What's not working? And then, take out certain pieces of it that you want to get better at, and then do a deep dive into that.
 
-Melissa Perri (01:11:53):
-I say that we should have a hierarchy. You would have all product managers on a team, they would be an IC, individual contributor, so they're either an associate product manager and that's if they don't have all the discovery experience or maybe they know basic Scrum, totally fine, you can be an associate product manager, but if they don't know how to talk to customers, digest what the customers are saying and turn that into a feature direction and a backlog and this is how we're going to work, all that stuff needs to be in there. If they don't know how they should be measuring things, you're not quite a product manager yet.
+(49:49):
+So for me, when I was thinking about my career and my stuff, I did a similar approach where I'd just run into problems, and I'm like, I need to learn more about why that problem is causing this. One of them was Agile. I found out that a bunch of people who never did product management before became product owners. They were writing 8,000 user stories for very small, little features. I'm like, why are you writing so many user stories? So I went down a rabbit hole, interviewing everybody who wrote the Agile manifesto and [inaudible 00:50:19] and taught all those things to find out where this came from, so then I could figure out how to fix it.
 
-(01:12:28):
-Associate product manager, and then product manager, and then a senior PM. A senior PM can work on a Scrum team as well or a development team. I do encourage them, I say, "Get rid of these two different titles because it's confusing everybody." I help a lot of people with career paths too. I've seen companies with 47 different titles for product managers because somebody in this organization is called a product associate and somebody over here is a product manager and that person is a platform product manager, and that person is a platform product owner, and this person is an API product owner. You can have product manager, senior product manager, all that stuff, but I would not confuse people with the two different titles of product owner versus product manager.
+(50:24):
+And I think you need to carve stuff out like that, where you go, what's this topic I want to get better at? What's this going to do to help me get to the next level? Where do I need to learn and help fill in my skill gaps? For instance, if you're not great at user research, or you haven't had a lot of experience talking to customers, I might deep dive on that. If you're not great at data analytics, I could deep dive on that.
 
-Lenny Rachitsky (01:13:11):
-But importantly, there's a bar for who is called a product manager because if you take a product owner as you've said, and say you're a product manager, they're going to be a terrible product manager. Your advice is make them an associate PM, and then once they reach a certain level, they've graduated to product manager.
+(50:46):
+But I think there's a certain point where we get to, okay, I understand the basic product framework, and everybody's going to have different opinions about what that framework should look like. But we all generally agree at the end of the day, you should be talking to your users, you should be working with your teams to develop what a test should be, run some tests, figure out what your users want, build it with your team in an iterative fashion, measure success, and keep going from there. That all generally stays the same. But how you do each part of that, you're going to find some people have one opinion, some people don't. And you have to find something that works for you, and then stick with it, and then find out that if it doesn't work for you, change it.
 
-Melissa Perri (01:13:28):
-It depends. I don't say this as a hard and fast rule because there are product owners out there who've been doing their job very well. Just because they have a title of a product owner doesn't mean that somebody can't do the job of a product manager. There are plenty of people out there who were just named this because a company names them that and they know what they're doing, so don't look at that hard and fast. When we do this, we typically will say everybody's got product owner on their title, change it to product manager, but we will go back and look at what is the actual skillset.
+(51:26):
+And this is where I get really passionate and frustrated with Agile processes, which I used to rant about a lot. But I feel like some places, we've solved this problem, some places we haven't. But I try to tell teams that started with scrum or started with some of these more dogmatic processes, if it doesn't serve you, move on. Change it. Everything is meant to be iterated on. Everything is meant to be adapted. If it does not work for you, you do not have to keep doing it.
 
-(01:13:56):
-When I've come in to work with companies on transformations, what we typically do, the way I get introduced usually is we come in and they're looking for some kind of training for all of their product teams, and then we bring in Product Institute and we do our online training, Then afterwards I work with the organization, I say, "Now that everybody's been baselined and trained, we have to figure out who is going to be a great product manager and who's not," so there's an awareness. You know what's interesting? Once people figure out what the job's about, a lot of them opt out.
+(51:55):
+And I think that's the biggest message I can tell to anybody learning, is really, sit down, do a retrospective with yourself, and say, is this helping me get better at being a product manager? And if it's not, change it. Change your approach. Do something different. If it is, keep it. Keep it in your toolbox. Create your own toolbox and go from there.
 
-(01:14:24):
-When I did the transformation at Athenahealth, we had 365 product managers and they all had different titles too, product innovation, all over the place. We turned them into product managers, we trained everybody, we gave everybody the opportunity to learn, which I think is great, and then we gave them opportunity to practice their skills. What happened is at the end of the training, a lot of people raised their hand and said, "Oh, no, no, this is not what I wanted to do. I thought it was very different. I did not realize how much people work it was. I have to go influence these people, I have to do all this stuff. This is actually not really what I wanted to do."
+Lenny (52:16):
+What a perfect way to end our conversation. Where can folks find you online, and how can listeners be helpful to you?
 
-(01:14:59):
-We found other roles for them that were what they wanted to do or they decided to leave. That was up to them, we didn't cut anybody, but we moved some people into operations because they wanted to be a little more heads down to find process. That was their thing. We moved people into data roles who were good with SQL and were good with data analysis. We moved people into user research roles because they wanted to talk to customers, but they didn't want the responsibility and the accountability that came with the product management piece because they realized it was so intense.
+Melissa Perri (52:24):
+Yeah. I am on Twitter all the time @lissijean, so feel free to tweet with me. I love hearing what you guys are up to. You can also submit questions, if you have questions, to me at the Product Thinking podcast. So if you go to productthinkingpodcast.com, or dearmelissa.com, I take questions there all the time.
 
-(01:15:29):
-I've seen this happen a lot in large organizations. You baseline everybody, you show them what the role is and then you let them go practice it, and then at that point some people will opt out and then you have to go back through your people and say, "Okay. How do we level-set now? Who's doing really well? Who's not doing so well? Which teams need to have more experienced people on it because they don't have anybody to learn from?" That's where we would say, "Hey, let's hire some ICs over here or a director of product management who can help train these people and help them keep growing." That's been super successful. I've seen people bring in some more directors, scattered them around, and they've leveled up these product owners who were not necessarily doing great product management and now they're doing fantastic.
+(52:46):
+I'm always curious what everybody's thinking about. What are your questions? What are your burning questions? That's how you can help me. I am very passionate about figuring out what are the problems that we're facing as product managers, and that's what makes me happy, trying to figure out where they're coming from, how do we solve it, what's on people's mind. So definitely hit me up with questions. I always answer them on the podcast.
 
-(01:16:13):
-I've watched fantastic leaders in these organizations that are not software native or doing these transformations. Bringing the right person, you can make amazing product managers. Give them a year or two and completely turn it around. It's totally possible. It's totally possible to take people and train them, and I firmly believe in that, but you got to get them exposure to what good looks like. If you are in an organization and you cannot see what good looks like anywhere, that's a red flag. That's where leaders need to look at their organization and say, "Do I have people with these skills interspersed around so that everybody can start to learn, so that everybody can actually be on the uptake of this and make sure that we are well-balanced?"
+(53:08):
+And then my website, melissaperri.com, has all my other information, if anybody needs to get in touch.
 
-Lenny Rachitsky (01:16:56):
-That was an awesome nuance and addition. I'm just looking back at all the things we've talked about. We've covered so much ground, the history of agile and Scrum and SAFes and product owners, we've gotten into all kinds of advice on how to do this better as a company leader, as a product owner, as someone thinking about even moving through product management. Is there anything else that we have not covered that you think might be helpful to touch on or wrap up on?
+Lenny (53:13):
+Amazing. If anyone has any problems in their PM job, just tweet you, and they will get an answer, is what you're saying.
 
-Melissa Perri (01:17:25):
-I think I would tell people to remember that when you look at agile methodologies, and if you look at it with small agile, what we are really saying there is we want to be able to move quickly and deliver great value to customers. If you embrace those principles, you're going to do well, but if you think of agile as just a defined super cut and dry process where you have to follow every single little step here and there, that's not going to serve you because you're not getting back into why are we doing this.
+Melissa Perri (53:19):
+Yes. Do that.
 
-(01:17:54):
-There are some great agile coaches out there. There are first principle approaches to doing great product work and doing great development work. They're there because they are not just selling Scrum, they are there to make people better. Those agile coaches I think can make great fantastic teams, and I've worked with a lot of them, and I think they are really there to just make it a better environment for the people who are working and to help the company produce better products. That's their whole goal.
+Lenny (53:21):
+Amazing. Thank you so much, Melissa.
 
-(01:18:21):
-Then there are people too who are wedded to this is SAFe and you will do it by the book. This is Scrum, you will do it by the book. I'd be very skeptical of that because what's the end goal? What's their end goal? Like I said, a lot of people out there get paid by certifying people and by consulting on these processes. McKinsey made a huge division to do this, and a lot of SAFe was actually introduced to organizations from McKinsey and from large organizations, consulting organizations like that. They came in and they said, "Yeah, this is what you do. I'll teach you how to do SAFe, I'll teach you how to do Scrum." They have been building those consulting agencies off of agile transformations.
+Melissa Perri (53:24):
+Thank you.
 
-(01:19:03):
-We always laugh when I talk to other people who've been doing transformations and coaches. I go, "Why is McKinsey always coming in here and doing this?" I've followed them into so many organizations and I've been like, "Oh, wow, they screwed this up. Let me go fix it." There's always a saying that nobody gets fired for hiring McKinsey. McKinsey's big, people trust their name. A lot of the people at McKinsey haven't done this before, they've never been inside the organization trying to transform it and stay there for a long time. That's why I'd be really skeptical of who's selling that.
-
-(01:19:37):
-If you approach agile from a perspective of I want to be agile because I want to release things quickly and get feedback from customers and make sure that that's great, look at all of your processes like that and say, "Is that serving the best interest of our company and our culture and our customers? Is this making our customers proud of us? Is this helping our customers receive good value?" If your processes aren't, fix them, change them, inspect and adapt, ease a lowercase agile principle. We should be looking at every process we do and saying, "Is it working?", and not be afraid to change it.
-
-Lenny Rachitsky (01:20:15):
-I think it's important to highlight this can work. There are ways to reorganize the way you build product at a very large company where you can actually deliver great product consistently. You've seen that happen a lot. Anything you want to add there to give people hope?
-
-Melissa Perri (01:20:30):
-Yeah. The biggest pushback I hear from large organizations, especially ones that are not software native as banks or insurance companies, whatever it is, is that we're not like Google, we're not like SaaS companies. It's true, you're not a SaaS company. The way that you do it is going to be slightly different than the way that Amazon runs or the way that Google runs. I don't see many companies actually run the same, and just because it works at Google doesn't mean it's going to work at an insurance company that's a hundred years old. That's okay, but you could still learn from people who've been producing software at scale for many, many years. You can still learn what makes them successful, and then you could take some of those principles and apply them to your organization and then figure out where we need to adapt. That's what I would look at.
-
-(01:21:21):
-I see software strategies and digital strategies becoming so intertwined into the strategies of companies in general, whether you're an insurance company or a bank or anything. They're becoming so heavily entwined in the C-suite strategies. The first thing I would say, and where I see a lot of companies struggle with this is you have to make sure that it is thought of at the C-suite. What some organizations do is go, "Oh, no, that's IT work. Let me push all the software strategy down." If you're doing that, you're missing out on innovation, and this is where the product role comes in and where I think more organizations need chief product officers because they're the person in the C-suite saying, "How can software enable us to be 10 times better and crush our competition, whether we're a bank or insurance company or a pharmaceutical company? What can we do with our software that's going to put us ahead of the competition, that's going to put us ahead of the market?"
-
-(01:22:16):
-If you're not having those conversations when you're thinking of your long-term company strategy, you're behind, you're behind because that is what every small high-growth startup is doing that's coming out to try to disrupt these big companies. The big companies are successful, they have a lot of money so they don't have as much urgency as sometimes these smaller companies do to change or somebody who's failing to change. That's why things are going so slow, but at the same time, if we don't pay attention to that and we're not considering it, that's where the danger comes in.
-
-Lenny Rachitsky (01:22:46):
-I imagine people are going to have a lot of questions and hope to get even more advice. A couple of final questions. Where can folks find you online if they want to ask more questions along these lines, maybe get your help on some of this stuff? Then finally, how can listeners be useful to you, Melissa.
-
-Melissa Perri (01:23:02):
-You can find me on LinkedIn. If you go search for Melissa Perri with an I, P-E-R-R-I, you'll find me there. My LinkedIn is /melissajeanPerri. I'm happy to connect with people there. My school is called Product Institute, so if you're interested in doing product management training or getting help with some of this stuff, go to productinstitute.com and reach out to me. I run a podcast too called The Product Thinking Podcast. We answer questions every week, and a lot of them are around SAFe, agile and all these topics, so if you have a question and you're saying, "Hey, how do I do this?", definitely reach out and let me know.
-
-Lenny Rachitsky (01:23:35):
-Awesome. Melissa, I learned a lot. I feel like a lot of people who listen to this podcast, they're like, "I had no idea about any of this, and now I understand all these terms that I kind of hear occasionally." Thank you for coming and sharing all of this with us, especially the advice for folks that are in this world right now.
-
-Melissa Perri (01:23:49):
-Yeah. Thanks for having me.
-
-Lenny Rachitsky (01:23:51):
-Bye everyone.
-
-Melissa Perri (01:23:52):
-Bye.
-
-Lenny Rachitsky (01:23:55):
-Thank you so much for listening. If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app. Also, please consider giving us a rating or leaving a review as that really helps other listeners find the podcast. You can find all past episodes or learn more about the show at lennyspodcast.com. See you in the next episode.
+Lenny (53:24):
+That was awesome. Thank you for listening. If you enjoyed the chat, don't forget to subscribe to the podcast, and even better, leave a review, which helps a lot. You can also learn more at lennyspodcast.com. I'll see you in the next episode.
 

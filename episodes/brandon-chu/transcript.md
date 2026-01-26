@@ -1,35 +1,26 @@
 ---
 guest: Brandon Chu
-title: 'AI prompt engineering in 2025: What works and what doesn’t | Sander Schulhoff'
-youtube_url: https://www.youtube.com/watch?v=eKuFqQKYRrA
-video_id: eKuFqQKYRrA
-publish_date: 2025-06-19
-description: Sander Schulhoff is the OG prompt engineer. He created the very first
-  prompt engineering guide on the internet (two months before ChatGPT’s release) and
-  recently wrote the most comprehensive...
-duration_seconds: 5867.0
-duration: '1:37:47'
-view_count: 78637
+title: 'Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid'
+youtube_url: https://www.lennysnewsletter.com/p/brandon-chu-on-what-its-like-to-build
+video_id:
+publish_date: 2022-06-27
+description: 'Brandon Chu is VP of Product at Shopify, where he leads the app platform ecosystem, new initiatives group, and M&A investments. Brandon helped scale Shopify''s PM team from five to hundreds, and worked his way up from an IC Senior PM. Brandon might be best known for his writing on the art and science of product management as part of a collection on Medium he calls "The Black Box of Product Management."'
+duration_seconds: 2989
+duration: '49:49'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- retention
-- acquisition
-- onboarding
-- metrics
-- roadmap
-- prioritization
-- experimentation
-- funnel
-- conversion
-- revenue
-- hiring
-- culture
+- product management
+- writing
+- Shopify
+- platform PM
+- remote work
+- career growth
 - leadership
 - management
 ---
 
-# Lessons from scaling Uber and Opendoor | Brian Tolkin (Head of Product at Opendoor, ex-Uber)
+# Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid
 
 ## Transcript
 

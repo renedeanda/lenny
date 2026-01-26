@@ -5,7 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target, Quote as QuoteIcon } from 'lucide-react';
+import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target, Quote as QuoteIcon, ExternalLink } from 'lucide-react';
 import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
 import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
@@ -414,6 +414,24 @@ export default function EpisodePage() {
                   className="absolute inset-0 w-full h-full"
                 />
               </div>
+            </div>
+          )}
+
+          {/* External Link for non-YouTube episodes */}
+          {!episode.videoId && episode.youtubeUrl && (
+            <div className="mb-6 bg-void-light border-2 border-amber p-6">
+              <p className="text-sm text-ash-dark mb-4">
+                This episode is available on Lenny&apos;s Newsletter
+              </p>
+              <a
+                href={episode.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-amber text-void font-bold hover:bg-amber-light transition-colors"
+              >
+                <ExternalLink className="w-5 h-5" />
+                Listen to Episode
+              </a>
             </div>
           )}
 
@@ -1003,6 +1021,24 @@ export default function EpisodePage() {
                       id="youtube-player-desktop"
                       className="absolute inset-0 w-full h-full"
                     />
+                  </div>
+                )}
+
+                {/* External Link for non-YouTube episodes */}
+                {!episode.videoId && episode.youtubeUrl && (
+                  <div className="bg-void-light border-2 border-amber p-6">
+                    <p className="text-sm text-ash-dark mb-4">
+                      This episode is available on Lenny&apos;s Newsletter
+                    </p>
+                    <a
+                      href={episode.youtubeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-amber text-void font-bold hover:bg-amber-light transition-colors"
+                    >
+                      <ExternalLink className="w-5 h-5" />
+                      Listen to Episode
+                    </a>
                   </div>
                 )}
               </div>

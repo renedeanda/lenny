@@ -1,38 +1,25 @@
 ---
 guest: Julian Shapiro
-title: 'From managing people to managing AI: The leadership skills everyone needs
-  now | Julie Zhuo'
-youtube_url: https://www.youtube.com/watch?v=c_w0LaFahxk
-video_id: c_w0LaFahxk
-publish_date: 2025-09-21
-description: 'Julie Zhuo is the former VP and Head of Design at Facebook (now Meta),
-  author of the bestselling book The Making of a Manager, and co-founder of Sundial,
-  an AI-powered data analysis company....
-
-  '
-duration_seconds: 5784.0
-duration: '1:36:24'
-view_count: 49142
+title: 'Growth tactics, retention strategies, and becoming a better writer | Julian Shapiro (Demand Curve, Hyper, Webflow, TechCrunch)'
+youtube_url: https://www.lennysnewsletter.com/p/building-a-product-led-acquisition
+video_id:
+publish_date: 2022-09-25
+description: 'Julian Shapiro is the founder of Demand Curve, where he''s helped thousands of companies figure out their growth strategy. He also wrote the growth marketing column at TechCrunch, was CMO at Webflow, and created an animation engine called Velocity that''s now used in apps like Uber and WhatsApp.'
+duration_seconds: 3540
+duration: '59:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
 - growth
+- product-led acquisition
 - retention
-- acquisition
-- activation
-- onboarding
-- metrics
-- roadmap
-- a/b testing
-- experimentation
-- analytics
-- funnel
-- conversion
-- subscription
-- revenue
-- leadership
+- writing
+- creativity
+- Demand Curve
+- marketing
 ---
 
-# From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo
+# Growth tactics, retention strategies, and becoming a better writer | Julian Shapiro (Demand Curve, Hyper, Webflow, TechCrunch)
 
 ## Transcript
 

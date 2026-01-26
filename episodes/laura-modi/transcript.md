@@ -1,36 +1,26 @@
 ---
 guest: Laura Modi
-title: Career frameworks, A/B testing, onboarding tips, selling to engineers |  Laura
-  Schaffer (Amplitude)
-youtube_url: https://www.youtube.com/watch?v=UMAmj1bciww
-video_id: UMAmj1bciww
-publish_date: 2023-03-09
-description: Laura Schaffer is the brand-new VP of Growth at Amplitude. Prior to this
-  role, she spent over 10 years leading product management and growth teams at Twilio,
-  Bandwidth, and Rapid. In today’s...
-duration_seconds: 4873.0
-duration: '1:21:13'
-view_count: 9069
+title: 'How to build a cult-like brand | Laura Modi (Bobbie)'
+youtube_url: https://www.lennysnewsletter.com/p/from-growth-to-slowth-the-making
+video_id:
+publish_date: 2023-04-13
+description: 'Laura Modi is the CEO and co-founder of Bobbie, the first woman-owned, organic infant formula in the U.S. Previously, Laura spent over five years at Airbnb, where she served as Director of Hospitality.'
+duration_seconds: 3641
+duration: '1:00:41'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- acquisition
-- onboarding
-- hiring
-- team building
+- Bobbie
+- DTC
+- branding
+- founder
+- Airbnb
 - culture
 - leadership
-- management
-- strategy
-- vision
-- positioning
-- market
-- persona
-- ui
 - startup
 ---
 
-# Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)
+# How to build a cult-like brand | Laura Modi (Bobbie)
 
 ## Transcript
 

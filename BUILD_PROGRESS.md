@@ -917,7 +917,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 - casey-winters-20.json - 12 quotes from 2.0 episode (CORRECTED)
 
 **Updated Statistics:**
-- **Episodes**: 24/299 (8.0%) — up from 20 (6.6%)
+- **Episodes**: 24/295 (8.0%) — up from 20 (6.6%)
 - **Quotes**: 283 total — up from 235
 - **Avg quotes/episode**: 11.8 (maintained quality)
 
@@ -1143,7 +1143,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 
 ## 📊 Updated Coverage Status (Post-Session 9)
 
-**Episodes Curated:** 24/299 (8.0%)
+**Episodes Curated:** 24/295 (8.0%)
 **Target:** 100+ episodes (33%)
 **Verified Quotes:** 283
 **Avg quotes/episode:** 11.8
@@ -1193,23 +1193,6 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 13. **Benjamin Mann**: Frontmatter fixed to match correct Anthropic co-founder episode
 14. **Ethan Evans**: Removed incorrect "1.0" label (single appearance guest)
 
-### 🗑️ Duplicate Content Cleanup
-
-**Transcripts Marked as Missing (were duplicates of 2.0):**
-- `april-dunford/transcript.md` - Now placeholder (1.0 had duplicate of 2.0 content)
-- `julie-zhuo/transcript.md` - Now placeholder (Summit 2024 had duplicate of Managing AI)
-- `madhavan-ramanujam/transcript.md` - Now placeholder (1.0 had duplicate of 2.0)
-- `nicole-forsgren/transcript.md` - Now placeholder (1.0 content was never available)
-- `marty-cagan/transcript.md` - Now placeholder (1.0 content was never available)
-- `uri-levine/transcript.md` - Now placeholder (restored incorrectly, then fixed)
-- `wes-kao/transcript.md` - Now placeholder (1.0 content never added)
-- `elena-verna/transcript.md` - Now placeholder (short/incomplete)
-- `benjamin-mann/transcript.md` - Now placeholder (correct metadata, no transcript)
-
-**Directories Removed:**
-- `episodes/ethan-evans-20/` - Was incorrectly created duplicate
-- `episodes/shreyas-doshi-live/` - Renamed to `shreyas-doshi-20`
-
 ### ✅ Episode Page UX Improvements
 
 **Related Episodes Component Restored** ✅
@@ -1232,7 +1215,7 @@ Added comprehensive AI insights section to `.claude/skills/curate-episode/SKILL.
 **Code Fixes:**
 - `lib/allEpisodes.ts` - Corrected metadata for all multi-time guests
 - `app/episodes/[slug]/page.tsx` - Related episodes restored
-- Episode count references updated (299 → 298 in some places)
+- Episode count references updated (295 → 298 in some places)
 
 **Infrastructure:**
 - `package.json` - Added sharp as dev dependency for OG images
@@ -1299,9 +1282,9 @@ Transcripts need to be obtained/added for:
 - Deleted `episodes/teaser_2021/` directory
 - Deleted `public/og/teaser_2021.png`
 
-### 🔢 Episode Count Updated (298 → 297)
+### 🔢 Episode Count Updated (298 → 295)
 
-Updated all references to 298 to 297:
+Updated all references to 298 to 295:
 - `lib/zones.ts` - TOTAL_EPISODES constant
 - `lib/allEpisodes.ts` - comment header
 - `lib/insightsData.ts` - comment header and insightsStats.totalEpisodes
@@ -1364,7 +1347,7 @@ Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showi
 - `index/entrepreneurship.md`
 - `index/community-building.md`
 
-**Modified (episode count 298→297):**
+**Modified (episode count 298→295):**
 - `lib/zones.ts`
 - `lib/allEpisodes.ts`
 - `lib/insightsData.ts`
@@ -1395,14 +1378,14 @@ Some episodes also have title/guest metadata mismatches (e.g., brandon-chu showi
 
 ## 📊 Updated Coverage Status (Post-Session 11)
 
-**Episode Directories:** 297
-**Entries in allEpisodes.ts:** 297 ✅
+**Episode Directories:** 295
+**Entries in allEpisodes.ts:** 295 ✅
 **Transcripts Available:** 267 (~30 with dialogueCount: 0)
-**Episodes Curated:** 24/297 (8.1%)
+**Episodes Curated:** 24/295 (8.1%)
 
 **Data Quality:**
 - ✅ teaser_2021 episode removed
-- ✅ Episode count updated to 297 everywhere
+- ✅ Episode count updated to 295 everywhere
 - ✅ OG images regenerated with correct count
 - ✅ 4 curated episodes fixed (were attached to wrong slugs)
 - ✅ Verified content registry rebuilt
@@ -1564,10 +1547,10 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 ## 📊 Updated Coverage Status (Post-Session 12)
 
-**Episode Directories:** 297
-**Entries in allEpisodes.ts:** 297 ✅
+**Episode Directories:** 295
+**Entries in allEpisodes.ts:** 295 ✅
 **Transcripts Available:** 267 (~30 with dialogueCount: 0)
-**Episodes Curated:** 24/297 (8.1%)
+**Episodes Curated:** 24/295 (8.1%)
 
 **Data Quality:**
 - ✅ Recommendations engine fully functional with diversity scoring
@@ -1603,38 +1586,23 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 #### Group 1: Confirmed Mismatches (3 Episodes)
 
-| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Needs YouTube Link & Metadata |
-|---|------|------------------|------------------|------------------------|-------------------------------|
-| 1 | `brandon-chu` | Brandon Chu | "AI prompt engineering in 2025: What works and what doesn't \| **Sander Schulhoff**" | Sander Schulhoff | ✅ Need Brandon Chu's actual episode metadata |
-| 2 | `ryan-hoover` | Ryan Hoover | "A better way to plan, build, and ship products \| **Ryan Singer** (creator of 'Shape Up')" | Ryan Singer | ✅ Need Ryan Hoover's actual episode metadata |
-| 3 | `david-placek` | David Placek | "Building a culture of excellence \| **David Singleton** (CTO of Stripe)" | David Singleton | ✅ Need David Placek's actual episode metadata |
+| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title |
+|---|------|------------------|------------------|------------------------|
+| 1 | `brandon-chu` | Brandon Chu | [NO YOUTUBE VIDEO AVAILABLE]
+| 2 | `ryan-hoover` | Ryan Hoover | "A better way to plan, build, and ship products \| **Ryan Singer** (creator of 'Shape Up')" | Ryan Singer | ✅ Need Ryan Hoover's actual episode metadata | https://www.youtube.com/watch?v=HzDLWKI6mnI (ACTUAL LINK)
+| 3 | `david-placek` | David Placek | "Building a culture of excellence \| **David Singleton** (CTO of Stripe)" | David Singleton | ✅ Need David Placek's actual episode metadata | https://www.youtube.com/watch?v=adyIaTopO6g (ACTUAL LINK)
 
-**Notes:**
-- `brandon-chu` transcript content correctly references "Brandon Chu" at line 45
-- `ryan-hoover` transcript content correctly references "Ryan Hoover is the founder of Product Hunt" at line 40
-- `david-placek` transcript content correctly references "David Placek" throughout
-
----
-
-#### Group 2: Additional Mismatches (15 Episodes)
-
-| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Notes |
-|---|------|------------------|------------------|------------------------|-------|
 | 4 | `gibson-biddle` | Gibson Biddle | "35 years of product design wisdom... \| **Bob Baxley**" | Bob Baxley | Transcript mentions "Gibson Biddle" at line 40 |
-| 5 | `manik-gupta` | Manik Gupta | "Becoming more strategic, navigating difficult colleagues... \| **Anneka Gupta**" | Anneka Gupta | Transcript mentions "Manik Gupta has led two of the most successful consumer products" at line 40 |
-| 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier |
-| 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content |
-| 8 | `jackie-bavaro` | Jackie Bavaro | "Bending the universe in your favor \| **Claire Vo**" | Claire Vo | Need to verify transcript content |
-| 9 | `benjamin-mann` | Benjamin Mann | "How marketplaces win: Liquidity, growth levers... \| **Benjamin Lauzier**" | Benjamin Lauzier | Need to verify transcript content |
-| 10 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |
-| 11 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content |
-| 12 | `ray-cao` | Ray Cao | "Product management theater \| **Marty Cagan**" | Marty Cagan | Need to verify transcript content |
-| 13 | `laura-modi` | Laura Modi | "Career frameworks, A/B testing, onboarding tips... \| **Laura Schaffer** (Amplitude)" | Laura Schaffer | Need to verify transcript content |
-| 14 | `julian-shapiro` | Julian Shapiro | "From managing people to managing AI... \| **Julie Zhuo**" | Julie Zhuo | Need to verify transcript content |
-| 15 | `fei-fei` | Fei Fei | "The Godmother of AI on jobs, robots... \| **Dr. Fei-Fei Li**" | Dr. Fei-Fei Li | May be same person, different name format |
-| 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content |
-| 17 | `yamashata` | Yamashata | "An inside look at how Figma builds product \| **Yuhki Yamashita**" | Yuhki Yamashita | May be misspelling of same person |
-| 18 | `melissa` | Melissa | "Building high-performing teams \| **Melissa Tan**" | Melissa Tan | May be incomplete name, same person |
+| 5 | `manik-gupta` | Manik Gupta | [NO YOUTUBE VIDEO AVAILABLE]
+| 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier | https://youtube.com/watch?v=bhnfZhJWCWY (ACTUAL LINK)
+| 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content | https://youtube.com/watch?v=Fves5chVZRA (ACTUAL LINK)
+| 8 | `jackie-bavaro` | Jackie Bavaro | [NO YOUTUBE VIDEO AVAILABLE]
+| 9 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |  https://www.youtube.com/watch?v=z1ISq9Ty4Cg (ACTUAL LINK)
+| 10 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content | https://www.youtube.com/watch?v=PDobJV8wh1g (ACTUAL LINK)
+| 11 | `ray-cao` | Ray Cao | [NO YOUTUBE VIDEO AVAILABLE]
+| 12 | `laura-modi` | Laura Modi | [NO YOUTUBE VIDEO AVAILABLE]
+| 13 | `julian-shapiro` | Julian Shapiro | [NO YOUTUBE VIDEO AVAILABLE]
+| 14 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content | https://www.youtube.com/watch?v=Vlph3dn4jnU (ACTUAL LINK)
 
 ---
 
@@ -1714,7 +1682,7 @@ Once correct metadata is obtained, the fix requires updating:
 - **Recommendation impact:** View counts may be wrong, affecting popularity-based sorting
 - **Trust impact:** Users clicking to watch video see completely different guest
 
-**Episodes Affected:** 18 out of 297 (6.1% of catalog)
+**Episodes Affected:** 18 out of 295 (6.1% of catalog)
 
 **Priority Episodes to Fix First:**
 1. `brandon-chu` - Brandon Chu is well-known PM writer
@@ -1752,7 +1720,7 @@ This phase documents the investigation. Next session can execute the fixes once:
 - Then batch update frontmatter and regenerate data files
 
 ### Scale Episode Curation
-- Current: 24/297 episodes (8.1%)
+- Current: 24/295 episodes (8.1%)
 - Target: 50+ episodes (17%)
 - Priority: Fill zone gaps
 

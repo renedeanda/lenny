@@ -1,38 +1,25 @@
 ---
 guest: Ryan Hoover
-title: A better way to plan, build, and ship products | Ryan Singer (creator of “Shape
-  Up")
-youtube_url: https://www.youtube.com/watch?v=GF-yUANql0c
-video_id: GF-yUANql0c
-publish_date: 2025-03-30
-description: 'Ryan Singer is one of the earliest employees and the former Head of
-  Strategy at 37signals (the makers of Basecamp), where he spent nearly two decades
-  refining a product development approach...
-
-  '
-duration_seconds: 6310.0
-duration: '1:45:10'
-view_count: 29557
+title: 'How to launch and grow your product | Ryan Hoover of Product Hunt and Weekend Fund'
+youtube_url: https://www.youtube.com/watch?v=HzDLWKI6mnI
+video_id: HzDLWKI6mnI
+publish_date: 2022-08-07
+description: 'Ryan Hoover is the founder of Product Hunt, former product manager, and full-time investor with his fund, the Weekend Fund. In this episode, we discuss what he''s learned about launching products, growing products, and raising capital from his experience running Product Hunt and through his investing.'
+duration_seconds: 4146
+duration: '1:09:06'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
+- Product Hunt
+- launching products
 - growth
-- retention
-- acquisition
-- onboarding
-- metrics
-- analytics
-- conversion
-- monetization
-- subscription
-- revenue
-- management
-- strategy
-- market
-- persona
-- design
+- investing
+- venture capital
+- startups
+- product management
 ---
 
-# A better way to plan, build, and ship products | Ryan Singer (creator of “Shape Up")
+# How to launch and grow your product | Ryan Hoover of Product Hunt and Weekend Fund
 
 ## Transcript
 

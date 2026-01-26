@@ -95,7 +95,7 @@ export default function Footer() {
           <div>
             <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">ABOUT</h3>
             <p className="text-ash-dark text-sm leading-relaxed">
-              Discover your product philosophy through a quiz built from 299 episodes of <span className="text-amber">Lenny's Podcast</span>.
+              Discover your product philosophy through a quiz built from 295 episodes of <span className="text-amber">Lenny's Podcast</span>.
               Get personalized episode recommendations that match how you work.
             </p>
           </div>

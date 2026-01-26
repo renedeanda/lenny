@@ -3323,8 +3323,8 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "guest": "Melissa",
-    "slug": "melissa",
+    "guest": "Melissa Perri",
+    "slug": "melissa-perri",
     "summary": "Melissa Perri, a product management consultant who has worked with over 4,000 PMs and 30+ companies, discusses common problems in product organizations and solutions for building high-performing teams. She covers when to hire a CPO, how to develop and deploy product strategy, signs of missing strategy, and the importance of connecting team work to business outcomes through clear vision and prioritized strategic intents.",
     "keywords": [
       "product management",

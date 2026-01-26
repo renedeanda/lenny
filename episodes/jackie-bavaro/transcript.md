@@ -1,38 +1,25 @@
 ---
 guest: Jackie Bavaro
-title: Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely,
-  ChatPRD)
-youtube_url: https://www.youtube.com/watch?v=aXGo1o_baBo
-video_id: aXGo1o_baBo
-publish_date: 2024-04-07
-description: 'Claire Vo is the chief product officer at LaunchDarkly and the founder
-  of ChatPRD, likely the most popular PM-specific AI product out there. Before LaunchDarkly,
-  she was a longtime chief product...
-
-  '
-duration_seconds: 5265.0
-duration: '1:27:45'
-view_count: 29347
+title: 'Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more'
+youtube_url: https://www.lennysnewsletter.com/p/jackie-bavaro-on-how-to-build-product
+video_id:
+publish_date: 2022-06-16
+description: 'Jackie Bavaro is the author of the best-selling books Cracking the PM Interview and Cracking the PM Career. She was most recently at Asana, where she joined as its first product manager and later became the head of product. Earlier in her career, Jackie was a PM at Google and Microsoft.'
+duration_seconds: 2940
+duration: '49:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- onboarding
-- metrics
-- roadmap
-- experimentation
-- analytics
-- funnel
-- conversion
-- pricing
-- revenue
-- hiring
+- product strategy
+- career growth
+- Asana
+- product management
+- senior PM
 - management
-- strategy
-- vision
-- market
+- leadership
 ---
 
-# Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)
+# Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more
 
 ## Transcript
 

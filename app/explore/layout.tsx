@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
 
 export const metadata: Metadata = {
-  title: 'Explore 297 Episodes | Lenny\'s Podcast',
-  description: 'Browse 297 episodes from Lenny\'s Podcast featuring product leaders, growth experts, and innovators. Searchable transcripts, verified quotes, and insights.',
+  title: 'Explore 295 Episodes | Lenny\'s Podcast',
+  description: 'Browse 295 episodes from Lenny\'s Podcast featuring product leaders, growth experts, and innovators. Searchable transcripts, verified quotes, and insights.',
   keywords: [
     'product management',
     'growth',
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
     'startup advice'
   ],
   openGraph: {
-    title: 'Explore 297 Episodes | Lenny\'s Podcast',
-    description: 'Browse 297 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
+    title: 'Explore 295 Episodes | Lenny\'s Podcast',
+    description: 'Browse 295 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     url: `${baseUrl}/explore`,
     siteName: 'PM Philosophy Quiz',
     images: [
@@ -32,8 +32,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Explore 297 Episodes | Lenny\'s Podcast',
-    description: 'Browse 297 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
+    title: 'Explore 295 Episodes | Lenny\'s Podcast',
+    description: 'Browse 295 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     images: [`${baseUrl}/explore-og-image.png`]
   }
 };

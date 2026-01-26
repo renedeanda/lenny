@@ -1,38 +1,25 @@
 ---
 guest: Archie Abrams
-title: How to speak more confidently and persuasively | Matt Abrahams (professor,
-  speaker, author)
-youtube_url: https://www.youtube.com/watch?v=LpbBzmXrzEY
-video_id: LpbBzmXrzEY
-publish_date: 2024-03-31
-description: 'Matt Abrahams is a renowned communication expert, with decades of teaching,
-  coaching, and consulting experience. At Stanford University, he teaches a business
-  school class on strategic communicatio...
-
-  '
-duration_seconds: 4318.0
-duration: '1:11:58'
-view_count: 52123
+title: 'Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)'
+youtube_url: https://www.youtube.com/watch?v=Vlph3dn4jnU
+video_id: Vlph3dn4jnU
+publish_date: 2024-11-07
+description: 'Archie Abrams is the VP of Product and Head of Growth at Shopify, where he leads a 600+ person growth org across product, design, engineering, data, ops, and growth marketing. Shopify powers over 10% of e-commerce in the United States.'
+duration_seconds: 4680
+duration: '1:18:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
 - growth
-- retention
-- acquisition
-- activation
-- onboarding
-- churn
-- metrics
-- okrs
-- kpis
-- roadmap
+- Shopify
+- KPIs
 - experimentation
-- analytics
-- funnel
-- conversion
-- monetization
+- churn
+- product management
+- leadership
 ---
 
-# How to speak more confidently and persuasively | Matt Abrahams (professor, speaker, author)
+# Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)
 
 ## Transcript
 

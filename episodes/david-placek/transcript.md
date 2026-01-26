@@ -1,37 +1,25 @@
 ---
 guest: David Placek
-title: Building a culture of excellence | David Singleton (CTO of Stripe)
-youtube_url: https://www.youtube.com/watch?v=F0_IKKY3HCk
-video_id: F0_IKKY3HCk
-publish_date: 2023-05-04
-description: 'David Singleton is Chief Technology Officer at Stripe, where he oversees
-  engineering and design teams. Since joining Stripe, David has helped grow the technology
-  org across the U.S. and developed...
-
-  '
-duration_seconds: 5400.0
-duration: '1:30:00'
-view_count: 40035
+title: 'Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)'
+youtube_url: https://www.youtube.com/watch?v=adyIaTopO6g
+video_id: adyIaTopO6g
+publish_date: 2025-06-29
+description: 'David Placek is the founder of Lexicon Branding, a company that focuses exclusively on the development of brand names for competitive advantage. Lexicon is behind iconic names such as Sonos, Microsoft''s Azure, Windsurf, Vercel, Impossible Foods, BlackBerry, Intel''s Pentium, Apple''s PowerBook, and Swiffer. Over 40 years, David''s team has named nearly 4,000 brands and companies.'
+duration_seconds: 4980
+duration: '1:23:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- churn
-- roadmap
-- funnel
-- subscription
-- revenue
-- culture
-- management
-- strategy
-- vision
-- mission
+- branding
+- naming
+- brand strategy
 - positioning
-- competition
-- market
-- persona
-- design
+- marketing
+- startups
+- creativity
 ---
 
-# Building a culture of excellence | David Singleton (CTO of Stripe)
+# Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)
 
 ## Transcript
 

@@ -1,38 +1,25 @@
 ---
 guest: Gibson Biddle
-title: 35 years of product design wisdom from Apple, Disney, Pinterest and beyond
-  | Bob Baxley
-youtube_url: https://www.youtube.com/watch?v=X-83gvgVaWc
-video_id: X-83gvgVaWc
-publish_date: 2025-06-12
-description: 'Bob Baxley is a design leader who has shaped products used by billions
-  at Apple, Pinterest, Yahoo, and ThoughtSpot. During his eight years at Apple, he
-  led design for the online store and the...
-
-  '
-duration_seconds: 6119.0
-duration: '1:41:59'
-view_count: 46540
+title: 'Gibson Biddle on his DHM product strategy framework, GEM roadmap prioritization framework, 5 Netflix strategy mini case studies, building a personal board of directors, and much more'
+youtube_url: https://www.lennysnewsletter.com/p/gibson-biddle-on-the-the-dhm-product
+video_id:
+publish_date: 2022-06-20
+description: 'Gibson Biddle was VP of Product at Netflix and CPO at Chegg. He now spends his days speaking, writing, and hosting workshops on product leadership, strategy, and culture. There are very few people in the world who''ve worked with, and had an impact on, more product managers.'
+duration_seconds: 3600
+duration: '1:00:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- retention
-- onboarding
-- churn
-- prioritization
-- a/b testing
-- experimentation
-- funnel
-- conversion
-- monetization
-- subscription
-- revenue
-- hiring
-- culture
+- product strategy
+- DHM model
+- GEM prioritization
+- Netflix
+- product management
+- career growth
 - leadership
 ---
 
-# 35 years of product design wisdom from Apple, Disney, Pinterest and beyond | Bob Baxley
+# Gibson Biddle on his DHM product strategy framework, GEM roadmap prioritization framework, 5 Netflix strategy mini case studies, building a personal board of directors, and much more
 
 ## Transcript
 

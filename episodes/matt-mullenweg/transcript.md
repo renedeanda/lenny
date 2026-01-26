@@ -1,37 +1,25 @@
 ---
 guest: Matt Mullenweg
-title: The one question that saves product careers | Matt LeMay
-youtube_url: https://www.youtube.com/watch?v=ts9ZvlkeWGs
-video_id: ts9ZvlkeWGs
-publish_date: 2025-08-14
-description: 'Matt LeMay spent 13 years as a music critic at Pitchfork before becoming
-  one of product management’s most influential voices. He’s consulted with companies
-  from startups to Fortune 500s...
-
-  '
-duration_seconds: 5529.0
-duration: '1:32:09'
-view_count: 27437
+title: 'The creator of WordPress opens up about becoming an internet villain, why he''s taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)'
+youtube_url: https://www.youtube.com/watch?v=Fves5chVZRA
+video_id: Fves5chVZRA
+publish_date: 2025-03-02
+description: 'Matt Mullenweg is the co-founder of WordPress, the open source platform powering a staggering 43% of the internet. He also serves as CEO of Automattic—the parent company of brands like WordPress.com, WooCommerce, and Tumblr—which is worth over $7 billion, with over 1,700 employees across 90 countries.'
+duration_seconds: 5640
+duration: '1:34:00'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- acquisition
-- iteration
-- subscription
-- revenue
-- hiring
-- culture
+- WordPress
+- open source
+- Automattic
+- Tumblr
+- WooCommerce
 - leadership
-- management
-- vision
-- mission
-- competition
-- market
-- persona
-- design
+- entrepreneurship
 ---
 
-# The one question that saves product careers | Matt LeMay
+# The creator of WordPress opens up about becoming an internet villain, why he's taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)
 
 ## Transcript
 

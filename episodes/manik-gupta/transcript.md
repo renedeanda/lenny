@@ -1,38 +1,26 @@
 ---
 guest: Manik Gupta
-title: Becoming more strategic, navigating difficult colleagues, founder mode, more
-  | Anneka Gupta
-youtube_url: https://www.youtube.com/watch?v=E3dUveqt9Bw
-video_id: E3dUveqt9Bw
-publish_date: 2024-10-17
-description: 'Anneka Gupta is the Chief Product Officer at Rubrik, a leading B2B cybersecurity
-  company. She previously spent 11 years at LiveRamp, where she was the President
-  and Head of Product and Platforms...
-
-  '
-duration_seconds: 4117.0
-duration: '1:08:37'
-view_count: 78591
+title: Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it’s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more
+youtube_url: https://www.lennysnewsletter.com/p/manik-gupta-ex-cpo-uber-google-maps
+video_id:
+publish_date: 2022-07-14
+description: 'Manik Gupta has led two of the most successful consumer products in history—Google Maps, where he was Director of product for the Maps team, and Uber, where he was CPO. After leaving Uber, he spent some time working on a product to help people avoid getting COVID called CVKey, and most recently he took on a role at Microsoft as Corporate Vice President leading many of their consumer efforts.'
+duration_seconds: 3895
+duration: '1:04:55'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
-- growth
-- acquisition
-- churn
-- metrics
-- okrs
-- roadmap
-- prioritization
-- experimentation
-- analytics
-- pricing
-- revenue
-- team building
-- culture
-- leadership
-- management
+- Google Maps
+- Uber
+- CPO
+- product management
+- consumer apps
+- Microsoft
+- career growth
+
 ---
 
-# Becoming more strategic, navigating difficult colleagues, founder mode, more | Anneka Gupta
+# Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it’s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more
 
 ## Transcript
 

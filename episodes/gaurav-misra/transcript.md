@@ -1,37 +1,25 @@
 ---
 guest: Gaurav Misra
-title: Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)
-youtube_url: https://www.youtube.com/watch?v=dLku0AiGPVA
-video_id: dLku0AiGPVA
-publish_date: 2023-02-12
-description: 'Lauryn Isford is a product growth leader and practitioner, who most
-  recently led Growth at Airtable, and is about to start something new 🤫.  In today’s
-  episode, we get into the many tactics...
-
-  '
-duration_seconds: 3861.0
-duration: '1:04:21'
-view_count: 18254
+title: 'How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can''t copy | Gaurav Misra (CEO and co-founder of Captions)'
+youtube_url: https://www.youtube.com/watch?v=PDobJV8wh1g
+video_id: PDobJV8wh1g
+publish_date: 2025-03-15
+description: 'Gaurav Misra is the co-founder and CEO of Captions, an AI-powered video creation company and one of the most successful consumer AI products in the world today. Previously he was a product leader at Snap, where he created the design engineering function.'
+duration_seconds: 5125
+duration: '1:25:25'
+view_count: n/a
 channel: Lenny's Podcast
 keywords:
+- AI
+- Captions
+- consumer apps
+- product development
+- engineering velocity
+- startup strategy
 - growth
-- acquisition
-- onboarding
-- metrics
-- okrs
-- roadmap
-- prioritization
-- user research
-- mvp
-- funnel
-- monetization
-- subscription
-- revenue
-- hiring
-- team building
 ---
 
-# Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)
+# How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)
 
 ## Transcript
 
