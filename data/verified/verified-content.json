@@ -2867,6 +2867,310 @@
       }
     },
     {
+      "slug": "claire-hughes-johnson",
+      "quotes": [
+        {
+          "id": "claire-hughes-johnson-q001",
+          "speaker": "Claire Hughes Johnson",
+          "text": "If you're not sure who the decision maker is, one, it's probably you. And I'd rather you act that way than not because you're going to slow the whole company down. Follow a process and get it done, and don't forget to actually make a decision. If you don't know who the decision maker is, just ask. Don't get stuck.",
+          "timestamp": "01:18:52",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 369,
+            "lineEnd": 371
+          },
+          "themes": [
+            "decision-making",
+            "velocity",
+            "ownership",
+            "leadership"
+          ],
+          "zones": [
+            "velocity",
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q002",
+          "speaker": "Claire Hughes Johnson",
+          "text": "If you believe that talent is everything, then your hiring process is everything. It turns out product market fit is just the product, and that is not a company, and that will not scale. You see these companies that sort of fall over and there's a bad article about them, and often it's not the product, it's the fact that they didn't actually build the company very well.",
+          "timestamp": "00:20:23",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 107,
+            "lineEnd": 109
+          },
+          "themes": [
+            "hiring",
+            "company-building",
+            "scaling",
+            "product-market-fit"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q003",
+          "speaker": "Claire Hughes Johnson",
+          "text": "Self-awareness to build mutual awareness is actually the most fundamental thing you need to crack if you're going to succeed at company building or management. The more that you can seek feedback, seek to understand your motivators, your strengths, your blind spots, and expose it to others, you're going to be a much more effective company builder and manager.",
+          "timestamp": "00:28:08",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 131,
+            "lineEnd": 133
+          },
+          "themes": [
+            "self-awareness",
+            "management",
+            "feedback",
+            "leadership"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q004",
+          "speaker": "Claire Hughes Johnson",
+          "text": "Say the thing you think you cannot say. Often your biggest strength is something that you don't know is a big strength because it's almost like breathing. When you give feedback that can be actually pretty brutal, the person should leave feeling optimistic.",
+          "timestamp": "00:34:02",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 145,
+            "lineEnd": 147
+          },
+          "themes": [
+            "feedback",
+            "communication",
+            "leadership",
+            "honesty"
+          ],
+          "zones": [
+            "alignment",
+            "intuition"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q005",
+          "speaker": "Claire Hughes Johnson",
+          "text": "Too many people think your job as the manager is to be the expert and tell people what to do. No, actually, your job is to enable people to be their very damn best on your team. And you have to create an environment and a context and provide them information, and then you need to provide them a form of coaching.",
+          "timestamp": "00:38:05",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 163,
+            "lineEnd": 165
+          },
+          "themes": [
+            "management",
+            "coaching",
+            "leadership",
+            "team-building"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q006",
+          "speaker": "Claire Hughes Johnson",
+          "text": "High growth environments can get really chaotic. Where stability comes from is in ritual and in common practices that you share. Quarterly goals are a ritual, and it's actually a source of stability. If they're done well, they're stabilizing because they're a common way of approaching that everybody has, so they can hold onto that even when all the other stuff is going haywire.",
+          "timestamp": "00:44:52",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 195,
+            "lineEnd": 197
+          },
+          "themes": [
+            "operations",
+            "stability",
+            "cadence",
+            "scaling"
+          ],
+          "zones": [
+            "alignment",
+            "chaos"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q007",
+          "speaker": "Claire Hughes Johnson",
+          "text": "Don't fool yourself that having more frequent checks on things is going to make things run faster. The opposite can be true. Be very wary of actually slowing velocity down by creating overhead. If we're looking at metrics, let's just look at your dashboard live. Let's not create a special presentation.",
+          "timestamp": "01:03:12",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 267,
+            "lineEnd": 269
+          },
+          "themes": [
+            "velocity",
+            "metrics",
+            "operations",
+            "overhead"
+          ],
+          "zones": [
+            "velocity",
+            "data"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q008",
+          "speaker": "Claire Hughes Johnson",
+          "text": "The work of a meeting is not calling the meeting. Calling a meeting is easy. The barrier is very low, and it should be higher. People need to know why we're meeting, what's the objective, is it to make a decision or share information, who needs to be here. Make the thing that's implicit explicit.",
+          "timestamp": "01:16:16",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 353,
+            "lineEnd": 353
+          },
+          "themes": [
+            "meetings",
+            "productivity",
+            "communication",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q009",
+          "speaker": "Claire Hughes Johnson",
+          "text": "There's no perfect org structure, there's no perfect operating approach, there's no perfect performance management system. But having one and committing to it is good. Don't let the perfect be the enemy of the good. Do very few things consistently and try to do them well.",
+          "timestamp": "00:50:35",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 212,
+            "lineEnd": 213
+          },
+          "themes": [
+            "operations",
+            "pragmatism",
+            "consistency",
+            "execution"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q010",
+          "speaker": "Claire Hughes Johnson",
+          "text": "Don't make somebody the CMO, or even the head of marketing, if your marketing team is two people. Two years later, your team's probably going to be more than two people, and are you going to have to layer somebody? Organizationally, you want more flexibility.",
+          "timestamp": "00:16:43",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 95,
+            "lineEnd": 95
+          },
+          "themes": [
+            "hiring",
+            "titles",
+            "scaling",
+            "flexibility"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "claire-hughes-johnson-q011",
+          "speaker": "Claire Hughes Johnson",
+          "text": "Be a force for positive momentum, and it will be actually a real career maker. What do we all care about? Progress, impact, momentum. Too many people get stuck, and it makes your work terrible.",
+          "timestamp": "01:19:41",
+          "source": {
+            "slug": "claire-hughes-johnson",
+            "path": "episodes/claire-hughes-johnson/transcript.md",
+            "lineStart": 371,
+            "lineEnd": 371
+          },
+          "themes": [
+            "momentum",
+            "career",
+            "ownership",
+            "velocity"
+          ],
+          "zones": [
+            "velocity",
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "scaling",
+        "management",
+        "operations",
+        "decision-making",
+        "self-awareness",
+        "feedback",
+        "hiring",
+        "company-building"
+      ],
+      "takeaways": [
+        "Self-awareness is the foundation of effective management - you can't build mutual understanding with your team until you understand your own strengths, blind spots, and motivators.",
+        "Product-market fit is just the product, not a company - many companies fail not because of their product but because they didn't invest in building the organizational infrastructure to scale.",
+        "Stability in chaos comes from rituals and consistent operating practices - quarterly goals, review cadences, and shared processes provide anchoring when everything else feels uncertain.",
+        "When in doubt about who the decision maker is, assume it's you - velocity dies when people get stuck waiting for permission that may never come.",
+        "The work of a meeting is not calling the meeting - every meeting needs explicit purpose, decision criteria, and attendee clarity, or you're creating overhead that slows the company."
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.05,
+        "discovery": 0.15,
+        "data": 0.1,
+        "intuition": 0.05,
+        "alignment": 0.4,
+        "chaos": 0.05,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "claire-hughes-johnson-q007",
+          "why": "Counter-intuitive claim that more frequent check-ins can actually slow velocity - argues against the instinct to over-monitor",
+          "related_zones": [
+            "velocity",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "claire-hughes-johnson-q001",
+          "why": "Provocative stance that if you don't know who the decision maker is, assume it's you - encourages action over waiting",
+          "related_zones": [
+            "velocity",
+            "chaos"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "scaling",
+          "operations",
+          "management",
+          "decision-making",
+          "company-building"
+        ]
+      }
+    },
+    {
       "slug": "dalton-caldwell",
       "guest": "Dalton Caldwell",
       "episode_title": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (YC)",
@@ -3196,6 +3500,590 @@
       }
     },
     {
+      "slug": "deb-liu",
+      "quotes": [
+        {
+          "id": "deb-liu-q001",
+          "speaker": "Deb Liu",
+          "text": "The people who were most successful were the ones who actually through adversity, learned to turn stumbling blocks into stepping stones. Trees are strong because they bend in the wind, because they're tested. You want to have enough adversity that you learn to overcome so that you can build stronger over time and build resilience in your career.",
+          "timestamp": "00:11:40",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 148,
+            "lineEnd": 154
+          },
+          "themes": [
+            "resilience",
+            "career",
+            "failure",
+            "growth-mindset"
+          ],
+          "zones": [
+            "chaos",
+            "discovery"
+          ]
+        },
+        {
+          "id": "deb-liu-q002",
+          "speaker": "Deb Liu",
+          "text": "Some of the best PMs I have ever worked with are terrible PMs for their career. They just drift from job to job. But if I said you had to write a spec for your career, what's in there? What are your milestones? What are the skills? What does success look like? You actually have metrics for your product, and yet you don't have metrics for your career.",
+          "timestamp": "00:24:05",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 250,
+            "lineEnd": 250
+          },
+          "themes": [
+            "career",
+            "product-management",
+            "intentionality",
+            "planning"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "deb-liu-q003",
+          "speaker": "Deb Liu",
+          "text": "The workplace is really favoring people who can speak up. If you think your self-review is self-promotion, you're just not going to do a great job at it. What if I called it educating your manager about all the great work your team has been doing? Suddenly you're helping your team get more resources and support.",
+          "timestamp": "00:34:22",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 325,
+            "lineEnd": 367
+          },
+          "themes": [
+            "introverts",
+            "self-promotion",
+            "communication",
+            "career"
+          ],
+          "zones": [
+            "alignment",
+            "velocity"
+          ]
+        },
+        {
+          "id": "deb-liu-q004",
+          "speaker": "Deb Liu",
+          "text": "The failure rate for something like zero-to-one is very high. You have to know that you don't get a lot of resources, you don't get a lot of attention. I found a lot of energy from doing something that someone hasn't done before. I'd rather do it out of the limelight, with minimal resources, and have the freedom to fail.",
+          "timestamp": "00:17:58",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 202,
+            "lineEnd": 211
+          },
+          "themes": [
+            "zero-to-one",
+            "innovation",
+            "failure",
+            "resources"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "deb-liu-q005",
+          "speaker": "Deb Liu",
+          "text": "If you're very early in your career, I encourage people to just learn the core skills first. But there reaches a point in your career where you have to decide, when am I going to take the big swing? The big swings are the things that you write your career stories about. They're not just 'I moved this metric X,' but 'I changed your trajectory in this way.'",
+          "timestamp": "00:22:47",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 238,
+            "lineEnd": 244
+          },
+          "themes": [
+            "career",
+            "risk-taking",
+            "zero-to-one",
+            "big-bets"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ]
+        },
+        {
+          "id": "deb-liu-q006",
+          "speaker": "Deb Liu",
+          "text": "Growth is a game of inches. If you can move things 1% a little bit faster every single week, think about the amount of growth you get at the end. It's not just 'what's the 3X' - you can get to 3X 1% at a time. What if you're a team that can ship 20 things with a 20% success rate versus 4 things with 100%? You get just as much output.",
+          "timestamp": "00:46:34",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 442,
+            "lineEnd": 454
+          },
+          "themes": [
+            "growth",
+            "iteration",
+            "velocity",
+            "experimentation"
+          ],
+          "zones": [
+            "velocity",
+            "data"
+          ]
+        },
+        {
+          "id": "deb-liu-q007",
+          "speaker": "Deb Liu",
+          "text": "Life is 10% what happens to you and 90% how you react to it. You don't get to choose everything that happens in your life. But it's the people who choose a way forward to turn stumbling blocks into stepping stones - those are the people who have the most successful and satisfying careers.",
+          "timestamp": "00:59:08",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 550,
+            "lineEnd": 553
+          },
+          "themes": [
+            "resilience",
+            "mindset",
+            "adaptability",
+            "career"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "id": "deb-liu-q008",
+          "speaker": "Deb Liu",
+          "text": "The most important career decision you make is who you marry. You will have a much more successful career if your home life is in balance. Is this person lifting you up or pushing you back? Is this person someone who's going to be your greatest cheerleader or the greatest weight on you?",
+          "timestamp": "00:57:10",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 526,
+            "lineEnd": 532
+          },
+          "themes": [
+            "career",
+            "life-decisions",
+            "relationships",
+            "balance"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "deb-liu-q009",
+          "speaker": "Deb Liu",
+          "text": "Always be learning. Someone who's always learning is always going to exceed someone who's the expert today. In school there's such a thing as getting a hundred on the test. There's nothing like that in careers. It's a non-linear experience and there's always someone better than you at speaking or strategy or execution.",
+          "timestamp": "00:03:02",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 76,
+            "lineEnd": 82
+          },
+          "themes": [
+            "learning",
+            "career",
+            "growth-mindset",
+            "humility"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "deb-liu-q010",
+          "speaker": "Deb Liu",
+          "text": "Perfectionism is a curse we place on ourselves. It's a very dangerous thing for product leaders because things are going to go wrong - that's literally part of your job. Perfectionism is a lack of trust in our ability to bounce back. The more adaptable you are, the less you have to be perfect every single time.",
+          "timestamp": "01:02:43",
+          "source": {
+            "slug": "deb-liu",
+            "path": "episodes/deb-liu/transcript.md",
+            "lineStart": 573,
+            "lineEnd": 574
+          },
+          "themes": [
+            "perfectionism",
+            "adaptability",
+            "failure",
+            "product-management"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        }
+      ],
+      "themes": [
+        "career-management",
+        "resilience",
+        "introverts",
+        "zero-to-one",
+        "growth",
+        "learning",
+        "perfectionism",
+        "self-promotion"
+      ],
+      "takeaways": [
+        "The most successful people aren't those who avoided failure - they're the ones who learned to turn stumbling blocks into stepping stones through adversity.",
+        "Great PMs often fail to apply product thinking to their own careers - create a career spec with milestones, metrics, and a clear definition of what success looks like.",
+        "Self-promotion isn't shameless bragging - reframe it as educating your manager and helping your team get the resources they deserve.",
+        "Zero-to-one work is high-risk with low resources - the freedom to fail without scrutiny is more valuable than attention and budget.",
+        "Growth is a game of inches: shipping 20 experiments with 20% success beats 4 perfect launches, and the lessons compound over time."
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.05,
+        "discovery": 0.2,
+        "data": 0.1,
+        "intuition": 0.05,
+        "alignment": 0.15,
+        "chaos": 0.25,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "deb-liu-q008",
+          "why": "Provocative claim that your spouse is your most important career decision - challenges the work-only lens on professional success",
+          "related_zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "deb-liu-q004",
+          "why": "Counter-intuitive advice that zero-to-one work should be done out of the limelight with minimal resources - argues attention kills innovation",
+          "related_zones": [
+            "chaos",
+            "velocity"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "public",
+        "primary_topics": [
+          "career-management",
+          "zero-to-one",
+          "introverts",
+          "resilience",
+          "growth"
+        ]
+      }
+    },
+    {
+      "slug": "drew-houston",
+      "quotes": [
+        {
+          "id": "drew-houston-q001",
+          "speaker": "Drew Houston",
+          "text": "Microsoft did not kill us. We killed ourselves. That was the other half of what was the problem within Dropbox was a lot of our wounds were self-inflicted in that we were struggling to keep scaling and launching all these products. And the Dropbox products had stagnated.",
+          "timestamp": "00:32:24",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 274,
+            "lineEnd": 274
+          },
+          "themes": [
+            "competition",
+            "self-awareness",
+            "execution",
+            "accountability"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "drew-houston-q002",
+          "speaker": "Drew Houston",
+          "text": "Put all your eggs in one basket, and watch that basket. Most of the time CEOs want options. They want to hedge their bets, but what you really want to do in these strategic inflection points is go all in one thing.",
+          "timestamp": "00:26:10",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 247,
+            "lineEnd": 247
+          },
+          "themes": [
+            "strategy",
+            "focus",
+            "decision-making",
+            "pivots"
+          ],
+          "zones": [
+            "focus",
+            "chaos"
+          ]
+        },
+        {
+          "id": "drew-houston-q003",
+          "speaker": "Drew Houston",
+          "text": "The narrative completely flipped on the company. We went from the company that could do no wrong to the company that could do no right. Suddenly, your employees don't want to wear your T-shirt anymore. And frankly, you don't even want to wear your T-shirt anymore.",
+          "timestamp": "00:27:00",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 250,
+            "lineEnd": 253
+          },
+          "themes": [
+            "founder-psychology",
+            "company-narrative",
+            "crisis",
+            "morale"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "drew-houston-q004",
+          "speaker": "Drew Houston",
+          "text": "As CEO, both your strengths and your weaknesses are massively amplified and a lot of blind spots in your personality can become huge cultural dysfunctions in the company. Step one to dealing with that is building awareness.",
+          "timestamp": "00:42:57",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 310,
+            "lineEnd": 310
+          },
+          "themes": [
+            "leadership",
+            "self-awareness",
+            "culture",
+            "founder-mode"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "drew-houston-q005",
+          "speaker": "Drew Houston",
+          "text": "I'm very busy, but I'm not really productive. I'm not putting in a lot of creative input. Then the company's not getting a lot of creative output. It just seems like lose, lose, lose all around. Why are we on this treadmill?",
+          "timestamp": "01:00:28",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 379,
+            "lineEnd": 383
+          },
+          "themes": [
+            "productivity",
+            "focus",
+            "founder-mode",
+            "creative-work"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "drew-houston-q006",
+          "speaker": "Drew Houston",
+          "text": "The tools went from helping us get the work done to becoming the work, as we layer. It went from 5 of them, to 10 of them, to 500 of them. If Einstein were alive today, he would wake up, delete LinkedIn notifications, start writing equations, then someone would Slack him and interrupt him.",
+          "timestamp": "01:03:36",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 401,
+            "lineEnd": 406
+          },
+          "themes": [
+            "productivity",
+            "tools",
+            "focus",
+            "distraction"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "drew-houston-q007",
+          "speaker": "Drew Houston",
+          "text": "Every time you move up a league, your reward is a stronger and better opponent and potentially more unlevel playing field. And that's just the way it is. You can't control that. All you can control is how you respond.",
+          "timestamp": "01:23:28",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 498,
+            "lineEnd": 499
+          },
+          "themes": [
+            "competition",
+            "resilience",
+            "founder-mindset",
+            "growth"
+          ],
+          "zones": [
+            "chaos",
+            "velocity"
+          ]
+        },
+        {
+          "id": "drew-houston-q008",
+          "speaker": "Drew Houston",
+          "text": "You have to figure out how to keep your personal growth curve ahead of the company's growth curve. The single most important impactful thing for me has been reading. Learning what happened in Netscape ended up being pretty important to what happened at Dropbox in 2014.",
+          "timestamp": "01:34:55",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 550,
+            "lineEnd": 553
+          },
+          "themes": [
+            "personal-growth",
+            "learning",
+            "reading",
+            "founder-development"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "drew-houston-q009",
+          "speaker": "Drew Houston",
+          "text": "An important part of being a founder is learning to run towards that feeling of discomfort not away from it. That's a big part of your learning rate is the extent to which you're pushing yourself beyond discomfort.",
+          "timestamp": "01:39:43",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 577,
+            "lineEnd": 577
+          },
+          "themes": [
+            "founder-mindset",
+            "growth-mindset",
+            "discomfort",
+            "learning"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "id": "drew-houston-q010",
+          "speaker": "Drew Houston",
+          "text": "The hardest thing for a founder, challenge is not optional. You're going to be challenged, but the suffering is optional. You don't actually have to suffer. You need to figure out how to work your way out of that.",
+          "timestamp": "01:27:18",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 517,
+            "lineEnd": 517
+          },
+          "themes": [
+            "founder-psychology",
+            "resilience",
+            "mindset",
+            "burnout"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "drew-houston-q011",
+          "speaker": "Drew Houston",
+          "text": "The seniority gap is really rough. You need to have enough experienced people in the company who can then train your high potential people. Your high potential people also lose out if they don't have experienced people to learn from.",
+          "timestamp": "01:21:00",
+          "source": {
+            "slug": "drew-houston",
+            "path": "episodes/drew-houston/transcript.md",
+            "lineStart": 481,
+            "lineEnd": 487
+          },
+          "themes": [
+            "hiring",
+            "team-building",
+            "leadership",
+            "scaling"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        }
+      ],
+      "themes": [
+        "founder-resilience",
+        "competition",
+        "personal-growth",
+        "self-awareness",
+        "focus",
+        "productivity",
+        "team-building",
+        "strategic-pivots"
+      ],
+      "takeaways": [
+        "Self-inflicted wounds are often more damaging than external competition - Dropbox's stagnation came from internal dysfunction, not just Google or Apple's attacks.",
+        "Strategic inflection points require going all-in on one thing rather than hedging bets - Drew killed Carousel and Mailbox to focus entirely on productivity.",
+        "Your personal growth curve must stay ahead of the company's growth curve - systematic reading and learning from other founders at different stages is essential.",
+        "As CEO, your personality blind spots become cultural dysfunctions - building self-awareness through tools like the Enneagram is critical for founder effectiveness.",
+        "The seniority gap can silently destroy companies - balance high-potential people with experienced mentors, or everyone solves problems through painful trial and error."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.05,
+        "discovery": 0.15,
+        "data": 0.05,
+        "intuition": 0.1,
+        "alignment": 0.25,
+        "chaos": 0.2,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "drew-houston-q001",
+          "why": "Challenges the narrative that competition killed Dropbox - argues self-inflicted wounds were the real problem",
+          "related_zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "quoteId": "drew-houston-q006",
+          "why": "Provocative claim that productivity tools have become productivity killers - tools are the problem, not the solution",
+          "related_zones": [
+            "focus",
+            "velocity"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "public",
+        "primary_topics": [
+          "founder-resilience",
+          "competition",
+          "personal-growth",
+          "scaling",
+          "pivots"
+        ]
+      }
+    },
+    {
       "slug": "dylan-field-20",
       "guest": "Dylan Field 2.0",
       "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
@@ -3479,6 +4367,333 @@
           "simplicity",
           "craft",
           "collaboration"
+        ]
+      }
+    },
+    {
+      "slug": "dylan-field",
+      "quotes": [
+        {
+          "id": "dylan-field-first-q001",
+          "speaker": "Dylan Field",
+          "text": "We're no longer in this era of good enough is fine. Good enough is not enough, it's mediocre. If you want to win in the game of software, you need to differentiate through design. You got to get to great if you want to win, preferably excellent. Craft matters.",
+          "timestamp": "00:58:05",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 470,
+            "lineEnd": 471
+          },
+          "themes": [
+            "design",
+            "craft",
+            "differentiation",
+            "quality"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q002",
+          "speaker": "Dylan Field",
+          "text": "We started the company August 2012, started working hardcore at Figma in June 2013. Then, summer of 2017 we made our first money. Don't do that. Get to market faster. I wish we had. The lesson is not, okay, how do I make the awesome thing while sweating every detail and never shipping.",
+          "timestamp": "00:43:36",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 340,
+            "lineEnd": 342
+          },
+          "themes": [
+            "velocity",
+            "mvp",
+            "shipping",
+            "lessons"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q003",
+          "speaker": "Dylan Field",
+          "text": "If timelines are maybe not well reasoned through from first principles and perhaps there's padding that has been added by different folks, you have to understand fully what are the assumptions of how long things will actually take. Also, keeping a flatter org is helpful. Path dependency is super important - there's a lot of times that folks will assume something is a requirement that actually is not.",
+          "timestamp": "00:09:37",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 112,
+            "lineEnd": 117
+          },
+          "themes": [
+            "velocity",
+            "first-principles",
+            "organization",
+            "execution"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q004",
+          "speaker": "Dylan Field",
+          "text": "There's always these areas where things feel murky. It's your job as a leader to always investigate those areas, push on them, and if something's not adding up, really ask the hard questions and not shy away from them. It's not about positive or negative, it's about - have we had the hard conversations? Have we thought through the hard trade-offs?",
+          "timestamp": "00:21:15",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 178,
+            "lineEnd": 182
+          },
+          "themes": [
+            "leadership",
+            "clarity",
+            "decision-making",
+            "communication"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q005",
+          "speaker": "Dylan Field",
+          "text": "You can't constrain by always sorting, descending by TAM. For Figma Design, there is no data that said there are enough designers in the world for this to be a big market. But we got the trend right. You have to do what is right. You have to go from strength to strength, and you can't always just be obsessed with what's the next biggest TAM.",
+          "timestamp": "00:36:19",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 271,
+            "lineEnd": 276
+          },
+          "themes": [
+            "strategy",
+            "market-size",
+            "product-expansion",
+            "contrarian"
+          ],
+          "zones": [
+            "intuition",
+            "chaos"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q006",
+          "speaker": "Dylan Field",
+          "text": "It is important to get someone into a product and very quickly have them experience some special sauce, something that's amazing about the product. Shortening the time to scene and having that incredible moment and seeing the true value of the product - that's super important.",
+          "timestamp": "00:39:52",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 298,
+            "lineEnd": 300
+          },
+          "themes": [
+            "activation",
+            "time-to-value",
+            "onboarding",
+            "product-experience"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q007",
+          "speaker": "Dylan Field",
+          "text": "It's not enough to have the MVP. You got to have something that's a little bit awesome at least. You have to have a vision for the product that you can communicate to users when they're first trying to use it, even for your first or early releases.",
+          "timestamp": "00:42:59",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 335,
+            "lineEnd": 336
+          },
+          "themes": [
+            "mvp",
+            "vision",
+            "product-launch",
+            "craft"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q008",
+          "speaker": "Dylan Field",
+          "text": "Starting with taste - what's your point of view on things and how do you develop it? It's this loop of having an experience, asking do I like it, why or why not, then building your repertoire. Understand what is the canon that led to this thing, and where do you disagree or agree philosophically with the path that brought everyone there.",
+          "timestamp": "01:00:22",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 491,
+            "lineEnd": 494
+          },
+          "themes": [
+            "taste",
+            "product-sense",
+            "first-principles",
+            "design"
+          ],
+          "zones": [
+            "intuition",
+            "discovery"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q009",
+          "speaker": "Dylan Field",
+          "text": "Design I think grows only more important in this world. In a world where software can be created more easily, design matters so much. Designers are going to be the leaders of the future. More PMs and developers need to be willing to engage with design because that's going to be how you win or lose.",
+          "timestamp": "01:09:30",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 542,
+            "lineEnd": 546
+          },
+          "themes": [
+            "design",
+            "ai",
+            "future-of-work",
+            "leadership"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q010",
+          "speaker": "Dylan Field",
+          "text": "About a month before the launch of FigJam, it was lacking something. The soul isn't there. Let's go differentiate by making FigJam fun. The team was like, 'What? We're going to make fun our differentiator?' In retrospect, it was absolutely the right move. It showed the entire team how fast we can move if we've got the right goal defined.",
+          "timestamp": "00:26:32",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 215,
+            "lineEnd": 222
+          },
+          "themes": [
+            "differentiation",
+            "product-soul",
+            "velocity",
+            "fun"
+          ],
+          "zones": [
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q011",
+          "speaker": "Dylan Field",
+          "text": "Keep simple things simple, make the complex things possible. Old design adage, but it's a thing I repeat a lot at Figma. There are a lot of people who when you put them on the thing they are super interested and fired up about will outperform your wildest imagination. Put them in the wrong effort, they will be just fine.",
+          "timestamp": "01:22:44",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 700,
+            "lineEnd": 701
+          },
+          "themes": [
+            "simplicity",
+            "design-principles",
+            "team-motivation",
+            "focus"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "dylan-field-first-q012",
+          "speaker": "Dylan Field",
+          "text": "The journey of making Figma Design was a lot of table stakes features had to be built, as well as the shiny cool new stuff. We literally had a team called Blockers. They just went in one by one, struck them down. Each time we saw improvement in retention, improvement in activation - you could literally see the change in the graph.",
+          "timestamp": "00:42:47",
+          "source": {
+            "slug": "dylan-field",
+            "path": "episodes/dylan-field/transcript.md",
+            "lineStart": 328,
+            "lineEnd": 330
+          },
+          "themes": [
+            "execution",
+            "prioritization",
+            "retention",
+            "activation"
+          ],
+          "zones": [
+            "velocity",
+            "data"
+          ]
+        }
+      ],
+      "themes": [
+        "design-as-differentiator",
+        "velocity",
+        "time-to-value",
+        "craft",
+        "taste",
+        "clarity",
+        "ai-future",
+        "product-expansion",
+        "simplicity"
+      ],
+      "takeaways": [
+        "In the age of AI, good enough is mediocre - design and craft are the new competitive moat, and designers are positioned to be the leaders of the future.",
+        "Time to value is critical - get users to experience something amazing in your product as quickly as possible, not just the MVP basics.",
+        "Don't sort product expansion decisions by TAM - Figma's design tool market looked tiny on paper, but they got the trend right and expanded from strength to strength.",
+        "Taste is a skill you can develop through a deliberate loop: experience, judgment, reflection, and understanding the canon that led to current conventions.",
+        "When something lacks soul, the answer might be counterintuitive - FigJam became successful when they made 'fun' their differentiator a month before launch."
+      ],
+      "zone_influence": {
+        "velocity": 0.2,
+        "perfection": 0.25,
+        "discovery": 0.1,
+        "data": 0.05,
+        "intuition": 0.2,
+        "alignment": 0.1,
+        "chaos": 0.05,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "dylan-field-first-q005",
+          "why": "Counter-intuitive advice to NOT sort by TAM when picking products to build - argues trends and going from strength to strength matters more than market size",
+          "related_zones": [
+            "intuition",
+            "chaos"
+          ]
+        },
+        {
+          "quoteId": "dylan-field-first-q002",
+          "why": "Surprising admission from a perfectionist design tool founder - they took way too long to launch and wishes they had moved faster",
+          "related_zones": [
+            "velocity",
+            "chaos"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "public",
+        "primary_topics": [
+          "design",
+          "craft",
+          "velocity",
+          "taste",
+          "ai-future",
+          "product-expansion"
         ]
       }
     },
@@ -3785,6 +5000,333 @@
           "experimentation",
           "metrics",
           "rebranding"
+        ]
+      }
+    },
+    {
+      "slug": "eric-ries",
+      "quotes": [
+        {
+          "id": "eric-ries-q001",
+          "speaker": "Eric Ries",
+          "text": "MVP is simply for whatever the hypothesis is that we're trying to test, what is the most efficient way to get the validation we need about whether a hypothesis is true or not? Part of a successful test is to understand what are the demands of customers in our market.",
+          "timestamp": "00:29:22",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 186,
+            "lineEnd": 189
+          },
+          "themes": [
+            "mvp",
+            "experimentation",
+            "validation",
+            "customer-development"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "eric-ries-q002",
+          "speaker": "Eric Ries",
+          "text": "The number one lesson of the scientific method is if you can't fail, you can't learn. And so if you set yourself up in a position where psychologically you can't admit that something didn't work, you can't learn. That really is the essence of MVP.",
+          "timestamp": "00:48:19",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 294,
+            "lineEnd": 297
+          },
+          "themes": [
+            "failure",
+            "learning",
+            "scientific-method",
+            "mvp"
+          ],
+          "zones": [
+            "discovery",
+            "chaos"
+          ]
+        },
+        {
+          "id": "eric-ries-q003",
+          "speaker": "Eric Ries",
+          "text": "Far worse than having a startup fail is to be in a company that won't die, a zombie undead company that you hate but you can't leave. We're having a mental health crisis among founders that's not talked about enough. Building a company you hate, that becomes a maligned force in the world - that's way, way worse.",
+          "timestamp": "00:54:41",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 330,
+            "lineEnd": 331
+          },
+          "themes": [
+            "founder-psychology",
+            "failure",
+            "mental-health",
+            "company-building"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "eric-ries-q004",
+          "speaker": "Eric Ries",
+          "text": "The pivot is really about learning. Anchored in what you've learned and yet connected. Oftentimes the vision is discovered more than chosen in these stories. It's really much more about having the courage to see the world as you think it ought to be and then dance with that wherever it takes you.",
+          "timestamp": "01:12:13",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 423,
+            "lineEnd": 427
+          },
+          "themes": [
+            "pivots",
+            "vision",
+            "learning",
+            "courage"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "id": "eric-ries-q005",
+          "speaker": "Eric Ries",
+          "text": "If you're asking whether you should pivot or not, you probably know the answer already. If you have had product-market fit you would not have time for this. When it's working there's no time for naval gazing. The whirlwind of it is so amazing and so horrible at the same time. If you're not sure, you're sure.",
+          "timestamp": "01:13:49",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 437,
+            "lineEnd": 439
+          },
+          "themes": [
+            "product-market-fit",
+            "pivots",
+            "decision-making",
+            "self-awareness"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ]
+        },
+        {
+          "id": "eric-ries-q006",
+          "speaker": "Eric Ries",
+          "text": "AI is going to force us to take governance issues seriously. At the end of the day, AI is a management technology. We're training machine intelligence and transmitting values to it - those are going to be our organizational values. Tech has severely underinvested in creating governance structures to have those values explicitly embodied in the organization.",
+          "timestamp": "01:19:59",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 462,
+            "lineEnd": 468
+          },
+          "themes": [
+            "ai",
+            "governance",
+            "values",
+            "company-building"
+          ],
+          "zones": [
+            "alignment",
+            "chaos"
+          ]
+        },
+        {
+          "id": "eric-ries-q007",
+          "speaker": "Eric Ries",
+          "text": "No individual person can ever make promises on behalf of an organization - it's a category error. You're replaceable. Organizations are actually alive. They are superorganisms with their own soul and their own life. Founders don't create them, we birth them. We don't own them, we nurture them.",
+          "timestamp": "01:34:28",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 534,
+            "lineEnd": 535
+          },
+          "themes": [
+            "company-building",
+            "governance",
+            "leadership",
+            "organizations"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "eric-ries-q008",
+          "speaker": "Eric Ries",
+          "text": "What is the probability that Google will file its next quarterly report on time? 100%, as certain as the sun will rise. What is the probability they would be complicit in something harmful? 'Probably not.' We have built a massive apparatus to make sure certain things happen. Companies are really good at things they care about.",
+          "timestamp": "01:36:26",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 540,
+            "lineEnd": 544
+          },
+          "themes": [
+            "governance",
+            "values",
+            "company-building",
+            "priorities"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "eric-ries-q009",
+          "speaker": "Eric Ries",
+          "text": "My view is that what it means to be a for-profit company, we've gotten it wrong. Making a profit is actually about maximizing human flourishing. Philip Morris has great ESG scores - how can that possibly be right? We need to build companies where human flourishing is the thing at the beating heart.",
+          "timestamp": "01:38:08",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 546,
+            "lineEnd": 561
+          },
+          "themes": [
+            "human-flourishing",
+            "profit",
+            "company-building",
+            "values"
+          ],
+          "zones": [
+            "alignment",
+            "intuition"
+          ]
+        },
+        {
+          "id": "eric-ries-q010",
+          "speaker": "Eric Ries",
+          "text": "Every founder wants the one weird trick. There's no one weird trick. You want to do the right thing, it is a relentless and constant process. We need to build a structure of the company so that at every level, at every decision, somebody in the room feels like they have a fiduciary duty to do the right thing.",
+          "timestamp": "01:49:06",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 606,
+            "lineEnd": 609
+          },
+          "themes": [
+            "governance",
+            "leadership",
+            "values",
+            "culture"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "eric-ries-q011",
+          "speaker": "Eric Ries",
+          "text": "First principles thinking has two components. A lot of my work is just descriptive - giving a name to a thing that already happens. Pivot is just what it's called when you change strategy but keep fidelity to the vision. It needs a name because we do it all the time. The prescriptive parts are just deductive logic from there.",
+          "timestamp": "00:10:44",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 87,
+            "lineEnd": 91
+          },
+          "themes": [
+            "first-principles",
+            "pivots",
+            "strategy",
+            "frameworks"
+          ],
+          "zones": [
+            "discovery",
+            "focus"
+          ]
+        },
+        {
+          "id": "eric-ries-q012",
+          "speaker": "Eric Ries",
+          "text": "It took us 10 years to build the MVP for LTSE. MVP doesn't necessarily mean cheap or low quality. It's just whatever your hypothesis is, whatever you actually believe is going to work, let's put that thing to the test. As little as necessary - not as little as possible.",
+          "timestamp": "00:37:57",
+          "source": {
+            "slug": "eric-ries",
+            "path": "episodes/eric-ries/transcript.md",
+            "lineStart": 237,
+            "lineEnd": 240
+          },
+          "themes": [
+            "mvp",
+            "validation",
+            "long-term-thinking",
+            "experimentation"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        }
+      ],
+      "themes": [
+        "lean-startup",
+        "mvp",
+        "pivots",
+        "first-principles",
+        "governance",
+        "human-flourishing",
+        "founder-psychology",
+        "validation",
+        "company-building"
+      ],
+      "takeaways": [
+        "MVP is not about being cheap or low quality - it's about finding the most efficient way to test your hypothesis, whether that takes 6 weeks or 10 years.",
+        "If you can't fail, you can't learn - the psychological inability to admit something isn't working is the real blocker to learning and pivoting.",
+        "Building a zombie company you hate is far worse than startup failure - founders who sell out and watch their companies become something abhorrent suffer more than those who fail fast.",
+        "The vision is often discovered rather than chosen - pivoting is about having the courage to see the world as it ought to be and dancing with wherever that takes you.",
+        "Organizations are superorganisms with their own soul - founders don't own them, they birth and nurture them, and must encode values into the structure itself to keep promises beyond any individual."
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.05,
+        "discovery": 0.3,
+        "data": 0.1,
+        "intuition": 0.1,
+        "alignment": 0.25,
+        "chaos": 0.05,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "eric-ries-q003",
+          "why": "Counter-intuitive claim that zombie companies are worse than failure - challenges the 'never give up' founder mythology",
+          "related_zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "quoteId": "eric-ries-q009",
+          "why": "Provocative redefinition of 'for-profit' as maximizing human flourishing rather than shareholder returns - challenges fundamental assumptions about capitalism",
+          "related_zones": [
+            "alignment",
+            "intuition"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "founder",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "lean-startup",
+          "mvp",
+          "pivots",
+          "governance",
+          "human-flourishing",
+          "first-principles"
         ]
       }
     },
@@ -9982,6 +11524,249 @@
       "verified": true
     },
     {
+      "id": "claire-hughes-johnson-q001",
+      "speaker": "Claire Hughes Johnson",
+      "text": "If you're not sure who the decision maker is, one, it's probably you. And I'd rather you act that way than not because you're going to slow the whole company down. Follow a process and get it done, and don't forget to actually make a decision. If you don't know who the decision maker is, just ask. Don't get stuck.",
+      "timestamp": "01:18:52",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 371
+      },
+      "themes": [
+        "decision-making",
+        "velocity",
+        "ownership",
+        "leadership"
+      ],
+      "zones": [
+        "velocity",
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q002",
+      "speaker": "Claire Hughes Johnson",
+      "text": "If you believe that talent is everything, then your hiring process is everything. It turns out product market fit is just the product, and that is not a company, and that will not scale. You see these companies that sort of fall over and there's a bad article about them, and often it's not the product, it's the fact that they didn't actually build the company very well.",
+      "timestamp": "00:20:23",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 109
+      },
+      "themes": [
+        "hiring",
+        "company-building",
+        "scaling",
+        "product-market-fit"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q003",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Self-awareness to build mutual awareness is actually the most fundamental thing you need to crack if you're going to succeed at company building or management. The more that you can seek feedback, seek to understand your motivators, your strengths, your blind spots, and expose it to others, you're going to be a much more effective company builder and manager.",
+      "timestamp": "00:28:08",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 133
+      },
+      "themes": [
+        "self-awareness",
+        "management",
+        "feedback",
+        "leadership"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q004",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Say the thing you think you cannot say. Often your biggest strength is something that you don't know is a big strength because it's almost like breathing. When you give feedback that can be actually pretty brutal, the person should leave feeling optimistic.",
+      "timestamp": "00:34:02",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 147
+      },
+      "themes": [
+        "feedback",
+        "communication",
+        "leadership",
+        "honesty"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q005",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Too many people think your job as the manager is to be the expert and tell people what to do. No, actually, your job is to enable people to be their very damn best on your team. And you have to create an environment and a context and provide them information, and then you need to provide them a form of coaching.",
+      "timestamp": "00:38:05",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 165
+      },
+      "themes": [
+        "management",
+        "coaching",
+        "leadership",
+        "team-building"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q006",
+      "speaker": "Claire Hughes Johnson",
+      "text": "High growth environments can get really chaotic. Where stability comes from is in ritual and in common practices that you share. Quarterly goals are a ritual, and it's actually a source of stability. If they're done well, they're stabilizing because they're a common way of approaching that everybody has, so they can hold onto that even when all the other stuff is going haywire.",
+      "timestamp": "00:44:52",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 197
+      },
+      "themes": [
+        "operations",
+        "stability",
+        "cadence",
+        "scaling"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q007",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Don't fool yourself that having more frequent checks on things is going to make things run faster. The opposite can be true. Be very wary of actually slowing velocity down by creating overhead. If we're looking at metrics, let's just look at your dashboard live. Let's not create a special presentation.",
+      "timestamp": "01:03:12",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 269
+      },
+      "themes": [
+        "velocity",
+        "metrics",
+        "operations",
+        "overhead"
+      ],
+      "zones": [
+        "velocity",
+        "data"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q008",
+      "speaker": "Claire Hughes Johnson",
+      "text": "The work of a meeting is not calling the meeting. Calling a meeting is easy. The barrier is very low, and it should be higher. People need to know why we're meeting, what's the objective, is it to make a decision or share information, who needs to be here. Make the thing that's implicit explicit.",
+      "timestamp": "01:16:16",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 353,
+        "lineEnd": 353
+      },
+      "themes": [
+        "meetings",
+        "productivity",
+        "communication",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q009",
+      "speaker": "Claire Hughes Johnson",
+      "text": "There's no perfect org structure, there's no perfect operating approach, there's no perfect performance management system. But having one and committing to it is good. Don't let the perfect be the enemy of the good. Do very few things consistently and try to do them well.",
+      "timestamp": "00:50:35",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 212,
+        "lineEnd": 213
+      },
+      "themes": [
+        "operations",
+        "pragmatism",
+        "consistency",
+        "execution"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q010",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Don't make somebody the CMO, or even the head of marketing, if your marketing team is two people. Two years later, your team's probably going to be more than two people, and are you going to have to layer somebody? Organizationally, you want more flexibility.",
+      "timestamp": "00:16:43",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 95,
+        "lineEnd": 95
+      },
+      "themes": [
+        "hiring",
+        "titles",
+        "scaling",
+        "flexibility"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "claire-hughes-johnson-q011",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Be a force for positive momentum, and it will be actually a real career maker. What do we all care about? Progress, impact, momentum. Too many people get stuck, and it makes your work terrible.",
+      "timestamp": "01:19:41",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 371,
+        "lineEnd": 371
+      },
+      "themes": [
+        "momentum",
+        "career",
+        "ownership",
+        "velocity"
+      ],
+      "zones": [
+        "velocity",
+        "alignment"
+      ]
+    },
+    {
       "id": "dalton-caldwell-001",
       "text": "One of my mantras is just don't die. Just keep your startup going. Just keep going. And I say that over and over again and honestly, that is often what people tell me is the most impactful thing I said. It's not that I said some Ninja 5D chess move that they never would've thought of before. It's just the constant affirmation that continuing to keep going and doing high quality reps is the game.",
       "source": {
@@ -10248,6 +12033,468 @@
       "verified": true
     },
     {
+      "id": "deb-liu-q001",
+      "speaker": "Deb Liu",
+      "text": "The people who were most successful were the ones who actually through adversity, learned to turn stumbling blocks into stepping stones. Trees are strong because they bend in the wind, because they're tested. You want to have enough adversity that you learn to overcome so that you can build stronger over time and build resilience in your career.",
+      "timestamp": "00:11:40",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 154
+      },
+      "themes": [
+        "resilience",
+        "career",
+        "failure",
+        "growth-mindset"
+      ],
+      "zones": [
+        "chaos",
+        "discovery"
+      ]
+    },
+    {
+      "id": "deb-liu-q002",
+      "speaker": "Deb Liu",
+      "text": "Some of the best PMs I have ever worked with are terrible PMs for their career. They just drift from job to job. But if I said you had to write a spec for your career, what's in there? What are your milestones? What are the skills? What does success look like? You actually have metrics for your product, and yet you don't have metrics for your career.",
+      "timestamp": "00:24:05",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 250
+      },
+      "themes": [
+        "career",
+        "product-management",
+        "intentionality",
+        "planning"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "deb-liu-q003",
+      "speaker": "Deb Liu",
+      "text": "The workplace is really favoring people who can speak up. If you think your self-review is self-promotion, you're just not going to do a great job at it. What if I called it educating your manager about all the great work your team has been doing? Suddenly you're helping your team get more resources and support.",
+      "timestamp": "00:34:22",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 367
+      },
+      "themes": [
+        "introverts",
+        "self-promotion",
+        "communication",
+        "career"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
+    },
+    {
+      "id": "deb-liu-q004",
+      "speaker": "Deb Liu",
+      "text": "The failure rate for something like zero-to-one is very high. You have to know that you don't get a lot of resources, you don't get a lot of attention. I found a lot of energy from doing something that someone hasn't done before. I'd rather do it out of the limelight, with minimal resources, and have the freedom to fail.",
+      "timestamp": "00:17:58",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 211
+      },
+      "themes": [
+        "zero-to-one",
+        "innovation",
+        "failure",
+        "resources"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "deb-liu-q005",
+      "speaker": "Deb Liu",
+      "text": "If you're very early in your career, I encourage people to just learn the core skills first. But there reaches a point in your career where you have to decide, when am I going to take the big swing? The big swings are the things that you write your career stories about. They're not just 'I moved this metric X,' but 'I changed your trajectory in this way.'",
+      "timestamp": "00:22:47",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 244
+      },
+      "themes": [
+        "career",
+        "risk-taking",
+        "zero-to-one",
+        "big-bets"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ]
+    },
+    {
+      "id": "deb-liu-q006",
+      "speaker": "Deb Liu",
+      "text": "Growth is a game of inches. If you can move things 1% a little bit faster every single week, think about the amount of growth you get at the end. It's not just 'what's the 3X' - you can get to 3X 1% at a time. What if you're a team that can ship 20 things with a 20% success rate versus 4 things with 100%? You get just as much output.",
+      "timestamp": "00:46:34",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 454
+      },
+      "themes": [
+        "growth",
+        "iteration",
+        "velocity",
+        "experimentation"
+      ],
+      "zones": [
+        "velocity",
+        "data"
+      ]
+    },
+    {
+      "id": "deb-liu-q007",
+      "speaker": "Deb Liu",
+      "text": "Life is 10% what happens to you and 90% how you react to it. You don't get to choose everything that happens in your life. But it's the people who choose a way forward to turn stumbling blocks into stepping stones - those are the people who have the most successful and satisfying careers.",
+      "timestamp": "00:59:08",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 550,
+        "lineEnd": 553
+      },
+      "themes": [
+        "resilience",
+        "mindset",
+        "adaptability",
+        "career"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "deb-liu-q008",
+      "speaker": "Deb Liu",
+      "text": "The most important career decision you make is who you marry. You will have a much more successful career if your home life is in balance. Is this person lifting you up or pushing you back? Is this person someone who's going to be your greatest cheerleader or the greatest weight on you?",
+      "timestamp": "00:57:10",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 526,
+        "lineEnd": 532
+      },
+      "themes": [
+        "career",
+        "life-decisions",
+        "relationships",
+        "balance"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "deb-liu-q009",
+      "speaker": "Deb Liu",
+      "text": "Always be learning. Someone who's always learning is always going to exceed someone who's the expert today. In school there's such a thing as getting a hundred on the test. There's nothing like that in careers. It's a non-linear experience and there's always someone better than you at speaking or strategy or execution.",
+      "timestamp": "00:03:02",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 76,
+        "lineEnd": 82
+      },
+      "themes": [
+        "learning",
+        "career",
+        "growth-mindset",
+        "humility"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "deb-liu-q010",
+      "speaker": "Deb Liu",
+      "text": "Perfectionism is a curse we place on ourselves. It's a very dangerous thing for product leaders because things are going to go wrong - that's literally part of your job. Perfectionism is a lack of trust in our ability to bounce back. The more adaptable you are, the less you have to be perfect every single time.",
+      "timestamp": "01:02:43",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 573,
+        "lineEnd": 574
+      },
+      "themes": [
+        "perfectionism",
+        "adaptability",
+        "failure",
+        "product-management"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "drew-houston-q001",
+      "speaker": "Drew Houston",
+      "text": "Microsoft did not kill us. We killed ourselves. That was the other half of what was the problem within Dropbox was a lot of our wounds were self-inflicted in that we were struggling to keep scaling and launching all these products. And the Dropbox products had stagnated.",
+      "timestamp": "00:32:24",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 274,
+        "lineEnd": 274
+      },
+      "themes": [
+        "competition",
+        "self-awareness",
+        "execution",
+        "accountability"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "drew-houston-q002",
+      "speaker": "Drew Houston",
+      "text": "Put all your eggs in one basket, and watch that basket. Most of the time CEOs want options. They want to hedge their bets, but what you really want to do in these strategic inflection points is go all in one thing.",
+      "timestamp": "00:26:10",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": [
+        "strategy",
+        "focus",
+        "decision-making",
+        "pivots"
+      ],
+      "zones": [
+        "focus",
+        "chaos"
+      ]
+    },
+    {
+      "id": "drew-houston-q003",
+      "speaker": "Drew Houston",
+      "text": "The narrative completely flipped on the company. We went from the company that could do no wrong to the company that could do no right. Suddenly, your employees don't want to wear your T-shirt anymore. And frankly, you don't even want to wear your T-shirt anymore.",
+      "timestamp": "00:27:00",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 253
+      },
+      "themes": [
+        "founder-psychology",
+        "company-narrative",
+        "crisis",
+        "morale"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "drew-houston-q004",
+      "speaker": "Drew Houston",
+      "text": "As CEO, both your strengths and your weaknesses are massively amplified and a lot of blind spots in your personality can become huge cultural dysfunctions in the company. Step one to dealing with that is building awareness.",
+      "timestamp": "00:42:57",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": [
+        "leadership",
+        "self-awareness",
+        "culture",
+        "founder-mode"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "drew-houston-q005",
+      "speaker": "Drew Houston",
+      "text": "I'm very busy, but I'm not really productive. I'm not putting in a lot of creative input. Then the company's not getting a lot of creative output. It just seems like lose, lose, lose all around. Why are we on this treadmill?",
+      "timestamp": "01:00:28",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 383
+      },
+      "themes": [
+        "productivity",
+        "focus",
+        "founder-mode",
+        "creative-work"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "drew-houston-q006",
+      "speaker": "Drew Houston",
+      "text": "The tools went from helping us get the work done to becoming the work, as we layer. It went from 5 of them, to 10 of them, to 500 of them. If Einstein were alive today, he would wake up, delete LinkedIn notifications, start writing equations, then someone would Slack him and interrupt him.",
+      "timestamp": "01:03:36",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 401,
+        "lineEnd": 406
+      },
+      "themes": [
+        "productivity",
+        "tools",
+        "focus",
+        "distraction"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "drew-houston-q007",
+      "speaker": "Drew Houston",
+      "text": "Every time you move up a league, your reward is a stronger and better opponent and potentially more unlevel playing field. And that's just the way it is. You can't control that. All you can control is how you respond.",
+      "timestamp": "01:23:28",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 498,
+        "lineEnd": 499
+      },
+      "themes": [
+        "competition",
+        "resilience",
+        "founder-mindset",
+        "growth"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "id": "drew-houston-q008",
+      "speaker": "Drew Houston",
+      "text": "You have to figure out how to keep your personal growth curve ahead of the company's growth curve. The single most important impactful thing for me has been reading. Learning what happened in Netscape ended up being pretty important to what happened at Dropbox in 2014.",
+      "timestamp": "01:34:55",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 550,
+        "lineEnd": 553
+      },
+      "themes": [
+        "personal-growth",
+        "learning",
+        "reading",
+        "founder-development"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "drew-houston-q009",
+      "speaker": "Drew Houston",
+      "text": "An important part of being a founder is learning to run towards that feeling of discomfort not away from it. That's a big part of your learning rate is the extent to which you're pushing yourself beyond discomfort.",
+      "timestamp": "01:39:43",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 577,
+        "lineEnd": 577
+      },
+      "themes": [
+        "founder-mindset",
+        "growth-mindset",
+        "discomfort",
+        "learning"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "drew-houston-q010",
+      "speaker": "Drew Houston",
+      "text": "The hardest thing for a founder, challenge is not optional. You're going to be challenged, but the suffering is optional. You don't actually have to suffer. You need to figure out how to work your way out of that.",
+      "timestamp": "01:27:18",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 517,
+        "lineEnd": 517
+      },
+      "themes": [
+        "founder-psychology",
+        "resilience",
+        "mindset",
+        "burnout"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "drew-houston-q011",
+      "speaker": "Drew Houston",
+      "text": "The seniority gap is really rough. You need to have enough experienced people in the company who can then train your high potential people. Your high potential people also lose out if they don't have experienced people to learn from.",
+      "timestamp": "01:21:00",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 481,
+        "lineEnd": 487
+      },
+      "themes": [
+        "hiring",
+        "team-building",
+        "leadership",
+        "scaling"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
       "id": "dylan-field-001",
       "text": "Design is art applied to problem solving. I think that design is often... There is some component of creativity to it and unique expression that you're trying to provide and create and put out into the world. But you are also trying to do it and match it to a user need, a problem that needs to be solved. And I think that it's not pure art, but if you lose the art and you're just solving the problem, it's totally utilitarian and it lacks soul.",
       "source": {
@@ -10472,6 +12719,270 @@
       "zones": [
         "discovery",
         "alignment"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q001",
+      "speaker": "Dylan Field",
+      "text": "We're no longer in this era of good enough is fine. Good enough is not enough, it's mediocre. If you want to win in the game of software, you need to differentiate through design. You got to get to great if you want to win, preferably excellent. Craft matters.",
+      "timestamp": "00:58:05",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 470,
+        "lineEnd": 471
+      },
+      "themes": [
+        "design",
+        "craft",
+        "differentiation",
+        "quality"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q002",
+      "speaker": "Dylan Field",
+      "text": "We started the company August 2012, started working hardcore at Figma in June 2013. Then, summer of 2017 we made our first money. Don't do that. Get to market faster. I wish we had. The lesson is not, okay, how do I make the awesome thing while sweating every detail and never shipping.",
+      "timestamp": "00:43:36",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 342
+      },
+      "themes": [
+        "velocity",
+        "mvp",
+        "shipping",
+        "lessons"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q003",
+      "speaker": "Dylan Field",
+      "text": "If timelines are maybe not well reasoned through from first principles and perhaps there's padding that has been added by different folks, you have to understand fully what are the assumptions of how long things will actually take. Also, keeping a flatter org is helpful. Path dependency is super important - there's a lot of times that folks will assume something is a requirement that actually is not.",
+      "timestamp": "00:09:37",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 117
+      },
+      "themes": [
+        "velocity",
+        "first-principles",
+        "organization",
+        "execution"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q004",
+      "speaker": "Dylan Field",
+      "text": "There's always these areas where things feel murky. It's your job as a leader to always investigate those areas, push on them, and if something's not adding up, really ask the hard questions and not shy away from them. It's not about positive or negative, it's about - have we had the hard conversations? Have we thought through the hard trade-offs?",
+      "timestamp": "00:21:15",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 182
+      },
+      "themes": [
+        "leadership",
+        "clarity",
+        "decision-making",
+        "communication"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q005",
+      "speaker": "Dylan Field",
+      "text": "You can't constrain by always sorting, descending by TAM. For Figma Design, there is no data that said there are enough designers in the world for this to be a big market. But we got the trend right. You have to do what is right. You have to go from strength to strength, and you can't always just be obsessed with what's the next biggest TAM.",
+      "timestamp": "00:36:19",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 276
+      },
+      "themes": [
+        "strategy",
+        "market-size",
+        "product-expansion",
+        "contrarian"
+      ],
+      "zones": [
+        "intuition",
+        "chaos"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q006",
+      "speaker": "Dylan Field",
+      "text": "It is important to get someone into a product and very quickly have them experience some special sauce, something that's amazing about the product. Shortening the time to scene and having that incredible moment and seeing the true value of the product - that's super important.",
+      "timestamp": "00:39:52",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 300
+      },
+      "themes": [
+        "activation",
+        "time-to-value",
+        "onboarding",
+        "product-experience"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q007",
+      "speaker": "Dylan Field",
+      "text": "It's not enough to have the MVP. You got to have something that's a little bit awesome at least. You have to have a vision for the product that you can communicate to users when they're first trying to use it, even for your first or early releases.",
+      "timestamp": "00:42:59",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 335,
+        "lineEnd": 336
+      },
+      "themes": [
+        "mvp",
+        "vision",
+        "product-launch",
+        "craft"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q008",
+      "speaker": "Dylan Field",
+      "text": "Starting with taste - what's your point of view on things and how do you develop it? It's this loop of having an experience, asking do I like it, why or why not, then building your repertoire. Understand what is the canon that led to this thing, and where do you disagree or agree philosophically with the path that brought everyone there.",
+      "timestamp": "01:00:22",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 491,
+        "lineEnd": 494
+      },
+      "themes": [
+        "taste",
+        "product-sense",
+        "first-principles",
+        "design"
+      ],
+      "zones": [
+        "intuition",
+        "discovery"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q009",
+      "speaker": "Dylan Field",
+      "text": "Design I think grows only more important in this world. In a world where software can be created more easily, design matters so much. Designers are going to be the leaders of the future. More PMs and developers need to be willing to engage with design because that's going to be how you win or lose.",
+      "timestamp": "01:09:30",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 542,
+        "lineEnd": 546
+      },
+      "themes": [
+        "design",
+        "ai",
+        "future-of-work",
+        "leadership"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q010",
+      "speaker": "Dylan Field",
+      "text": "About a month before the launch of FigJam, it was lacking something. The soul isn't there. Let's go differentiate by making FigJam fun. The team was like, 'What? We're going to make fun our differentiator?' In retrospect, it was absolutely the right move. It showed the entire team how fast we can move if we've got the right goal defined.",
+      "timestamp": "00:26:32",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 215,
+        "lineEnd": 222
+      },
+      "themes": [
+        "differentiation",
+        "product-soul",
+        "velocity",
+        "fun"
+      ],
+      "zones": [
+        "intuition",
+        "velocity"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q011",
+      "speaker": "Dylan Field",
+      "text": "Keep simple things simple, make the complex things possible. Old design adage, but it's a thing I repeat a lot at Figma. There are a lot of people who when you put them on the thing they are super interested and fired up about will outperform your wildest imagination. Put them in the wrong effort, they will be just fine.",
+      "timestamp": "01:22:44",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 700,
+        "lineEnd": 701
+      },
+      "themes": [
+        "simplicity",
+        "design-principles",
+        "team-motivation",
+        "focus"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "dylan-field-first-q012",
+      "speaker": "Dylan Field",
+      "text": "The journey of making Figma Design was a lot of table stakes features had to be built, as well as the shiny cool new stuff. We literally had a team called Blockers. They just went in one by one, struck them down. Each time we saw improvement in retention, improvement in activation - you could literally see the change in the graph.",
+      "timestamp": "00:42:47",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 330
+      },
+      "themes": [
+        "execution",
+        "prioritization",
+        "retention",
+        "activation"
+      ],
+      "zones": [
+        "velocity",
+        "data"
       ]
     },
     {
@@ -10717,6 +13228,270 @@
       "zones": [
         "discovery",
         "focus"
+      ]
+    },
+    {
+      "id": "eric-ries-q001",
+      "speaker": "Eric Ries",
+      "text": "MVP is simply for whatever the hypothesis is that we're trying to test, what is the most efficient way to get the validation we need about whether a hypothesis is true or not? Part of a successful test is to understand what are the demands of customers in our market.",
+      "timestamp": "00:29:22",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 189
+      },
+      "themes": [
+        "mvp",
+        "experimentation",
+        "validation",
+        "customer-development"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "eric-ries-q002",
+      "speaker": "Eric Ries",
+      "text": "The number one lesson of the scientific method is if you can't fail, you can't learn. And so if you set yourself up in a position where psychologically you can't admit that something didn't work, you can't learn. That really is the essence of MVP.",
+      "timestamp": "00:48:19",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 297
+      },
+      "themes": [
+        "failure",
+        "learning",
+        "scientific-method",
+        "mvp"
+      ],
+      "zones": [
+        "discovery",
+        "chaos"
+      ]
+    },
+    {
+      "id": "eric-ries-q003",
+      "speaker": "Eric Ries",
+      "text": "Far worse than having a startup fail is to be in a company that won't die, a zombie undead company that you hate but you can't leave. We're having a mental health crisis among founders that's not talked about enough. Building a company you hate, that becomes a maligned force in the world - that's way, way worse.",
+      "timestamp": "00:54:41",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 331
+      },
+      "themes": [
+        "founder-psychology",
+        "failure",
+        "mental-health",
+        "company-building"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "eric-ries-q004",
+      "speaker": "Eric Ries",
+      "text": "The pivot is really about learning. Anchored in what you've learned and yet connected. Oftentimes the vision is discovered more than chosen in these stories. It's really much more about having the courage to see the world as you think it ought to be and then dance with that wherever it takes you.",
+      "timestamp": "01:12:13",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 423,
+        "lineEnd": 427
+      },
+      "themes": [
+        "pivots",
+        "vision",
+        "learning",
+        "courage"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "eric-ries-q005",
+      "speaker": "Eric Ries",
+      "text": "If you're asking whether you should pivot or not, you probably know the answer already. If you have had product-market fit you would not have time for this. When it's working there's no time for naval gazing. The whirlwind of it is so amazing and so horrible at the same time. If you're not sure, you're sure.",
+      "timestamp": "01:13:49",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 437,
+        "lineEnd": 439
+      },
+      "themes": [
+        "product-market-fit",
+        "pivots",
+        "decision-making",
+        "self-awareness"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ]
+    },
+    {
+      "id": "eric-ries-q006",
+      "speaker": "Eric Ries",
+      "text": "AI is going to force us to take governance issues seriously. At the end of the day, AI is a management technology. We're training machine intelligence and transmitting values to it - those are going to be our organizational values. Tech has severely underinvested in creating governance structures to have those values explicitly embodied in the organization.",
+      "timestamp": "01:19:59",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 468
+      },
+      "themes": [
+        "ai",
+        "governance",
+        "values",
+        "company-building"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
+    },
+    {
+      "id": "eric-ries-q007",
+      "speaker": "Eric Ries",
+      "text": "No individual person can ever make promises on behalf of an organization - it's a category error. You're replaceable. Organizations are actually alive. They are superorganisms with their own soul and their own life. Founders don't create them, we birth them. We don't own them, we nurture them.",
+      "timestamp": "01:34:28",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 534,
+        "lineEnd": 535
+      },
+      "themes": [
+        "company-building",
+        "governance",
+        "leadership",
+        "organizations"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "eric-ries-q008",
+      "speaker": "Eric Ries",
+      "text": "What is the probability that Google will file its next quarterly report on time? 100%, as certain as the sun will rise. What is the probability they would be complicit in something harmful? 'Probably not.' We have built a massive apparatus to make sure certain things happen. Companies are really good at things they care about.",
+      "timestamp": "01:36:26",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 540,
+        "lineEnd": 544
+      },
+      "themes": [
+        "governance",
+        "values",
+        "company-building",
+        "priorities"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "eric-ries-q009",
+      "speaker": "Eric Ries",
+      "text": "My view is that what it means to be a for-profit company, we've gotten it wrong. Making a profit is actually about maximizing human flourishing. Philip Morris has great ESG scores - how can that possibly be right? We need to build companies where human flourishing is the thing at the beating heart.",
+      "timestamp": "01:38:08",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 546,
+        "lineEnd": 561
+      },
+      "themes": [
+        "human-flourishing",
+        "profit",
+        "company-building",
+        "values"
+      ],
+      "zones": [
+        "alignment",
+        "intuition"
+      ]
+    },
+    {
+      "id": "eric-ries-q010",
+      "speaker": "Eric Ries",
+      "text": "Every founder wants the one weird trick. There's no one weird trick. You want to do the right thing, it is a relentless and constant process. We need to build a structure of the company so that at every level, at every decision, somebody in the room feels like they have a fiduciary duty to do the right thing.",
+      "timestamp": "01:49:06",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 606,
+        "lineEnd": 609
+      },
+      "themes": [
+        "governance",
+        "leadership",
+        "values",
+        "culture"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "eric-ries-q011",
+      "speaker": "Eric Ries",
+      "text": "First principles thinking has two components. A lot of my work is just descriptive - giving a name to a thing that already happens. Pivot is just what it's called when you change strategy but keep fidelity to the vision. It needs a name because we do it all the time. The prescriptive parts are just deductive logic from there.",
+      "timestamp": "00:10:44",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 91
+      },
+      "themes": [
+        "first-principles",
+        "pivots",
+        "strategy",
+        "frameworks"
+      ],
+      "zones": [
+        "discovery",
+        "focus"
+      ]
+    },
+    {
+      "id": "eric-ries-q012",
+      "speaker": "Eric Ries",
+      "text": "It took us 10 years to build the MVP for LTSE. MVP doesn't necessarily mean cheap or low quality. It's just whatever your hypothesis is, whatever you actually believe is going to work, let's put that thing to the test. As little as necessary - not as little as possible.",
+      "timestamp": "00:37:57",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 240
+      },
+      "themes": [
+        "mvp",
+        "validation",
+        "long-term-thinking",
+        "experimentation"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
       ]
     },
     {
@@ -13832,5 +16607,5 @@
       "verified": true
     }
   ],
-  "lastUpdated": "2026-01-25T15:38:16.068Z"
+  "lastUpdated": "2026-01-26T06:26:08.571Z"
 }

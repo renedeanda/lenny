@@ -1,0 +1,208 @@
+{
+  "slug": "eric-ries",
+  "quotes": [
+    {
+      "id": "eric-ries-q001",
+      "speaker": "Eric Ries",
+      "text": "MVP is simply for whatever the hypothesis is that we're trying to test, what is the most efficient way to get the validation we need about whether a hypothesis is true or not? Part of a successful test is to understand what are the demands of customers in our market.",
+      "timestamp": "00:29:22",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 189
+      },
+      "themes": ["mvp", "experimentation", "validation", "customer-development"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "eric-ries-q002",
+      "speaker": "Eric Ries",
+      "text": "The number one lesson of the scientific method is if you can't fail, you can't learn. And so if you set yourself up in a position where psychologically you can't admit that something didn't work, you can't learn. That really is the essence of MVP.",
+      "timestamp": "00:48:19",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 297
+      },
+      "themes": ["failure", "learning", "scientific-method", "mvp"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "eric-ries-q003",
+      "speaker": "Eric Ries",
+      "text": "Far worse than having a startup fail is to be in a company that won't die, a zombie undead company that you hate but you can't leave. We're having a mental health crisis among founders that's not talked about enough. Building a company you hate, that becomes a maligned force in the world - that's way, way worse.",
+      "timestamp": "00:54:41",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 331
+      },
+      "themes": ["founder-psychology", "failure", "mental-health", "company-building"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "eric-ries-q004",
+      "speaker": "Eric Ries",
+      "text": "The pivot is really about learning. Anchored in what you've learned and yet connected. Oftentimes the vision is discovered more than chosen in these stories. It's really much more about having the courage to see the world as you think it ought to be and then dance with that wherever it takes you.",
+      "timestamp": "01:12:13",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 423,
+        "lineEnd": 427
+      },
+      "themes": ["pivots", "vision", "learning", "courage"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "eric-ries-q005",
+      "speaker": "Eric Ries",
+      "text": "If you're asking whether you should pivot or not, you probably know the answer already. If you have had product-market fit you would not have time for this. When it's working there's no time for naval gazing. The whirlwind of it is so amazing and so horrible at the same time. If you're not sure, you're sure.",
+      "timestamp": "01:13:49",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 437,
+        "lineEnd": 439
+      },
+      "themes": ["product-market-fit", "pivots", "decision-making", "self-awareness"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "eric-ries-q006",
+      "speaker": "Eric Ries",
+      "text": "AI is going to force us to take governance issues seriously. At the end of the day, AI is a management technology. We're training machine intelligence and transmitting values to it - those are going to be our organizational values. Tech has severely underinvested in creating governance structures to have those values explicitly embodied in the organization.",
+      "timestamp": "01:19:59",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 468
+      },
+      "themes": ["ai", "governance", "values", "company-building"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "eric-ries-q007",
+      "speaker": "Eric Ries",
+      "text": "No individual person can ever make promises on behalf of an organization - it's a category error. You're replaceable. Organizations are actually alive. They are superorganisms with their own soul and their own life. Founders don't create them, we birth them. We don't own them, we nurture them.",
+      "timestamp": "01:34:28",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 534,
+        "lineEnd": 535
+      },
+      "themes": ["company-building", "governance", "leadership", "organizations"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "eric-ries-q008",
+      "speaker": "Eric Ries",
+      "text": "What is the probability that Google will file its next quarterly report on time? 100%, as certain as the sun will rise. What is the probability they would be complicit in something harmful? 'Probably not.' We have built a massive apparatus to make sure certain things happen. Companies are really good at things they care about.",
+      "timestamp": "01:36:26",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 540,
+        "lineEnd": 544
+      },
+      "themes": ["governance", "values", "company-building", "priorities"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "eric-ries-q009",
+      "speaker": "Eric Ries",
+      "text": "My view is that what it means to be a for-profit company, we've gotten it wrong. Making a profit is actually about maximizing human flourishing. Philip Morris has great ESG scores - how can that possibly be right? We need to build companies where human flourishing is the thing at the beating heart.",
+      "timestamp": "01:38:08",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 546,
+        "lineEnd": 561
+      },
+      "themes": ["human-flourishing", "profit", "company-building", "values"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "eric-ries-q010",
+      "speaker": "Eric Ries",
+      "text": "Every founder wants the one weird trick. There's no one weird trick. You want to do the right thing, it is a relentless and constant process. We need to build a structure of the company so that at every level, at every decision, somebody in the room feels like they have a fiduciary duty to do the right thing.",
+      "timestamp": "01:49:06",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 606,
+        "lineEnd": 609
+      },
+      "themes": ["governance", "leadership", "values", "culture"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "eric-ries-q011",
+      "speaker": "Eric Ries",
+      "text": "First principles thinking has two components. A lot of my work is just descriptive - giving a name to a thing that already happens. Pivot is just what it's called when you change strategy but keep fidelity to the vision. It needs a name because we do it all the time. The prescriptive parts are just deductive logic from there.",
+      "timestamp": "00:10:44",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 91
+      },
+      "themes": ["first-principles", "pivots", "strategy", "frameworks"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "eric-ries-q012",
+      "speaker": "Eric Ries",
+      "text": "It took us 10 years to build the MVP for LTSE. MVP doesn't necessarily mean cheap or low quality. It's just whatever your hypothesis is, whatever you actually believe is going to work, let's put that thing to the test. As little as necessary - not as little as possible.",
+      "timestamp": "00:37:57",
+      "source": {
+        "slug": "eric-ries",
+        "path": "episodes/eric-ries/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 240
+      },
+      "themes": ["mvp", "validation", "long-term-thinking", "experimentation"],
+      "zones": ["discovery", "velocity"]
+    }
+  ],
+  "themes": ["lean-startup", "mvp", "pivots", "first-principles", "governance", "human-flourishing", "founder-psychology", "validation", "company-building"],
+  "takeaways": [
+    "MVP is not about being cheap or low quality - it's about finding the most efficient way to test your hypothesis, whether that takes 6 weeks or 10 years.",
+    "If you can't fail, you can't learn - the psychological inability to admit something isn't working is the real blocker to learning and pivoting.",
+    "Building a zombie company you hate is far worse than startup failure - founders who sell out and watch their companies become something abhorrent suffer more than those who fail fast.",
+    "The vision is often discovered rather than chosen - pivoting is about having the courage to see the world as it ought to be and dancing with wherever that takes you.",
+    "Organizations are superorganisms with their own soul - founders don't own them, they birth and nurture them, and must encode values into the structure itself to keep promises beyond any individual."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "eric-ries-q003",
+      "why": "Counter-intuitive claim that zombie companies are worse than failure - challenges the 'never give up' founder mythology",
+      "related_zones": ["chaos", "alignment"]
+    },
+    {
+      "quoteId": "eric-ries-q009",
+      "why": "Provocative redefinition of 'for-profit' as maximizing human flourishing rather than shareholder returns - challenges fundamental assumptions about capitalism",
+      "related_zones": ["alignment", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "mixed",
+    "primary_topics": ["lean-startup", "mvp", "pivots", "governance", "human-flourishing", "first-principles"]
+  }
+}

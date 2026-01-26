@@ -1,0 +1,194 @@
+{
+  "slug": "claire-hughes-johnson",
+  "quotes": [
+    {
+      "id": "claire-hughes-johnson-q001",
+      "speaker": "Claire Hughes Johnson",
+      "text": "If you're not sure who the decision maker is, one, it's probably you. And I'd rather you act that way than not because you're going to slow the whole company down. Follow a process and get it done, and don't forget to actually make a decision. If you don't know who the decision maker is, just ask. Don't get stuck.",
+      "timestamp": "01:18:52",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 371
+      },
+      "themes": ["decision-making", "velocity", "ownership", "leadership"],
+      "zones": ["velocity", "chaos", "alignment"]
+    },
+    {
+      "id": "claire-hughes-johnson-q002",
+      "speaker": "Claire Hughes Johnson",
+      "text": "If you believe that talent is everything, then your hiring process is everything. It turns out product market fit is just the product, and that is not a company, and that will not scale. You see these companies that sort of fall over and there's a bad article about them, and often it's not the product, it's the fact that they didn't actually build the company very well.",
+      "timestamp": "00:20:23",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 109
+      },
+      "themes": ["hiring", "company-building", "scaling", "product-market-fit"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "claire-hughes-johnson-q003",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Self-awareness to build mutual awareness is actually the most fundamental thing you need to crack if you're going to succeed at company building or management. The more that you can seek feedback, seek to understand your motivators, your strengths, your blind spots, and expose it to others, you're going to be a much more effective company builder and manager.",
+      "timestamp": "00:28:08",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 133
+      },
+      "themes": ["self-awareness", "management", "feedback", "leadership"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "claire-hughes-johnson-q004",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Say the thing you think you cannot say. Often your biggest strength is something that you don't know is a big strength because it's almost like breathing. When you give feedback that can be actually pretty brutal, the person should leave feeling optimistic.",
+      "timestamp": "00:34:02",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 147
+      },
+      "themes": ["feedback", "communication", "leadership", "honesty"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "claire-hughes-johnson-q005",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Too many people think your job as the manager is to be the expert and tell people what to do. No, actually, your job is to enable people to be their very damn best on your team. And you have to create an environment and a context and provide them information, and then you need to provide them a form of coaching.",
+      "timestamp": "00:38:05",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 165
+      },
+      "themes": ["management", "coaching", "leadership", "team-building"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "claire-hughes-johnson-q006",
+      "speaker": "Claire Hughes Johnson",
+      "text": "High growth environments can get really chaotic. Where stability comes from is in ritual and in common practices that you share. Quarterly goals are a ritual, and it's actually a source of stability. If they're done well, they're stabilizing because they're a common way of approaching that everybody has, so they can hold onto that even when all the other stuff is going haywire.",
+      "timestamp": "00:44:52",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 197
+      },
+      "themes": ["operations", "stability", "cadence", "scaling"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "claire-hughes-johnson-q007",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Don't fool yourself that having more frequent checks on things is going to make things run faster. The opposite can be true. Be very wary of actually slowing velocity down by creating overhead. If we're looking at metrics, let's just look at your dashboard live. Let's not create a special presentation.",
+      "timestamp": "01:03:12",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 269
+      },
+      "themes": ["velocity", "metrics", "operations", "overhead"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "claire-hughes-johnson-q008",
+      "speaker": "Claire Hughes Johnson",
+      "text": "The work of a meeting is not calling the meeting. Calling a meeting is easy. The barrier is very low, and it should be higher. People need to know why we're meeting, what's the objective, is it to make a decision or share information, who needs to be here. Make the thing that's implicit explicit.",
+      "timestamp": "01:16:16",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 353,
+        "lineEnd": 353
+      },
+      "themes": ["meetings", "productivity", "communication", "focus"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "claire-hughes-johnson-q009",
+      "speaker": "Claire Hughes Johnson",
+      "text": "There's no perfect org structure, there's no perfect operating approach, there's no perfect performance management system. But having one and committing to it is good. Don't let the perfect be the enemy of the good. Do very few things consistently and try to do them well.",
+      "timestamp": "00:50:35",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 212,
+        "lineEnd": 213
+      },
+      "themes": ["operations", "pragmatism", "consistency", "execution"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "claire-hughes-johnson-q010",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Don't make somebody the CMO, or even the head of marketing, if your marketing team is two people. Two years later, your team's probably going to be more than two people, and are you going to have to layer somebody? Organizationally, you want more flexibility.",
+      "timestamp": "00:16:43",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 95,
+        "lineEnd": 95
+      },
+      "themes": ["hiring", "titles", "scaling", "flexibility"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "claire-hughes-johnson-q011",
+      "speaker": "Claire Hughes Johnson",
+      "text": "Be a force for positive momentum, and it will be actually a real career maker. What do we all care about? Progress, impact, momentum. Too many people get stuck, and it makes your work terrible.",
+      "timestamp": "01:19:41",
+      "source": {
+        "slug": "claire-hughes-johnson",
+        "path": "episodes/claire-hughes-johnson/transcript.md",
+        "lineStart": 371,
+        "lineEnd": 371
+      },
+      "themes": ["momentum", "career", "ownership", "velocity"],
+      "zones": ["velocity", "alignment"]
+    }
+  ],
+  "themes": ["scaling", "management", "operations", "decision-making", "self-awareness", "feedback", "hiring", "company-building"],
+  "takeaways": [
+    "Self-awareness is the foundation of effective management - you can't build mutual understanding with your team until you understand your own strengths, blind spots, and motivators.",
+    "Product-market fit is just the product, not a company - many companies fail not because of their product but because they didn't invest in building the organizational infrastructure to scale.",
+    "Stability in chaos comes from rituals and consistent operating practices - quarterly goals, review cadences, and shared processes provide anchoring when everything else feels uncertain.",
+    "When in doubt about who the decision maker is, assume it's you - velocity dies when people get stuck waiting for permission that may never come.",
+    "The work of a meeting is not calling the meeting - every meeting needs explicit purpose, decision criteria, and attendee clarity, or you're creating overhead that slows the company."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.40,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "claire-hughes-johnson-q007",
+      "why": "Counter-intuitive claim that more frequent check-ins can actually slow velocity - argues against the instinct to over-monitor",
+      "related_zones": ["velocity", "data"]
+    },
+    {
+      "quoteId": "claire-hughes-johnson-q001",
+      "why": "Provocative stance that if you don't know who the decision maker is, assume it's you - encourages action over waiting",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["scaling", "operations", "management", "decision-making", "company-building"]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "deb-liu",
+  "quotes": [
+    {
+      "id": "deb-liu-q001",
+      "speaker": "Deb Liu",
+      "text": "The people who were most successful were the ones who actually through adversity, learned to turn stumbling blocks into stepping stones. Trees are strong because they bend in the wind, because they're tested. You want to have enough adversity that you learn to overcome so that you can build stronger over time and build resilience in your career.",
+      "timestamp": "00:11:40",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 154
+      },
+      "themes": ["resilience", "career", "failure", "growth-mindset"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "deb-liu-q002",
+      "speaker": "Deb Liu",
+      "text": "Some of the best PMs I have ever worked with are terrible PMs for their career. They just drift from job to job. But if I said you had to write a spec for your career, what's in there? What are your milestones? What are the skills? What does success look like? You actually have metrics for your product, and yet you don't have metrics for your career.",
+      "timestamp": "00:24:05",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 250
+      },
+      "themes": ["career", "product-management", "intentionality", "planning"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "deb-liu-q003",
+      "speaker": "Deb Liu",
+      "text": "The workplace is really favoring people who can speak up. If you think your self-review is self-promotion, you're just not going to do a great job at it. What if I called it educating your manager about all the great work your team has been doing? Suddenly you're helping your team get more resources and support.",
+      "timestamp": "00:34:22",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 367
+      },
+      "themes": ["introverts", "self-promotion", "communication", "career"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "deb-liu-q004",
+      "speaker": "Deb Liu",
+      "text": "The failure rate for something like zero-to-one is very high. You have to know that you don't get a lot of resources, you don't get a lot of attention. I found a lot of energy from doing something that someone hasn't done before. I'd rather do it out of the limelight, with minimal resources, and have the freedom to fail.",
+      "timestamp": "00:17:58",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 211
+      },
+      "themes": ["zero-to-one", "innovation", "failure", "resources"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "deb-liu-q005",
+      "speaker": "Deb Liu",
+      "text": "If you're very early in your career, I encourage people to just learn the core skills first. But there reaches a point in your career where you have to decide, when am I going to take the big swing? The big swings are the things that you write your career stories about. They're not just 'I moved this metric X,' but 'I changed your trajectory in this way.'",
+      "timestamp": "00:22:47",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 244
+      },
+      "themes": ["career", "risk-taking", "zero-to-one", "big-bets"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "deb-liu-q006",
+      "speaker": "Deb Liu",
+      "text": "Growth is a game of inches. If you can move things 1% a little bit faster every single week, think about the amount of growth you get at the end. It's not just 'what's the 3X' - you can get to 3X 1% at a time. What if you're a team that can ship 20 things with a 20% success rate versus 4 things with 100%? You get just as much output.",
+      "timestamp": "00:46:34",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 454
+      },
+      "themes": ["growth", "iteration", "velocity", "experimentation"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "deb-liu-q007",
+      "speaker": "Deb Liu",
+      "text": "Life is 10% what happens to you and 90% how you react to it. You don't get to choose everything that happens in your life. But it's the people who choose a way forward to turn stumbling blocks into stepping stones - those are the people who have the most successful and satisfying careers.",
+      "timestamp": "00:59:08",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 550,
+        "lineEnd": 553
+      },
+      "themes": ["resilience", "mindset", "adaptability", "career"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "deb-liu-q008",
+      "speaker": "Deb Liu",
+      "text": "The most important career decision you make is who you marry. You will have a much more successful career if your home life is in balance. Is this person lifting you up or pushing you back? Is this person someone who's going to be your greatest cheerleader or the greatest weight on you?",
+      "timestamp": "00:57:10",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 526,
+        "lineEnd": 532
+      },
+      "themes": ["career", "life-decisions", "relationships", "balance"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "deb-liu-q009",
+      "speaker": "Deb Liu",
+      "text": "Always be learning. Someone who's always learning is always going to exceed someone who's the expert today. In school there's such a thing as getting a hundred on the test. There's nothing like that in careers. It's a non-linear experience and there's always someone better than you at speaking or strategy or execution.",
+      "timestamp": "00:03:02",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 76,
+        "lineEnd": 82
+      },
+      "themes": ["learning", "career", "growth-mindset", "humility"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "deb-liu-q010",
+      "speaker": "Deb Liu",
+      "text": "Perfectionism is a curse we place on ourselves. It's a very dangerous thing for product leaders because things are going to go wrong - that's literally part of your job. Perfectionism is a lack of trust in our ability to bounce back. The more adaptable you are, the less you have to be perfect every single time.",
+      "timestamp": "01:02:43",
+      "source": {
+        "slug": "deb-liu",
+        "path": "episodes/deb-liu/transcript.md",
+        "lineStart": 573,
+        "lineEnd": 574
+      },
+      "themes": ["perfectionism", "adaptability", "failure", "product-management"],
+      "zones": ["chaos", "velocity"]
+    }
+  ],
+  "themes": ["career-management", "resilience", "introverts", "zero-to-one", "growth", "learning", "perfectionism", "self-promotion"],
+  "takeaways": [
+    "The most successful people aren't those who avoided failure - they're the ones who learned to turn stumbling blocks into stepping stones through adversity.",
+    "Great PMs often fail to apply product thinking to their own careers - create a career spec with milestones, metrics, and a clear definition of what success looks like.",
+    "Self-promotion isn't shameless bragging - reframe it as educating your manager and helping your team get the resources they deserve.",
+    "Zero-to-one work is high-risk with low resources - the freedom to fail without scrutiny is more valuable than attention and budget.",
+    "Growth is a game of inches: shipping 20 experiments with 20% success beats 4 perfect launches, and the lessons compound over time."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.25,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "deb-liu-q008",
+      "why": "Provocative claim that your spouse is your most important career decision - challenges the work-only lens on professional success",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "deb-liu-q004",
+      "why": "Counter-intuitive advice that zero-to-one work should be done out of the limelight with minimal resources - argues attention kills innovation",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["career-management", "zero-to-one", "introverts", "resilience", "growth"]
+  }
+}

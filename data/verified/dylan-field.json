@@ -1,0 +1,208 @@
+{
+  "slug": "dylan-field",
+  "quotes": [
+    {
+      "id": "dylan-field-first-q001",
+      "speaker": "Dylan Field",
+      "text": "We're no longer in this era of good enough is fine. Good enough is not enough, it's mediocre. If you want to win in the game of software, you need to differentiate through design. You got to get to great if you want to win, preferably excellent. Craft matters.",
+      "timestamp": "00:58:05",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 470,
+        "lineEnd": 471
+      },
+      "themes": ["design", "craft", "differentiation", "quality"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "dylan-field-first-q002",
+      "speaker": "Dylan Field",
+      "text": "We started the company August 2012, started working hardcore at Figma in June 2013. Then, summer of 2017 we made our first money. Don't do that. Get to market faster. I wish we had. The lesson is not, okay, how do I make the awesome thing while sweating every detail and never shipping.",
+      "timestamp": "00:43:36",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 342
+      },
+      "themes": ["velocity", "mvp", "shipping", "lessons"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "dylan-field-first-q003",
+      "speaker": "Dylan Field",
+      "text": "If timelines are maybe not well reasoned through from first principles and perhaps there's padding that has been added by different folks, you have to understand fully what are the assumptions of how long things will actually take. Also, keeping a flatter org is helpful. Path dependency is super important - there's a lot of times that folks will assume something is a requirement that actually is not.",
+      "timestamp": "00:09:37",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 117
+      },
+      "themes": ["velocity", "first-principles", "organization", "execution"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "dylan-field-first-q004",
+      "speaker": "Dylan Field",
+      "text": "There's always these areas where things feel murky. It's your job as a leader to always investigate those areas, push on them, and if something's not adding up, really ask the hard questions and not shy away from them. It's not about positive or negative, it's about - have we had the hard conversations? Have we thought through the hard trade-offs?",
+      "timestamp": "00:21:15",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 182
+      },
+      "themes": ["leadership", "clarity", "decision-making", "communication"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "dylan-field-first-q005",
+      "speaker": "Dylan Field",
+      "text": "You can't constrain by always sorting, descending by TAM. For Figma Design, there is no data that said there are enough designers in the world for this to be a big market. But we got the trend right. You have to do what is right. You have to go from strength to strength, and you can't always just be obsessed with what's the next biggest TAM.",
+      "timestamp": "00:36:19",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 276
+      },
+      "themes": ["strategy", "market-size", "product-expansion", "contrarian"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "dylan-field-first-q006",
+      "speaker": "Dylan Field",
+      "text": "It is important to get someone into a product and very quickly have them experience some special sauce, something that's amazing about the product. Shortening the time to scene and having that incredible moment and seeing the true value of the product - that's super important.",
+      "timestamp": "00:39:52",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 300
+      },
+      "themes": ["activation", "time-to-value", "onboarding", "product-experience"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "dylan-field-first-q007",
+      "speaker": "Dylan Field",
+      "text": "It's not enough to have the MVP. You got to have something that's a little bit awesome at least. You have to have a vision for the product that you can communicate to users when they're first trying to use it, even for your first or early releases.",
+      "timestamp": "00:42:59",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 335,
+        "lineEnd": 336
+      },
+      "themes": ["mvp", "vision", "product-launch", "craft"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "dylan-field-first-q008",
+      "speaker": "Dylan Field",
+      "text": "Starting with taste - what's your point of view on things and how do you develop it? It's this loop of having an experience, asking do I like it, why or why not, then building your repertoire. Understand what is the canon that led to this thing, and where do you disagree or agree philosophically with the path that brought everyone there.",
+      "timestamp": "01:00:22",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 491,
+        "lineEnd": 494
+      },
+      "themes": ["taste", "product-sense", "first-principles", "design"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "dylan-field-first-q009",
+      "speaker": "Dylan Field",
+      "text": "Design I think grows only more important in this world. In a world where software can be created more easily, design matters so much. Designers are going to be the leaders of the future. More PMs and developers need to be willing to engage with design because that's going to be how you win or lose.",
+      "timestamp": "01:09:30",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 542,
+        "lineEnd": 546
+      },
+      "themes": ["design", "ai", "future-of-work", "leadership"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "dylan-field-first-q010",
+      "speaker": "Dylan Field",
+      "text": "About a month before the launch of FigJam, it was lacking something. The soul isn't there. Let's go differentiate by making FigJam fun. The team was like, 'What? We're going to make fun our differentiator?' In retrospect, it was absolutely the right move. It showed the entire team how fast we can move if we've got the right goal defined.",
+      "timestamp": "00:26:32",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 215,
+        "lineEnd": 222
+      },
+      "themes": ["differentiation", "product-soul", "velocity", "fun"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "dylan-field-first-q011",
+      "speaker": "Dylan Field",
+      "text": "Keep simple things simple, make the complex things possible. Old design adage, but it's a thing I repeat a lot at Figma. There are a lot of people who when you put them on the thing they are super interested and fired up about will outperform your wildest imagination. Put them in the wrong effort, they will be just fine.",
+      "timestamp": "01:22:44",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 700,
+        "lineEnd": 701
+      },
+      "themes": ["simplicity", "design-principles", "team-motivation", "focus"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "dylan-field-first-q012",
+      "speaker": "Dylan Field",
+      "text": "The journey of making Figma Design was a lot of table stakes features had to be built, as well as the shiny cool new stuff. We literally had a team called Blockers. They just went in one by one, struck them down. Each time we saw improvement in retention, improvement in activation - you could literally see the change in the graph.",
+      "timestamp": "00:42:47",
+      "source": {
+        "slug": "dylan-field",
+        "path": "episodes/dylan-field/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 330
+      },
+      "themes": ["execution", "prioritization", "retention", "activation"],
+      "zones": ["velocity", "data"]
+    }
+  ],
+  "themes": ["design-as-differentiator", "velocity", "time-to-value", "craft", "taste", "clarity", "ai-future", "product-expansion", "simplicity"],
+  "takeaways": [
+    "In the age of AI, good enough is mediocre - design and craft are the new competitive moat, and designers are positioned to be the leaders of the future.",
+    "Time to value is critical - get users to experience something amazing in your product as quickly as possible, not just the MVP basics.",
+    "Don't sort product expansion decisions by TAM - Figma's design tool market looked tiny on paper, but they got the trend right and expanded from strength to strength.",
+    "Taste is a skill you can develop through a deliberate loop: experience, judgment, reflection, and understanding the canon that led to current conventions.",
+    "When something lacks soul, the answer might be counterintuitive - FigJam became successful when they made 'fun' their differentiator a month before launch."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.25,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dylan-field-first-q005",
+      "why": "Counter-intuitive advice to NOT sort by TAM when picking products to build - argues trends and going from strength to strength matters more than market size",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "dylan-field-first-q002",
+      "why": "Surprising admission from a perfectionist design tool founder - they took way too long to launch and wishes they had moved faster",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["design", "craft", "velocity", "taste", "ai-future", "product-expansion"]
+  }
+}

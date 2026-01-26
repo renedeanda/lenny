@@ -1,0 +1,194 @@
+{
+  "slug": "drew-houston",
+  "quotes": [
+    {
+      "id": "drew-houston-q001",
+      "speaker": "Drew Houston",
+      "text": "Microsoft did not kill us. We killed ourselves. That was the other half of what was the problem within Dropbox was a lot of our wounds were self-inflicted in that we were struggling to keep scaling and launching all these products. And the Dropbox products had stagnated.",
+      "timestamp": "00:32:24",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 274,
+        "lineEnd": 274
+      },
+      "themes": ["competition", "self-awareness", "execution", "accountability"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "drew-houston-q002",
+      "speaker": "Drew Houston",
+      "text": "Put all your eggs in one basket, and watch that basket. Most of the time CEOs want options. They want to hedge their bets, but what you really want to do in these strategic inflection points is go all in one thing.",
+      "timestamp": "00:26:10",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["strategy", "focus", "decision-making", "pivots"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "drew-houston-q003",
+      "speaker": "Drew Houston",
+      "text": "The narrative completely flipped on the company. We went from the company that could do no wrong to the company that could do no right. Suddenly, your employees don't want to wear your T-shirt anymore. And frankly, you don't even want to wear your T-shirt anymore.",
+      "timestamp": "00:27:00",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 253
+      },
+      "themes": ["founder-psychology", "company-narrative", "crisis", "morale"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "drew-houston-q004",
+      "speaker": "Drew Houston",
+      "text": "As CEO, both your strengths and your weaknesses are massively amplified and a lot of blind spots in your personality can become huge cultural dysfunctions in the company. Step one to dealing with that is building awareness.",
+      "timestamp": "00:42:57",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["leadership", "self-awareness", "culture", "founder-mode"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "drew-houston-q005",
+      "speaker": "Drew Houston",
+      "text": "I'm very busy, but I'm not really productive. I'm not putting in a lot of creative input. Then the company's not getting a lot of creative output. It just seems like lose, lose, lose all around. Why are we on this treadmill?",
+      "timestamp": "01:00:28",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 383
+      },
+      "themes": ["productivity", "focus", "founder-mode", "creative-work"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "drew-houston-q006",
+      "speaker": "Drew Houston",
+      "text": "The tools went from helping us get the work done to becoming the work, as we layer. It went from 5 of them, to 10 of them, to 500 of them. If Einstein were alive today, he would wake up, delete LinkedIn notifications, start writing equations, then someone would Slack him and interrupt him.",
+      "timestamp": "01:03:36",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 401,
+        "lineEnd": 406
+      },
+      "themes": ["productivity", "tools", "focus", "distraction"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "drew-houston-q007",
+      "speaker": "Drew Houston",
+      "text": "Every time you move up a league, your reward is a stronger and better opponent and potentially more unlevel playing field. And that's just the way it is. You can't control that. All you can control is how you respond.",
+      "timestamp": "01:23:28",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 498,
+        "lineEnd": 499
+      },
+      "themes": ["competition", "resilience", "founder-mindset", "growth"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "drew-houston-q008",
+      "speaker": "Drew Houston",
+      "text": "You have to figure out how to keep your personal growth curve ahead of the company's growth curve. The single most important impactful thing for me has been reading. Learning what happened in Netscape ended up being pretty important to what happened at Dropbox in 2014.",
+      "timestamp": "01:34:55",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 550,
+        "lineEnd": 553
+      },
+      "themes": ["personal-growth", "learning", "reading", "founder-development"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "drew-houston-q009",
+      "speaker": "Drew Houston",
+      "text": "An important part of being a founder is learning to run towards that feeling of discomfort not away from it. That's a big part of your learning rate is the extent to which you're pushing yourself beyond discomfort.",
+      "timestamp": "01:39:43",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 577,
+        "lineEnd": 577
+      },
+      "themes": ["founder-mindset", "growth-mindset", "discomfort", "learning"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "drew-houston-q010",
+      "speaker": "Drew Houston",
+      "text": "The hardest thing for a founder, challenge is not optional. You're going to be challenged, but the suffering is optional. You don't actually have to suffer. You need to figure out how to work your way out of that.",
+      "timestamp": "01:27:18",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 517,
+        "lineEnd": 517
+      },
+      "themes": ["founder-psychology", "resilience", "mindset", "burnout"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "drew-houston-q011",
+      "speaker": "Drew Houston",
+      "text": "The seniority gap is really rough. You need to have enough experienced people in the company who can then train your high potential people. Your high potential people also lose out if they don't have experienced people to learn from.",
+      "timestamp": "01:21:00",
+      "source": {
+        "slug": "drew-houston",
+        "path": "episodes/drew-houston/transcript.md",
+        "lineStart": 481,
+        "lineEnd": 487
+      },
+      "themes": ["hiring", "team-building", "leadership", "scaling"],
+      "zones": ["alignment", "discovery"]
+    }
+  ],
+  "themes": ["founder-resilience", "competition", "personal-growth", "self-awareness", "focus", "productivity", "team-building", "strategic-pivots"],
+  "takeaways": [
+    "Self-inflicted wounds are often more damaging than external competition - Dropbox's stagnation came from internal dysfunction, not just Google or Apple's attacks.",
+    "Strategic inflection points require going all-in on one thing rather than hedging bets - Drew killed Carousel and Mailbox to focus entirely on productivity.",
+    "Your personal growth curve must stay ahead of the company's growth curve - systematic reading and learning from other founders at different stages is essential.",
+    "As CEO, your personality blind spots become cultural dysfunctions - building self-awareness through tools like the Enneagram is critical for founder effectiveness.",
+    "The seniority gap can silently destroy companies - balance high-potential people with experienced mentors, or everyone solves problems through painful trial and error."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.20,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "drew-houston-q001",
+      "why": "Challenges the narrative that competition killed Dropbox - argues self-inflicted wounds were the real problem",
+      "related_zones": ["focus", "alignment"]
+    },
+    {
+      "quoteId": "drew-houston-q006",
+      "why": "Provocative claim that productivity tools have become productivity killers - tools are the problem, not the solution",
+      "related_zones": ["focus", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["founder-resilience", "competition", "personal-growth", "scaling", "pivots"]
+  }
+}
