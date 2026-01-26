@@ -1581,7 +1581,175 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 ---
 
+## 🚨 Phase 13: Guest/Title Metadata Mismatches (Jan 26, 2026) - INVESTIGATION COMPLETE
+
+### Overview
+
+**Critical data quality issue discovered:** 18 episodes have mismatched metadata where:
+- ✅ **Slug is CORRECT** (e.g., `brandon-chu`)
+- ✅ **Guest field is CORRECT** (e.g., "Brandon Chu")
+- ✅ **Transcript CONTENT is CORRECT** (actual dialogue from the intended guest)
+- ❌ **Title is WRONG** (shows a different guest's episode title)
+- ❌ **Description is WRONG** (describes a different guest)
+- ❌ **video_id / youtube_url is WRONG** (links to wrong YouTube video)
+- ❌ **publish_date is WRONG** (date of different episode)
+- ❌ **duration / view_count is WRONG** (stats from different episode)
+
+**Root cause:** Unknown - appears to be a data pipeline mixup during transcript import where metadata from one episode was incorrectly applied to another episode's transcript.
+
+---
+
+### 📋 COMPLETE MISMATCH LIST (18 Episodes)
+
+#### Group 1: Confirmed Mismatches (3 Episodes)
+
+| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Needs YouTube Link & Metadata |
+|---|------|------------------|------------------|------------------------|-------------------------------|
+| 1 | `brandon-chu` | Brandon Chu | "AI prompt engineering in 2025: What works and what doesn't \| **Sander Schulhoff**" | Sander Schulhoff | ✅ Need Brandon Chu's actual episode metadata |
+| 2 | `ryan-hoover` | Ryan Hoover | "A better way to plan, build, and ship products \| **Ryan Singer** (creator of 'Shape Up')" | Ryan Singer | ✅ Need Ryan Hoover's actual episode metadata |
+| 3 | `david-placek` | David Placek | "Building a culture of excellence \| **David Singleton** (CTO of Stripe)" | David Singleton | ✅ Need David Placek's actual episode metadata |
+
+**Notes:**
+- `brandon-chu` transcript content correctly references "Brandon Chu" at line 45
+- `ryan-hoover` transcript content correctly references "Ryan Hoover is the founder of Product Hunt" at line 40
+- `david-placek` transcript content correctly references "David Placek" throughout
+
+---
+
+#### Group 2: Additional Mismatches (15 Episodes)
+
+| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Notes |
+|---|------|------------------|------------------|------------------------|-------|
+| 4 | `gibson-biddle` | Gibson Biddle | "35 years of product design wisdom... \| **Bob Baxley**" | Bob Baxley | Transcript mentions "Gibson Biddle" at line 40 |
+| 5 | `manik-gupta` | Manik Gupta | "Becoming more strategic, navigating difficult colleagues... \| **Anneka Gupta**" | Anneka Gupta | Transcript mentions "Manik Gupta has led two of the most successful consumer products" at line 40 |
+| 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier |
+| 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content |
+| 8 | `jackie-bavaro` | Jackie Bavaro | "Bending the universe in your favor \| **Claire Vo**" | Claire Vo | Need to verify transcript content |
+| 9 | `benjamin-mann` | Benjamin Mann | "How marketplaces win: Liquidity, growth levers... \| **Benjamin Lauzier**" | Benjamin Lauzier | Need to verify transcript content |
+| 10 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |
+| 11 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content |
+| 12 | `ray-cao` | Ray Cao | "Product management theater \| **Marty Cagan**" | Marty Cagan | Need to verify transcript content |
+| 13 | `laura-modi` | Laura Modi | "Career frameworks, A/B testing, onboarding tips... \| **Laura Schaffer** (Amplitude)" | Laura Schaffer | Need to verify transcript content |
+| 14 | `julian-shapiro` | Julian Shapiro | "From managing people to managing AI... \| **Julie Zhuo**" | Julie Zhuo | Need to verify transcript content |
+| 15 | `fei-fei` | Fei Fei | "The Godmother of AI on jobs, robots... \| **Dr. Fei-Fei Li**" | Dr. Fei-Fei Li | May be same person, different name format |
+| 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content |
+| 17 | `yamashata` | Yamashata | "An inside look at how Figma builds product \| **Yuhki Yamashita**" | Yuhki Yamashita | May be misspelling of same person |
+| 18 | `melissa` | Melissa | "Building high-performing teams \| **Melissa Tan**" | Melissa Tan | May be incomplete name, same person |
+
+---
+
+### 🔍 What Needs To Be Fixed For Each Episode
+
+For each mismatched episode, we need to obtain the CORRECT metadata:
+
+1. **YouTube Video Link** - The actual video URL for this guest's episode
+2. **Video ID** - Extracted from correct YouTube URL
+3. **Title** - The actual episode title with correct guest name
+4. **Description** - The correct episode description
+5. **Publish Date** - When the episode actually aired
+6. **Duration** - Actual episode length
+7. **View Count** - Current view count (optional, will be outdated)
+
+**Screenshot needed for each:** Capture YouTube video page showing title, thumbnail, upload date, and duration.
+
+---
+
+### 📸 Action Items for Next Session
+
+**For User to Curate:**
+
+1. **Search YouTube for each guest's actual episode:**
+   - Go to https://www.youtube.com/@LennysPodcast/videos
+   - Search for guest name (e.g., "Brandon Chu")
+   - Find the correct episode
+   - Screenshot the video page
+
+2. **Collect for each episode:**
+   ```
+   Slug: brandon-chu
+   Correct YouTube URL: https://www.youtube.com/watch?v=XXXXX
+   Correct Title: [Full title from YouTube]
+   Publish Date: [Date shown on YouTube]
+   Duration: [Duration from YouTube]
+   Screenshot: [Screenshot filename]
+   ```
+
+3. **Document in a spreadsheet or markdown file** for next session to batch update
+
+---
+
+### 🔧 Technical Fix Required
+
+Once correct metadata is obtained, the fix requires updating:
+
+1. **`episodes/[slug]/transcript.md`** - Update frontmatter:
+   ```yaml
+   ---
+   guest: Brandon Chu
+   title: '[CORRECT TITLE]'
+   youtube_url: https://www.youtube.com/watch?v=[CORRECT_VIDEO_ID]
+   video_id: [CORRECT_VIDEO_ID]
+   publish_date: [CORRECT_DATE]
+   description: '[CORRECT_DESCRIPTION]'
+   duration_seconds: [CORRECT_DURATION]
+   duration: '[CORRECT_DURATION_STRING]'
+   view_count: [CURRENT_VIEW_COUNT]
+   ---
+   ```
+
+2. **`lib/allEpisodes.ts`** - Regenerate from corrected transcripts (or manually update)
+
+3. **`lib/insightsData.ts`** - Regenerate from corrected transcripts
+
+4. **`lib/episodesData.ts`** - Regenerate from corrected transcripts
+
+---
+
+### 📊 Impact Assessment
+
+**Severity: HIGH**
+
+- **User-facing impact:** Episode pages show wrong YouTube videos, wrong descriptions
+- **SEO impact:** Episode metadata doesn't match actual content
+- **Recommendation impact:** View counts may be wrong, affecting popularity-based sorting
+- **Trust impact:** Users clicking to watch video see completely different guest
+
+**Episodes Affected:** 18 out of 297 (6.1% of catalog)
+
+**Priority Episodes to Fix First:**
+1. `brandon-chu` - Brandon Chu is well-known PM writer
+2. `ryan-hoover` - Ryan Hoover is Product Hunt founder, high visibility
+3. `gibson-biddle` - Gibson Biddle is popular PM strategist
+4. `nikita-bier` - Nikita Bier is well-known for viral apps
+
+---
+
+### 🗂️ Related Issues
+
+**Also documented in previous sessions:**
+- Session 10: Multi-time guest metadata fixes (14 guests)
+- Session 11: teaser_2021 removal, curated episode slug fixes
+
+**Possibly related:**
+- 30 episodes with dialogueCount: 0 (some may overlap with this list)
+- Episodes with missing transcripts (marked as placeholders)
+
+---
+
+### ✅ Session Deliverable
+
+This phase documents the investigation. Next session can execute the fixes once:
+1. User provides correct YouTube links and metadata for each episode
+2. Screenshots are captured for verification
+3. Batch update script or manual edits can be performed
+
+---
+
 ## 🎯 NEXT PRIORITIES
+
+### P0: Fix Guest/Title Metadata Mismatches (18 Episodes)
+- User to curate YouTube links & screenshots
+- Then batch update frontmatter and regenerate data files
 
 ### Scale Episode Curation
 - Current: 24/297 episodes (8.1%)
