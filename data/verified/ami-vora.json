@@ -1,0 +1,208 @@
+{
+  "slug": "ami-vora",
+  "quotes": [
+    {
+      "id": "ami-vora-q001",
+      "speaker": "Ami Vora",
+      "text": "I really enjoy being right and then it turns out in the working world, that did not serve me so great. I think the hard part is sublimating your ego a little bit and saying it's more important to get to the outcome than to be right.",
+      "timestamp": "00:11:22",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 131
+      },
+      "themes": ["ego", "collaboration", "outcomes", "self-awareness"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "ami-vora-q002",
+      "speaker": "Ami Vora",
+      "text": "Assume that executives have a little tiny dinosaur brain. We can really only hold three facts at the same time. We will never be able to go deep in the way that you are able to do on everything that crosses our desk. The best service you can do is actually do the work of making a recommendation.",
+      "timestamp": "00:17:59",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 188
+      },
+      "themes": ["executive-communication", "recommendations", "product-reviews", "simplification"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "ami-vora-q003",
+      "speaker": "Ami Vora",
+      "text": "You don't want to come to a product review for every single decision. Instead, what you want is to come to a product review with one decision, but the goal of that decision is to walk out with principles about how to make these decisions in the future so that you don't have to come to product review.",
+      "timestamp": "00:20:30",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 206
+      },
+      "themes": ["product-reviews", "principles", "decision-making", "scaling"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "ami-vora-q004",
+      "speaker": "Ami Vora",
+      "text": "For me, the hill climb is all about the difference between a local optimum and a global optimum. You're standing on top of the hill, but way off in the distance you can see a mountain. You have to decide, are you going to take the risk of climbing down your hill, crossing an unknown chasm, just to get to the same level with more climbing to do?",
+      "timestamp": "00:26:55",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 260
+      },
+      "themes": ["local-vs-global-optimum", "risk-taking", "strategy", "transformation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "ami-vora-q005",
+      "speaker": "Ami Vora",
+      "text": "Narrative can carry so much weight where otherwise you can either tell everybody exactly what to do at every point or you can create a story that we all agree on. If we all agree that the feeling of something should be sitting in Dolores Park with friends on a sunny Saturday, people will just naturally build something that feels more consistent.",
+      "timestamp": "00:30:55",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 284
+      },
+      "themes": ["narrative", "alignment", "product-vision", "metaphors"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "ami-vora-q006",
+      "speaker": "Ami Vora",
+      "text": "Strategy is super fun but customers don't care. Customers don't care about your fancy strategies and your five-year plan. They care about the product that's in their hands. Anything that distracts you from thinking about the product in your hands is a distraction.",
+      "timestamp": "00:37:58",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 362
+      },
+      "themes": ["execution", "strategy", "customer-focus", "product"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "ami-vora-q007",
+      "speaker": "Ami Vora",
+      "text": "When you have great strategy but poor execution, you don't win because your strategy never makes it to the market. And what's even worse is that you have learned nothing. You don't know whether it was your strategy that was wrong or whether it was your execution that was wrong.",
+      "timestamp": "00:39:03",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 365
+      },
+      "themes": ["execution", "strategy", "learning", "iteration"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "ami-vora-q008",
+      "speaker": "Ami Vora",
+      "text": "The biggest thing that held me back from talking about strategy was I didn't feel confident that I knew enough to declare a strategy. It was actually almost like a self-confidence, imposter syndrome thing. I was always like, how could anything could happen? Who would I be to say I know how the world's going to develop?",
+      "timestamp": "00:45:49",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 410
+      },
+      "themes": ["strategy", "imposter-syndrome", "confidence", "leadership"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "ami-vora-q009",
+      "speaker": "Ami Vora",
+      "text": "Don't dampen who you are and your strengths, just continue expanding. Whenever you run into a problem, just add more to the things that you can do, the tools that you have, the ways you can express yourself. Just keep on adding and growing and don't shrink yourself, ever.",
+      "timestamp": "00:55:23",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 456,
+        "lineEnd": 458
+      },
+      "themes": ["personal-growth", "women-in-tech", "authenticity", "career"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "ami-vora-q010",
+      "speaker": "Ami Vora",
+      "text": "If you give everyone the same goal like 'go get GMV', it leads to what I call toddler soccer, where everybody just runs to the same surface or the same customer set. Everyone's tripping on each other, nobody really gets contact on the ball, there's no coordination.",
+      "timestamp": "00:56:27",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 464
+      },
+      "themes": ["goals", "metrics", "team-coordination", "incentives"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "ami-vora-q011",
+      "speaker": "Ami Vora",
+      "text": "As you get senior, the only problems you'll see are ones that are fundamentally unsolvable because otherwise, someone would've solved it before they got to you. All you're doing is choosing which branch of suboptimal you're going to put your name on and describing the principles you're using.",
+      "timestamp": "01:03:10",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 505,
+        "lineEnd": 506
+      },
+      "themes": ["leadership", "decision-making", "seniority", "trade-offs"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "ami-vora-q012",
+      "speaker": "Ami Vora",
+      "text": "The thing that has led me to the places where I do my best work is a feeling of being at home, which is all about trust. Can I walk through and feel like these people are going to have my back, they're going to let me take risks, I'm going to enjoy spending time with them?",
+      "timestamp": "00:09:31",
+      "source": {
+        "slug": "ami-vora",
+        "path": "episodes/ami-vora/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 110
+      },
+      "themes": ["trust", "culture", "career-decisions", "belonging"],
+      "zones": ["alignment", "intuition"]
+    }
+  ],
+  "themes": ["execution-vs-strategy", "product-reviews", "narrative", "women-in-tech", "goals", "leadership", "trust", "metaphors"],
+  "takeaways": [
+    "Execution beats strategy every time - customers don't care about your five-year plan, they care about the product in their hands. Perfect strategy with poor execution means you win nothing and learn nothing.",
+    "Use product reviews to establish principles, not just get decisions - the goal is to walk out calibrated so you don't need to come back for every choice.",
+    "The 'dinosaur brain' rule: executives can only hold three facts at once, so come with a clear recommendation rather than drowning them in information.",
+    "Don't shrink yourself to fit in - expand your toolkit instead. Add new skills and ways of expressing yourself rather than dampening your strengths.",
+    "Avoid 'toddler soccer' by giving teams different goals that ladder up to the company outcome - otherwise everyone runs to the same measurable surface and trips over each other."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.30,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ami-vora-q006",
+      "why": "Provocatively dismisses strategy as something 'customers don't care about' - challenges the worship of strategic planning",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "ami-vora-q011",
+      "why": "Dark take on senior leadership - all decisions are suboptimal and you're just choosing which bad outcome to put your name on",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["execution-vs-strategy", "product-reviews", "women-in-tech", "narrative", "goals"]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "anton-osika",
+  "quotes": [
+    {
+      "id": "anton-osika-q001",
+      "speaker": "Anton Osika",
+      "text": "Lovable is your personal AI software engineer. You describe an idea and then you get a fully working product. We are building for this 99% of the population who don't write code. Currently, if you're technically inclined, you get much further, but over time, naturally the way to build software is by just talking to an AI.",
+      "timestamp": "00:06:00",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 90,
+        "lineEnd": 98
+      },
+      "themes": ["ai-product-strategy", "democratization", "no-code", "future-of-building"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "anton-osika-q002",
+      "speaker": "Anton Osika",
+      "text": "These tools are already very good, but mainly they're getting better very, very fast. I think the best thing for people who are interested in this is get your hands very dirty with these tools because being in the top 10% in using them is going to absolutely set you apart in the coming months and years.",
+      "timestamp": "00:18:23",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 224
+      },
+      "themes": ["ai-adoption", "skill-building", "ai-velocity", "competitive-advantage"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "anton-osika-q003",
+      "speaker": "Anton Osika",
+      "text": "It takes a lot to master using tools like Lovable. Being very curious and patient is super useful. Explaining exactly what you expect and what you're not getting is even more important with AI than with humans. Don't say 'it doesn't work' - explain exactly what you're expecting and which parts are working and which parts are not.",
+      "timestamp": "00:19:20",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 228,
+        "lineEnd": 230
+      },
+      "themes": ["ai-workflows", "prompting", "communication", "patience"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "anton-osika-q004",
+      "speaker": "Anton Osika",
+      "text": "We are seeing the biggest change humanity will ever see. Before you had manual labor being taken over by machines, but now it's actually cognitive labor being done better than humans by machines. What's the best way to have positive impact? Enable those who have had such a hard time finding people who are good at creating software.",
+      "timestamp": "00:24:29",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 278
+      },
+      "themes": ["ai-vision", "democratization", "entrepreneurship", "impact"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "anton-osika-q005",
+      "speaker": "Anton Osika",
+      "text": "There are many scaling laws when you build AI systems. This one is about when you put in more work, the product reliably gets better. We painstakingly identify places where it gets stuck and address them, tune the entire system quantitatively with a very fast feedback loop to improve it in the areas where it got stuck.",
+      "timestamp": "00:27:08",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 296
+      },
+      "themes": ["ai-product-strategy", "iteration", "scaling", "technical-excellence"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "anton-osika-q006",
+      "speaker": "Anton Osika",
+      "text": "People love the product. That's the driver of the growth. For getting awareness, we've mainly been posting what we've shipped on social media. The team is everything in building a great product. You want people who can ship really fast and have good taste for what's simple, what's the right abstractions.",
+      "timestamp": "00:31:17",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 320
+      },
+      "themes": ["product-led-growth", "taste", "team-building", "velocity"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "anton-osika-q007",
+      "speaker": "Anton Osika",
+      "text": "If you're a founder or you want to build something, figuring out what are pain points and seeing how you can make this 10X better somehow is super important. The engineer skill set is still important because it helps you understand the constraints. Engineers should see themselves as translators from problems stated by humans to technical solutions.",
+      "timestamp": "00:39:13",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 371
+      },
+      "themes": ["product-vision", "engineering", "constraints", "problem-solving"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "anton-osika-q008",
+      "speaker": "Anton Osika",
+      "text": "Doing a bit of everything. Being a generalist is I think much more important than it used to be. If I'm putting together a product team today, I would obsess about getting as many skill sets as possible for each person I hire. They should know architecting, design, product taste, how to talk to users.",
+      "timestamp": "00:40:44",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 374,
+        "lineEnd": 377
+      },
+      "themes": ["generalists", "hiring", "team-building", "ai-era-skills"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "anton-osika-q009",
+      "speaker": "Anton Osika",
+      "text": "The most important thing is that people care a lot. They're not just 'here for a job' or 'here to be a passenger.' Everyone should really care about the product, the users and care a ton about the team. That care or preferably obsession gets you a very long way.",
+      "timestamp": "00:41:52",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 387,
+        "lineEnd": 389
+      },
+      "themes": ["hiring", "culture", "obsession", "team-building"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "anton-osika-q010",
+      "speaker": "Anton Osika",
+      "text": "This is the time in human history when you have the most impact for a worked hour. That's why we have to be super ambitious. Inspiring people to be ambitious in a place where the average ambition is lower but the raw talent is much more available - that's a great recipe.",
+      "timestamp": "00:46:34",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 434,
+        "lineEnd": 437
+      },
+      "themes": ["ambition", "ai-impact", "hiring", "europe-startups"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "anton-osika-q011",
+      "speaker": "Anton Osika",
+      "text": "Identifying what is the biggest bottleneck, the biggest problem, and iterating fast on solving that problem. Then picking the next one and not overthinking, not dreaming out the long roadmap. That's a very simple algorithm. Understanding what is the biggest problem is not always simple though.",
+      "timestamp": "00:48:21",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 449
+      },
+      "themes": ["prioritization", "iteration", "focus", "roadmap"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "anton-osika-q012",
+      "speaker": "Anton Osika",
+      "text": "We work from the office most of the time. Especially lunch, eating lunch together is a pretty productive hour where you're cross pollinating. People are constantly thinking subconsciously about how to solve problems. Being in office has this focus but also high bandwidth where everyone has unstructured communication.",
+      "timestamp": "00:53:40",
+      "source": {
+        "slug": "anton-osika",
+        "path": "episodes/anton-osika/transcript.md",
+        "lineStart": 480,
+        "lineEnd": 482
+      },
+      "themes": ["remote-vs-office", "team-culture", "communication", "productivity"],
+      "zones": ["alignment", "velocity"]
+    }
+  ],
+  "themes": ["ai-product-strategy", "democratization", "generalists", "velocity", "team-building", "ambition", "prioritization"],
+  "takeaways": [
+    "The way to build software is shifting to 'just talking to an AI' - enabling the 99% who don't code to turn ideas into working products.",
+    "Being in the top 10% of AI tool users will absolutely set you apart - get hands dirty now because these tools are improving very fast.",
+    "Generalists are more valuable in the AI era - obsess about getting as many skill sets as possible for each hire: architecture, design, product taste, user research.",
+    "The simple prioritization algorithm: identify the biggest bottleneck, iterate fast to solve it, pick the next one. Don't overthink or dream out long roadmaps.",
+    "Office lunch is surprisingly productive - high bandwidth unstructured communication enables cross-pollination that remote can't replicate."
+  ],
+  "zone_influence": {
+    "velocity": 0.35,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.20,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "anton-osika-q004",
+      "why": "Bold claim that we're seeing 'the biggest change humanity will ever see' - cognitive labor being replaced by machines at unprecedented scale",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "anton-osika-q012",
+      "why": "Counter-narrative to remote work culture - argues lunch together is a 'productive hour' and in-office provides irreplaceable high bandwidth communication",
+      "related_zones": ["alignment", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["ai-product-strategy", "lovable", "generalists", "team-building", "velocity"]
+  }
+}
