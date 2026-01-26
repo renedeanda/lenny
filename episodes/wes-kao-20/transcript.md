@@ -1,6 +1,6 @@
 ---
 guest: Wes Kao 2.0
-title: Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)
+title: "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)"
 youtube_url: https://www.youtube.com/watch?v=BIvVGhy_VxU
 video_id: BIvVGhy_VxU
 publish_date: 2025-04-06

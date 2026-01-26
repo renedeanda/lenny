@@ -1,6 +1,6 @@
 ---
 guest: Tomer Cohen 1.0
-title: How LinkedIn became interesting: The inside story | Tomer Cohen (CPO at LinkedIn)
+title: "How LinkedIn became interesting: The inside story | Tomer Cohen (CPO at LinkedIn)"
 youtube_url: https://www.youtube.com/watch?v=YrUq8JUkQls
 video_id: YrUq8JUkQls
 publish_date: 2024-09-08
