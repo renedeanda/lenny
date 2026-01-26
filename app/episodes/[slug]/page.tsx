@@ -120,7 +120,10 @@ export default function EpisodePage() {
   useEffect(() => {
     if (!episode?.videoId) return;
 
-    const initializePlayer = () => {
+    // Track which mode (mobile/desktop) the player was initialized for
+    let currentMode: 'mobile' | 'desktop' | null = null;
+
+    const initializePlayer = (forceMode?: 'mobile' | 'desktop') => {
       if (!(window as any).YT || !(window as any).YT.Player) {
         // API not ready yet, wait for callback
         return;
@@ -128,11 +131,20 @@ export default function EpisodePage() {
 
       // Determine which player element to use based on screen size
       const isDesktop = window.innerWidth >= 1024;
-      const playerId = isDesktop ? 'youtube-player-desktop' : 'youtube-player';
+      const newMode = isDesktop ? 'desktop' : 'mobile';
+
+      // If forcing a mode, use that; otherwise use detected mode
+      const targetMode = forceMode || newMode;
+      const playerId = targetMode === 'desktop' ? 'youtube-player-desktop' : 'youtube-player';
       const playerElement = document.getElementById(playerId);
 
       if (!playerElement) {
         console.error('YouTube player element not found:', playerId);
+        return;
+      }
+
+      // Don't reinitialize if already initialized for this mode
+      if (currentMode === targetMode && youtubePlayerRef.current) {
         return;
       }
 
@@ -158,6 +170,8 @@ export default function EpisodePage() {
             }
           }
         });
+
+        currentMode = targetMode;
       } catch (error) {
         console.error('Failed to initialize YouTube player:', error);
       }
@@ -182,15 +196,19 @@ export default function EpisodePage() {
       }
     }
 
-    // Handle resize - reinitialize player if switching between mobile/desktop
+    // Handle resize - ONLY reinitialize if actually switching between mobile/desktop
+    let lastIsDesktop = window.innerWidth >= 1024;
+
     const handleResize = () => {
       const isDesktop = window.innerWidth >= 1024;
-      const currentPlayerId = isDesktop ? 'youtube-player-desktop' : 'youtube-player';
-      const currentElement = document.getElementById(currentPlayerId);
 
-      // Only reinitialize if the target element exists and is different
-      if (currentElement && (window as any).YT?.Player) {
-        initializePlayer();
+      // Only reinitialize if we actually crossed the mobile/desktop threshold
+      if (isDesktop !== lastIsDesktop) {
+        lastIsDesktop = isDesktop;
+        const newMode = isDesktop ? 'desktop' : 'mobile';
+        if ((window as any).YT?.Player) {
+          initializePlayer(newMode);
+        }
       }
     };
 
@@ -206,6 +224,7 @@ export default function EpisodePage() {
     return () => {
       window.removeEventListener('resize', debouncedResize);
       clearTimeout(resizeTimeout);
+      currentMode = null;
       // Cleanup
       if (youtubePlayerRef.current?.destroy) {
         try {
