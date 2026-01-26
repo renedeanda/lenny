@@ -1713,16 +1713,121 @@ This phase documents the investigation. Next session can execute the fixes once:
 
 ---
 
+---
+
+## ✅ Session 13: Curation Scale-Up & Metadata Fixes (Jan 26, 2026)
+
+### 📊 MAJOR CURATION MILESTONE: 87 Episodes (29.5% Coverage!)
+
+Scaled from 24 to 87 curated episodes - a 263% increase in coverage!
+
+**New Episodes Curated This Session (12):**
+
+| Episode | Guest | Key Topics |
+|---------|-------|------------|
+| adam-grenier | Adam Grenier | Emerging channels framework, Growth CMO, burnout/depression |
+| andrew-wilkinson | Andrew Wilkinson | Bootstrapping vs VC, moats, AI automation, mental health |
+| andy-raskin | Andy Raskin | Strategic narrative, pitching, movements, category creation |
+| anneka-gupta | Anneka Gupta | Strategy, founder mode, feedback, decision-making |
+| arielle-jackson | Arielle Jackson | Naming, positioning, branding, brand personality |
+| ben-williams | Ben Williams | PLG for developer tools, growth teams, Snyk |
+| bill-carr | Bill Carr | Working backwards, Amazon practices, single-threaded leadership |
+| cam-adams | Cam Adams | Canva coaching model, giving away Legos, freemium |
+| carilu-dietrich | Carilu Dietrich | Hypergrowth, career advice, Atlassian PLG, bundling |
+| chip-conley | Chip Conley | Modern Elder Academy, emotional intelligence, wisdom |
+| chris-hutchins | Chris Hutchins | Financial optimization, credit cards, negotiation |
+| claire-butler | Claire Butler | Figma bottom-up GTM, designer advocates, internal champions |
+
+**Updated Statistics:**
+- **Episodes curated:** 87/295 (29.5%) ⬆️ up from 24 (8.1%)
+- **Verified quotes:** 1,017 ⬆️ up from 283
+- **Avg quotes/episode:** 11.7
+
+### 🔧 Metadata Fix: ada-chen-rekhi
+
+**Problem:** Transcript metadata pointed to a 3:50 YouTube CLIP instead of the full 1:18:27 episode.
+
+**Fixed:**
+- video_id: `l-T8sNRcWQk` (clip) → `N64vIY2nJQo` (full episode)
+- duration: `3:50` → `1:18:27`
+- title: "Feeling stuck?..." → "How to make better decisions and build a joyful career"
+- Transcript content was already the full episode text
+
+### ⚠️ Known Issue: 5 Other Short Episodes Need Similar Fixes
+
+**Episodes with CLIP metadata but FULL transcript content:**
+
+| Episode | Current Duration | Full Episode Link | Status |
+|---------|-----------------|-------------------|--------|
+| jonathan-becker | 2:02 (122 sec) | `mmxTeS0AVMo` | Needs fix |
+| lulu-cheng-meservey | 2:44 (164 sec) | `LTSEOeKV_Hs` | Needs fix |
+| matt-mochary | 7:00 (420 sec) | `bCel0X2Ta7U` | Needs fix |
+| daniel-lereya | 0:00 (0 sec) | Missing | Needs YouTube link |
+| peter-deng | 0:00 (0 sec) | Missing | Needs YouTube link |
+
+**Root Cause:** During transcript import, these episodes received metadata from YouTube clips rather than full episodes. The clip descriptions typically say "Find the full episode here: [link]" - the link is the correct video.
+
+**Fix Required:** Update frontmatter in each transcript file with correct video_id, duration, title, and publish_date.
+
+### 📁 Files Changed This Session
+
+**Curation (12 new episodes):**
+- `data/verified/adam-grenier.json` - NEW
+- `data/verified/andrew-wilkinson.json` - NEW
+- `data/verified/andy-raskin.json` - NEW
+- `data/verified/anneka-gupta.json` - NEW
+- `data/verified/arielle-jackson.json` - NEW
+- `data/verified/ben-williams.json` - NEW
+- `data/verified/bill-carr.json` - NEW
+- `data/verified/cam-adams.json` - NEW
+- `data/verified/carilu-dietrich.json` - NEW
+- `data/verified/chip-conley.json` - NEW
+- `data/verified/chris-hutchins.json` - NEW
+- `data/verified/claire-butler.json` - NEW
+
+**Metadata Fixes:**
+- `episodes/ada-chen-rekhi/transcript.md` - Fixed video_id, title, duration
+
+**Registry:**
+- `data/verified/verified-content.json` - Updated (87 episodes)
+- `lib/verifiedContent.ts` - Regenerated
+
+---
+
+## 📊 Updated Coverage Status (Post-Session 13)
+
+**Episodes Curated:** 87/295 (29.5%) ✅
+**Target:** 100+ episodes (33%) - 13 more to go!
+**Verified Quotes:** 1,017
+**Avg quotes/episode:** 11.7
+
+**Zone Coverage:**
+- All zones now have 60+ episodes
+- velocity: 80 episodes
+- perfection: 64 episodes
+- discovery: 85 episodes
+- data: 71 episodes
+- intuition: 76 episodes
+- alignment: 85 episodes
+- chaos: 74 episodes
+- focus: 86 episodes
+
+---
+
 ## 🎯 NEXT PRIORITIES
+
+### P0: Fix Short Episode Metadata (5 Episodes)
+- jonathan-becker, lulu-cheng-meservey, matt-mochary → update to full episode links
+- daniel-lereya, peter-deng → find correct YouTube links
 
 ### P0: Fix Guest/Title Metadata Mismatches (18 Episodes)
 - User to curate YouTube links & screenshots
 - Then batch update frontmatter and regenerate data files
 
-### Scale Episode Curation
-- Current: 24/295 episodes (8.1%)
-- Target: 50+ episodes (17%)
-- Priority: Fill zone gaps
+### P1: Reach 100 Episodes (13 more needed)
+- Current: 87/295 episodes (29.5%)
+- Target: 100+ episodes (33%)
+- Priority: Continue with high-view-count episodes
 
 ### Content Improvements
 - Source missing 1.0 transcripts for 9 episodes
