@@ -1586,26 +1586,23 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 #### Group 1: Confirmed Mismatches (3 Episodes)
 
-| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Needs YouTube Link & Metadata |
-|---|------|------------------|------------------|------------------------|-------------------------------|
+| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title |
+|---|------|------------------|------------------|------------------------|
 | 1 | `brandon-chu` | Brandon Chu | [NO YOUTUBE VIDEO AVAILABLE]
 | 2 | `ryan-hoover` | Ryan Hoover | "A better way to plan, build, and ship products \| **Ryan Singer** (creator of 'Shape Up')" | Ryan Singer | ✅ Need Ryan Hoover's actual episode metadata | https://www.youtube.com/watch?v=HzDLWKI6mnI (ACTUAL LINK)
 | 3 | `david-placek` | David Placek | "Building a culture of excellence \| **David Singleton** (CTO of Stripe)" | David Singleton | ✅ Need David Placek's actual episode metadata | https://www.youtube.com/watch?v=adyIaTopO6g (ACTUAL LINK)
 
-
-| # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Notes |
-|---|------|------------------|------------------|------------------------|-------|
 | 4 | `gibson-biddle` | Gibson Biddle | "35 years of product design wisdom... \| **Bob Baxley**" | Bob Baxley | Transcript mentions "Gibson Biddle" at line 40 |
 | 5 | `manik-gupta` | Manik Gupta | [NO YOUTUBE VIDEO AVAILABLE]
 | 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier | https://youtube.com/watch?v=bhnfZhJWCWY (ACTUAL LINK)
 | 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content | https://youtube.com/watch?v=Fves5chVZRA (ACTUAL LINK)
 | 8 | `jackie-bavaro` | Jackie Bavaro | [NO YOUTUBE VIDEO AVAILABLE]
-| 10 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |  https://www.youtube.com/watch?v=z1ISq9Ty4Cg (ACTUAL LINK)
-| 11 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content | https://www.youtube.com/watch?v=PDobJV8wh1g (ACTUAL LINK)
-| 12 | `ray-cao` | Ray Cao | [NO YOUTUBE VIDEO AVAILABLE]
-| 13 | `laura-modi` | Laura Modi | [NO YOUTUBE VIDEO AVAILABLE]
-| 14 | `julian-shapiro` | Julian Shapiro | [NO YOUTUBE VIDEO AVAILABLE]
-| 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content | https://www.youtube.com/watch?v=Vlph3dn4jnU (ACTUAL LINK)
+| 9 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |  https://www.youtube.com/watch?v=z1ISq9Ty4Cg (ACTUAL LINK)
+| 10 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content | https://www.youtube.com/watch?v=PDobJV8wh1g (ACTUAL LINK)
+| 11 | `ray-cao` | Ray Cao | [NO YOUTUBE VIDEO AVAILABLE]
+| 12 | `laura-modi` | Laura Modi | [NO YOUTUBE VIDEO AVAILABLE]
+| 13 | `julian-shapiro` | Julian Shapiro | [NO YOUTUBE VIDEO AVAILABLE]
+| 14 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content | https://www.youtube.com/watch?v=Vlph3dn4jnU (ACTUAL LINK)
 
 ---
 
