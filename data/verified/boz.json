@@ -1,5 +1,9 @@
 {
   "slug": "boz",
+  "guest": "Boz",
+  "episode_title": "Making Meta | Andrew 'Boz' Bosworth (CTO)",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "boz-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "alignment",
         "perfection"
-      ]
+      ],
+      "context": "Explaining his most famous principle that having ideas means nothing without effective communication",
+      "verified": true
     },
     {
       "id": "boz-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "discovery",
         "alignment"
-      ]
+      ],
+      "context": "Sharing his most frequently given career advice about asking managers for help",
+      "verified": true
     },
     {
       "id": "boz-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "chaos",
         "discovery"
-      ]
+      ],
+      "context": "Describing the unglamorous reality of early Facebook days as the 10th engineer",
+      "verified": true
     },
     {
       "id": "boz-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "focus",
         "chaos"
-      ]
+      ],
+      "context": "Explaining the legendary 'eye of Sauron' metaphor for founder attention to detail",
+      "verified": true
     },
     {
       "id": "boz-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "perfection",
         "alignment"
-      ]
+      ],
+      "context": "Sharing practical techniques for effective communication at scale",
+      "verified": true
     },
     {
       "id": "boz-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "chaos",
         "discovery"
-      ]
+      ],
+      "context": "Explaining why he got into an embarrassing technical argument with his best friend Dave Federman",
+      "verified": true
     },
     {
       "id": "boz-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "discovery",
         "intuition"
-      ]
+      ],
+      "context": "Describing the transformative leadership lesson he learned from watching Ami Vora handle disagreement",
+      "verified": true
     },
     {
       "id": "boz-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "data",
         "focus"
-      ]
+      ],
+      "context": "Explaining how they had conviction to stick with News Feed despite user backlash by watching actual behavior",
+      "verified": true
     },
     {
       "id": "boz-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Describing Mark Zuckerberg's unique way of processing feedback and iterating on his mental model",
+      "verified": true
     },
     {
       "id": "boz-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "data",
         "intuition"
-      ]
+      ],
+      "context": "Explaining why Meta's team needed to trust their own expertise during the stock downturn rather than external narratives",
+      "verified": true
     },
     {
       "id": "boz-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "alignment",
         "perfection"
-      ]
+      ],
+      "context": "Explaining how he applies extreme ownership from US Marines/SEALs to all communication failures",
+      "verified": true
     },
     {
       "id": "boz-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "intuition",
         "chaos"
-      ]
+      ],
+      "context": "Sharing his family's life motto and how conviction in yourself enables both risk-taking and resilience",
+      "verified": true
     }
   ],
   "themes": [

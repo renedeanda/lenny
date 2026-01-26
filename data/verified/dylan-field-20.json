@@ -1,5 +1,9 @@
 {
   "slug": "dylan-field-20",
+  "guest": "Dylan Field 2.0",
+  "episode_title": "Figma's CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
+  "verification_date": "2026-01-20",
+  "verified_by": "warp-agent",
   "quotes": [
     {
       "id": "dylan-field-q001",
@@ -22,7 +26,8 @@
       "zones": [
         "perfection",
         "intuition"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q002",
@@ -46,7 +51,8 @@
         "intuition",
         "discovery",
         "data"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q003",
@@ -68,7 +74,8 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q004",
@@ -91,7 +98,8 @@
       "zones": [
         "alignment",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q005",
@@ -113,7 +121,8 @@
       "zones": [
         "perfection",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q006",
@@ -135,7 +144,8 @@
       "zones": [
         "perfection",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q007",
@@ -157,7 +167,8 @@
       "zones": [
         "velocity",
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q008",
@@ -181,7 +192,8 @@
         "velocity",
         "perfection",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q009",
@@ -204,7 +216,8 @@
       "zones": [
         "discovery",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q010",
@@ -226,7 +239,8 @@
       "zones": [
         "intuition",
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "dylan-field-q011",
@@ -248,7 +262,8 @@
       "zones": [
         "discovery",
         "alignment"
-      ]
+      ],
+      "verified": true
     }
   ],
   "themes": [

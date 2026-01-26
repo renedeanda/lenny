@@ -1,5 +1,9 @@
 {
   "slug": "marty-cagan-20",
+  "guest": "Marty Cagan 2.0",
+  "episode_title": "Product management theater | Marty Cagan (Silicon Valley Product Group)",
+  "verification_date": "2026-01-20",
+  "verified_by": "warp-agent",
   "quotes": [
     {
       "id": "marty-cagan-q001",
@@ -21,7 +25,8 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q002",
@@ -43,7 +48,8 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q003",
@@ -65,7 +71,8 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q004",
@@ -88,7 +95,8 @@
         "data",
         "focus",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q005",
@@ -110,7 +118,8 @@
       "zones": [
         "discovery",
         "data"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q006",
@@ -132,7 +141,8 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q007",
@@ -153,7 +163,8 @@
       ],
       "zones": [
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q008",
@@ -175,7 +186,8 @@
       "zones": [
         "data",
         "alignment"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q009",
@@ -197,7 +209,8 @@
       "zones": [
         "discovery",
         "chaos"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q010",
@@ -219,7 +232,8 @@
       "zones": [
         "alignment",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q011",
@@ -242,7 +256,8 @@
         "alignment",
         "focus",
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "marty-cagan-q012",
@@ -266,7 +281,8 @@
         "intuition",
         "data",
         "discovery"
-      ]
+      ],
+      "verified": true
     }
   ],
   "themes": [

@@ -1,5 +1,9 @@
 {
   "slug": "shreyas-doshi",
+  "guest": "Shreyas Doshi",
+  "episode_title": "The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "shreyas-doshi-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Introducing the pre-mortem framework with tigers, paper tigers, and elephants",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Explaining the specific structure of effective pre-mortems",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "focus",
         "data"
-      ]
+      ],
+      "context": "Introducing the LNO framework for prioritizing PM time",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Illustrating how the same activity requires different levels of effort based on strategic importance",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "context": "Explaining why teams stay overwhelmed solving the same problems repeatedly",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Illustrating how lack of strategy manifests as execution problems",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "focus",
         "data"
-      ]
+      ],
+      "context": "Explaining the opportunity cost framework learned from observing Patrick Collison at Stripe",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Contrasting opportunity cost thinking with traditional ROI thinking",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "focus",
         "data"
-      ]
+      ],
+      "context": "Sharing tactical guidance on portfolio allocation to enable opportunity cost thinking",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "chaos",
         "focus"
-      ]
+      ],
+      "context": "Describing the trait that differentiates high-impact PMs from those with unrealized potential",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "focus",
         "velocity"
-      ]
+      ],
+      "context": "Describing Google's culture of thinking big and pursuing only massive opportunities",
+      "verified": true
     },
     {
       "id": "shreyas-doshi-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "context": "Describing Jack Dorsey's leadership style and ability to ask penetrating questions",
+      "verified": true
     }
   ],
   "themes": [

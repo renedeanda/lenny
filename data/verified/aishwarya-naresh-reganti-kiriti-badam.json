@@ -1,5 +1,9 @@
 {
   "slug": "aishwarya-naresh-reganti-kiriti-badam",
+  "guest": "Aishwarya Naresh Reganti + Kiriti Badam",
+  "episode_title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
+  "verification_date": "2026-01-23",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "aishwarya-kiriti-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "context": "Explaining why starting with minimal AI autonomy helps teams focus on the actual problem rather than getting lost in technical complexity",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "perfection",
         "data"
-      ]
+      ],
+      "context": "Citing UC Berkeley/Databricks research on why enterprises struggle to deploy AI products",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "chaos",
         "discovery"
-      ]
+      ],
+      "context": "Describing how successful AI transformation requires leaders to rebuild intuitions and be vulnerable about learning",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q004",
@@ -88,7 +98,9 @@
         "discovery",
         "perfection",
         "data"
-      ]
+      ],
+      "context": "Warning about unrealistic AI agent marketing and setting realistic expectations for enterprise AI deployment timelines",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q005",
@@ -110,7 +122,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Addressing the evals vs production monitoring debate by explaining they serve complementary purposes",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q006",
@@ -132,7 +146,9 @@
       "zones": [
         "alignment",
         "chaos"
-      ]
+      ],
+      "context": "Explaining why AI terminology like 'evals' and 'agents' has become confusing as different groups use the same terms for different concepts",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q007",
@@ -155,7 +171,9 @@
         "data",
         "discovery",
         "velocity"
-      ]
+      ],
+      "context": "Explaining OpenAI Codex team's pragmatic approach combining evals for core functionality with heavy customer feedback monitoring",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q008",
@@ -177,7 +195,9 @@
       "zones": [
         "perfection",
         "chaos"
-      ]
+      ],
+      "context": "Sharing the origin story of the CCCD framework - real failures that led to developing the continuous calibration approach",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q009",
@@ -199,7 +219,9 @@
       "zones": [
         "chaos",
         "perfection"
-      ]
+      ],
+      "context": "Explaining why multi-agent systems where agents communicate peer-to-peer are misunderstood and harder than hierarchical supervisor patterns",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q010",
@@ -222,7 +244,9 @@
         "intuition",
         "discovery",
         "focus"
-      ]
+      ],
+      "context": "Arguing that in the AI era, implementation is becoming commoditized while thoughtful product design and problem definition are increasingly valuable",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q011",
@@ -245,7 +269,9 @@
       "zones": [
         "intuition",
         "perfection"
-      ]
+      ],
+      "context": "Discussing how AI shifts career value from execution mechanics to taste, judgment, and unique human perspective",
+      "verified": true
     },
     {
       "id": "aishwarya-kiriti-q012",
@@ -269,7 +295,9 @@
         "chaos",
         "discovery",
         "velocity"
-      ]
+      ],
+      "context": "Introducing the concept that going through the painful learning process of building AI products creates competitive advantage",
+      "verified": true
     }
   ],
   "themes": [

@@ -1,5 +1,9 @@
 {
   "slug": "nikita-bier",
+  "guest": "Nikita Bier",
+  "episode_title": "Driving alignment within teams, work-life balance, and the changing PM landscape | Nikita Miller",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "nikita-bier-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "discovery",
         "intuition"
-      ]
+      ],
+      "context": "Describing how he discovered the opportunity for tbh by observing an Arabic app being #1 in US",
+      "verified": true
     },
     {
       "id": "nikita-bier-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "context": "Explaining the importance of iteration speed and systematic testing over individual ideas",
+      "verified": true
     },
     {
       "id": "nikita-bier-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "perfection",
         "focus"
-      ]
+      ],
+      "context": "Describing the shift from web to mobile product thinking and design philosophy",
+      "verified": true
     },
     {
       "id": "nikita-bier-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Explaining why they manually seeded entire schools to test apps properly",
+      "verified": true
     },
     {
       "id": "nikita-bier-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "discovery",
         "data"
-      ]
+      ],
+      "context": "Describing what true product-market fit feels like for consumer apps",
+      "verified": true
     },
     {
       "id": "nikita-bier-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "chaos",
         "velocity"
-      ]
+      ],
+      "context": "Describing the reality of hypergrowth with tbh going viral",
+      "verified": true
     },
     {
       "id": "nikita-bier-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "discovery",
         "data"
-      ]
+      ],
+      "context": "Explaining why teens are the optimal target for viral social apps",
+      "verified": true
     },
     {
       "id": "nikita-bier-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "intuition",
         "discovery"
-      ]
+      ],
+      "context": "Explaining his framework for why people download apps and why big companies struggle with zero-to-one",
+      "verified": true
     },
     {
       "id": "nikita-bier-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "chaos",
         "alignment"
-      ]
+      ],
+      "context": "Explaining why incumbents are slow to respond and why copying is the only defensible path inside big companies",
+      "verified": true
     },
     {
       "id": "nikita-bier-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "perfection",
         "intuition"
-      ]
+      ],
+      "context": "Describing the disconnect between PM role and actual product development at Facebook",
+      "verified": true
     },
     {
       "id": "nikita-bier-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "discovery",
         "velocity"
-      ]
+      ],
+      "context": "Sharing tactical advice on eliminating confounding variables during product testing",
+      "verified": true
     },
     {
       "id": "nikita-bier-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "chaos",
         "focus"
-      ]
+      ],
+      "context": "Describing the chaos of tbh's viral growth and strategic decision to geofence to control it",
+      "verified": true
     }
   ],
   "themes": [

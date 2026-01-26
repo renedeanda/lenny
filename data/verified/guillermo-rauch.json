@@ -1,5 +1,9 @@
 {
   "slug": "guillermo-rauch",
+  "guest": "Guillermo Rauch",
+  "episode_title": "Everyone's an engineer now: Inside v0's mission to create 100 million builders",
+  "verification_date": "2026-01-23",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "guillermo-rauch-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "context": "Discussing how AI tools like v0 enable people to become more full-stack and remove traditional role limitations",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "velocity",
         "intuition"
-      ]
+      ],
+      "context": "Explaining which programming jobs AI will replace (translation tasks) versus what skills remain valuable (understanding how things work)",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q003",
@@ -66,7 +74,9 @@
         "discovery",
         "perfection",
         "intuition"
-      ]
+      ],
+      "context": "Answering how to build taste in product development, emphasizing it's a learnable skill through exposure",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "context": "Closing thoughts on AI's future - it will just become part of normal software development",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q005",
@@ -108,7 +120,9 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "context": "Explaining the TAM expansion opportunity - from 5 million developers to 100 million potential builders",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q006",
@@ -129,7 +143,9 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "context": "Explaining how v0 inverts the traditional development workflow - intent comes first, code comes second",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q007",
@@ -152,7 +168,9 @@
         "velocity",
         "discovery",
         "data"
-      ]
+      ],
+      "context": "Discussing the competitive advantage of AI products - they create tight feedback loops that improve the product constantly",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q008",
@@ -174,7 +192,9 @@
       "zones": [
         "perfection",
         "focus"
-      ]
+      ],
+      "context": "Explaining why product quality requires obsession and why saying no to features is critical",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q009",
@@ -196,7 +216,9 @@
       "zones": [
         "perfection",
         "data"
-      ]
+      ],
+      "context": "Sharing an anecdote about v0 generating more accessible code than he (an expert engineer) wrote, demonstrating AI's comprehensive knowledge",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q010",
@@ -218,7 +240,9 @@
       "zones": [
         "intuition",
         "perfection"
-      ]
+      ],
+      "context": "Discussing essential skills for the AI era - eloquence and knowing the right words to prompt effectively",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q011",
@@ -241,7 +265,9 @@
         "velocity",
         "discovery",
         "chaos"
-      ]
+      ],
+      "context": "Describing the future of product development where ideas can immediately become prototypes during conversations",
+      "verified": true
     },
     {
       "id": "guillermo-rauch-q012",
@@ -264,7 +290,9 @@
         "velocity",
         "chaos",
         "focus"
-      ]
+      ],
+      "context": "Explaining how AI tools like v0 enable people at Vercel to step outside traditional role boundaries and create",
+      "verified": true
     }
   ],
   "themes": [

@@ -1,5 +1,9 @@
 {
   "slug": "casey-winters-20",
+  "guest": "Casey Winters 2.0",
+  "episode_title": "Thinking beyond frameworks | Casey Winters (Pinterest, Eventbrite, Airbnb, Reddit)",
+  "verification_date": "2026-01-24",
+  "verified_by": "claude-sonnet-4.5",
   "quotes": [
     {
       "id": "casey-winters-20-q001",
@@ -22,7 +26,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Describing the 'zero interest rate phenomenon PM' - product managers who've only worked in high-resource environments and can't make decisions under uncertainty.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q002",
@@ -44,7 +50,9 @@
       "zones": [
         "intuition",
         "focus"
-      ]
+      ],
+      "context": "On frameworks as tools in a toolkit versus a coloring book to stay inside the lines of, emphasizing independent thinking over process adherence.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q003",
@@ -66,7 +74,9 @@
       "zones": [
         "velocity",
         "discovery"
-      ]
+      ],
+      "context": "On the importance of shipping to learn versus over-preparing, challenging a team that spent an entire quarter without releasing anything.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q004",
@@ -89,7 +99,9 @@
         "data",
         "velocity",
         "focus"
-      ]
+      ],
+      "context": "On when to use research versus when to just ship or copy proven patterns, pushing back on over-reliance on research for low-uncertainty problems.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q005",
@@ -111,7 +123,9 @@
       "zones": [
         "intuition",
         "velocity"
-      ]
+      ],
+      "context": "On his contrarian interviewing approach that tests actual job skills rather than rehearsed behavioral answers.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q006",
@@ -133,7 +147,9 @@
       "zones": [
         "intuition",
         "discovery"
-      ]
+      ],
+      "context": "On AI's impact on product management, distinguishing framework-followers from true strategic thinkers who won't be replaced.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q007",
@@ -155,7 +171,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Warning about AI hallucinations and the danger of tools that sound confident but provide incorrect information.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q008",
@@ -177,7 +195,9 @@
       "zones": [
         "intuition",
         "alignment"
-      ]
+      ],
+      "context": "On the founder intuition vs team expertise framework, arguing founders delegate too early before team members truly understand the business.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q009",
@@ -199,7 +219,9 @@
       "zones": [
         "focus",
         "velocity"
-      ]
+      ],
+      "context": "On the critical mindset shift from finding PMF (iterate constantly) to scaling PMF (stop changing the core product, focus on distribution).",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q010",
@@ -221,7 +243,9 @@
       "zones": [
         "alignment",
         "velocity"
-      ]
+      ],
+      "context": "On how founders who don't delegate at scale create bottlenecks that lead to being acquired rather than winning.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q011",
@@ -243,7 +267,9 @@
       "zones": [
         "alignment",
         "intuition"
-      ]
+      ],
+      "context": "On how to influence founders who won't listen to direct feedback, by understanding what forms of feedback they do respond to.",
+      "verified": true
     },
     {
       "id": "casey-winters-20-q012",
@@ -265,7 +291,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "On lessons from Grubhub vs DoorDash, arguing you must assume disruptors are right and overreact to existential threats rather than waiting to see if they fail.",
+      "verified": true
     }
   ],
   "themes": [

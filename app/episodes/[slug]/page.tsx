@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Eye, Calendar, Play, Search, Share2, Hash, X, Lightbulb, MessageSquare, Target, Quote as QuoteIcon, ExternalLink } from 'lucide-react';
+import ContrarianViewCard from '@/components/ContrarianViewCard';
 import { getEpisodeBySlug, allEpisodes, Episode } from '@/lib/allEpisodes';
 import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
@@ -622,15 +623,11 @@ export default function EpisodePage() {
                   <h3 className="text-lg font-bold text-crimson mb-4">🔥 CONTRARIAN TAKES</h3>
                   <div className="space-y-4">
                     {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 2).map((view, i) => (
-                      <div key={i} className="border-l-2 border-crimson/50 pl-3">
-                        <p className="text-sm text-ash italic mb-2">"{view.quote.substring(0, 200)}{view.quote.length > 200 ? '...' : ''}"
-                        </p>
-                        <div className="flex items-center gap-2 text-xs text-ash-dark">
-                          <span className="text-crimson font-bold">{view.speaker}</span>
-                          <span>•</span>
-                          <span>{view.timestamp}</span>
-                        </div>
-                      </div>
+                      <ContrarianViewCard
+                        key={i}
+                        view={view}
+                        onTimestampClick={(timestamp) => jumpToVideoTimestamp(timestamp)}
+                      />
                     ))}
                   </div>
                   {insights.contrarianViews.length > 2 && (
@@ -940,14 +937,11 @@ export default function EpisodePage() {
                       <h3 className="text-lg font-bold text-crimson mb-4">🔥 CONTRARIAN TAKES</h3>
                       <div className="space-y-4">
                         {insights.contrarianViews.slice(0, showAllContrarian ? undefined : 3).map((view, i) => (
-                          <div key={i} className="border-l-2 border-crimson/50 pl-4">
-                            <p className="text-sm text-ash italic mb-2">"{view.quote}"</p>
-                            <div className="flex items-center gap-2 text-xs text-ash-dark">
-                              <span className="text-crimson font-bold">{view.speaker}</span>
-                              <span>•</span>
-                              <span>{view.timestamp}</span>
-                            </div>
-                          </div>
+                          <ContrarianViewCard
+                            key={i}
+                            view={view}
+                            onTimestampClick={(timestamp) => jumpToVideoTimestamp(timestamp)}
+                          />
                         ))}
                       </div>
                       {insights.contrarianViews.length > 3 && (

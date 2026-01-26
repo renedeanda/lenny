@@ -1,5 +1,9 @@
 {
   "slug": "annie-duke",
+  "guest": "Annie Duke",
+  "episode_title": "This will make you a better decision maker | Annie Duke (Thinking In Bets, former pro poker player)",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "annie-duke-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Explaining why structured decision-making processes outperform pure intuition, drawing from work with First Round Capital",
+      "verified": true
     },
     {
       "id": "annie-duke-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Introducing the concept of nominal groups - discovering opinions independently before meetings to avoid groupthink",
+      "verified": true
     },
     {
       "id": "annie-duke-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "chaos",
         "data"
-      ]
+      ],
+      "context": "Challenging the common goal of 'alignment' in meetings - arguing that forcing agreement creates coercion and ignores reality",
+      "verified": true
     },
     {
       "id": "annie-duke-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Explaining why teams should collect opinions before meetings to avoid groupthink and anchoring bias",
+      "verified": true
     },
     {
       "id": "annie-duke-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "data",
         "focus"
-      ]
+      ],
+      "context": "Pushing back on VCs who said they can't improve decision-making because feedback takes 10 years - explaining how to find leading indicators",
+      "verified": true
     },
     {
       "id": "annie-duke-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "focus",
         "chaos"
-      ]
+      ],
+      "context": "Explaining why pre-mortems fail without pre-committed kill criteria - citing Richard Thaler's observation about delayed quitting",
+      "verified": true
     },
     {
       "id": "annie-duke-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Describing Daniel Kahneman's work on structured hiring and the implementation gap between knowing and doing",
+      "verified": true
     },
     {
       "id": "annie-duke-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "alignment",
         "focus"
-      ]
+      ],
+      "context": "Teaching a leadership framework that acknowledges input while maintaining decision authority",
+      "verified": true
     },
     {
       "id": "annie-duke-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "discovery",
         "chaos"
-      ]
+      ],
+      "context": "Describing how to use mental time travel to gain perspective on decisions that feel huge in the moment",
+      "verified": true
     },
     {
       "id": "annie-duke-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "chaos",
         "focus"
-      ]
+      ],
+      "context": "Explaining sunk cost fallacy and why people wait too long to quit projects, jobs, or relationships",
+      "verified": true
     },
     {
       "id": "annie-duke-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "chaos",
         "focus"
-      ]
+      ],
+      "context": "Iconic example of strategic quitting - Stewart couldn't see Slack until he quit Glitch despite apparent success",
+      "verified": true
     },
     {
       "id": "annie-duke-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Explaining how independent forecasting reveals true disagreement that gets hidden in meetings due to hierarchy and conformity",
+      "verified": true
     }
   ],
   "themes": [

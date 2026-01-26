@@ -1,5 +1,9 @@
 {
   "slug": "ben-horowitz",
+  "guest": "Ben Horowitz",
+  "episode_title": "$46B of hard truths: Why founders fail and why you need to run toward fear | Ben Horowitz (a16z)",
+  "verification_date": "2026-01-23",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "ben-horowitz-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "intuition",
         "chaos"
-      ]
+      ],
+      "context": "Sharing the pilot's lesson about JFK Jr.'s plane crash - how small bad decisions compound",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Shaka Senghor's lesson from 19 years in prison - self-beliefs matter more than external obstacles",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "chaos",
         "velocity"
-      ]
+      ],
+      "context": "Explaining why hesitation is the most destructive thing leaders do when faced with two horrible options",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q004",
@@ -88,7 +98,9 @@
       "zones": [
         "chaos",
         "velocity"
-      ]
+      ],
+      "context": "Loudcloud IPO story - choosing public humiliation over bankruptcy in March 2001",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q005",
@@ -111,7 +123,9 @@
         "intuition",
         "chaos",
         "focus"
-      ]
+      ],
+      "context": "Defining the core psychological muscle of leadership - making unpopular decisions",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q006",
@@ -133,7 +147,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "John Reed's advice on why to start a company - must have irrational purpose-driven desire",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q007",
@@ -155,7 +171,9 @@
       "zones": [
         "velocity",
         "focus"
-      ]
+      ],
+      "context": "Databricks funding story - forcing founders to think bigger when they had Spark competing with Hadoop",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q008",
@@ -177,7 +195,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Explaining the core insight from his famous Good Product Manager, Bad Product Manager essay",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q009",
@@ -199,7 +219,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Clarifying what PM and CEO roles really are - keepers of vision, not just idea generators",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q010",
@@ -222,7 +244,9 @@
       "zones": [
         "intuition",
         "chaos"
-      ]
+      ],
+      "context": "Defending investing in Adam Neumann after WeWork - focus on strengths not failures",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q011",
@@ -244,7 +268,9 @@
       "zones": [
         "intuition",
         "alignment"
-      ]
+      ],
+      "context": "Philosophy of investing in people - bet on world-class strengths, help with weaknesses",
+      "verified": true
     },
     {
       "id": "ben-horowitz-q012",
@@ -266,7 +292,9 @@
       "zones": [
         "data",
         "intuition"
-      ]
+      ],
+      "context": "Arguing AI is not a bubble unlike dot-com - unit economics actually work, unprecedented product-market fit",
+      "verified": true
     }
   ],
   "themes": [

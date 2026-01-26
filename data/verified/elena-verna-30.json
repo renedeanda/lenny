@@ -1,5 +1,9 @@
 {
   "slug": "elena-verna-30",
+  "guest": "Elena Verna 3.0",
+  "episode_title": "10 growth tactics that never work | Elena Verna (Amplitude, Miro, Dropbox, SurveyMonkey)",
+  "verification_date": "2026-01-20",
+  "verified_by": "warp-agent",
   "quotes": [
     {
       "id": "elena-verna-30-q001",
@@ -22,7 +26,8 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q002",
@@ -45,7 +50,8 @@
       "zones": [
         "data",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q003",
@@ -67,7 +73,8 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q004",
@@ -89,7 +96,8 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q005",
@@ -111,7 +119,8 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q006",
@@ -133,7 +142,8 @@
       "zones": [
         "focus",
         "data"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q007",
@@ -155,7 +165,8 @@
       "zones": [
         "velocity",
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q008",
@@ -177,7 +188,8 @@
       "zones": [
         "velocity",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q009",
@@ -199,7 +211,8 @@
       "zones": [
         "velocity",
         "intuition"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q010",
@@ -223,7 +236,8 @@
         "data",
         "velocity",
         "intuition"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q011",
@@ -246,7 +260,8 @@
         "intuition",
         "discovery",
         "data"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "elena-verna-30-q012",
@@ -268,7 +283,8 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "verified": true
     }
   ],
   "themes": [

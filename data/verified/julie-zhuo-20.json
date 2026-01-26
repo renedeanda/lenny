@@ -1,5 +1,9 @@
 {
   "slug": "julie-zhuo-20",
+  "guest": "Julie Zhuo 2.0",
+  "episode_title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "julie-zhuo-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "alignment",
         "focus"
-      ]
+      ],
+      "context": "Explaining how management principles apply directly to working with AI agents and models",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "alignment",
         "data"
-      ]
+      ],
+      "context": "Explaining why clarity of outcomes is the most important skill for working with AI and teams",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "context": "Describing how AI empowers individuals to transcend traditional role boundaries",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Contrarian take on how fast-growing AI companies succeed initially without data infrastructure",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "data",
         "perfection"
-      ]
+      ],
+      "context": "Sharing the perfect framework for balancing data and design that she and her co-founder use",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Describing the essential balance managers need in times of rapid change and uncertainty",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "discovery",
         "perfection"
-      ]
+      ],
+      "context": "Introducing the dimensionality framework for self-awareness and managing personal development",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "discovery",
         "perfection"
-      ]
+      ],
+      "context": "Reframing feedback as a gift that helps calibrate our self-perception to reality",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "focus",
         "intuition"
-      ]
+      ],
+      "context": "Explaining why managers must develop genuine conviction rather than just executing orders",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "alignment",
         "intuition"
-      ]
+      ],
+      "context": "Describing win-win thinking as fundamental to effective management and difficult conversations",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "intuition",
         "discovery"
-      ]
+      ],
+      "context": "Sharing her contrarian philosophical worldview that applies to work and life",
+      "verified": true
     },
     {
       "id": "julie-zhuo-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Explaining what she teaches her kids about emotional skills in an AI-powered future",
+      "verified": true
     }
   ],
   "themes": [

@@ -122,12 +122,26 @@ interface QuoteCardProps {
 
 function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
   const [showCopied, setShowCopied] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  // Truncate long quotes (over 300 chars)
+  const MAX_LENGTH = 300;
+  const isLongQuote = quote.text.length > MAX_LENGTH;
+  const displayText = isLongQuote && !isExpanded
+    ? quote.text.substring(0, MAX_LENGTH) + '...'
+    : quote.text;
 
   const handleCopy = () => {
     const text = `"${quote.text}"\n\n— ${quote.speaker}\nLenny's Podcast`;
     navigator.clipboard.writeText(text);
     setShowCopied(true);
     setTimeout(() => setShowCopied(false), 2000);
+  };
+
+  const handleTimestampClick = () => {
+    if (onJumpToTranscript && quote.source?.lineStart) {
+      onJumpToTranscript(quote.source.lineStart, quote.timestamp);
+    }
   };
 
   return (
@@ -151,7 +165,15 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
 
       {/* Quote Text */}
       <blockquote className="text-ash leading-relaxed mb-4 text-base">
-        "{quote.text}"
+        "{displayText}"
+        {isLongQuote && (
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="ml-2 text-amber hover:text-amber/80 text-sm font-semibold transition-colors"
+          >
+            {isExpanded ? '▲ Less' : '▼ More'}
+          </button>
+        )}
       </blockquote>
 
       {/* Metadata */}
@@ -162,10 +184,14 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
             <span className="font-semibold">{quote.speaker}</span>
           </div>
           {quote.timestamp && (
-            <div className="flex items-center gap-1">
+            <button
+              onClick={handleTimestampClick}
+              className="flex items-center gap-1 hover:text-amber transition-colors cursor-pointer"
+              title="Jump to timestamp in video"
+            >
               <Clock className="w-3 h-3" />
-              <span>{quote.timestamp}</span>
-            </div>
+              <span className="underline">{quote.timestamp}</span>
+            </button>
           )}
         </div>
 

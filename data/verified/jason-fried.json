@@ -1,5 +1,9 @@
 {
   "slug": "jason-fried",
+  "guest": "Jason Fried",
+  "episode_title": "The magic of constraints, small teams, and independent businesses",
+  "verification_date": "2026-01-23",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "jason-fried-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Explaining why 37signals has 75 employees while competitors have 1500-3000, yet similar customers and profitability",
+      "verified": true
     },
     {
       "id": "jason-fried-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "focus",
         "velocity"
-      ]
+      ],
+      "context": "Describing how 37signals builds features - small teams with tight time constraints",
+      "verified": true
     },
     {
       "id": "jason-fried-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "intuition",
         "alignment"
-      ]
+      ],
+      "context": "Defining success differently - not by metrics or revenue, but by enjoyment and wanting to repeat the experience",
+      "verified": true
     },
     {
       "id": "jason-fried-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "intuition",
         "focus"
-      ]
+      ],
+      "context": "Explaining his anti-metrics philosophy - no OKRs, KPIs, or growth targets, just profitability",
+      "verified": true
     },
     {
       "id": "jason-fried-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Coining the term 'stay up' vs 'startup' - emphasizing that longevity is harder and more valuable than starting",
+      "verified": true
     },
     {
       "id": "jason-fried-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Contrarian advice about competition - don't try to do more, do less but better",
+      "verified": true
     },
     {
       "id": "jason-fried-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Explaining why independence (no investors) is the foundational principle that enables everything else at 37signals",
+      "verified": true
     },
     {
       "id": "jason-fried-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Explaining his anti-planning philosophy - no long-term plans, only 6-week cycles",
+      "verified": true
     },
     {
       "id": "jason-fried-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Explaining why long-term planning is harmful - it creates obligations that lead to unhappiness",
+      "verified": true
     },
     {
       "id": "jason-fried-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Acknowledging they intentionally miss many growth opportunities (multiple pricing tiers, enterprise versions, etc.) and being okay with it",
+      "verified": true
     },
     {
       "id": "jason-fried-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "intuition",
         "discovery"
-      ]
+      ],
+      "context": "Explaining their approach to launches - no success metrics, just make it and see what happens",
+      "verified": true
     },
     {
       "id": "jason-fried-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "perfection",
         "intuition"
-      ]
+      ],
+      "context": "Explaining their product philosophy - pride in craft first, market success second",
+      "verified": true
     }
   ],
   "themes": [

@@ -1,5 +1,9 @@
 {
   "slug": "tobi-lutke",
+  "guest": "Tobi Lütke",
+  "episode_title": "Tobi Lütke's leadership playbook: First principles, infinite games, and maximizing human potential",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "tobi-lutke-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "chaos",
         "intuition"
-      ]
+      ],
+      "context": "Describing what drives him as a founder and why he rejects copying existing solutions",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "chaos",
         "velocity"
-      ]
+      ],
+      "context": "Explaining the 'Tobi tornado' phenomenon of rapidly killing projects when he realizes they won't work",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "chaos",
         "perfection"
-      ]
+      ],
+      "context": "Explaining his philosophy of maximizing human potential through high standards and direct feedback",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q004",
@@ -88,7 +98,9 @@
       "zones": [
         "intuition",
         "chaos"
-      ]
+      ],
+      "context": "Explaining why Shopify doesn't use OKRs and instead prioritizes unquantifiable things over metrics",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q005",
@@ -110,7 +122,9 @@
       "zones": [
         "intuition",
         "chaos"
-      ]
+      ],
+      "context": "Challenging conventional business aesthetics and why contrarian approaches often win",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q006",
@@ -132,7 +146,9 @@
       "zones": [
         "focus",
         "chaos"
-      ]
+      ],
+      "context": "Explaining why first principles thinking requires doing things differently from everyone else",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q007",
@@ -154,7 +170,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Describing Shopify's 100-year vision and how long-term thinking shapes decision-making",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q008",
@@ -176,7 +194,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "Explaining why Shopify doesn't maximize short-term monetization despite having pricing power",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q009",
@@ -198,7 +218,9 @@
       "zones": [
         "focus",
         "velocity"
-      ]
+      ],
+      "context": "Contrasting short-term tactical optimization with long-term strategic positioning",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q010",
@@ -220,7 +242,9 @@
       "zones": [
         "chaos",
         "data"
-      ]
+      ],
+      "context": "Explaining why Shopify core product team operates without KPIs despite being extremely data-informed",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q011",
@@ -242,7 +266,9 @@
       "zones": [
         "chaos",
         "data"
-      ]
+      ],
+      "context": "Explaining why Shopify went fully remote during COVID by re-running first principles analysis when foundational assumptions changed",
+      "verified": true
     },
     {
       "id": "tobi-lutke-q012",
@@ -264,7 +290,9 @@
       "zones": [
         "chaos",
         "discovery"
-      ]
+      ],
+      "context": "Describing how to disagree with him and why he values courage over intelligence",
+      "verified": true
     }
   ],
   "themes": [

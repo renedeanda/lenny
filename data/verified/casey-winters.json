@@ -1,5 +1,9 @@
 {
   "slug": "casey-winters",
+  "guest": "Casey Winters",
+  "episode_title": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+  "verification_date": "2026-01-24",
+  "verified_by": "claude-sonnet-4.5",
   "quotes": [
     {
       "id": "casey-winters-q001",
@@ -19,7 +23,9 @@
       ],
       "zones": [
         "alignment"
-      ]
+      ],
+      "context": "On the importance of proactive upward communication when facing challenges, rather than silently struggling and later blaming leadership for being disconnected.",
+      "verified": true
     },
     {
       "id": "casey-winters-q002",
@@ -40,7 +46,9 @@
       "zones": [
         "alignment",
         "focus"
-      ]
+      ],
+      "context": "On communicating effectively with executives by starting with company strategy and assumptions before diving into implementation details.",
+      "verified": true
     },
     {
       "id": "casey-winters-q003",
@@ -61,7 +69,9 @@
       "zones": [
         "alignment",
         "perfection"
-      ]
+      ],
+      "context": "On preparing for important meetings by role-playing different executive perspectives and anticipating their questions.",
+      "verified": true
     },
     {
       "id": "casey-winters-q004",
@@ -82,7 +92,9 @@
       "zones": [
         "perfection",
         "alignment"
-      ]
+      ],
+      "context": "On the depth of preparation required for high-stakes meetings with executives, emphasizing knowing the material inside-out rather than memorizing a script.",
+      "verified": true
     },
     {
       "id": "casey-winters-q005",
@@ -104,7 +116,9 @@
       "zones": [
         "perfection",
         "focus"
-      ]
+      ],
+      "context": "On solving the product complexity problem at Eventbrite by making advanced features discoverable but not intrusive, inspired by WhatsApp's approach.",
+      "verified": true
     },
     {
       "id": "casey-winters-q006",
@@ -126,7 +140,9 @@
       "zones": [
         "alignment",
         "perfection"
-      ]
+      ],
+      "context": "On justifying non-sexy product improvements like stability and performance by first getting peer leaders aligned before approaching executives.",
+      "verified": true
     },
     {
       "id": "casey-winters-q007",
@@ -148,7 +164,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "On shifting mindset from pure growth to protecting existing gains once you've achieved scale.",
+      "verified": true
     },
     {
       "id": "casey-winters-q008",
@@ -170,7 +188,9 @@
         "chaos",
         "discovery",
         "perfection"
-      ]
+      ],
+      "context": "On product-market fit as a constantly moving target that requires continuous iteration to maintain, not a one-time achievement.",
+      "verified": true
     },
     {
       "id": "casey-winters-q009",
@@ -193,7 +213,9 @@
       "zones": [
         "velocity",
         "focus"
-      ]
+      ],
+      "context": "On operations roles as a sign of inefficiency, arguing teams should invest in automation and process instead of scaling ops headcount.",
+      "verified": true
     },
     {
       "id": "casey-winters-q010",
@@ -216,7 +238,9 @@
         "intuition",
         "discovery",
         "velocity"
-      ]
+      ],
+      "context": "On the spectrum of product managers from strategic innovators to tactical executors, and the challenge of recruiting balanced PMs who excel at both.",
+      "verified": true
     },
     {
       "id": "casey-winters-q011",
@@ -238,7 +262,9 @@
       "zones": [
         "focus",
         "alignment"
-      ]
+      ],
+      "context": "On strategy as the primary skill gap preventing PMs from advancing to leadership roles, emphasizing the ability to independently drive strategic decision-making.",
+      "verified": true
     },
     {
       "id": "casey-winters-q012",
@@ -260,7 +286,9 @@
       "zones": [
         "velocity",
         "focus"
-      ]
+      ],
+      "context": "On distinguishing between early-stage growth tactics (kindle) and scalable growth engines (fire), with kindle strategies serving solely to unlock fire strategies.",
+      "verified": true
     }
   ],
   "themes": [

@@ -1,5 +1,9 @@
 {
   "slug": "april-dunford-20",
+  "guest": "April Dunford 2.0",
+  "episode_title": "A step-by-step guide to crafting a sales pitch that wins | April Dunford (author of Sales Pitch)",
+  "verification_date": "2026-01-22",
+  "verified_by": "claude-agent",
   "quotes": [
     {
       "id": "april-dunford-q001",
@@ -21,7 +25,9 @@
       "zones": [
         "discovery",
         "data"
-      ]
+      ],
+      "context": "Explaining why B2B buyers delay decisions - not because status quo is better, but because they're overwhelmed and afraid of making the wrong choice",
+      "verified": true
     },
     {
       "id": "april-dunford-q002",
@@ -43,7 +49,9 @@
       "zones": [
         "discovery",
         "alignment"
-      ]
+      ],
+      "context": "Contrasting what buyers actually need versus what sales teams typically provide",
+      "verified": true
     },
     {
       "id": "april-dunford-q003",
@@ -65,7 +73,9 @@
       "zones": [
         "discovery",
         "alignment"
-      ]
+      ],
+      "context": "Describing the shift from product-centric to buyer-centric sales approach",
+      "verified": true
     },
     {
       "id": "april-dunford-q004",
@@ -87,7 +97,9 @@
       "zones": [
         "data",
         "discovery"
-      ]
+      ],
+      "context": "Citing research from The JOLT Effect that studied 2.5 million sales calls",
+      "verified": true
     },
     {
       "id": "april-dunford-q005",
@@ -109,7 +121,9 @@
       "zones": [
         "discovery",
         "alignment"
-      ]
+      ],
+      "context": "Discussing Jobs To Be Done framework applied to B2B software buying",
+      "verified": true
     },
     {
       "id": "april-dunford-q006",
@@ -131,7 +145,9 @@
       "zones": [
         "alignment",
         "focus"
-      ]
+      ],
+      "context": "Explaining B2B buying complexity with 5-7 stakeholders involved",
+      "verified": true
     },
     {
       "id": "april-dunford-q007",
@@ -153,7 +169,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Defining the core concept that drives effective positioning and sales pitches",
+      "verified": true
     },
     {
       "id": "april-dunford-q008",
@@ -175,7 +193,9 @@
       "zones": [
         "focus",
         "perfection"
-      ]
+      ],
+      "context": "Describing the ideal sales posture when discussing competitors",
+      "verified": true
     },
     {
       "id": "april-dunford-q009",
@@ -197,7 +217,9 @@
       "zones": [
         "focus",
         "data"
-      ]
+      ],
+      "context": "Pushing back on the 'category creation or bust' narrative",
+      "verified": true
     },
     {
       "id": "april-dunford-q010",
@@ -219,7 +241,9 @@
       "zones": [
         "data",
         "chaos"
-      ]
+      ],
+      "context": "Challenging the myth that category creators always dominate their markets",
+      "verified": true
     },
     {
       "id": "april-dunford-q011",
@@ -241,7 +265,9 @@
       "zones": [
         "discovery",
         "perfection"
-      ]
+      ],
+      "context": "Diagnosing the core problem with most B2B sales pitches",
+      "verified": true
     },
     {
       "id": "april-dunford-q012",
@@ -263,7 +289,9 @@
       "zones": [
         "data",
         "focus"
-      ]
+      ],
+      "context": "Sharing the concrete business impact of improving sales positioning and pitch structure",
+      "verified": true
     }
   ],
   "themes": [

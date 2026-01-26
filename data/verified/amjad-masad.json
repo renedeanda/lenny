@@ -1,5 +1,9 @@
 {
   "slug": "amjad-masad",
+  "guest": "Amjad Masad",
+  "episode_title": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+  "verification_date": "2026-01-20",
+  "verified_by": "warp-agent",
   "quotes": [
     {
       "id": "amjad-masad-q001",
@@ -22,7 +26,8 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q002",
@@ -46,7 +51,8 @@
         "chaos",
         "intuition",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q003",
@@ -68,7 +74,8 @@
       "zones": [
         "discovery",
         "focus"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q004",
@@ -90,7 +97,8 @@
       "zones": [
         "chaos",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q005",
@@ -112,7 +120,8 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q006",
@@ -134,7 +143,8 @@
       "zones": [
         "velocity",
         "chaos"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q007",
@@ -156,7 +166,8 @@
       "zones": [
         "alignment",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q008",
@@ -180,7 +191,8 @@
         "chaos",
         "velocity",
         "intuition"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q009",
@@ -203,7 +215,8 @@
       "zones": [
         "velocity",
         "discovery"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q010",
@@ -226,7 +239,8 @@
       "zones": [
         "chaos",
         "velocity"
-      ]
+      ],
+      "verified": true
     },
     {
       "id": "amjad-masad-q011",
@@ -248,7 +262,8 @@
       "zones": [
         "chaos",
         "alignment"
-      ]
+      ],
+      "verified": true
     }
   ],
   "themes": [
