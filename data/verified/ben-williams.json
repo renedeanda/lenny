@@ -1,0 +1,208 @@
+{
+  "slug": "ben-williams",
+  "quotes": [
+    {
+      "id": "ben-williams-q001",
+      "speaker": "Ben Williams",
+      "text": "PLG or bottom up and security, these were never words that were known to have been spoken together in a single sentence. Security has always been a centralized function. Security programs were historically about audit and policing and enforcement versus developer enablement.",
+      "timestamp": "00:09:53",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 82,
+        "lineEnd": 83
+      },
+      "themes": ["product-led-growth", "security", "market-disruption"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "ben-williams-q002",
+      "speaker": "Ben Williams",
+      "text": "They started with a really narrow early focus. It was a single persona, single context, single use case - developers building applications using Node.js who wanted to ensure that the open source dependencies they were pulling into their apps were secure.",
+      "timestamp": "00:11:35",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 86
+      },
+      "themes": ["focus", "product-market-fit", "early-stage"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "ben-williams-q003",
+      "speaker": "Ben Williams",
+      "text": "A JavaScript developer just won't care if you support Golang or Rust, but will absolutely care if a key feature like automated package upgrades isn't available for their ecosystem. The key was not to go too wide too early.",
+      "timestamp": "00:18:04",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 120
+      },
+      "themes": ["depth-first", "product-market-fit", "focus"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "ben-williams-q004",
+      "speaker": "Ben Williams",
+      "text": "We create Snyk-branded pull requests to fix vulnerabilities. Other devs in the repo see and interact with those PRs, some follow links to Snyk, create accounts, connect their own repos, and the loop continues. A company generated, company distributed content loop - really powerful because it's both acquisition and engagement.",
+      "timestamp": "00:21:28",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 127
+      },
+      "themes": ["growth-loops", "virality", "product-led-growth"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "ben-williams-q005",
+      "speaker": "Ben Williams",
+      "text": "It was clear there was a lot of work still to do. We learned the importance of catering for broader governance needs of the enterprise buyer. That meant building table stakes features around governance at scale - reporting, robust user management - things companies of a certain size expected.",
+      "timestamp": "00:28:07",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 167,
+        "lineEnd": 169
+      },
+      "themes": ["enterprise", "monetization", "product-strategy"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "ben-williams-q006",
+      "speaker": "Ben Williams",
+      "text": "Meeting developers where they are, integrating with their tools, taking security to them instead of pulling them out of their workflows. Flow is just this incredibly important concept for developers. You want to strive to keep them in that flow for as long as possible.",
+      "timestamp": "00:32:44",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 191,
+        "lineEnd": 193
+      },
+      "themes": ["developer-experience", "product-design", "flow"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "ben-williams-q007",
+      "speaker": "Ben Williams",
+      "text": "Every growth team has engineers, an engineering manager, a PM, a designer, a growth marketer, and decision science support. Inclusion of growth marketers in the product teams is not all that common - I personally think there's a lot of opportunity being missed there.",
+      "timestamp": "00:39:32",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["growth-teams", "org-design", "cross-functional"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "ben-williams-q008",
+      "speaker": "Ben Williams",
+      "text": "The devs that really thrive in a growth context are motivated by moving quickly, iterating to create measurable impact. They're not attached to their work. They embrace imperfection as part of the process. They happily discard their code, their ideas even.",
+      "timestamp": "00:48:17",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 269,
+        "lineEnd": 271
+      },
+      "themes": ["growth-teams", "hiring", "mindset"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "ben-williams-q009",
+      "speaker": "Ben Williams",
+      "text": "Being able to identify the various micro and macro loops, how they're all connected, being able to document them in a qualitative model to communicate a shared understanding of how you grow - it's really powerful. You're never going to have a shortage of ideas in a high performing growth team.",
+      "timestamp": "00:58:15",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 338,
+        "lineEnd": 341
+      },
+      "themes": ["growth-strategy", "growth-loops", "frameworks"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "ben-williams-q010",
+      "speaker": "Ben Williams",
+      "text": "Ultimately you're there to create impact. But learnings is the means. If you try and focus on impact itself you might struggle. If you focus on the things you need in terms of learnings to take you step by step, that will pave the path to creating impact.",
+      "timestamp": "00:56:17",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 327
+      },
+      "themes": ["experimentation", "learning", "growth"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "ben-williams-q011",
+      "speaker": "Ben Williams",
+      "text": "We invested in tooling and processes for building out event tracking plans. Now we test conformance to schema of instrumented code in our CI processes. We have absolute confidence in the data. Getting to a point of trustworthy behavioral data was absolutely key.",
+      "timestamp": "01:03:26",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 362,
+        "lineEnd": 366
+      },
+      "themes": ["data", "analytics", "infrastructure"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "ben-williams-q012",
+      "speaker": "Ben Williams",
+      "text": "If I had to pick one meeting as the most important in the growth team, it would be the impact and learnings review. Teams continuously document learnings from data exploration, experimentation, user research. Most of the meeting is spent discussing learnings, their implications, how they can be leveraged.",
+      "timestamp": "01:07:43",
+      "source": {
+        "slug": "ben-williams",
+        "path": "episodes/ben-williams/transcript.md",
+        "lineStart": 383,
+        "lineEnd": 388
+      },
+      "themes": ["growth-process", "learning", "meetings"],
+      "zones": ["alignment", "discovery"]
+    }
+  ],
+  "themes": ["product-led-growth", "developer-tools", "growth-teams", "growth-loops", "security", "enterprise", "experimentation", "data"],
+  "takeaways": [
+    "Go depth-first before breadth - a JavaScript developer won't care if you support Golang, but will care deeply if key features are missing for their ecosystem.",
+    "Company-generated content loops can be both acquisition and engagement loops - Snyk's automated fix PRs on GitHub brought new users while keeping existing ones active.",
+    "Embed growth marketers in product teams - they bring a broader palette of ideas and can execute lightweight experiments without engineering resources.",
+    "Growth engineers thrive when they embrace imperfection, happily discard code, and aren't attached to their work - not everyone fits this profile despite being talented.",
+    "Focus on learnings not impact directly - learnings pave the path to impact; if you focus on impact alone you might struggle."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.25,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.00
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ben-williams-q010",
+      "why": "Focus on learnings not impact - counterintuitive advice that suggests obsessing over outcomes hurts your ability to achieve them",
+      "related_zones": ["discovery", "data"]
+    },
+    {
+      "quoteId": "ben-williams-q003",
+      "why": "Depth-first before breadth - resist the temptation to expand even when the bigger market is clearly there",
+      "related_zones": ["focus", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-led-growth", "growth-teams", "developer-tools", "snyk"]
+  }
+}

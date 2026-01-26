@@ -1,0 +1,208 @@
+{
+  "slug": "andy-raskin",
+  "quotes": [
+    {
+      "id": "andy-raskin-q001",
+      "speaker": "Andy Raskin",
+      "text": "The way I learned how to pitch in business school, and I think the way most people did is what I call the arrogant doctor. So you have a problem, a pain, I have a solution, a treatment, and I'm going to tell you why it's better than all the other treatments. And the structure that I read about in these movies was different. Every movie starts with some kind of shift in the world.",
+      "timestamp": "00:08:54",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 119,
+        "lineEnd": 121
+      },
+      "themes": ["pitching", "storytelling", "strategy"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "andy-raskin-q002",
+      "speaker": "Andy Raskin",
+      "text": "This structure really is about defining a movement and that's very different from, 'Hey, I'm going to solve your problem.' So Benioff comes in and he says, 'Hey, software is over and there's this new world called the cloud, a new game, new rules. That's the new way to win.'",
+      "timestamp": "00:09:24",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": ["positioning", "narrative", "movements"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "andy-raskin-q003",
+      "speaker": "Andy Raskin",
+      "text": "What I think is really interesting is this story has a certain structure. I call this shift the shift from the old game to the new game. The archetypal example in the business world is what Benioff did with Salesforce. Instead of just saying we're better than Siebel, they said all those others are part of that old game.",
+      "timestamp": "00:11:25",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 132
+      },
+      "themes": ["positioning", "competitive-strategy", "narrative"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "andy-raskin-q004",
+      "speaker": "Andy Raskin",
+      "text": "What I call naming the stakes. Zuora is saying, 'Hey, look at all the new winners, Airbnb, Box, they're already doing this subscription thing.' They show this scary stat about the longevity of Fortune 500 companies getting smaller. Basically they make this case that companies are dying, the ones that are winning are doing this.",
+      "timestamp": "00:20:59",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 194
+      },
+      "themes": ["storytelling", "urgency", "positioning"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "andy-raskin-q005",
+      "speaker": "Andy Raskin",
+      "text": "How does George Lucas change Luke's mind? He basically kills the aunt and uncle. Now it's pretty clear they're coming for Luke. Now the stakes are life and death. The prospect doesn't see the future as sort of okay. They see it as split between a very negative outcome and a potentially very positive outcome.",
+      "timestamp": "00:22:27",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 201
+      },
+      "themes": ["storytelling", "emotional-appeal", "pitching"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "andy-raskin-q006",
+      "speaker": "Andy Raskin",
+      "text": "Airbnb for a while had this one, live anywhere. If you think about it, this buyer mission statement, this rallying cry, I think of it really as the mission of the company. What is the mission of Airbnb other than to help people live there if they're going to be customer focused?",
+      "timestamp": "00:24:25",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 209,
+        "lineEnd": 216
+      },
+      "themes": ["mission", "positioning", "product-strategy"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "andy-raskin-q007",
+      "speaker": "Andy Raskin",
+      "text": "I think about obstacles because they sound like problems. This is what people would normally say, 'Oh, these are the problems we solve.' But by setting up this story thing first we've repackaged them as obstacles to a new goal state that we've already positioned as life and death. So they take on this much more emotional meaning.",
+      "timestamp": "00:26:11",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 222
+      },
+      "themes": ["positioning", "storytelling", "sales"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "andy-raskin-q008",
+      "speaker": "Andy Raskin",
+      "text": "Amit Bendov told me, 'Yeah, you know what? In hindsight we probably could have called it strawberry intelligence. It didn't matter. It was really the story that sort of mattered.' I guess I feel like by calling it category and category name, we're just focusing on those three words so much when really we should focus on the story.",
+      "timestamp": "00:42:20",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 336
+      },
+      "themes": ["category-creation", "narrative", "positioning"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "andy-raskin-q009",
+      "speaker": "Andy Raskin",
+      "text": "Once we have this story then everything in marketing can be all about this story. With Zuora, maybe 80% of the content is not 'Hey, let me tell you about how Zuora is so great.' It's 'Here's how music companies are embracing subscriptions. Here's how luxury goods companies are embracing subscriptions.' It's less salesy.",
+      "timestamp": "00:37:21",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 291,
+        "lineEnd": 294
+      },
+      "themes": ["content-marketing", "narrative", "strategy"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "andy-raskin-q010",
+      "speaker": "Andy Raskin",
+      "text": "Another thing I always hear is it becomes the strategic north star for the product. One CEO said, 'We are constantly getting feature requests through sales, through customer success. And we had no way to decide what we take on, what don't we take on. This has clearly become our bar.'",
+      "timestamp": "00:37:51",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 296,
+        "lineEnd": 298
+      },
+      "themes": ["product-strategy", "prioritization", "roadmap"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "andy-raskin-q011",
+      "speaker": "Andy Raskin",
+      "text": "I am so against templates. Every team I work with, it's different. It's not the same number of slides. Sometimes we can lay out this shift in one slide, sometimes it just feels better if it's a few. Sometimes there's no slides. These are principles for building it, not any prescribed formula.",
+      "timestamp": "00:50:41",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 377,
+        "lineEnd": 378
+      },
+      "themes": ["pitching", "flexibility", "principles"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "andy-raskin-q012",
+      "speaker": "Andy Raskin",
+      "text": "Make the title the takeaway of the slide so that the person looking at it has to do zero work to take away. Replace 'The team' with 'Our team is veterans of whatever industry.' Every single slide it's a takeaway, not a label. It'll make everything flow a lot better.",
+      "timestamp": "01:00:41",
+      "source": {
+        "slug": "andy-raskin",
+        "path": "episodes/andy-raskin/transcript.md",
+        "lineStart": 482,
+        "lineEnd": 483
+      },
+      "themes": ["presentations", "communication", "pitching"],
+      "zones": ["perfection", "velocity"]
+    }
+  ],
+  "themes": ["strategic-narrative", "pitching", "storytelling", "positioning", "movements", "category-creation", "content-marketing"],
+  "takeaways": [
+    "Stop pitching like an 'arrogant doctor' (problem-solution-why-we're-better) - instead define a movement from old game to new game that makes your solution inevitable.",
+    "Name the stakes by showing winners already playing the new game - this creates life-or-death urgency that transforms reluctant buyers into committed believers.",
+    "Your strategic narrative becomes a north star for product decisions - when feature requests come in, you can evaluate whether they help achieve the new game's objective.",
+    "Category names matter less than the story - Gong's CEO said they could have called it 'strawberry intelligence' and it would have worked because the narrative was strong.",
+    "Turn problems into obstacles by framing them within your movement story - this repackages features as heroic tools rather than boring solutions."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.35,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "andy-raskin-q001",
+      "why": "The 'arrogant doctor' pitch (problem-solution) that everyone teaches is fundamentally wrong - movements beat features",
+      "related_zones": ["intuition", "perfection"]
+    },
+    {
+      "quoteId": "andy-raskin-q008",
+      "why": "Category names are overrated - you could call it 'strawberry intelligence' and it wouldn't matter if the story is right",
+      "related_zones": ["intuition", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "consultant",
+    "company_stage": "advisory",
+    "primary_topics": ["strategic-narrative", "pitching", "positioning", "sales"]
+  }
+}

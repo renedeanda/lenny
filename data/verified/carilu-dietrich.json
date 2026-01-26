@@ -1,0 +1,208 @@
+{
+  "slug": "carilu-dietrich",
+  "quotes": [
+    {
+      "id": "carilu-dietrich-q001",
+      "speaker": "Carilu Dietrich",
+      "text": "Some of the most important aspects of getting to the executive suite are working harder, learning more, pushing yourself, taking on more responsibilities and opportunities, maybe even in the white space, that aren't your job or aren't in your regular time.",
+      "timestamp": "00:05:14",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 75,
+        "lineEnd": 78
+      },
+      "themes": ["career", "leadership", "growth"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "carilu-dietrich-q002",
+      "speaker": "Carilu Dietrich",
+      "text": "There's no shortcuts. Tomasz Tunguz would wake up 5:00 or 6:00 AM every morning and write three to four blogs a week for 10 years. That is self-discipline and insight and drive. So yeah, no shortcuts.",
+      "timestamp": "00:07:43",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 99
+      },
+      "themes": ["discipline", "career", "consistency"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "carilu-dietrich-q003",
+      "speaker": "Carilu Dietrich",
+      "text": "A guy at the Tesla factory said, 'After work every night, I'd go to each part of the plant and try to figure out what they were working on and what the challenges and opportunities were. That's how I moved up.' It's just understanding how the whole thing works together.",
+      "timestamp": "00:09:00",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 108
+      },
+      "themes": ["career", "systems-thinking", "learning"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "carilu-dietrich-q004",
+      "speaker": "Carilu Dietrich",
+      "text": "Your career and your ability to transcend is fairly dependent on the momentum of your company. I was a leader at Oracle for five years, and my team grew from five to seven. I was a leader at Atlassian for four years, and my team grew from 15 to 100. If you pick the right company with the right momentum, you have a better chance.",
+      "timestamp": "00:09:49",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 117
+      },
+      "themes": ["career", "company-selection", "growth"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "carilu-dietrich-q005",
+      "speaker": "Carilu Dietrich",
+      "text": "The best executives I know have had down periods in their careers, where they were out of work for a while, where they were fired by a CEO. And what they have in common is endurance. They're just back in the ring. It's also important not to settle on a crappy job or a crappy company.",
+      "timestamp": "00:16:55",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 201
+      },
+      "themes": ["resilience", "career", "leadership"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "carilu-dietrich-q006",
+      "speaker": "Carilu Dietrich",
+      "text": "There's this book called The Millionaire Next Door, which talks about how the very best antique store makes one or 2% profit. And the very worst oil and gas company makes 35% profit. Some of the worst software companies make 65% profit. So picking your industry will propel your career.",
+      "timestamp": "00:18:05",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 213
+      },
+      "themes": ["career", "strategy", "industry-selection"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "carilu-dietrich-q007",
+      "speaker": "Carilu Dietrich",
+      "text": "Your product has to really be fantastic. Oracle spent a ton of money, and people still didn't like us because they had poor experiences with the salespeople, or they didn't like Larry, or the product had kind of languished since it had been acquired. You really need to be thoughtful about spending consistently over a longer period of time.",
+      "timestamp": "00:21:14",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 240
+      },
+      "themes": ["advertising", "product-quality", "brand"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "carilu-dietrich-q008",
+      "speaker": "Carilu Dietrich",
+      "text": "In order to get hypergrowth, you have to have organic, inbound, and viral word of mouth. You can't pay enough to grow at those rates and have a viable company. The biggest thing is an amazing product that people love to use. ChatGPT is the most hypergrowth product we've seen in history because people are so excited to use it.",
+      "timestamp": "00:25:08",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 274
+      },
+      "themes": ["hypergrowth", "word-of-mouth", "product-quality"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "carilu-dietrich-q009",
+      "speaker": "Carilu Dietrich",
+      "text": "Hypergrowth companies go through the stages of growth that would take other companies five years or 10 years. They're going from 10 to 50, from 50 to 100, from 100 to 200. They're jumping. So they really need to keep hiring 2X and 3X leaders who have seen the next stage of growth, because it's going to be here before you know it.",
+      "timestamp": "00:27:12",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 285,
+        "lineEnd": 288
+      },
+      "themes": ["hypergrowth", "hiring", "leadership"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "carilu-dietrich-q010",
+      "speaker": "Carilu Dietrich",
+      "text": "Getting to virality and getting the hypergrowth is not a magic bullet. It's consistency, customer obsession, incremental improvements across all parts of the business. Founders just need to double down on having a product that's differentiated and does something that their customers really love.",
+      "timestamp": "00:29:49",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 299,
+        "lineEnd": 300
+      },
+      "themes": ["growth", "product-quality", "consistency"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "carilu-dietrich-q011",
+      "speaker": "Carilu Dietrich",
+      "text": "The founders were going through this experiment that turned out to be really successful, where they took all the money they would've spent on a sales org and plowed it into engineering and product. We spend way less on sales and marketing and took all that money and put it into product to make a product that really sold itself.",
+      "timestamp": "00:36:28",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 350,
+        "lineEnd": 358
+      },
+      "themes": ["product-led-growth", "atlassian", "strategy"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "carilu-dietrich-q012",
+      "speaker": "Carilu Dietrich",
+      "text": "For product led growth companies, bundling is not a great land strategy. At Atlassian, we experimented with different bundled lands and it really slowed down the product led growth motion. If you have to evaluate multiple products to purchase something, it's not a fast and easy online self-service buy.",
+      "timestamp": "00:53:57",
+      "source": {
+        "slug": "carilu-dietrich",
+        "path": "episodes/carilu-dietrich/transcript.md",
+        "lineStart": 474,
+        "lineEnd": 479
+      },
+      "themes": ["product-led-growth", "bundling", "strategy"],
+      "zones": ["velocity", "data"]
+    }
+  ],
+  "themes": ["hypergrowth", "career-advice", "product-led-growth", "atlassian", "word-of-mouth", "bundling", "resilience"],
+  "takeaways": [
+    "Hypergrowth requires organic word-of-mouth - you can't pay enough to grow at hypergrowth rates with a viable business; the product must be so good people naturally share it.",
+    "Your career growth depends on company momentum - at Oracle team grew from 5 to 7 in five years; at Atlassian it grew from 15 to 100 in four years. Pick the right rocket ship.",
+    "Hire 2X and 3X leaders ahead of need - hypergrowth companies compress years of growth into months, so you need people who've already seen what the next stage looks like.",
+    "Bundling kills product-led growth velocity - when users have to evaluate multiple products, the fast self-service motion breaks down. Land with a single product.",
+    "Endurance is the common trait of successful executives - the best leaders have had down periods and been fired; what distinguishes them is getting back in the ring."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "carilu-dietrich-q011",
+      "why": "Take all sales/marketing money and plow it into product - Atlassian's radical bet that a great product can sell itself",
+      "related_zones": ["discovery", "focus"]
+    },
+    {
+      "quoteId": "carilu-dietrich-q012",
+      "why": "Bundling kills PLG velocity - counterintuitive when bundling seems like it should increase value",
+      "related_zones": ["velocity", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "advisor",
+    "primary_topics": ["hypergrowth", "marketing", "product-led-growth", "career"]
+  }
+}

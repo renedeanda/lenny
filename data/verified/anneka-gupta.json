@@ -1,0 +1,208 @@
+{
+  "slug": "anneka-gupta",
+  "quotes": [
+    {
+      "id": "anneka-gupta-q001",
+      "speaker": "Anneka Gupta",
+      "text": "When people say 'I want someone that's strategic,' they're really saying 'I want someone that can articulate a compelling and simple why behind decisions.' The second piece is 'I want someone who will champion and be a change agent for things that are hard but best for long-term interests.' If you have one without the other, people won't see you as strategic.",
+      "timestamp": "00:18:57",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 137
+      },
+      "themes": ["strategy", "leadership", "communication"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "anneka-gupta-q002",
+      "speaker": "Anneka Gupta",
+      "text": "Summarization, even though I may not be adding a new idea, people actually view that as strategy. They view effective summarization as strategy. Taking ideas and making them slightly better, slightly better - when you think from an outside-in perspective of customer problems, you start to get to big ideas that can really be change agent ideas.",
+      "timestamp": "00:21:34",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 149
+      },
+      "themes": ["strategy", "communication", "synthesis"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "anneka-gupta-q003",
+      "speaker": "Anneka Gupta",
+      "text": "Having a founder that can effectively operate in founder mode means I can go have a conversation with the CEO and say 'We have this huge opportunity and these things aren't working.' Activating that founder to push the initiative that I think is best by making them an ally.",
+      "timestamp": "00:11:23",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 97
+      },
+      "themes": ["founder-mode", "leadership", "influence"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "anneka-gupta-q004",
+      "speaker": "Anneka Gupta",
+      "text": "Understanding the details of the business, asking questions about what's working, what's not, financial goals, how decisions are made - getting into that level of depth is super important. Then you can decide as a leader what you want to do with that information. A lot of information I collect, I don't do anything with at a point in time.",
+      "timestamp": "00:15:20",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 112
+      },
+      "themes": ["founder-mode", "details", "leadership"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "anneka-gupta-q005",
+      "speaker": "Anneka Gupta",
+      "text": "Be a historian. When I joined Rubrik, I tried to understand what happened in the past. What products weren't successful? Why? What was the perception of different people? I constructed this past knowledge so I could better understand how to make decisions going forward and learn from mistakes I didn't personally live through.",
+      "timestamp": "00:28:07",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 203,
+        "lineEnd": 209
+      },
+      "themes": ["decision-making", "learning", "history"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "anneka-gupta-q006",
+      "speaker": "Anneka Gupta",
+      "text": "It's not about making the right decision, it's about making the decision. Once you commit to a decision, you learn more post committing than in hypothetical analysis. As long as your decision is 70% right, you can iterate on that 20-30%. If you don't commit, you don't get any new high fidelity information.",
+      "timestamp": "00:30:42",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 218
+      },
+      "themes": ["decision-making", "speed", "iteration"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "anneka-gupta-q007",
+      "speaker": "Anneka Gupta",
+      "text": "I reward the learning versus the outcome. If we're constantly learning, it's okay if we make bad decisions as long as we learn from them. Even in making a bad decision, we learned something about our customers or business that we can use in another context.",
+      "timestamp": "00:32:19",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 227
+      },
+      "themes": ["culture", "learning", "experimentation"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "anneka-gupta-q008",
+      "speaker": "Anneka Gupta",
+      "text": "When I hit a difficult personality, I try to understand what drives that person. What do they really care about? If I need something from them, what can I do to motivate them to find what I need important? Like building a product - they have this desire, how do I get them to care about what I want to achieve?",
+      "timestamp": "00:38:06",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 249
+      },
+      "themes": ["influence", "difficult-people", "leadership"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "anneka-gupta-q009",
+      "speaker": "Anneka Gupta",
+      "text": "Instead of feeling anger or frustration, I ask myself what can I learn from this person? Everyone has something they can teach you - their communication style, how they marshal people together, their visionary ideas. Studying that person and being curious, then genuinely feeling gratitude for what I got from the situation.",
+      "timestamp": "00:39:08",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 251
+      },
+      "themes": ["difficult-people", "learning", "gratitude"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "anneka-gupta-q010",
+      "speaker": "Anneka Gupta",
+      "text": "I care so much about you and I'm giving you this feedback because I want you to be successful. You do all of that setup explicitly - you actually say that and show it in your body language. That makes the other person much more receptive to hearing whatever you have to say.",
+      "timestamp": "00:47:57",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 291
+      },
+      "themes": ["feedback", "leadership", "communication"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "anneka-gupta-q011",
+      "speaker": "Anneka Gupta",
+      "text": "I frame things as 'this is how you're being perceived' rather than 'you are doing X.' You're giving them the benefit of the doubt that how they're trying to show up is different than how people perceive them. Then you can have a conversation about what they can do to change that perception.",
+      "timestamp": "00:50:04",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 302
+      },
+      "themes": ["feedback", "communication", "perception"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "anneka-gupta-q012",
+      "speaker": "Anneka Gupta",
+      "text": "Journaling is very powerful. When I have a lot of thoughts going through my head, especially negative thoughts, putting them on paper helps me break down what's abstract. I realize 'this is something I feel but the why behind it is irrational, let me let this go.' It's like doing cognitive behavioral therapy on yourself.",
+      "timestamp": "01:02:20",
+      "source": {
+        "slug": "anneka-gupta",
+        "path": "episodes/anneka-gupta/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 377
+      },
+      "themes": ["mindset", "self-awareness", "mental-health"],
+      "zones": ["intuition", "focus"]
+    }
+  ],
+  "themes": ["strategy", "founder-mode", "decision-making", "feedback", "difficult-people", "leadership", "mindset"],
+  "takeaways": [
+    "Being strategic means two things: articulating a compelling why behind decisions, AND championing hard changes that are best for the long term - having one without the other doesn't count.",
+    "Summarization is strategy - pausing to synthesize what's been said helps people feel heard, moves conversations forward, and makes you look strategic even without new ideas.",
+    "It's not about making the right decision, it's about making the decision - you learn more after committing than in hypothetical analysis, and 70% right is enough to iterate from.",
+    "When giving hard feedback, explicitly say 'I care about you and want you to succeed' - don't assume they know it; frame issues as perceptions to give benefit of the doubt.",
+    "With difficult personalities, ask what you can learn from them - studying their strengths and feeling genuine gratitude shifts frustration into an abundant mindset."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.20,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "anneka-gupta-q006",
+      "why": "Making the decision matters more than making the right decision - commit at 70% confidence because you learn more after committing",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "anneka-gupta-q009",
+      "why": "Feel gratitude for difficult people - instead of frustration, study what you can learn from them and be genuinely thankful",
+      "related_zones": ["discovery", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["strategy", "founder-mode", "feedback", "leadership"]
+  }
+}

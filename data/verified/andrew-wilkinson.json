@@ -1,0 +1,208 @@
+{
+  "slug": "andrew-wilkinson",
+  "quotes": [
+    {
+      "id": "andrew-wilkinson-q001",
+      "speaker": "Andrew Wilkinson",
+      "text": "Charlie Munger says, 'Fish where the fish are.' If you see a large pond with a whole bunch of fishermen elbowing each other out of the way, you actually want to walk off into the forest and find a small fishing hole with lots of fish and very little competition. Competition equals lower margin.",
+      "timestamp": "00:06:26",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 88,
+        "lineEnd": 91
+      },
+      "themes": ["strategy", "competition", "market-selection"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q002",
+      "speaker": "Andrew Wilkinson",
+      "text": "You don't want to walk into the gym on day one and try to deadlift 300 pounds. When someone comes to me as a first time entrepreneur and they say, 'I'm going to make the next great AI company,' I think that is the equivalent. You want to take the baby weights and start slowly building your muscle.",
+      "timestamp": "00:07:30",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 100
+      },
+      "themes": ["entrepreneurship", "starting-small", "learning"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q003",
+      "speaker": "Andrew Wilkinson",
+      "text": "There's a big difference between a business and a job. If the business can get big enough where you can have employees, you can just focus on sales or digital marketing or whatever aspect of the business you love. Lean into what I call lazy leadership - how do I get away from things I hate as quickly as possible?",
+      "timestamp": "00:10:47",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 112
+      },
+      "themes": ["entrepreneurship", "delegation", "scaling"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q004",
+      "speaker": "Andrew Wilkinson",
+      "text": "I started Flow, basically Asana before Asana. I made the mistake so many entrepreneurs make - going after an industry everybody goes after. I ended up losing $10 million trying to compete with venture-backed businesses while bootstrapping. It was like Fiji deciding to invade the United States.",
+      "timestamp": "00:21:00",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 154,
+        "lineEnd": 157
+      },
+      "themes": ["competition", "learning-from-failure", "strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q005",
+      "speaker": "Andrew Wilkinson",
+      "text": "It's just not true that a bootstrap business can't get huge. We bootstrapped the entire business and now across all our companies we do almost $300 million in revenue. The only difference between what we do and what a VC does is the level of tolerance for burning money on fire.",
+      "timestamp": "00:26:03",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 190
+      },
+      "themes": ["bootstrapping", "venture-capital", "growth"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q006",
+      "speaker": "Andrew Wilkinson",
+      "text": "When I'm buying a business, I'm looking for something I can't mess up. Warren Buffett would call it a moat - a brand like Coca-Cola that gives you pricing power, or network effects where a community has gotten so big that people don't want to go elsewhere. If someone else wants to compete with Letterboxd, why would someone go when all their friends are already there?",
+      "timestamp": "00:33:31",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 216,
+        "lineEnd": 226
+      },
+      "themes": ["moats", "investing", "network-effects"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q007",
+      "speaker": "Andrew Wilkinson",
+      "text": "My business partner says, 'There are no problems. There is only people problems.' As long as I'm surrounded by great smart people, I feel fine. But when we have a bad actor, a psycho or narcissist, all bets are off. I spend 20% of my time just filtering people carefully and ensuring we work with people we enjoy.",
+      "timestamp": "00:37:15",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 253
+      },
+      "themes": ["hiring", "people", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q008",
+      "speaker": "Andrew Wilkinson",
+      "text": "With Lindy, I've automated my email. The AI decides if I even need to see it, labels things time-sensitive, and for simple decisions like 'Want to get lunch?' it emails me privately with multiple choice options. I just say 'four' and it'll email you as me. It's replaced my full-time assistant working on email.",
+      "timestamp": "00:44:10",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 316
+      },
+      "themes": ["ai", "automation", "productivity"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "andrew-wilkinson-q009",
+      "speaker": "Andrew Wilkinson",
+      "text": "We are in the Palm Treo phase of AI. If it was accessible to everybody where you could just open ChatGPT and say 'I run a business, can you help me?' and it starts asking questions and becomes a digital employee - that's the iPhone moment we're going to have in the next five years.",
+      "timestamp": "00:56:14",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 419,
+        "lineEnd": 423
+      },
+      "themes": ["ai", "future-of-work", "technology"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "andrew-wilkinson-q010",
+      "speaker": "Andrew Wilkinson",
+      "text": "I met this guy worth $5 billion, and he goes, 'Jeff Bezos is just so fucking rich.' I asked what Bezos can do that he can't. He said, 'He can buy a super yacht.' We're all just comparing ourselves to our peers. Whatever our peers have that we don't, we feel hard done by. That's the scary reality.",
+      "timestamp": "01:08:04",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 478,
+        "lineEnd": 480
+      },
+      "themes": ["happiness", "money", "perspective"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "andrew-wilkinson-q011",
+      "speaker": "Andrew Wilkinson",
+      "text": "I reframed money so that 90% goes into my philanthropic foundation and gets given away. So when I think about working hard or an investment going well, the win isn't for me. The win is about doing something good. I also stopped spending as much - the more stuff I had, the less happy. I was owned by my stuff.",
+      "timestamp": "01:11:26",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 487,
+        "lineEnd": 490
+      },
+      "themes": ["happiness", "philanthropy", "purpose"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "andrew-wilkinson-q012",
+      "speaker": "Andrew Wilkinson",
+      "text": "I started taking an SSRI and within three or four days, it was like someone had turned down the volume on the nasty voice inside of me. For the first time in my life I felt relief. No amount of money or success or attention had done what this little tiny yellow pill could do for my mental state.",
+      "timestamp": "01:13:01",
+      "source": {
+        "slug": "andrew-wilkinson",
+        "path": "episodes/andrew-wilkinson/transcript.md",
+        "lineStart": 493,
+        "lineEnd": 497
+      },
+      "themes": ["mental-health", "happiness", "self-awareness"],
+      "zones": ["discovery", "focus"]
+    }
+  ],
+  "themes": ["entrepreneurship", "bootstrapping", "moats", "ai-automation", "happiness", "mental-health", "investing"],
+  "takeaways": [
+    "Fish where the fish are - find the small fishing hole with lots of fish and little competition rather than fighting with everyone else in the obvious pond.",
+    "First-time entrepreneurs should start with baby weights - don't try to build the next great AI company on day one when you've never had a business win.",
+    "Bootstrap businesses can get massive ($300M revenue) - the only real difference with VC is tolerance for burning money, not potential scale.",
+    "AI automation has already replaced a full-time assistant for email - the 'iPhone moment' for AI agents where everyone can use them is coming within five years.",
+    "No amount of money fixes anxiety - billionaires still compare themselves to their peers, but medication (SSRIs) can turn down the volume on the nasty voice in ways wealth never could."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "andrew-wilkinson-q004",
+      "why": "Bootstrapping against VC-backed competitors is like Fiji invading the United States - know when you're outgunned",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "andrew-wilkinson-q012",
+      "why": "Money can't fix anxiety but a little yellow pill can - challenges the narrative that entrepreneurs should just grind through mental health issues",
+      "related_zones": ["discovery", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["entrepreneurship", "investing", "bootstrapping", "ai", "happiness"]
+  }
+}
