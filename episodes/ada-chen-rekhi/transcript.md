@@ -1,22 +1,17 @@
 ---
 guest: Ada Chen Rekhi
-title: Feeling stuck? Here's how to know when it's time to leave your job | Ada Chen
-  Rekhi
-youtube_url: https://www.youtube.com/watch?v=l-T8sNRcWQk
-video_id: l-T8sNRcWQk
-publish_date: 2023-04-21
-description: 'Ada Chen Rekhi explains when it''s time to leave your job and what to
-  consider before doing so.
-
-  🎙️Find the full episode here: https://youtu.be/N64vIY2nJQo
-
-
-  —
-
+title: How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn)
+youtube_url: https://www.youtube.com/watch?v=N64vIY2nJQo
+video_id: N64vIY2nJQo
+publish_date: 2023-04-16
+description: 'Ada Chen Rekhi is an executive coach and co-founder of Notejoy. She helps founders scale
+  themselves alongside their teams. She has over a decade of experience leading teams through
+  periods of rapid transition, from founding early-stage startups to leadership roles in
+  growing SurveyMonkey and LinkedIn.
   '
-duration_seconds: 230.0
-duration: '3:50'
-view_count: 1936
+duration_seconds: 4707.0
+duration: '1:18:27'
+view_count: 14375
 channel: Lenny's Podcast
 keywords:
 - growth
@@ -36,7 +31,7 @@ keywords:
 - market
 ---
 
-# Feeling stuck? Here's how to know when it's time to leave your job | Ada Chen Rekhi
+# How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn)
 
 ## Transcript
 
