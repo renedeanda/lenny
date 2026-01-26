@@ -1625,7 +1625,6 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 | 6 | `nikita-bier` | Nikita Bier | "Driving alignment within teams, work-life balance... \| **Nikita Miller**" | Nikita Miller | Transcript shows "Nikita Bier (00:00:00)" - content is Nikita Bier |
 | 7 | `matt-mullenweg` | Matt Mullenweg | "The one question that saves product careers \| **Matt LeMay**" | Matt LeMay | Transcript mentions "open source" - sounds like Matt Mullenweg content |
 | 8 | `jackie-bavaro` | Jackie Bavaro | "Bending the universe in your favor \| **Claire Vo**" | Claire Vo | Need to verify transcript content |
-| 9 | `benjamin-mann` | Benjamin Mann | "How marketplaces win: Liquidity, growth levers... \| **Benjamin Lauzier**" | Benjamin Lauzier | Need to verify transcript content |
 | 10 | `alexander-embiricos` | Alexander Embiricos | "How to drive word of mouth \| **Nilan Peiris** (CPO of Wise)" | Nilan Peiris | Need to verify transcript content |
 | 11 | `gaurav-misra` | Gaurav Misra | "Mastering onboarding \| **Lauryn Isford** (Head of Growth at Airtable)" | Lauryn Isford | Need to verify transcript content |
 | 12 | `ray-cao` | Ray Cao | "Product management theater \| **Marty Cagan**" | Marty Cagan | Need to verify transcript content |

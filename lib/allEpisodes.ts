@@ -2765,7 +2765,7 @@ export const allEpisodes: Episode[] = [
   {
     "slug": "benjamin-mann",
     "guest": "Benjamin Mann",
-    "title": "How marketplaces win: Liquidity, growth levers, quality, more | Benjamin Lauzier (Lyft, Thumbtack)",
+    "title": "Anthropic co-founder: AGI predictions, leaving OpenAI, what keeps him up at night",
     "publishDate": "2024-09-29T00:00:00.000Z",
     "duration": "1:24:03",
     "durationSeconds": 5043,
