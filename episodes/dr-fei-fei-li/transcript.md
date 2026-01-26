@@ -5,9 +5,9 @@ title: The Godmother of AI on jobs, robots & why world models are next | Dr. Fei
 youtube_url: https://www.youtube.com/watch?v=Ctjiatnd6Xk
 video_id: Ctjiatnd6Xk
 publish_date: 2025-11-16
-description: Dr. Fei-Fei Li is known as the “godmother of AI.” She’s been at the center
+description: 'Dr. Fei-Fei Li is known as the “godmother of AI.” She’s been at the center
   of AI’s biggest breakthroughs for over two decades. She spearheaded ImageNet, the
-  dataset that sparked the...
+  dataset that sparked the...'
 duration_seconds: 4774.0
 duration: '1:19:34'
 view_count: 139609

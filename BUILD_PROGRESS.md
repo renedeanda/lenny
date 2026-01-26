@@ -1588,18 +1588,10 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 
 | # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Needs YouTube Link & Metadata |
 |---|------|------------------|------------------|------------------------|-------------------------------|
-| 1 | `brandon-chu` | Brandon Chu | "AI prompt engineering in 2025: What works and what doesn't \| **Sander Schulhoff**" | Sander Schulhoff | ✅ Need Brandon Chu's actual episode metadata |
-| 2 | `ryan-hoover` | Ryan Hoover | "A better way to plan, build, and ship products \| **Ryan Singer** (creator of 'Shape Up')" | Ryan Singer | ✅ Need Ryan Hoover's actual episode metadata |
-| 3 | `david-placek` | David Placek | "Building a culture of excellence \| **David Singleton** (CTO of Stripe)" | David Singleton | ✅ Need David Placek's actual episode metadata |
+| 1 | `brandon-chu` | Brandon Chu | [NO YOUTUBE VIDEO AVAILABLE]
+| 2 | `ryan-hoover` | Ryan Hoover | "A better way to plan, build, and ship products \| **Ryan Singer** (creator of 'Shape Up')" | Ryan Singer | ✅ Need Ryan Hoover's actual episode metadata | https://www.youtube.com/watch?v=HzDLWKI6mnI (ACTUAL LINK)
+| 3 | `david-placek` | David Placek | "Building a culture of excellence \| **David Singleton** (CTO of Stripe)" | David Singleton | ✅ Need David Placek's actual episode metadata | https://www.youtube.com/watch?v=adyIaTopO6g (ACTUAL LINK)
 
-**Notes:**
-- `brandon-chu` transcript content correctly references "Brandon Chu" at line 45
-- `ryan-hoover` transcript content correctly references "Ryan Hoover is the founder of Product Hunt" at line 40
-- `david-placek` transcript content correctly references "David Placek" throughout
-
----
-
-#### Group 2: Additional Mismatches (15 Episodes)
 
 | # | Slug | Guest Field (✅) | Wrong Title (❌) | Correct Guest in Title | Notes |
 |---|------|------------------|------------------|------------------------|-------|
@@ -1613,7 +1605,6 @@ Enhanced `calculateSimilarityPenalty()` in `lib/recommendations.ts`:
 | 12 | `ray-cao` | Ray Cao | [NO YOUTUBE VIDEO AVAILABLE]
 | 13 | `laura-modi` | Laura Modi | [NO YOUTUBE VIDEO AVAILABLE]
 | 14 | `julian-shapiro` | Julian Shapiro | [NO YOUTUBE VIDEO AVAILABLE]
-| 15 | `fei-fei` | Fei Fei | "The Godmother of AI on jobs, robots... \| **Dr. Fei-Fei Li**" | Dr. Fei-Fei Li | May be same person, different name format |
 | 16 | `archie-abrams` | Archie Abrams | "How to speak more confidently... \| **Matt Abrahams**" | Matt Abrahams | Need to verify transcript content | https://www.youtube.com/watch?v=Vlph3dn4jnU (ACTUAL LINK)
 
 ---
