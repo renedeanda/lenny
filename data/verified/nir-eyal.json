@@ -1,0 +1,213 @@
+{
+  "slug": "nir-eyal",
+  "quotes": [
+    {
+      "id": "nir-eyal-q001",
+      "speaker": "Nir Eyal",
+      "text": "What separates traction from distraction is one word, and that one word is intent. The time you plan to waste is not wasted time. Anything you want to do with your time and attention is fine as long as it's done with intent, as long as you're doing it on your schedule, and not someone else's.",
+      "timestamp": "00:09:01",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 87
+      },
+      "themes": ["focus", "productivity", "intentionality"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "nir-eyal-q002",
+      "speaker": "Nir Eyal",
+      "text": "90% of the time that we get distracted, it's not because of what's happening outside of us, but that most distraction begins from within: boredom, loneliness, fatigue, uncertainty, anxiety. That is the cause of 90% of our distractions.",
+      "timestamp": "00:11:08",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 99
+      },
+      "themes": ["psychology", "self-awareness", "internal-triggers"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "nir-eyal-q003",
+      "speaker": "Nir Eyal",
+      "text": "The problem is not our technology. The problem is our inability to deal with discomfort. Always identify what is that internal trigger, what is that itch that you are looking to escape when you get distracted, because that is the source of 90% of our distractions.",
+      "timestamp": "00:16:33",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 147
+      },
+      "themes": ["psychology", "self-awareness", "technology"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "nir-eyal-q004",
+      "speaker": "Nir Eyal",
+      "text": "We know that this technique that a lot of people use of abstinence, telling yourself, 'Don't do that, that's bad,' actually can backfire. A much healthier technique is not to tell yourself no. It's to tell yourself not yet.",
+      "timestamp": "00:19:57",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 159
+      },
+      "themes": ["psychology", "habit-formation", "willpower"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "nir-eyal-q005",
+      "speaker": "Nir Eyal",
+      "text": "You cannot call something a distraction unless you know what it distracted you from. If you can't look at your calendar and say, 'Oh, that's traction,' if it's not written in your calendar, it's a distraction.",
+      "timestamp": "00:23:39",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 180
+      },
+      "themes": ["focus", "time-management", "planning"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "nir-eyal-q006",
+      "speaker": "Nir Eyal",
+      "text": "One of the main reasons why to-do lists suck is because to-do lists have no constraints. You can always add more to a to-do list. Day after day, week after week, month after month, I was reinforcing this self-image as someone who doesn't know how to manage their time.",
+      "timestamp": "00:27:38",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 198
+      },
+      "themes": ["productivity", "time-management", "psychology"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "nir-eyal-q007",
+      "speaker": "Nir Eyal",
+      "text": "A much more beneficial metric to track is not, 'Did I check off the box? Did I finish?' Rather, it's, 'Did I do what I said I was going to do for as long as I said I would without distraction?' Because that is the only way to understand how long things take you.",
+      "timestamp": "00:32:53",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 256
+      },
+      "themes": ["productivity", "measurement", "self-improvement"],
+      "zones": ["data", "focus", "perfection"]
+    },
+    {
+      "id": "nir-eyal-q008",
+      "speaker": "Nir Eyal",
+      "text": "Procrastination is an emotion regulation problem. It's not a character flaw. There's nothing wrong with you, you're not broken. It's just that you don't have the tools to deal with emotional discomfort and that's the part that everybody skips over.",
+      "timestamp": "00:35:22",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 273
+      },
+      "themes": ["psychology", "procrastination", "self-compassion"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "nir-eyal-q009",
+      "speaker": "Nir Eyal",
+      "text": "High performers in every industry, business, the arts, sports, they feel the same internal triggers. They also feel lonely. They also feel bored. They also feel stressed. But they use that discomfort like rocket fuel to propel them towards traction.",
+      "timestamp": "00:39:55",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 297
+      },
+      "themes": ["high-performance", "psychology", "motivation"],
+      "zones": ["velocity", "intuition", "focus"]
+    },
+    {
+      "id": "nir-eyal-q010",
+      "speaker": "Nir Eyal",
+      "text": "Ego depletion does actually exist, but only for one group of people. The only people who really did run out of willpower the way you would run out of charge in a battery were people who believed that willpower was a limited resource.",
+      "timestamp": "00:55:42",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 396,
+        "lineEnd": 399
+      },
+      "themes": ["psychology", "mindset", "willpower"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "nir-eyal-q011",
+      "speaker": "Nir Eyal",
+      "text": "Distraction is a symptom of dysfunction. If you can't talk about a problem, if you can't raise your hand and say, 'Hey, I'm just not able to do my best work when I'm constantly expected to reply to every email, every notification,' if you can't talk about this problem, that is the problem.",
+      "timestamp": "01:01:23",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 425,
+        "lineEnd": 427
+      },
+      "themes": ["workplace-culture", "psychological-safety", "communication"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "nir-eyal-q012",
+      "speaker": "Nir Eyal",
+      "text": "The antidote for impulsiveness is forethought. Fundamentally, distraction is an impulse control issue. That's all it is, and it's a skill like any other. We learn skills. Why do we expect that we should just be born with this innate skill to fight distraction?",
+      "timestamp": "01:17:04",
+      "source": {
+        "slug": "nir-eyal",
+        "path": "episodes/nir-eyal/transcript.md",
+        "lineStart": 495,
+        "lineEnd": 498
+      },
+      "themes": ["skill-building", "self-improvement", "psychology"],
+      "zones": ["focus", "discovery"]
+    }
+  ],
+  "themes": ["focus", "habit-formation", "psychology", "productivity", "time-management", "internal-triggers", "workplace-culture", "willpower", "intentionality"],
+  "takeaways": [
+    "Distraction is not caused by technology but by our inability to deal with internal discomfort - 90% of distractions originate from emotions like boredom, anxiety, and uncertainty, not external pings and notifications.",
+    "The difference between traction and distraction is intent - anything you do on your schedule, with purpose, is traction; anything else, even work-related tasks, can be distraction if unplanned.",
+    "To-do lists fail because they lack constraints - time-boxing your calendar forces trade-offs and helps you measure productivity by distraction-free focus time rather than checked boxes.",
+    "Procrastination is an emotion regulation problem, not a character flaw - high performers feel the same uncomfortable urges but use techniques like the 10-minute rule and 'not yet' instead of abstinence.",
+    "Indistractable workplaces require psychological safety, forums to discuss problems, and leaders who model focused work - distraction at scale is a symptom of organizational dysfunction."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.15,
+    "intuition": 0.25,
+    "alignment": 0.10,
+    "chaos": 0.00,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nir-eyal-q003",
+      "why": "Challenges the common narrative that technology is hijacking our brains - argues the real problem is our inability to handle discomfort, not the technology itself",
+      "related_zones": ["intuition", "focus"]
+    },
+    {
+      "quoteId": "nir-eyal-q010",
+      "why": "Ego depletion only affects those who believe in it - contradicts the popular notion that willpower is a finite resource that depletes throughout the day",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "nir-eyal-q006",
+      "why": "To-do lists suck - attacks a sacred productivity tool by arguing they create negative self-image through lack of constraints",
+      "related_zones": ["focus", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "author",
+    "company_stage": "thought-leader",
+    "primary_topics": ["habit-formation", "focus", "psychology", "productivity", "behavioral-design"]
+  }
+}

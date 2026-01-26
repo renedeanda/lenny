@@ -1,0 +1,208 @@
+{
+  "slug": "camille-fournier",
+  "quotes": [
+    {
+      "id": "camille-fournier-q001",
+      "speaker": "Camille Fournier",
+      "text": "I'm going to find that in places where they are so quashed their creativity for the actual business or product that they're building and their voice in that is so ignored that they don't have any outlets in that space and so, they are going to use the space that they have an outlet in, the place where they have some control and that's usually the technology choices and the details there.",
+      "timestamp": "00:09:18",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "themes": ["pm-eng-relationship", "over-engineering", "creativity"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "camille-fournier-q002",
+      "speaker": "Camille Fournier",
+      "text": "I think the product managers that have done the best, they're not threatened by other people having ideas. They're not threatened by the engineering team being full of smart people because they realize that yeah, some of the engineers may have good ideas, but they still don't really know how to do the product job.",
+      "timestamp": "00:10:17",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 121
+      },
+      "themes": ["pm-eng-relationship", "collaboration", "leadership"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "camille-fournier-q003",
+      "speaker": "Camille Fournier",
+      "text": "You think, 'Oh, we kind of know what's going on, so it's not going to be that big a deal.' Engineers notoriously, notoriously, notoriously, massively underestimate the migration time for old system to new system and that causes a lot of problems. By the way, you still have to support the old system while you're working on the new system.",
+      "timestamp": "00:16:24",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["rewrites", "technical-debt", "estimation"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "camille-fournier-q004",
+      "speaker": "Camille Fournier",
+      "text": "A lot of times people really underestimate what the old system does and how well they know what the old system does. There's so much logic buried in legacy systems, it tends to be undocumented, it tends to be weird. You haven't thought through all the business rules, you haven't thought through the data formatting.",
+      "timestamp": "00:18:28",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["legacy-systems", "technical-debt", "rewrites"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "camille-fournier-q005",
+      "speaker": "Camille Fournier",
+      "text": "One piece of advice I give everybody is don't stop being a hands-on technical until you feel like it's in your bones. You feel like you've got mastery that you could... if you know a second language fluently or if you played an instrument really, really seriously for a long time, you'll be familiar with the—I haven't done that in a long time, but if I was to pick it up, it would be rusty, but I would get there pretty quickly.",
+      "timestamp": "00:21:18",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["career-growth", "technical-mastery", "management-transition"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "camille-fournier-q006",
+      "speaker": "Camille Fournier",
+      "text": "What people care about with technical leaders in my experience is they want people who actually seem like they sort of understand what you're doing and can ask good questions and help guide you to better decisions without actually being the one who's like, 'Oh no, you need to use this library instead of that library.'",
+      "timestamp": "00:22:38",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 190,
+        "lineEnd": 190
+      },
+      "themes": ["technical-leadership", "guidance", "management"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "camille-fournier-q007",
+      "speaker": "Camille Fournier",
+      "text": "If you happen to be a woman or otherwise underrepresented person in tech, people will tend to underestimate your technical abilities just unfortunately as a get-go. I also think it's particularly important to kind of develop that internal confidence in your abilities before you make this sort of scary leap.",
+      "timestamp": "00:31:23",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 253,
+        "lineEnd": 253
+      },
+      "themes": ["diversity", "career-growth", "confidence"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "camille-fournier-q008",
+      "speaker": "Camille Fournier",
+      "text": "I think it's probably somewhere in the 10-year range of really having spent a lot of your time over those years writing code and really understanding how to be a technical expert.",
+      "timestamp": "00:32:34",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
+      },
+      "themes": ["career-growth", "technical-mastery", "management-transition"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "camille-fournier-q009",
+      "speaker": "Camille Fournier",
+      "text": "Management is much more... I'm not a huge fan of servant leadership exactly, but management really is a service job. You are serving the team, you are serving the company. Your job is to help make things better and that usually doesn't mean that you're making all the decisions.",
+      "timestamp": "00:37:08",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["management", "leadership", "service"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "camille-fournier-q010",
+      "speaker": "Camille Fournier",
+      "text": "What I've seen and I've heard a lot of friends at many companies complain about is this idea that everybody is doing one-on-ones with everyone else. So the manager is doing one-on-ones with their team. They're also doing one-on-ones with all of their peers. They're doing one-on-ones with all of their stakeholders. It's just not a scalable approach.",
+      "timestamp": "00:41:35",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
+      },
+      "themes": ["management", "scaling", "meetings"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "camille-fournier-q011",
+      "speaker": "Camille Fournier",
+      "text": "I think we all understand that if we could just figure out and focus on really the most important things, we would just—everything would be better. And it's hard to figure out what the most important things are, but overwork kind of lets you just sidestep doing the hard work of figuring out what's important in the first place.",
+      "timestamp": "00:45:51",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 358
+      },
+      "themes": ["prioritization", "work-culture", "focus"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "camille-fournier-q012",
+      "speaker": "Camille Fournier",
+      "text": "I'm a very strong believer that platform engineering has to involve software engineering. If you don't have any software engineers on your platform team and you only have more operations systems engineers, DevOps, SRE... I think you're kind of missing the picture. Platform engineering is not just maintaining cloud infrastructure and doing small scripts or blueprints.",
+      "timestamp": "00:58:17",
+      "source": {
+        "slug": "camille-fournier",
+        "path": "episodes/camille-fournier/transcript.md",
+        "lineStart": 439,
+        "lineEnd": 439
+      },
+      "themes": ["platform-engineering", "team-structure", "engineering"],
+      "zones": ["alignment", "perfection"]
+    }
+  ],
+  "themes": ["engineering-management", "technical-leadership", "career-growth", "pm-eng-relationship", "rewrites", "work-culture", "platform-engineering", "management-transition"],
+  "takeaways": [
+    "Great product managers are not threatened by engineers having ideas—they embrace collaboration while recognizing each role's unique value, creating environments where engineers feel heard without over-engineering as their creative outlet.",
+    "System rewrites are often a trap because engineers massively underestimate migration time and the hidden logic buried in legacy systems—evolve systems incrementally rather than going away to build something new.",
+    "Don't stop being hands-on technical until mastery is 'in your bones'—roughly a 10-year range of serious coding before transitioning to management, especially crucial for underrepresented people who face assumptions about technical ability.",
+    "Management is a service job, not a position of authority—you don't own your time anymore, the company and team do, and your job is to serve and guide rather than make all the decisions.",
+    "Overwork lets you sidestep the hard work of figuring out what's important—challenge yourself to focus, delegate, and regularly audit your time rather than filling hours with low-value activities."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "camille-fournier-q010",
+      "why": "Challenges conventional management wisdom that more one-on-ones equals better relationships—argues they don't scale and can waste everyone's time",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "camille-fournier-q011",
+      "why": "Directly confronts hustle culture by arguing overwork is actually a way to avoid the harder problem of prioritization",
+      "related_zones": ["focus", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "enterprise",
+    "primary_topics": ["engineering-management", "technical-leadership", "platform-engineering", "career-growth"]
+  }
+}

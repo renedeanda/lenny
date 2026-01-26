@@ -1,0 +1,213 @@
+{
+  "slug": "maggie-crowley",
+  "quotes": [
+    {
+      "id": "maggie-crowley-q001",
+      "speaker": "Maggie Crowley",
+      "text": "The best PMs not only can find the one thing to work on, but they can stay with that one thing long enough to actually finish it.",
+      "timestamp": "00:05:31",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 64,
+        "lineEnd": 64
+      },
+      "themes": ["prioritization", "focus", "execution"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "maggie-crowley-q002",
+      "speaker": "Maggie Crowley",
+      "text": "Prioritization is a tough word because there's so much wrapped up in that and what it means to prioritize. And I've worked for people who wanted to understand the formula for prioritization and why this thing and how can you prove that this is the right thing to work on. And then a week goes by and then they want to reevaluate the priority and they want to re-litigate the priority.",
+      "timestamp": "00:06:33",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 70,
+        "lineEnd": 70
+      },
+      "themes": ["prioritization", "decision-making", "leadership"],
+      "zones": ["focus", "data", "alignment"]
+    },
+    {
+      "id": "maggie-crowley-q003",
+      "speaker": "Maggie Crowley",
+      "text": "The really, really good PMs remember to follow up. Because especially when you're in management, couple layers up in management, I'm not going to remember to follow up on that feature, but if a PM comes back to me and says, 'Hey, remember we did that thing, here's what happened.' I can't tell you how rare that is.",
+      "timestamp": "00:08:43",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 86
+      },
+      "themes": ["accountability", "results", "career-development"],
+      "zones": ["data", "velocity", "alignment"]
+    },
+    {
+      "id": "maggie-crowley-q004",
+      "speaker": "Maggie Crowley",
+      "text": "Strategy to me, it's one tiny slice. You do a strategy, but it's 5% of the work that you do. Yes, it's important because you want to get your strategy and you need to pick the right products, but at the end of the day, the person who has a good strategy will not be as successful as the PM who ships more stuff, gets more reps and has the ability to actually create impact.",
+      "timestamp": "00:09:50",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 94
+      },
+      "themes": ["strategy", "execution", "shipping"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "maggie-crowley-q005",
+      "speaker": "Maggie Crowley",
+      "text": "Just say that. Just say that thing. The thing that you said to me in conversation is the thing you should write. There's no reason why your prose in a document has to be a certain way. We're not in school. Our goal is to get things done.",
+      "timestamp": "00:12:10",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 116
+      },
+      "themes": ["communication", "simplification", "writing"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "maggie-crowley-q006",
+      "speaker": "Maggie Crowley",
+      "text": "There's a thing that happens with PMs where you join a company and then all of a sudden it's like my boss doesn't know what they're doing and the highest paid person's opinion and the founder wants to swoop in and mess everything up, but those people had an insight on the market that you're in that made the company worth founding and they probably know more than you.",
+      "timestamp": "00:12:54",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 118
+      },
+      "themes": ["humility", "leadership", "founder-respect"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "maggie-crowley-q007",
+      "speaker": "Maggie Crowley",
+      "text": "It's both figuring out how to get confident in your decision and then having the willingness to make the bet and be responsible for it. And that's what separates the PM role from a lot of other roles and why it's such a challenging job when done right is because you have to be willing to take responsibility.",
+      "timestamp": "00:15:59",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["ownership", "risk-taking", "decision-making"],
+      "zones": ["chaos", "intuition", "focus"]
+    },
+    {
+      "id": "maggie-crowley-q008",
+      "speaker": "Maggie Crowley",
+      "text": "I am of the opinion that I never wanted to rely on someone else to get what I wanted. And so I would always make sure to share my progress, always make sure to share that because I didn't want to leave it up to chance that someone would notice.",
+      "timestamp": "00:22:36",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 199
+      },
+      "themes": ["career-development", "self-advocacy", "visibility"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "maggie-crowley-q009",
+      "speaker": "Maggie Crowley",
+      "text": "The more you ship, the more you learn. And that's why it can take years to build up expertise because you just have to ship a lot of stuff.",
+      "timestamp": "00:23:45",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 205
+      },
+      "themes": ["learning", "shipping", "career-development"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "maggie-crowley-q010",
+      "speaker": "Maggie Crowley",
+      "text": "If you ever find yourself saying something like, that's not my job, that's probably a thing you should do. And you know what? It probably isn't your job and it probably is someone else's job and you can spend your life getting frustrated at that or you can just get over and get the work done.",
+      "timestamp": "00:27:42",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["ownership", "execution", "mindset"],
+      "zones": ["velocity", "chaos", "focus"]
+    },
+    {
+      "id": "maggie-crowley-q011",
+      "speaker": "Maggie Crowley",
+      "text": "As a PM, you're not going to do your job unless that problem gets solved for the customer or the user at the end of the day. And so your job is to make sure everything happens for that product.",
+      "timestamp": "00:29:41",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["ownership", "customer-focus", "accountability"],
+      "zones": ["focus", "discovery", "velocity"]
+    },
+    {
+      "id": "maggie-crowley-q012",
+      "speaker": "Maggie Crowley",
+      "text": "People who are really excited about being data-driven, to me that is oftentimes a red flag for their product thinking. To me that says that the team is over-emphasizing quantitative data at the expense of qualitative data and they're not using good judgment.",
+      "timestamp": "00:58:39",
+      "source": {
+        "slug": "maggie-crowley",
+        "path": "episodes/maggie-crowley/transcript.md",
+        "lineStart": 451,
+        "lineEnd": 452
+      },
+      "themes": ["data", "intuition", "product-thinking"],
+      "zones": ["intuition", "discovery", "data"]
+    }
+  ],
+  "themes": ["product-management", "prioritization", "execution", "career-development", "ownership", "simplification", "strategy", "B2B-product"],
+  "takeaways": [
+    "The best PMs excel at simplification - finding the one thing to work on and staying with it long enough to finish. Prioritization is not a one-time decision but requires resilience to resist re-litigation.",
+    "Following up on results is rare and high-value. Put reminders in your calendar to check metrics weeks and months after launch - your managers won't remember, but they'll notice when you do.",
+    "Strategy is only 5% of the work. The PM who ships more stuff and gets more reps will outperform the PM with a great strategy who can't execute.",
+    "When in doubt, it's your job. PMs are uniquely responsible for outcomes because no one else is incentivized to fill the gaps between engineering, design, and business needs.",
+    "Being data-driven is a red flag for product thinking. Over-reliance on dashboards often means teams don't understand why things are happening and aren't doing enough user research."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "maggie-crowley-q012",
+      "why": "Challenges the conventional wisdom that being data-driven is always good - argues it's often a red flag for weak product thinking",
+      "related_zones": ["intuition", "data"]
+    },
+    {
+      "quoteId": "maggie-crowley-q004",
+      "why": "Downplays strategy as only 5% of the work - contrasts with PM discourse that overemphasizes strategic thinking over execution",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "maggie-crowley-q010",
+      "why": "Reframes 'that's not my job' as a signal you should do it - challenges role clarity and boundaries thinking",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-management", "career-development", "B2B-product", "product-strategy"]
+  }
+}

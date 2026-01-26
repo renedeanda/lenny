@@ -1,0 +1,194 @@
+{
+  "slug": "howie-liu",
+  "quotes": [
+    {
+      "id": "howie-liu-q001",
+      "speaker": "Howie Liu",
+      "text": "Certainly every software product in my opinion, has to be refounded because AI is such a paradigm shift, it's not even just like the shift from desktop to mobile or on-prem to cloud where that was more like a very one time and somewhat predictable change in form factor.",
+      "timestamp": "00:10:56",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": ["AI", "product-strategy", "paradigm-shift"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "howie-liu-q002",
+      "speaker": "Howie Liu",
+      "text": "It's actually now also hard to taste the soup without participating in at least some part of creating the soup. Meaning with AI, you can kind of look at the final product and say, okay, this feels right or not, but I think to really understand the solution space of what's possible, you have to be in the details.",
+      "timestamp": "00:12:14",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 154,
+        "lineEnd": 154
+      },
+      "themes": ["leadership", "founder-mode", "details"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "howie-liu-q003",
+      "speaker": "Howie Liu",
+      "text": "I take pride in being the number one most expensive in inference cost user of Airtable AI, not just within our own company, but I think for a long time I was globally across all our customers. I mean, I'm extremely intentionally wasteful.",
+      "timestamp": "00:14:03",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 175,
+        "lineEnd": 175
+      },
+      "themes": ["AI", "leadership", "experimentation"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "howie-liu-q004",
+      "speaker": "Howie Liu",
+      "text": "The value versus the actual cost of AI when applied greedily but smartly, it's a crazy ratio. And more people should be aggressively throwing compute cycles at these very high value problems.",
+      "timestamp": "00:15:29",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 181
+      },
+      "themes": ["AI", "strategy", "leverage"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "howie-liu-q005",
+      "speaker": "Howie Liu",
+      "text": "We did this recent reorg where now we have what I call the fast thinking group, which officially is called AI platform, but it really means we want to just ship a bunch of new capabilities on a near weekly basis. And then separately, we have the slow thinking group, and that's not meant to be better or worse. It's literally like you need fast and slow thinking in the common sense to operate as a human.",
+      "timestamp": "00:21:33",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 220
+      },
+      "themes": ["org-design", "velocity", "strategy"],
+      "zones": ["velocity", "alignment", "focus"]
+    },
+    {
+      "id": "howie-liu-q006",
+      "speaker": "Howie Liu",
+      "text": "If you were literally founding a new company from scratch with the same mission, how would you execute on that mission using a fully AI native approach? And if you can't really introspect and say I'm better off doing this with the pieces that I have, then I think you should sell. You should find a buyer for that company and then go and start the next carnation of it.",
+      "timestamp": "00:35:43",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 352
+      },
+      "themes": ["AI", "strategy", "founder-mode"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "howie-liu-q007",
+      "speaker": "Howie Liu",
+      "text": "If anyone wants to just literally block out a day or frankly even a week and have the ultimate excuse, you could say that I told you to do it. If you want to cancel all your meetings for a day or for an entire week and just go play around with every AI product you can find that you think could be relevant to Airtable, go do it.",
+      "timestamp": "00:48:49",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 427,
+        "lineEnd": 427
+      },
+      "themes": ["culture", "AI", "experimentation"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "howie-liu-q008",
+      "speaker": "Howie Liu",
+      "text": "What I found is that it really does become more about individual attitude and maybe some polymathism. There's a strong advantage to any of those three roles who can kind of cross over into the other two, like the hybrid unicorn types.",
+      "timestamp": "00:51:07",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 442
+      },
+      "themes": ["hiring", "skills", "product-teams"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "howie-liu-q009",
+      "speaker": "Howie Liu",
+      "text": "I would actually go further and say I think you need to get decently good at all three. There's just a minimum baseline of if you're any one of those roles, you need to be minimally good at the other two, and then you can go deeper into your own specialty.",
+      "timestamp": "00:57:43",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 481,
+        "lineEnd": 481
+      },
+      "themes": ["skills", "product-teams", "growth-mindset"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "howie-liu-q010",
+      "speaker": "Howie Liu",
+      "text": "The best way to innovate on the product is not incrementally split over all these different little surface areas, but actually to have a bigger, more step function vision of how this product needs to make a leap, or what's the next big act of the product or reinvention of the product.",
+      "timestamp": "01:15:48",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 625,
+        "lineEnd": 625
+      },
+      "themes": ["product-strategy", "vision", "innovation"],
+      "zones": ["focus", "perfection", "discovery"]
+    },
+    {
+      "id": "howie-liu-q011",
+      "speaker": "Howie Liu",
+      "text": "Don't step away from the details that both you love. If your passion is building product and product design, even if it feels like at times the company needs to do all this other stuff like scale up, don't lose the essence of the thing that you love doing and that really made this product happen.",
+      "timestamp": "01:22:33",
+      "source": {
+        "slug": "howie-liu",
+        "path": "episodes/howie-liu/transcript.md",
+        "lineStart": 661,
+        "lineEnd": 661
+      },
+      "themes": ["founder-mode", "leadership", "passion"],
+      "zones": ["focus", "perfection", "intuition"]
+    }
+  ],
+  "themes": ["AI-transformation", "founder-mode", "product-strategy", "org-design", "no-code", "polymathism", "experimentation", "velocity"],
+  "takeaways": [
+    "Every software product must be refounded for AI - this paradigm shift is not a one-time change like mobile or cloud, but a continuously evolving landscape that demands new form factors with each capability release.",
+    "CEOs should become IC CEOs again - to truly understand AI's possibilities, leaders must participate in creating, not just tasting the soup. Being in the details is essential for taste-making.",
+    "Structure teams as fast-thinking and slow-thinking groups - fast teams ship weekly AI capabilities while slow teams build durable infrastructure, and both complement each other to create sustainable growth.",
+    "Collapse role silos and embrace polymathism - PMs, engineers, and designers all need baseline competency in each other's domains, becoming hybrid unicorns who can think full-stack about problems.",
+    "Aggressively throw compute cycles at high-value problems - the value-to-cost ratio of AI when applied smartly is extraordinary, yet most organizations dramatically under-invest in AI experimentation."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "howie-liu-q006",
+      "why": "Advises founders to sell their company if they can't reimagine it for AI - brutal honesty about legacy businesses vs starting fresh",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "howie-liu-q003",
+      "why": "Takes pride in being intentionally wasteful with AI inference costs - challenges conventional frugality mindset",
+      "related_zones": ["velocity", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "late-stage",
+    "primary_topics": ["AI-transformation", "no-code", "org-design", "founder-mode"]
+  }
+}

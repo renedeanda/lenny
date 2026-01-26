@@ -1,0 +1,208 @@
+{
+  "slug": "kim-scott",
+  "quotes": [
+    {
+      "id": "kim-scott-q001",
+      "speaker": "Kim Scott",
+      "text": "I would say 90% of us make 90% of our mistakes in that ruinous empathy bucket. It's by far and away the most common problem.",
+      "timestamp": "00:07:11",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 94
+      },
+      "themes": ["feedback", "management", "ruinous-empathy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "kim-scott-q002",
+      "speaker": "Kim Scott",
+      "text": "It was almost like I suddenly realized I'd been marching through my whole career with a giant hunk of spinach in between my teeth and nobody had had the common courtesy to tell me it was there.",
+      "timestamp": "00:11:56",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 118
+      },
+      "themes": ["feedback", "self-awareness", "candor"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "kim-scott-q003",
+      "speaker": "Kim Scott",
+      "text": "And when a leader treats their team, the people who they interact with on a day-to-day basis with that kind of real care, then it's much more likely that their direct reports in turn are going to treat their teams with real care. And that creates a culture of caring. And even though relationships don't scale, culture does scale.",
+      "timestamp": "00:13:27",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["leadership", "culture", "caring-personally"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "kim-scott-q004",
+      "speaker": "Kim Scott",
+      "text": "Slack is just a feedback train wreck waiting to happen. I once coached someone who kept giving feedback over Slack and I finally just quit coaching him. I was like, 'If you keep making this mistake, I can't be your coach.' So don't do that. Take a moment to pick up the phone and call the person.",
+      "timestamp": "00:18:15",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["feedback", "communication", "management"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "kim-scott-q005",
+      "speaker": "Kim Scott",
+      "text": "He looked me right in the eye and he said, 'Why didn't you tell me?' And as that question was going around in my head with no good answer, he looked at me again and he said, 'Why didn't anyone tell me? I thought you all cared about me.'",
+      "timestamp": "00:24:46",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["feedback", "ruinous-empathy", "management"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "kim-scott-q006",
+      "speaker": "Kim Scott",
+      "text": "This person deserves to have a job where they can excel and you either help them excel on this team or you help them find a different job where they can excel, because everyone can do great work somewhere.",
+      "timestamp": "00:27:00",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["management", "growth", "caring-personally"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "kim-scott-q007",
+      "speaker": "Kim Scott",
+      "text": "My job was not to be liked. My job was to care about other people and to get out of my own head and to become others focused is what helped me kind of let go of the need to be liked.",
+      "timestamp": "00:28:15",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 208
+      },
+      "themes": ["leadership", "caring-personally", "management"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "kim-scott-q008",
+      "speaker": "Kim Scott",
+      "text": "If you say, 'Do you have any feedback for me?' You're wasting your breath. The other person's going to say, 'Oh no, everything's fine.' Nobody in your life except your teenage children really wants to give you criticism.",
+      "timestamp": "00:37:35",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 277,
+        "lineEnd": 277
+      },
+      "themes": ["feedback", "soliciting-feedback", "communication"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "kim-scott-q009",
+      "speaker": "Kim Scott",
+      "text": "The simplest way to embrace the discomfort is to close your mouth and count to six. Six seconds is a really long time. Almost nobody can endure six full seconds of silence. So they'll probably tell you something.",
+      "timestamp": "00:43:59",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 322
+      },
+      "themes": ["feedback", "listening", "communication"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "kim-scott-q010",
+      "speaker": "Kim Scott",
+      "text": "A person takes a huge risk, especially if this person is your employee. A person takes a huge risk to give you critical feedback. And if you do not reward that risk richly, you're never going to get any feedback again.",
+      "timestamp": "00:45:46",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 328
+      },
+      "themes": ["feedback", "trust", "leadership"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "kim-scott-q011",
+      "speaker": "Kim Scott",
+      "text": "It's stitch in time saves nine on all these two minute conversations, and really it should be brushing and flossing. This is not like a root canal. This is relationship hygiene that you should be doing all the time.",
+      "timestamp": "00:53:40",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 388
+      },
+      "themes": ["feedback", "management", "communication"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "kim-scott-q012",
+      "speaker": "Kim Scott",
+      "text": "You do not have to choose between being successful and being a jerk. You can be a successful kind person.",
+      "timestamp": "01:16:52",
+      "source": {
+        "slug": "kim-scott",
+        "path": "episodes/kim-scott/transcript.md",
+        "lineStart": 565,
+        "lineEnd": 565
+      },
+      "themes": ["leadership", "kindness", "success"],
+      "zones": ["focus", "alignment"]
+    }
+  ],
+  "themes": ["radical-candor", "feedback", "management", "leadership", "caring-personally", "challenging-directly", "ruinous-empathy", "communication"],
+  "takeaways": [
+    "Radical candor requires both caring personally AND challenging directly - 90% of mistakes fall into ruinous empathy where we care but fail to challenge.",
+    "Your job as a leader is not to be liked, but to care about people - getting others-focused helps let go of the need for approval while still being kind.",
+    "Relationships don't scale but culture does - when leaders treat their direct reports with real care, those behaviors cascade throughout the organization.",
+    "Feedback is relationship hygiene, not root canal surgery - two-minute impromptu conversations done regularly prevent major problems from festering.",
+    "Soliciting feedback requires skill - generic questions like 'do you have any feedback?' get generic answers. Ask specific questions and embrace six seconds of uncomfortable silence."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.35,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "kim-scott-q007",
+      "why": "Challenges the common belief that leaders need to be liked - argues caring is different from seeking approval",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "kim-scott-q012",
+      "why": "Rejects the false dichotomy that success requires being harsh - counters the Elon/Dalio model of aggressive leadership",
+      "related_zones": ["focus", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "author",
+    "company_stage": "thought-leader",
+    "primary_topics": ["radical-candor", "feedback", "management", "leadership"]
+  }
+}

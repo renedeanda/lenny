@@ -1,0 +1,213 @@
+{
+  "slug": "ryan-hoover",
+  "quotes": [
+    {
+      "id": "ryan-hoover-q001",
+      "speaker": "Ryan Hoover",
+      "text": "I think it's super important that founders see a line of sight to work on this for... I think my rule of thumb is a decade, just do you see yourself working on this for a decade? And maybe it's not a decade that you actually work on it. It probably won't, it either, it'll probably fail before then as most startups do, but I think it's a good litmus test for yourself.",
+      "timestamp": "00:16:40",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 100
+      },
+      "themes": ["founder-mindset", "commitment", "startups"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "ryan-hoover-q002",
+      "speaker": "Ryan Hoover",
+      "text": "Product Hunt, we called it, not even a side project, we called it an experiment. And that framing I think, is for me, has always been helpful because an experiment is really not about success. Of course you want it to be successful, but the goal is not success. I put that in quotes, it's really to learn and, you know, see if people want this thing and then kind of adapt.",
+      "timestamp": "00:17:05",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 103
+      },
+      "themes": ["experimentation", "side-projects", "learning"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "ryan-hoover-q003",
+      "speaker": "Ryan Hoover",
+      "text": "The thing about launching is going back to why are you raising money. What's the goal? Same thing. Why are you launching? And a lot of people default to things like customer acquisition, but sometimes that's actually not useful. Launch sometimes doesn't help with that, but there are many other reasons why you might wanna launch.",
+      "timestamp": "00:22:07",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 128,
+        "lineEnd": 128
+      },
+      "themes": ["launches", "strategy", "product-marketing"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "ryan-hoover-q004",
+      "speaker": "Ryan Hoover",
+      "text": "One of them is team morale. And this I think is overlooked. There is a powerful team morale and kinda building moment where you can all celebrate what you've accomplished and what you built and put it out to the world. And, you know, somebody on the team can share the Product Hunt launch or some Tech Crunch article with their mom. That seems like a trivial kind of meaningless thing, but it actually matters for a lot of people.",
+      "timestamp": "00:24:10",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 130
+      },
+      "themes": ["launches", "team-morale", "culture"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "ryan-hoover-q005",
+      "speaker": "Ryan Hoover",
+      "text": "One thing I've noticed among founders and just people in general is they tend to write like a PR person and not like a human. How do your customers or your users describe your product to other people? Or how do you describe it to your friends when you're just hanging out? That language resonates with people because it feels way more authentic.",
+      "timestamp": "00:25:01",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 134,
+        "lineEnd": 134
+      },
+      "themes": ["communication", "launches", "authenticity"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "ryan-hoover-q006",
+      "speaker": "Ryan Hoover",
+      "text": "Another regret is I would've actually tried to monetize and generated revenue sooner. We raised a seed and a series A and we had capital to grow, and we didn't actually try to make money until after we acquired AngelList. If we would've started in 2014 to make some money, we coulda been cashflow break even 2015, 2016, which would've just given us a lot of flexibility in kind of owning your own destiny.",
+      "timestamp": "00:33:35",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 154,
+        "lineEnd": 154
+      },
+      "themes": ["monetization", "business-model", "founder-lessons"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "ryan-hoover-q007",
+      "speaker": "Ryan Hoover",
+      "text": "Delegation is a classic founder challenge. I'm just generally a controlling person. That's something I'm working on. It's really hard sometimes when I have such strong opinions, and I'm very particular about certain things, to fully delegate and fully trust everybody. Up until shortly before I left, I was editing the newsletter every morning. I was waking up 5 a.m., 5:30 a.m., editing the newsletter. That's just kinda silly many years later.",
+      "timestamp": "00:34:30",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 155,
+        "lineEnd": 155
+      },
+      "themes": ["delegation", "leadership", "founder-lessons"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "ryan-hoover-q008",
+      "speaker": "Ryan Hoover",
+      "text": "Being a CEO or a founder makes it slightly harder in some ways because you still have to put on this mask. You have to put on this face of confidence externally and internally as well, where people need to trust you. You also don't wanna subject them to the same anxiety that you're feeling and be 100% transparent. So, it's a struggle because I value authenticity so much.",
+      "timestamp": "00:36:50",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["leadership", "vulnerability", "founder-mindset"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "ryan-hoover-q009",
+      "speaker": "Ryan Hoover",
+      "text": "Momentum matters so much. And momentum is reflexive in that high momentum leads to more high momentum. Low momentum leads to more low momentum because there's this energy that kinda goes through companies where, when there is momentum, when people are shipping, when things are going well, other people feel that energy, and they wanna do the same.",
+      "timestamp": "00:40:45",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["momentum", "culture", "shipping"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "ryan-hoover-q010",
+      "speaker": "Ryan Hoover",
+      "text": "Consumer is you're always fighting for attention. You might be some consumer social company, but you're kind of like competing with Netflix too. Like people could be watching Netflix, or they could be using your product. So, now you're competing with so many different things. Many of those are incumbents where the consumer also has built-in habits, routines.",
+      "timestamp": "00:48:55",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 220
+      },
+      "themes": ["consumer-startups", "competition", "attention"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "ryan-hoover-q011",
+      "speaker": "Ryan Hoover",
+      "text": "I think it's really hard to build a consumer company without some sort of unique insight, maybe impossible. I used to write a problem journal. Just when things annoyed me or when things were less efficient, I would write it down as a note. And I didn't try to solve it. I didn't say, 'Oh, here's the solution.' I was just like, 'This is annoying.'",
+      "timestamp": "00:51:45",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 223
+      },
+      "themes": ["insights", "consumer-startups", "ideation"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "ryan-hoover-q012",
+      "speaker": "Ryan Hoover",
+      "text": "The more narrow you're generally, the easier it is to build a great solution for those people, because now you can actually hone in the product experience, the messaging, and everything to serve exactly those people. My bias is not to worry too much about if it's too small because what you probably find is, over time, opportunities to expand beyond that.",
+      "timestamp": "00:56:05",
+      "source": {
+        "slug": "ryan-hoover",
+        "path": "episodes/ryan-hoover/transcript.md",
+        "lineStart": 235,
+        "lineEnd": 236
+      },
+      "themes": ["focus", "niche", "product-strategy"],
+      "zones": ["focus", "perfection"]
+    }
+  ],
+  "themes": ["launching-products", "consumer-startups", "founder-lessons", "momentum", "delegation", "experimentation", "community-building", "investing"],
+  "takeaways": [
+    "Call it an experiment, not a startup - the framing of 'experiment' removes pressure around success and focuses on learning whether people want what you're building, making it easier to adapt and pivot.",
+    "Launches serve multiple purposes beyond customer acquisition - recruiting, fundraising, partnerships, feedback, SEO, and team morale are often more valuable reasons to launch than pure user acquisition.",
+    "Monetize sooner than you think necessary - even dedicating 10% of focus to revenue generation early can lead to cash flow break-even within a year, giving you flexibility and ownership of your destiny.",
+    "Momentum is reflexive and compounds in both directions - when people are shipping and things are going well, others feel that energy; the reverse is equally true, making momentum one of the most important things in early-stage startups.",
+    "Go narrow to go big - focusing on a specific niche makes it easier to build a great solution because you can hone the product and messaging; expansion opportunities will reveal themselves over time."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.20,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ryan-hoover-q002",
+      "why": "Reframes side projects as 'experiments' where success isn't the goal - challenges the typical founder obsession with outcomes over learning",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "ryan-hoover-q003",
+      "why": "Challenges the assumption that launches are primarily for customer acquisition - argues other benefits like recruiting and morale often matter more",
+      "related_zones": ["velocity", "data"]
+    },
+    {
+      "quoteId": "ryan-hoover-q008",
+      "why": "Openly admits founders must wear a mask and cannot be 100% transparent - contradicts the authenticity movement in startup culture",
+      "related_zones": ["alignment", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "acquired",
+    "primary_topics": ["launching-products", "consumer-startups", "community-building", "angel-investing"]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "dharmesh-shah",
+  "quotes": [
+    {
+      "id": "dharmesh-shah-q001",
+      "speaker": "Dharmesh Shah",
+      "text": "I have learned that I suck at management. I'm a reasonably smart person. I think I could become passively okay at management with some training, with some coaching or whatever. I don't want to spend any years of my life becoming passively okay at something. I would rather take those same calories and take the things that I'm good at that I actually enjoy.",
+      "timestamp": "00:17:04",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["strengths", "self-awareness", "leadership"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "dharmesh-shah-q002",
+      "speaker": "Dharmesh Shah",
+      "text": "High conviction is, 'We really, really believe this,' and low consensus is that most other people don't. Peter Thiel actually says it more simply and elegantly, which is, 'You need to be right about something that other people think you're wrong about for a very long time.' And you just have to be right.",
+      "timestamp": "00:28:23",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 309
+      },
+      "themes": ["contrarian-thinking", "conviction", "strategy"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "dharmesh-shah-q003",
+      "speaker": "Dharmesh Shah",
+      "text": "One of the things that I think are applicable is just this need to solve for simplicity. It's like the simpler you can make things in the early years, the better off you generally are.",
+      "timestamp": "00:33:13",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 372
+      },
+      "themes": ["simplicity", "startups", "operations"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "dharmesh-shah-q004",
+      "speaker": "Dharmesh Shah",
+      "text": "In lay person's terms, the second law of thermodynamics, I'm paraphrasing here, is that, 'Over time, unless you intervene, everything goes to crap.' Which is, essentially, the amount of disorder and randomness in a system is going to increase over time.",
+      "timestamp": "00:37:59",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 417,
+        "lineEnd": 417
+      },
+      "themes": ["entropy", "complexity", "systems-thinking"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "dharmesh-shah-q005",
+      "speaker": "Dharmesh Shah",
+      "text": "Simplicity is worth fighting for. That's thing number one, it's important, but the other one is that it requires fighting for. It does not happen, and it will be a fight, because the universe is working against you.",
+      "timestamp": "00:39:38",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 423,
+        "lineEnd": 423
+      },
+      "themes": ["simplicity", "discipline", "product"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "dharmesh-shah-q006",
+      "speaker": "Dharmesh Shah",
+      "text": "What I mean by that, it's not an incremental increase like, 'Oh, we went from one to two,' it's like, now every decision you make has to be made through the lens of, 'Now we have two products.' We just hired an engineer, do they work on product number one or product number two? Every chart you look at in terms of the growth, revenue per whatever, it's all of it.",
+      "timestamp": "00:42:43",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 438,
+        "lineEnd": 438
+      },
+      "themes": ["complexity", "product-strategy", "scaling"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "dharmesh-shah-q007",
+      "speaker": "Dharmesh Shah",
+      "text": "The case for SMB is you have almost the best of both worlds. You have the nicety of enterprise, which is, 'Oh, I can solve a product and people pay me money for it. I don't have to be advertising subsidized, I don't have this bi-modal outcome. I can build an incrementally more valuable business that's measurable.'",
+      "timestamp": "00:47:03",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 465,
+        "lineEnd": 466
+      },
+      "themes": ["SMB", "business-model", "go-to-market"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "dharmesh-shah-q008",
+      "speaker": "Dharmesh Shah",
+      "text": "In software, there's what I call reverse gravity. That over time, the market will always pull you up. Because what ends up happening is that smart founders and smart management teams will look at the numbers and say, 'Oh, well, as it turns out, our bigger customers stay with us longer, pay us more, often have higher NPS.'",
+      "timestamp": "00:49:27",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 474
+      },
+      "themes": ["market-dynamics", "strategy", "enterprise"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "dharmesh-shah-q009",
+      "speaker": "Dharmesh Shah",
+      "text": "I think one of the mistakes founders make is that, especially product oriented founders, is that we fall in love with the solution instead of falling in love with the actual problem, and you need to fall in love with the problem.",
+      "timestamp": "00:54:37",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 504,
+        "lineEnd": 504
+      },
+      "themes": ["problem-solving", "product", "founder-mistakes"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "dharmesh-shah-q010",
+      "speaker": "Dharmesh Shah",
+      "text": "Culture is a product, period, and that every company builds two products, one is the product they build for their customers, and the other is a product they build for their team. That's what culture is, it's the product you build for your team.",
+      "timestamp": "01:21:17",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 663,
+        "lineEnd": 663
+      },
+      "themes": ["culture", "team-building", "product-thinking"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "dharmesh-shah-q011",
+      "speaker": "Dharmesh Shah",
+      "text": "The biggest mistake, I think, founders make, is that they say, 'Oh, we have an awesome culture, and my job is to preserve the culture.' That is not the job because the needs of your customers change, the needs of the employees change. Just like you would never freeze the lines of code of a product, you would never freeze the lines of code of a culture.",
+      "timestamp": "01:22:15",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 666,
+        "lineEnd": 666
+      },
+      "themes": ["culture", "iteration", "leadership"],
+      "zones": ["alignment", "velocity", "chaos"]
+    },
+    {
+      "id": "dharmesh-shah-q012",
+      "speaker": "Dharmesh Shah",
+      "text": "Success is making the people who believed in you look brilliant. What I like about that is it's not an inward-facing thing. All the employees that join your company when you're a founder that were kind of silly enough to join you on this thing, customers that believed in the early product that completely sucked, investors that believed.",
+      "timestamp": "01:39:17",
+      "source": {
+        "slug": "dharmesh-shah",
+        "path": "episodes/dharmesh-shah/transcript.md",
+        "lineStart": 801,
+        "lineEnd": 801
+      },
+      "themes": ["success", "gratitude", "leadership"],
+      "zones": ["alignment", "intuition"]
+    }
+  ],
+  "themes": ["simplicity", "culture", "contrarian-thinking", "SMB", "startup-philosophy", "leadership", "product-strategy", "complexity"],
+  "takeaways": [
+    "Fight for simplicity relentlessly - the second law of thermodynamics means complexity will naturally increase over time, so leaders must actively intervene to keep things simple.",
+    "Make high-conviction, low-consensus bets - being right about something others think you're wrong about for a long time is the path to outsized success.",
+    "Lean into your strengths instead of becoming passively okay at weaknesses - Dharmesh has never had a direct report in 18 years at HubSpot because he knows management isn't his strength.",
+    "Culture is a product you build for your team - iterate on it like you would a product, never freeze it, and treat employees as customers of that product.",
+    "Fall in love with the problem, not the solution - product-oriented founders often make the mistake of loving their solution while losing sight of the actual customer problem."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dharmesh-shah-q001",
+      "why": "Challenges the conventional wisdom that executives should work on weaknesses - instead argues for completely avoiding things you're not good at",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "dharmesh-shah-q011",
+      "why": "Contradicts the common founder belief that their job is to preserve company culture - argues culture should be iterated like product code",
+      "related_zones": ["alignment", "chaos"]
+    },
+    {
+      "quoteId": "dharmesh-shah-q007",
+      "why": "Defends SMB focus when conventional VC wisdom says enterprise is the only path to large outcomes",
+      "related_zones": ["discovery", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["culture", "simplicity", "contrarian-strategy", "SMB", "startup-philosophy"]
+  }
+}

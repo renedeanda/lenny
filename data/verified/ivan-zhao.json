@@ -1,0 +1,213 @@
+{
+  "slug": "ivan-zhao",
+  "quotes": [
+    {
+      "id": "ivan-zhao-q001",
+      "speaker": "Ivan Zhao",
+      "text": "We call it sugar-coated broccoli. People don't want to eat the broccoli but people like sugar, so give them the sugar then hide the broccoli inside of it.",
+      "timestamp": "00:13:47",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": ["product-strategy", "vision", "user-psychology"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "ivan-zhao-q002",
+      "speaker": "Ivan Zhao",
+      "text": "Sense of maturation is you don't see the world just from your perspective but from outside your perspective. At tech, we were young. Took us multiple years. It hit your head straight into the wall to realize that. People just don't care.",
+      "timestamp": "00:13:23",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["founder-journey", "empathy", "product-market-fit"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "ivan-zhao-q003",
+      "speaker": "Ivan Zhao",
+      "text": "Building for something you want the world to have is building for your value. You have some taste. You have some aesthetic. You have some values. You want the world to have more of that. They are different energy. Building for value it's more lasting and more fulfilling.",
+      "timestamp": "00:20:34",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["values", "founder-motivation", "product-philosophy"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "ivan-zhao-q004",
+      "speaker": "Ivan Zhao",
+      "text": "You're building too much for your own self and value without realizing at the end of the day, if you're building a product and tool has to be used by others, you need to create a balance. Too much of yourself, then there's no users. Then you're just doing our project. And too much for a business, you're building a commodity.",
+      "timestamp": "00:21:42",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 199
+      },
+      "themes": ["product-strategy", "balance", "founder-journey"],
+      "zones": ["discovery", "alignment", "focus"]
+    },
+    {
+      "id": "ivan-zhao-q005",
+      "speaker": "Ivan Zhao",
+      "text": "You can create progress through better abstractions. And that thing compounds faster, can catch up to all the things you build much quicker than you ever thought. Humans are not good at thinking in terms of abstraction or exponentials. We're thinking in terms of linearly. If you just reset it and you find a better way to do it, you can get all the thing you have to some cost recovered really quickly.",
+      "timestamp": "00:22:53",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["abstractions", "compounding", "reset"],
+      "zones": ["velocity", "discovery", "chaos"]
+    },
+    {
+      "id": "ivan-zhao-q006",
+      "speaker": "Ivan Zhao",
+      "text": "Internally we use the metaphor that Notion's a small bus. The bus, the smaller the bus, it's easier to turn corners, easier to accelerate, easier to maneuver. The bigger the bus it is, bigger the boat or bigger the bus, slow down. And as a leader in the company, you decide who sit around you on the bus seats. That dictates how fast our overall bus moves.",
+      "timestamp": "00:33:29",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["team-size", "efficiency", "leadership"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "ivan-zhao-q007",
+      "speaker": "Ivan Zhao",
+      "text": "We name our conference room after timeless tools in history. iPhone's obvious one, original Macintosh, various different form of chairs, Lamy's 2000 pens, Toshiba rice cookers. Because software, and especially tech, it's every six months, every 12 months cycle. We don't think enough about creating something that lasts. I care creating something that at least the form factor lasts longer than 18 month.",
+      "timestamp": "00:36:08",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 331,
+        "lineEnd": 331
+      },
+      "themes": ["longevity", "craft", "inspiration"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "ivan-zhao-q008",
+      "speaker": "Ivan Zhao",
+      "text": "Internally, our company philosophy called crafts and values. Craft is your skill set, your taste. Value is your personal value and how do you see the world. Craft is about apply your value to some technical know-how and to make more clever trade-offs to create something new and useful and just keep doing that.",
+      "timestamp": "00:37:36",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
+      },
+      "themes": ["craft", "values", "product-philosophy"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "ivan-zhao-q009",
+      "speaker": "Ivan Zhao",
+      "text": "There's no free lunch. You don't get something for free. You have to give up something. I always feels like AI language model feels like a new type of wood. It feels like aluminum. It's a new type of material. Mass air travel wasn't available until aluminum become cheap enough that people can make airplanes that support this at cost.",
+      "timestamp": "00:39:13",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 346,
+        "lineEnd": 346
+      },
+      "themes": ["trade-offs", "AI", "technology"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "ivan-zhao-q010",
+      "speaker": "Ivan Zhao",
+      "text": "Notion, we call Notion is Lego for software. We ship non-Lego pieces into our product. That's a realization. If you create this thing called a product or business, you attract people are value aligned to it. Then if you're trying to optimize too much on this competition revenue side of things, forced to introducing something anti-your-value, then the system, it's like there's organ rejection with your employees, with your customers.",
+      "timestamp": "00:45:36",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 385
+      },
+      "themes": ["values", "product-philosophy", "culture"],
+      "zones": ["perfection", "alignment", "intuition"]
+    },
+    {
+      "id": "ivan-zhao-q011",
+      "speaker": "Ivan Zhao",
+      "text": "Only hardcore Lego fans care about Lego bricks. Most people care about Lego boxes. And they actually want the Lego box to be ready-made. When you unpack the box, the set is there for you. That's what we're learning a lot, especially move up market. There's this term that took me a while to learn. It's called solutions.",
+      "timestamp": "00:52:19",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 445,
+        "lineEnd": 445
+      },
+      "themes": ["segmentation", "enterprise", "product-strategy"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "ivan-zhao-q012",
+      "speaker": "Ivan Zhao",
+      "text": "The tools are extensions of us. And once they extend us, once we shape them, once we bring them to world, they can come back to shape us. One of my favorite quotes like the Marshall MacLean quotes, 'We shape our tools. Then after, our tools shape us.'",
+      "timestamp": "01:03:08",
+      "source": {
+        "slug": "ivan-zhao",
+        "path": "episodes/ivan-zhao/transcript.md",
+        "lineStart": 496,
+        "lineEnd": 499
+      },
+      "themes": ["tools", "philosophy", "human-potential"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["product-philosophy", "craft", "values", "abstractions", "trade-offs", "team-size", "founder-journey", "horizontal-products", "longevity"],
+  "takeaways": [
+    "Hide your vision behind something people already understand - the 'sugar-coated broccoli' approach wraps ambitious ideas in familiar form factors that users actually care about, like productivity software.",
+    "Balance building for your values with building for the market - too much self-expression creates art projects with no users, while too much market optimization creates commodities with no soul.",
+    "Better abstractions compound faster than brute force - resetting and finding the right primitives can recover lost ground exponentially faster than linear iteration on a flawed foundation.",
+    "Keep the bus small to move fast - talent density and lean teams outperform large organizations because internal communication overhead is the real bottleneck to velocity.",
+    "Introducing features that violate your core philosophy creates organ rejection - employees and customers aligned with your values will resist anti-value additions, no matter how competitive the pressure."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ivan-zhao-q001",
+      "why": "Advocates hiding your true vision behind user-friendly packaging rather than leading with your mission - challenges the 'be authentic and transparent' startup mantra",
+      "related_zones": ["discovery", "alignment"]
+    },
+    {
+      "quoteId": "ivan-zhao-q005",
+      "why": "Argues that resetting and finding better abstractions beats preserving existing work - challenges sunk cost thinking and continuous iteration dogma",
+      "related_zones": ["velocity", "discovery", "chaos"]
+    },
+    {
+      "quoteId": "ivan-zhao-q010",
+      "why": "Claims that shipping features misaligned with your values creates 'organ rejection' from employees and customers - challenges the 'compete on features' mentality",
+      "related_zones": ["perfection", "alignment", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["product-craft", "horizontal-products", "design-philosophy", "team-building", "values"]
+  }
+}
