@@ -16,26 +16,31 @@ import * as path from 'path';
 
 interface Quote {
   id: string;
+  speaker: string;
   text: string;
+  timestamp: string;
   source: {
-    line_start: number;
-    line_end: number;
-    timestamp: string;
-    speaker: string;
+    slug: string;
+    path: string;
+    lineStart: number;
+    lineEnd: number;
   };
   themes: string[];
   zones: string[];
 }
 
 interface EpisodeEnrichment {
-  episode_slug: string;
-  guest: string;
-  episode_title: string;
-  verification_date: string;
-  verified_by: string;
+  slug: string;
   quotes: Quote[];
+  themes: string[];
   takeaways: string[];
   zone_influence: Record<string, number>;
+  contrarian_candidates?: any[];
+  guest_metadata?: {
+    guest_type: string;
+    company_stage: string;
+    primary_topics: string[];
+  };
 }
 
 const PROMPT_TEMPLATE = `You are an expert at extracting insights from product management podcast transcripts.
@@ -74,11 +79,11 @@ OUTPUT FORMAT (JSON):
 {
   "quotes": [
     {
-      "text": "Direct quote here...",
-      "line_start": 123,
-      "line_end": 125,
-      "timestamp": "00:15:30",
       "speaker": "Guest Name",
+      "text": "Direct quote here...",
+      "timestamp": "00:15:30",
+      "lineStart": 123,
+      "lineEnd": 125,
       "themes": ["theme1", "theme2"],
       "zones": ["zone1", "zone2"]
     }
@@ -167,13 +172,15 @@ async function extractQuotesWithAI(
 
 function generateQuoteIds(quotes: any[], episodeSlug: string): Quote[] {
   return quotes.map((quote: any, index: number) => ({
-    id: `${episodeSlug}-${String(index + 1).padStart(3, '0')}`,
+    id: `${episodeSlug}-q${String(index + 1).padStart(3, '0')}`,
+    speaker: quote.speaker,
     text: quote.text,
+    timestamp: quote.timestamp,
     source: {
-      line_start: quote.line_start,
-      line_end: quote.line_end,
-      timestamp: quote.timestamp,
-      speaker: quote.speaker
+      slug: episodeSlug,
+      path: `episodes/${episodeSlug}/transcript.md`,
+      lineStart: quote.lineStart || quote.line_start,
+      lineEnd: quote.lineEnd || quote.line_end
     },
     themes: quote.themes || [],
     zones: quote.zones || []
@@ -197,12 +204,9 @@ async function curateEpisode(episodeSlug: string): Promise<void> {
     
     // Build enrichment object
     const enrichment: EpisodeEnrichment = {
-      episode_slug: episodeSlug,
-      guest: metadata.guest || 'Unknown',
-      episode_title: metadata.title || 'Unknown',
-      verification_date: new Date().toISOString().split('T')[0],
-      verified_by: 'ai-assisted-curation',
+      slug: episodeSlug,
       quotes,
+      themes: [],
       takeaways: aiResult.takeaways || [],
       zone_influence: aiResult.zone_influence || {}
     };

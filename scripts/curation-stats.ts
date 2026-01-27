@@ -51,7 +51,7 @@ function calculateZoneStats(episodes: any[]): Record<string, ZoneStats> {
     
     for (const episode of episodes) {
       const quotes = episode.quotes || [];
-      const slug = episode.slug || episode.episode_slug;
+      const slug = episode.slug;
       
       for (const quote of quotes) {
         if (quote.zones && quote.zones.includes(zoneName)) {
@@ -83,7 +83,7 @@ function calculateThemeStats(episodes: any[]): ThemeStats[] {
   
   for (const episode of episodes) {
     const quotes = episode.quotes || [];
-    const slug = episode.slug || episode.episode_slug;
+    const slug = episode.slug;
     
     for (const quote of quotes) {
       if (quote.themes) {

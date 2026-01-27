@@ -179,7 +179,7 @@ function validateTranscriptReferences(episodes: EpisodeEnrichment[]): void {
   
   for (const episode of episodes) {
     const quotes = (episode as any).quotes || [];
-    const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
+    const episodeSlug = (episode as any).slug;
     
     if (!episodeSlug) {
       errors.push(`Episode missing slug: ${JSON.stringify(episode).substring(0, 100)}...`);
@@ -187,7 +187,7 @@ function validateTranscriptReferences(episodes: EpisodeEnrichment[]): void {
     }
     
     for (const quote of quotes) {
-      // Handle both old (path) and new (episode_slug) source formats
+      // Handle source formats
       let transcriptPath: string;
       
       if (quote.source && quote.source.path) {
@@ -234,7 +234,7 @@ function computeZoneEpisodeCounts(episodes: EpisodeEnrichment[]): Record<string,
     
     for (const episode of episodes) {
       const quotes = (episode as any).quotes || [];
-      const episodeSlug = (episode as any).slug || (episode as any).episode_slug;
+      const episodeSlug = (episode as any).slug;
       
       for (const quote of quotes) {
         if (quote.zones.includes(zone)) {
@@ -328,7 +328,7 @@ export const VERIFIED_QUOTE_COUNT = ${quotes.length};
 
 export const ZONE_EPISODE_COUNTS = ${JSON.stringify(zoneCounts, null, 2)} as const;
 
-export const VERIFIED_EPISODE_SLUGS = ${JSON.stringify(episodes.map(e => (e as any).slug || (e as any).episode_slug), null, 2)} as const;
+export const VERIFIED_EPISODE_SLUGS = ${JSON.stringify(episodes.map(e => (e as any).slug), null, 2)} as const;
 `;
   
   const tsPath = path.join(process.cwd(), 'lib', 'verifiedContent.ts');

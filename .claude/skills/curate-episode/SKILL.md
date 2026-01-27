@@ -84,7 +84,7 @@ Many recent episodes discuss AI extensively. When extracting AI-related quotes, 
   - **Leadership themes**: "founder-mode", "delegation", "communication", "culture", "hiring"
   - **Growth themes**: "growth-loops", "retention", "acquisition", "monetization"
 - **Zones** (1-3 zones): Which philosophy zones does this quote exemplify?
-- **Line numbers**: Exact line_start and line_end from transcript
+- **Line numbers**: Exact lineStart and lineEnd from transcript (camelCase)
 - **Timestamp**: Speaker timestamp (e.g., "00:15:30")
 - **Contrarian?**: Mark candidates that are spicy/opinionated or counter-narrative (for use in insightsData contrarianViews)
 
@@ -149,27 +149,24 @@ Capture guest metadata for diversity scoring in recommendations:
 
 ```json
 {
-  "episode_slug": "guest-name",
-  "guest": "Guest Name",
-  "episode_title": "Full Episode Title",
-  "verification_date": "2025-01-20",
-  "verified_by": "warp-agent",
+  "slug": "guest-name",
   "quotes": [
     {
-      "id": "guest-name-001",
+      "id": "guest-name-q001",
+      "speaker": "Guest Name",
       "text": "Direct quote from speaker...",
+      "timestamp": "00:15:30",
       "source": {
-        "line_start": 123,
-        "line_end": 125,
-        "timestamp": "00:15:30",
-        "speaker": "Guest Name"
+        "slug": "guest-name",
+        "path": "episodes/guest-name/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 125
       },
-      "context": "Brief context about when/why this was said",
       "themes": ["theme1", "theme2", "theme3"],
-      "zones": ["zone1", "zone2"],
-      "verified": true
+      "zones": ["zone1", "zone2"]
     }
   ],
+  "themes": ["theme1", "theme2", "theme3"],
   "takeaways": [
     "First key insight that synthesizes their philosophy",
     "Second actionable takeaway",
@@ -189,11 +186,16 @@ Capture guest metadata for diversity scoring in recommendations:
   },
   "contrarian_candidates": [
     {
-      "quoteId": "guest-name-00X",
+      "quoteId": "guest-name-q001",
       "why": "Why this take is provocative/contrarian",
       "related_zones": ["zone1", "zone2"]
     }
-  ]
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["topic1", "topic2", "topic3"]
+  }
 }
 ```
 
