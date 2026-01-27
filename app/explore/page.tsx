@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, memo, useRef } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles, Heart } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
@@ -13,6 +13,7 @@ import { generateRecommendations, EpisodeAlignment } from '@/lib/recommendations
 import { QuizAnswers } from '@/lib/types';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import { trackRecommendationsExpanded } from '@/lib/analytics';
+import { getFavoriteEpisodes, toggleFavoriteEpisode, isEpisodeFavorited } from '@/lib/favorites';
 
 const STORAGE_KEY = 'lenny-explore-filters';
 const EPISODES_PER_PAGE = 24;
@@ -40,7 +41,27 @@ export default function ExplorePage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
   const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
+  const [favoriteEpisodeSlugs, setFavoriteEpisodeSlugs] = useState<Set<string>>(new Set());
   const hasMounted = useRef(false);
+
+  // Load favorite episodes
+  useEffect(() => {
+    const slugs = new Set(getFavoriteEpisodes().map(f => f.slug));
+    setFavoriteEpisodeSlugs(slugs);
+  }, []);
+
+  const handleToggleEpisodeFavorite = (slug: string, guest: string) => {
+    const isFavorited = toggleFavoriteEpisode({ slug, guest });
+    setFavoriteEpisodeSlugs(prev => {
+      const next = new Set(prev);
+      if (isFavorited) {
+        next.add(slug);
+      } else {
+        next.delete(slug);
+      }
+      return next;
+    });
+  };
 
   // Save to localStorage only after initial mount
   useEffect(() => {
@@ -165,6 +186,15 @@ export default function ExplorePage() {
               Search, filter, and explore every conversation from Lenny's Podcast.
               Real insights from the world's best product leaders, builders, and founders.
             </p>
+
+            {/* Insights Page Link */}
+            <Link
+              href="/explore/insights"
+              className="inline-flex items-center gap-2 mt-4 px-4 py-2 border border-amber/50 text-amber text-sm hover:bg-amber hover:text-void transition-all"
+            >
+              <Sparkles className="w-4 h-4" />
+              Browse {enrichedSlugs.size} Curated Episodes with Verified Quotes →
+            </Link>
 
             {/* Recommendations Toggle */}
             {recommendations && (
@@ -339,7 +369,8 @@ export default function ExplorePage() {
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value as SortOption)}
                   className="px-4 py-4 bg-void-light border-2 border-ash-darker text-ash
-                           focus:border-amber focus:outline-none transition-colors cursor-pointer"
+                           focus:border-amber focus:outline-none transition-colors cursor-pointer
+                           rounded-none"
                 >
                   <option value="date-desc">Newest First</option>
                   <option value="date-asc">Oldest First</option>
@@ -414,6 +445,8 @@ export default function ExplorePage() {
                 index={index}
                 selectedKeywords={selectedKeywords}
                 hasEnrichment={enrichedSlugs.has(episode.slug)}
+                isFavorited={favoriteEpisodeSlugs.has(episode.slug)}
+                onToggleFavorite={handleToggleEpisodeFavorite}
               />
             ))}
           </motion.div>
@@ -560,12 +593,16 @@ const EpisodeCard = memo(function EpisodeCard({
   episode,
   index,
   selectedKeywords,
-  hasEnrichment
+  hasEnrichment,
+  isFavorited,
+  onToggleFavorite
 }: {
   episode: Episode;
   index: number;
   selectedKeywords: string[];
   hasEnrichment: boolean;
+  isFavorited: boolean;
+  onToggleFavorite: (slug: string, guest: string) => void;
 }) {
   return (
     <div
@@ -576,8 +613,24 @@ const EpisodeCard = memo(function EpisodeCard({
       <div className="absolute top-0 right-0 w-2 h-full bg-amber opacity-0
                     group-hover:opacity-100 transition-opacity" />
 
+      {/* Favorite Button */}
+      <button
+        onClick={(e) => {
+          e.preventDefault();
+          onToggleFavorite(episode.slug, episode.guest);
+        }}
+        className={`absolute top-4 right-4 p-2 transition-all z-10 ${
+          isFavorited
+            ? 'text-rose-400'
+            : 'text-ash-dark opacity-0 group-hover:opacity-100 hover:text-rose-400'
+        }`}
+        title={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
+      >
+        <Heart className={`w-5 h-5 ${isFavorited ? 'fill-current' : ''}`} />
+      </button>
+
       {/* Guest Name */}
-      <div className="mb-3">
+      <div className="mb-3 pr-8">
         <Link href={`/episodes/${episode.slug}`}>
           <h3 className="text-xl font-bold text-amber group-hover:text-amber-dark transition-colors leading-tight cursor-pointer">
             {episode.guest}

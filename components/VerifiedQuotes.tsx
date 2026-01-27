@@ -1,9 +1,14 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Quote as QuoteIcon, Clock } from 'lucide-react';
+import { Quote as QuoteIcon, Clock, Heart } from 'lucide-react';
 import { Quote, EpisodeEnrichment } from '@/lib/types';
+import {
+  getFavoriteQuotes,
+  toggleFavoriteQuote,
+  isQuoteFavorited as checkQuoteFavorited
+} from '@/lib/favorites';
 
 interface VerifiedQuotesProps {
   enrichment: EpisodeEnrichment;
@@ -12,8 +17,42 @@ interface VerifiedQuotesProps {
 
 export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: VerifiedQuotesProps) {
   const [selectedTheme, setSelectedTheme] = useState<string | null>(null);
+  const [favoriteQuoteIds, setFavoriteQuoteIds] = useState<Set<string>>(new Set());
 
   const quotes: Quote[] = enrichment.quotes ?? [];
+
+  // Load favorites on mount
+  useEffect(() => {
+    const loadFavorites = () => {
+      const quoteIds = new Set(getFavoriteQuotes().map(f => f.quoteId));
+      setFavoriteQuoteIds(quoteIds);
+    };
+    loadFavorites();
+
+    // Listen for storage changes from other tabs
+    window.addEventListener('storage', loadFavorites);
+    return () => window.removeEventListener('storage', loadFavorites);
+  }, []);
+
+  const handleToggleFavorite = (quote: Quote) => {
+    const isFavorited = toggleFavoriteQuote({
+      quoteId: quote.id,
+      text: quote.text,
+      speaker: quote.speaker,
+      episodeSlug: quote.source?.slug || enrichment.slug,
+      timestamp: quote.timestamp
+    });
+
+    setFavoriteQuoteIds(prev => {
+      const next = new Set(prev);
+      if (isFavorited) {
+        next.add(quote.id);
+      } else {
+        next.delete(quote.id);
+      }
+      return next;
+    });
+  };
 
   // ✅ Filter quotes by selected theme (safe)
   const filteredQuotes = useMemo(() => {
@@ -105,6 +144,8 @@ export default function VerifiedQuotes({ enrichment, onJumpToTranscript }: Verif
                 quote={quote}
                 index={index}
                 onJumpToTranscript={onJumpToTranscript}
+                isFavorited={favoriteQuoteIds.has(quote.id)}
+                onToggleFavorite={() => handleToggleFavorite(quote)}
               />
             ))
           )}
@@ -118,9 +159,11 @@ interface QuoteCardProps {
   quote: Quote;
   index: number;
   onJumpToTranscript?: (lineStart: number, timestamp?: string) => void;
+  isFavorited: boolean;
+  onToggleFavorite: () => void;
 }
 
-function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
+function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavorite }: QuoteCardProps) {
   const [showCopied, setShowCopied] = useState(false);
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -197,6 +240,17 @@ function QuoteCard({ quote, index, onJumpToTranscript }: QuoteCardProps) {
 
         {/* Actions */}
         <div className="flex items-center gap-2">
+          <button
+            onClick={onToggleFavorite}
+            className={`p-1.5 border transition-all ${
+              isFavorited
+                ? 'border-rose-400 bg-rose-400/20 text-rose-400'
+                : 'border-ash-darker text-ash-dark hover:border-rose-400 hover:text-rose-400'
+            }`}
+            title={isFavorited ? 'Remove from favorites' : 'Add to favorites'}
+          >
+            <Heart className={`w-4 h-4 ${isFavorited ? 'fill-current' : ''}`} />
+          </button>
           <button
             onClick={handleCopy}
             className="px-3 py-1 text-xs uppercase tracking-wider bg-void border border-ash-darker hover:border-amber hover:text-amber transition-colors"

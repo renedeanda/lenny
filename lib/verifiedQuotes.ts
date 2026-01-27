@@ -74,3 +74,38 @@ export function getRegistryInfo() {
     lastUpdated: registry.lastUpdated,
   };
 }
+
+/**
+ * Get all contrarian quotes with their explanations
+ */
+export function getContrarianQuotes(): Array<{
+  quote: Quote;
+  why: string;
+  episodeSlug: string;
+  guest: string;
+}> {
+  const contrarians: Array<{
+    quote: Quote;
+    why: string;
+    episodeSlug: string;
+    guest: string;
+  }> = [];
+
+  for (const episode of registry.episodes) {
+    if (episode.contrarian_candidates && episode.contrarian_candidates.length > 0) {
+      for (const candidate of episode.contrarian_candidates) {
+        const quote = registry.quotes.find(q => q.id === candidate.quoteId);
+        if (quote) {
+          contrarians.push({
+            quote,
+            why: candidate.why,
+            episodeSlug: episode.slug,
+            guest: quote.speaker
+          });
+        }
+      }
+    }
+  }
+
+  return contrarians;
+}
