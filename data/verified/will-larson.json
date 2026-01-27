@@ -1,0 +1,194 @@
+{
+  "slug": "will-larson",
+  "quotes": [
+    {
+      "id": "will-larson-001",
+      "speaker": "Will Larson",
+      "text": "A lot of the least successful but smartest people I've worked with were really strong systems thinking advocates. Every framework has downsides. People find a spot where their system and reality are in conflict and they say reality is wrong.",
+      "timestamp": "08:57",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 108
+      },
+      "themes": ["systems-thinking", "frameworks", "pragmatism", "mental-models"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "will-larson-002",
+      "speaker": "Will Larson",
+      "text": "At Stripe, we did a lot of analysis on incidents trying to understand why things weren't working. We got so caught up in the analysis that we lost track of whether we're actually improving things. You can't keep measuring. At some point you have to cut.",
+      "timestamp": "09:49",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 113,
+        "lineEnd": 114
+      },
+      "themes": ["analysis-paralysis", "execution", "measurement", "action"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "will-larson-003",
+      "speaker": "Will Larson",
+      "text": "Systems thinking is basically stocks and flows. Stocks are things that accumulate, flows are movement from a stock to another thing. A hiring pipeline: candidates flow through steps, conversion rates at each stage dictate how many people you ultimately hire.",
+      "timestamp": "11:41",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 139
+      },
+      "themes": ["systems-thinking", "hiring", "mental-models", "frameworks"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "will-larson-004",
+      "speaker": "Will Larson",
+      "text": "Engineering often has no strategy. People will complain in their culture amp surveys that strategy is not clear. But product, eng, and business always have a strategy - it's just often not written down. The first rule: if you write it down, you can improve it.",
+      "timestamp": "17:15",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 171
+      },
+      "themes": ["engineering-strategy", "documentation", "leadership", "communication"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "will-larson-005",
+      "speaker": "Will Larson",
+      "text": "A common strategy that's really good but very boring is: we only use the tools we have today. Boring strategies that tell you what actually matters and align you with what the company cares about are really good for you even if they're a little annoying.",
+      "timestamp": "19:39",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 183
+      },
+      "themes": ["engineering-strategy", "constraints", "focus", "simplicity"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "will-larson-006",
+      "speaker": "Will Larson",
+      "text": "Richard Rumelt's definition of strategy: a diagnosis of the current status quo, guiding policies based on the diagnoses, and actions for how to implement those policies. Almost all bad strategies come from a willful disbelief of an accurate diagnosis.",
+      "timestamp": "21:21",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 199
+      },
+      "themes": ["strategy", "diagnosis", "execution", "frameworks"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "will-larson-007",
+      "speaker": "Will Larson",
+      "text": "At Uber, we had a strict no-cloud policy. We had to run everything ourselves. It meant we were able to spin up in China in literally three months. We had to take the roof off the data center and lift the racks in with a crane.",
+      "timestamp": "22:28",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 205
+      },
+      "themes": ["engineering-strategy", "constraints", "speed", "infrastructure"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "will-larson-008",
+      "speaker": "Will Larson",
+      "text": "The goal of good strategy is not to appease everyone. The goal is to dictate how we invest the limited capacities we have into the problems we care about. A lot of engineers hated Stripe's Ruby monolith policy but it was really effective.",
+      "timestamp": "23:21",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 216
+      },
+      "themes": ["strategy", "constraints", "leadership", "engineering-culture"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "will-larson-009",
+      "speaker": "Will Larson",
+      "text": "You can write a lot more if you write what you want to write. That's why I don't write for financial gain or on a schedule. The biggest strength of writing what you want is you get to write where there's energy and skip what's draining.",
+      "timestamp": "28:12",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 249
+      },
+      "themes": ["writing", "content-creation", "energy-management", "career-advice"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "will-larson-010",
+      "speaker": "Will Larson",
+      "text": "The biggest risk to content creators is quitting. A little bit like the 40-year career idea. The biggest risk is not that you grow too slow initially. It's too late to join Substack. It's too late to podcast. But it's just not true.",
+      "timestamp": "32:43",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 283
+      },
+      "themes": ["writing", "career-advice", "persistence", "content-creation"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "will-larson-011",
+      "speaker": "Will Larson",
+      "text": "There are no villains in the workplace. They're just people with complex incentives doing complex things. The reality is never as simple. The business needs to sell stuff to remain functioning. You can't just say no and have the business succeed.",
+      "timestamp": "42:19",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 353,
+        "lineEnd": 356
+      },
+      "themes": ["collaboration", "incentives", "empathy", "cross-functional"],
+      "zones": ["alignment", "discovery"]
+    }
+  ],
+  "themes": ["engineering-strategy", "systems-thinking", "leadership", "writing", "cross-functional-collaboration"],
+  "takeaways": [
+    "Strategy exists even when not written down - the first step to improving it is documenting it",
+    "Boring strategies like 'use only our existing tools' are often the most effective because they focus energy",
+    "Systems thinking is powerful for diagnosis but dangerous when you prioritize the model over reality",
+    "Bad strategies almost always come from willfully misdiagnosing the current situation",
+    "The biggest risk to long-term success (writing, career, products) is quitting too early"
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "will-larson-001",
+      "why": "Challenges systems thinking orthodoxy - smart people often fail because they think reality is wrong",
+      "related_zones": ["chaos", "data"]
+    },
+    {
+      "quoteId": "will-larson-005",
+      "why": "Counters the constant push for new tools and innovation - boring constraints are often better",
+      "related_zones": ["focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["engineering-leadership", "strategy", "writing", "systems-thinking", "hiring"]
+  }
+}

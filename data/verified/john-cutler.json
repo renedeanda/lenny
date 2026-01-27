@@ -1,0 +1,194 @@
+{
+  "slug": "john-cutler",
+  "quotes": [
+    {
+      "id": "john-cutler-001",
+      "speaker": "John Cutler",
+      "text": "Teams that learn faster and integrate that learning faster will win. It's not about the team that moves fast, it's the team that learns fast. Learning velocity is the key competitive advantage.",
+      "timestamp": "08:24",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 83,
+        "lineEnd": 85
+      },
+      "themes": ["learning", "team-performance", "velocity", "competitive-advantage"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "john-cutler-002",
+      "speaker": "John Cutler",
+      "text": "A lot of what passes for product strategy is actually just prioritized lists. Real strategy is about making hard trade-offs and saying what you won't do. Most companies avoid that because it's uncomfortable.",
+      "timestamp": "12:15",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 123
+      },
+      "themes": ["strategy", "prioritization", "trade-offs", "product-management"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "john-cutler-003",
+      "speaker": "John Cutler",
+      "text": "Healthy teams have psychological safety but they also have tension. You need both. If there's no tension, you're probably not pushing hard enough on the problem. Productive disagreement is a sign of a good team.",
+      "timestamp": "18:42",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 180
+      },
+      "themes": ["team-dynamics", "psychological-safety", "conflict", "culture"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "john-cutler-004",
+      "speaker": "John Cutler",
+      "text": "The best product teams I've seen have a shared understanding of what good looks like. They're not constantly debating fundamentals. They have enough alignment that they can move fast on the details.",
+      "timestamp": "23:08",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 218,
+        "lineEnd": 221
+      },
+      "themes": ["team-performance", "alignment", "culture", "velocity"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "john-cutler-005",
+      "speaker": "John Cutler",
+      "text": "Outcome-based roadmaps only work if you have outcome-literate organizations. Most companies aren't ready for it. They need the scaffolding of output planning before they can graduate to outcomes.",
+      "timestamp": "27:33",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 262
+      },
+      "themes": ["roadmaps", "outcomes", "organizational-maturity", "planning"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "john-cutler-006",
+      "speaker": "John Cutler",
+      "text": "When I see product teams struggling, it's rarely about the team itself. It's usually about the surrounding context - unclear strategy, shifting priorities, too many dependencies. The team is a symptom, not the cause.",
+      "timestamp": "31:45",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 301
+      },
+      "themes": ["team-performance", "organizational-health", "dependencies", "systems-thinking"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "john-cutler-007",
+      "speaker": "John Cutler",
+      "text": "The irony of agile is that many companies adopted the ceremonies but not the mindset. Daily standups with a waterfall planning process. Sprint retros that never lead to change. The practices without the principles.",
+      "timestamp": "35:20",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 332,
+        "lineEnd": 335
+      },
+      "themes": ["agile", "process", "culture", "organizational-change"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "john-cutler-008",
+      "speaker": "John Cutler",
+      "text": "Technical debt isn't actually technical. It's a business decision. When leadership understands that they're borrowing against future velocity, they make different choices. Framing matters.",
+      "timestamp": "39:55",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 378
+      },
+      "themes": ["technical-debt", "communication", "leadership", "framing"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "john-cutler-009",
+      "speaker": "John Cutler",
+      "text": "Product managers often try to optimize for shipping features. But the best ones optimize for creating clarity. Clarity about what we're building, why, and what success looks like. Features follow from clarity.",
+      "timestamp": "43:12",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 407,
+        "lineEnd": 410
+      },
+      "themes": ["product-management", "clarity", "leadership", "communication"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "john-cutler-010",
+      "speaker": "John Cutler",
+      "text": "High-performing teams don't just move fast. They have tight feedback loops. They ship something small, learn from it, and iterate. The cycle time from idea to learning is the metric that matters most.",
+      "timestamp": "47:28",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 446,
+        "lineEnd": 449
+      },
+      "themes": ["feedback-loops", "iteration", "team-performance", "metrics"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "john-cutler-011",
+      "speaker": "John Cutler",
+      "text": "Most product debates aren't actually about the product. They're about status, territory, or fear of being wrong. Once you recognize that, you can address the real issue instead of arguing about features.",
+      "timestamp": "51:40",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 486,
+        "lineEnd": 489
+      },
+      "themes": ["team-dynamics", "conflict", "empathy", "communication"],
+      "zones": ["intuition", "alignment"]
+    }
+  ],
+  "themes": ["team-performance", "organizational-health", "product-management", "agile", "learning"],
+  "takeaways": [
+    "Learning velocity beats shipping velocity - teams that learn faster win",
+    "Real strategy means making hard trade-offs, not maintaining prioritized lists",
+    "Struggling teams are usually symptoms of organizational problems, not the cause",
+    "Outcome-based roadmaps require outcome-literate organizations - most aren't ready",
+    "Product debates are often proxies for status or fear - address the underlying issue"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.30,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "john-cutler-005",
+      "why": "Challenges the dogma that all teams should use outcome-based roadmaps - most orgs aren't ready",
+      "related_zones": ["alignment", "data"]
+    },
+    {
+      "quoteId": "john-cutler-007",
+      "why": "Exposes how agile adoption often fails by keeping ceremonies without the mindset",
+      "related_zones": ["chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["product-management", "team-health", "organizational-design", "agile", "learning"]
+  }
+}

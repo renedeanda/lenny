@@ -1,0 +1,194 @@
+{
+  "slug": "jackie-bavaro",
+  "quotes": [
+    {
+      "id": "jackie-bavaro-001",
+      "speaker": "Jackie Bavaro",
+      "text": "I believe that almost anybody can learn anything. If you're having trouble learning something, it's just because something's not clicking. If people could just describe it in the way that matched your mental model, then you could learn it.",
+      "timestamp": "06:53",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 77,
+        "lineEnd": 79
+      },
+      "themes": ["learning", "growth-mindset", "communication", "mentorship"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "jackie-bavaro-002",
+      "speaker": "Jackie Bavaro",
+      "text": "I very much saw the PM's role as a person who wants to say no to everybody. I got into this defensive mindset. My boss said 'Jackie, you have to stop shutting me down.' That's when I started to rethink how I saw the role.",
+      "timestamp": "07:58",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 91
+      },
+      "themes": ["product-management", "collaboration", "leadership", "growth"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "jackie-bavaro-003",
+      "speaker": "Jackie Bavaro",
+      "text": "Even if their solution isn't what I think is going to be the best solution, the problem they're talking about is probably real. I can interpret their solution as a way of sharing the problem and exploring and brainstorming around that.",
+      "timestamp": "09:03",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 94
+      },
+      "themes": ["collaboration", "empathy", "problem-solving", "listening"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "jackie-bavaro-004",
+      "speaker": "Jackie Bavaro",
+      "text": "One of the things I think was really important for my career at Asana was asking to join the planning committee. I framed it as something that would help my boss. That was a pretty effective way of advocating to get into higher level meetings.",
+      "timestamp": "12:39",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 130
+      },
+      "themes": ["career-growth", "influence", "leadership", "self-advocacy"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "jackie-bavaro-005",
+      "speaker": "Jackie Bavaro",
+      "text": "Three parts of strategy: your vision is an inspiring picture of the future. Your strategic framework says here's the market, what success looks like, and our big bets. Your roadmap works backwards from vision to check if your plan is feasible.",
+      "timestamp": "24:01",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 237
+      },
+      "themes": ["strategy", "roadmap", "vision", "planning"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "jackie-bavaro-006",
+      "speaker": "Jackie Bavaro",
+      "text": "What happens to every team that does roadmaps: you put it together and realize you're not going to hit your vision in five years. It's a wake up call to say we need to take much bigger swings, say no to more optional work, or hire twice as many people.",
+      "timestamp": "25:14",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 242
+      },
+      "themes": ["roadmap", "prioritization", "reality-check", "planning"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "jackie-bavaro-007",
+      "speaker": "Jackie Bavaro",
+      "text": "A good strategy is all about connecting the dots. From this high level business goal to this is the feature we're going to do. It might have many dots in between to help get people from one to the other.",
+      "timestamp": "26:40",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 254
+      },
+      "themes": ["strategy", "alignment", "communication", "execution"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "jackie-bavaro-008",
+      "speaker": "Jackie Bavaro",
+      "text": "Anytime you have disagreements that feel like a battle of wills or a disagreement in values, that's a sign you have a disagreement in strategy. Write down your strategic framework and address the problem at that level.",
+      "timestamp": "34:39",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 319
+      },
+      "themes": ["strategy", "conflict-resolution", "alignment", "decision-making"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "jackie-bavaro-009",
+      "speaker": "Jackie Bavaro",
+      "text": "For your first six months on a product, probably don't worry about strategy. Focus on talking to customers, researching, learning whatever strategy your company already has, and delivering on that strategy.",
+      "timestamp": "33:15",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 309
+      },
+      "themes": ["onboarding", "career-advice", "strategy", "learning"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "jackie-bavaro-010",
+      "speaker": "Jackie Bavaro",
+      "text": "If you make it to senior PM at most big companies, you're making as much as a doctor makes, as much as a lawyer makes. You don't necessarily need to climb the career ladder forever to make a lot of money.",
+      "timestamp": "17:06",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 158,
+        "lineEnd": 160
+      },
+      "themes": ["career-growth", "compensation", "ic-track", "life-advice"],
+      "zones": ["focus"]
+    },
+    {
+      "id": "jackie-bavaro-011",
+      "speaker": "Jackie Bavaro",
+      "text": "Being a manager is not as much fun as being an IC. It's a lonely job. When your team goes out for drinks, they treat you differently when you're the manager. If you want to try it, consider it a two way door.",
+      "timestamp": "16:01",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 154
+      },
+      "themes": ["management", "career-growth", "leadership", "ic-track"],
+      "zones": ["alignment"]
+    }
+  ],
+  "themes": ["strategy", "career-growth", "product-management", "collaboration", "leadership"],
+  "takeaways": [
+    "Strategy has three parts: vision (inspiring future), framework (market + bets), and roadmap (feasibility check)",
+    "The PM role isn't about saying no - interpret others' solutions as them sharing real problems to explore together",
+    "Strategic disagreements often masquerade as values conflicts - address them at the strategy level",
+    "For your first six months, learn and deliver on existing strategy before trying to create new strategy",
+    "Career growth doesn't require management - senior IC roles at top companies pay exceptionally well"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jackie-bavaro-002",
+      "why": "Challenges the common PM advice to be a gatekeeper who says no",
+      "related_zones": ["alignment", "discovery"]
+    },
+    {
+      "quoteId": "jackie-bavaro-011",
+      "why": "Honest about management downsides when most advice pushes people toward leadership",
+      "related_zones": ["alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-strategy", "career-growth", "product-management", "leadership", "interviewing"]
+  }
+}

@@ -1,39 +1,105 @@
-# PM Philosophy Recommendations
+# PM Philosophy Map
 
-> Discover your product management philosophy through an interactive quiz powered by 295 episodes of Lenny's Podcast
+**Discover your product management philosophy through an interactive quiz experience built from 295 episodes of Lenny's Podcast.**
 
-🔗 **Live:** [lenny.productbuilder.net](https://lenny.productbuilder.net)
-
----
-
-## 🎯 What is this?
-
-PM Philosophy Recommendations helps product managers discover their unique approach to building products through a dark sci-fi quiz experience. Every insight, quote, and recommendation is grounded in real transcript data from Lenny's Podcast.
-
-**Key Features:**
-- 🧭 **10-question philosophy quiz** with AI-focused questions
-- 🎨 **Dark sci-fi aesthetic** with 3D starfield and terminal vibes
-- 📊 **8 philosophy zones** (Velocity, Perfection, Discovery, Data, Intuition, Alignment, Chaos, Focus)
-- 🎙️ **295 episodes** with searchable transcripts
-- ✨ **20 curated episodes** with 235 verified quotes
-- 🎯 **Personalized recommendations** based on your philosophy
-- 🔍 **Smart search & filtering** across all episodes
+[**Try the Live Experience**](https://lenny.productbuilder.net)
 
 ---
 
-## 🏗️ Tech Stack
+## What is PM Philosophy Map?
 
-- **Framework:** Next.js 15 (App Router)
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Animation:** Framer Motion
-- **3D Graphics:** Three.js + React Three Fiber
-- **Analytics:** Google Analytics 4
-- **Deployment:** Vercel
+PM Philosophy Map is an interactive web experience where product managers discover their unique approach to building products through a dark sci-fi quiz. Every insight, quote, and recommendation is grounded in real transcript data from Lenny's Podcast - one of the most popular podcasts for product professionals.
+
+Whether you're a Lenny's Podcast superfan looking to explore the archive in a new way, or a developer wanting to build a similar content experience for another podcast, this project has something for you.
 
 ---
 
-## 🚀 Getting Started
+## Features
+
+### Interactive Philosophy Quiz
+Take a 10-question quiz that maps your product philosophy across 8 dimensions:
+- **Velocity** vs **Perfection** - Ship fast or polish relentlessly?
+- **Data** vs **Intuition** - Trust the metrics or go with your gut?
+- **Discovery** vs **Focus** - Explore widely or go deep?
+- **Alignment** vs **Chaos** - Build consensus or move fast and break things?
+
+### Personalized Podcast Recommendations
+After completing the quiz, get personalized episode recommendations:
+- **5 episodes that match your philosophy** - with quotes explaining why
+- **3 contrarian episodes** - perspectives that challenge your worldview
+- **Smart matching** based on 1,200+ verified quotes from 100+ curated episodes
+
+### Episode Deep-Dives
+Every episode page includes:
+- Full searchable transcript with timestamp navigation
+- Embedded YouTube video with timestamp sync
+- Curated quotes with theme filtering
+- Key takeaways and related episodes
+
+### Beautiful Dark Sci-Fi Aesthetic
+- 3D interactive starfield background
+- Terminal-style typography and animations
+- Custom cursor effects and smooth transitions
+- Scanline overlays and glitch effects
+
+---
+
+## For Developers
+
+### Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **Next.js 15** | App Router, SSR, dynamic routes |
+| **TypeScript** | Type-safe development |
+| **Tailwind CSS** | Utility-first styling |
+| **Framer Motion** | Smooth animations |
+| **Three.js + R3F** | 3D starfield graphics |
+| **Google Analytics 4** | Usage analytics |
+
+### Key Features for Reuse
+
+This project demonstrates several patterns useful for content-heavy sites:
+
+**Dynamic Sitemap Generation**
+```
+app/sitemap.ts → Generates 300+ URLs dynamically
+```
+
+**SEO-Optimized OG Images**
+```
+public/og/ → Auto-generated social preview images
+scripts/generate-og-images.js → Batch generation
+```
+
+**Content Curation System**
+```
+data/verified/*.json → Structured quote data
+lib/verifiedQuotes.ts → Quote loading utilities
+```
+
+**Recommendation Engine**
+```
+lib/recommendations.ts → Quiz-to-episode matching
+lib/scoring.ts → Philosophy zone calculations
+```
+
+### Claude AI Skills
+
+This project includes custom Claude Code skills for automated curation:
+
+| Skill | Purpose |
+|-------|---------|
+| `/curate-episode` | Extract verified quotes from transcripts |
+| `/verify-seo` | Audit SEO metadata across all pages |
+| `/verify-sitemap` | Validate dynamic sitemap generation |
+| `/update-og-images` | Manage OpenGraph social images |
+
+Skills are defined in `.claude/skills/` and can be invoked in Claude Code CLI.
+
+---
+
+## Getting Started
 
 ### Prerequisites
 
@@ -54,199 +120,132 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to see the app.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-### Build Commands
+### Available Commands
 
 ```bash
-npm run dev              # Start development server
-npm run build            # Production build
-npm run start            # Start production server
-npm run build:verified   # Validate curated episode data
-npm run stats            # Show coverage statistics
+npm run dev      # Start development server
+npm run build    # Production build
+npm run start    # Start production server
+npm run lint     # Run ESLint
 ```
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 /lenny
-├── app/                         # Next.js App Router pages
-│   ├── page.tsx                 # Landing page (3D starfield)
-│   ├── quiz/                    # 10-question philosophy quiz
-│   ├── results/                 # Philosophy profile & recommendations
-│   ├── episodes/[slug]/         # Individual episode pages
-│   └── explore/                 # Browse all 295 episodes
-├── components/                  # React components
-│   ├── InteractiveSpace.tsx     # 3D starfield background
-│   ├── VerifiedQuotes.tsx       # Curated quote display
-│   ├── EpisodeRecommendationCard.tsx
-│   └── PhilosophyInsightCard.tsx
-├── lib/                         # Core business logic
-│   ├── allEpisodes.ts           # 303 episode metadata
-│   ├── zones.ts                 # 8 philosophy zones
-│   ├── questions.ts             # Quiz questions
-│   ├── scoring.ts               # Quiz → philosophy calculation
-│   ├── recommendations.ts       # Recommendation engine
-│   └── verifiedQuotes.ts        # Quote loading system
-├── data/verified/               # Curated episode JSON files
-│   └── verified-content.json    # Master registry
-├── episodes/                    # Raw transcript markdown files
-├── scripts/                     # Build and curation tools
-└── .claude/                     # Claude AI skills
+├── app/                     # Next.js App Router
+│   ├── page.tsx             # Landing page (3D starfield)
+│   ├── quiz/                # 10-question philosophy quiz
+│   ├── results/             # Philosophy profile & recommendations
+│   ├── explore/             # Browse all episodes
+│   ├── episodes/[slug]/     # Individual episode pages
+│   ├── sitemap.ts           # Dynamic sitemap generation
+│   └── layout.tsx           # Root layout + metadata
+│
+├── components/              # React components
+│   ├── InteractiveSpace.tsx # 3D starfield background
+│   ├── VerifiedQuotes.tsx   # Curated quote display
+│   ├── GoogleAnalytics.tsx  # GA4 integration
+│   └── CustomCursor.tsx     # Sci-fi cursor effect
+│
+├── lib/                     # Core business logic
+│   ├── allEpisodes.ts       # Episode metadata (295 episodes)
+│   ├── zones.ts             # 8 philosophy zones
+│   ├── questions.ts         # Quiz questions
+│   ├── scoring.ts           # Quiz → zone calculations
+│   ├── recommendations.ts   # Episode matching algorithm
+│   ├── verifiedQuotes.ts    # Quote loading system
+│   └── types.ts             # TypeScript definitions
+│
+├── data/verified/           # Curated episode content
+│   ├── brian-chesky.json    # Example curated episode
+│   └── verified-content.json # Master registry
+│
+├── episodes/                # Raw transcript markdown files
+│   └── [slug]/transcript.md # 295 episode transcripts
+│
+├── public/                  # Static assets
+│   ├── og/                  # OG images for each episode
+│   └── og-image.png         # Default OG image
+│
+├── scripts/                 # Build and automation tools
+│   ├── generate-og-images.js
+│   └── parse-all-episodes.js
+│
+└── .claude/                 # Claude AI configuration
+    └── skills/              # Reusable Claude skills
 ```
 
 ---
 
-## 🎨 Design System
+## Content Statistics
 
-### Colors
-
-- **Void:** `#000000` (background)
-- **Amber:** `#ffb347` (primary accent)
-- **Crimson:** `#dc143c` (highlights)
-- **Ash:** `#cccccc` (text)
-
-### Typography
-
-- **Font:** Monospace (terminal aesthetic)
-- **Style:** Bold, uppercase labels with tight tracking
-
-### Effects
-
-- Scanlines overlay (5% opacity)
-- Glitch effect on titles
-- Mouse-reactive 3D starfield
-- Custom cursor with spring physics
+| Metric | Count |
+|--------|-------|
+| Total Episodes | 295 |
+| Curated Episodes | 105 (35.6%) |
+| Verified Quotes | 1,224 |
+| Philosophy Zones | 8 |
+| Quiz Questions | 10 |
 
 ---
 
-## 📊 Current Status
+## Using This as a Template
 
-### Episode Coverage
+Want to build a similar experience for a different podcast? Here's what you'd need to change:
 
-- **Total Episodes:** 302
-- **Curated Episodes:** 20 (6.6%)
-- **Verified Quotes:** 235
-- **Avg Quotes/Episode:** 11.8
+1. **Episodes data** - Replace `episodes/` directory with your transcripts
+2. **Episode metadata** - Update `lib/allEpisodes.ts` with your episode info
+3. **Quiz questions** - Customize `lib/questions.ts` for your content themes
+4. **Philosophy zones** - Adapt `lib/zones.ts` to your domain
+5. **Branding** - Update colors in Tailwind config and component styles
+6. **OG images** - Regenerate using scripts with your branding
 
-### Zone Coverage (All zones at 16+ episodes)
-
-- Focus: 20 episodes ✓
-- Alignment: 18 episodes ✓
-- Perfection: 17 episodes ✓
-- Discovery: 17 episodes ✓
-- Velocity: 16 episodes ✓
-- Data: 16 episodes ✓
-- Intuition: 16 episodes ✓
-- Chaos: 16 episodes ✓
+The core architecture (transcript parsing, quote curation, recommendation engine) is reusable across any podcast content.
 
 ---
 
-## 🛠️ Key Features
+## Contributing
 
-### 1. Interactive Quiz
-
-10 carefully crafted questions that map to 8 philosophy zones:
-- Classic PM trade-offs (speed vs perfection, data vs intuition)
-- Modern AI adoption approaches
-- Decision-making philosophies
-
-### 2. Personalized Recommendations
-
-After completing the quiz, users get:
-- **5 primary recommendations** that match their philosophy
-- **3 contrarian recommendations** to expand their perspective
-- Verified quotes explaining why each episode matches
-- Direct links to episode pages with timestamps
-
-### 3. Episode Pages
-
-Each episode includes:
-- Full searchable transcript
-- YouTube video embed with timestamp sync
-- Curated quotes with theme filtering
-- Key takeaways
-- Related episodes
-
-### 4. Smart Explore Page
-
-Browse all 295 episodes with:
-- Full-text search
-- Keyword filtering (130+ topics)
-- Multiple sort options
-- Personalized recommendations section (if quiz completed)
-- Pagination (24 episodes per page)
-
----
-
-## 🔧 Development
-
-### Adding Curated Episodes
-
-Use the Claude AI skill to curate new episodes:
-
-```bash
-# In Claude Code CLI
-/curate-episode
-```
-
-This will:
-1. Extract 10-12 best quotes from the transcript
-2. Tag quotes with themes and zones
-3. Generate key takeaways
-4. Calculate zone_influence scores
-5. Output to `data/verified/[slug].json`
-
-### Validation
-
-```bash
-npm run build:verified
-```
-
-This validates:
-- All quotes reference real transcript lines
-- No duplicates
-- Proper zone mappings
-- Quote quality (length, timestamps)
-
----
-
-## 📝 Contributing
-
-This is a personal project, but issues and suggestions are welcome!
+This is primarily a personal project, but contributions are welcome!
 
 ### Quality Standards
 
-- **TypeScript:** Strict mode enabled
-- **Styling:** Tailwind only (no custom CSS)
-- **Commits:** Conventional commits (feat, fix, docs, refactor)
-- **Data:** All quotes must be verified with transcript line numbers
+- **TypeScript** strict mode enabled
+- **Tailwind** only for styling (no custom CSS files)
+- **Commits** use conventional format (feat, fix, docs, refactor)
+- **Quotes** must be verified with transcript line numbers
+
+### Reporting Issues
+
+Found a bug or have a suggestion? [Open an issue](https://github.com/renedeanda/lenny/issues).
 
 ---
 
-## 🙏 Credits
+## Credits
 
-- **Podcast:** [Lenny's Podcast](https://www.lennyspodcast.com) by Lenny Rachitsky
-- **Transcripts:** [ChatPRD/lennys-podcast-transcripts](https://github.com/ChatPRD/lennys-podcast-transcripts)
-- **Developer:** [René DeAnda](https://github.com/renedeanda)
-
----
-
-## 📄 License
-
-MIT License - feel free to use this code for your own projects!
+- **Podcast**: [Lenny's Podcast](https://www.lennyspodcast.com) by Lenny Rachitsky
+- **Transcripts**: [ChatPRD/lennys-podcast-transcripts](https://github.com/ChatPRD/lennys-podcast-transcripts)
+- **Developer**: [Rene DeAnda](https://github.com/renedeanda)
 
 ---
 
-## 🔗 Links
+## License
 
-- **Live Site:** https://lenny.productbuilder.net
-- **Repository:** https://github.com/renedeanda/lenny
-- **Lenny's Podcast:** https://www.lennyspodcast.com
-- **Twitter:** [@lennysan](https://twitter.com/lennysan)
+MIT License - feel free to use this code for your own projects.
 
 ---
 
-Built with ❤️ for the PM community
+## Links
+
+- **Live Site**: [lenny.productbuilder.net](https://lenny.productbuilder.net)
+- **Repository**: [github.com/renedeanda/lenny](https://github.com/renedeanda/lenny)
+- **Lenny's Podcast**: [lennyspodcast.com](https://www.lennyspodcast.com)
+
+---
+
+Built with care for the PM community

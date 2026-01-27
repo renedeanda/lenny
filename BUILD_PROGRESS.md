@@ -1837,3 +1837,100 @@ Scaled from 24 to 87 curated episodes - a 263% increase in coverage!
 - Consider topic-based diversity (avoid 3 episodes about "growth" in a row)
 - Add "why this mix" explanation to results page
 - Show guest type badges alongside zone badges
+
+---
+
+## ✅ Session 14: Curation Scale-Up & Documentation Overhaul (Jan 27, 2026)
+
+### 📊 Episode Curation: 5 New Episodes
+
+**New Episodes Curated:**
+
+| Episode | Guest | Key Topics | Quotes |
+|---------|-------|------------|--------|
+| seth-godin | Seth Godin | Brand as promise, smallest viable audience, purple cow, strategic thinking | 11 |
+| jackie-bavaro | Jackie Bavaro | Product strategy, career growth, IC vs manager path, collaboration | 11 |
+| sarah-tavel | Sarah Tavel | Hierarchy of engagement, retention, network effects, core actions | 11 |
+| will-larson | Will Larson | Systems thinking, engineering strategy, writing, cross-functional work | 11 |
+| john-cutler | John Cutler | Team health, learning velocity, organizational dynamics, agile | 11 |
+
+**Updated Statistics:**
+- **Episodes curated:** 105/295 (35.6%) ⬆️ up from 100 (33.9%)
+- **Verified quotes:** 1,224 ⬆️ up from 1,169
+- **Avg quotes/episode:** 11.7
+
+**Zone Coverage (All zones well-represented):**
+- All zones now have 70+ episodes
+- Strong coverage across all philosophy areas
+
+### 📚 Documentation Overhaul
+
+**Comprehensive README.md Rewrite:**
+- Welcoming introduction for first-time visitors
+- Feature showcase with clear benefits
+- Claude AI skills documentation
+- SEO optimization features explained
+- Dual audience targeting (Lenny fans + template users)
+- Open source contribution guidelines
+- Professional formatting with visual hierarchy
+
+### 🗑️ Repository Cleanup Recommendations
+
+**Files Recommended for Deletion:**
+
+| File | Size | Reason | Status |
+|------|------|--------|--------|
+| `Readme-duplicate.md` | 1.6K | Duplicate of README.md | DELETE |
+| `PM_PHILOSOPHY_MAP_PROJECT.md` | 4.9K | Early project overview, superseded by BUILD_PROGRESS.md | DELETE |
+| `SESSION_SUMMARY.md` | 5.4K | Historical session recap, now in BUILD_PROGRESS.md | DELETE |
+| `ENHANCEMENT_PLAN.md` | 7.8K | Outdated roadmap, items completed or documented elsewhere | DELETE |
+
+**Files to Keep:**
+
+| File | Size | Reason |
+|------|------|--------|
+| `README.md` | ~10K | Main project documentation (just rewritten) |
+| `BUILD_PROGRESS.md` | ~75K | Comprehensive project history and status |
+| `WARP.md` | 10.8K | Warp editor integration guide (still relevant) |
+| `RECOMMENDATION_ENGINE_DESIGN.md` | 15.9K | Detailed design doc, valuable reference |
+| `LENNY_TRANSCRIPTS_README.md` | 6.2K | Explains transcript source archive |
+| `LENNY_TRANSCRIPTS_CLAUDE.md` | 3.0K | Claude instructions for transcript work |
+
+**Cleanup Impact:**
+- **Before:** 10 markdown files (120K total)
+- **After:** 6 markdown files (101K total)
+- **Removed:** 4 redundant/outdated files (19K)
+
+**Note:** Cleanup should be executed in a separate commit to keep this session's changes focused on curation and documentation.
+
+### 📁 Files Changed This Session
+
+**Curation (5 new episodes):**
+- `data/verified/seth-godin.json` - NEW
+- `data/verified/jackie-bavaro.json` - NEW
+- `data/verified/sarah-tavel.json` - NEW
+- `data/verified/will-larson.json` - NEW
+- `data/verified/john-cutler.json` - NEW
+
+**Documentation:**
+- `README.md` - Comprehensive rewrite
+- `BUILD_PROGRESS.md` - This update with cleanup recommendations
+
+**Registry:**
+- `data/verified/verified-content.json` - Updated (105 episodes)
+- `lib/verifiedContent.ts` - Regenerated
+
+---
+
+## 📊 Updated Coverage Status (Post-Session 14)
+
+**Episodes Curated:** 105/295 (35.6%) ✅ EXCEEDED 33% TARGET!
+**Verified Quotes:** 1,224
+**Avg quotes/episode:** 11.7
+
+**Milestone Achieved:** First time exceeding 100 curated episodes and 33% coverage target!
+
+**Next Priority:**
+1. Execute repository cleanup (delete 4 redundant files)
+2. Continue scaling curation toward 50% coverage
+3. Implement remaining recommendation engine enhancements

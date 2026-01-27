@@ -1,0 +1,194 @@
+{
+  "slug": "seth-godin",
+  "quotes": [
+    {
+      "id": "seth-godin-001",
+      "speaker": "Seth Godin",
+      "text": "Quality is not luxury. Quality is not perfection. Quality means meeting spec, and if you meet spec, you're done. If you don't think the spec is good enough, make a better spec.",
+      "timestamp": "06:46",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 98,
+        "lineEnd": 98
+      },
+      "themes": ["quality", "standards", "product-craft", "shipping"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "seth-godin-002",
+      "speaker": "Seth Godin",
+      "text": "A brand is a promise. It's what do I expect from you. It's would I miss you if you were gone. Hyatt Hotels has a logo, Nike has a brand. If Nike opened a hotel, we'd know what it would be like.",
+      "timestamp": "16:26",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 146
+      },
+      "themes": ["brand", "positioning", "marketing", "differentiation"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "seth-godin-003",
+      "speaker": "Seth Godin",
+      "text": "AI very soon is going to stop being a feature the same way electricity is not a feature. What AI companies need to do is say, what's in this for the user? What promise do I want to make? A difficult promise, a remarkable promise.",
+      "timestamp": "17:13",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["ai-product-strategy", "positioning", "differentiation", "user-value"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "seth-godin-004",
+      "speaker": "Seth Godin",
+      "text": "I have a very emotional connection to Claude.ai. ChatGPT regularly over promises and under delivers without kindness or humility. Claude brings kindness and humility. I happily pay extra for Claude because it has a brand.",
+      "timestamp": "18:15",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 155,
+        "lineEnd": 155
+      },
+      "themes": ["ai-vs-human", "brand", "user-experience", "differentiation"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "seth-godin-005",
+      "speaker": "Seth Godin",
+      "text": "When you choose your smallest viable audience, what language they speak, how much money they have, what problem they're trying to solve - you have chosen everything that's going to go into the product and what your future is going to be like.",
+      "timestamp": "23:31",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 188,
+        "lineEnd": 188
+      },
+      "themes": ["target-audience", "strategy", "focus", "product-market-fit"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "seth-godin-006",
+      "speaker": "Seth Godin",
+      "text": "Tension is at the heart of every art form and every innovation. Tension is 'it might not work.' When we launch a new product, we say it can do X, and now the person is imagining what their life might be like if that were true.",
+      "timestamp": "27:53",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 215,
+        "lineEnd": 215
+      },
+      "themes": ["strategy", "tension", "innovation", "product-launch"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "seth-godin-007",
+      "speaker": "Seth Godin",
+      "text": "The word remarkable means worth making a remark about. If you make something where the person's life gets better if they talk about you and you know in advance what you want them to say, then they are more likely to say it.",
+      "timestamp": "29:57",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 236,
+        "lineEnd": 236
+      },
+      "themes": ["purple-cow", "word-of-mouth", "growth", "product-marketing"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "seth-godin-008",
+      "speaker": "Seth Godin",
+      "text": "Yahoo had 183 links on the homepage and Google had two. The statement built into that is: we are smart enough to take you where you want to go without you spending time browsing through 183 links. That makes it remarkable.",
+      "timestamp": "31:04",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 239
+      },
+      "themes": ["simplicity", "product-design", "focus", "user-experience"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "seth-godin-009",
+      "speaker": "Seth Godin",
+      "text": "What does it mean to be a strategic thinker? It means to see the system. Systems serve a valuable function until they don't, because then the system starts doing things to support itself, to reinforce itself.",
+      "timestamp": "35:18",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 266,
+        "lineEnd": 266
+      },
+      "themes": ["systems-thinking", "strategy", "mental-models", "organizational-dynamics"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "seth-godin-010",
+      "speaker": "Seth Godin",
+      "text": "When I see people who are great at surfing, they're almost always on good waves. Better waves make better surfers. Are you willing to wait for the superstar who's going to change things or are you in such a hurry that you'll ship mediocre work?",
+      "timestamp": "37:18",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 275,
+        "lineEnd": 275
+      },
+      "themes": ["timing", "talent", "patience", "hiring"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "seth-godin-011",
+      "speaker": "Seth Godin",
+      "text": "You can't paint a picture of where you want to go. You have to paint a picture of where they want to go. It's very difficult to change what people want, but it's pretty helpful to offer people a chance to get to where they always wanted to go.",
+      "timestamp": "43:25",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 305
+      },
+      "themes": ["leadership", "empathy", "vision", "customer-focus"],
+      "zones": ["discovery", "alignment"]
+    }
+  ],
+  "themes": ["brand", "strategy", "marketing", "product-craft", "systems-thinking"],
+  "takeaways": [
+    "Quality means meeting spec - if the spec isn't good enough, make a better spec rather than endlessly polishing",
+    "A brand is a promise you make and keep, not a logo - brands have meaning when customers would pay extra to stay",
+    "Choose your smallest viable audience first - this decision shapes everything about your product and future",
+    "Remarkable products are worth making a remark about - design for word-of-mouth from day one",
+    "Strategic thinking means seeing the invisible systems that shape behavior and outcomes"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "seth-godin-003",
+      "why": "Challenges the AI feature obsession - AI will become invisible like electricity",
+      "related_zones": ["focus"]
+    },
+    {
+      "quoteId": "seth-godin-001",
+      "why": "Perfectionism is hiding - ship when you meet spec",
+      "related_zones": ["velocity", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["marketing", "brand", "strategy", "product-management", "purple-cow"]
+  }
+}

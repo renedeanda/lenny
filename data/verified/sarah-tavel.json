@@ -1,0 +1,194 @@
+{
+  "slug": "sarah-tavel",
+  "quotes": [
+    {
+      "id": "sarah-tavel-001",
+      "speaker": "Sarah Tavel",
+      "text": "Your North Star metric should not be about total active users. You have to understand what are people doing on your product that makes them stick around, that creates value. That's the core action you should be measuring.",
+      "timestamp": "07:30",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 89
+      },
+      "themes": ["metrics", "north-star-metric", "product-analytics", "retention"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "sarah-tavel-002",
+      "speaker": "Sarah Tavel",
+      "text": "The test for me, of whether you're building a product that has the ingredients to create a retentive product, is that the product should get better the more you use it, and you'll have more to lose by leaving it.",
+      "timestamp": "11:03",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 132
+      },
+      "themes": ["retention", "product-design", "accruing-benefits", "network-effects"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "sarah-tavel-003",
+      "speaker": "Sarah Tavel",
+      "text": "Every time a user uses your product, clicking on the mouse or tapping their phone, think of it as kinetic energy they're putting into your product. Your job with a great product is to take that energy and convert it back to the experience.",
+      "timestamp": "14:55",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 178
+      },
+      "themes": ["flywheel", "user-engagement", "growth", "product-design"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "sarah-tavel-004",
+      "speaker": "Sarah Tavel",
+      "text": "The network effect is the strongest thing you can do. If you have that, you have to spend time just maximizing where that shows up, fine-tuning it, removing friction so that it's a flywheel that spins faster and faster.",
+      "timestamp": "15:42",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 181
+      },
+      "themes": ["network-effects", "flywheel", "growth", "product-strategy"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "sarah-tavel-005",
+      "speaker": "Sarah Tavel",
+      "text": "Houseparty and Clubhouse relied on push notifications. When you had so many notifications because you followed more people, you just started ignoring them. Even though the flywheel should be spinning faster, it starts breaking down.",
+      "timestamp": "17:38",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 193
+      },
+      "themes": ["consumer-products", "notifications", "scale-challenges", "growth"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "sarah-tavel-006",
+      "speaker": "Sarah Tavel",
+      "text": "I can't emphasize enough how important focus is when you're building these companies. Every company that succeeds has to be fundamentally different from anything before. But there are first principles - ingredients that they all share.",
+      "timestamp": "19:30",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 197,
+        "lineEnd": 198
+      },
+      "themes": ["focus", "first-principles", "differentiation", "startup-advice"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "sarah-tavel-007",
+      "speaker": "Sarah Tavel",
+      "text": "TikTok spent $1 billion on paid ads to get to where they are today. But they didn't actually put user acquisition spend behind TikTok until they had a product that was retentive. Then they wanted to maximize that.",
+      "timestamp": "21:52",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 206
+      },
+      "themes": ["growth", "paid-acquisition", "retention", "scaling"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "sarah-tavel-008",
+      "speaker": "Sarah Tavel",
+      "text": "Anonymity creates conditions for bad behavior that pulls down the community. You can delete your account, come back three months later, and because of anonymity, your experience isn't any different. Products keep trying it but can't make it persist.",
+      "timestamp": "25:05",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 261
+      },
+      "themes": ["community", "identity", "social-products", "retention"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "sarah-tavel-009",
+      "speaker": "Sarah Tavel",
+      "text": "Number one is actually measuring retention. I can't tell you how many times I suggest to a founder to track cohorts and that's a new thing. Just being really clear and intellectually honest on looking at cohorts is number one.",
+      "timestamp": "27:13",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 293,
+        "lineEnd": 294
+      },
+      "themes": ["metrics", "cohort-analysis", "retention", "founder-advice"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "sarah-tavel-010",
+      "speaker": "Sarah Tavel",
+      "text": "At Pinterest we looked at every action: liking, following, clicking through, pinning. If you pinned something, you had more than 90% probability of coming back the next week. That's how we knew pinning was the core action.",
+      "timestamp": "33:38",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 345
+      },
+      "themes": ["activation", "core-action", "analytics", "north-star-metric"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "sarah-tavel-011",
+      "speaker": "Sarah Tavel",
+      "text": "Shishir Mehrotra from YouTube told me watching a video wasn't the core action - subscribing was. For creators, the more subscribers, the more they had to lose by leaving YouTube. For viewers, subscriptions meant they had creators who really resonated.",
+      "timestamp": "35:59",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 371
+      },
+      "themes": ["core-action", "creator-economy", "two-sided-marketplace", "retention"],
+      "zones": ["discovery", "data"]
+    }
+  ],
+  "themes": ["retention", "network-effects", "consumer-products", "metrics", "growth"],
+  "takeaways": [
+    "Products should get better the more you use them, and you should have more to lose by leaving",
+    "Your North Star metric should be the core action that creates value and makes users stick around",
+    "Network effects are the strongest growth lever - maximize where they show up and remove friction",
+    "Don't pour money into acquisition until you have a retentive product - TikTok spent $1B but only after proving retention",
+    "Anonymous products persistently fail because there's no accruing benefit or mounting loss"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.25,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sarah-tavel-005",
+      "why": "Challenges the assumption that more users always means a stronger flywheel - notifications can backfire at scale",
+      "related_zones": ["chaos", "data"]
+    },
+    {
+      "quoteId": "sarah-tavel-008",
+      "why": "Counters the recurring trend of anonymous social apps - explains why they structurally can't work",
+      "related_zones": ["chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "early_stage",
+    "primary_topics": ["consumer-products", "retention", "network-effects", "growth", "product-market-fit"]
+  }
+}
