@@ -1,12 +1,12 @@
-# Working with Claude on PM Philosophy Map
+# Working with Claude on PM Philosophy Recommendations
 
-This document explains how to effectively collaborate with Claude on the PM Philosophy Map project.
+This document explains how to effectively collaborate with Claude on the PM Philosophy Recommendations project.
 
 ---
 
 ## 🎯 Project Overview
 
-**PM Philosophy Map** is an interactive experience where product managers discover their philosophy through a dark sci-fi quiz built from Lenny's Podcast episodes. Every insight, quote, and recommendation is grounded in actual transcript data.
+**PM Philosophy Recommendations** is an interactive experience where product managers discover their philosophy through a quiz built from Lenny's Podcast episodes. Every insight, quote, and recommendation is grounded in actual transcript data.
 
 **Live Site:** https://lenny.productbuilder.net
 **Repository:** https://github.com/renedeanda/lenny
@@ -34,7 +34,7 @@ This document explains how to effectively collaborate with Claude on the PM Phil
 ├── components/                   # React components
 │   ├── VerifiedQuotes.tsx        # Quote display with filtering
 │   ├── GoogleAnalytics.tsx       # GA4 integration
-│   └── CustomCursor.tsx          # Sci-fi cursor effect
+│   └── CustomCursor.tsx          # Custom cursor effect
 ├── data/                         # Verified episode data
 │   └── verified/                 # Curated episode JSON files
 │       ├── brian-chesky.json     # Example curated episode
@@ -227,7 +227,7 @@ git push
 
 ## 🎨 Design Principles
 
-### Dark Sci-Fi Aesthetic
+### Visual Design
 - **Background:** Pure black (`#000000`)
 - **Primary:** Amber/gold (`#ffb347`)
 - **Secondary:** Crimson (`#dc143c`)
@@ -243,7 +243,7 @@ git push
 ### UX Philosophy
 - **Smooth and delightful:** Animations everywhere
 - **Outside the box:** Not typical SV aesthetic
-- **Mystery:** Dark, exploratory, space-themed
+- **Mystery:** Exploratory experience
 - **No fluff:** Direct, honest, terminal-style
 
 ---
