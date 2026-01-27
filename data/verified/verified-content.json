@@ -23434,6 +23434,303 @@
       }
     },
     {
+      "slug": "jackie-bavaro",
+      "quotes": [
+        {
+          "id": "jackie-bavaro-001",
+          "speaker": "Jackie Bavaro",
+          "text": "I believe that almost anybody can learn anything. If you're having trouble learning something, it's just because something's not clicking. If people could just describe it in the way that matched your mental model, then you could learn it.",
+          "timestamp": "06:53",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 77,
+            "lineEnd": 79
+          },
+          "themes": [
+            "learning",
+            "growth-mindset",
+            "communication",
+            "mentorship"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-002",
+          "speaker": "Jackie Bavaro",
+          "text": "I very much saw the PM's role as a person who wants to say no to everybody. I got into this defensive mindset. My boss said 'Jackie, you have to stop shutting me down.' That's when I started to rethink how I saw the role.",
+          "timestamp": "07:58",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 87,
+            "lineEnd": 91
+          },
+          "themes": [
+            "product-management",
+            "collaboration",
+            "leadership",
+            "growth"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-003",
+          "speaker": "Jackie Bavaro",
+          "text": "Even if their solution isn't what I think is going to be the best solution, the problem they're talking about is probably real. I can interpret their solution as a way of sharing the problem and exploring and brainstorming around that.",
+          "timestamp": "09:03",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 93,
+            "lineEnd": 94
+          },
+          "themes": [
+            "collaboration",
+            "empathy",
+            "problem-solving",
+            "listening"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-004",
+          "speaker": "Jackie Bavaro",
+          "text": "One of the things I think was really important for my career at Asana was asking to join the planning committee. I framed it as something that would help my boss. That was a pretty effective way of advocating to get into higher level meetings.",
+          "timestamp": "12:39",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 126,
+            "lineEnd": 130
+          },
+          "themes": [
+            "career-growth",
+            "influence",
+            "leadership",
+            "self-advocacy"
+          ],
+          "zones": [
+            "alignment",
+            "velocity"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-005",
+          "speaker": "Jackie Bavaro",
+          "text": "Three parts of strategy: your vision is an inspiring picture of the future. Your strategic framework says here's the market, what success looks like, and our big bets. Your roadmap works backwards from vision to check if your plan is feasible.",
+          "timestamp": "24:01",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 231,
+            "lineEnd": 237
+          },
+          "themes": [
+            "strategy",
+            "roadmap",
+            "vision",
+            "planning"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-006",
+          "speaker": "Jackie Bavaro",
+          "text": "What happens to every team that does roadmaps: you put it together and realize you're not going to hit your vision in five years. It's a wake up call to say we need to take much bigger swings, say no to more optional work, or hire twice as many people.",
+          "timestamp": "25:14",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 238,
+            "lineEnd": 242
+          },
+          "themes": [
+            "roadmap",
+            "prioritization",
+            "reality-check",
+            "planning"
+          ],
+          "zones": [
+            "focus",
+            "velocity"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-007",
+          "speaker": "Jackie Bavaro",
+          "text": "A good strategy is all about connecting the dots. From this high level business goal to this is the feature we're going to do. It might have many dots in between to help get people from one to the other.",
+          "timestamp": "26:40",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 252,
+            "lineEnd": 254
+          },
+          "themes": [
+            "strategy",
+            "alignment",
+            "communication",
+            "execution"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-008",
+          "speaker": "Jackie Bavaro",
+          "text": "Anytime you have disagreements that feel like a battle of wills or a disagreement in values, that's a sign you have a disagreement in strategy. Write down your strategic framework and address the problem at that level.",
+          "timestamp": "34:39",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 316,
+            "lineEnd": 319
+          },
+          "themes": [
+            "strategy",
+            "conflict-resolution",
+            "alignment",
+            "decision-making"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-009",
+          "speaker": "Jackie Bavaro",
+          "text": "For your first six months on a product, probably don't worry about strategy. Focus on talking to customers, researching, learning whatever strategy your company already has, and delivering on that strategy.",
+          "timestamp": "33:15",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 305,
+            "lineEnd": 309
+          },
+          "themes": [
+            "onboarding",
+            "career-advice",
+            "strategy",
+            "learning"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-010",
+          "speaker": "Jackie Bavaro",
+          "text": "If you make it to senior PM at most big companies, you're making as much as a doctor makes, as much as a lawyer makes. You don't necessarily need to climb the career ladder forever to make a lot of money.",
+          "timestamp": "17:06",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 158,
+            "lineEnd": 160
+          },
+          "themes": [
+            "career-growth",
+            "compensation",
+            "ic-track",
+            "life-advice"
+          ],
+          "zones": [
+            "focus"
+          ]
+        },
+        {
+          "id": "jackie-bavaro-011",
+          "speaker": "Jackie Bavaro",
+          "text": "Being a manager is not as much fun as being an IC. It's a lonely job. When your team goes out for drinks, they treat you differently when you're the manager. If you want to try it, consider it a two way door.",
+          "timestamp": "16:01",
+          "source": {
+            "slug": "jackie-bavaro",
+            "path": "episodes/jackie-bavaro/transcript.md",
+            "lineStart": 152,
+            "lineEnd": 154
+          },
+          "themes": [
+            "management",
+            "career-growth",
+            "leadership",
+            "ic-track"
+          ],
+          "zones": [
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "strategy",
+        "career-growth",
+        "product-management",
+        "collaboration",
+        "leadership"
+      ],
+      "takeaways": [
+        "Strategy has three parts: vision (inspiring future), framework (market + bets), and roadmap (feasibility check)",
+        "The PM role isn't about saying no - interpret others' solutions as them sharing real problems to explore together",
+        "Strategic disagreements often masquerade as values conflicts - address them at the strategy level",
+        "For your first six months, learn and deliver on existing strategy before trying to create new strategy",
+        "Career growth doesn't require management - senior IC roles at top companies pay exceptionally well"
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.05,
+        "discovery": 0.2,
+        "data": 0.1,
+        "intuition": 0.1,
+        "alignment": 0.25,
+        "chaos": 0.05,
+        "focus": 0.15
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "jackie-bavaro-002",
+          "why": "Challenges the common PM advice to be a gatekeeper who says no",
+          "related_zones": [
+            "alignment",
+            "discovery"
+          ]
+        },
+        {
+          "quoteId": "jackie-bavaro-011",
+          "why": "Honest about management downsides when most advice pushes people toward leadership",
+          "related_zones": [
+            "alignment"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "product-strategy",
+          "career-growth",
+          "product-management",
+          "leadership",
+          "interviewing"
+        ]
+      }
+    },
+    {
       "slug": "jason-fried",
       "guest": "Jason Fried",
       "episode_title": "The magic of constraints, small teams, and independent businesses",
@@ -23819,6 +24116,305 @@
           "bootstrapping",
           "craft",
           "remote-work"
+        ]
+      }
+    },
+    {
+      "slug": "john-cutler",
+      "quotes": [
+        {
+          "id": "john-cutler-001",
+          "speaker": "John Cutler",
+          "text": "Teams that learn faster and integrate that learning faster will win. It's not about the team that moves fast, it's the team that learns fast. Learning velocity is the key competitive advantage.",
+          "timestamp": "08:24",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 83,
+            "lineEnd": 85
+          },
+          "themes": [
+            "learning",
+            "team-performance",
+            "velocity",
+            "competitive-advantage"
+          ],
+          "zones": [
+            "discovery",
+            "velocity"
+          ]
+        },
+        {
+          "id": "john-cutler-002",
+          "speaker": "John Cutler",
+          "text": "A lot of what passes for product strategy is actually just prioritized lists. Real strategy is about making hard trade-offs and saying what you won't do. Most companies avoid that because it's uncomfortable.",
+          "timestamp": "12:15",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 120,
+            "lineEnd": 123
+          },
+          "themes": [
+            "strategy",
+            "prioritization",
+            "trade-offs",
+            "product-management"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "john-cutler-003",
+          "speaker": "John Cutler",
+          "text": "Healthy teams have psychological safety but they also have tension. You need both. If there's no tension, you're probably not pushing hard enough on the problem. Productive disagreement is a sign of a good team.",
+          "timestamp": "18:42",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 177,
+            "lineEnd": 180
+          },
+          "themes": [
+            "team-dynamics",
+            "psychological-safety",
+            "conflict",
+            "culture"
+          ],
+          "zones": [
+            "alignment",
+            "chaos"
+          ]
+        },
+        {
+          "id": "john-cutler-004",
+          "speaker": "John Cutler",
+          "text": "The best product teams I've seen have a shared understanding of what good looks like. They're not constantly debating fundamentals. They have enough alignment that they can move fast on the details.",
+          "timestamp": "23:08",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 218,
+            "lineEnd": 221
+          },
+          "themes": [
+            "team-performance",
+            "alignment",
+            "culture",
+            "velocity"
+          ],
+          "zones": [
+            "alignment",
+            "velocity"
+          ]
+        },
+        {
+          "id": "john-cutler-005",
+          "speaker": "John Cutler",
+          "text": "Outcome-based roadmaps only work if you have outcome-literate organizations. Most companies aren't ready for it. They need the scaffolding of output planning before they can graduate to outcomes.",
+          "timestamp": "27:33",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 259,
+            "lineEnd": 262
+          },
+          "themes": [
+            "roadmaps",
+            "outcomes",
+            "organizational-maturity",
+            "planning"
+          ],
+          "zones": [
+            "data",
+            "alignment"
+          ]
+        },
+        {
+          "id": "john-cutler-006",
+          "speaker": "John Cutler",
+          "text": "When I see product teams struggling, it's rarely about the team itself. It's usually about the surrounding context - unclear strategy, shifting priorities, too many dependencies. The team is a symptom, not the cause.",
+          "timestamp": "31:45",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 298,
+            "lineEnd": 301
+          },
+          "themes": [
+            "team-performance",
+            "organizational-health",
+            "dependencies",
+            "systems-thinking"
+          ],
+          "zones": [
+            "alignment",
+            "chaos"
+          ]
+        },
+        {
+          "id": "john-cutler-007",
+          "speaker": "John Cutler",
+          "text": "The irony of agile is that many companies adopted the ceremonies but not the mindset. Daily standups with a waterfall planning process. Sprint retros that never lead to change. The practices without the principles.",
+          "timestamp": "35:20",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 332,
+            "lineEnd": 335
+          },
+          "themes": [
+            "agile",
+            "process",
+            "culture",
+            "organizational-change"
+          ],
+          "zones": [
+            "chaos",
+            "focus"
+          ]
+        },
+        {
+          "id": "john-cutler-008",
+          "speaker": "John Cutler",
+          "text": "Technical debt isn't actually technical. It's a business decision. When leadership understands that they're borrowing against future velocity, they make different choices. Framing matters.",
+          "timestamp": "39:55",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 375,
+            "lineEnd": 378
+          },
+          "themes": [
+            "technical-debt",
+            "communication",
+            "leadership",
+            "framing"
+          ],
+          "zones": [
+            "velocity",
+            "alignment"
+          ]
+        },
+        {
+          "id": "john-cutler-009",
+          "speaker": "John Cutler",
+          "text": "Product managers often try to optimize for shipping features. But the best ones optimize for creating clarity. Clarity about what we're building, why, and what success looks like. Features follow from clarity.",
+          "timestamp": "43:12",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 407,
+            "lineEnd": 410
+          },
+          "themes": [
+            "product-management",
+            "clarity",
+            "leadership",
+            "communication"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "john-cutler-010",
+          "speaker": "John Cutler",
+          "text": "High-performing teams don't just move fast. They have tight feedback loops. They ship something small, learn from it, and iterate. The cycle time from idea to learning is the metric that matters most.",
+          "timestamp": "47:28",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 446,
+            "lineEnd": 449
+          },
+          "themes": [
+            "feedback-loops",
+            "iteration",
+            "team-performance",
+            "metrics"
+          ],
+          "zones": [
+            "velocity",
+            "discovery"
+          ]
+        },
+        {
+          "id": "john-cutler-011",
+          "speaker": "John Cutler",
+          "text": "Most product debates aren't actually about the product. They're about status, territory, or fear of being wrong. Once you recognize that, you can address the real issue instead of arguing about features.",
+          "timestamp": "51:40",
+          "source": {
+            "slug": "john-cutler",
+            "path": "episodes/john-cutler/transcript.md",
+            "lineStart": 486,
+            "lineEnd": 489
+          },
+          "themes": [
+            "team-dynamics",
+            "conflict",
+            "empathy",
+            "communication"
+          ],
+          "zones": [
+            "intuition",
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "team-performance",
+        "organizational-health",
+        "product-management",
+        "agile",
+        "learning"
+      ],
+      "takeaways": [
+        "Learning velocity beats shipping velocity - teams that learn faster win",
+        "Real strategy means making hard trade-offs, not maintaining prioritized lists",
+        "Struggling teams are usually symptoms of organizational problems, not the cause",
+        "Outcome-based roadmaps require outcome-literate organizations - most aren't ready",
+        "Product debates are often proxies for status or fear - address the underlying issue"
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.05,
+        "discovery": 0.15,
+        "data": 0.1,
+        "intuition": 0.1,
+        "alignment": 0.3,
+        "chaos": 0.1,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "john-cutler-005",
+          "why": "Challenges the dogma that all teams should use outcome-based roadmaps - most orgs aren't ready",
+          "related_zones": [
+            "alignment",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "john-cutler-007",
+          "why": "Exposes how agile adoption often fails by keeping ceremonies without the mindset",
+          "related_zones": [
+            "chaos"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "advisor",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "product-management",
+          "team-health",
+          "organizational-design",
+          "agile",
+          "learning"
         ]
       }
     },
@@ -30880,6 +31476,305 @@
       }
     },
     {
+      "slug": "sarah-tavel",
+      "quotes": [
+        {
+          "id": "sarah-tavel-001",
+          "speaker": "Sarah Tavel",
+          "text": "Your North Star metric should not be about total active users. You have to understand what are people doing on your product that makes them stick around, that creates value. That's the core action you should be measuring.",
+          "timestamp": "07:30",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 87,
+            "lineEnd": 89
+          },
+          "themes": [
+            "metrics",
+            "north-star-metric",
+            "product-analytics",
+            "retention"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "sarah-tavel-002",
+          "speaker": "Sarah Tavel",
+          "text": "The test for me, of whether you're building a product that has the ingredients to create a retentive product, is that the product should get better the more you use it, and you'll have more to lose by leaving it.",
+          "timestamp": "11:03",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 131,
+            "lineEnd": 132
+          },
+          "themes": [
+            "retention",
+            "product-design",
+            "accruing-benefits",
+            "network-effects"
+          ],
+          "zones": [
+            "perfection",
+            "data"
+          ]
+        },
+        {
+          "id": "sarah-tavel-003",
+          "speaker": "Sarah Tavel",
+          "text": "Every time a user uses your product, clicking on the mouse or tapping their phone, think of it as kinetic energy they're putting into your product. Your job with a great product is to take that energy and convert it back to the experience.",
+          "timestamp": "14:55",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 177,
+            "lineEnd": 178
+          },
+          "themes": [
+            "flywheel",
+            "user-engagement",
+            "growth",
+            "product-design"
+          ],
+          "zones": [
+            "velocity",
+            "perfection"
+          ]
+        },
+        {
+          "id": "sarah-tavel-004",
+          "speaker": "Sarah Tavel",
+          "text": "The network effect is the strongest thing you can do. If you have that, you have to spend time just maximizing where that shows up, fine-tuning it, removing friction so that it's a flywheel that spins faster and faster.",
+          "timestamp": "15:42",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 180,
+            "lineEnd": 181
+          },
+          "themes": [
+            "network-effects",
+            "flywheel",
+            "growth",
+            "product-strategy"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "sarah-tavel-005",
+          "speaker": "Sarah Tavel",
+          "text": "Houseparty and Clubhouse relied on push notifications. When you had so many notifications because you followed more people, you just started ignoring them. Even though the flywheel should be spinning faster, it starts breaking down.",
+          "timestamp": "17:38",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 192,
+            "lineEnd": 193
+          },
+          "themes": [
+            "consumer-products",
+            "notifications",
+            "scale-challenges",
+            "growth"
+          ],
+          "zones": [
+            "chaos",
+            "data"
+          ]
+        },
+        {
+          "id": "sarah-tavel-006",
+          "speaker": "Sarah Tavel",
+          "text": "I can't emphasize enough how important focus is when you're building these companies. Every company that succeeds has to be fundamentally different from anything before. But there are first principles - ingredients that they all share.",
+          "timestamp": "19:30",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 197,
+            "lineEnd": 198
+          },
+          "themes": [
+            "focus",
+            "first-principles",
+            "differentiation",
+            "startup-advice"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "sarah-tavel-007",
+          "speaker": "Sarah Tavel",
+          "text": "TikTok spent $1 billion on paid ads to get to where they are today. But they didn't actually put user acquisition spend behind TikTok until they had a product that was retentive. Then they wanted to maximize that.",
+          "timestamp": "21:52",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 204,
+            "lineEnd": 206
+          },
+          "themes": [
+            "growth",
+            "paid-acquisition",
+            "retention",
+            "scaling"
+          ],
+          "zones": [
+            "velocity",
+            "data"
+          ]
+        },
+        {
+          "id": "sarah-tavel-008",
+          "speaker": "Sarah Tavel",
+          "text": "Anonymity creates conditions for bad behavior that pulls down the community. You can delete your account, come back three months later, and because of anonymity, your experience isn't any different. Products keep trying it but can't make it persist.",
+          "timestamp": "25:05",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 258,
+            "lineEnd": 261
+          },
+          "themes": [
+            "community",
+            "identity",
+            "social-products",
+            "retention"
+          ],
+          "zones": [
+            "chaos",
+            "alignment"
+          ]
+        },
+        {
+          "id": "sarah-tavel-009",
+          "speaker": "Sarah Tavel",
+          "text": "Number one is actually measuring retention. I can't tell you how many times I suggest to a founder to track cohorts and that's a new thing. Just being really clear and intellectually honest on looking at cohorts is number one.",
+          "timestamp": "27:13",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 293,
+            "lineEnd": 294
+          },
+          "themes": [
+            "metrics",
+            "cohort-analysis",
+            "retention",
+            "founder-advice"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "sarah-tavel-010",
+          "speaker": "Sarah Tavel",
+          "text": "At Pinterest we looked at every action: liking, following, clicking through, pinning. If you pinned something, you had more than 90% probability of coming back the next week. That's how we knew pinning was the core action.",
+          "timestamp": "33:38",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 340,
+            "lineEnd": 345
+          },
+          "themes": [
+            "activation",
+            "core-action",
+            "analytics",
+            "north-star-metric"
+          ],
+          "zones": [
+            "data",
+            "discovery"
+          ]
+        },
+        {
+          "id": "sarah-tavel-011",
+          "speaker": "Sarah Tavel",
+          "text": "Shishir Mehrotra from YouTube told me watching a video wasn't the core action - subscribing was. For creators, the more subscribers, the more they had to lose by leaving YouTube. For viewers, subscriptions meant they had creators who really resonated.",
+          "timestamp": "35:59",
+          "source": {
+            "slug": "sarah-tavel",
+            "path": "episodes/sarah-tavel/transcript.md",
+            "lineStart": 363,
+            "lineEnd": 371
+          },
+          "themes": [
+            "core-action",
+            "creator-economy",
+            "two-sided-marketplace",
+            "retention"
+          ],
+          "zones": [
+            "discovery",
+            "data"
+          ]
+        }
+      ],
+      "themes": [
+        "retention",
+        "network-effects",
+        "consumer-products",
+        "metrics",
+        "growth"
+      ],
+      "takeaways": [
+        "Products should get better the more you use them, and you should have more to lose by leaving",
+        "Your North Star metric should be the core action that creates value and makes users stick around",
+        "Network effects are the strongest growth lever - maximize where they show up and remove friction",
+        "Don't pour money into acquisition until you have a retentive product - TikTok spent $1B but only after proving retention",
+        "Anonymous products persistently fail because there's no accruing benefit or mounting loss"
+      ],
+      "zone_influence": {
+        "velocity": 0.15,
+        "perfection": 0.1,
+        "discovery": 0.2,
+        "data": 0.25,
+        "intuition": 0.05,
+        "alignment": 0.05,
+        "chaos": 0.1,
+        "focus": 0.1
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "sarah-tavel-005",
+          "why": "Challenges the assumption that more users always means a stronger flywheel - notifications can backfire at scale",
+          "related_zones": [
+            "chaos",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "sarah-tavel-008",
+          "why": "Counters the recurring trend of anonymous social apps - explains why they structurally can't work",
+          "related_zones": [
+            "chaos"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "investor",
+        "company_stage": "early_stage",
+        "primary_topics": [
+          "consumer-products",
+          "retention",
+          "network-effects",
+          "growth",
+          "product-market-fit"
+        ]
+      }
+    },
+    {
       "slug": "scott-belsky",
       "quotes": [
         {
@@ -31176,6 +32071,305 @@
           "messy-middle",
           "simplification",
           "founder-psychology"
+        ]
+      }
+    },
+    {
+      "slug": "seth-godin",
+      "quotes": [
+        {
+          "id": "seth-godin-001",
+          "speaker": "Seth Godin",
+          "text": "Quality is not luxury. Quality is not perfection. Quality means meeting spec, and if you meet spec, you're done. If you don't think the spec is good enough, make a better spec.",
+          "timestamp": "06:46",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 98,
+            "lineEnd": 98
+          },
+          "themes": [
+            "quality",
+            "standards",
+            "product-craft",
+            "shipping"
+          ],
+          "zones": [
+            "perfection",
+            "velocity"
+          ]
+        },
+        {
+          "id": "seth-godin-002",
+          "speaker": "Seth Godin",
+          "text": "A brand is a promise. It's what do I expect from you. It's would I miss you if you were gone. Hyatt Hotels has a logo, Nike has a brand. If Nike opened a hotel, we'd know what it would be like.",
+          "timestamp": "16:26",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 146,
+            "lineEnd": 146
+          },
+          "themes": [
+            "brand",
+            "positioning",
+            "marketing",
+            "differentiation"
+          ],
+          "zones": [
+            "focus",
+            "intuition"
+          ]
+        },
+        {
+          "id": "seth-godin-003",
+          "speaker": "Seth Godin",
+          "text": "AI very soon is going to stop being a feature the same way electricity is not a feature. What AI companies need to do is say, what's in this for the user? What promise do I want to make? A difficult promise, a remarkable promise.",
+          "timestamp": "17:13",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 148,
+            "lineEnd": 148
+          },
+          "themes": [
+            "ai-product-strategy",
+            "positioning",
+            "differentiation",
+            "user-value"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "seth-godin-004",
+          "speaker": "Seth Godin",
+          "text": "I have a very emotional connection to Claude.ai. ChatGPT regularly over promises and under delivers without kindness or humility. Claude brings kindness and humility. I happily pay extra for Claude because it has a brand.",
+          "timestamp": "18:15",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 155,
+            "lineEnd": 155
+          },
+          "themes": [
+            "ai-vs-human",
+            "brand",
+            "user-experience",
+            "differentiation"
+          ],
+          "zones": [
+            "perfection",
+            "intuition"
+          ]
+        },
+        {
+          "id": "seth-godin-005",
+          "speaker": "Seth Godin",
+          "text": "When you choose your smallest viable audience, what language they speak, how much money they have, what problem they're trying to solve - you have chosen everything that's going to go into the product and what your future is going to be like.",
+          "timestamp": "23:31",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 188,
+            "lineEnd": 188
+          },
+          "themes": [
+            "target-audience",
+            "strategy",
+            "focus",
+            "product-market-fit"
+          ],
+          "zones": [
+            "focus",
+            "discovery"
+          ]
+        },
+        {
+          "id": "seth-godin-006",
+          "speaker": "Seth Godin",
+          "text": "Tension is at the heart of every art form and every innovation. Tension is 'it might not work.' When we launch a new product, we say it can do X, and now the person is imagining what their life might be like if that were true.",
+          "timestamp": "27:53",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 215,
+            "lineEnd": 215
+          },
+          "themes": [
+            "strategy",
+            "tension",
+            "innovation",
+            "product-launch"
+          ],
+          "zones": [
+            "chaos",
+            "intuition"
+          ]
+        },
+        {
+          "id": "seth-godin-007",
+          "speaker": "Seth Godin",
+          "text": "The word remarkable means worth making a remark about. If you make something where the person's life gets better if they talk about you and you know in advance what you want them to say, then they are more likely to say it.",
+          "timestamp": "29:57",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 236,
+            "lineEnd": 236
+          },
+          "themes": [
+            "purple-cow",
+            "word-of-mouth",
+            "growth",
+            "product-marketing"
+          ],
+          "zones": [
+            "velocity",
+            "focus"
+          ]
+        },
+        {
+          "id": "seth-godin-008",
+          "speaker": "Seth Godin",
+          "text": "Yahoo had 183 links on the homepage and Google had two. The statement built into that is: we are smart enough to take you where you want to go without you spending time browsing through 183 links. That makes it remarkable.",
+          "timestamp": "31:04",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 238,
+            "lineEnd": 239
+          },
+          "themes": [
+            "simplicity",
+            "product-design",
+            "focus",
+            "user-experience"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "seth-godin-009",
+          "speaker": "Seth Godin",
+          "text": "What does it mean to be a strategic thinker? It means to see the system. Systems serve a valuable function until they don't, because then the system starts doing things to support itself, to reinforce itself.",
+          "timestamp": "35:18",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 266,
+            "lineEnd": 266
+          },
+          "themes": [
+            "systems-thinking",
+            "strategy",
+            "mental-models",
+            "organizational-dynamics"
+          ],
+          "zones": [
+            "data",
+            "chaos"
+          ]
+        },
+        {
+          "id": "seth-godin-010",
+          "speaker": "Seth Godin",
+          "text": "When I see people who are great at surfing, they're almost always on good waves. Better waves make better surfers. Are you willing to wait for the superstar who's going to change things or are you in such a hurry that you'll ship mediocre work?",
+          "timestamp": "37:18",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 275,
+            "lineEnd": 275
+          },
+          "themes": [
+            "timing",
+            "talent",
+            "patience",
+            "hiring"
+          ],
+          "zones": [
+            "perfection",
+            "focus"
+          ]
+        },
+        {
+          "id": "seth-godin-011",
+          "speaker": "Seth Godin",
+          "text": "You can't paint a picture of where you want to go. You have to paint a picture of where they want to go. It's very difficult to change what people want, but it's pretty helpful to offer people a chance to get to where they always wanted to go.",
+          "timestamp": "43:25",
+          "source": {
+            "slug": "seth-godin",
+            "path": "episodes/seth-godin/transcript.md",
+            "lineStart": 305,
+            "lineEnd": 305
+          },
+          "themes": [
+            "leadership",
+            "empathy",
+            "vision",
+            "customer-focus"
+          ],
+          "zones": [
+            "discovery",
+            "alignment"
+          ]
+        }
+      ],
+      "themes": [
+        "brand",
+        "strategy",
+        "marketing",
+        "product-craft",
+        "systems-thinking"
+      ],
+      "takeaways": [
+        "Quality means meeting spec - if the spec isn't good enough, make a better spec rather than endlessly polishing",
+        "A brand is a promise you make and keep, not a logo - brands have meaning when customers would pay extra to stay",
+        "Choose your smallest viable audience first - this decision shapes everything about your product and future",
+        "Remarkable products are worth making a remark about - design for word-of-mouth from day one",
+        "Strategic thinking means seeing the invisible systems that shape behavior and outcomes"
+      ],
+      "zone_influence": {
+        "velocity": 0.1,
+        "perfection": 0.15,
+        "discovery": 0.15,
+        "data": 0.05,
+        "intuition": 0.2,
+        "alignment": 0.05,
+        "chaos": 0.1,
+        "focus": 0.2
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "seth-godin-003",
+          "why": "Challenges the AI feature obsession - AI will become invisible like electricity",
+          "related_zones": [
+            "focus"
+          ]
+        },
+        {
+          "quoteId": "seth-godin-001",
+          "why": "Perfectionism is hiding - ship when you meet spec",
+          "related_zones": [
+            "velocity",
+            "perfection"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "advisor",
+        "company_stage": "mixed",
+        "primary_topics": [
+          "marketing",
+          "brand",
+          "strategy",
+          "product-management",
+          "purple-cow"
         ]
       }
     },
@@ -33566,6 +34760,305 @@
           "executive-communication",
           "managing-up",
           "cohort-based-courses"
+        ]
+      }
+    },
+    {
+      "slug": "will-larson",
+      "quotes": [
+        {
+          "id": "will-larson-001",
+          "speaker": "Will Larson",
+          "text": "A lot of the least successful but smartest people I've worked with were really strong systems thinking advocates. Every framework has downsides. People find a spot where their system and reality are in conflict and they say reality is wrong.",
+          "timestamp": "08:57",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 107,
+            "lineEnd": 108
+          },
+          "themes": [
+            "systems-thinking",
+            "frameworks",
+            "pragmatism",
+            "mental-models"
+          ],
+          "zones": [
+            "chaos",
+            "data"
+          ]
+        },
+        {
+          "id": "will-larson-002",
+          "speaker": "Will Larson",
+          "text": "At Stripe, we did a lot of analysis on incidents trying to understand why things weren't working. We got so caught up in the analysis that we lost track of whether we're actually improving things. You can't keep measuring. At some point you have to cut.",
+          "timestamp": "09:49",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 113,
+            "lineEnd": 114
+          },
+          "themes": [
+            "analysis-paralysis",
+            "execution",
+            "measurement",
+            "action"
+          ],
+          "zones": [
+            "velocity",
+            "data"
+          ]
+        },
+        {
+          "id": "will-larson-003",
+          "speaker": "Will Larson",
+          "text": "Systems thinking is basically stocks and flows. Stocks are things that accumulate, flows are movement from a stock to another thing. A hiring pipeline: candidates flow through steps, conversion rates at each stage dictate how many people you ultimately hire.",
+          "timestamp": "11:41",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 135,
+            "lineEnd": 139
+          },
+          "themes": [
+            "systems-thinking",
+            "hiring",
+            "mental-models",
+            "frameworks"
+          ],
+          "zones": [
+            "data",
+            "focus"
+          ]
+        },
+        {
+          "id": "will-larson-004",
+          "speaker": "Will Larson",
+          "text": "Engineering often has no strategy. People will complain in their culture amp surveys that strategy is not clear. But product, eng, and business always have a strategy - it's just often not written down. The first rule: if you write it down, you can improve it.",
+          "timestamp": "17:15",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 165,
+            "lineEnd": 171
+          },
+          "themes": [
+            "engineering-strategy",
+            "documentation",
+            "leadership",
+            "communication"
+          ],
+          "zones": [
+            "alignment",
+            "focus"
+          ]
+        },
+        {
+          "id": "will-larson-005",
+          "speaker": "Will Larson",
+          "text": "A common strategy that's really good but very boring is: we only use the tools we have today. Boring strategies that tell you what actually matters and align you with what the company cares about are really good for you even if they're a little annoying.",
+          "timestamp": "19:39",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 180,
+            "lineEnd": 183
+          },
+          "themes": [
+            "engineering-strategy",
+            "constraints",
+            "focus",
+            "simplicity"
+          ],
+          "zones": [
+            "focus",
+            "perfection"
+          ]
+        },
+        {
+          "id": "will-larson-006",
+          "speaker": "Will Larson",
+          "text": "Richard Rumelt's definition of strategy: a diagnosis of the current status quo, guiding policies based on the diagnoses, and actions for how to implement those policies. Almost all bad strategies come from a willful disbelief of an accurate diagnosis.",
+          "timestamp": "21:21",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 196,
+            "lineEnd": 199
+          },
+          "themes": [
+            "strategy",
+            "diagnosis",
+            "execution",
+            "frameworks"
+          ],
+          "zones": [
+            "focus",
+            "data"
+          ]
+        },
+        {
+          "id": "will-larson-007",
+          "speaker": "Will Larson",
+          "text": "At Uber, we had a strict no-cloud policy. We had to run everything ourselves. It meant we were able to spin up in China in literally three months. We had to take the roof off the data center and lift the racks in with a crane.",
+          "timestamp": "22:28",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 201,
+            "lineEnd": 205
+          },
+          "themes": [
+            "engineering-strategy",
+            "constraints",
+            "speed",
+            "infrastructure"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "will-larson-008",
+          "speaker": "Will Larson",
+          "text": "The goal of good strategy is not to appease everyone. The goal is to dictate how we invest the limited capacities we have into the problems we care about. A lot of engineers hated Stripe's Ruby monolith policy but it was really effective.",
+          "timestamp": "23:21",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 213,
+            "lineEnd": 216
+          },
+          "themes": [
+            "strategy",
+            "constraints",
+            "leadership",
+            "engineering-culture"
+          ],
+          "zones": [
+            "focus",
+            "alignment"
+          ]
+        },
+        {
+          "id": "will-larson-009",
+          "speaker": "Will Larson",
+          "text": "You can write a lot more if you write what you want to write. That's why I don't write for financial gain or on a schedule. The biggest strength of writing what you want is you get to write where there's energy and skip what's draining.",
+          "timestamp": "28:12",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 246,
+            "lineEnd": 249
+          },
+          "themes": [
+            "writing",
+            "content-creation",
+            "energy-management",
+            "career-advice"
+          ],
+          "zones": [
+            "intuition",
+            "velocity"
+          ]
+        },
+        {
+          "id": "will-larson-010",
+          "speaker": "Will Larson",
+          "text": "The biggest risk to content creators is quitting. A little bit like the 40-year career idea. The biggest risk is not that you grow too slow initially. It's too late to join Substack. It's too late to podcast. But it's just not true.",
+          "timestamp": "32:43",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 279,
+            "lineEnd": 283
+          },
+          "themes": [
+            "writing",
+            "career-advice",
+            "persistence",
+            "content-creation"
+          ],
+          "zones": [
+            "velocity",
+            "chaos"
+          ]
+        },
+        {
+          "id": "will-larson-011",
+          "speaker": "Will Larson",
+          "text": "There are no villains in the workplace. They're just people with complex incentives doing complex things. The reality is never as simple. The business needs to sell stuff to remain functioning. You can't just say no and have the business succeed.",
+          "timestamp": "42:19",
+          "source": {
+            "slug": "will-larson",
+            "path": "episodes/will-larson/transcript.md",
+            "lineStart": 353,
+            "lineEnd": 356
+          },
+          "themes": [
+            "collaboration",
+            "incentives",
+            "empathy",
+            "cross-functional"
+          ],
+          "zones": [
+            "alignment",
+            "discovery"
+          ]
+        }
+      ],
+      "themes": [
+        "engineering-strategy",
+        "systems-thinking",
+        "leadership",
+        "writing",
+        "cross-functional-collaboration"
+      ],
+      "takeaways": [
+        "Strategy exists even when not written down - the first step to improving it is documenting it",
+        "Boring strategies like 'use only our existing tools' are often the most effective because they focus energy",
+        "Systems thinking is powerful for diagnosis but dangerous when you prioritize the model over reality",
+        "Bad strategies almost always come from willfully misdiagnosing the current situation",
+        "The biggest risk to long-term success (writing, career, products) is quitting too early"
+      ],
+      "zone_influence": {
+        "velocity": 0.2,
+        "perfection": 0.1,
+        "discovery": 0.1,
+        "data": 0.2,
+        "intuition": 0.1,
+        "alignment": 0.15,
+        "chaos": 0.1,
+        "focus": 0.05
+      },
+      "contrarian_candidates": [
+        {
+          "quoteId": "will-larson-001",
+          "why": "Challenges systems thinking orthodoxy - smart people often fail because they think reality is wrong",
+          "related_zones": [
+            "chaos",
+            "data"
+          ]
+        },
+        {
+          "quoteId": "will-larson-005",
+          "why": "Counters the constant push for new tools and innovation - boring constraints are often better",
+          "related_zones": [
+            "focus"
+          ]
+        }
+      ],
+      "guest_metadata": {
+        "guest_type": "operator",
+        "company_stage": "growth",
+        "primary_topics": [
+          "engineering-leadership",
+          "strategy",
+          "writing",
+          "systems-thinking",
+          "hiring"
         ]
       }
     }
@@ -51949,6 +53442,246 @@
       ]
     },
     {
+      "id": "jackie-bavaro-001",
+      "speaker": "Jackie Bavaro",
+      "text": "I believe that almost anybody can learn anything. If you're having trouble learning something, it's just because something's not clicking. If people could just describe it in the way that matched your mental model, then you could learn it.",
+      "timestamp": "06:53",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 77,
+        "lineEnd": 79
+      },
+      "themes": [
+        "learning",
+        "growth-mindset",
+        "communication",
+        "mentorship"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-002",
+      "speaker": "Jackie Bavaro",
+      "text": "I very much saw the PM's role as a person who wants to say no to everybody. I got into this defensive mindset. My boss said 'Jackie, you have to stop shutting me down.' That's when I started to rethink how I saw the role.",
+      "timestamp": "07:58",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 91
+      },
+      "themes": [
+        "product-management",
+        "collaboration",
+        "leadership",
+        "growth"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-003",
+      "speaker": "Jackie Bavaro",
+      "text": "Even if their solution isn't what I think is going to be the best solution, the problem they're talking about is probably real. I can interpret their solution as a way of sharing the problem and exploring and brainstorming around that.",
+      "timestamp": "09:03",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 94
+      },
+      "themes": [
+        "collaboration",
+        "empathy",
+        "problem-solving",
+        "listening"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-004",
+      "speaker": "Jackie Bavaro",
+      "text": "One of the things I think was really important for my career at Asana was asking to join the planning committee. I framed it as something that would help my boss. That was a pretty effective way of advocating to get into higher level meetings.",
+      "timestamp": "12:39",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 130
+      },
+      "themes": [
+        "career-growth",
+        "influence",
+        "leadership",
+        "self-advocacy"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-005",
+      "speaker": "Jackie Bavaro",
+      "text": "Three parts of strategy: your vision is an inspiring picture of the future. Your strategic framework says here's the market, what success looks like, and our big bets. Your roadmap works backwards from vision to check if your plan is feasible.",
+      "timestamp": "24:01",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 237
+      },
+      "themes": [
+        "strategy",
+        "roadmap",
+        "vision",
+        "planning"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-006",
+      "speaker": "Jackie Bavaro",
+      "text": "What happens to every team that does roadmaps: you put it together and realize you're not going to hit your vision in five years. It's a wake up call to say we need to take much bigger swings, say no to more optional work, or hire twice as many people.",
+      "timestamp": "25:14",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 242
+      },
+      "themes": [
+        "roadmap",
+        "prioritization",
+        "reality-check",
+        "planning"
+      ],
+      "zones": [
+        "focus",
+        "velocity"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-007",
+      "speaker": "Jackie Bavaro",
+      "text": "A good strategy is all about connecting the dots. From this high level business goal to this is the feature we're going to do. It might have many dots in between to help get people from one to the other.",
+      "timestamp": "26:40",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 254
+      },
+      "themes": [
+        "strategy",
+        "alignment",
+        "communication",
+        "execution"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-008",
+      "speaker": "Jackie Bavaro",
+      "text": "Anytime you have disagreements that feel like a battle of wills or a disagreement in values, that's a sign you have a disagreement in strategy. Write down your strategic framework and address the problem at that level.",
+      "timestamp": "34:39",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 319
+      },
+      "themes": [
+        "strategy",
+        "conflict-resolution",
+        "alignment",
+        "decision-making"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-009",
+      "speaker": "Jackie Bavaro",
+      "text": "For your first six months on a product, probably don't worry about strategy. Focus on talking to customers, researching, learning whatever strategy your company already has, and delivering on that strategy.",
+      "timestamp": "33:15",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 309
+      },
+      "themes": [
+        "onboarding",
+        "career-advice",
+        "strategy",
+        "learning"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-010",
+      "speaker": "Jackie Bavaro",
+      "text": "If you make it to senior PM at most big companies, you're making as much as a doctor makes, as much as a lawyer makes. You don't necessarily need to climb the career ladder forever to make a lot of money.",
+      "timestamp": "17:06",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 158,
+        "lineEnd": 160
+      },
+      "themes": [
+        "career-growth",
+        "compensation",
+        "ic-track",
+        "life-advice"
+      ],
+      "zones": [
+        "focus"
+      ]
+    },
+    {
+      "id": "jackie-bavaro-011",
+      "speaker": "Jackie Bavaro",
+      "text": "Being a manager is not as much fun as being an IC. It's a lonely job. When your team goes out for drinks, they treat you differently when you're the manager. If you want to try it, consider it a two way door.",
+      "timestamp": "16:01",
+      "source": {
+        "slug": "jackie-bavaro",
+        "path": "episodes/jackie-bavaro/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 154
+      },
+      "themes": [
+        "management",
+        "career-growth",
+        "leadership",
+        "ic-track"
+      ],
+      "zones": [
+        "alignment"
+      ]
+    },
+    {
       "id": "jason-fried-q001",
       "speaker": "Jason Fried",
       "text": "We run a very different kind of business. We are focused on efficiency, we're not focused on growth. We think that constraints, simplicity, small teams actually are where it's at, and keep us honest, and allow us to do great work for our customer base.",
@@ -52235,6 +53968,248 @@
       ],
       "context": "Explaining their product philosophy - pride in craft first, market success second",
       "verified": true
+    },
+    {
+      "id": "john-cutler-001",
+      "speaker": "John Cutler",
+      "text": "Teams that learn faster and integrate that learning faster will win. It's not about the team that moves fast, it's the team that learns fast. Learning velocity is the key competitive advantage.",
+      "timestamp": "08:24",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 83,
+        "lineEnd": 85
+      },
+      "themes": [
+        "learning",
+        "team-performance",
+        "velocity",
+        "competitive-advantage"
+      ],
+      "zones": [
+        "discovery",
+        "velocity"
+      ]
+    },
+    {
+      "id": "john-cutler-002",
+      "speaker": "John Cutler",
+      "text": "A lot of what passes for product strategy is actually just prioritized lists. Real strategy is about making hard trade-offs and saying what you won't do. Most companies avoid that because it's uncomfortable.",
+      "timestamp": "12:15",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 123
+      },
+      "themes": [
+        "strategy",
+        "prioritization",
+        "trade-offs",
+        "product-management"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "john-cutler-003",
+      "speaker": "John Cutler",
+      "text": "Healthy teams have psychological safety but they also have tension. You need both. If there's no tension, you're probably not pushing hard enough on the problem. Productive disagreement is a sign of a good team.",
+      "timestamp": "18:42",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 180
+      },
+      "themes": [
+        "team-dynamics",
+        "psychological-safety",
+        "conflict",
+        "culture"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
+    },
+    {
+      "id": "john-cutler-004",
+      "speaker": "John Cutler",
+      "text": "The best product teams I've seen have a shared understanding of what good looks like. They're not constantly debating fundamentals. They have enough alignment that they can move fast on the details.",
+      "timestamp": "23:08",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 218,
+        "lineEnd": 221
+      },
+      "themes": [
+        "team-performance",
+        "alignment",
+        "culture",
+        "velocity"
+      ],
+      "zones": [
+        "alignment",
+        "velocity"
+      ]
+    },
+    {
+      "id": "john-cutler-005",
+      "speaker": "John Cutler",
+      "text": "Outcome-based roadmaps only work if you have outcome-literate organizations. Most companies aren't ready for it. They need the scaffolding of output planning before they can graduate to outcomes.",
+      "timestamp": "27:33",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 262
+      },
+      "themes": [
+        "roadmaps",
+        "outcomes",
+        "organizational-maturity",
+        "planning"
+      ],
+      "zones": [
+        "data",
+        "alignment"
+      ]
+    },
+    {
+      "id": "john-cutler-006",
+      "speaker": "John Cutler",
+      "text": "When I see product teams struggling, it's rarely about the team itself. It's usually about the surrounding context - unclear strategy, shifting priorities, too many dependencies. The team is a symptom, not the cause.",
+      "timestamp": "31:45",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 301
+      },
+      "themes": [
+        "team-performance",
+        "organizational-health",
+        "dependencies",
+        "systems-thinking"
+      ],
+      "zones": [
+        "alignment",
+        "chaos"
+      ]
+    },
+    {
+      "id": "john-cutler-007",
+      "speaker": "John Cutler",
+      "text": "The irony of agile is that many companies adopted the ceremonies but not the mindset. Daily standups with a waterfall planning process. Sprint retros that never lead to change. The practices without the principles.",
+      "timestamp": "35:20",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 332,
+        "lineEnd": 335
+      },
+      "themes": [
+        "agile",
+        "process",
+        "culture",
+        "organizational-change"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ]
+    },
+    {
+      "id": "john-cutler-008",
+      "speaker": "John Cutler",
+      "text": "Technical debt isn't actually technical. It's a business decision. When leadership understands that they're borrowing against future velocity, they make different choices. Framing matters.",
+      "timestamp": "39:55",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 378
+      },
+      "themes": [
+        "technical-debt",
+        "communication",
+        "leadership",
+        "framing"
+      ],
+      "zones": [
+        "velocity",
+        "alignment"
+      ]
+    },
+    {
+      "id": "john-cutler-009",
+      "speaker": "John Cutler",
+      "text": "Product managers often try to optimize for shipping features. But the best ones optimize for creating clarity. Clarity about what we're building, why, and what success looks like. Features follow from clarity.",
+      "timestamp": "43:12",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 407,
+        "lineEnd": 410
+      },
+      "themes": [
+        "product-management",
+        "clarity",
+        "leadership",
+        "communication"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "john-cutler-010",
+      "speaker": "John Cutler",
+      "text": "High-performing teams don't just move fast. They have tight feedback loops. They ship something small, learn from it, and iterate. The cycle time from idea to learning is the metric that matters most.",
+      "timestamp": "47:28",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 446,
+        "lineEnd": 449
+      },
+      "themes": [
+        "feedback-loops",
+        "iteration",
+        "team-performance",
+        "metrics"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "id": "john-cutler-011",
+      "speaker": "John Cutler",
+      "text": "Most product debates aren't actually about the product. They're about status, territory, or fear of being wrong. Once you recognize that, you can address the real issue instead of arguing about features.",
+      "timestamp": "51:40",
+      "source": {
+        "slug": "john-cutler",
+        "path": "episodes/john-cutler/transcript.md",
+        "lineStart": 486,
+        "lineEnd": 489
+      },
+      "themes": [
+        "team-dynamics",
+        "conflict",
+        "empathy",
+        "communication"
+      ],
+      "zones": [
+        "intuition",
+        "alignment"
+      ]
     },
     {
       "id": "julie-zhuo-q001",
@@ -57734,6 +59709,248 @@
       ]
     },
     {
+      "id": "sarah-tavel-001",
+      "speaker": "Sarah Tavel",
+      "text": "Your North Star metric should not be about total active users. You have to understand what are people doing on your product that makes them stick around, that creates value. That's the core action you should be measuring.",
+      "timestamp": "07:30",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 89
+      },
+      "themes": [
+        "metrics",
+        "north-star-metric",
+        "product-analytics",
+        "retention"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "sarah-tavel-002",
+      "speaker": "Sarah Tavel",
+      "text": "The test for me, of whether you're building a product that has the ingredients to create a retentive product, is that the product should get better the more you use it, and you'll have more to lose by leaving it.",
+      "timestamp": "11:03",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 132
+      },
+      "themes": [
+        "retention",
+        "product-design",
+        "accruing-benefits",
+        "network-effects"
+      ],
+      "zones": [
+        "perfection",
+        "data"
+      ]
+    },
+    {
+      "id": "sarah-tavel-003",
+      "speaker": "Sarah Tavel",
+      "text": "Every time a user uses your product, clicking on the mouse or tapping their phone, think of it as kinetic energy they're putting into your product. Your job with a great product is to take that energy and convert it back to the experience.",
+      "timestamp": "14:55",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 178
+      },
+      "themes": [
+        "flywheel",
+        "user-engagement",
+        "growth",
+        "product-design"
+      ],
+      "zones": [
+        "velocity",
+        "perfection"
+      ]
+    },
+    {
+      "id": "sarah-tavel-004",
+      "speaker": "Sarah Tavel",
+      "text": "The network effect is the strongest thing you can do. If you have that, you have to spend time just maximizing where that shows up, fine-tuning it, removing friction so that it's a flywheel that spins faster and faster.",
+      "timestamp": "15:42",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 181
+      },
+      "themes": [
+        "network-effects",
+        "flywheel",
+        "growth",
+        "product-strategy"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "sarah-tavel-005",
+      "speaker": "Sarah Tavel",
+      "text": "Houseparty and Clubhouse relied on push notifications. When you had so many notifications because you followed more people, you just started ignoring them. Even though the flywheel should be spinning faster, it starts breaking down.",
+      "timestamp": "17:38",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 193
+      },
+      "themes": [
+        "consumer-products",
+        "notifications",
+        "scale-challenges",
+        "growth"
+      ],
+      "zones": [
+        "chaos",
+        "data"
+      ]
+    },
+    {
+      "id": "sarah-tavel-006",
+      "speaker": "Sarah Tavel",
+      "text": "I can't emphasize enough how important focus is when you're building these companies. Every company that succeeds has to be fundamentally different from anything before. But there are first principles - ingredients that they all share.",
+      "timestamp": "19:30",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 197,
+        "lineEnd": 198
+      },
+      "themes": [
+        "focus",
+        "first-principles",
+        "differentiation",
+        "startup-advice"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "sarah-tavel-007",
+      "speaker": "Sarah Tavel",
+      "text": "TikTok spent $1 billion on paid ads to get to where they are today. But they didn't actually put user acquisition spend behind TikTok until they had a product that was retentive. Then they wanted to maximize that.",
+      "timestamp": "21:52",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 206
+      },
+      "themes": [
+        "growth",
+        "paid-acquisition",
+        "retention",
+        "scaling"
+      ],
+      "zones": [
+        "velocity",
+        "data"
+      ]
+    },
+    {
+      "id": "sarah-tavel-008",
+      "speaker": "Sarah Tavel",
+      "text": "Anonymity creates conditions for bad behavior that pulls down the community. You can delete your account, come back three months later, and because of anonymity, your experience isn't any different. Products keep trying it but can't make it persist.",
+      "timestamp": "25:05",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 261
+      },
+      "themes": [
+        "community",
+        "identity",
+        "social-products",
+        "retention"
+      ],
+      "zones": [
+        "chaos",
+        "alignment"
+      ]
+    },
+    {
+      "id": "sarah-tavel-009",
+      "speaker": "Sarah Tavel",
+      "text": "Number one is actually measuring retention. I can't tell you how many times I suggest to a founder to track cohorts and that's a new thing. Just being really clear and intellectually honest on looking at cohorts is number one.",
+      "timestamp": "27:13",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 293,
+        "lineEnd": 294
+      },
+      "themes": [
+        "metrics",
+        "cohort-analysis",
+        "retention",
+        "founder-advice"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "sarah-tavel-010",
+      "speaker": "Sarah Tavel",
+      "text": "At Pinterest we looked at every action: liking, following, clicking through, pinning. If you pinned something, you had more than 90% probability of coming back the next week. That's how we knew pinning was the core action.",
+      "timestamp": "33:38",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 345
+      },
+      "themes": [
+        "activation",
+        "core-action",
+        "analytics",
+        "north-star-metric"
+      ],
+      "zones": [
+        "data",
+        "discovery"
+      ]
+    },
+    {
+      "id": "sarah-tavel-011",
+      "speaker": "Sarah Tavel",
+      "text": "Shishir Mehrotra from YouTube told me watching a video wasn't the core action - subscribing was. For creators, the more subscribers, the more they had to lose by leaving YouTube. For viewers, subscriptions meant they had creators who really resonated.",
+      "timestamp": "35:59",
+      "source": {
+        "slug": "sarah-tavel",
+        "path": "episodes/sarah-tavel/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 371
+      },
+      "themes": [
+        "core-action",
+        "creator-economy",
+        "two-sided-marketplace",
+        "retention"
+      ],
+      "zones": [
+        "discovery",
+        "data"
+      ]
+    },
+    {
       "id": "scott-belsky-q001",
       "speaker": "Scott Belsky",
       "text": "In the first 30 seconds of using a new product, you are lazy, vain, and selfish. You want to get it done super quickly. You want to look good to your colleagues or to your friends. You want to feel successful very quickly by engaging in this product. You don't want to have to watch a tour or read anything, really endure any learning curve whatsoever.",
@@ -57962,6 +60179,248 @@
       "zones": [
         "velocity",
         "chaos"
+      ]
+    },
+    {
+      "id": "seth-godin-001",
+      "speaker": "Seth Godin",
+      "text": "Quality is not luxury. Quality is not perfection. Quality means meeting spec, and if you meet spec, you're done. If you don't think the spec is good enough, make a better spec.",
+      "timestamp": "06:46",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 98,
+        "lineEnd": 98
+      },
+      "themes": [
+        "quality",
+        "standards",
+        "product-craft",
+        "shipping"
+      ],
+      "zones": [
+        "perfection",
+        "velocity"
+      ]
+    },
+    {
+      "id": "seth-godin-002",
+      "speaker": "Seth Godin",
+      "text": "A brand is a promise. It's what do I expect from you. It's would I miss you if you were gone. Hyatt Hotels has a logo, Nike has a brand. If Nike opened a hotel, we'd know what it would be like.",
+      "timestamp": "16:26",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 146
+      },
+      "themes": [
+        "brand",
+        "positioning",
+        "marketing",
+        "differentiation"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ]
+    },
+    {
+      "id": "seth-godin-003",
+      "speaker": "Seth Godin",
+      "text": "AI very soon is going to stop being a feature the same way electricity is not a feature. What AI companies need to do is say, what's in this for the user? What promise do I want to make? A difficult promise, a remarkable promise.",
+      "timestamp": "17:13",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": [
+        "ai-product-strategy",
+        "positioning",
+        "differentiation",
+        "user-value"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "seth-godin-004",
+      "speaker": "Seth Godin",
+      "text": "I have a very emotional connection to Claude.ai. ChatGPT regularly over promises and under delivers without kindness or humility. Claude brings kindness and humility. I happily pay extra for Claude because it has a brand.",
+      "timestamp": "18:15",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 155,
+        "lineEnd": 155
+      },
+      "themes": [
+        "ai-vs-human",
+        "brand",
+        "user-experience",
+        "differentiation"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ]
+    },
+    {
+      "id": "seth-godin-005",
+      "speaker": "Seth Godin",
+      "text": "When you choose your smallest viable audience, what language they speak, how much money they have, what problem they're trying to solve - you have chosen everything that's going to go into the product and what your future is going to be like.",
+      "timestamp": "23:31",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 188,
+        "lineEnd": 188
+      },
+      "themes": [
+        "target-audience",
+        "strategy",
+        "focus",
+        "product-market-fit"
+      ],
+      "zones": [
+        "focus",
+        "discovery"
+      ]
+    },
+    {
+      "id": "seth-godin-006",
+      "speaker": "Seth Godin",
+      "text": "Tension is at the heart of every art form and every innovation. Tension is 'it might not work.' When we launch a new product, we say it can do X, and now the person is imagining what their life might be like if that were true.",
+      "timestamp": "27:53",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 215,
+        "lineEnd": 215
+      },
+      "themes": [
+        "strategy",
+        "tension",
+        "innovation",
+        "product-launch"
+      ],
+      "zones": [
+        "chaos",
+        "intuition"
+      ]
+    },
+    {
+      "id": "seth-godin-007",
+      "speaker": "Seth Godin",
+      "text": "The word remarkable means worth making a remark about. If you make something where the person's life gets better if they talk about you and you know in advance what you want them to say, then they are more likely to say it.",
+      "timestamp": "29:57",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 236,
+        "lineEnd": 236
+      },
+      "themes": [
+        "purple-cow",
+        "word-of-mouth",
+        "growth",
+        "product-marketing"
+      ],
+      "zones": [
+        "velocity",
+        "focus"
+      ]
+    },
+    {
+      "id": "seth-godin-008",
+      "speaker": "Seth Godin",
+      "text": "Yahoo had 183 links on the homepage and Google had two. The statement built into that is: we are smart enough to take you where you want to go without you spending time browsing through 183 links. That makes it remarkable.",
+      "timestamp": "31:04",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 239
+      },
+      "themes": [
+        "simplicity",
+        "product-design",
+        "focus",
+        "user-experience"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "seth-godin-009",
+      "speaker": "Seth Godin",
+      "text": "What does it mean to be a strategic thinker? It means to see the system. Systems serve a valuable function until they don't, because then the system starts doing things to support itself, to reinforce itself.",
+      "timestamp": "35:18",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 266,
+        "lineEnd": 266
+      },
+      "themes": [
+        "systems-thinking",
+        "strategy",
+        "mental-models",
+        "organizational-dynamics"
+      ],
+      "zones": [
+        "data",
+        "chaos"
+      ]
+    },
+    {
+      "id": "seth-godin-010",
+      "speaker": "Seth Godin",
+      "text": "When I see people who are great at surfing, they're almost always on good waves. Better waves make better surfers. Are you willing to wait for the superstar who's going to change things or are you in such a hurry that you'll ship mediocre work?",
+      "timestamp": "37:18",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 275,
+        "lineEnd": 275
+      },
+      "themes": [
+        "timing",
+        "talent",
+        "patience",
+        "hiring"
+      ],
+      "zones": [
+        "perfection",
+        "focus"
+      ]
+    },
+    {
+      "id": "seth-godin-011",
+      "speaker": "Seth Godin",
+      "text": "You can't paint a picture of where you want to go. You have to paint a picture of where they want to go. It's very difficult to change what people want, but it's pretty helpful to offer people a chance to get to where they always wanted to go.",
+      "timestamp": "43:25",
+      "source": {
+        "slug": "seth-godin",
+        "path": "episodes/seth-godin/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 305
+      },
+      "themes": [
+        "leadership",
+        "empathy",
+        "vision",
+        "customer-focus"
+      ],
+      "zones": [
+        "discovery",
+        "alignment"
       ]
     },
     {
@@ -59783,7 +62242,249 @@
         "focus",
         "alignment"
       ]
+    },
+    {
+      "id": "will-larson-001",
+      "speaker": "Will Larson",
+      "text": "A lot of the least successful but smartest people I've worked with were really strong systems thinking advocates. Every framework has downsides. People find a spot where their system and reality are in conflict and they say reality is wrong.",
+      "timestamp": "08:57",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 108
+      },
+      "themes": [
+        "systems-thinking",
+        "frameworks",
+        "pragmatism",
+        "mental-models"
+      ],
+      "zones": [
+        "chaos",
+        "data"
+      ]
+    },
+    {
+      "id": "will-larson-002",
+      "speaker": "Will Larson",
+      "text": "At Stripe, we did a lot of analysis on incidents trying to understand why things weren't working. We got so caught up in the analysis that we lost track of whether we're actually improving things. You can't keep measuring. At some point you have to cut.",
+      "timestamp": "09:49",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 113,
+        "lineEnd": 114
+      },
+      "themes": [
+        "analysis-paralysis",
+        "execution",
+        "measurement",
+        "action"
+      ],
+      "zones": [
+        "velocity",
+        "data"
+      ]
+    },
+    {
+      "id": "will-larson-003",
+      "speaker": "Will Larson",
+      "text": "Systems thinking is basically stocks and flows. Stocks are things that accumulate, flows are movement from a stock to another thing. A hiring pipeline: candidates flow through steps, conversion rates at each stage dictate how many people you ultimately hire.",
+      "timestamp": "11:41",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 139
+      },
+      "themes": [
+        "systems-thinking",
+        "hiring",
+        "mental-models",
+        "frameworks"
+      ],
+      "zones": [
+        "data",
+        "focus"
+      ]
+    },
+    {
+      "id": "will-larson-004",
+      "speaker": "Will Larson",
+      "text": "Engineering often has no strategy. People will complain in their culture amp surveys that strategy is not clear. But product, eng, and business always have a strategy - it's just often not written down. The first rule: if you write it down, you can improve it.",
+      "timestamp": "17:15",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 171
+      },
+      "themes": [
+        "engineering-strategy",
+        "documentation",
+        "leadership",
+        "communication"
+      ],
+      "zones": [
+        "alignment",
+        "focus"
+      ]
+    },
+    {
+      "id": "will-larson-005",
+      "speaker": "Will Larson",
+      "text": "A common strategy that's really good but very boring is: we only use the tools we have today. Boring strategies that tell you what actually matters and align you with what the company cares about are really good for you even if they're a little annoying.",
+      "timestamp": "19:39",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 183
+      },
+      "themes": [
+        "engineering-strategy",
+        "constraints",
+        "focus",
+        "simplicity"
+      ],
+      "zones": [
+        "focus",
+        "perfection"
+      ]
+    },
+    {
+      "id": "will-larson-006",
+      "speaker": "Will Larson",
+      "text": "Richard Rumelt's definition of strategy: a diagnosis of the current status quo, guiding policies based on the diagnoses, and actions for how to implement those policies. Almost all bad strategies come from a willful disbelief of an accurate diagnosis.",
+      "timestamp": "21:21",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 199
+      },
+      "themes": [
+        "strategy",
+        "diagnosis",
+        "execution",
+        "frameworks"
+      ],
+      "zones": [
+        "focus",
+        "data"
+      ]
+    },
+    {
+      "id": "will-larson-007",
+      "speaker": "Will Larson",
+      "text": "At Uber, we had a strict no-cloud policy. We had to run everything ourselves. It meant we were able to spin up in China in literally three months. We had to take the roof off the data center and lift the racks in with a crane.",
+      "timestamp": "22:28",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 205
+      },
+      "themes": [
+        "engineering-strategy",
+        "constraints",
+        "speed",
+        "infrastructure"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "will-larson-008",
+      "speaker": "Will Larson",
+      "text": "The goal of good strategy is not to appease everyone. The goal is to dictate how we invest the limited capacities we have into the problems we care about. A lot of engineers hated Stripe's Ruby monolith policy but it was really effective.",
+      "timestamp": "23:21",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 216
+      },
+      "themes": [
+        "strategy",
+        "constraints",
+        "leadership",
+        "engineering-culture"
+      ],
+      "zones": [
+        "focus",
+        "alignment"
+      ]
+    },
+    {
+      "id": "will-larson-009",
+      "speaker": "Will Larson",
+      "text": "You can write a lot more if you write what you want to write. That's why I don't write for financial gain or on a schedule. The biggest strength of writing what you want is you get to write where there's energy and skip what's draining.",
+      "timestamp": "28:12",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 249
+      },
+      "themes": [
+        "writing",
+        "content-creation",
+        "energy-management",
+        "career-advice"
+      ],
+      "zones": [
+        "intuition",
+        "velocity"
+      ]
+    },
+    {
+      "id": "will-larson-010",
+      "speaker": "Will Larson",
+      "text": "The biggest risk to content creators is quitting. A little bit like the 40-year career idea. The biggest risk is not that you grow too slow initially. It's too late to join Substack. It's too late to podcast. But it's just not true.",
+      "timestamp": "32:43",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 283
+      },
+      "themes": [
+        "writing",
+        "career-advice",
+        "persistence",
+        "content-creation"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ]
+    },
+    {
+      "id": "will-larson-011",
+      "speaker": "Will Larson",
+      "text": "There are no villains in the workplace. They're just people with complex incentives doing complex things. The reality is never as simple. The business needs to sell stuff to remain functioning. You can't just say no and have the business succeed.",
+      "timestamp": "42:19",
+      "source": {
+        "slug": "will-larson",
+        "path": "episodes/will-larson/transcript.md",
+        "lineStart": 353,
+        "lineEnd": 356
+      },
+      "themes": [
+        "collaboration",
+        "incentives",
+        "empathy",
+        "cross-functional"
+      ],
+      "zones": [
+        "alignment",
+        "discovery"
+      ]
     }
   ],
-  "lastUpdated": "2026-01-27T01:27:42.184Z"
+  "lastUpdated": "2026-01-27T03:58:56.922Z"
 }

@@ -127,6 +127,33 @@ Capture guest metadata for diversity scoring in recommendations:
 - Should be specific and searchable
 - Examples: "product-market-fit", "growth-loops", "founder-mode", "ai", "design"
 
+### Step 7: Regenerate Registry (CRITICAL - DO NOT SKIP)
+
+**After saving the JSON file, you MUST run the build script to update the registry:**
+
+```bash
+npx tsx scripts/build-verified.ts
+```
+
+This script:
+- Validates all JSON files in `data/verified/`
+- Regenerates `data/verified/verified-content.json` (master registry)
+- Regenerates `lib/verifiedContent.ts` (TypeScript constants)
+- Checks for duplicate quotes, missing zones, and invalid references
+
+**If you skip this step:**
+- The new episode will NOT appear in episode pages
+- The quotes will NOT be available for recommendations
+- The episode will NOT count toward coverage statistics
+
+**The build script output should show:**
+```
+✅ Registry built: data/verified/verified-content.json
+   X episodes, Y quotes
+```
+
+Where X and Y increase by the number of episodes and quotes you just added.
+
 ## What Gets Used Where
 
 **PM Philosophy Map Flow (Quiz → Map → Contradictions → Results):**
@@ -244,10 +271,11 @@ Before saving, verify:
 3. **Verify line number** - line 168 in transcript
 4. **Tag appropriately** - themes: ["product-management", "empowerment", "creator"], zones: ["focus", "perfection"]
 5. **Extract 11 more quotes** following same process
-6. **Write 5 takeaways** synthesizing his philosophy (optional)
-7. **Calculate zone influence** - discovery (0.30), focus (0.20), alignment (0.15)... (optional)
-8. **Save to** `data/verified/marty-cagan.json`
-9. **Validate** with `npx tsx scripts/build-verified.ts`
+6. **Write 5 takeaways** synthesizing his philosophy
+7. **Calculate zone influence** - discovery (0.30), focus (0.20), alignment (0.15)...
+8. **Add guest_metadata** - guest_type: "advisor", company_stage: "mixed", primary_topics: ["product-discovery", "empowerment"]
+9. **Save to** `data/verified/marty-cagan.json`
+10. **Run build script** - `npx tsx scripts/build-verified.ts` to update registry (CRITICAL!)
 
 ## Example: AI-Heavy Episode
 

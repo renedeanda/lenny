@@ -36,6 +36,7 @@ export default function ExplorePage() {
   const [selectedKeywords, setSelectedKeywords] = useState<string[]>(initialState?.selectedKeywords || []);
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
+  const [showCuratedOnly, setShowCuratedOnly] = useState(initialState?.showCuratedOnly || false);
   const [currentPage, setCurrentPage] = useState(1);
   const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
   const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
@@ -54,12 +55,13 @@ export default function ExplorePage() {
         selectedKeywords,
         sortBy,
         showFilters,
+        showCuratedOnly,
         showRecommendations
       }));
     } catch (e) {
       // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters, showRecommendations]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, showCuratedOnly, showRecommendations]);
 
   // Check if user has quiz results and generate recommendations
   useEffect(() => {
@@ -91,14 +93,20 @@ export default function ExplorePage() {
   }, []);
 
   const filteredAndSortedEpisodes = useMemo(() => {
-    const filtered = searchEpisodes(searchQuery, { keywords: selectedKeywords });
+    let filtered = searchEpisodes(searchQuery, { keywords: selectedKeywords });
+
+    // Filter to curated episodes only if toggle is on
+    if (showCuratedOnly) {
+      filtered = filtered.filter(ep => enrichedSlugs.has(ep.slug));
+    }
+
     return sortEpisodes(filtered, sortBy);
-  }, [searchQuery, selectedKeywords, sortBy]);
+  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, enrichedSlugs]);
 
   // Reset to page 1 when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchQuery, selectedKeywords, sortBy]);
+  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly]);
 
   // Scroll to top on page change
   useEffect(() => {
@@ -124,6 +132,7 @@ export default function ExplorePage() {
   const clearFilters = () => {
     setSearchQuery('');
     setSelectedKeywords([]);
+    setShowCuratedOnly(false);
   };
 
   return (
@@ -292,6 +301,23 @@ export default function ExplorePage() {
               </div>
 
               <div className="flex gap-2">
+                {/* Curated Only Toggle */}
+                <button
+                  onClick={() => setShowCuratedOnly(!showCuratedOnly)}
+                  className={`px-4 py-4 border-2 transition-all flex items-center gap-2
+                           ${showCuratedOnly
+                      ? 'border-amber bg-amber text-void'
+                      : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
+                    }`}
+                  title={`${enrichedSlugs.size} curated episodes with verified quotes`}
+                >
+                  <Sparkles className="w-4 h-4" />
+                  <span className="hidden sm:inline">CURATED</span>
+                  <span className="bg-void/20 text-current rounded px-1.5 py-0.5 text-xs font-bold">
+                    {enrichedSlugs.size}
+                  </span>
+                </button>
+
                 <button
                   onClick={() => setShowFilters(!showFilters)}
                   className={`px-6 py-4 border-2 transition-all flex items-center gap-2
@@ -488,10 +514,14 @@ export default function ExplorePage() {
             transition={{ delay: 0.4 }}
             className="mt-16 pt-8 border-t-2 border-ash-darker text-center"
           >
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-8">
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">{allEpisodes.length}</div>
                 <div className="text-xs text-ash tracking-wider">TOTAL EPISODES</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-amber mb-1">{enrichedSlugs.size}</div>
+                <div className="text-xs text-ash tracking-wider">CURATED</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">{allKeywords.length}</div>
@@ -505,7 +535,7 @@ export default function ExplorePage() {
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">
-                  {selectedKeywords.length}
+                  {selectedKeywords.length + (showCuratedOnly ? 1 : 0)}
                 </div>
                 <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
               </div>
