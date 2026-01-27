@@ -16,7 +16,7 @@ Extract verified quotes from Lenny's Podcast episode transcripts to power the PM
 
 ## Context
 - **Project**: PM Philosophy Map - interactive product philosophy discovery experience
-- **Data Source**: 303 episode transcripts in `episodes/{slug}/transcript.md`
+- **Data Source**: Episode transcripts in `episodes/{slug}/transcript.md`
 - **Output**: Verified JSON files in `data/verified/{slug}.json`
 - **Validation**: `scripts/build-verified.ts` ensures all content is valid
 
@@ -309,14 +309,10 @@ This will:
 - Show coverage statistics
 - Generate registry files
 
-## Coverage Goals
-
-**Current**: 8/303 episodes (2.6%)
-**Target**: 100+ episodes (33%)
-**Per Zone**: 10+ episodes each
+## Coverage Stats
 
 Run `npx tsx scripts/curation-stats.ts` to see:
-- Current progress toward goals
+- Current progress and episode coverage
 - Which zones need more coverage
 - Recommended episodes to curate next
 - Theme distribution
