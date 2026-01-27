@@ -118,15 +118,10 @@ export default async function Image() {
             bottom: 40,
             display: 'flex',
             alignItems: 'center',
-            gap: 16,
           }}
         >
-          <span style={{ color: '#666', fontSize: 20 }}>
-            PM Philosophy Map
-          </span>
-          <span style={{ color: '#333', fontSize: 20 }}>•</span>
-          <span style={{ color: '#666', fontSize: 20 }}>
-            lenny.productbuilder.net
+          <span style={{ color: '#ffb347', fontSize: 24, letterSpacing: 2 }}>
+            LENNY.PRODUCTBUILDER.NET
           </span>
         </div>
       </div>
