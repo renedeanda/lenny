@@ -10,9 +10,10 @@ export default function CustomCursor() {
   const cursorX = useMotionValue(0);
   const cursorY = useMotionValue(0);
 
-  const springConfig = { damping: 50, stiffness: 800, mass: 0.2 };
-  const cursorXSpring = useSpring(cursorX, springConfig);
-  const cursorYSpring = useSpring(cursorY, springConfig);
+  // Inner dot trails slightly behind for a subtle effect
+  const springConfig = { damping: 30, stiffness: 200 };
+  const dotXSpring = useSpring(cursorX, springConfig);
+  const dotYSpring = useSpring(cursorY, springConfig);
 
   useEffect(() => {
     const moveCursor = (e: MouseEvent) => {
@@ -68,25 +69,25 @@ export default function CustomCursor() {
 
   return (
     <>
-      {/* Main cursor */}
+      {/* Main cursor ring - tracks 1:1 with mouse, no lag */}
       <motion.div
         className="fixed w-8 h-8 border-2 border-amber/50 rounded-full pointer-events-none z-[9999] mix-blend-difference"
         style={{
-          left: cursorXSpring,
-          top: cursorYSpring,
+          left: cursorX,
+          top: cursorY,
           translateX: '-50%',
           translateY: '-50%',
           scale: isHovering ? 1.5 : 1,
         }}
         transition={{ scale: { duration: 0.15 } }}
       />
-      
-      {/* Inner dot */}
+
+      {/* Inner dot - trails slightly for visual flair */}
       <motion.div
         className="fixed w-2 h-2 bg-amber rounded-full pointer-events-none z-[9999] mix-blend-difference"
         style={{
-          left: cursorXSpring,
-          top: cursorYSpring,
+          left: dotXSpring,
+          top: dotYSpring,
           translateX: '-50%',
           translateY: '-50%',
           opacity: isHovering ? 0 : 1,
