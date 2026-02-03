@@ -38,7 +38,7 @@ export default function ExplorePage() {
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
   const [showCuratedOnly, setShowCuratedOnly] = useState(initialState?.showCuratedOnly || false);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState<number>(initialState?.currentPage || 1);
   const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
   const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
   const [favoriteEpisodeSlugs, setFavoriteEpisodeSlugs] = useState<Set<string>>(new Set());
@@ -77,12 +77,13 @@ export default function ExplorePage() {
         sortBy,
         showFilters,
         showCuratedOnly,
-        showRecommendations
+        showRecommendations,
+        currentPage
       }));
     } catch (e) {
       // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters, showCuratedOnly, showRecommendations]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, showCuratedOnly, showRecommendations, currentPage]);
 
   // Check if user has quiz results and generate recommendations
   useEffect(() => {
@@ -124,18 +125,36 @@ export default function ExplorePage() {
     return sortEpisodes(filtered, sortBy);
   }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, enrichedSlugs]);
 
-  // Reset to page 1 when filters change
+  // Reset to page 1 when filters change (but not on initial mount)
+  const filtersInitialized = useRef(false);
   useEffect(() => {
+    if (!filtersInitialized.current) {
+      filtersInitialized.current = true;
+      return;
+    }
     setCurrentPage(1);
   }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly]);
 
-  // Scroll to top on page change
+  // Scroll to top on page change (but not on initial mount)
+  const pageInitialized = useRef(false);
   useEffect(() => {
+    if (!pageInitialized.current) {
+      pageInitialized.current = true;
+      return;
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage]);
 
   // Paginate results
   const totalPages = Math.ceil(filteredAndSortedEpisodes.length / EPISODES_PER_PAGE);
+
+  // Clamp page if it exceeds total (e.g., restored state with different filters)
+  useEffect(() => {
+    if (totalPages > 0 && currentPage > totalPages) {
+      setCurrentPage(totalPages);
+    }
+  }, [totalPages, currentPage]);
+
   const paginatedEpisodes = useMemo(() => {
     const startIndex = (currentPage - 1) * EPISODES_PER_PAGE;
     const endIndex = startIndex + EPISODES_PER_PAGE;
