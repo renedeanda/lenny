@@ -1,8 +1,8 @@
 ---
 guest: Matt Mochary
 title: Are your fears giving you terrible advice? | Matt Mochary
-youtube_url: https://www.youtube.com/watch?v=qOrwVtZvdaE
-video_id: qOrwVtZvdaE
+youtube_url: https://www.youtube.com/watch?v=bCel0X2Ta7U
+video_id: bCel0X2Ta7U
 publish_date: 2023-01-17
 description: 'From episode: (https://youtu.be/bCel0X2Ta7U) How to fire people with
   grace, work through fear, and nurture innovation | Matt Mochary (CEO coach)
@@ -12,8 +12,8 @@ description: 'From episode: (https://youtu.be/bCel0X2Ta7U) How to fire people wi
   Matt Mochary, CEO of Mochary Method, is...
 
   '
-duration_seconds: 420.0
-duration: '7:00'
+duration_seconds: 4243.0
+duration: '1:10:43'
 view_count: 2138
 channel: Lenny's Podcast
 keywords:

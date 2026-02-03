@@ -1,8 +1,8 @@
 ---
 guest: Jonathan Becker
 title: The crazy story of landing Uber as a client | Jonathan Becker (Thrive Digital)
-youtube_url: https://www.youtube.com/watch?v=rG4zxf0CAv0
-video_id: rG4zxf0CAv0
+youtube_url: https://www.youtube.com/watch?v=mmxTeS0AVMo
+video_id: mmxTeS0AVMo
 publish_date: 2023-05-12
 description: 'Jonathan explains how he went from exploiting Uber''s marketing loophole
   to landing them as a client.
@@ -13,8 +13,8 @@ description: 'Jonathan explains how he went from exploiting Uber''s marketing lo
   —
 
   '
-duration_seconds: 122.0
-duration: '2:02'
+duration_seconds: 5669.0
+duration: '1:34:29'
 view_count: 461
 channel: Lenny's Podcast
 keywords:
