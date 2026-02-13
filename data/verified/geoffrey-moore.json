@@ -1,0 +1,199 @@
+{
+  "slug": "geoffrey-moore",
+  "quotes": [
+    {
+      "id": "geoffrey-moore-001",
+      "speaker": "Geoffrey Moore",
+      "text": "When you're little, the only way you can get an ecosystem to organize around you is to go after a segment where you're a big fish in that pond. We talk a lot about fish to pond ratio. Your first pond, your target segment should be something that in the next two years, if you hit your really high growth rates, you could be 30, 40, 50% of the market share in that segment.",
+      "timestamp": "00:07:51",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 89,
+        "lineEnd": 89
+      },
+      "themes": ["market-strategy", "focus", "ecosystem"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "geoffrey-moore-002",
+      "speaker": "Geoffrey Moore",
+      "text": "Before the chasm, the customers you work with are people who say, 'We believe what you believe.' After the chasm, they say, 'I'm not sure about that, but we need what you have.' Transitioning from 'We believe what you believe,' which is how you sell to visionaries, to 'We need what you have,' which is how you sell to pragmatists. That's the shift.",
+      "timestamp": "00:09:49",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 98,
+        "lineEnd": 98
+      },
+      "themes": ["go-to-market", "sales", "customer-psychology"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "geoffrey-moore-003",
+      "speaker": "Geoffrey Moore",
+      "text": "They don't want to talk to you about you. They want to talk to you about them, and you need to ask them probing questions about them. Just like going to a doctor, you don't want the doctor to come and say, 'Hey, can I show you a movie of the operation I just did? I want to give you a demo.' It's like, 'No. What I would like to do is talk to you about this pain I have in my side.'",
+      "timestamp": "00:12:54",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 113,
+        "lineEnd": 113
+      },
+      "themes": ["sales", "customer-discovery", "empathy"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "geoffrey-moore-004",
+      "speaker": "Geoffrey Moore",
+      "text": "You want to have a target segment that is big enough to matter, small enough to lead and a good fit with your crown jewels. That's the formula.",
+      "timestamp": "00:19:41",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 146
+      },
+      "themes": ["strategy", "market-selection", "focus"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "geoffrey-moore-005",
+      "speaker": "Geoffrey Moore",
+      "text": "You need the customer to be coming toward you even though you're new and you're unproven, and frankly you scare the crap out of them, but they're even more afraid of the problem that they're saddled with. So that's why you can build a relationship with them.",
+      "timestamp": "00:21:23",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 152
+      },
+      "themes": ["sales", "compelling-reason-to-buy", "customer-psychology"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "geoffrey-moore-006",
+      "speaker": "Geoffrey Moore",
+      "text": "Nine out of 10 executive sponsors are going to be the negative because they're going to be a company person working with company processes. You're looking for the 10th one. The 10th one is one who says, 'I'm so tired of the status quo. I want to leapfrog the world, and these people just want to stay on the escalator.'",
+      "timestamp": "00:24:37",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 167,
+        "lineEnd": 167
+      },
+      "themes": ["sales", "customer-selection", "visionary-buyers"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "geoffrey-moore-007",
+      "speaker": "Geoffrey Moore",
+      "text": "You're actually using value pricing because the problem you're solving is severe enough, the customer doesn't want a discount. It is like if you have to have heart surgery, you don't want a coupon that says, 'Heart surgery 9.99 this Saturday only.' You want to go to the Mayo Clinic.",
+      "timestamp": "00:28:03",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 182,
+        "lineEnd": 182
+      },
+      "themes": ["pricing", "value", "positioning"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "geoffrey-moore-008",
+      "speaker": "Geoffrey Moore",
+      "text": "In the bowling alley, it's never about you. And that is so hard for entrepreneurs because they want to give a demo, they want to tell the story, they want to share their vision. The answer is, 'We don't care. We don't want to hear your story. We hate demos, and I don't know who you are and I don't care. I'm in trouble. We need to talk about me.'",
+      "timestamp": "00:41:51",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 269,
+        "lineEnd": 269
+      },
+      "themes": ["go-to-market", "sales", "customer-focus"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "geoffrey-moore-009",
+      "speaker": "Geoffrey Moore",
+      "text": "A venture capitalist gives you money, and what they're buying from you with this money is, 'I want you to use this money to change the state of your company such that when we raise the next round, the next investor will value your company two to three times higher than we're valuing it today.'",
+      "timestamp": "00:48:50",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 311
+      },
+      "themes": ["fundraising", "venture-capital", "strategy"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "geoffrey-moore-010",
+      "speaker": "Geoffrey Moore",
+      "text": "You know you've crossed the chasm when you say, 'I don't have to raise any more venture capital.' You get to raise it on your nickel and on your timeline, not on, 'Oh my God, I'm running out of money.'",
+      "timestamp": "00:50:38",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 320,
+        "lineEnd": 320
+      },
+      "themes": ["go-to-market", "milestones", "sustainability"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "geoffrey-moore-011",
+      "speaker": "Geoffrey Moore",
+      "text": "What people struggle with is, I have been successful with this playbook, the market has moved to the next phase, but I'm really good at the old playbook, so I want to stay with the playbook I'm good at. So that's when they get in trouble.",
+      "timestamp": "00:58:17",
+      "source": {
+        "slug": "geoffrey-moore",
+        "path": "episodes/geoffrey-moore/transcript.md",
+        "lineStart": 362,
+        "lineEnd": 362
+      },
+      "themes": ["adaptability", "strategy", "go-to-market"],
+      "zones": ["chaos", "intuition"]
+    }
+  ],
+  "themes": ["crossing-the-chasm", "go-to-market", "market-strategy", "beachhead", "customer-psychology", "sales", "positioning", "venture-capital", "focus"],
+  "takeaways": [
+    "Your beachhead segment must be big enough to matter but small enough to lead - aim to capture 30-50% market share in a narrow segment within two years so an ecosystem of partners forms around you.",
+    "Pragmatists buy based on peer references, not visionary demos - transition your pitch from 'here's our amazing technology' to 'we understand your specific problem' by shutting the laptop and leading with diagnostic questions.",
+    "Discounting does not reduce risk and can actually increase it - when crossing the chasm, use value pricing because customers with severe problems want the Mayo Clinic, not a coupon.",
+    "Each phase of the adoption lifecycle requires a fundamentally different playbook - using the wrong one (project model in the bowling alley, solution model in the early market) actively undermines your progress.",
+    "You know you've crossed the chasm when you no longer need venture capital to survive - the goal is to transform from a 'cool possibility' into a 'going concern' with loyal customers, an ecosystem, and proven unit economics."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "geoffrey-moore-008",
+      "why": "Tells entrepreneurs to shut their laptop and stop giving demos - directly contradicts the instinct to showcase your product",
+      "related_zones": ["discovery", "alignment"]
+    },
+    {
+      "quoteId": "geoffrey-moore-007",
+      "why": "Argues against discounting and freemium when crossing the chasm - counterintuitive for startups desperate for traction",
+      "related_zones": ["perfection", "focus"]
+    },
+    {
+      "quoteId": "geoffrey-moore-011",
+      "why": "Claims that success with one playbook becomes your biggest liability when the market shifts phases",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "all-stages",
+    "primary_topics": ["crossing-the-chasm", "go-to-market", "beachhead-strategy", "technology-adoption"]
+  }
+}

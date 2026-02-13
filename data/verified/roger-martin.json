@@ -1,0 +1,213 @@
+{
+  "slug": "roger-martin",
+  "quotes": [
+    {
+      "id": "roger-martin-001",
+      "speaker": "Roger Martin",
+      "text": "Strategy is an integrated set of choices that compels desired customer action. So, the way I think about it is, there's a whole bunch of things a company controls, how many factories to build, how much R&D to do, in what areas, and how much advertising to do, how many people to hire, what to pay them. Those are all the things under our control.",
+      "timestamp": "00:17:48",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["strategy", "customer-focus", "decision-making"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "roger-martin-002",
+      "speaker": "Roger Martin",
+      "text": "Strategy involves making choices to do some things and not other things, and it is often intimidating to say, oh dear, I have to cut these things off, and not do them, and actually make a decision that I'll be held accountable for potentially, or I'll even hold myself accountable for.",
+      "timestamp": "00:07:09",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 100
+      },
+      "themes": ["strategy", "decision-making", "prioritization"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "roger-martin-003",
+      "speaker": "Roger Martin",
+      "text": "You have to have answers to five questions. What's your winning aspiration? Where to play, on what playing field are you going to plop yourself down on? How can you be either better than competitors in terms of creating customer value, or lower cost? What capabilities do you have to have that your competitors don't? And what management systems do you have to put in place?",
+      "timestamp": "00:21:22",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 184
+      },
+      "themes": ["strategy", "framework", "competitive-advantage"],
+      "zones": ["focus", "discovery", "perfection"]
+    },
+    {
+      "id": "roger-martin-004",
+      "speaker": "Roger Martin",
+      "text": "It's literally like having a bully who can just shove you, and you take one step back, then they shove you, and you take another step back. There's no way to protect yourself if you're not one of those two. You cannot bully Vanguard, you cannot bully Southwest, you cannot bully Proctor and Gamble, you cannot bully Lego. That's the way the business world works.",
+      "timestamp": "00:28:15",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["competitive-advantage", "differentiation", "strategy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "roger-martin-005",
+      "speaker": "Roger Martin",
+      "text": "You've got to ask yourself the question, can I serve a particular customer need with a set of capabilities that are going to be hard to replicate by my competitors? They either can't do it, or they won't do it. And both are important questions because sometimes it won't.",
+      "timestamp": "00:31:04",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["competitive-advantage", "capabilities", "moats"],
+      "zones": ["focus", "discovery", "intuition"]
+    },
+    {
+      "id": "roger-martin-006",
+      "speaker": "Roger Martin",
+      "text": "There's a big market over there, we'd like to get some, is a terrible reason in my view. The reason should be, customers are bereft, customers are lacking something that we can provide. This is why I hate most entries by foreign companies into China, they get their faces shot off. The reason is the rationale is, it's big, we could get some of that.",
+      "timestamp": "00:42:26",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 343,
+        "lineEnd": 343
+      },
+      "themes": ["strategy", "customer-focus", "market-entry"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "roger-martin-007",
+      "speaker": "Roger Martin",
+      "text": "How to win is a theory of how customers are going to perceive us better, if we're differentiated. And then, it's what capabilities would we have to have to make that theory come true, rather than just be a wish. So, if we want them to feel like we're the easiest to deal with, we have to have capabilities to do that.",
+      "timestamp": "00:53:26",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 454,
+        "lineEnd": 454
+      },
+      "themes": ["capabilities", "differentiation", "customer-perception"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "roger-martin-008",
+      "speaker": "Roger Martin",
+      "text": "Competitive advantage is fleeting is when you have one thing, and one thing only. But the more nuanced and multifaceted your capabilities and management systems are, the more likely competitors are going to say life's too short. That's what everybody says about Southwest.",
+      "timestamp": "00:58:16",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 478,
+        "lineEnd": 484
+      },
+      "themes": ["competitive-advantage", "moats", "capabilities"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "roger-martin-009",
+      "speaker": "Roger Martin",
+      "text": "The ultimate way to compete to win is to never actually be forced to compete. They try things like Continental Light, or Ted, that do half the things that Southwest does, and then you're what? A crappy Southwest.",
+      "timestamp": "01:01:29",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 487,
+        "lineEnd": 487
+      },
+      "themes": ["competition", "strategy", "differentiation"],
+      "zones": ["focus", "perfection", "intuition"]
+    },
+    {
+      "id": "roger-martin-010",
+      "speaker": "Roger Martin",
+      "text": "You can't hold back the tide. Maybe you can for a while, but you can't forever. So, you just have to figure out where are the customers going. My general advice is always the same, which is, it can take a while, but in the end the customers will triumph.",
+      "timestamp": "01:09:06",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 520,
+        "lineEnd": 526
+      },
+      "themes": ["customer-focus", "disruption", "adaptation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "roger-martin-011",
+      "speaker": "Roger Martin",
+      "text": "What is the single most painful gap currently that I'm facing? Whatever is the most painful thing, and then just tackle that. Don't try to solve the problems of the world, or even all the problems of your company, that's perfection. Betterment is making that gap go away. And guess what happens? You can turn your attention to the next gap, and the next gap.",
+      "timestamp": "01:15:31",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 562,
+        "lineEnd": 562
+      },
+      "themes": ["prioritization", "iteration", "problem-solving"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "roger-martin-012",
+      "speaker": "Roger Martin",
+      "text": "I have never met this mythical beast called a great natural strategist. Great strategists that I have met have all one thing in common. They just practice. And the worst thing to do is to wait. People say, I've got all these operational concerns right now, and then I'll get to strategy later. You'll never amount to anything.",
+      "timestamp": "01:18:58",
+      "source": {
+        "slug": "roger-martin",
+        "path": "episodes/roger-martin/transcript.md",
+        "lineStart": 580,
+        "lineEnd": 583
+      },
+      "themes": ["strategy", "practice", "leadership"],
+      "zones": ["velocity", "intuition"]
+    }
+  ],
+  "themes": ["strategy", "competitive-advantage", "customer-focus", "differentiation", "decision-making", "capabilities", "moats", "prioritization"],
+  "takeaways": [
+    "Strategy is an integrated set of choices that compels desired customer action - it requires answering five interconnected questions: winning aspiration, where to play, how to win, what capabilities you need, and what management systems to build.",
+    "You must be either differentiated or lowest cost to survive - without one of these positions, competitors can push you around indefinitely like a bully, and it's only a matter of time until you're dead.",
+    "Competitive advantage is not fleeting when it's multifaceted - simple advantages get replicated quickly, but companies like Four Seasons and Southwest have capabilities so nuanced that competitors say 'life's too short' to copy them.",
+    "Strategy should start with customer pain, not market size - 'there's a big market, we'd like some' is a terrible reason to enter a market; the reason should be that customers are lacking something you can uniquely provide.",
+    "Betterment beats perfection as a strategic approach - find the single most painful gap between your current outcomes and desired outcomes, tackle it, then move to the next gap, building strategic muscle through continuous practice."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.00,
+    "intuition": 0.15,
+    "alignment": 0.00,
+    "chaos": 0.05,
+    "focus": 0.35
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "roger-martin-006",
+      "why": "Attacks the common startup rationale of chasing large markets - argues customer need, not market size, should drive strategy",
+      "related_zones": ["discovery", "focus"]
+    },
+    {
+      "quoteId": "roger-martin-009",
+      "why": "The ultimate way to compete is to never be forced to compete - challenges the conventional wisdom that competition is inevitable and must be fought directly",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "roger-martin-012",
+      "why": "There's no such thing as a natural strategist - demolishes the idea that strategic thinking is an innate talent rather than a practiced skill",
+      "related_zones": ["velocity", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["strategy", "competitive-advantage", "playing-to-win", "differentiation"]
+  }
+}

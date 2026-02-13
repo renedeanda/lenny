@@ -1,0 +1,355 @@
+{
+  "slug": "elena-verna",
+  "guest": "Elena Verna 4.0",
+  "episode_title": "The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year",
+  "verification_date": "2026-02-13",
+  "verified_by": "claude-agent",
+  "quotes": [
+    {
+      "id": "elena-verna-001",
+      "speaker": "Elena Verna",
+      "text": "To be ahead of them is not optimization of the problem, it's reinvention of the solution. I just feel like I usually spend maybe 5%, maybe 10% if I'm lucky, innovating on growth in my previous roles. Right now, I'm spending 95% innovating on growth, and only 5% on optimization.",
+      "timestamp": "00:19:54",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 159
+      },
+      "themes": [
+        "innovation",
+        "growth",
+        "strategy"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-002",
+      "speaker": "Elena Verna",
+      "text": "What's really important to us is to maintain noise in the market. And that noise in the market happens by us shipping every day, every other day, multiple times per day and just talking about it constantly. Interestingly enough, it actually works as a fantastic resurrection strategy, because people are like, 'Oh, there's more things here. I need to go check it out.'",
+      "timestamp": "00:25:40",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": [
+        "shipping",
+        "growth",
+        "retention",
+        "marketing"
+      ],
+      "zones": [
+        "velocity",
+        "chaos"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-003",
+      "speaker": "Elena Verna",
+      "text": "Velocity of shipping is our number one core value in development team. So we do anything and everything to just keep it going up, up, up and into the right. And by the way, this also means that everybody has a little bit of marketer within them.",
+      "timestamp": "00:27:27",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 210
+      },
+      "themes": [
+        "velocity",
+        "shipping",
+        "culture",
+        "marketing"
+      ],
+      "zones": [
+        "velocity",
+        "alignment"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-004",
+      "speaker": "Elena Verna",
+      "text": "The only way to create a word of mouth loop is just to blow their socks off when they actually experience your product. We have an almost unfair advantage, because our product is called Lovable. So by default, we're trying to create absolute lovable experiences. If it's not lovable, we're not going to ship it.",
+      "timestamp": "00:33:01",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 261
+      },
+      "themes": [
+        "word-of-mouth",
+        "product-quality",
+        "brand",
+        "culture"
+      ],
+      "zones": [
+        "perfection",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-005",
+      "speaker": "Elena Verna",
+      "text": "We're actually moving to the new era of software that needs to feel human, that people want to interact with, not just utility of it. Because cost of software is coming down so much to develop that we now can actually invest into emotional feel of that software, as opposed to only just focus on creating the utility out of it.",
+      "timestamp": "00:36:33",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 288
+      },
+      "themes": [
+        "design",
+        "user-experience",
+        "humanity",
+        "software"
+      ],
+      "zones": [
+        "perfection",
+        "intuition"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-006",
+      "speaker": "Elena Verna",
+      "text": "We try to be very upfront with how things are and how chaotic they are, and we prioritize people that don't look for clarity. We can create clarity out of chaos because it is absolutely chaotic otherwise. And if we start to look for people that can explain it to us, that's the only way that we can succeed.",
+      "timestamp": "00:42:44",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 336
+      },
+      "themes": [
+        "hiring",
+        "chaos",
+        "culture",
+        "leadership"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-007",
+      "speaker": "Elena Verna",
+      "text": "I call it minimum lovable product. It shouldn't be minimal viable product anymore. Viability is left back in 2010s. Now it's minimal lovable product. That's the only thing that matters.",
+      "timestamp": "00:43:46",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 348,
+        "lineEnd": 348
+      },
+      "themes": [
+        "product-development",
+        "mvp",
+        "quality",
+        "user-experience"
+      ],
+      "zones": [
+        "perfection",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-008",
+      "speaker": "Elena Verna",
+      "text": "AI being so new and the capabilities being so new, you have to remove the barrier of entry. You have to give a lot of your product away for free. But by the way, I don't just mean freemium. Freemium to me is just a baseline. If you're in the new category, you need to let people explore what it is free and get that initial wow moment.",
+      "timestamp": "00:51:48",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 423,
+        "lineEnd": 423
+      },
+      "themes": [
+        "product-led-growth",
+        "freemium",
+        "acquisition",
+        "monetization"
+      ],
+      "zones": [
+        "velocity",
+        "discovery"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-009",
+      "speaker": "Elena Verna",
+      "text": "Every three months or so, every single AI LLM provider creates a step function change in what is possible with that LLM. And when you have this new possibility in just an underlying technology that opens up in front of you, then it creates another ceiling of what is possible to build on top of it.",
+      "timestamp": "01:01:39",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 510,
+        "lineEnd": 510
+      },
+      "themes": [
+        "product-market-fit",
+        "AI",
+        "technology",
+        "innovation"
+      ],
+      "zones": [
+        "chaos",
+        "velocity"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-010",
+      "speaker": "Elena Verna",
+      "text": "Nobody's future is bulletproof yet. And 10 years ago, if you asked me if a $200 million company was at risk in losing product-market fit in the next three months if it's experiencing 10% month-over-month growth, I would've said, 'You're crazy.' And now that's the reality that we live in.",
+      "timestamp": "01:05:39",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 528,
+        "lineEnd": 528
+      },
+      "themes": [
+        "product-market-fit",
+        "competition",
+        "risk",
+        "AI"
+      ],
+      "zones": [
+        "chaos",
+        "focus"
+      ],
+      "verified": true
+    },
+    {
+      "id": "elena-verna-011",
+      "speaker": "Elena Verna",
+      "text": "I don't have enough time for anything, but I prioritize my family in some moments, I prioritize work in other moments, and I don't try to balance the two. I go where I'm needed and where I go, and I feel like I'm not going to regret the choices that I'm making today. So I'm constantly trying to put myself in the future and say, 'Will I resent myself if I make this choice right now?' And if the answer is yes, I don't make that choice.",
+      "timestamp": "01:14:05",
+      "source": {
+        "slug": "elena-verna",
+        "path": "episodes/elena-verna-40/transcript.md",
+        "lineStart": 597,
+        "lineEnd": 597
+      },
+      "themes": [
+        "work-life-balance",
+        "priorities",
+        "leadership",
+        "decision-making"
+      ],
+      "zones": [
+        "focus",
+        "intuition"
+      ],
+      "verified": true
+    }
+  ],
+  "themes": [
+    "innovation",
+    "growth",
+    "strategy",
+    "shipping",
+    "retention",
+    "marketing",
+    "velocity",
+    "culture",
+    "word-of-mouth",
+    "product-quality",
+    "brand",
+    "design",
+    "user-experience",
+    "humanity",
+    "hiring",
+    "chaos",
+    "leadership",
+    "product-development",
+    "mvp",
+    "product-led-growth",
+    "freemium",
+    "acquisition",
+    "monetization",
+    "product-market-fit",
+    "AI",
+    "technology",
+    "competition",
+    "work-life-balance",
+    "priorities",
+    "decision-making"
+  ],
+  "takeaways": [
+    "In fast-moving AI categories, 95% of growth effort should go to innovation and new growth loops, not optimizing existing funnels",
+    "Shipping velocity creates its own growth loop: constant noise in the market drives resurrection, reengagement, and word of mouth",
+    "Minimum Lovable Product replaces MVP -- viability is table stakes, emotional resonance and delight are the new differentiators",
+    "Give your product away aggressively as a marketing cost, not a margin hit -- removing barriers of entry in new categories is non-negotiable for product-led growth",
+    "Product-market fit is now a treadmill that resets every three months as both AI capabilities and consumer expectations shift simultaneously"
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "chaos": 0.25,
+    "perfection": 0.15,
+    "discovery": 0.1,
+    "focus": 0.1,
+    "intuition": 0.08,
+    "alignment": 0.05,
+    "data": 0.02
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "elena-verna-001",
+      "why": "Claims optimization is nearly worthless in fast-moving markets -- directly challenges the conventional growth playbook of iterating on existing funnels",
+      "related_zones": [
+        "chaos",
+        "velocity"
+      ]
+    },
+    {
+      "quoteId": "elena-verna-007",
+      "why": "Declares MVP dead and replaced by Minimum Lovable Product -- contrarian in a startup culture still obsessed with shipping the minimum viable thing",
+      "related_zones": [
+        "perfection",
+        "discovery"
+      ]
+    },
+    {
+      "quoteId": "elena-verna-008",
+      "why": "Advocates giving product away far beyond freemium as a growth strategy, treating AI costs as marketing spend -- counterintuitive when margins are already thin",
+      "related_zones": [
+        "velocity",
+        "discovery"
+      ]
+    },
+    {
+      "quoteId": "elena-verna-010",
+      "why": "Says even $200M companies at 10% MoM growth can lose product-market fit in three months -- challenges the assumption that PMF is durable once found",
+      "related_zones": [
+        "chaos",
+        "focus"
+      ]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "hypergrowth",
+    "primary_topics": [
+      "product-led-growth",
+      "AI-growth-playbook",
+      "shipping-velocity",
+      "product-market-fit",
+      "minimum-lovable-product"
+    ]
+  }
+}

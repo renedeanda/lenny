@@ -1,0 +1,199 @@
+{
+  "slug": "logan-kilpatrick",
+  "quotes": [
+    {
+      "id": "logan-kilpatrick-001",
+      "speaker": "Logan Kilpatrick",
+      "text": "I think we're deeply focused on these very, very general use cases like the general reasoning capabilities, the general coding, the general writing abilities. I think where you start to get into some of these very vertical applications... companies who have some domain specific knowledge and they're really excited about that problem space, they can go into that and leverage our models and end up continuing to be on the cutting edge without having to do all that R&D effort themselves.",
+      "timestamp": "00:10:36",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 111
+      },
+      "themes": ["platform-strategy", "vertical-products", "AI"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "logan-kilpatrick-002",
+      "speaker": "Logan Kilpatrick",
+      "text": "My whole position on this is prompt engineering is a very human thing. When we want to get some value out of a human, we do this prompt engineering. We try to effectively communicate with that human in order to get the best output. And the same thing is true of models.",
+      "timestamp": "00:20:13",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 165
+      },
+      "themes": ["prompt-engineering", "communication", "AI"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "logan-kilpatrick-003",
+      "speaker": "Logan Kilpatrick",
+      "text": "It so deeply wants to answer your question. It doesn't care that it doesn't have enough context. It's the most eager person in the world you could imagine to answer the question, and without that context it's just hard to give anything of value. If we got t-shirts printed, they should say, 'Context is all you need.' It's such an important piece of getting a language model to do anything for you.",
+      "timestamp": "00:24:00",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": ["prompt-engineering", "context", "AI-tools"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "logan-kilpatrick-004",
+      "speaker": "Logan Kilpatrick",
+      "text": "Finding people who are high agency and work with urgency is one of the most... If I was hiring five people today, those are some of the top two characteristics that I would look for in people because you can take on the world if you have people who have high agency and not needing to either get 50 people's different consensus, because you have people who you trust with high agency and they can just go and do the thing.",
+      "timestamp": "00:33:18",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 258
+      },
+      "themes": ["hiring", "agency", "urgency", "culture"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "logan-kilpatrick-005",
+      "speaker": "Logan Kilpatrick",
+      "text": "Folks are so high agency. They see a problem and they go and tackle it. They hear something from our customers about a challenge that they're having and they're already pushing on what the solution for them is and not waiting for all the other things to happen that I think traditional companies are stuck behind because they're like, 'Oh, let's check with all these seven different departments to try to get feedback on this.'",
+      "timestamp": "00:34:04",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 261
+      },
+      "themes": ["agency", "speed", "customer-focus", "culture"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "logan-kilpatrick-006",
+      "speaker": "Logan Kilpatrick",
+      "text": "A bunch of folks on the team just came together and were like, 'Hey, let's put together what the plan would look like to build something like this.' And then very quickly came together and actually built the actual API. It wasn't this top down, someone's sitting there being like, 'Oh, let's do these five things.' It's like people really seeing these problems that are coming up and knowing that they can come together as a team and solve these problems really quickly.",
+      "timestamp": "00:35:01",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 267
+      },
+      "themes": ["bottom-up-innovation", "agency", "teamwork"],
+      "zones": ["velocity", "chaos", "alignment"]
+    },
+    {
+      "id": "logan-kilpatrick-007",
+      "speaker": "Logan Kilpatrick",
+      "text": "There's a bunch of core guiding principles that we look at. One, going back to the mission, is this actually going to help us get to AGI? So there's a huge focus on there's this potential shiny reward right in front of us, which is optimize user engagement, or whatever it is. And is that really the thing? Maybe the answer is yes. Maybe that is what is going to help us get to AGI sooner, but looking at it through that lens I think is always the first step.",
+      "timestamp": "00:36:14",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 273
+      },
+      "themes": ["mission", "prioritization", "strategy"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "logan-kilpatrick-008",
+      "speaker": "Logan Kilpatrick",
+      "text": "Hey, it would be awesome if we had additional APIs that did all these cool things like new endpoints, new modalities, new abstractions, but are we giving customers a robust and reliable experience on our API? And that's often the first question. At the end of the day, nobody cares if you have something great if they can't use it robust and reliably.",
+      "timestamp": "00:37:03",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["reliability", "prioritization", "customer-experience"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "logan-kilpatrick-009",
+      "speaker": "Logan Kilpatrick",
+      "text": "The actual research team, who seed most of the innovation that happens at OpenAI, is intentionally small. Each new researcher that you add is actually a net productivity loss for the research group unless that person is up-leveling everyone else in such a profound way that it increases the efficiency.",
+      "timestamp": "00:43:19",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 318,
+        "lineEnd": 318
+      },
+      "themes": ["team-size", "innovation", "efficiency"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "logan-kilpatrick-010",
+      "speaker": "Logan Kilpatrick",
+      "text": "The cool thing about GPTs is you can package down like, 'Here's this one very specific problem that AI can solve for you and do it really well,' and I can share that experience with you. Very narrow vertical tools are what's going to be a huge unlock for them. So I think so many more people are going to come online and start using these tools.",
+      "timestamp": "00:46:35",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 339,
+        "lineEnd": 339
+      },
+      "themes": ["product-strategy", "vertical-tools", "AI-adoption"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "logan-kilpatrick-011",
+      "speaker": "Logan Kilpatrick",
+      "text": "It's 'Measure in hundreds.' I love this idea of measuring things in hundreds, and it's for folks who are at the beginning of some journey. If your mental model is to measure in hundreds, the five times that you failed at something, you failed and tried zero times. It's such a great reminder that everything in life is built on compounding and multiple attempts at stuff. And if you don't try enough times, you're never going to be successful at it.",
+      "timestamp": "01:02:58",
+      "source": {
+        "slug": "logan-kilpatrick",
+        "path": "episodes/logan-kilpatrick/transcript.md",
+        "lineStart": 498,
+        "lineEnd": 498
+      },
+      "themes": ["persistence", "mindset", "compounding"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["AI-strategy", "hiring", "agency", "urgency", "prompt-engineering", "platform-strategy", "innovation", "focus", "reliability", "persistence"],
+  "takeaways": [
+    "The two most important hiring traits at OpenAI are high agency and urgency - people who see customer problems and immediately push toward solutions without waiting for consensus from seven departments.",
+    "Prompt engineering is fundamentally a human communication skill - AI models are like brilliant people with zero context, and 'context is all you need' to unlock their full potential.",
+    "Companies building on AI platforms should pursue vertical, domain-specific applications rather than competing with general-purpose assistants - the platform will always expand general capabilities.",
+    "Reliability must come before new features - nobody cares about great new capabilities if they can't use the existing platform robustly, a lesson OpenAI applies to its own prioritization.",
+    "Innovation teams should be kept intentionally small because in a resource-constrained world, each new person added can be a net productivity loss unless they profoundly up-level everyone else."
+  ],
+  "zone_influence": {
+    "velocity": 0.22,
+    "perfection": 0.12,
+    "discovery": 0.13,
+    "data": 0.03,
+    "intuition": 0.07,
+    "alignment": 0.05,
+    "chaos": 0.13,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "logan-kilpatrick-004",
+      "why": "Prioritizes agency and urgency over consensus-building - explicitly rejects needing 50 people's agreement before acting, which challenges alignment-focused PM philosophies",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "logan-kilpatrick-009",
+      "why": "Adding more researchers is a net productivity loss - counterintuitive to the common belief that more talent equals more innovation",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "logan-kilpatrick-011",
+      "why": "Measuring in hundreds reframes failure as zero progress rather than negative - challenges the common fear of failure that slows down iteration",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["AI-strategy", "hiring", "developer-relations", "platform-building", "prompt-engineering"]
+  }
+}
