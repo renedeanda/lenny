@@ -1,0 +1,213 @@
+{
+  "slug": "matt-mochary",
+  "quotes": [
+    {
+      "id": "matt-mochary-001",
+      "speaker": "Matt Mochary",
+      "text": "I've made this bet hundreds of times and so far, I've never lost. It's not because I'm magician or a genius, it's because when someone's in fear, they're gripped. They can't see reality, their brain is making very exaggerated predictions. Whereas when someone is not in fear, and I'm not because it's not my situation, I am not gripped and therefore, my brain isn't making exaggerated predictions.",
+      "timestamp": "00:09:31",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 104,
+        "lineEnd": 105
+      },
+      "themes": ["fear", "decision-making", "self-awareness"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "matt-mochary-002",
+      "speaker": "Matt Mochary",
+      "text": "Anger is not a base emotion. Anger is actually a cover. It's a cover for when we feel pain, and so our brain doesn't want to feel the pain, so instead it externalizes it. But the problem is it shoves that pain onto everybody else around us. The real answer is just to allow ourselves to feel the pain.",
+      "timestamp": "00:14:06",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 134,
+        "lineEnd": 135
+      },
+      "themes": ["emotions", "self-awareness", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "matt-mochary-003",
+      "speaker": "Matt Mochary",
+      "text": "With fewer people in the organization, things work better. That's the big realization that most people never discover. They hit product market fit, they get tons of money from investors, just hire, hire, hire, but every additional human you have in your organization causes extra overhead and geometrically so.",
+      "timestamp": "00:21:17",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 173,
+        "lineEnd": 174
+      },
+      "themes": ["team-size", "efficiency", "scaling"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "matt-mochary-004",
+      "speaker": "Matt Mochary",
+      "text": "Really the ideal is just to keep the team super small. That's what WhatsApp did, that's what Instagram did, that's what Linear is doing right now. That's what Notion has been doing for a while. Those, to me, are the real success stories.",
+      "timestamp": "00:22:11",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 176,
+        "lineEnd": 177
+      },
+      "themes": ["team-size", "focus", "startups"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "matt-mochary-005",
+      "speaker": "Matt Mochary",
+      "text": "She separates the decision from the implementation, meaning she thinks about who is the stakeholder here that I'm solving for? And almost always in a company, you're solving for the customer. So, what would the customer want to see happen? That's the decision. Implementation is completely and utterly separate.",
+      "timestamp": "00:24:03",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 188,
+        "lineEnd": 198
+      },
+      "themes": ["decision-making", "customer-focus", "frameworks"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "matt-mochary-006",
+      "speaker": "Matt Mochary",
+      "text": "When I let someone go, I try to do it with a massive amount of compassion because I know it's brutal. Losing your spouse, your home, and your job, these are the three most traumatic things that can happen to you. So, what I do is I become their agent and I say, I want to help you discover what it is that your ideal role is, and I want to help you create it or land it.",
+      "timestamp": "00:20:19",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 170,
+        "lineEnd": 171
+      },
+      "themes": ["firing", "compassion", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "matt-mochary-007",
+      "speaker": "Matt Mochary",
+      "text": "The way the amygdala gets triggered is often because of surprise. So, if you give someone just a few seconds to mentally prepare, then the amygdala often doesn't get triggered nearly as hard because if they're aware that they're going to go into fear, they're going to go into anger, they're going to go into sadness, then they can see it coming.",
+      "timestamp": "00:29:51",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 240
+      },
+      "themes": ["difficult-conversations", "psychology", "management"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "matt-mochary-008",
+      "speaker": "Matt Mochary",
+      "text": "Everyone is making requests of you, but if all you do is spend all day responding to other people's requests, you never actually march towards your own priorities. You need to create priorities and then set aside some amount of time each day that you just work on your own priority. If you do that, you'll make massive gains.",
+      "timestamp": "00:40:33",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 302,
+        "lineEnd": 303
+      },
+      "themes": ["prioritization", "focus", "productivity"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "matt-mochary-009",
+      "speaker": "Matt Mochary",
+      "text": "Why not just create your own YC startup and have it crush you but you own it? It has to have a founder mentality person as the head of the team, someone who's willing to just break glass and just won't stop until they run through the brick wall. You just literally go to the YC alumni list and the ones whose startups failed, perfect, they're available.",
+      "timestamp": "00:54:30",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 398,
+        "lineEnd": 399
+      },
+      "themes": ["innovation", "intrapreneurship", "hiring"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "matt-mochary-010",
+      "speaker": "Matt Mochary",
+      "text": "I don't think it matters at all. I think that what really motivates people is building shit that gets used in the world. I've seen this work in companies where they don't have big equity, but they have autonomy, they have ownership, not equity ownership, ownership over decision making, ownership over creation. That's what I think people want.",
+      "timestamp": "00:59:09",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 416,
+        "lineEnd": 417
+      },
+      "themes": ["motivation", "autonomy", "ownership"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "matt-mochary-011",
+      "speaker": "Matt Mochary",
+      "text": "Fear, frankly, is an excellent motivator. It gets people to move fast and move hard. The only problem with fear is it's also corrosive, so it eats out my insides as I go along. I think joy is actually even more motivating, but it's noncorrosive, so I can last much longer if I'm doing something for joy. Fear is short term, extreme motivation. Joy is long term, consistent motivation.",
+      "timestamp": "01:00:21",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 422,
+        "lineEnd": 423
+      },
+      "themes": ["motivation", "fear", "joy", "leadership"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "matt-mochary-012",
+      "speaker": "Matt Mochary",
+      "text": "Your zone of excellence is something that you're uniquely good at, but you don't love it. This is the danger zone. This is likely what you're getting paid for. Other people want you to do it. You are creating value, but it's also sucking the life force out of you and it doesn't allow you to become amazing and create massive value.",
+      "timestamp": "01:03:22",
+      "source": {
+        "slug": "matt-mochary",
+        "path": "episodes/matt-mochary/transcript.md",
+        "lineStart": 464,
+        "lineEnd": 465
+      },
+      "themes": ["energy-management", "self-awareness", "career"],
+      "zones": ["focus", "intuition"]
+    }
+  ],
+  "themes": ["fear-and-anger", "firing", "leadership", "team-size", "decision-making", "motivation", "energy-management", "innovation"],
+  "takeaways": [
+    "Fear gives bad advice -- when gripped by fear, your brain makes exaggerated predictions. Check with someone not in fear before making high-stakes decisions, because they can see reality when you cannot.",
+    "Letting people go is one of the most important leadership skills, and doing it with compassion means becoming their active agent to find their next role, not just offering a passive reference.",
+    "Smaller teams consistently outperform larger ones because every additional person creates geometric coordination overhead -- companies like WhatsApp, Instagram, and Linear prove that lean teams are the real success stories.",
+    "Separate the decision from the implementation: decide based on what the customer wants, then separately figure out how to minimize harm to each affected stakeholder during execution.",
+    "Your zone of excellence is the most dangerous trap in your career -- it is what you are great at and get paid for, but it drains your energy and prevents you from reaching your zone of genius where you create massive value."
+  ],
+  "zone_influence": {
+    "velocity": 0.12,
+    "perfection": 0.03,
+    "discovery": 0.07,
+    "data": 0.03,
+    "intuition": 0.22,
+    "alignment": 0.18,
+    "chaos": 0.10,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "matt-mochary-003",
+      "why": "Argues fewer people make organizations work better, contradicting the default instinct to hire aggressively after product-market fit",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "matt-mochary-010",
+      "why": "Claims equity and financial upside don't actually motivate people -- autonomy and ownership over creation matter more, challenging startup orthodoxy",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "matt-mochary-011",
+      "why": "Positions fear as corrosive short-term motivation and joy as superior long-term motivation, countering the hustle-culture narrative that pressure drives the best results",
+      "related_zones": ["intuition", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "coach",
+    "company_stage": "growth",
+    "primary_topics": ["fear-and-anger", "firing", "team-size", "innovation", "energy-management"]
+  }
+}
