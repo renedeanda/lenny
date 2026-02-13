@@ -1,0 +1,213 @@
+{
+  "slug": "mike-maples-jr",
+  "quotes": [
+    {
+      "id": "mike-maples-jr-001",
+      "speaker": "Mike Maples, Jr.",
+      "text": "Better doesn't matter when you're a startup, because better is an extension of the present. The way startups win is by being radically different. A startup wins by avoiding the comparison trap entirely.",
+      "timestamp": "00:11:52",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["strategy", "differentiation", "startups"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "mike-maples-jr-002",
+      "speaker": "Mike Maples, Jr.",
+      "text": "An inflection is an external event that creates the potential for radical change in how people think, feel, and act. Inflections happen external to any startup or any company for that matter.",
+      "timestamp": "00:15:32",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["inflections", "timing", "market-forces"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "mike-maples-jr-003",
+      "speaker": "Mike Maples, Jr.",
+      "text": "An insight is a non-obvious truth about how one or more inflections can be harnessed to change people's behavior. The insight needs to be non-consensus and right, not just right.",
+      "timestamp": "00:28:11",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 208
+      },
+      "themes": ["insights", "non-consensus", "innovation"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "mike-maples-jr-004",
+      "speaker": "Mike Maples, Jr.",
+      "text": "The best startup ideas have this trait where most people don't like it or are even hostile to it, or just kind of meh about it. But some subset of people are just like, where have you been all my life? This is amazing, I love this. They fall irrationally in love with the idea.",
+      "timestamp": "00:30:09",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["product-market-fit", "non-consensus", "early-adopters"],
+      "zones": ["intuition", "discovery", "chaos"]
+    },
+    {
+      "id": "mike-maples-jr-005",
+      "speaker": "Mike Maples, Jr.",
+      "text": "You don't want your initial startup bets to be too big to fail. You want ideas that are small enough to fail a lot because you don't want to be attached to success, you want to be able to just try things and play with stuff and tinker with things because you don't really know where the fractal of new insight is going to reveal itself.",
+      "timestamp": "00:34:21",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["experimentation", "risk", "iteration"],
+      "zones": ["chaos", "velocity", "discovery"]
+    },
+    {
+      "id": "mike-maples-jr-006",
+      "speaker": "Mike Maples, Jr.",
+      "text": "Being non-consensus is not the same as being contrarian. Being contrarian is another form of conformity because it's still relative to somebody else. Most of the great founders I see, they almost feel guilty that they found this secret, but they earned the secret by tinkering with the future and noticing surprises.",
+      "timestamp": "00:40:22",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 304
+      },
+      "themes": ["contrarian-thinking", "secrets", "discovery"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "mike-maples-jr-007",
+      "speaker": "Mike Maples, Jr.",
+      "text": "A lot of people tend to think visionaries have a special pair of binoculars and they can look out farther than the rest of us. But that's not how inventions really happen. People get their hands dirty and they learn about what's missing in the future because they're getting their hands dirty with what's new about it.",
+      "timestamp": "00:41:15",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["vision", "earned-secrets", "hands-on"],
+      "zones": ["discovery", "intuition", "velocity"]
+    },
+    {
+      "id": "mike-maples-jr-008",
+      "speaker": "Mike Maples, Jr.",
+      "text": "Most people think that the way you come up with good startup ideas is to try to think of a startup. That's exactly wrong. What you do to come up with great startup ideas is you live in the future and you notice what's missing. If you're living in the future and you notice what's missing, your intuition about what to build is far more likely to be right.",
+      "timestamp": "00:51:25",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 358
+      },
+      "themes": ["ideation", "living-in-the-future", "intuition"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "mike-maples-jr-009",
+      "speaker": "Mike Maples, Jr.",
+      "text": "If everybody's selling apples, I can't be a 10 times better apple. I want to be the world's first banana. You may not want bananas, you may not like them, you may not value the advantage of bananas, but if you value banana-ness, I'm the only person that's got it.",
+      "timestamp": "01:01:47",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["differentiation", "positioning", "category-creation"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "mike-maples-jr-010",
+      "speaker": "Mike Maples, Jr.",
+      "text": "Your job as the founder is to be Obi-Wan, not Luke. The founders sometimes make the mistake of thinking that they're the hero, but they're not. The early believers are the heroes, and it's the job of the founder to tell a story that emotes early believers to want to move with them and co-create the future with them.",
+      "timestamp": "01:15:13",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 478,
+        "lineEnd": 481
+      },
+      "themes": ["storytelling", "leadership", "movements"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "mike-maples-jr-011",
+      "speaker": "Mike Maples, Jr.",
+      "text": "You can't stand out if you always fit in. The only people who are different can really make a difference. I like to say a startup is a fundamentally disagreeable act in the first place, and there's going to be times you need to be disagreeable.",
+      "timestamp": "01:25:31",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 532,
+        "lineEnd": 532
+      },
+      "themes": ["disagreeableness", "courage", "non-conformity"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "mike-maples-jr-012",
+      "speaker": "Mike Maples, Jr.",
+      "text": "A startup never beats a big company by executing better than the big company. Startup wins over the big company because it proposes a radically different future, disorients the incumbent, and sort of chaotically moves people to that different future.",
+      "timestamp": "01:31:00",
+      "source": {
+        "slug": "mike-maples-jr",
+        "path": "episodes/mike-maples-jr/transcript.md",
+        "lineStart": 556,
+        "lineEnd": 556
+      },
+      "themes": ["disruption", "startups-vs-incumbents", "chaos"],
+      "zones": ["chaos", "intuition", "velocity"]
+    }
+  ],
+  "themes": ["pattern-breaking", "inflections", "insights", "non-consensus", "differentiation", "startups", "storytelling", "movements", "disagreeableness", "founder-future-fit"],
+  "takeaways": [
+    "Breakthrough startups don't win by being better - they win by being radically different, forcing a choice rather than a comparison with incumbents. The goal is to be the world's first banana, not a better apple.",
+    "Great startup ideas sit at the intersection of three forces: inflections (external events creating new empowerment), insights (non-obvious truths about harnessing inflections), and founder-future fit (authentic alignment between the founder and the future they're building).",
+    "The best insights are earned, not theorized - founders discover secrets by getting their hands dirty at the cutting edge, living in the future, and actively savoring surprises rather than seeking validation for what they already believe.",
+    "Startups should embrace disagreeableness and chaos as features, not bugs. You can't stand out if you always fit in, and every startup on the inside is messy - the key is channeling that chaos into a movement that draws early believers toward a radically different future.",
+    "Pattern-breaking founders are storytellers who position themselves as the mentor (Obi-Wan), not the hero (Luke) - making early believers the heroes of a transformational journey from the world that is to the world that could be."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.02,
+    "discovery": 0.18,
+    "data": 0.02,
+    "intuition": 0.35,
+    "alignment": 0.05,
+    "chaos": 0.22,
+    "focus": 0.08
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "mike-maples-jr-004",
+      "why": "Argues the best startup ideas are actively disliked by most people - hostility is a positive signal, not a warning sign",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "mike-maples-jr-006",
+      "why": "Reframes contrarianism as just another form of conformity - true non-consensus thinking is independent of what others believe",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "mike-maples-jr-012",
+      "why": "Claims execution doesn't matter for startups - they win through disorientation and chaos, not superior operations",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "seed",
+    "primary_topics": ["pattern-breaking", "startup-ideas", "inflections", "insights", "founder-future-fit", "movements"]
+  }
+}
