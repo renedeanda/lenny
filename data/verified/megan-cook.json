@@ -1,0 +1,194 @@
+{
+  "slug": "megan-cook",
+  "quotes": [
+    {
+      "id": "megan-cook-001",
+      "speaker": "Megan Cook",
+      "text": "I was looking at my team and thinking, 'Yeah, something doesn't feel quite right here.' And then I went to this leadership outside, and one of the speakers talked about how to be in that state of flow. There needs to be this sense of play and that things are fun. And it's funny because when I thought about play where my mind went to the opposite of play is work. But his point was actually that the opposite of play is fear.",
+      "timestamp": "00:06:52",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 81
+      },
+      "themes": ["psychological-safety", "innovation", "culture"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "megan-cook-002",
+      "speaker": "Megan Cook",
+      "text": "We divided the team into these smaller groups for peer feedback groups and the idea is that they meet every two weeks or so, somebody brings something that's in a pretty rough draft that they want to get reviewed and then everyone's expected to give feedback. Because we've got people in there who are different leadership levels, it's a really good opportunity to model the kind of feedback that's helpful.",
+      "timestamp": "00:07:40",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 87
+      },
+      "themes": ["feedback", "team-development", "psychological-safety"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "megan-cook-003",
+      "speaker": "Megan Cook",
+      "text": "A lot of it is just building that muscle. You might go through an experience once every quarter or once every six months and that can feel really stressful, but if you're doing it again and again, you get used to it. You get used to what to expect, you get a bit more practice, it can feel much more comfortable.",
+      "timestamp": "00:09:46",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 102
+      },
+      "themes": ["feedback", "resilience", "growth-mindset"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "megan-cook-004",
+      "speaker": "Megan Cook",
+      "text": "As a product leader, it's really important to model the behavior you want to see from your teams, whether that's getting out there teaching, presenting, explaining different concepts, explaining the business or just being vulnerable and talking about when things haven't worked out.",
+      "timestamp": "00:13:16",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": ["leadership", "vulnerability", "culture"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "megan-cook-005",
+      "speaker": "Megan Cook",
+      "text": "We're really firm believers that you don't need to be in the office to build world-class products. We think it's a bit more human, that flexibility shouldn't be a perk, that it fundamentally can change people's lives depending on what else they have on outside of work. And so we think less about where do you work and we think more about how to be productive and effective in your work.",
+      "timestamp": "00:16:04",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["remote-work", "flexibility", "culture"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "megan-cook-006",
+      "speaker": "Megan Cook",
+      "text": "As PMs, we need time for creative work. We need that deep work time, and that doesn't happen when you've got all of these meetings with 30 minutes in between each of them. You need three to four hours to get that going, to get into that flow state. So my leadership team and I, we actually sync up our calendars, so we end up having these long stretches twice a week all at the same time.",
+      "timestamp": "00:19:33",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 204
+      },
+      "themes": ["deep-work", "productivity", "remote-work"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "megan-cook-007",
+      "speaker": "Megan Cook",
+      "text": "Most of the time when people come to me and they want to ask how to get buy-in, they've got a date in mind, they've got a particular meeting and they have this idea where they're going to craft this perfect proposal, they're going to present it, everyone's going to give them thumbs up and they win. And that's the wrong attitude I think even to start with to getting buy-in. It's more of a journey.",
+      "timestamp": "00:25:17",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["stakeholder-management", "buy-in", "influence"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "megan-cook-008",
+      "speaker": "Megan Cook",
+      "text": "I think when you come to the meeting going, okay, here's the top-back so we actually know, and here's the hypotheses and here's my plan to prove or disprove them, then you're exposing your idea for people to go, oh, here's more that I know about that hypothesis. I usually find that if you come in there open and you're exposed, you're thinking and where you could use some help on perspectives, that actually builds more credibility.",
+      "timestamp": "00:29:41",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 270,
+        "lineEnd": 270
+      },
+      "themes": ["credibility", "hypothesis-driven", "stakeholder-management"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "megan-cook-009",
+      "speaker": "Megan Cook",
+      "text": "When you keep it scrappy and small in the beginning, it doesn't feel like it's as big of a bet, but that gives you the opportunity to really prove that the direction that you're going in could pay off. And so it's sort of like this little inroad to getting more investment.",
+      "timestamp": "00:45:50",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 366,
+        "lineEnd": 366
+      },
+      "themes": ["scrappy", "investment", "strategy"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "megan-cook-010",
+      "speaker": "Megan Cook",
+      "text": "We changed that to create really small groups with stage gates that we call wonder, explore, make, impact, and then getting to scale. And that meant to assess those bets at every stage. And the idea was to iterate really quickly, either to it not working out and proving that it couldn't be a business or iterate really quickly to yes it could and we should invest more in this.",
+      "timestamp": "00:51:24",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 411
+      },
+      "themes": ["innovation", "new-products", "stage-gates"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "megan-cook-011",
+      "speaker": "Megan Cook",
+      "text": "Where I dropped the ball was more about what I should have realized about that feature. Automation, it's super useful. It can be used by a whole slew of people who aren't just developers. It could be used in every single product. So when I see a new idea, I'm always asking myself, 'How do we push this further? Is there something there that we can 10X? Can we apply it more broadly to more types of users, more products?'",
+      "timestamp": "01:06:33",
+      "source": {
+        "slug": "megan-cook",
+        "path": "episodes/megan-cook/transcript.md",
+        "lineStart": 525,
+        "lineEnd": 525
+      },
+      "themes": ["failure", "vision", "platform-thinking"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["psychological-safety", "remote-work", "buy-in", "innovation", "leadership", "deep-work", "new-products", "feedback"],
+  "takeaways": [
+    "The opposite of play is not work but fear - when teams lose psychological safety, ideas become incremental. Small peer feedback groups that meet biweekly to review rough drafts can rebuild the muscle of giving and receiving honest feedback.",
+    "Getting buy-in is a journey, not a single meeting. Partner with stakeholders early, share hypotheses rather than polished proposals, and be genuinely open to different solutions. Credibility comes from exposing what you don't know.",
+    "Remote work succeeds through intentional connection and protected deep work time. Bringing teams together 3-4 times a year boosts connection and productivity by 30%, and syncing calendars for 3-4 hour deep work blocks protects creative time.",
+    "New product innovation at scale requires small teams with stage gates (wonder, explore, make, impact, scale) and different expectations than mature products. Give these teams freedom to move fast and hold them to a different standard than the core business.",
+    "When you see a successful feature, always ask: can we 10X this? Can it apply to more users, more products? Missing the bigger platform opportunity in a feature that works is a subtle but expensive failure."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "megan-cook-001",
+      "why": "The opposite of play is fear, not work - challenges the conventional framing and suggests innovation dies from fear not from insufficient effort",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "megan-cook-007",
+      "why": "Buy-in is a journey not a pitch meeting - pushes back against the common approach of crafting a perfect proposal for one big presentation",
+      "related_zones": ["alignment", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["psychological-safety", "remote-work", "stakeholder-management", "product-innovation", "leadership"]
+  }
+}

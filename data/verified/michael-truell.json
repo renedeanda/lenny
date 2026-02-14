@@ -1,0 +1,194 @@
+{
+  "slug": "michael-truell",
+  "quotes": [
+    {
+      "id": "michael-truell-001",
+      "speaker": "Michael Truell",
+      "text": "Our goal with Cursor is to invent a new type of programming, a very different way to build software, that's distilled down to you describing the intent to the computer for what you want in the most concise way possible, and really distilled down to just defining how you think the software should work, and how you think it should look.",
+      "timestamp": "00:04:45",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 94
+      },
+      "themes": ["vision", "future-of-software", "AI"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "michael-truell-002",
+      "speaker": "Michael Truell",
+      "text": "I think taste will be increasingly more valuable. More and more being an engineer will start to feel like being a logic designer, and really, it will be about specifying your intent for how exactly you want everything to work. It'd be more about the whats, and a little bit less about how exactly you're going to do things under the hood.",
+      "timestamp": "00:08:50",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 118
+      },
+      "themes": ["taste", "engineering", "future-of-work"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "michael-truell-003",
+      "speaker": "Michael Truell",
+      "text": "We always tried to be intense realists about where the technology is today, very excited about how AI is going to mature over the course of many decades. From the very start, our product development process was really about dogfooding, and using the tool intensely every day. We never wanted to ship anything that wasn't useful to us.",
+      "timestamp": "00:19:55",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["dogfooding", "realism", "product-development"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "michael-truell-004",
+      "speaker": "Michael Truell",
+      "text": "The misstep at the beginning of Cursor is we actually worked on helping to automate and augment mechanical engineering. We came to our senses, we realized we're not super excited about mechanical engineering. In the area of programming, it felt like the people working on the space weren't being sufficiently ambitious about where everything was going to go.",
+      "timestamp": "00:15:07",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 154
+      },
+      "themes": ["pivoting", "ambition", "founder-journey"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "michael-truell-005",
+      "speaker": "Michael Truell",
+      "text": "We definitely didn't expect to be doing any of our own model development. At this point, every magic moment in Cursor involves a custom model in some way. Picking your spots carefully, not trying to reinvent the wheel, focusing on the weaknesses of foundation models and how you can complement them.",
+      "timestamp": "00:32:11",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 256,
+        "lineEnd": 262
+      },
+      "themes": ["model-development", "AI-strategy", "specialization"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "michael-truell-006",
+      "speaker": "Michael Truell",
+      "text": "I think we're in a space where it is incumbent on us to continue to try to build the best thing. No matter what entrenchment you build, you can be leapfrogged. The sad truth for people like us, but the amazing truth for the world is there are many leapfrogs that exist, there's more useful things to build.",
+      "timestamp": "00:39:03",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 301
+      },
+      "themes": ["competition", "moats", "defensibility"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "michael-truell-007",
+      "speaker": "Michael Truell",
+      "text": "I would bias less toward trying in one go to tell the model, 'Here's exactly what I want you to do.' Instead, chop things up into bits. You're specifying a little bit, getting a little bit of work, specifying a little bit, getting a little bit of work. At the same time, try to discover the limits of what models can do by being ambitious in a safe environment.",
+      "timestamp": "00:46:32",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 334,
+        "lineEnd": 340
+      },
+      "themes": ["AI-usage", "iteration", "workflow"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "michael-truell-008",
+      "speaker": "Michael Truell",
+      "text": "Many people you hear hired too fast. I think we actually hired too slow to begin with. We maybe biased a little bit too much towards looking for people who fit the archetype of well-known school, very young. We found fantastic people who were later careered. We should have spent less time on maybe a little bit the wrong profile.",
+      "timestamp": "00:51:38",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 373,
+        "lineEnd": 388
+      },
+      "themes": ["hiring", "team-building", "lessons-learned"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "michael-truell-009",
+      "speaker": "Michael Truell",
+      "text": "We have people onsite for two days and do a project with us, a work test project. It lets someone go end-to-end on a real project. It helps enforce the 'do you want to be around this person' test, because you are around them for two days, a bunch of meals with them. We didn't expect that one to stick around, but it's been really important.",
+      "timestamp": "00:55:56",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 397,
+        "lineEnd": 400
+      },
+      "themes": ["hiring", "interviews", "culture"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "michael-truell-010",
+      "speaker": "Michael Truell",
+      "text": "Hiring people with the right disposition, people who are less focused on external validation, more focused on building something really great, more focused on doing really high quality work, and people who are just generally level-headed. The highs aren't very high, the lows aren't very low. Hiring can get you through a lot.",
+      "timestamp": "00:59:35",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 430,
+        "lineEnd": 430
+      },
+      "themes": ["hiring", "culture", "focus"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "michael-truell-011",
+      "speaker": "Michael Truell",
+      "text": "I think we're in the middle of a technology shift that's going to be more consequential than the internet, more consequential than any shift in tech we've seen since the advent of computers. And I think it's going to take a while. It's going to be a multi-decade thing, and many different groups will be consequential in pushing it forward.",
+      "timestamp": "01:02:46",
+      "source": {
+        "slug": "michael-truell",
+        "path": "episodes/michael-truell/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 442
+      },
+      "themes": ["AI-future", "technology-shift", "long-term-thinking"],
+      "zones": ["discovery", "chaos"]
+    }
+  ],
+  "themes": ["AI-future", "product-development", "engineering", "taste", "hiring", "dogfooding", "moats", "iteration"],
+  "takeaways": [
+    "The future of programming is moving beyond code toward specifying intent - engineers will become logic designers focused on the 'what' rather than the 'how', and taste will be the most valuable skill.",
+    "Dogfooding as an intense daily practice creates a realism about AI capabilities that prevents overpromising - Cursor's team never ships anything they don't find useful themselves.",
+    "Custom model development became essential despite not being the original plan - every magic moment in Cursor involves a custom model, focused on complementing foundation model weaknesses rather than replacing them.",
+    "In AI products, traditional moats matter less than sustained innovation velocity - the ceiling is so high that any entrenchment can be leapfrogged, requiring continuous improvement as the core strategy.",
+    "Hire for level-headedness and internal motivation over credentials - people less focused on external validation who maintain composure through hype cycles are critical for building in fast-moving spaces."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.30,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "michael-truell-008",
+      "why": "Common wisdom says startups hire too fast - Cursor actually hired too slow and over-indexed on prestigious young candidates instead of experienced later-career people",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "michael-truell-006",
+      "why": "Moats and defensibility don't matter as much in AI - continuous innovation is the only real defense, which is bad for incumbents but great for the world",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI-coding", "product-vision", "hiring", "model-development"]
+  }
+}

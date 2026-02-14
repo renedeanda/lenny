@@ -1,0 +1,194 @@
+{
+  "slug": "ramesh-johari",
+  "quotes": [
+    {
+      "id": "ramesh-johari-001",
+      "speaker": "Ramesh Johari",
+      "text": "What the marketplaces are selling you is taking the friction away. That's what you're paying them for. Both sides of the marketplace are the customers of the platform. Both sides depend on the platform to help take that friction away.",
+      "timestamp": "00:07:31",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 88,
+        "lineEnd": 88
+      },
+      "themes": ["marketplaces", "value-proposition", "friction"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "ramesh-johari-002",
+      "speaker": "Ramesh Johari",
+      "text": "What I've found talking to people who want to start what they think is a marketplace is that they think too much about a marketplace before they're a marketplace. That in my view is the biggest failure mode.",
+      "timestamp": "00:12:33",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 130
+      },
+      "themes": ["startups", "marketplaces", "failure-modes"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "ramesh-johari-003",
+      "speaker": "Ramesh Johari",
+      "text": "A marketplace business never starts as a marketplace business, because what we think of as a marketplace business is something which at scale is removing the friction of the two sides finding each other. But when you start, you don't have that scale.",
+      "timestamp": "00:15:05",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["marketplaces", "startups", "scale"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "ramesh-johari-004",
+      "speaker": "Ramesh Johari",
+      "text": "Maybe we shouldn't talk about the concept of a marketplace founder. Really there's founders. Every entrepreneur... it's very hard to think about a human business endeavor that has not been disrupted by the potential for transactions to take place online. If that's the case, it means literally any founder is a marketplace founder.",
+      "timestamp": "00:16:58",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["founders", "marketplaces", "identity"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "ramesh-johari-005",
+      "speaker": "Ramesh Johari",
+      "text": "Prediction is inherently about correlation. But when we ask people to make decisions, we're asking them to think about causation. The first and most important thing is no matter who they are, get them to be thinking that their goal is to help the business make decisions. The distinction between causation and correlation matters a lot.",
+      "timestamp": "00:34:15",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["data-science", "decision-making", "causation"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "ramesh-johari-006",
+      "speaker": "Ramesh Johari",
+      "text": "What I generally believe is we're risk averse on both these two dimensions, that what people decide to test in a world that has promoted experimentation for everything tends to be more incremental by design. And people tend to run experiments for a long time, and probably longer than they should.",
+      "timestamp": "00:42:14",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 361
+      },
+      "themes": ["experimentation", "risk-aversion", "velocity"],
+      "zones": ["velocity", "data", "chaos"]
+    },
+    {
+      "id": "ramesh-johari-007",
+      "speaker": "Ramesh Johari",
+      "text": "Experimentation was never historically in science about winners and losers. Experimentation is always very hypothesis driven. It's about what are you learning. If I go with something big, risky, and it fails, nevertheless, if I was being rigorous about what hypotheses that's testing about my business, I'm potentially learning a lot.",
+      "timestamp": "00:43:53",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 373,
+        "lineEnd": 376
+      },
+      "themes": ["experimentation", "learning", "hypothesis-driven"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "ramesh-johari-008",
+      "speaker": "Ramesh Johari",
+      "text": "A lot of marketplace management is moving attention and inventory around. Many of the changes that are most consequential create winners and losers. And rolling with those changes is about recognizing whether the winners you've created are more important to your business than the losers you've created in the process.",
+      "timestamp": "00:51:24",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 436,
+        "lineEnd": 436
+      },
+      "themes": ["marketplaces", "trade-offs", "strategy"],
+      "zones": ["data", "focus", "alignment"]
+    },
+    {
+      "id": "ramesh-johari-009",
+      "speaker": "Ramesh Johari",
+      "text": "If we use the language of winners and losers, we're implicitly saying we wasted time when we ran an A/B test on a loser. If I reward you for shipping winners, then what I'm really telling you is all the time that you spent testing out failures was wasted time.",
+      "timestamp": "01:00:46",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 505,
+        "lineEnd": 505
+      },
+      "themes": ["experimentation", "culture", "incentives"],
+      "zones": ["data", "discovery", "alignment"]
+    },
+    {
+      "id": "ramesh-johari-010",
+      "speaker": "Ramesh Johari",
+      "text": "What AI has done for us is it's massively expanded the frontier of things we could think about our problem, hypotheses we could have. I really think what that does is puts more pressure on the human, not less. It becomes more important for humans to be in the loop to drive the funneling down process of identifying what matters.",
+      "timestamp": "01:09:35",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 580,
+        "lineEnd": 580
+      },
+      "themes": ["ai", "data-science", "human-judgment"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "ramesh-johari-011",
+      "speaker": "Ramesh Johari",
+      "text": "We're so convinced that speed is the way you're going to find the right answer, that I just don't think we slow down to develop meaningful mental models of the things we're doing. Slowing down is actually more of a virtue than it's given credit for.",
+      "timestamp": "01:17:43",
+      "source": {
+        "slug": "ramesh-johari",
+        "path": "episodes/ramesh-johari/transcript.md",
+        "lineStart": 673,
+        "lineEnd": 673
+      },
+      "themes": ["mental-models", "velocity", "thinking"],
+      "zones": ["perfection", "discovery"]
+    }
+  ],
+  "themes": ["marketplaces", "data-science", "experimentation", "causation", "friction", "startups", "decision-making", "learning"],
+  "takeaways": [
+    "Marketplaces sell friction removal, not products - both sides of the marketplace are the platform's customers, and the core value proposition is eliminating transaction costs that prevent matches from happening.",
+    "Don't think of yourself as a marketplace founder - every business will face the marketplace choice eventually, and early-stage companies should focus on solving a specific friction problem before worrying about building a two-sided platform.",
+    "Prediction and decision-making are fundamentally different - data scientists should focus on causation over correlation, asking not 'what will happen?' but 'what's the difference if I take this action?' to drive real business value.",
+    "Experimentation culture needs to reward learning, not just wins - the language of winners and losers discourages bold experiments, and companies should embrace that paying to learn is a necessary cost of doing good data science.",
+    "AI amplifies the need for human judgment in data science - by expanding the frontier of possible hypotheses and explanations, AI makes the human funneling and prioritization process more critical, not less."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.35,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ramesh-johari-002",
+      "why": "Challenges the entire concept of 'marketplace founders' - argues the identity itself is a failure mode that causes founders to optimize for marketplace dynamics before they have scale",
+      "related_zones": ["focus", "discovery"]
+    },
+    {
+      "quoteId": "ramesh-johari-006",
+      "why": "Argues that experimentation-driven cultures are too risk averse and run experiments too long - the opposite of what most data-driven companies believe about their own culture",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "academic",
+    "company_stage": "mixed",
+    "primary_topics": ["marketplaces", "data-science", "experimentation", "causal-inference"]
+  }
+}

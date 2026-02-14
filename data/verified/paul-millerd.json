@@ -1,0 +1,194 @@
+{
+  "slug": "paul-millerd",
+  "quotes": [
+    {
+      "id": "paul-millerd-001",
+      "speaker": "Paul Millerd",
+      "text": "The default path is different for everyone and slightly different in every different culture. It's really the story in your head about what you should do. And most of us have some sort of script that we're living out. This is especially powerful when we're in our late teens and early twenties. We're trying to execute a script.",
+      "timestamp": "00:05:08",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 78,
+        "lineEnd": 78
+      },
+      "themes": ["career", "identity", "self-awareness"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "paul-millerd-002",
+      "speaker": "Paul Millerd",
+      "text": "Are you conscious about what you're actually doing? What are the costs of your game? What are the trade-offs? What are the implicit contracts you're creating with yourself? A lot of times when people quit their jobs, they forget to fire the manager in their head.",
+      "timestamp": "00:06:50",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 93
+      },
+      "themes": ["self-awareness", "work", "mindset"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "paul-millerd-003",
+      "speaker": "Paul Millerd",
+      "text": "My hot take is that we're all on a pathless path. Airbnb, every two years was a different company. We're constantly needing to reinvent and reevaluate. Thinking of our lives as this smooth trajectory up this corporate ascent sort of limits the possibilities of our own life.",
+      "timestamp": "00:08:54",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 104,
+        "lineEnd": 105
+      },
+      "themes": ["career", "reinvention", "adaptability"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "paul-millerd-004",
+      "speaker": "Paul Millerd",
+      "text": "A three month sabbatical is much more attainable than people think. Companies are desperate to keep people and are much more open to things like this these days. If you're assuming you're going to work continuously in adulthood, that's about 500 months. Try to find three months of that where you can create space and reconnect with yourself.",
+      "timestamp": "00:16:31",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": ["sabbatical", "self-discovery", "work-life"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "paul-millerd-005",
+      "speaker": "Paul Millerd",
+      "text": "The big aha for me was you can design around liking work. The hidden assumption I had around work for the first 32, 33 years of my life was work sucks. You have to figure out how to tolerate it. And within that frame, try to do your best to enjoy some of it.",
+      "timestamp": "00:14:52",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 156
+      },
+      "themes": ["work", "fulfillment", "mindset-shift"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "paul-millerd-006",
+      "speaker": "Paul Millerd",
+      "text": "I think it's easier to make money in a sustainable, long-term way doing stuff you actually like doing. That sounds so simple, but it actually would've been really hard for me to stay on my previous path.",
+      "timestamp": "00:27:39",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 258
+      },
+      "themes": ["income", "sustainability", "passion"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "paul-millerd-007",
+      "speaker": "Paul Millerd",
+      "text": "People do not regret the things they do. They regret the things they didn't do. And the reason for this is if you've made a mistake, you can actually take action to correct it. But if you didn't do the thing that you're regretting, there's nothing you can do except do the thing.",
+      "timestamp": "00:34:24",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["regret", "action", "risk"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "paul-millerd-008",
+      "speaker": "Paul Millerd",
+      "text": "People, we're far more creative than we give ourselves credit for. Having a child, we have no idea what we're doing when they come out. But it makes perfect sense that you're going to figure everything out, because you have to. You have no choice. And so the ingenuity and creativity of people as soon as they bet on themselves is far more than people expect.",
+      "timestamp": "00:34:03",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 309
+      },
+      "themes": ["creativity", "resourcefulness", "risk"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "paul-millerd-009",
+      "speaker": "Paul Millerd",
+      "text": "It's very important to dance with your fears and really get in with them. If I'm afraid of not making money, it's very reasonable that book sales will fall. But taking that fear and saying I'm going to solve that and make that fear go away by getting a job is off the table. So I have no choice but to actually just be like, yeah, that fear's going to be here.",
+      "timestamp": "00:44:12",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 396,
+        "lineEnd": 396
+      },
+      "themes": ["fear", "resilience", "entrepreneurship"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "paul-millerd-010",
+      "speaker": "Paul Millerd",
+      "text": "Coming alive over getting ahead. I'm default skeptical of chasing achievement, and I use this to remind myself that it is about that personal energy versus extrinsic outcomes. When I'm in extended states of feeling alive and connected to everything I'm doing in my life, that's it.",
+      "timestamp": "00:59:22",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 546,
+        "lineEnd": 546
+      },
+      "themes": ["fulfillment", "purpose", "intrinsic-motivation"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "paul-millerd-011",
+      "speaker": "Paul Millerd",
+      "text": "This path is really just a commitment to constant reinvention, which is really, really hard. And you shouldn't do it unless you get some satisfaction out of personal reflection and that journey.",
+      "timestamp": "00:50:38",
+      "source": {
+        "slug": "paul-millerd",
+        "path": "episodes/paul-millerd/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 447
+      },
+      "themes": ["reinvention", "self-awareness", "commitment"],
+      "zones": ["chaos", "discovery"]
+    }
+  ],
+  "themes": ["career-design", "pathless-path", "sabbatical", "fear", "self-discovery", "work-fulfillment", "reinvention", "intrinsic-motivation"],
+  "takeaways": [
+    "Most people are unconsciously following a 'default path' scripted by culture and expectations - becoming aware of these invisible scripts is the first step to designing a more intentional life.",
+    "A three-month sabbatical out of 500 working months is far more attainable than most people believe, and the creative potential unleashed when people bet on themselves far exceeds their expectations.",
+    "The biggest mindset shift is realizing you can design work around enjoyment rather than tolerating work as a necessary evil - this reframe unlocks sustainable long-term income.",
+    "Fear of money, belonging, and failure never fully disappears on an unconventional path - the skill is learning to dance with fear rather than trying to eliminate it.",
+    "Coming alive over getting ahead is the core philosophy: when you optimize for personal energy and aliveness rather than extrinsic achievement, both fulfillment and financial success tend to follow."
+  ],
+  "zone_influence": {
+    "velocity": 0.00,
+    "perfection": 0.00,
+    "discovery": 0.30,
+    "data": 0.00,
+    "intuition": 0.30,
+    "alignment": 0.05,
+    "chaos": 0.25,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "paul-millerd-005",
+      "why": "Challenges the universal assumption that work inherently requires suffering and tolerance - argues you can design around enjoying work",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "paul-millerd-003",
+      "why": "Claims everyone is already on a pathless path whether they realize it or not - the stable corporate trajectory is the illusion",
+      "related_zones": ["chaos", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["career-design", "sabbaticals", "creator-economy", "work-identity"]
+  }
+}

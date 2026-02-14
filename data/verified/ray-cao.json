@@ -1,0 +1,194 @@
+{
+  "slug": "ray-cao",
+  "quotes": [
+    {
+      "id": "ray-cao-001",
+      "speaker": "Ray Cao",
+      "text": "The number one thing resonating really, really well with me is context, no control. We're always encouraging people to think out of the box and think themselves as a business owner rather than a piece of machine that keep the machine running.",
+      "timestamp": "00:15:43",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 135
+      },
+      "themes": ["culture", "autonomy", "ownership"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "ray-cao-002",
+      "speaker": "Ray Cao",
+      "text": "If you don't really see the full picture, you won't be able to make the Lego as one thing at the end of the day. You have to see the other pieces. People have to see this and then they have the context.",
+      "timestamp": "00:18:35",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": ["context", "collaboration", "thinking"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "ray-cao-003",
+      "speaker": "Ray Cao",
+      "text": "I have never seen a company where the engineering team and the product team and the sales team are so close. If your engineer does not really know what the market wants and if your PM doesn't really know what is actually the client's feedback, they won't be able to get a right product in the market.",
+      "timestamp": "00:23:50",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 174,
+        "lineEnd": 174
+      },
+      "themes": ["cross-functional", "collaboration", "product-development"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "ray-cao-004",
+      "speaker": "Ray Cao",
+      "text": "The first mistake I made was because we're trying to grow too fast and sometimes as a hiring manager I have to compromise the standard we're trying to hire. You need to always run for the quality rather than the quantity. When you have the wrong people on the team, it's not necessarily going to make you move faster, it's going to actually slow you down.",
+      "timestamp": "00:36:00",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["hiring", "quality", "velocity"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "ray-cao-005",
+      "speaker": "Ray Cao",
+      "text": "Your goal is not to deliver the go-to-market strategy. Your goal is to land your go-to-market strategy with sales together. If your job only is delivering, you're failed oftentimes because you're not really getting the market context, you're not even talking to your clients.",
+      "timestamp": "00:37:43",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 240
+      },
+      "themes": ["go-to-market", "execution", "collaboration"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "ray-cao-006",
+      "speaker": "Ray Cao",
+      "text": "The leader at any level needs to be situational. You cannot always be down in the weeds and you cannot really distance yourself from the reality. You need to find the balance to really get engaged and also see yourself out there to getting deeper into the problems.",
+      "timestamp": "00:39:32",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 246
+      },
+      "themes": ["leadership", "balance", "details"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "ray-cao-007",
+      "speaker": "Ray Cao",
+      "text": "Join a startup and join a rocket ship is a lifestyle. It is not necessarily a job you are working on from 9 to 5. It is a different lifestyle and it is not built for everyone.",
+      "timestamp": "00:40:36",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 252
+      },
+      "themes": ["startup-culture", "work-ethic", "fit"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "ray-cao-008",
+      "speaker": "Ray Cao",
+      "text": "My last question during my interview is, 'What is actually your goal in the next three to five years?' I always believe it is not only about achieving the company goal, it's also achieving really the career goal or your employee's career goal together.",
+      "timestamp": "00:41:46",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 258
+      },
+      "themes": ["hiring", "career-growth", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "ray-cao-009",
+      "speaker": "Ray Cao",
+      "text": "The algorithm is definitely helping because the machine is doing a lot of heavy lifting. But the difference is actually how much you are willing to take the heavy lifting in the market. You have to really understand local culture. If you don't understand the culture, you won't be able to understand the behavior.",
+      "timestamp": "00:08:51",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 105
+      },
+      "themes": ["globalization", "culture", "localization"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "ray-cao-010",
+      "speaker": "Ray Cao",
+      "text": "We are a digital version of word-of-mouth. It is the way how the digital era becomes more human because it is actually helping user to discover new things, just like what they used to do. Discovery is the core of advertising to me.",
+      "timestamp": "01:00:26",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 341,
+        "lineEnd": 342
+      },
+      "themes": ["advertising", "discovery", "word-of-mouth"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "ray-cao-011",
+      "speaker": "Ray Cao",
+      "text": "As a faster growing company, we need to consistently reiterate not only the product but also our teams. We're not afraid to break our teams. We're actually bonding to the market need and we're bounding to the growth we're looking for.",
+      "timestamp": "00:33:33",
+      "source": {
+        "slug": "ray-cao",
+        "path": "episodes/ray-cao/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 219
+      },
+      "themes": ["org-design", "agility", "growth"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["culture", "globalization", "velocity", "collaboration", "hiring", "go-to-market", "leadership", "advertising"],
+  "takeaways": [
+    "Context, no control is TikTok's core operating principle - give people full visibility into the business so they think like owners, then encourage proactive thinking with reactive doing to avoid stepping on toes while breaking down silos.",
+    "Cross-functional closeness between engineering, product, and sales is a secret weapon - TikTok keeps these teams unusually close through reading-format meetings with 180+ people and immersion trips where PMs and engineers meet clients directly.",
+    "Hiring speed should never compromise quality - compromising hiring standards to grow fast creates teams that actually move slower, and wrong-fit employees slow everyone down rather than accelerating the organization.",
+    "Understanding local culture is essential for global products - technology and algorithms do heavy lifting, but you must invest in local talent and on-the-ground market understanding to fine-tune products for different cultures.",
+    "Digital advertising is fundamentally about discovery, not just targeting - TikTok positions itself as a digital version of word-of-mouth, where the content graph enables advertisers to reach new audiences through test-and-learn approaches rather than narrow targeting."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ray-cao-001",
+      "why": "Context, no control is anti-hierarchical - encourages everyone to think beyond their role rather than staying in their lane, which could create chaos but TikTok makes it work",
+      "related_zones": ["alignment", "chaos"]
+    },
+    {
+      "quoteId": "ray-cao-011",
+      "why": "Argues teams should be regularly restructured to match market needs rather than optimizing for stability - breaks conventional wisdom about team stability being key to performance",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["culture", "go-to-market", "globalization", "advertising", "hiring"]
+  }
+}
