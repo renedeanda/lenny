@@ -1,0 +1,194 @@
+{
+  "slug": "petra-wille",
+  "quotes": [
+    {
+      "id": "petra-wille-001",
+      "speaker": "Petra Wille",
+      "text": "How should you help people grow if you have no clue what their role actually is all about? So that's what I actually like to help them with, to get this clarity on a strong compass how the best product organizations and product managers should be working.",
+      "timestamp": "06:16",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 105
+      },
+      "themes": ["leadership", "coaching", "product-management"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "petra-wille-002",
+      "speaker": "Petra Wille",
+      "text": "People tend to talk about T-shaped employee profiles, but T-shaped is so not enough for a product person. We want them to understand underlying problems of the business and the users finding solution for those, getting things out of the door with the team, doing a lot of product discovery, looking at the data, how people are using it, iterating on the products. So there's so many things that we want them to be good at.",
+      "timestamp": "08:13",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["product-management", "skills", "career-growth"],
+      "zones": ["discovery", "data", "velocity"]
+    },
+    {
+      "id": "petra-wille-003",
+      "speaker": "Petra Wille",
+      "text": "What is the next bigger challenge I would love to assign this product person to if I could because I know that would help them to learn a new skill. And creating such a list once a quarter, you block yourself an hour in your calendar, you write down the names of your direct reports, and then you just think about what would be this next bigger challenge for them.",
+      "timestamp": "13:27",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 156
+      },
+      "themes": ["coaching", "career-growth", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "petra-wille-004",
+      "speaker": "Petra Wille",
+      "text": "Start with your own personal team because the folks in your team usually just have you as a line manager. So create your compass and encourage your peers to create their compass. It's better to start helping your product folks and giving them some orientation than being totally paralyzed by the fact that it's not a compass that is used in the whole company.",
+      "timestamp": "18:38",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 192
+      },
+      "themes": ["leadership", "pragmatism", "people-development"],
+      "zones": ["velocity", "focus", "alignment"]
+    },
+    {
+      "id": "petra-wille-005",
+      "speaker": "Petra Wille",
+      "text": "All of us know consistency beats intensity. The smaller time investments on a weekly basis, that applies for the PM's time investment in learning new things and it applies to the product lead's investment in helping their people to grow. It's more likely and more pleasant if you have small chunks of people development in your calendar.",
+      "timestamp": "20:26",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 207,
+        "lineEnd": 207
+      },
+      "themes": ["coaching", "habits", "people-development"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "petra-wille-006",
+      "speaker": "Petra Wille",
+      "text": "I think product people need to be curious about the world, how it works, about things, no matter the topic. The best product people that I know, whatever the topic is, they're interested and tell me more about it. That is something I would always check when hiring product people because I know it's hard to build that muscle.",
+      "timestamp": "22:33",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 225
+      },
+      "themes": ["hiring", "curiosity", "product-management"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "petra-wille-007",
+      "speaker": "Petra Wille",
+      "text": "Our product people often need super practical advice. So maybe it's really something like explaining them the Eisenhower matrix for getting better time management because they never heard about anything that could help them prioritize their tasks. That's the reality that we find in a lot of the companies.",
+      "timestamp": "28:38",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 255
+      },
+      "themes": ["coaching", "prioritization", "practical-advice"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "petra-wille-008",
+      "speaker": "Petra Wille",
+      "text": "Creating this list of coaching questions as a go-to list could improve the quality of your one-on-ones because, let's face it, we often run into those ones completely unprepared. A development plan could help and a prepared list of coaching questions could help to make it way easier. And for your PMs to feel more valued.",
+      "timestamp": "33:11",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": ["coaching", "one-on-ones", "leadership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "petra-wille-009",
+      "speaker": "Petra Wille",
+      "text": "You have to practice and you have to put in a lot of work and time to come up with a logical, compelling, motivating story that then lasts for longer than a week or two. People often think you just get better overnight in telling great stories. It's just not how it works.",
+      "timestamp": "36:55",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 345,
+        "lineEnd": 345
+      },
+      "themes": ["storytelling", "craft", "practice"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "petra-wille-010",
+      "speaker": "Petra Wille",
+      "text": "Make sure that you're using language that speaks to the heart and the minds of the people because we constantly tend to use too much of our business lingo and it's banner blindness. Some of the words that we're using people totally overhearing them because we're using them so often.",
+      "timestamp": "37:48",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 348,
+        "lineEnd": 348
+      },
+      "themes": ["storytelling", "communication", "empathy"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "petra-wille-011",
+      "speaker": "Petra Wille",
+      "text": "I use this hero's journey a lot where I think about, should I put the team in the heart of the story? If it's a story that should help me to motivate the team or to inspire the team to actions, then maybe it's nice if I put them in the center of the story and make them the heroes and talk about the demons and monsters they have to fight to once arrived at this brighter future.",
+      "timestamp": "48:43",
+      "source": {
+        "slug": "petra-wille",
+        "path": "episodes/petra-wille/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 471
+      },
+      "themes": ["storytelling", "motivation", "leadership"],
+      "zones": ["alignment", "intuition"]
+    }
+  ],
+  "themes": ["coaching", "people-development", "storytelling", "leadership", "product-management", "community", "career-growth", "communication"],
+  "takeaways": [
+    "The best PM coaches start with a clear compass of what 'good' looks like, then assess where each PM is today, share a vision for their growth, co-create a development plan, and follow up consistently - treating people development like product strategy.",
+    "Product leaders who never worked as PMs themselves often fail to curate their team's growth because they lack knowledge of the product community's best practices, leaving IC-level PMs to struggle through problems that have already been solved elsewhere.",
+    "Consistency beats intensity in people development - small weekly investments in coaching and check-ins are more effective than occasional big-bang 360-degree reviews or intensive training bursts.",
+    "Great storytelling in product requires significant time investment and deliberate practice. A compelling quarterly vision story takes roughly two weeks of work, and leaders should prepare it in three lengths: a 75-second elevator pitch, a 6-minute planning version, and an 18-minute deep dive.",
+    "Curiosity and empathy are personality traits that product leaders should hire for because they are nearly impossible to develop through coaching, unlike technical skills or frameworks that can be taught through practical advice and development plans."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.30,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "petra-wille-004",
+      "why": "Challenges the common approach of waiting for company-wide alignment on PM frameworks before acting - argues you should just start with your own team's compass even if it's not harmonized across the org.",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "petra-wille-002",
+      "why": "Pushes back against the popular T-shaped employee model, arguing product management requires an 'eight-legged creature' with breadth across many more dimensions than a single deep expertise.",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "consulting",
+    "primary_topics": ["coaching", "people-development", "storytelling", "product-leadership", "community"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "timothy-davis",
+  "quotes": [
+    {
+      "id": "timothy-davis-001",
+      "speaker": "Timothy Davis",
+      "text": "I would say at baseline, everyone should be doing paid search. The way I usually explain it to people is paid search is user driven. You have to type in a relevant keyword for your ad to show. Anything else is more disruptive media. You're on Meta and you're looking at pictures of babies and cats, and then all of a sudden, you see an ad for Shopify.",
+      "timestamp": "06:42",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 111
+      },
+      "themes": ["paid-search", "platform-strategy", "user-intent"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "timothy-davis-002",
+      "speaker": "Timothy Davis",
+      "text": "Always look at the data that's available to you within your analytics platforms and say, 'Users are already finding us here. How can we turn that knob up to 11?' And you can do that with paid. Because if they're already finding you through that channel, what would happen if you were to just turn it up to 11?",
+      "timestamp": "08:47",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["analytics", "channel-strategy", "scaling"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "timothy-davis-003",
+      "speaker": "Timothy Davis",
+      "text": "You can always do a very, very small test. You can just put a little money into a platform, see if there's a sign of life. If there is, then you can pull back and say, 'Okay, we have signs of life. Now let's build a campaign around that.' Do we have the right creative? Do we have the right campaign? Do we have the right messaging for the users on this platform?",
+      "timestamp": "11:38",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["experimentation", "signs-of-life", "testing"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "timothy-davis-004",
+      "speaker": "Timothy Davis",
+      "text": "The number one thing I tell people all the time is use your own data, start with your own data. So take the existing customer base you have, load that up into the platform to build lookalikes. If you also have a very limited budget, just start with the 1%. See what that sign of life is because you already know that this is so tied to your existing customer base.",
+      "timestamp": "12:49",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 141
+      },
+      "themes": ["data-driven", "lookalike-audiences", "targeting"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "timothy-davis-005",
+      "speaker": "Timothy Davis",
+      "text": "I believe in creating an environment where it's okay to fail because we're either winning or we're learning. And more times than not, if we put something new into a platform that we know nothing about, we're learning the bells and whistles, we're learning the functionality of it. Just know there's going to be things you're not going to understand because each platform is unique, each platform is different.",
+      "timestamp": "18:04",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 183
+      },
+      "themes": ["experimentation", "failure", "learning-culture"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "timothy-davis-006",
+      "speaker": "Timothy Davis",
+      "text": "Start with emotion. If you can have an emotional connection with the user, it's going to be way more impactful and way more powerful than anything else. It is just making sure the user feels something after seeing your ad. Because then, they're more times than not going to remember it, which then they will take a favorable action after the fact.",
+      "timestamp": "25:39",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 243
+      },
+      "themes": ["creative", "emotional-connection", "video-ads"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "timothy-davis-007",
+      "speaker": "Timothy Davis",
+      "text": "All you're going to do is really annoy the users. Because, say, in the future they are, 'Hey, I'm still interested, but I don't want to use that product because I already tried.' Some users will hold you accountable to that. One bad experience and I'm just never giving you my business.",
+      "timestamp": "32:35",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 279
+      },
+      "themes": ["product-market-fit", "user-experience", "timing"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "timothy-davis-008",
+      "speaker": "Timothy Davis",
+      "text": "I'm a big believer in forward thinking, backwards planning. If I'm taking this contract on with this new client, what's the end goal for you? So let's create milestones along the way of making sure we're checking in and saying, when is the right time to hire? There's no reason that you should be holding a company back. If anything, you should be helping them get to that milestone.",
+      "timestamp": "37:43",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["planning", "milestones", "scaling-teams"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "timothy-davis-009",
+      "speaker": "Timothy Davis",
+      "text": "I can teach anyone how to do Google ads. I can teach anyone how to do Meta ads. That is not the hard part. It is the data part that is the hard part because there is so much noise going on in those accounts. So what is the signal and what is the noise? And let's make sure we're focusing on the right signal versus the right noise.",
+      "timestamp": "42:05",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 342,
+        "lineEnd": 342
+      },
+      "themes": ["signal-vs-noise", "hiring", "data-analysis"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "timothy-davis-010",
+      "speaker": "Timothy Davis",
+      "text": "It's not about showing as often as possible because that's what impression share tells you, and that's kind of like ego marketing. I want to be number one, I want to be there all the time. It's about showing to the right person as often as possible. Instead of thinking about being on top of the page, you should think about serving the right user.",
+      "timestamp": "56:26",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 432
+      },
+      "themes": ["ego-marketing", "targeting", "efficiency"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "timothy-davis-011",
+      "speaker": "Timothy Davis",
+      "text": "I want to try and make that 45 days, if not 30. Giving them responsibility early on for something. When you're clear in what is expected of them, people are a lot more quicker to pick up things and start getting that flywheel going. Versus, 'Oh, hey, go read this handbook week one. Week two, let me introduce you to the team.' We can speed this up and get people up to speed and making impact a lot sooner.",
+      "timestamp": "01:21:14",
+      "source": {
+        "slug": "timothy-davis",
+        "path": "episodes/timothy-davis/transcript.md",
+        "lineStart": 639,
+        "lineEnd": 648
+      },
+      "themes": ["onboarding", "team-building", "velocity"],
+      "zones": ["velocity", "alignment"]
+    }
+  ],
+  "themes": ["paid-growth", "performance-marketing", "data-driven-decisions", "signal-vs-noise", "experimentation", "team-building", "platform-strategy", "creative-strategy"],
+  "takeaways": [
+    "Start with paid search as a baseline for every company - it's user-driven and the safest entry point, then expand to Meta and YouTube based on where your analytics show users are already finding you.",
+    "Run small 'signs of life' tests before committing big budgets to any platform - use your own customer data to build lookalike audiences and validate demand before scaling.",
+    "Separate signal from noise in your data - the hardest skill in performance marketing isn't running ads, it's knowing which metrics actually matter for your campaign's specific goal.",
+    "Don't run paid ads before achieving product-market fit - pushing users to a product that can't convert will annoy them and create lasting negative brand impressions that are hard to undo.",
+    "Build your performance marketing team methodically: first a data-driven generalist, then a creative person, then a dedicated data scientist - and only hire when the workload consistently exceeds capacity."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "timothy-davis-010",
+      "why": "Challenges the common obsession with impression share and being number one on the page - dismisses it as ego marketing and argues for serving the right user instead of maximizing visibility",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "timothy-davis-005",
+      "why": "Encourages embracing failure in performance marketing where most organizations demand every experiment succeed - reframes losing money on failed tests as a necessary learning investment",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "timothy-davis-009",
+      "why": "Claims the tactical platform skills are the easy part that anyone can learn, while most job postings and hiring prioritize platform experience over data thinking ability",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["performance-marketing", "paid-growth", "data-analysis", "team-building", "platform-strategy"]
+  }
+}

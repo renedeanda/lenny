@@ -1,0 +1,199 @@
+{
+  "slug": "sanchan-saxena",
+  "quotes": [
+    {
+      "id": "sanchan-saxena-001",
+      "speaker": "Sanchan Saxena",
+      "text": "Things start to materialize when you actually take steps to do something. My biggest advice to people is, oftentimes the analysis paralysis of dotting every eye, crossing every tee sometimes chokes you out of opportunities. When you find something that gives you energy, just jump in with both feet.",
+      "timestamp": "00:07:07",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["career-growth", "bias-to-action", "risk-taking"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "sanchan-saxena-002",
+      "speaker": "Sanchan Saxena",
+      "text": "You got to learn the art and the science of product management early on in your career. There's an art piece to it and then there's a science piece to it. If you become too scientific, you miss out on opportunities because you can't see those opportunities using the scientific method of discovery, because they're too tiny or they're so farfetched that people cannot even understand them.",
+      "timestamp": "00:08:10",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 123
+      },
+      "themes": ["product-management", "intuition", "learning"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "sanchan-saxena-003",
+      "speaker": "Sanchan Saxena",
+      "text": "The real genius isn't to dot every eye, to cross every team before you get started. The real genius is, what do you do when shit goes wrong? And I believe rapid recovery is the key to success. What you do, how quickly you can recover from failure becomes really important.",
+      "timestamp": "00:19:47",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["crisis-management", "resilience", "rapid-recovery"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "sanchan-saxena-004",
+      "speaker": "Sanchan Saxena",
+      "text": "I felt like a 4,000 people company was operating as a four people company and a 40 people company, which is one team, no sub-teams, everybody rowing in the same direction. And that was really important.",
+      "timestamp": "00:23:09",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["crisis-management", "team-alignment", "organizational-design"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "sanchan-saxena-005",
+      "speaker": "Sanchan Saxena",
+      "text": "We had to get people from feature obsession, revenue obsession, to belief obsession. What is belief obsession? When we all believe that when coronavirus is over, people will want to travel. You start going into first principles belief-based thinking, and you'll bring stories that will make people believe that the future that we are working toward is actually possible.",
+      "timestamp": "00:24:05",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 273
+      },
+      "themes": ["leadership", "storytelling", "mission-driven"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "sanchan-saxena-006",
+      "speaker": "Sanchan Saxena",
+      "text": "The thing that I learned from Kevin Systrom was the power of simplicity. That guy can listen to everything, hear everything, hear the noise on Twitter, here, there, all the customers complaining, and then just simplify things that makes sense for the team to operate on. That's his superpower, which is simplicity.",
+      "timestamp": "00:30:02",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 324,
+        "lineEnd": 324
+      },
+      "themes": ["simplicity", "focus", "leadership"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "sanchan-saxena-007",
+      "speaker": "Sanchan Saxena",
+      "text": "First tell me the intentionality of the product that you want to create. What do you want to see come true? And then let's talk about the A/B test we can run to measure that we are headed in the right direction. And it's a flipping of the mind.",
+      "timestamp": "00:33:24",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": ["intentionality", "vision", "experimentation"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "sanchan-saxena-008",
+      "speaker": "Sanchan Saxena",
+      "text": "And to me, gut and intuition is data. It's just not statistically significant yet. That's all it is. You have built that intuition, that gut, because you immerse yourself in a situation, you hung out with customers, you understood what was happening. You just can't prove it that it is statistically significant yet.",
+      "timestamp": "00:38:07",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 393,
+        "lineEnd": 393
+      },
+      "themes": ["intuition", "data", "customer-empathy"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "sanchan-saxena-009",
+      "speaker": "Sanchan Saxena",
+      "text": "Nobody knows everything. The idea is that you can look at as much data as you want, which is still not going to feel that all the answers. What is really important? The really important thing is rapid recovery. Build a culture in your team where failure of those experiments is actually celebrated.",
+      "timestamp": "00:39:23",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 408,
+        "lineEnd": 408
+      },
+      "themes": ["experimentation", "failure", "culture"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "sanchan-saxena-010",
+      "speaker": "Sanchan Saxena",
+      "text": "The culture of Coinbase is to take big, bold bets, get started with very tiny teams. The Coinbase NFT marketplace that we just launched, it started with five people, one product manager, one designer and other three engineers. That's how smart it start. The idea is take big, bold swings, but with tiny teams that can move at lightning speed and make shit happen.",
+      "timestamp": "00:42:26",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 450
+      },
+      "themes": ["small-teams", "speed", "bold-bets"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "sanchan-saxena-011",
+      "speaker": "Sanchan Saxena",
+      "text": "What's highly correlated to a startup's success isn't that they used a process like scrum. What's highly correlated is that somebody bloody knew what to do when. That is the most important thing. And I call that content. Content means what you do when. Process means how you do the thing that I just said.",
+      "timestamp": "00:52:10",
+      "source": {
+        "slug": "sanchan-saxena",
+        "path": "episodes/sanchan-saxena/transcript.md",
+        "lineStart": 546,
+        "lineEnd": 549
+      },
+      "themes": ["hiring", "content-vs-process", "startup-success"],
+      "zones": ["focus", "velocity"]
+    }
+  ],
+  "themes": ["crisis-management", "intuition-vs-data", "intentionality", "rapid-recovery", "leadership", "content-vs-process", "simplicity", "bold-bets"],
+  "takeaways": [
+    "Rapid recovery matters more than perfect planning -- the real genius is what you do when things go wrong, not dotting every i before getting started.",
+    "Gut and intuition are data that is not yet statistically significant -- don't discount your instincts just because you can't prove them yet with numbers.",
+    "Start with intentionality, not A/B tests -- know where you want to go first, then use experimentation to find the fastest route there.",
+    "Hire for content over process -- people who know what to build and when are far more correlated with startup success than people who know how to run a process.",
+    "In a crisis, dissolve sub-teams and shift from feature obsession to belief obsession -- rally everyone around first-principles conviction that the future you are building is possible."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.25,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sanchan-saxena-008",
+      "why": "Reframes intuition as data that is not yet statistically significant -- challenges the conventional PM orthodoxy that decisions must be data-driven",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "sanchan-saxena-011",
+      "why": "Argues that process (scrum, agile, etc.) is not correlated with startup success -- directly challenges the industry's obsession with methodology over substance",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "sanchan-saxena-003",
+      "why": "Claims the real genius is not in meticulous planning but in rapid recovery from failure -- challenges perfectionist planning culture",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["crisis-management", "intuition-vs-data", "intentionality", "hiring", "content-vs-process", "founder-leadership"]
+  }
+}

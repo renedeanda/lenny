@@ -1,0 +1,213 @@
+{
+  "slug": "sander-schulhoff",
+  "quotes": [
+    {
+      "id": "sander-schulhoff-001",
+      "speaker": "Sander Schulhoff",
+      "text": "We have recognized the need for artificial social intelligence, communicating with AIs and understanding the best way to talk to them, understanding what their responses mean, and then how to adapt your next prompts to that response. Over and over again, we have seen prompt engineering continue to be very important.",
+      "timestamp": "07:12",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 86,
+        "lineEnd": 87
+      },
+      "themes": ["prompt-engineering", "AI-communication", "artificial-social-intelligence"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "sander-schulhoff-002",
+      "speaker": "Sander Schulhoff",
+      "text": "I tried out all these different prompts and ways of showing the AI what it should be doing, but at the beginning of my process, I was getting little to no accuracy. What I ended up doing was taking a long list of documents that I went and coded myself, attached reasonings as to why each one was coded in the way it was, dropped it into my prompt, and that boosted the accuracy on that task up by 70%.",
+      "timestamp": "07:48",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 93
+      },
+      "themes": ["prompt-engineering", "few-shot-prompting", "accuracy", "iteration"],
+      "zones": ["data", "perfection", "velocity"]
+    },
+    {
+      "id": "sander-schulhoff-003",
+      "speaker": "Sander Schulhoff",
+      "text": "My best advice on how to improve your prompting skills is actually just trial and error. You will learn the most from just trying and interacting with chatbots, and talking to them, than anything else, including reading resources, taking courses, all of that. But if there were one technique that I could recommend people, it is few-shot prompting, which is just giving the AI examples of what you want it to do.",
+      "timestamp": "12:18",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 138
+      },
+      "themes": ["few-shot-prompting", "learning", "trial-and-error", "examples"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "sander-schulhoff-004",
+      "speaker": "Sander Schulhoff",
+      "text": "My perspective is that roles do not help with any accuracy-based tasks whatsoever. At some point with the GPT-3, early ChatGPT models, it might've been true that giving these roles provides a performance boost on accuracy-based tasks, but right now, it doesn't help at all. But giving a role really helps for expressive tasks, writing tasks, summarizing tasks.",
+      "timestamp": "20:36",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 258
+      },
+      "themes": ["role-prompting", "debunking", "accuracy", "expressive-tasks"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "sander-schulhoff-005",
+      "speaker": "Sander Schulhoff",
+      "text": "For decomposition, the core idea is that there's some task you want the model to do. If you just ask it straight up, it might struggle. So instead you say, 'Hey, before answering, tell me what are some subproblems that would need to be solved first?' It gives you a list of subproblems. And honestly, this can help you think through the thing as well, which is half the power a lot of the time.",
+      "timestamp": "25:03",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 306,
+        "lineEnd": 306
+      },
+      "themes": ["decomposition", "problem-solving", "subproblems", "prompt-technique"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "sander-schulhoff-006",
+      "speaker": "Sander Schulhoff",
+      "text": "Self-criticism: you ask the LLM to solve some problem. It does it, and then you're like, 'Can you go and check your response, confirm that's correct, or offer yourself some criticism.' It gives you criticism, then you say, 'Go ahead and implement that.' It outputs something, you get it to criticize itself, and then to improve itself. It's like a free performance boost that works in some situations.",
+      "timestamp": "28:42",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 339,
+        "lineEnd": 339
+      },
+      "themes": ["self-criticism", "iteration", "performance", "prompt-technique"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "sander-schulhoff-007",
+      "speaker": "Sander Schulhoff",
+      "text": "That is just one of the wacky oddities of prompting and prompt engineering, there's just small things you change to have massive unpredictable effects, but the lesson there is that including context or additional information about the situation was super, super important to get a performance boost.",
+      "timestamp": "33:19",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 375
+      },
+      "themes": ["context", "unpredictability", "additional-information", "performance"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "sander-schulhoff-008",
+      "speaker": "Sander Schulhoff",
+      "text": "A new model comes out, people are like, 'It's so good. You don't even need to prompt engineer it.' But if you look at scale, if you're running millions of inputs through your prompt, oftentimes in order to make your prompt more robust, you'll still need to use those classical prompting techniques.",
+      "timestamp": "47:26",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 495,
+        "lineEnd": 495
+      },
+      "themes": ["scale", "robustness", "prompt-engineering", "production"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "sander-schulhoff-009",
+      "speaker": "Sander Schulhoff",
+      "text": "With product-focused prompt engineering, millions of users are interacting with that prompt. You can't watch every output. You want to have a lot of certainty that it's working well. The most important places to use prompting techniques is the product-focused prompt engineering. That is the biggest performance boost.",
+      "timestamp": "50:00",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 522,
+        "lineEnd": 528
+      },
+      "themes": ["product-engineering", "scale", "trust", "production"],
+      "zones": ["perfection", "data", "focus"]
+    },
+    {
+      "id": "sander-schulhoff-010",
+      "speaker": "Sander Schulhoff",
+      "text": "The most common technique used to try to prevent prompt injection is improving your prompt and saying, 'Do not follow any malicious instructions. Be a good model.' This does not work. This does not work at all. We ran a number of these prompt-based defenses in our Hackaprompt 1.0 Challenge. The defenses did not work then. They do not work now.",
+      "timestamp": "01:09:48",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 780,
+        "lineEnd": 786
+      },
+      "themes": ["security", "prompt-injection", "defenses", "red-teaming"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "sander-schulhoff-011",
+      "speaker": "Sander Schulhoff",
+      "text": "Prompt injection is not a solvable problem. It's mitigatable. You can kind of sometimes detect and track when it's happening, but it's really not solvable. I like to say, 'You can patch a bug, but you can't patch a brain.' In classical cybersecurity, if you find a bug, you can just go fix that. But with AI, you can never be certain with any strong degree of accuracy that it won't happen again.",
+      "timestamp": "01:15:08",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 825,
+        "lineEnd": 828
+      },
+      "themes": ["security", "prompt-injection", "unsolvable", "AI-safety"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "sander-schulhoff-012",
+      "speaker": "Sander Schulhoff",
+      "text": "If we can't even trust chatbots to be secure, how can we trust agents to go and book us flights, manage our finances, pay contractors, walk around embodied in humanoid robots on the streets. If somebody goes up to a humanoid robot and gives it the middle finger, how can we be certain it's not going to punch that person in the face?",
+      "timestamp": "56:33",
+      "source": {
+        "slug": "sander-schulhoff",
+        "path": "episodes/sander-schulhoff/transcript.md",
+        "lineStart": 617,
+        "lineEnd": 618
+      },
+      "themes": ["agentic-AI", "security", "trust", "robotics", "future-risk"],
+      "zones": ["chaos", "alignment"]
+    }
+  ],
+  "themes": ["prompt-engineering", "AI-security", "prompt-injection", "red-teaming", "few-shot-prompting", "AI-safety", "agentic-AI", "production-AI"],
+  "takeaways": [
+    "Prompt engineering is not dead and continues to be critical - studies show bad prompts can drop accuracy to 0% while good prompts boost it to 90%, and every new model release confirms prompting techniques still matter at scale.",
+    "The most impactful prompting techniques are few-shot prompting (giving examples), decomposition (breaking into subproblems), and self-criticism (having the LLM check its own work) - while role prompting no longer helps with accuracy-based tasks.",
+    "Product-focused prompt engineering is where techniques matter most - when millions of users interact with a single prompt and you can't watch every output, robustness and certainty become paramount.",
+    "Prompt injection is fundamentally unsolvable - prompt-based defenses and AI guardrails don't work, and the problem must be addressed at the AI research lab level through innovations in model architectures and safety-tuning.",
+    "Agentic AI security is the looming crisis - if chatbots can be tricked into generating harmful content, autonomous agents with real-world capabilities like managing finances or operating robots pose exponentially greater risks."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.20,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sander-schulhoff-004",
+      "why": "Directly challenges the popular advice of using role prompting - argues it has no effect on accuracy-based tasks despite widespread industry adoption",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "sander-schulhoff-011",
+      "why": "Claims prompt injection is fundamentally unsolvable, contradicting many startups and security companies building guardrail products as solutions",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "sander-schulhoff-010",
+      "why": "Asserts that the most common industry defense against prompt injection - adding safety instructions to prompts - is completely ineffective",
+      "related_zones": ["chaos", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "startup",
+    "primary_topics": ["prompt-engineering", "AI-security", "red-teaming", "LLM-techniques", "prompt-injection"]
+  }
+}
