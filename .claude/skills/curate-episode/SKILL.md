@@ -30,6 +30,65 @@ Extract verified quotes from Lenny's Podcast episode transcripts to power the PM
 7. **chaos**: Embrace uncertainty, adapt constantly, plans are fiction
 8. **focus**: Do one thing perfectly, ruthless prioritization, constraints breed creativity
 
+## Pre-Flight Checks (REQUIRED before any curation)
+
+Before curating any episode, you MUST perform these checks:
+
+### 1. Verify Transcript Has REAL Content (not just frontmatter)
+```bash
+# Check that the transcript file exists AND has real content (50+ lines)
+# Many episodes have a transcript.md that is ONLY YAML frontmatter (30-40 lines)
+# with "Transcript not yet available" - these CANNOT be curated
+lines=$(wc -l < episodes/{slug}/transcript.md 2>/dev/null || echo 0)
+if [ "$lines" -lt 50 ]; then
+  echo "SKIP: ${slug} - no real transcript (only ${lines} lines)"
+fi
+```
+**If the transcript file has fewer than 50 lines, SKIP this episode.** Files with ~30-40 lines contain only YAML frontmatter metadata and a "Transcript not yet available" placeholder. An episode cannot be curated without actual transcript content - there is no workaround.
+
+### 2. Check If Already Curated
+```bash
+# Check if a verified JSON already exists for this slug
+ls data/verified/{slug}.json
+```
+**If the JSON file already exists, SKIP this episode** unless the user explicitly asks to re-curate it.
+
+### 3. Batch Curation: Programmatic Discovery
+When asked to "curate more episodes" or "scale to N episodes", **always programmatically determine** which episodes are eligible rather than guessing:
+
+```bash
+# Find all episodes with REAL transcripts (50+ lines, not just frontmatter)
+for dir in episodes/*/; do
+  slug=$(basename "$dir")
+  file="${dir}transcript.md"
+  if [ -f "$file" ]; then
+    lines=$(wc -l < "$file")
+    if [ "$lines" -gt 50 ]; then
+      echo "$slug"
+    fi
+  fi
+done
+
+# Find all already-curated episodes
+ls data/verified/*.json | grep -v verified-content.json | sed 's|data/verified/||;s|.json||'
+
+# The difference = episodes available for curation
+```
+
+**Never assume an episode has a transcript.** Always verify the file has 50+ lines of real content. Out of ~295 episode slugs, many have only frontmatter placeholders.
+
+### 4. NEVER Modify Existing Curated Files
+When curating new episodes:
+- **ONLY create new JSON files** - never edit/overwrite existing `data/verified/*.json` files
+- **NEVER run `npx tsx scripts/build-verified.ts`** from within a sub-agent - this modifies `verified-content.json` and `lib/verifiedContent.ts` which are shared files. Only the main orchestrator should run the build script ONCE after all curations are complete
+- **NEVER modify `data/verified/verified-content.json`** or `lib/verifiedContent.ts` directly
+- If you see a file already exists at the target path, STOP and report it rather than overwriting
+
+### 5. Log Skipped Episodes
+If any episodes are skipped (no real transcript, already curated), report them clearly to the user so they know what was excluded and why.
+
+---
+
 ## Quote Extraction Process
 
 ### Step 1: Read the Transcript
@@ -246,6 +305,9 @@ Before saving, verify:
 ## Common Mistakes to Avoid
 
 ❌ **Don't:**
+- **Attempt to curate an episode without first verifying the transcript exists** - not all episodes have transcripts
+- **Assume episode slugs have transcripts** - always check `episodes/{slug}/transcript.md` exists before starting
+- **Skip the pre-flight checks** when batch curating - programmatically find eligible episodes
 - Include Lenny's questions as quotes
 - Extract generic advice ("talk to users", "ship fast")
 - Use quotes from sponsor segments
@@ -296,10 +358,12 @@ For a 2024-2026 episode with significant AI discussion:
 
 ## After Curation
 
-Always run the build validator:
+Run the build validator **once** after all episodes are curated (not per-episode):
 ```bash
 npx tsx scripts/build-verified.ts
 ```
+
+**IMPORTANT:** When batch curating with parallel agents, do NOT run this script from within each agent. Run it ONCE from the main context after all JSON files are written. Running it from multiple agents simultaneously will cause race conditions and corrupt shared files (`verified-content.json`, `lib/verifiedContent.ts`).
 
 This will:
 - Validate all quote IDs are unique

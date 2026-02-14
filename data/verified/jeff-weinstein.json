@@ -1,0 +1,194 @@
+{
+  "slug": "jeff-weinstein",
+  "quotes": [
+    {
+      "id": "jeff-weinstein-q001",
+      "speaker": "Jeff Weinstein",
+      "text": "Just optimistically seeing if we can just inject energy to go, go, go has produced surprising results and I think it ignites in other people that same interest and then it feeds off each other. Then you pair it with a longer term, compounding, more strategic mindset.",
+      "timestamp": "00:10:36",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 95,
+        "lineEnd": 95
+      },
+      "themes": ["velocity", "compounding", "energy"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jeff-weinstein-q002",
+      "speaker": "Jeff Weinstein",
+      "text": "There is no amount of craft, there is no amount of beauty, there's no amount of delight or touches you can add to a thing that will solve the problem of people not really needing this. That's the biggest error, picking something in which people don't really need it.",
+      "timestamp": "00:19:32",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 128,
+        "lineEnd": 128
+      },
+      "themes": ["product-market-fit", "craft", "problem-solving"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "jeff-weinstein-q003",
+      "speaker": "Jeff Weinstein",
+      "text": "People don't really get out of bed for their second problem. They get out of bed for their first problem. And you have to carefully listen and not pitch your customer as you're trying to figure this out.",
+      "timestamp": "00:20:34",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 134,
+        "lineEnd": 134
+      },
+      "themes": ["customer-research", "listening", "prioritization"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jeff-weinstein-q004",
+      "speaker": "Jeff Weinstein",
+      "text": "The moment the customer felt compelled enough to go out of their way to talk about some problem, that's a unbelievable gift. I will leave a meeting to just get one message back to them. That should be P-zero alert level intensity.",
+      "timestamp": "00:29:34",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["customer-obsession", "responsiveness", "urgency"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "jeff-weinstein-q005",
+      "speaker": "Jeff Weinstein",
+      "text": "Via silence, you can just create your roadmap pretty quickly and drop a lot of the long UXR, long survey, long build cycle approach. Just sit there long enough and customers might even say, 'I'll pay you money to solve this.'",
+      "timestamp": "00:23:17",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 143,
+        "lineEnd": 143
+      },
+      "themes": ["customer-research", "silence", "roadmap"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jeff-weinstein-q006",
+      "speaker": "Jeff Weinstein",
+      "text": "We looked at only 15% of founders getting through Atlas with zero support tickets. Over about 18 months, we took that number from 15% to 85. You can look at the market share plotted on the same timeframe and it's the same shape.",
+      "timestamp": "00:51:31",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 261
+      },
+      "themes": ["metrics", "customer-experience", "growth"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "jeff-weinstein-q007",
+      "speaker": "Jeff Weinstein",
+      "text": "If you are unsure what to measure, just make a users having a bad day chart. Emit a log line anytime you think a user bumped into a problem, then make a stacked bar chart of all the bad day reasons. It's eye-opening to see those frequencies.",
+      "timestamp": "01:01:14",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 296,
+        "lineEnd": 296
+      },
+      "themes": ["metrics", "customer-experience", "debugging"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "jeff-weinstein-q008",
+      "speaker": "Jeff Weinstein",
+      "text": "Rule one is you do not work at Stripe. Rule two is we're not here to solve any problems. This is just about practicing empathy for the customer. We pretend to be some company with some outcome problem. More than 250 people have participated in Study Group.",
+      "timestamp": "01:17:38",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 363
+      },
+      "themes": ["empathy", "product-craft", "study-groups"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "jeff-weinstein-q009",
+      "speaker": "Jeff Weinstein",
+      "text": "Willingness to pay is different than paying. Significantly different. I've also thought 'as long as they're ready to pay, we should feel good.' That is not the same. Paying is an independent group of people saying my problem is burning enough that I'm willing to exchange something I have that has value.",
+      "timestamp": "00:43:13",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 224,
+        "lineEnd": 224
+      },
+      "themes": ["product-market-fit", "pricing", "validation"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jeff-weinstein-q010",
+      "speaker": "Jeff Weinstein",
+      "text": "We discount all feedback from our friends to zero. That is not of interest to us. We are only interested in Sarah, our target customer, and can we get her to solve whatever the problem is as quickly as possible.",
+      "timestamp": "00:38:51",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 203,
+        "lineEnd": 203
+      },
+      "themes": ["customer-research", "signal-vs-noise", "validation"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "jeff-weinstein-q011",
+      "speaker": "Jeff Weinstein",
+      "text": "Picking metric titles that make you feel something. We could have called it 'number of companies that do not send a support ticket over X period with min...' but we just called it 'companies with zero support.' That brevity becomes currency inside the company.",
+      "timestamp": "01:05:10",
+      "source": {
+        "slug": "jeff-weinstein",
+        "path": "episodes/jeff-weinstein/transcript.md",
+        "lineStart": 326,
+        "lineEnd": 326
+      },
+      "themes": ["metrics", "naming", "culture"],
+      "zones": ["alignment", "data"]
+    }
+  ],
+  "themes": ["customer-obsession", "metrics", "product-market-fit", "craft-and-quality", "study-groups", "compounding", "silence-in-research", "go-go-go"],
+  "takeaways": [
+    "Go go go ASAP plus long-term compounding - pair immediate urgency with strategic patience, knowing some wins take years of infrastructure investment to unlock.",
+    "Craft without product-market-fit is worthless - no amount of polish saves a product nobody needs; solve a burning problem first, then obsess over quality.",
+    "Use silence to build your roadmap - stop pitching customers and start listening; their burning problems emerge naturally when you create space for them.",
+    "Measure the customer's experience, not your internal metrics - 'companies with zero support tickets' drove Atlas from 15% to 85% satisfaction and market share growth followed.",
+    "Study Groups beat friction logs at scale - pretending you don't work at your company and going through the product as a customer builds empathy no amount of data can replicate."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.00,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jeff-weinstein-q002",
+      "why": "Directly attacks the craft-obsession movement in tech - argues craft without PMF is the biggest mistake, not the absence of craft",
+      "related_zones": ["discovery", "data"]
+    },
+    {
+      "quoteId": "jeff-weinstein-q010",
+      "why": "Discounting all friend feedback to zero is extreme - most advice says listen to everyone and filter, Jeff says hard rule to ignore non-customers",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["metrics", "customer-obsession", "product-craft", "go-to-market"]
+  }
+}

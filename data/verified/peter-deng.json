@@ -1,0 +1,194 @@
+{
+  "slug": "peter-deng",
+  "quotes": [
+    {
+      "id": "peter-deng-q001",
+      "speaker": "Peter Deng",
+      "text": "Sometimes your product actually doesn't matter. At Uber, the price and the ETA was the product. A lot of times people at tech companies think of the product as just this digital manifestation, but we humans consume the entirety of the product.",
+      "timestamp": "00:21:26",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["product-thinking", "holistic-product", "uber"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "peter-deng-q002",
+      "speaker": "Peter Deng",
+      "text": "In six months, if I'm telling you what to do, I've hired the wrong person. It helps me and the person operate on a different level where the goal is not, did you hit this OKR? The meta goal becomes, are we calibrating enough?",
+      "timestamp": "01:02:03",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 715,
+        "lineEnd": 715
+      },
+      "themes": ["hiring", "autonomy", "leadership"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "peter-deng-q003",
+      "speaker": "Peter Deng",
+      "text": "I think there are five different types of product managers. Consumer PM, growth PM, business/GM PM, platform PM, and research PM. Everyone has a primary one and a secondary one. Hopefully this framework will give people space to express who they really are.",
+      "timestamp": "00:51:22",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 577,
+        "lineEnd": 577
+      },
+      "themes": ["pm-archetypes", "team-building", "frameworks"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "peter-deng-q004",
+      "speaker": "Peter Deng",
+      "text": "AGI is just necessary but not sufficient. A lot of the value is still going to require a bunch of hustle from a lot of builders to really turn that new source of energy and channel it into something that we humans want to use.",
+      "timestamp": "00:07:40",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 130
+      },
+      "themes": ["AI", "product-building", "hustle"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "peter-deng-q005",
+      "speaker": "Peter Deng",
+      "text": "You have to plan your chess moves out in advance. You have to really think before you act and build systems that are going to let you go sustainably faster. Sometimes you have to go slow to go fast.",
+      "timestamp": "00:38:31",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["systems-thinking", "scaling", "strategy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "peter-deng-q006",
+      "speaker": "Peter Deng",
+      "text": "One of the first things I did was always to build a growth team. Building a growth team is really interesting because it uncovers how much stuff you have not yet logged and how non-rigorous you've been looking at your entire product.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 484,
+        "lineEnd": 484
+      },
+      "themes": ["growth", "metrics", "rigor"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "peter-deng-q007",
+      "speaker": "Peter Deng",
+      "text": "It's really important to obsess over the details of craft while simultaneously having the perspective and wisdom of which details don't actually matter. I've been involved in enough teams where we just wasted a bunch of time on something that didn't actually matter.",
+      "timestamp": "01:26:38",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 940,
+        "lineEnd": 940
+      },
+      "themes": ["craft", "prioritization", "product-sense"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "peter-deng-q008",
+      "speaker": "Peter Deng",
+      "text": "The most successful teams are a team of Avengers that are very different, have very different superpowers, but together you as the leader are the one helping adjudicate differences. You know you're getting the best outcome when everyone's pulling and obsessing over a different thing.",
+      "timestamp": "00:48:47",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 538,
+        "lineEnd": 538
+      },
+      "themes": ["team-building", "leadership", "diversity"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "peter-deng-q009",
+      "speaker": "Peter Deng",
+      "text": "Language actually affects the way you think. When I make slide decks, there were probably a total of 20 words on the entire deck. I spent hours obsessing over them because I really wanted to make sure I captured the right essence.",
+      "timestamp": "00:17:14",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["language", "communication", "precision"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "peter-deng-q010",
+      "speaker": "Peter Deng",
+      "text": "I only do growth mindset in interviews. What about all the other attributes? I'm pretty sure I can trust the other people to assess those. But growth mindset is so important to me that we build an org where people are self-reflective, and want to get better.",
+      "timestamp": "01:09:22",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 755,
+        "lineEnd": 755
+      },
+      "themes": ["hiring", "growth-mindset", "culture"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "peter-deng-q011",
+      "speaker": "Peter Deng",
+      "text": "Say you're going to do the thing, say that you're doing the thing, and then say that you did it. Repetition doesn't spoil the prayer. By giving this phrase to your team, it becomes a constant reminder to be intentional about what we build.",
+      "timestamp": "01:16:59",
+      "source": {
+        "slug": "peter-deng",
+        "path": "episodes/peter-deng/transcript.md",
+        "lineStart": 868,
+        "lineEnd": 868
+      },
+      "themes": ["communication", "managing-up", "accountability"],
+      "zones": ["alignment", "velocity"]
+    }
+  ],
+  "themes": ["PM-archetypes", "team-as-product", "holistic-product", "systems-thinking", "growth-mindset", "language-precision", "craft-vs-prioritization", "hiring-for-autonomy"],
+  "takeaways": [
+    "Sometimes your product doesn't matter - at Uber, price and ETA were the real product; the pixels on screen mattered far less than the holistic experience humans consume.",
+    "Build Avengers teams, not warm bodies - hire for complementary spikes across five PM archetypes (consumer, growth, business, platform, research) to create healthy tension.",
+    "In six months, if you're telling them what to do, you've hired the wrong person - optimize for autonomy as the meta-goal above any individual OKR.",
+    "Go slow to go fast at scale - in the one-to-100 phase, build the systems and architecture that enable sustainable speed rather than shipping more MVPs.",
+    "Only interview for growth mindset - trust your team to assess product skills; the one thing you personally must validate is whether someone is self-reflective and hungry to learn."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "peter-deng-q001",
+      "why": "Head of Product at Uber admits the digital product didn't matter - price and ETA were everything, challenging the craft-obsession in PM culture",
+      "related_zones": ["discovery", "data"]
+    },
+    {
+      "quoteId": "peter-deng-q010",
+      "why": "As CPO, only interviews for growth mindset while trusting the team to assess all other product skills - radically different from typical PM hiring",
+      "related_zones": ["discovery", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["team-building", "PM-archetypes", "scaling-products", "hiring", "AI-product"]
+  }
+}
