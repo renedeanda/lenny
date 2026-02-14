@@ -1,0 +1,199 @@
+{
+  "slug": "keith-coleman-jay-baxter",
+  "quotes": [
+    {
+      "id": "keith-coleman-jay-baxter-001",
+      "speaker": "Keith Coleman",
+      "text": "Community Notes is a way for the people, like the public, to add context to posts that might be misleading. Someone on X can see a post. If they think it's misleading, they can propose a note. If the note is found helpful by people who normally disagree with each other, indicating that it's probably accurate, neutrally-worded, and informative, then it will show to everyone on X.",
+      "timestamp": "00:06:18",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 103
+      },
+      "themes": ["product-design", "crowdsourcing", "misinformation", "trust"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-002",
+      "speaker": "Jay Baxter",
+      "text": "We actually look for agreement from people who have disagreed in the past. And what we see is when people actually have that sort of surprising agreement, that's what makes the notes so neutral and accurate and well-written. It's just that people who are very polarized, overall, often can't find agreement when things aren't accurate.",
+      "timestamp": "00:07:48",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 112
+      },
+      "themes": ["algorithms", "polarization", "consensus-building", "product-design"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-003",
+      "speaker": "Keith Coleman",
+      "text": "Every post is eligible for notes and that was another really important principle. We shouldn't exempt Elon. We shouldn't exempt government figures. Everyone, even advertisers, can get notes. So any posts on the platform can get a note. The idea is really that it's an even playing field.",
+      "timestamp": "00:12:19",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 160
+      },
+      "themes": ["principles", "fairness", "product-design", "transparency"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-004",
+      "speaker": "Jay Baxter",
+      "text": "We saw more like 30 to 40% engagement rate drops for likes and reposts in A-B tests when showing a post with or without a note. If you look top line with a difference in differences approach, multiple different external research groups have both found consistently that there's a 50 or 60% drop in total reposts after a note is applied. It's having a really big impact on spread.",
+      "timestamp": "00:27:00",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 306,
+        "lineEnd": 307
+      },
+      "themes": ["metrics", "experimentation", "misinformation", "impact"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-005",
+      "speaker": "Keith Coleman",
+      "text": "There's one myth that can get in people's ways. The idea that the more people you manage or the larger your scope is, the more impact you have. I definitely do not think that is true. Building Community Notes has had way bigger impact on the world than if I had stayed running a large consumer PM team. What would I have produced? 16 more pages of OKRs?",
+      "timestamp": "00:38:29",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 390,
+        "lineEnd": 391
+      },
+      "themes": ["leadership", "career", "impact", "small-teams"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-006",
+      "speaker": "Keith Coleman",
+      "text": "One key attribute is there's one clear driver of the project, who's effectively a founder. There's one clear decision-maker outside the team. Because of total focus, the rate of iteration goes way up. We didn't need to write OKRs. We would set the goal for the next milestone that mattered, whether that was two weeks, a month, three months.",
+      "timestamp": "00:42:24",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 420,
+        "lineEnd": 436
+      },
+      "themes": ["team-structure", "autonomy", "velocity", "startup-within"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-007",
+      "speaker": "Keith Coleman",
+      "text": "I am not a fan of heavyweight task management. I love being on the same page, being able to keep most things in my head, and having a really light way to write down the things that the team can't keep in its head.",
+      "timestamp": "00:52:12",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 489,
+        "lineEnd": 490
+      },
+      "themes": ["process", "simplicity", "team-management", "execution"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-008",
+      "speaker": "Jay Baxter",
+      "text": "Deleting code is more important than writing it a lot of the time. Engineers have a tendency to add these little incremental wins that actually add more of a long-term maintenance cost than is clear, because you just run a little one month A-B test, you see this significant win and you don't realize the maintenance burden you just added to your team for the rest of eternity.",
+      "timestamp": "01:03:53",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 558,
+        "lineEnd": 559
+      },
+      "themes": ["engineering", "technical-debt", "simplicity", "maintenance"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-009",
+      "speaker": "Keith Coleman",
+      "text": "This thing is going to be the voice of the people. It's not going to represent the company's voice. We don't have a button that will change the status of a note. If a note is showing because the people have rated it and found it helpful, it is going to show. We can't change that. If there's a problem with a note, it's a problem with the system. We need to redesign the system.",
+      "timestamp": "01:11:16",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 609,
+        "lineEnd": 613
+      },
+      "themes": ["principles", "product-design", "trust", "autonomy"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-010",
+      "speaker": "Keith Coleman",
+      "text": "The code that decides what notes show has to be out in the open. All of the data and ratings that make it happen have to be out in the open. People should be able to take the code and data and replicate the whole service and verify that we have done exactly what we've said we've done. They should be able to audit it.",
+      "timestamp": "01:13:49",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 618,
+        "lineEnd": 622
+      },
+      "themes": ["transparency", "open-source", "trust", "principles"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "keith-coleman-jay-baxter-011",
+      "speaker": "Keith Coleman",
+      "text": "People are actually more willing to cross partisan boundaries when they are anonymous or pseudonymous than when they are under their real name. If you publicly are using your name, you might hesitate to be perceived as breaking with that side. By allowing people to be pseudonymous, you actually get more honest answers about what they really think.",
+      "timestamp": "01:27:02",
+      "source": {
+        "slug": "keith-coleman-jay-baxter",
+        "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+        "lineStart": 699,
+        "lineEnd": 703
+      },
+      "themes": ["anonymity", "polarization", "user-behavior", "product-design"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["product-design", "crowdsourcing", "misinformation", "trust", "algorithms", "polarization", "consensus-building", "principles", "fairness", "transparency", "metrics", "experimentation", "impact", "leadership", "career", "small-teams", "team-structure", "autonomy", "velocity", "startup-within", "process", "simplicity", "execution", "engineering", "technical-debt", "maintenance", "open-source", "anonymity", "user-behavior"],
+  "takeaways": [
+    "Build products that prove themselves at every stage - Community Notes survived four CEO changes because the data always showed it worked, not because of internal politics.",
+    "Small, focused teams with one clear driver and one senior decision-maker can outperform large organizations - Community Notes was built by roughly five people and changed how the world handles misinformation.",
+    "Designing for bridging agreement across partisan divides produces better outcomes than majority-rules or editorial approaches - the counterintuitive insight that drove the entire algorithm.",
+    "Radical transparency (open-source code, public data, no override buttons) builds trust that no amount of corporate messaging can match - it's costly to implement but essential for credibility.",
+    "Pseudonymity can produce more honest participation than real-name accountability - people cross partisan boundaries more freely when their identity isn't at stake."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.10,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.20,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "keith-coleman-jay-baxter-005",
+      "why": "Challenges the deeply held belief that managing more people equals more impact - argues a small hands-on team can change the world more than running a large org",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "keith-coleman-jay-baxter-011",
+      "why": "Counterintuitive finding that anonymity produces more honest and less partisan participation, contradicting the common belief that real-name accountability leads to better discourse",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "keith-coleman-jay-baxter-009",
+      "why": "Radical position that a platform should have zero ability to override what the public decides is true - no kill switch, no editorial override",
+      "related_zones": ["alignment", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-design", "crowdsourcing", "misinformation", "small-teams", "transparency"]
+  }
+}

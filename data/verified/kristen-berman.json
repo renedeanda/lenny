@@ -1,0 +1,199 @@
+{
+  "slug": "kristen-berman",
+  "quotes": [
+    {
+      "id": "kristen-berman-q001",
+      "speaker": "Kristen Berman",
+      "text": "In behavioral economics, you combine the field of psychology and economics and say, 'Look, people make decisions with lots of emotion. We are present bias. We over-weighed our present selves. We follow social norms.' But the good news is that we do these things in predictable ways. And once you understand how and why people behave, you can start to change it.",
+      "timestamp": "00:06:00",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["behavioral-science", "psychology", "product-design"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "kristen-berman-q002",
+      "speaker": "Kristen Berman",
+      "text": "Big experiment. This is with 10,000 people, so we can really trust the results. And what happened? Nothing. So, they were shocked. The team was shocked. Remember, this is a big investment of time and effort, took a lot of energy to build. Zero change in average spend, zero change in spend variability.",
+      "timestamp": "00:07:57",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": ["experimentation", "data-driven", "product-market-fit"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "kristen-berman-q003",
+      "speaker": "Kristen Berman",
+      "text": "If you map out every single step that it takes to do this behavior, and the behavior would be reducing your spend, it's pretty clear that budgeting just isn't going to pull the weight. And this is what we call a behavioral diagnosis, where you map out every single step.",
+      "timestamp": "00:07:57",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": ["behavioral-science", "user-research", "product-design"],
+      "zones": ["discovery", "data", "intuition"]
+    },
+    {
+      "id": "kristen-berman-q004",
+      "speaker": "Kristen Berman",
+      "text": "In order to change behavior, you have to do something different. It's not enough to have a goal objective to do it. And I think, maybe that's the big annoying thing about the self-help industry. It kind of just tells you it's enough to have a goal. It's not enough. You actually need to redesign your environment to change your behavior.",
+      "timestamp": "00:11:00",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["behavior-change", "product-design", "psychology"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "kristen-berman-q005",
+      "speaker": "Kristen Berman",
+      "text": "When you ask a question, you can insert an idea into someone's head, you can get them thinking about something different. And so, in a sign up flow, what would you want people to be thinking about? You probably want them to be thinking about the benefits that you offer.",
+      "timestamp": "00:12:23",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["conversion", "onboarding", "psychology", "growth"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "kristen-berman-q006",
+      "speaker": "Kristen Berman",
+      "text": "We are all present bias, which means we prioritize our present self over our future self, so there are plenty of reasons that somebody, your customer, your user should take an action, but you actually have to give them a reason to take an action today.",
+      "timestamp": "00:22:05",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["activation", "psychology", "product-design"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "kristen-berman-q007",
+      "speaker": "Kristen Berman",
+      "text": "We are what we measure, and it really matters what you measure. My incentive structure was to increase the conversion flow, and over the course of working with them, I became a predatory lender. I was suggesting things that the legal team was like, 'No, Kristen, of course you cannot do that.'",
+      "timestamp": "00:25:28",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 277
+      },
+      "themes": ["incentives", "ethics", "metrics"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "kristen-berman-q008",
+      "speaker": "Kristen Berman",
+      "text": "Set the incentive on the behavior because the behavior is going to align more with the customer outcomes than the active use or the retention. And of course I'm not suggesting we don't measure active use and retention, you should definitely measure them, but setting the incentive on the behavior is going to result in a more customer-friendly product.",
+      "timestamp": "00:26:52",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 283,
+        "lineEnd": 283
+      },
+      "themes": ["metrics", "incentives", "customer-centricity"],
+      "zones": ["data", "alignment", "focus"]
+    },
+    {
+      "id": "kristen-berman-q009",
+      "speaker": "Kristen Berman",
+      "text": "Basically, you're in a very hot state. TikTok is a very fast platform, and so we just slowed people down. There was a label on the video, which is kind of classic in the misinformation world where you tell users that it's unverified information. And the second thing was, once you click the share button, we popped up something that said, 'Are you sure?' And this reduced shares by 24%.",
+      "timestamp": "00:31:03",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 343,
+        "lineEnd": 343
+      },
+      "themes": ["misinformation", "friction", "behavior-change", "experimentation"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "kristen-berman-q010",
+      "speaker": "Kristen Berman",
+      "text": "We never do a UX study where we're just showing people one thing because they could really like it or hate it, but they could really like or hate all the designs. We have no idea. So, when we're doing this, we always present multiple options, and then relatively look for which one is going to drive the behavior we're intending to change.",
+      "timestamp": "00:33:46",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["experimentation", "user-research", "a-b-testing"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "kristen-berman-q011",
+      "speaker": "Kristen Berman",
+      "text": "One of the bigger voting interventions is just having pizza show up at the poll line. You're motivating people to go vote not because they want to contribute to democracy, but because there's pizza in the poll line. So, at some level, we're pretty simple human where we want an immediate benefit.",
+      "timestamp": "00:42:42",
+      "source": {
+        "slug": "kristen-berman",
+        "path": "episodes/kristen-berman/transcript.md",
+        "lineStart": 481,
+        "lineEnd": 481
+      },
+      "themes": ["behavior-change", "incentives", "psychology"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["behavioral-science", "psychology", "experimentation", "behavior-change", "incentives", "conversion", "product-design", "data-driven", "user-research", "ethics"],
+  "takeaways": [
+    "Map out every step a user must take before designing features - behavioral diagnosis reveals why logical-seeming features like budgeting fail to change actual behavior.",
+    "Adding strategic questions to signup flows can increase conversion by helping users mentally engage with the benefits, countering the common assumption that all friction is bad.",
+    "Set team incentives on specific customer behaviors rather than vanity metrics - misaligned incentives will push even well-intentioned teams toward predatory patterns.",
+    "When you want users to do less of something, add friction strategically - TikTok reduced misinformation sharing by 24% with a simple 'Are you sure?' prompt.",
+    "Always test multiple conditions against each other rather than evaluating a single design - relative comparison is the only reliable way to predict what will drive behavior change."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.30,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.00,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "kristen-berman-q002",
+      "why": "Budgeting, the most requested feature, had zero impact on spending behavior - challenging the assumption that building what users ask for drives results",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "kristen-berman-q005",
+      "why": "Adding friction (questions) to signup flows can increase conversion, defying the prevailing wisdom that removing all friction is always better",
+      "related_zones": ["discovery", "velocity"]
+    },
+    {
+      "quoteId": "kristen-berman-q007",
+      "why": "Correctly aligned incentives matter more than good intentions - even a behavioral scientist focused on financial health became a predatory lender when given the wrong incentive structure",
+      "related_zones": ["data", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["behavioral-science", "behavior-change", "experimentation", "conversion-optimization", "product-design"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "judd-antin",
+  "quotes": [
+    {
+      "id": "judd-antin-q001",
+      "speaker": "Judd Antin",
+      "text": "User-centered performance refers to customer obsession or user-centered practice that is symbolic rather than focused on learning. It's work we do to signal to each other how customer obsessed we are, not because we want to make a different decision. Every time a PM comes to a researcher at the end of a product process and says, 'Can you just run a quick user study just to validate our assumptions,' that's user-centered performance. It's too late to matter.",
+      "timestamp": "00:24:11",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["user-research", "product-development", "cognitive-bias"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "judd-antin-q002",
+      "speaker": "Judd Antin",
+      "text": "One of my big mantras was, 'We don't validate, we falsify. We are looking to be wrong.' That is the mindset you should use when you're approaching insights and research. 'I want to be wrong. I want you to do research that shows we were off base in the following ways. Tell me exactly how and why in a way that allows me to fix it quickly.'",
+      "timestamp": "00:25:49",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 210
+      },
+      "themes": ["user-research", "scientific-method", "growth-mindset"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "judd-antin-q003",
+      "speaker": "Judd Antin",
+      "text": "The best researchers have five tools. Formative or generative user experience research. Evaluative, so more like usability testing. A basic rigorous survey design. Applied statistics. And then the fifth tool may now be prompt engineering, which is somewhere between querying your own data, understanding it very well, and interacting with generative AI.",
+      "timestamp": "00:17:44",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 147
+      },
+      "themes": ["user-research", "hiring", "skills", "multi-method"],
+      "zones": ["data", "discovery", "perfection"]
+    },
+    {
+      "id": "judd-antin-q004",
+      "speaker": "Judd Antin",
+      "text": "A lot of companies hired a lot of researchers with great intentions, didn't quite know how to integrate them. They hired them into a service discipline, very reactive, not in the room, not integrated. They end up doing research that is too reactive, it doesn't matter, and then it's less impactful. Executives conclude that therefore researchers are not as impactful and then they get sidelined or laid off and the cycle continues.",
+      "timestamp": "00:15:59",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 133
+      },
+      "themes": ["user-research", "org-design", "leadership"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "judd-antin-q005",
+      "speaker": "Judd Antin",
+      "text": "My metric for success is when they won't have that meeting without you. If they cannot have that decision making meeting without the researcher there, that means you've developed influence, strong, trusting relationships, you're an active participant in the process, not just somebody who provides input into someone else's process.",
+      "timestamp": "00:32:29",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 255
+      },
+      "themes": ["user-research", "influence", "relationships", "impact"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "judd-antin-q006",
+      "speaker": "Judd Antin",
+      "text": "Research just slows us down. This is bullshit. A great research team can do research in a day, a week, or a month. It just depends on what you want to get out of it. The other way to look at that is, is it slower to get it wrong and fix it than to take a hot second to do the work to get it right the first time? Good research doesn't slow us down, it speeds us up.",
+      "timestamp": "00:33:51",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["user-research", "velocity", "myths"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "judd-antin-q007",
+      "speaker": "Judd Antin",
+      "text": "We basically changed seven characters and made Airbnb millions of dollars, because what we found out was really simple. It was just like, 'Hey, this button feels scary. The CTA on the button feels scary.' So that's a great example of how micro research can drive a huge amount of business value.",
+      "timestamp": "00:35:58",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 288
+      },
+      "themes": ["user-research", "usability", "conversion", "micro-research"],
+      "zones": ["data", "perfection", "velocity"]
+    },
+    {
+      "id": "judd-antin-q008",
+      "speaker": "Judd Antin",
+      "text": "AB tests are great, but one of my most painful things to do is to sit in a room full of PMs and data scientists who have just seen the results of an experiment that flipped a stat sig, and then they just start speculating about why that is, because the AB test rarely tells you why it changed in the way it did.",
+      "timestamp": "00:40:08",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 309
+      },
+      "themes": ["experimentation", "data-analysis", "user-research"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "judd-antin-q009",
+      "speaker": "Judd Antin",
+      "text": "NPS is the best example of the marketing industry marketing itself. The consensus in the survey science community is that NPS makes all the mistakes. Customer satisfaction, a simple CSAT metric, is better. It has better data properties, it is more precise, it is more correlated to business outcomes.",
+      "timestamp": "01:03:50",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 507,
+        "lineEnd": 513
+      },
+      "themes": ["metrics", "NPS", "customer-satisfaction", "survey-science"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "judd-antin-q010",
+      "speaker": "Judd Antin",
+      "text": "Dog food your own product. Doing product walkthroughs to identify lists of potential issues is a great thing to do. Prioritizing that list, figuring out which ones are more or less a problem, and for whom is an area where you should be extremely wary of relying on your own opinion, expertise, or intuition when you are dog fooding your own product.",
+      "timestamp": "01:07:57",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 534,
+        "lineEnd": 534
+      },
+      "themes": ["product-development", "cognitive-bias", "dogfooding"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "judd-antin-q011",
+      "speaker": "Judd Antin",
+      "text": "There is an important place for intuition in product development, of course. But you got to understand, intuition is where all of those biases lie. It's where all your blind spots are. And what great insights people do, what great researchers do when you're next to them all the time, is they'll expose you.",
+      "timestamp": "00:27:07",
+      "source": {
+        "slug": "judd-antin",
+        "path": "episodes/judd-antin/transcript.md",
+        "lineStart": 228,
+        "lineEnd": 228
+      },
+      "themes": ["intuition", "cognitive-bias", "user-research"],
+      "zones": ["intuition", "data", "discovery"]
+    }
+  ],
+  "themes": ["user-research", "product-development", "cognitive-bias", "scientific-method", "growth-mindset", "hiring", "skills", "multi-method", "org-design", "leadership", "influence", "relationships", "impact", "velocity", "myths", "usability", "conversion", "micro-research", "experimentation", "data-analysis", "metrics", "NPS", "customer-satisfaction", "survey-science", "dogfooding", "intuition"],
+  "takeaways": [
+    "Beware of user-centered performance -- research done to check a box rather than to genuinely learn is the most common and damaging pattern in product teams.",
+    "Adopt a falsification mindset: the best research seeks to prove you wrong, not validate what you already believe.",
+    "Micro-level usability research can drive massive business value in 48 hours -- it's not scut work, and the stereotype that research is slow comes from bloated middle-range studies.",
+    "The most impactful researchers are integrated into the product process from beginning to end, not called in as a service function at the last minute.",
+    "Replace NPS with simple customer satisfaction metrics -- survey science shows CSAT is more precise, more predictive, and less gameable than Net Promoter Score."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.40,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.00,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "judd-antin-q001",
+      "why": "Calls out the pervasive practice of performative user-centeredness -- most companies that claim to be customer-obsessed are just checking boxes",
+      "related_zones": ["data"]
+    },
+    {
+      "quoteId": "judd-antin-q009",
+      "why": "Argues NPS is fundamentally flawed and that the entire industry built around it is marketing hype, contradicting widespread adoption",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "judd-antin-q010",
+      "why": "Challenges the popular 'dogfood your product' advice by arguing PMs are dangerously biased when evaluating their own products",
+      "related_zones": ["intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["user-research", "org-design", "cognitive-bias", "metrics", "product-development"]
+  }
+}

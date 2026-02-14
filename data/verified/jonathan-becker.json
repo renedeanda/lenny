@@ -1,0 +1,199 @@
+{
+  "slug": "jonathan-becker",
+  "quotes": [
+    {
+      "id": "jonathan-becker-q001",
+      "speaker": "Jonathan Becker",
+      "text": "I think people often talk about entrepreneurs who have been successful and they comment that they're lucky. Whereas, I actually look at that situation and I think that you have to make your own luck. A lot of people just don't make these moves in life because they're nervous, or they're worried too much about what the downside might be.",
+      "timestamp": "00:10:53",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["entrepreneurship", "risk-taking", "luck"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "jonathan-becker-q002",
+      "speaker": "Jonathan Becker",
+      "text": "In the same manner that I would not take all of your life savings and dump it into a single stock, I don't recommend putting all of your money into a single performance marketing channel, and then somewhat exposing you to the volatility of fluctuating CPCs or changing market conditions.",
+      "timestamp": "00:13:24",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 121
+      },
+      "themes": ["performance-marketing", "channel-diversification", "strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "jonathan-becker-q003",
+      "speaker": "Jonathan Becker",
+      "text": "Product market fit. If you know that your business sells into audiences, if other things work, it is highly likely that paid acquisition will work. The issue for most companies is in this incorrect assumption that the data that is provided through paid channels allows you to have full end-to-end understanding of attribution. Which is wrong, it's never been that way.",
+      "timestamp": "00:21:18",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 154,
+        "lineEnd": 154
+      },
+      "themes": ["product-market-fit", "attribution", "paid-growth"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jonathan-becker-q004",
+      "speaker": "Jonathan Becker",
+      "text": "Every unicorn from the 2010s era that scaled did performance marketing, but not everyone during that time who did performance marketing scaled. So I want to remove the bias here that just because all the successful organizations did this didn't mean that it was a magical channel for everyone.",
+      "timestamp": "00:24:06",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["survivorship-bias", "performance-marketing", "growth"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jonathan-becker-q005",
+      "speaker": "Jonathan Becker",
+      "text": "A lot of the brand guidelines of different companies would end up yielding these highly polished assets. And when you launch those on Instagram, what we found is that they would always underperform next to user generated assets. The unpolished iPhone, mobile phone creative, suddenly we realized massively outperformed these other channels because there was an authenticity to it.",
+      "timestamp": "00:40:23",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 233,
+        "lineEnd": 233
+      },
+      "themes": ["creative-testing", "ugc", "authenticity", "paid-social"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "jonathan-becker-q006",
+      "speaker": "Jonathan Becker",
+      "text": "Do you arrive at those learnings anecdotally by accident? Is it the brilliance of one person on the team that the whole brand is predicated upon in terms of performance? Or do you put a very rigorous structure around testing and the iteration of assets and how to determine whether something works over another thing that is a process that yields the outcomes that you're looking for?",
+      "timestamp": "00:42:29",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["creative-testing", "process", "experimentation"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "jonathan-becker-q007",
+      "speaker": "Jonathan Becker",
+      "text": "The advice is that there's no single source of truth. Anyone who claims that they are a single source of truth, whether it's an individual, a model that they've created, or a tool that they've created, is not being accurate. I believe that the approach that works to attribution is that it's an ongoing investigation and it never stops.",
+      "timestamp": "01:02:42",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 346,
+        "lineEnd": 346
+      },
+      "themes": ["attribution", "measurement", "honesty"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jonathan-becker-q008",
+      "speaker": "Jonathan Becker",
+      "text": "We, a very sophisticated organization, have stood up campaigns that we measure and ultimately determine do not work, and that is an important finding in terms of an organization's determination of whether they want to continually invest, take budget out of these channels, or invest into other areas.",
+      "timestamp": "01:03:12",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 349
+      },
+      "themes": ["honesty", "measurement", "paid-growth"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "jonathan-becker-q009",
+      "speaker": "Jonathan Becker",
+      "text": "The effect ultimately that we've seen from a human capital point of view is displacement. We have more people now than we've ever had, but the nature of the work that they do is more strategic. It's more about modeling, validation, asking the right questions, being focused around creative levers. And less so the trench work of implementation.",
+      "timestamp": "01:04:29",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 361
+      },
+      "themes": ["ai", "team-evolution", "strategy"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "jonathan-becker-q010",
+      "speaker": "Jonathan Becker",
+      "text": "These days most of the testing that we do is within the channels themselves. So Meta ads, Google Ads, they're really powerful. The good news here is that you don't necessarily need some exotic tool to do sophisticated creative testing. You can do it in platform.",
+      "timestamp": "00:44:04",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 250
+      },
+      "themes": ["creative-testing", "tools", "simplicity"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "jonathan-becker-q011",
+      "speaker": "Jonathan Becker",
+      "text": "In a pitch situation you want to tell a story, it's important, and that story has to have a beginning, middle, and end. With the utmost respect, I am not going to answer any of your questions today. Instead of telling you the answers to the questions that you asked, I'm going to tell you what I think you need to do to get where you want to go.",
+      "timestamp": "01:25:54",
+      "source": {
+        "slug": "jonathan-becker",
+        "path": "episodes/jonathan-becker/transcript.md",
+        "lineStart": 526,
+        "lineEnd": 526
+      },
+      "themes": ["pitching", "confidence", "storytelling"],
+      "zones": ["chaos", "intuition"]
+    }
+  ],
+  "themes": ["entrepreneurship", "risk-taking", "luck", "performance-marketing", "channel-diversification", "strategy", "product-market-fit", "attribution", "paid-growth", "survivorship-bias", "growth", "creative-testing", "ugc", "authenticity", "paid-social", "process", "experimentation", "measurement", "honesty", "ai", "team-evolution", "tools", "simplicity", "pitching", "confidence", "storytelling"],
+  "takeaways": [
+    "Treat your marketing budget like an investment portfolio - diversify across channels rather than going all-in on a single platform to reduce volatility risk.",
+    "Attribution is an ongoing investigation, never a solved problem - anyone claiming a single source of truth for marketing attribution is not being accurate.",
+    "User-generated and authentic-looking creatives consistently outperform highly polished brand assets on social platforms - authenticity beats production value.",
+    "Don't confuse survivorship bias with strategy - every 2010s unicorn did performance marketing, but not everyone who did performance marketing became a unicorn.",
+    "AI is displacing execution tasks in marketing but creating more strategic roles - the nature of work shifts from manual bid management to modeling, validation, and creative strategy."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jonathan-becker-q004",
+      "why": "Directly challenges survivorship bias in growth marketing - pushes back against the widely held belief that performance marketing was a guaranteed path to scale in the 2010s",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "jonathan-becker-q005",
+      "why": "Counterintuitive finding that scrappy iPhone-filmed UGC consistently beats expensive polished brand creative in paid social performance",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "jonathan-becker-q011",
+      "why": "Bold and risky approach of refusing to answer an RFP's questions in a pitch and instead telling the prospect what they actually need - goes against conventional sales wisdom",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["performance-marketing", "paid-growth", "creative-testing", "attribution", "agency-building"]
+  }
+}

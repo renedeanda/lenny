@@ -1,0 +1,199 @@
+{
+  "slug": "jules-walter",
+  "quotes": [
+    {
+      "id": "jules-walter-q001",
+      "speaker": "Jules Walter",
+      "text": "When people tell me, 'Hey, I'm going to a interview at this company.' First question I ask is, 'How many mock interviews have you done?' And the answer typically is zero. It's, 'Oh, I read a bunch of stuff. I practiced in my head.' But I'm like, 'How many actual mock interviews have you done?' And I would recommend people to do dozens of those mock interviews.",
+      "timestamp": "00:15:28",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 165
+      },
+      "themes": ["interviewing", "career-development", "practice", "preparation"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jules-walter-q002",
+      "speaker": "Jules Walter",
+      "text": "You want to basically practice so much that even at your worst, you're good enough. I've always felt like most interviews, I literally did my worst. It's just that it was good enough to pass. You're so stressed out, you don't relate to the person, et cetera.",
+      "timestamp": "00:20:21",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 213
+      },
+      "themes": ["interviewing", "resilience", "career-development"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jules-walter-q003",
+      "speaker": "Jules Walter",
+      "text": "What I do specifically is when I'm trying to learn something new, I try to think about what is an outcome that I could drive. And if I drive this outcome, it will be proof that I'm better at this thing. Then once I have this outcome, I work backwards to figure out how am I going to do that.",
+      "timestamp": "00:30:24",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["learning", "growth-mindset", "goal-setting", "skill-building"],
+      "zones": ["velocity", "focus", "data"]
+    },
+    {
+      "id": "jules-walter-q004",
+      "speaker": "Jules Walter",
+      "text": "What I've seen in my career is that early on, I leaned more into the hard skills, the IQ stuff. That was what was most helpful to me. And then later on, I spent more time getting better at the EQ skills. The reality with PMs is that within each of these buckets, there's so many skills and then you can feel overwhelmed, so my advice is really just start skill by skill.",
+      "timestamp": "00:12:50",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 144
+      },
+      "themes": ["career-development", "skills", "emotional-intelligence", "product-management"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "jules-walter-q005",
+      "speaker": "Jules Walter",
+      "text": "When I'm under stress, I tend to withdraw and not say anything. So, then you might think I'm disengaged. Once you know these patterns you know, 'Okay, I'm stressed right now, but I need to say something so that people see that I'm actually interested in this problem; I'm just thinking through it.'",
+      "timestamp": "00:23:54",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 231
+      },
+      "themes": ["self-awareness", "emotional-intelligence", "communication", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "jules-walter-q006",
+      "speaker": "Jules Walter",
+      "text": "A lot of people keep saying I'm really good at networking. I'm like semi-introvert, so I'm like, 'Hold on, I don't know.' He helped me understand, 'Actually, that's how you know it's a strength.' What's something people keep telling you you're good at, but you yourself don't think is a big deal? That's how you find your strengths.",
+      "timestamp": "00:52:26",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 414,
+        "lineEnd": 414
+      },
+      "themes": ["self-awareness", "strengths", "career-development"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jules-walter-q007",
+      "speaker": "Jules Walter",
+      "text": "Strength and weakness, it's not a binary thing. It's like the same thing, but it's a dial. In some context it's good, in other contexts it's not serving you. I'm able to take very complex problems and then create a mental model that's much simpler. But until I come up with that mental model, if I'm in a meeting with you, I won't talk much. You're seeing how the same strength is perceived as a weakness depending on context.",
+      "timestamp": "00:54:02",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 420,
+        "lineEnd": 420
+      },
+      "themes": ["self-awareness", "strengths", "leadership", "communication"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "jules-walter-q008",
+      "speaker": "Jules Walter",
+      "text": "If you give me feedback, I'll be like, 'Hey, thank you so much. This is super helpful,' because people are like, 'Oh, he actually likes the feedback.' Now, inside my heart might be melting. I'm like, 'Oh, I thought I got better at this.' But externally, I'm like, 'Hey, thank you,' and I mean it. I think that's the key that most people don't focus on.",
+      "timestamp": "00:47:42",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 383,
+        "lineEnd": 384
+      },
+      "themes": ["feedback", "emotional-intelligence", "growth-mindset", "vulnerability"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "jules-walter-q009",
+      "speaker": "Jules Walter",
+      "text": "The approach I take with mentors is you should make the smallest ask possible, which is the opposite of what 95% of people do. 95% of people is like, 'Hey, I've never met you, but I heard your talk. Can we set up a call?' That's a big ask. What I do is ask something they could answer in literally two minutes via email.",
+      "timestamp": "00:58:29",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 444
+      },
+      "themes": ["mentorship", "networking", "career-development"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "jules-walter-q010",
+      "speaker": "Jules Walter",
+      "text": "The key is once you get that foot in the door, it could be a quick email, a tweet, a quick chat at an event, and you get some advice that's useful, the key is to circle back with them at a later point and show that you've actually made good use of the advice. I think that's the thing nobody does.",
+      "timestamp": "00:59:30",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 447
+      },
+      "themes": ["mentorship", "networking", "relationships", "career-development"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "jules-walter-q011",
+      "speaker": "Jules Walter",
+      "text": "I graduated from MIT and I think even since internship times in '07, I'd interviewed for roles at Google and I didn't get those roles. It's because I wasn't good at interviewing and I didn't know people at those companies. By the way, most things you do, people give you some feedback so you can get better at it, but interviewing you never get any feedback.",
+      "timestamp": "00:16:27",
+      "source": {
+        "slug": "jules-walter",
+        "path": "episodes/jules-walter/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["interviewing", "career-development", "feedback", "resilience"],
+      "zones": ["velocity", "discovery"]
+    }
+  ],
+  "themes": ["interviewing", "career-development", "practice", "preparation", "resilience", "learning", "growth-mindset", "goal-setting", "skill-building", "skills", "emotional-intelligence", "product-management", "self-awareness", "communication", "leadership", "strengths", "feedback", "vulnerability", "mentorship", "networking", "relationships"],
+  "takeaways": [
+    "Do dozens of mock interviews before the real thing -- practice enough that even your worst performance is good enough to pass.",
+    "Learn skills one at a time by working backwards from a concrete outcome: define a measurable goal, find the best experts, ask targeted questions, execute, then circle back.",
+    "Your biggest strengths are the things people keep complimenting you on that you think are no big deal -- identify them and understand their shadow side.",
+    "Make getting feedback easy for others: respond with enthusiastic gratitude even when it stings, because people will only give you honest feedback if they feel safe doing so.",
+    "Start mentor relationships with the smallest possible ask -- something answerable in two minutes via email -- then earn the relationship by showing you acted on their advice."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jules-walter-q001",
+      "why": "Argues that interviewing is a critical but overlooked PM skill that most people prepare for by reading rather than actually practicing",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "jules-walter-q007",
+      "why": "Reframes the strengths vs weaknesses binary as a dial -- the same trait that makes you exceptional in one context can undermine you in another",
+      "related_zones": ["intuition"]
+    },
+    {
+      "quoteId": "jules-walter-q011",
+      "why": "An MIT grad openly sharing he failed Google interviews for years challenges the myth that credentials guarantee access to top companies",
+      "related_zones": ["velocity", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["career-development", "mentorship", "emotional-intelligence", "growth-mindset", "interviewing"]
+  }
+}

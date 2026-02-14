@@ -1,0 +1,199 @@
+{
+  "slug": "krithika-shankarraman",
+  "quotes": [
+    {
+      "id": "krithika-shankarraman-q001",
+      "speaker": "Krithika Shankarraman",
+      "text": "Everyone knew of ChatGPT, but when you clicked one zoom level further, the thing that came up was, 'I don't know what to use it for.' The work of marketing ended up becoming creating this sort of use case epiphany where people could say, 'I had no idea ChatGPT can do that.'",
+      "timestamp": "00:05:25",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 84
+      },
+      "themes": ["marketing", "product-market-fit", "ai"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "krithika-shankarraman-q002",
+      "speaker": "Krithika Shankarraman",
+      "text": "When done right, product management and product marketing should be best friends. Rather than thinking of it as a handoff at the end of the conveyor belt when the product's been built, you sort of hand it off to marketing to take it out the door. If you can think of it as sort of a three-legged race from the very beginning of product development, then you go to market with the right thing in the first place.",
+      "timestamp": "00:06:38",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 90,
+        "lineEnd": 90
+      },
+      "themes": ["product-marketing", "cross-functional", "go-to-market"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "krithika-shankarraman-q003",
+      "speaker": "Krithika Shankarraman",
+      "text": "If you're just kind of copying the outcomes or the outputs of the strategy and trying to follow in the footsteps of the tactics, you're not paying enough attention to the inputs and what were the variables and the deciding factors which led to that strategy in the first place.",
+      "timestamp": "00:10:43",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["strategy", "differentiation", "marketing"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "krithika-shankarraman-q004",
+      "speaker": "Krithika Shankarraman",
+      "text": "A lot of marketing metrics tend to be vanity metrics. They tend to be about the number of clicks that you got, number of views that a tweet got, number of impressions. I think those are all bullshit numbers. Really, what you want to be looking at is your impact on either signups if you're a self-serve product, PLG, or in terms of a B2B company, sales leads and revenue that you're driving.",
+      "timestamp": "00:18:35",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["metrics", "marketing", "growth"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "krithika-shankarraman-q005",
+      "speaker": "Krithika Shankarraman",
+      "text": "We decided to double down on customer marketing and customer storytelling because the thing that differentiated Retool from a lot of the copycat competitors in the market was that we had terrific traction with true enterprises who were paying for the product. Having them tell the stories on our behalf was so much more compelling, and no other company could replicate the kind of customers that Retool had.",
+      "timestamp": "00:19:13",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": ["differentiation", "customer-marketing", "storytelling"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "krithika-shankarraman-q006",
+      "speaker": "Krithika Shankarraman",
+      "text": "I was not the first marketer at Stripe, John and Patrick were the first marketers at Stripe because they were developers themselves. They truly understood the developer community. I had to unlearn a lot of the things that I had learned at Google and Dropbox coming into Stripe in order to reach developers authentically.",
+      "timestamp": "00:22:51",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 198
+      },
+      "themes": ["developer-marketing", "authenticity", "founder-led"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "krithika-shankarraman-q007",
+      "speaker": "Krithika Shankarraman",
+      "text": "Your launch isn't complete if you're just code complete. You have to actually ship it to the customer and make them aware of it. So usage became the north star, engagement became the north star rather than just the binary, has it launched or not.",
+      "timestamp": "00:25:02",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 219
+      },
+      "themes": ["product-launches", "metrics", "engagement"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "krithika-shankarraman-q008",
+      "speaker": "Krithika Shankarraman",
+      "text": "Good process or sufficient process is actually something that speeds up a company rather than slow it down. If you want somebody to be successful and contributing member of the organization very, very quickly, setting up some of these processes with the intention of trying to help them navigate how to go from idea to execution can be very empowering.",
+      "timestamp": "00:32:48",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 285,
+        "lineEnd": 291
+      },
+      "themes": ["process", "scaling", "onboarding"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "krithika-shankarraman-q009",
+      "speaker": "Krithika Shankarraman",
+      "text": "A brand is an expectation that you create within your audience. When you understand the consistency of your brand, it actually empowers the organization to move faster because you kind of understand how you want the brand to show up in the world.",
+      "timestamp": "00:38:51",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 324,
+        "lineEnd": 324
+      },
+      "themes": ["brand", "consistency", "velocity"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "krithika-shankarraman-q010",
+      "speaker": "Krithika Shankarraman",
+      "text": "Taste is going to become a distinguishing factor in the age of AI because there's going to be so much drivel that is generated by AI. The companies that are going to distinguish themselves are the ones that show their craft, their true understanding of the product, and the true understanding of their customer, and connect the two in meaningful ways.",
+      "timestamp": "00:55:58",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 456,
+        "lineEnd": 456
+      },
+      "themes": ["ai", "taste", "craft", "differentiation"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "krithika-shankarraman-q011",
+      "speaker": "Krithika Shankarraman",
+      "text": "The delta between expectations and reality is the function for unhappiness. And so it is much easier to change expectations than it is reality, so I tend to spend a lot of my energy making sure that expectations are set. Not just with customers when it comes to our external marketing, but internally with stakeholders, project partners, and even within the team.",
+      "timestamp": "01:10:49",
+      "source": {
+        "slug": "krithika-shankarraman",
+        "path": "episodes/krithika-shankarraman/transcript.md",
+        "lineStart": 573,
+        "lineEnd": 573
+      },
+      "themes": ["leadership", "communication", "stakeholder-management"],
+      "zones": ["alignment", "focus"]
+    }
+  ],
+  "themes": ["marketing", "differentiation", "brand", "product-marketing", "go-to-market", "metrics", "ai", "taste", "developer-marketing", "customer-marketing", "process", "leadership"],
+  "takeaways": [
+    "Don't copy playbooks from successful companies - diagnose your unique context, analyze competitors to find gaps, intentionally differentiate, then experiment and validate (the DATE framework).",
+    "Marketing metrics like clicks, views, and impressions are vanity metrics - measure what matters: signups, pipeline, and revenue impact.",
+    "Product marketing and product management should be a three-legged race from day one, not a handoff at the end of the development conveyor belt.",
+    "Brand consistency and good process are accelerants, not brakes - they empower teams to move faster by establishing clear expectations and guardrails.",
+    "In the age of AI, taste and craft become the ultimate differentiators as AI-generated content floods the market with undifferentiated drivel."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.15,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.00,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "krithika-shankarraman-q004",
+      "why": "Directly calls common marketing metrics 'bullshit numbers' - challenges the entire measurement apparatus most marketing teams rely on",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "krithika-shankarraman-q003",
+      "why": "Argues against following playbooks from successful companies - the inputs that led to a strategy matter more than copying the outputs",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "krithika-shankarraman-q008",
+      "why": "Process speeds companies up rather than slowing them down - counters the startup ethos of 'move fast and break things' by arguing guardrails enable velocity",
+      "related_zones": ["velocity", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": ["marketing", "go-to-market", "brand-building", "developer-marketing", "ai"]
+  }
+}

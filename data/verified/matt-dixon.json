@@ -1,0 +1,194 @@
+{
+  "slug": "matt-dixon",
+  "quotes": [
+    {
+      "id": "matt-dixon-001",
+      "speaker": "Matt Dixon",
+      "text": "Anywhere between 40 and 60% of the average salesperson's qualified pipelines will be ultimately marked as closed loss, no decision. These are people we've met with, customers we've pursued, we've engaged, they're in the sales process.",
+      "timestamp": "08:24",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 130
+      },
+      "themes": ["sales", "indecision", "pipeline-management"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "matt-dixon-002",
+      "speaker": "Matt Dixon",
+      "text": "Dialing up the FOMO backfires 87% of the time. In other words, it increases the odds the deal will be lost to no decision. People are not afraid of missing out, they're afraid of messing up.",
+      "timestamp": "14:06",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 176
+      },
+      "themes": ["sales", "psychology", "fear-of-failure", "customer-behavior"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "matt-dixon-003",
+      "speaker": "Matt Dixon",
+      "text": "There's a more powerful human bias, even more powerful than status quo bias, called the omission bias. People don't want to be blamed for making decisions that lead to a loss. Losses that happened because we did something are far worse in the human mind than losses from doing nothing.",
+      "timestamp": "16:06",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 188,
+        "lineEnd": 193
+      },
+      "themes": ["psychology", "decision-making", "cognitive-bias", "sales"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "matt-dixon-004",
+      "speaker": "Matt Dixon",
+      "text": "We've got to help instill the confidence in the customer that you're making a great decision. I've got your back. You're going to look like a hero, not like a fool and that's really what The JOLT Effect is about.",
+      "timestamp": "17:36",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["sales", "customer-confidence", "trust"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "matt-dixon-005",
+      "speaker": "Matt Dixon",
+      "text": "I've likened indecision to the carbon monoxide poisoning of sales. It's everywhere, but it's odorless, it's tasteless, but you need a carbon monoxide detector.",
+      "timestamp": "27:14",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["sales", "indecision", "diagnosis"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "matt-dixon-006",
+      "speaker": "Matt Dixon",
+      "text": "Options are great early on. Let a thousand flowers bloom, but if you want the customer to actually make a decision, you've got to get the weed whacker out and call it down to a manageable set of choices.",
+      "timestamp": "34:50",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 363
+      },
+      "themes": ["sales", "choice-architecture", "decision-making"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "matt-dixon-007",
+      "speaker": "Matt Dixon",
+      "text": "Think about the last time you went to a fancy restaurant and you didn't know what to order. How helpful is it if the wait person says, 'What are you in the mood to eat tonight?' It's no help at all. They basically just dump the problem back on your lap.",
+      "timestamp": "36:54",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 377
+      },
+      "themes": ["sales", "recommendation", "leadership", "decision-making"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "matt-dixon-008",
+      "speaker": "Matt Dixon",
+      "text": "What psychologists call the delegation effect: rather than the burden of a bad decision being solely on the shoulders of the decider, that burden is now shared. Customers are looking for somebody to share in the risk and the burden of making a bad decision.",
+      "timestamp": "37:46",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 385
+      },
+      "themes": ["psychology", "risk-sharing", "sales", "trust"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "matt-dixon-009",
+      "speaker": "Matt Dixon",
+      "text": "Great salespeople are brutally transparent with customers. 'I know you were interested in this capability. I got to be honest, we get mixed reviews on that.' These kinds of moments show the customer that you're not here to put one over on them.",
+      "timestamp": "39:57",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 402
+      },
+      "themes": ["sales", "transparency", "trust-building"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "matt-dixon-010",
+      "speaker": "Matt Dixon",
+      "text": "What great salespeople do is they know that while they'll stand by those claims, they try to under-promise and over-deliver. What I'd rather we do is build your business case around a 5X improvement because we see that in 100% of our implementations. Then let's set up to over-deliver.",
+      "timestamp": "42:09",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 418,
+        "lineEnd": 424
+      },
+      "themes": ["sales", "expectation-setting", "customer-success"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "matt-dixon-011",
+      "speaker": "Matt Dixon",
+      "text": "The Challenger approach is about showing the customer what should be keeping them up at night. What's the risk they don't know about but you do? You are a window into the outside world for them. It's about creating a fire and then being the only person in town who sells the fire extinguisher.",
+      "timestamp": "48:15",
+      "source": {
+        "slug": "matt-dixon",
+        "path": "episodes/matt-dixon/transcript.md",
+        "lineStart": 504,
+        "lineEnd": 508
+      },
+      "themes": ["sales", "challenger-sale", "thought-leadership", "differentiation"],
+      "zones": ["discovery", "chaos"]
+    }
+  ],
+  "themes": ["sales", "indecision", "pipeline-management", "psychology", "fear-of-failure", "customer-behavior", "cognitive-bias", "decision-making", "customer-confidence", "trust", "diagnosis", "choice-architecture", "recommendation", "leadership", "risk-sharing", "transparency", "trust-building", "expectation-setting", "customer-success", "challenger-sale", "thought-leadership", "differentiation"],
+  "takeaways": [
+    "Your biggest competitor is not another company -- it's customer indecision driven by fear of messing up (FOMU), not fear of missing out (FOMO).",
+    "When a customer gets cold feet late in the sales process, dialing up urgency and scare tactics backfires 87% of the time -- address their fear of being blamed instead.",
+    "Shift from asking customers what they want to recommending what they should do -- the 'delegation effect' shares the burden of decision and unsticks deals.",
+    "Build trust by being brutally transparent about your product's weaknesses early on, so customers stop endless research and start trusting you as their expert.",
+    "Under-promise and over-deliver on outcomes -- set business cases at achievable levels so customers look like heroes, not fools, when results come in."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.15,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "matt-dixon-002",
+      "why": "Completely inverts the dominant sales playbook -- most salespeople dial up FOMO when deals stall, but data shows this backfires 87% of the time.",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "matt-dixon-009",
+      "why": "Counter to sales instinct -- being transparent about product weaknesses early on actually increases close rates by building trust.",
+      "related_zones": ["alignment", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["sales", "customer-psychology", "decision-making", "B2B-sales", "indecision"]
+  }
+}

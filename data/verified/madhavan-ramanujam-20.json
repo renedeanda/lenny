@@ -1,0 +1,199 @@
+{
+  "slug": "madhavan-ramanujam-20",
+  "quotes": [
+    {
+      "id": "madhavan-ramanujam-20-001",
+      "speaker": "Madhavan Ramanujam",
+      "text": "If you want to build an enduring business, you need to be able to architect towards profitable growth. What that means is you need to be able to master two engines: market share and wallet share. Many companies focus on a single engine strategy, and that leads to all kinds of situations.",
+      "timestamp": "00:07:08",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 139
+      },
+      "themes": ["pricing-strategy", "market-share", "wallet-share", "profitable-growth"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-002",
+      "speaker": "Madhavan Ramanujam",
+      "text": "The acid test you should go back on Monday morning and do is take some of your early prospects or customers and ask them to articulate the pricing strategy back to you. If they cannot contextualize that in a simple manner and actually explain, you don't have a simple pricing strategy.",
+      "timestamp": "00:12:21",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 174,
+        "lineEnd": 176
+      },
+      "themes": ["pricing-strategy", "simplicity", "customer-validation"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-003",
+      "speaker": "Madhavan Ramanujam",
+      "text": "In a negotiation, typically you're giving concessions. If you don't get anything back, you're basically indicating to the other person that they can keep beating you up. But if you're giving something but you ask for something in exchange, then you're bringing authenticity into the negotiation because it actually means something to you to give.",
+      "timestamp": "00:15:39",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 203
+      },
+      "themes": ["negotiation", "pricing-strategy", "value-selling"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-004",
+      "speaker": "Madhavan Ramanujam",
+      "text": "The right way to think about an ROI model is to actually co-create it with your customers from day one. Agree and validate on the assumptions and the inputs. If you have done that process and the customer agrees on all the inputs, they're very unlikely to push back on the output.",
+      "timestamp": "00:19:22",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 228,
+        "lineEnd": 229
+      },
+      "themes": ["negotiation", "roi-model", "customer-collaboration", "value-selling"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-005",
+      "speaker": "Madhavan Ramanujam",
+      "text": "If you have options on the table, let's say a good, better, best, a 100K product, a 200K and a 300K option, then you're not just talking price, you're talking value. You switch the conversation back to value as opposed to just talking about price.",
+      "timestamp": "00:21:39",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 248
+      },
+      "themes": ["negotiation", "pricing-tiers", "value-selling"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-006",
+      "speaker": "Madhavan Ramanujam",
+      "text": "AI founders need to tackle monetization from the very early days, like day one. Because with AI products, you're actually bringing a lot of value to the table. And if you don't capture that from day one, then you're training your customers to expect more for less.",
+      "timestamp": "00:28:11",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 302,
+        "lineEnd": 307
+      },
+      "themes": ["ai-pricing", "monetization", "value-capture"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-007",
+      "speaker": "Madhavan Ramanujam",
+      "text": "The quadrant that you really want to be in is the outcome-based pricing model where you have great autonomy and great attribution. About 5% of companies are probably in a true outcome-based pricing model as of today. But in the next three years that 5% number will move to 25%.",
+      "timestamp": "00:42:07",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 405,
+        "lineEnd": 418
+      },
+      "themes": ["ai-pricing", "outcome-based-pricing", "pricing-models"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-008",
+      "speaker": "Madhavan Ramanujam",
+      "text": "In AI, you can actually charge 25 to 50% of the value you bring to the table because it is autonomous, you're doing it with the AI. There's no humans in the loop. You are creating incremental value to the business metrics. You are producing hard-cost savings. It's attributable.",
+      "timestamp": "00:43:54",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 414,
+        "lineEnd": 416
+      },
+      "themes": ["ai-pricing", "value-capture", "pricing-power"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-009",
+      "speaker": "Madhavan Ramanujam",
+      "text": "20% of what you build drives 80% of the willingness to pay. But the irony is that the 20% is the easiest thing to build often. So what founders do is they take this 20%, build it, put it out in the market almost for free, and then they're chasing their tails to build 80% stuff that's only driving 20% willingness to pay.",
+      "timestamp": "00:54:58",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 522,
+        "lineEnd": 523
+      },
+      "themes": ["pricing-strategy", "willingness-to-pay", "mvp", "product-strategy"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-010",
+      "speaker": "Madhavan Ramanujam",
+      "text": "To stop churn, you need to attract customers who won't leave. Most companies will try to stop churn when someone actually says, 'I want to go.' It is too late, and you're being reactive. The way to stop churn is to start acquiring customers who won't leave.",
+      "timestamp": "00:56:29",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 532,
+        "lineEnd": 535
+      },
+      "themes": ["churn", "retention", "acquisition", "customer-selection"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "madhavan-ramanujam-20-011",
+      "speaker": "Madhavan Ramanujam",
+      "text": "The best negotiators taper their concessions. They would say, 'I can give you 15%.' 'I need more.' 'I'll give you five.' 'I need more.' 'I'll give you two.' So you're automatically indicating to the other person that the negotiation's actually ending.",
+      "timestamp": "00:24:35",
+      "source": {
+        "slug": "madhavan-ramanujam-20",
+        "path": "episodes/madhavan-ramanujam-20/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 262
+      },
+      "themes": ["negotiation", "pricing-tactics", "value-selling"],
+      "zones": ["alignment", "perfection"]
+    }
+  ],
+  "themes": ["pricing-strategy", "market-share", "wallet-share", "profitable-growth", "simplicity", "customer-validation", "negotiation", "value-selling", "roi-model", "customer-collaboration", "pricing-tiers", "ai-pricing", "monetization", "value-capture", "outcome-based-pricing", "pricing-models", "pricing-power", "willingness-to-pay", "mvp", "product-strategy", "churn", "retention", "acquisition", "customer-selection", "pricing-tactics"],
+  "takeaways": [
+    "Building an enduring business requires mastering both market share and wallet share simultaneously -- focusing on just one is a single-engine strategy that will stall your growth.",
+    "AI companies must nail monetization from day one because they tap into labor budgets (10x software budgets) -- under-pricing early trains customers to expect more for less permanently.",
+    "The golden pricing quadrant is outcome-based: high autonomy plus high attribution gives you the most pricing power, and AI companies can charge 25-50% of the value they deliver.",
+    "Co-create your ROI model with customers during POCs by validating inputs together -- if they agree on the inputs, they can't push back on the outputs.",
+    "Stop churn before it starts by acquiring customers who won't leave in the first place -- reactive retention plays when someone wants to cancel are already too late."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.20,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "madhavan-ramanujam-20-006",
+      "why": "Directly challenges the dominant startup playbook of 'grow first, monetize later' -- argues AI companies that delay pricing are permanently destroying their value capture potential.",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "madhavan-ramanujam-20-009",
+      "why": "The 20-80 axiom reveals that founders systematically give away the most valuable 20% of their product for free while spending all their effort on the 80% that drives minimal willingness to pay.",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "madhavan-ramanujam-20-010",
+      "why": "Flips the churn-prevention paradigm: instead of retention tactics for departing customers, prevent churn by being selective about which customers you acquire in the first place.",
+      "related_zones": ["focus", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["pricing-strategy", "monetization", "ai-pricing", "negotiation", "profitable-growth"]
+  }
+}

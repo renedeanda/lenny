@@ -1,0 +1,194 @@
+{
+  "slug": "luc-levesque",
+  "quotes": [
+    {
+      "id": "luc-levesque-001",
+      "speaker": "Luc Levesque",
+      "text": "That was kind of my first introduction to working with Mark and just that laser focus on, 'All right, got it. Now when are we going to start seeing impact and kind of moving from there?' It's that difference between, 'I don't care how hard you've worked. I don't care what you're working on, what the activities are. What are the outcomes? What is the impact you're having?'",
+      "timestamp": "00:05:44",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 69,
+        "lineEnd": 70
+      },
+      "themes": ["impact", "execution", "leadership", "facebook-culture"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "luc-levesque-002",
+      "speaker": "Luc Levesque",
+      "text": "I think you reach a point in your career where you realize that hiring is the skill you now need to become world-class at because you're no longer doing the work yourself. The bulk of your team's success now will be the quality of the hires you make and you truly need to be world-class at that.",
+      "timestamp": "00:13:33",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 124
+      },
+      "themes": ["hiring", "leadership", "career-growth"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "luc-levesque-003",
+      "speaker": "Luc Levesque",
+      "text": "The best predictor of future performance is past performance. So I'm looking for what I call signs of excellence. The top people generally have done multiple amazing things in their life, repeated success, not just once.",
+      "timestamp": "00:14:51",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 131
+      },
+      "themes": ["hiring", "talent-assessment", "signs-of-excellence"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "luc-levesque-004",
+      "speaker": "Luc Levesque",
+      "text": "Another great sign of excellence is when somebody's boss leaves the company and then comes back to poach them. That is such a strong signal because the leader who knows exactly how good this person is, they've left the company, come back to poach them, putting their own reputation at risk.",
+      "timestamp": "00:15:56",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 137
+      },
+      "themes": ["hiring", "talent-assessment", "signals"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "luc-levesque-005",
+      "speaker": "Luc Levesque",
+      "text": "The right growth advisor can have literally company changing impact. It's one of those weird disciplines where the right person at the right time can literally say a sentence that changes the trajectory of your company. You can't say that for a lot of different disciplines, but this is one of them.",
+      "timestamp": "00:23:26",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 193
+      },
+      "themes": ["growth-advisors", "impact", "growth-strategy"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "luc-levesque-006",
+      "speaker": "Luc Levesque",
+      "text": "I've seen it, in fact more common than not that you could have sometimes hundreds of percentages of lift very quickly. It depends what you're starting with. If you have existing pages that are ranking eight and they're already on the first page, it doesn't always happen but you could have hundreds of percentages of lift very quickly.",
+      "timestamp": "00:59:14",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 435,
+        "lineEnd": 436
+      },
+      "themes": ["seo", "growth-channels", "quick-wins"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "luc-levesque-007",
+      "speaker": "Luc Levesque",
+      "text": "Entire industries are based off of single keywords. Companies were bought and sold based on one keyword rank. Getting that number one spot is not like, 'Oh, that's a little bit of traffic.' You can literally build an entire business around that first spot.",
+      "timestamp": "00:47:00",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 352
+      },
+      "themes": ["seo", "growth-channels", "market-domination"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "luc-levesque-008",
+      "speaker": "Luc Levesque",
+      "text": "When you're vetting for a growth advisor or growth talent, don't just weight it on the public halo of somebody. That's a common mistake I've seen where maybe somebody's done presentations at a conference or their Twitter following is broad. Make sure you're vetting properly, even if somebody has a large following.",
+      "timestamp": "00:36:39",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 280
+      },
+      "themes": ["hiring", "growth-advisors", "talent-assessment"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "luc-levesque-009",
+      "speaker": "Luc Levesque",
+      "text": "One thing that we're definitely focused more on lately is this idea of sometimes you just need to YOLO it because it's a better product experience or you just kind of know it's going to work. If you're YOLO-ing 40 things and three of them work, the speed can outweigh the cost and time it takes to do an experiment.",
+      "timestamp": "01:16:56",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 618,
+        "lineEnd": 622
+      },
+      "themes": ["experimentation", "velocity", "shipping"],
+      "zones": ["velocity", "chaos", "intuition"]
+    },
+    {
+      "id": "luc-levesque-010",
+      "speaker": "Luc Levesque",
+      "text": "The most important thing that we work on constantly is reviewing what's our strategy, what are we working on? Is that driving towards the top level north star outcome we want? Is that having the impact? And then basically doing everything around that singular north star.",
+      "timestamp": "00:08:46",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 90,
+        "lineEnd": 91
+      },
+      "themes": ["north-star-metric", "strategy", "impact"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "luc-levesque-011",
+      "speaker": "Luc Levesque",
+      "text": "The biggest, most important part of that morning routine is dedicating an hour aside to really think about, 'What's going well? What's not going well? What am I screwing up? Why am I screwing it up?' And of course, 'What am I going to do about it?' As long as you're learning and iterating every day, you're making constant progress.",
+      "timestamp": "01:01:32",
+      "source": {
+        "slug": "luc-levesque",
+        "path": "episodes/luc-levesque/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 445
+      },
+      "themes": ["self-reflection", "personal-growth", "routines", "leadership"],
+      "zones": ["perfection", "discovery"]
+    }
+  ],
+  "themes": ["impact", "execution", "leadership", "facebook-culture", "hiring", "career-growth", "talent-assessment", "signs-of-excellence", "signals", "growth-advisors", "growth-strategy", "seo", "growth-channels", "quick-wins", "market-domination", "experimentation", "velocity", "shipping", "north-star-metric", "strategy", "self-reflection", "personal-growth", "routines"],
+  "takeaways": [
+    "Impact over activity: the best companies and leaders obsess over outcomes and results, not hours worked or features shipped -- if you can't point to impact, nothing else matters.",
+    "Hiring is the ultimate senior leadership skill: look for 'signs of excellence' -- repeated success across multiple domains -- rather than credentials or public following.",
+    "A single growth advisor can change your company's trajectory in one conversation, but vet them on past performance and real results, not their Twitter following or conference presence.",
+    "SEO can be company-defining: entire businesses are built on a single keyword rank, and if you already have content on page one, massive lifts can happen immediately.",
+    "Structured daily self-reflection -- an hour of honest assessment of what's working and what isn't -- is the highest-leverage leadership habit you can build."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.20,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "luc-levesque-009",
+      "why": "At a company like Shopify, the head of growth advocating for 'YOLO-ing' changes without experiments defies the standard growth playbook of experiment-everything culture.",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "luc-levesque-008",
+      "why": "Challenges the common tendency to hire or engage growth people based on their public brand -- argues that a large following is actually a warning sign to investigate deeper.",
+      "related_zones": ["perfection", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["growth-leadership", "seo", "hiring", "growth-advisors", "self-reflection"]
+  }
+}

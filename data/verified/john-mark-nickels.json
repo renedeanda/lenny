@@ -1,0 +1,194 @@
+{
+  "slug": "john-mark-nickels",
+  "quotes": [
+    {
+      "id": "john-mark-nickels-q001",
+      "speaker": "John Mark Nickels",
+      "text": "I don't actually need Dara to approve of me in my presentation in order to be okay. What I'm up to over here is trying to force self-worth and self-love from within. As long as I was going out there looking for all that stuff to try to complete something inside of me that was missing, it's like I was a hungry ghost. It's like, it doesn't matter how many Michelin star meals and promotions and money and title. It's like it's never enough.",
+      "timestamp": "00:15:00",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 137
+      },
+      "themes": ["self-worth", "leadership", "mindset"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "john-mark-nickels-q002",
+      "speaker": "John Mark Nickels",
+      "text": "The more I focused on how I show up and optics and having a good deck and all this, the less I got promoted. And then the more I dropped focusing all that, and just really focusing on the work, I want to make a fucking awesome product. Whether people like me or think I'm a good PM or presenter, as long as I manifest a great product into the world, that to me is the reward.",
+      "timestamp": "00:17:46",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 148
+      },
+      "themes": ["career-growth", "product-craft", "authenticity"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "john-mark-nickels-q003",
+      "speaker": "John Mark Nickels",
+      "text": "Step one is, am I working at a place and in a product area in which I have a tremendous amount of passion? Because for me, that is the fuel and the motivation that helps me break through to getting the strategy. I think it would be hard for me to come up with a strategy for improving the healthcare system. It's just not for me.",
+      "timestamp": "00:23:24",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["strategy", "passion", "vision"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "john-mark-nickels-q004",
+      "speaker": "John Mark Nickels",
+      "text": "Close my eyes and imagine the future as far out as I can. 10 years from now, what could San Francisco look like? Are there still parking garages? Are those parks now? What are the modes of transport? It's not even about having the right one, it's more just developing some sort of picture of the future that gets you fired up.",
+      "timestamp": "00:26:09",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["vision", "strategy", "first-principles"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "john-mark-nickels-q005",
+      "speaker": "John Mark Nickels",
+      "text": "I'm a big fan of carving out time, first for myself, a couple hours, where I can just get out of the day-to-day craziness and get into that head space of five, 10 years from now. It's just a different place. So you need to transition to that.",
+      "timestamp": "00:31:27",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 208
+      },
+      "themes": ["vision", "time-management", "strategy"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "john-mark-nickels-q006",
+      "speaker": "John Mark Nickels",
+      "text": "You go too hard in division and theory land, I've seen that go off the axle. We had all the data scientists and PhDs locked in a room for two weeks and there's a beautiful whiteboard diagram. And then it's like, why don't we actually build this thing? You could probably go too far into execution land too. At DoorDash, some of us leaders would joke, it's ready, fire, aim.",
+      "timestamp": "00:41:48",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 277,
+        "lineEnd": 289
+      },
+      "themes": ["strategy-vs-execution", "leadership", "balance"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "john-mark-nickels-q007",
+      "speaker": "John Mark Nickels",
+      "text": "Uber is to Amazon as DoorDash is to Shopify. Amazon has always been more consumer focused, Shopify is obviously very merchant focused. And by the way, either of those, again, there's no right or wrong, is a fine strategy. They're both great companies.",
+      "timestamp": "00:48:24",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 325
+      },
+      "themes": ["marketplace-strategy", "company-dna", "product-strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "john-mark-nickels-q008",
+      "speaker": "John Mark Nickels",
+      "text": "There's wisdom in emotion. Fear is something wants to be paid attention to. Sadness for me is something wants to be let go of. Anger to me is something is not of service to me or my people or my mission. And then joy is something that wants to be celebrated. Creative energy is something wants to be born into the world.",
+      "timestamp": "00:56:23",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 376
+      },
+      "themes": ["emotional-intelligence", "leadership", "decision-making"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "john-mark-nickels-q009",
+      "speaker": "John Mark Nickels",
+      "text": "Get clear on your objective function. Five years from now, I'm not going to give a shit if I made the presentation slightly better, but I'm going to care a lot about what kind of relationship I have with my daughters. And that means that the next action, the next thing I do today and tomorrow, those will translate into the relationship with her.",
+      "timestamp": "01:00:05",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 391,
+        "lineEnd": 401
+      },
+      "themes": ["life-priorities", "objective-function", "long-term-thinking"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "john-mark-nickels-q010",
+      "speaker": "John Mark Nickels",
+      "text": "An awareness and mindfulness that our lives will come to an end punctuates reality in a way that requires me to rethink my priorities, stop wasting time on things that don't matter with people who matter. This relationship, this journey, it will come to an end.",
+      "timestamp": "01:03:28",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 406
+      },
+      "themes": ["mortality", "priorities", "stoicism"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "john-mark-nickels-q011",
+      "speaker": "John Mark Nickels",
+      "text": "The most empowering and radical transformation that I've been able to cultivate and develop is shifting from life is happening to me to I am willing to take responsibility for how I see the world. I can change how I'm being in relationship to it and choose to see it as a growth opportunity.",
+      "timestamp": "01:05:39",
+      "source": {
+        "slug": "john-mark-nickels",
+        "path": "episodes/john-mark-nickels/transcript.md",
+        "lineStart": 421,
+        "lineEnd": 421
+      },
+      "themes": ["agency", "mindset", "personal-responsibility"],
+      "zones": ["intuition", "chaos"]
+    }
+  ],
+  "themes": ["self-worth", "leadership", "mindset", "career-growth", "product-craft", "authenticity", "strategy", "passion", "vision", "first-principles", "time-management", "strategy-vs-execution", "balance", "marketplace-strategy", "company-dna", "product-strategy", "emotional-intelligence", "decision-making", "life-priorities", "objective-function", "long-term-thinking", "mortality", "priorities", "stoicism", "agency", "personal-responsibility"],
+  "takeaways": [
+    "Drop the obsession with optics and presentations - the more you focus on making a great product instead of how you appear, the more your career actually advances.",
+    "Great strategy starts with deep passion for the domain, then closing your eyes and vividly imagining what the world looks like 5-10 years from now.",
+    "Balance vision with execution - too much theory leads to beautiful whiteboards nobody builds, too much execution leads to running through the wrong walls.",
+    "Emotions at work are not a weakness but a form of intelligence - fear signals something needs attention, anger signals something is not of service, joy signals something to celebrate.",
+    "Define your personal objective function clearly - five years from now you won't care about the slightly better presentation, but you will care about the relationships you built or neglected."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.25,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "john-mark-nickels-q002",
+      "why": "Counterintuitively argues that caring less about optics and presentations actually accelerated his promotions at Uber, challenging the common advice that managing up and self-promotion is essential",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "john-mark-nickels-q008",
+      "why": "Challenges the prevailing tech culture belief that emotions should be left at home - argues each emotion carries specific wisdom that improves decision-making",
+      "related_zones": ["intuition", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["conscious-leadership", "strategy", "vision", "emotional-intelligence", "mobility"]
+  }
+}
