@@ -1,0 +1,194 @@
+{
+  "slug": "jackson-shuttleworth",
+  "quotes": [
+    {
+      "id": "jackson-shuttleworth-001",
+      "speaker": "Jackson Shuttleworth",
+      "text": "Streaks are a great engagement hack. I'm of the opinion that any team, any app out there can introduce a streak, and if you figure it out, it probably works to retain users, but at the core, you have to have an app that people want to use. It allows us to layer an engagement mechanic on top that is really powerful.",
+      "timestamp": "00:07:15",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 100
+      },
+      "themes": ["retention", "engagement", "streaks", "product-market-fit"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jackson-shuttleworth-002",
+      "speaker": "Jackson Shuttleworth",
+      "text": "One of the most impactful experiments we ran was to move it from an XP based streak to just do one lesson a day, and you'd extend your streak. The unit of use for Duolingo is doing a lesson. And so, if what we care about is users coming back every day and doing a lesson, it doesn't hurt us to make our streak focus on just do one unit versus multiple.",
+      "timestamp": "00:11:28",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["simplicity", "experimentation", "engagement", "unit-of-use"],
+      "zones": ["data", "focus", "discovery"]
+    },
+    {
+      "id": "jackson-shuttleworth-003",
+      "speaker": "Jackson Shuttleworth",
+      "text": "The easiest way not to learn on Duolingo is not to come back the next day. And so, if we don't make the app retentive, you will have no opportunity to engage with our learning features. Streaks work best when they're sitting on top of an app that users care about.",
+      "timestamp": "00:13:39",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 154
+      },
+      "themes": ["retention", "engagement", "learning"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "jackson-shuttleworth-004",
+      "speaker": "Jackson Shuttleworth",
+      "text": "We've run in the last four years, over 600 experiments on the streaks. Every other day effectively we're running an experiment. We shut down about half of our experiments, so half of our experiments lose, we still learned a ton by virtue of running them.",
+      "timestamp": "00:17:15",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 178
+      },
+      "themes": ["experimentation", "velocity", "learning", "iteration"],
+      "zones": ["velocity", "data", "discovery"]
+    },
+    {
+      "id": "jackson-shuttleworth-005",
+      "speaker": "Jackson Shuttleworth",
+      "text": "Once you get to seven days, loss aversion kicks in, and you retain. Going from a one to a two-day streak, huge jump in retention, two to three day streak, slightly less but still huge and it's up until day seven. Once you hit day seven, it flattens out. So, we do a ton of work to get users to that point where loss aversion kicks in.",
+      "timestamp": "00:19:13",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 190
+      },
+      "themes": ["retention", "psychology", "loss-aversion", "data"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "jackson-shuttleworth-006",
+      "speaker": "Jackson Shuttleworth",
+      "text": "Rather than design the big complex feature for V1, just do the simplest encapsulation of what that feature can be, see if it has legs, and then just add to it iteratively over time. This is partially how we get to 600+ experiments on streaks, they're not all big ones.",
+      "timestamp": "00:22:06",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 204
+      },
+      "themes": ["iteration", "simplicity", "mvp", "experimentation"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "jackson-shuttleworth-007",
+      "speaker": "Jackson Shuttleworth",
+      "text": "We used to say Continue, our standard CTA is Continue, and we changed that to Commit To My Goal, and it was a massive win. Just that little copy change, that one time, right there, led to huge wins. Copy changes are so cheap, it's just you translate some strings. I'm of the opinion that companies should run copy tests constantly.",
+      "timestamp": "00:27:20",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 238
+      },
+      "themes": ["copy-testing", "experimentation", "growth", "psychology"],
+      "zones": ["data", "velocity", "discovery"]
+    },
+    {
+      "id": "jackson-shuttleworth-008",
+      "speaker": "Jackson Shuttleworth",
+      "text": "If you have a clear strategy where your feature is going, hopefully all of those A/B tests are not just done to get some cheap gain, they're done with a long-term goal in mind. Eventually you just hit a local maxima, and you say, all right, cool, now we need to throw a bunch of this stuff out, reset this feature, in such a way that is just as good as what we have now but is way more plain or simple.",
+      "timestamp": "00:29:06",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 250
+      },
+      "themes": ["strategy", "local-maxima", "simplicity", "experimentation"],
+      "zones": ["focus", "data", "chaos"]
+    },
+    {
+      "id": "jackson-shuttleworth-009",
+      "speaker": "Jackson Shuttleworth",
+      "text": "The streak works really well for Duolingo because with language learning it's really hard to see day-to-day progress. You still got to put in thousands of hours if you're going to reach fluency. We might not be able to tell you you now know 0.01% more Spanish, but we can show you your streak is a little bit higher. It works particularly well when you're an app that is doing something that's going to be sensed or felt over a longer term.",
+      "timestamp": "00:31:03",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 262
+      },
+      "themes": ["progress", "psychology", "long-term", "engagement"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "jackson-shuttleworth-010",
+      "speaker": "Jackson Shuttleworth",
+      "text": "A lot of users do not understand how a streak works. Even what a streak is, it's tracking how many days that I've used the app. The more that we can make the feature easily comprehensible to users, the more retentive it is. We've run a number of experiments to do this.",
+      "timestamp": "00:33:32",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 268
+      },
+      "themes": ["clarity", "user-understanding", "simplicity"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "jackson-shuttleworth-011",
+      "speaker": "Jackson Shuttleworth",
+      "text": "We tested adding an opt-out button to our streak goal screen, and you would think as a PM, oh, now users might not engage with my feature, that's a bad thing, but it was a huge win to let them do that. The intentionality of saying no, I want it, having that be an intentional decision for them even though it had no impact past this screen, that optionality was a huge insight.",
+      "timestamp": "00:22:06",
+      "source": {
+        "slug": "jackson-shuttleworth",
+        "path": "episodes/jackson-shuttleworth/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 209
+      },
+      "themes": ["user-psychology", "intentionality", "experimentation", "counterintuitive"],
+      "zones": ["discovery", "intuition", "data"]
+    }
+  ],
+  "themes": ["retention", "experimentation", "streaks", "gamification", "engagement", "psychology", "simplicity", "copy-testing", "iteration"],
+  "takeaways": [
+    "Streaks only work as a retention mechanic when layered on top of a product users genuinely care about -- the engagement hack amplifies existing value, it doesn't create it from nothing.",
+    "The zero to seven day streak window is critical: once users hit a seven-day streak, loss aversion kicks in and retention flattens dramatically, making early streak-building the highest leverage work.",
+    "Duolingo runs 600+ experiments on streaks over four years, with half failing -- the philosophy is to test cheaply and constantly, especially copy changes, rather than debating endlessly.",
+    "Simplifying the streak from XP-based goals to one-lesson-per-day was a massive DAU driver, but going further to one-exercise was too simple -- finding the right unit of use is the key to streak design.",
+    "Adding an opt-out button to streak goals was counterintuitively a huge win because user intentionality in choosing to commit drives stronger retention than forced engagement."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.35,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jackson-shuttleworth-011",
+      "why": "Adding an opt-out button to an engagement feature was a huge win, contradicting PM instinct that making features optional reduces engagement",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "jackson-shuttleworth-004",
+      "why": "Half of all experiments fail and that's celebrated -- embraces failure rate that would terrify most product orgs",
+      "related_zones": ["velocity", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["retention", "gamification", "experimentation", "growth"]
+  }
+}

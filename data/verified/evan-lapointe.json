@@ -1,0 +1,208 @@
+{
+  "slug": "evan-lapointe",
+  "quotes": [
+    {
+      "id": "evan-lapointe-001",
+      "speaker": "Evan LaPointe",
+      "text": "The brain has these departments and systems in it and it also has pathways. Some of that has to do with personality, which predisposes us to have a higher-anxiety or a lower-anxiety response or a higher-creativity or lower-creativity response. You can also be more intentional with these pathways, and that's a big component of self-awareness.",
+      "timestamp": "00:06:34",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 85
+      },
+      "themes": ["neuroscience", "self-awareness", "personality"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "evan-lapointe-002",
+      "speaker": "Evan LaPointe",
+      "text": "Maybe one of the worst pieces of propaganda that people walk around with in their minds is the phrase we're more similar than we are different. We should probably be building the muscle that we have the capacity to get along with people that are extremely different than we are.",
+      "timestamp": "00:12:02",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["personality differences", "team dynamics", "diversity of thought"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "evan-lapointe-003",
+      "speaker": "Evan LaPointe",
+      "text": "I think of companies and teams almost like little terrariums that we're inside of. A lot of teams and companies sit in a habitat that's working against all of them to begin with. They've either lost their way in the habitat or never had that to begin with. The habitat inherently must be built for speed and high-functioning thinking.",
+      "timestamp": "00:17:28",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 131
+      },
+      "themes": ["culture", "team environment", "habitat design"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "evan-lapointe-004",
+      "speaker": "Evan LaPointe",
+      "text": "There's a great quote, Dan Pink has summarized the problem better than anybody when he said there's a mismatch between what science knows and what business does. You can almost look at this as an equation: science knows minus what your business does equals dysfunction.",
+      "timestamp": "00:19:17",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["science-business gap", "organizational design", "dysfunction"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "evan-lapointe-005",
+      "speaker": "Evan LaPointe",
+      "text": "Meetings, generally speaking, are a combination of priming and decision making. A lot of meetings skip the priming step altogether. It would be safe to skip if everybody here is on the same page, has the same information, and intends for the same outcome. That's a ludicrous assumption for most meetings.",
+      "timestamp": "00:24:38",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["meetings", "decision-making", "priming"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "evan-lapointe-006",
+      "speaker": "Evan LaPointe",
+      "text": "If somebody is trying to make the decision with speed in mind and another person is trying to make the decision with accuracy in mind, it is completely inevitable that they're about to have a cat fight in the meeting. It's not resolvable until they come back and revisit the fact that deeper down, we are approaching this in completely different mentality.",
+      "timestamp": "00:28:44",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["conflict resolution", "principles", "decision-making"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "evan-lapointe-007",
+      "speaker": "Evan LaPointe",
+      "text": "If you are low in openness, your brain essentially has abstract, creative, intellectual, complex thinking wired to the pain systems of the brain. As soon as things get abstract, not only are you like I don't like this, you have a much more visceral negative response. Somebody else in the room may have all that wired to their reward systems.",
+      "timestamp": "00:34:00",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["personality", "openness", "vision"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "evan-lapointe-008",
+      "speaker": "Evan LaPointe",
+      "text": "The team that spends less time translating satisfactory language before they move has a huge advantage in the market. If you're competing head-to-head, that habitat inherently is built for speed because the habitat itself has words tattooed to your brain that are like, we will not spend time in the translation phase.",
+      "timestamp": "00:40:05",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["speed", "competitive advantage", "habitat design"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "evan-lapointe-009",
+      "speaker": "Evan LaPointe",
+      "text": "Another human strength on your team is the patch for the bug of your weakness. A team that is highly unaware of its weaknesses is going to have a lot of slowness. They don't have to fix all their weaknesses, but be aware of them and know who is a patch to your weakness.",
+      "timestamp": "00:57:41",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 352
+      },
+      "themes": ["team composition", "self-awareness", "complementary strengths"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "evan-lapointe-010",
+      "speaker": "Evan LaPointe",
+      "text": "Choose your character and choose your mode of influence. It's almost like you're playing Elden Ring. Your personality has a natural fit for the character you're going to select. Then you're going to pick a speed of influence: slow, moderate, or fast. The habitat can help a lot with this.",
+      "timestamp": "01:07:19",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 397
+      },
+      "themes": ["influence", "personality", "strategy"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "evan-lapointe-011",
+      "speaker": "Evan LaPointe",
+      "text": "The fast mode of influence is cognitive dissonance. Saying in the moment, how does this formula compute? Explain to me how you being too blunt in feedback is going to end up in a human being changing. Why do you believe that? Drill below the behavior down into the belief.",
+      "timestamp": "01:21:53",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 487,
+        "lineEnd": 490
+      },
+      "themes": ["influence", "cognitive dissonance", "feedback"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "evan-lapointe-012",
+      "speaker": "Evan LaPointe",
+      "text": "Self-awareness is simply being intentional with your brain, whereas self-consciousness is being worried about your brain. We don't want people to be worried about their brains and insecure, we just want you to say, this is a situation in which my brain can work this way, and this is a situation where I want to push myself.",
+      "timestamp": "00:45:23",
+      "source": {
+        "slug": "evan-lapointe",
+        "path": "episodes/evan-lapointe/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["self-awareness", "intentionality", "growth mindset"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["neuroscience", "self-awareness", "personality", "team dynamics", "meetings", "influence", "decision-making", "habitat design", "cognitive dissonance", "growth mindset"],
+  "takeaways": [
+    "The gap between what science knows about human behavior and what business actually does is the equation for organizational dysfunction - closing this gap is the biggest lever for team performance.",
+    "Most meetings fail because they skip priming and jump straight to decision-making, then discover misaligned principles mid-meeting and waste everyone's time.",
+    "Understanding personality differences (especially openness and conscientiousness) is critical because the same idea can trigger reward systems in one brain and pain systems in another.",
+    "Teams should think of themselves as habitats (terrariums) where the environment predisposes people to high-functioning thinking - a bad habitat creates dysfunction regardless of individual talent.",
+    "Influence has three speeds: slow (let them fail), moderate (teach them something new and let them live with it), and fast (cognitive dissonance to challenge beliefs directly in the moment)."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.00,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.25,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "evan-lapointe-002",
+      "why": "Directly attacks the common feel-good phrase that 'we are more similar than we are different' as propaganda that prevents real team growth",
+      "related_zones": ["chaos", "alignment"]
+    },
+    {
+      "quoteId": "evan-lapointe-005",
+      "why": "Claims most meetings operate on the ludicrous assumption that everyone is on the same page - challenges the default meeting format used by nearly every company",
+      "related_zones": ["alignment", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["neuroscience", "team dynamics", "leadership"]
+  }
+}

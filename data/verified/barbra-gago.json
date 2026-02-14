@@ -1,0 +1,194 @@
+{
+  "slug": "barbra-gago",
+  "quotes": [
+    {
+      "id": "barbra-gago-q001",
+      "speaker": "Barbra Gago",
+      "text": "When you're thinking about category creation, it's really, for us, it was really about the scope of what we're trying to do and not wanting to be in something too small. With Miro, the platform that it is, there is so much possibility. I used to joke that it was the ever expanding universe. But online whiteboard was really small.",
+      "timestamp": "07:26",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 97
+      },
+      "themes": ["category-creation", "positioning", "ambition"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "barbra-gago-q002",
+      "speaker": "Barbra Gago",
+      "text": "Ultimately, you're not building a category until there is competition. It's not officially actually a category until there's more companies that do that. It's actually okay when new companies come in that say they're that category because it's just validating the fact that there is a new category.",
+      "timestamp": "08:59",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 103
+      },
+      "themes": ["category-creation", "competition", "validation"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "barbra-gago-q003",
+      "speaker": "Barbra Gago",
+      "text": "Instead of spending the time and money to build a new category, we were going to spend the time and money to elevate the value of this category. So rather than changing the category to something else, we were just going to spend all of our resources to make this whole category much more valuable to the users.",
+      "timestamp": "15:33",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 157
+      },
+      "themes": ["category-strategy", "positioning", "pragmatism"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "barbra-gago-q004",
+      "speaker": "Barbra Gago",
+      "text": "Visual collaboration was our way of putting a nice bow around this thing that could then be an enterprise product that solves a lot of different problems for a lot of different use cases and different types of users. But it needed to all come together cohesively; otherwise, it was like everybody in the org just calls it a different thing.",
+      "timestamp": "17:52",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 166
+      },
+      "themes": ["category-creation", "enterprise", "cohesion"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "barbra-gago-q005",
+      "speaker": "Barbra Gago",
+      "text": "When you're building a category, you need to make sure that there is a category that's validated by analysts and directory sites and things like that. But also, you want to have a lot of traction in terms of thought leadership. When you're generating a new category, you're also needing to educate buyers that there is a category that they can now budget for.",
+      "timestamp": "23:15",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 193
+      },
+      "themes": ["category-creation", "thought-leadership", "buyer-education"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "barbra-gago-q006",
+      "speaker": "Barbra Gago",
+      "text": "RealtimeBoard was interesting. I almost didn't join because it was called RealtimeBoard. I was like, 'Am I really going to join a company called RealtimeBoard? Can this be a big company with that name?' Will they let me change the name was my criteria for joining.",
+      "timestamp": "30:06",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["rebranding", "naming", "vision"],
+      "zones": ["chaos", "perfection"]
+    },
+    {
+      "id": "barbra-gago-q007",
+      "speaker": "Barbra Gago",
+      "text": "With the rebrand at Miro, it was very much a product approach. It was very much a product development process with sprint teams and agile, coming back, and you had owners for different parts of things and all reporting back and it really required everybody in some way to be involved.",
+      "timestamp": "35:34",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 280
+      },
+      "themes": ["rebranding", "process", "product-approach"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "barbra-gago-q008",
+      "speaker": "Barbra Gago",
+      "text": "You can't have one or the other. You could have a great brand and if the product sucks, there's only so far a brand can go. And you also can have a great product and maybe not that thoughtful of a brand, but what I've found is that the more the brand is interchangeable with the people at the company and the company itself, the stronger it is.",
+      "timestamp": "39:06",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 313
+      },
+      "themes": ["brand", "product", "authenticity"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "barbra-gago-q009",
+      "speaker": "Barbra Gago",
+      "text": "Your company values can shape how big and how deep you go with your brand, how authentic it is to the experiences that people have because ultimately, values play a big part because values are foundational to how people behave at the organization, how they work together, how they work with customers.",
+      "timestamp": "39:55",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 316
+      },
+      "themes": ["values", "brand", "culture"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "barbra-gago-q010",
+      "speaker": "Barbra Gago",
+      "text": "Opinionated software is basically software platforms that essentially have either best practices or maybe some rules integrated into the system. Greenhouse is another example from a recruiting perspective in terms of structured recruiting. It's principled, anchored in some values. And because of those values, there will be certain rules built in that you can't really work around.",
+      "timestamp": "46:54",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 388
+      },
+      "themes": ["opinionated-software", "best-practices", "product-design"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "barbra-gago-q011",
+      "speaker": "Barbra Gago",
+      "text": "All of my best marketing and positioning literally comes from having a million conversations with customers and listening to how they solve problems and how our system helps them solve problems and what they're doing and how they talk about stuff.",
+      "timestamp": "21:36",
+      "source": {
+        "slug": "barbra-gago",
+        "path": "episodes/barbra-gago/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 187
+      },
+      "themes": ["customer-research", "positioning", "listening"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["category-creation", "positioning", "ambition", "competition", "validation", "category-strategy", "pragmatism", "enterprise", "cohesion", "thought-leadership", "buyer-education", "rebranding", "naming", "vision", "process", "product-approach", "brand", "product", "authenticity", "values", "culture", "opinionated-software", "best-practices", "product-design", "customer-research", "listening"],
+  "takeaways": [
+    "Category creation is only worth pursuing when your product's scope far exceeds existing categories -- if buyers already have budget and language for what you do, elevate the existing category instead of inventing a new one.",
+    "A new category isn't real until competitors validate it by entering the space -- welcoming competition is actually a sign that category creation is working.",
+    "The best positioning and marketing language comes directly from customers -- listen to how they describe their pain points and build your category narrative around their words, not your own.",
+    "Rebranding should be treated like a product development process with sprints, owners, and cross-functional involvement -- not a marketing team vanity project done in isolation.",
+    "Opinionated software that enforces best practices through product constraints creates stronger differentiation and better outcomes than fully flexible tools that leave users to figure out processes on their own."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.15,
+    "discovery": 0.25,
+    "data": 0.00,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "barbra-gago-q002",
+      "why": "Flips the conventional fear of competition on its head -- argues competitors entering your space is actually validation of your category, not a threat.",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "barbra-gago-q006",
+      "why": "Made changing the company name her condition for joining Miro -- a bold move that shows how naming and brand vision can be non-negotiable for senior hires.",
+      "related_zones": ["chaos", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["category-creation", "brand-building", "opinionated-software"]
+  }
+}

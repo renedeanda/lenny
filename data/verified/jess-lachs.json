@@ -1,0 +1,199 @@
+{
+  "slug": "jess-lachs",
+  "quotes": [
+    {
+      "id": "jess-lachs-001",
+      "speaker": "Jessica Lachs",
+      "text": "For me, analytics is a business impact driving function and not purely a service function. I think there are analytics teams at other companies where they are answering people's questions, maybe even through Jira tickets, we're building dashboards. That was never really of interest to me. That wasn't the team that I wanted to build.",
+      "timestamp": "00:04:59",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 86
+      },
+      "themes": ["analytics", "team-building", "business-impact"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "jess-lachs-002",
+      "speaker": "Jessica Lachs",
+      "text": "I strongly disagree. I believe a central model, a center of excellence is superior. We've experimented in the past with the alternative, so putting it into a business unit and it's just much more problematic and I think the value you get from a central model is far greater than some of the things that you might lose.",
+      "timestamp": "00:06:36",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 88,
+        "lineEnd": 89
+      },
+      "themes": ["org-structure", "analytics", "centralization"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "jess-lachs-003",
+      "speaker": "Jessica Lachs",
+      "text": "We are business partners, we are thought partners with our product counterparts, with our engineering counterparts, with our ops counterparts, and we share the same goals. We bring to the table insights on things that we've noticed, deep dives that we do to understand the problems that we're trying to solve better. Where are there pockets of opportunity? That is what I expect my team to be able to bring to that table.",
+      "timestamp": "00:09:41",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 115
+      },
+      "themes": ["analytics", "partnership", "proactive-insights"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jess-lachs-004",
+      "speaker": "Jessica Lachs",
+      "text": "You can't teach curiosity, or at least I haven't found a way to do it. Somebody who is just self-motivated to pull on the threads when they find them. They don't just answer a question. They're like, 'Hmm, this thing seems a little odd. I'm going to dig in and look.' That is just so valuable.",
+      "timestamp": "00:24:31",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 206
+      },
+      "themes": ["hiring", "curiosity", "data-science"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jess-lachs-005",
+      "speaker": "Jessica Lachs",
+      "text": "I became a data scientist out of necessity. I completely self-taught in terms of SQL and Python and I did it because there was a need at DoorDash for someone to help figure out what the right goals were, how we set those goals, how we were performing different markets early in the DoorDash story.",
+      "timestamp": "00:29:24",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["self-teaching", "career-growth", "data-science"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "jess-lachs-006",
+      "speaker": "Jessica Lachs",
+      "text": "If you think about things from first principles about what you need right now in front of you to unblock yourself or solve a problem, and you just focus on that instead of thinking about a global org that you're trying to build, I think that helps. For me, it was always about solving the problem in front of me the best way I could.",
+      "timestamp": "00:32:41",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 238
+      },
+      "themes": ["first-principles", "problem-solving", "career-growth"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jess-lachs-007",
+      "speaker": "Jessica Lachs",
+      "text": "Yes, you are a data scientist, but your goal is to figure out what's happening. And if that means that you're going to pick up the phone and call customers, then that is what you're going to do to roll up your sleeves.",
+      "timestamp": "00:41:05",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 286,
+        "lineEnd": 286
+      },
+      "themes": ["extreme-ownership", "customer-focus", "culture"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "jess-lachs-008",
+      "speaker": "Jessica Lachs",
+      "text": "Retention is a terrible thing to goal on. It's almost impossible to drive in a meaningful way in the short term. Ultimately, you want to find a short-term metric you can measure that drives a long-term output.",
+      "timestamp": "00:44:45",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 301
+      },
+      "themes": ["metrics", "retention", "proxy-metrics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "jess-lachs-009",
+      "speaker": "Jessica Lachs",
+      "text": "I always encourage folks, just pick something simple, even if it's not perfect and your composite would be more perfect. If people understand it, if they have an intuition around it, if it's something that people can talk about across the company, it's going to be a much better metric in terms of driving real outcomes than your made up composite score that nobody understands.",
+      "timestamp": "00:46:07",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 307,
+        "lineEnd": 307
+      },
+      "themes": ["metrics", "simplicity", "alignment"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "jess-lachs-010",
+      "speaker": "Jessica Lachs",
+      "text": "We spend a lot of time quantifying things in terms of a common currency. So for example, if I were to lower price by a dollar, what would I get in terms of volume? Well, what if I lowered delivery times by a minute? And so now you can make trade-offs between maybe your marketing team and your logistics team because you have this common currency.",
+      "timestamp": "00:46:43",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 310
+      },
+      "themes": ["metrics", "trade-offs", "decision-making"],
+      "zones": ["data", "alignment", "focus"]
+    },
+    {
+      "id": "jess-lachs-011",
+      "speaker": "Jessica Lachs",
+      "text": "Just because something doesn't happen frequently doesn't mean that it's not important. The Never Delivered example is a great one in that this is leading directly to churn and it's also costing a lot of money far more than its frequency would suggest. When you have things that cause churn, you're losing all of that consumer's subsequent orders, and that is not necessarily observed.",
+      "timestamp": "00:58:27",
+      "source": {
+        "slug": "jess-lachs",
+        "path": "episodes/jess-lachs/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["edge-cases", "churn", "quality"],
+      "zones": ["data", "perfection"]
+    }
+  ],
+  "themes": ["analytics", "team-building", "business-impact", "org-structure", "centralization", "partnership", "proactive-insights", "hiring", "curiosity", "data-science", "self-teaching", "career-growth", "first-principles", "problem-solving", "extreme-ownership", "customer-focus", "culture", "metrics", "retention", "proxy-metrics", "simplicity", "alignment", "trade-offs", "decision-making", "edge-cases", "churn", "quality"],
+  "takeaways": [
+    "A centralized analytics team with pods mapped to business units gives you consistent talent bars, growth opportunities, and methodology coherence.",
+    "Find short-term proxy metrics that drive long-term outputs — retention is a terrible thing to goal on directly because it's almost impossible to move in the short term.",
+    "Simple metrics that everyone understands will drive better outcomes than a mathematically perfect composite score that nobody can interpret.",
+    "Quantify all business levers in a common currency so you can make informed trade-offs across teams and know where each dollar of investment yields the most.",
+    "Track and eradicate edge case failures like 'Never Delivered' — they cost far more in churn and refunds than their low frequency suggests."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jess-lachs-008",
+      "why": "Directly calls retention 'a terrible thing to goal on' — counterintuitive when most companies obsess over retention as a north star metric.",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "jess-lachs-002",
+      "why": "Strongly advocates for centralized analytics against the common trend of embedding data scientists directly within business units.",
+      "related_zones": ["alignment", "data"]
+    },
+    {
+      "quoteId": "jess-lachs-009",
+      "why": "Argues against sophisticated composite metrics in favor of simple, imperfect ones — challenges the data science instinct to optimize for precision.",
+      "related_zones": ["data", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["data-analytics", "metrics-design", "team-building"]
+  }
+}
