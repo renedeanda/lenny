@@ -1,9 +1,10 @@
 # Episode Curation Tracker
 
 **Last Updated:** 2026-02-14
-**Curated:** 150 / 295 total episodes
-**Eligible Uncurated (real transcripts 50+ lines):** 135
-**Target:** ~~150 curated~~ ✅ → 175 → 200
+**Curated:** 200 / 295 total episodes (67.8%)
+**Quotes Extracted:** 2,293 (avg 11.5/episode)
+**Eligible Uncurated (real transcripts 50+ lines):** 85
+**Target:** ~~150 curated~~ ✅ → ~~175~~ ✅ → ~~200~~ ✅
 
 ---
 
@@ -12,73 +13,25 @@
 Batch of 25 episodes completed on 2026-02-14:
 bob-baxley, albert-cheng, elena-verna-40, hilary-gridley, jason-m-lemkin, karri-saarinen, lane-shackleton, nick-turley, noah-weiss, ronny-kohavi, sean-ellis, tanguy-crusson, todd-jackson, karina-nguyen, eric-simons, ryan-singer, nabeel-s-qureshi, matt-lemay, jen-abel, annie-pearl, alex-hardimen, christopher-lochhead, camille-ricketts, jason-feifer, chandra-janakiraman
 
+## Milestone: 175 Curated ✅
+
+Batch 7 of 25 episodes completed on 2026-02-14:
+adriel-frederick, austin-hay, ayo-omojola, barbra-gago, benjamin-mann, brendan-foody, brian-tolkin, camille-hearst, christine-itwaru, christopher-miller, crystal-w, dan-hockenmaier, daniel-lereya, david-placek, dhanji-r-prasanna, dmitry-zlokazov, donna-lichaw, edwin-chen, eeke-de-milliano, eli-schwartz, emilie-gerber, ethan-smith, evan-lapointe, garrett-lord, gaurav-misra
+
 ---
 
-## Remaining Uncurated Episodes (135)
+## Milestone: 200 Curated ✅
 
-Eligible episodes with real transcripts (50+ lines) not yet curated or in current batch.
+Batch 8 of 25 episodes completed on 2026-02-14:
+geoff-charles, gergely, gia-laudi, gina-gotthilf, grant-lee, gustaf-alstromer, hari-srinivasan, heidi-helfand, ian-mcallister, inbal-s, itamar-gilad, jackson-shuttleworth, jag-duggal, jake-knapp-john-zeratsky, jake-knapp-john-zeratsky-20, janna-bastow, jason-droege, jason-shah, jeanne-grosser, jeffrey-pfeffer, jen-abel-20, jeremy-henrickson, jess-lachs, jessica-hische, jiaona-zhang
 
-### Next batch: 150 → 175 (pick 25)
+---
 
-| # | Slug | Lines |
-|---|------|-------|
-| 1 | adriel-frederick | 502 |
-| 2 | austin-hay | 577 |
-| 3 | ayo-omojola | 479 |
-| 4 | barbra-gago | 497 |
-| 5 | benjamin-mann | 561 |
-| 6 | brendan-foody | 644 |
-| 7 | brian-tolkin | 629 |
-| 8 | camille-hearst | 986 |
-| 9 | christine-itwaru | 355 |
-| 10 | christopher-miller | 683 |
-| 11 | crystal-w | 489 |
-| 12 | dan-hockenmaier | 559 |
-| 13 | daniel-lereya | 680 |
-| 14 | david-placek | 622 |
-| 15 | dhanji-r-prasanna | 749 |
-| 16 | dmitry-zlokazov | 500 |
-| 17 | donna-lichaw | 623 |
-| 18 | edwin-chen | 779 |
-| 19 | eeke-de-milliano | 733 |
-| 20 | eli-schwartz | 1015 |
-| 21 | emilie-gerber | 781 |
-| 22 | ethan-smith | 980 |
-| 23 | evan-lapointe | 767 |
-| 24 | garrett-lord | 571 |
-| 25 | gaurav-misra | 895 |
+## Remaining Uncurated Episodes (85)
 
-### Following batch: 175 → 200 (pick 25)
+Eligible episodes with real transcripts (50+ lines) not yet curated.
 
-| # | Slug | Lines |
-|---|------|-------|
-| 26 | geoff-charles | 518 |
-| 27 | gergely | 440 |
-| 28 | gia-laudi | 589 |
-| 29 | gina-gotthilf | 866 |
-| 30 | grant-lee | 974 |
-| 31 | gustaf-alstromer | 599 |
-| 32 | hari-srinivasan | 725 |
-| 33 | heidi-helfand | 430 |
-| 34 | ian-mcallister | 451 |
-| 35 | inbal-s | 481 |
-| 36 | itamar-gilad | 583 |
-| 37 | jackson-shuttleworth | 731 |
-| 38 | jag-duggal | 588 |
-| 39 | jake-knapp-john-zeratsky | 827 |
-| 40 | jake-knapp-john-zeratsky-20 | 968 |
-| 41 | janna-bastow | 514 |
-| 42 | jason-droege | 614 |
-| 43 | jason-shah | 505 |
-| 44 | jeanne-grosser | 506 |
-| 45 | jeffrey-pfeffer | 554 |
-| 46 | jen-abel-20 | 1049 |
-| 47 | jeremy-henrickson | 652 |
-| 48 | jess-lachs | 536 |
-| 49 | jessica-hische | 488 |
-| 50 | jiaona-zhang | 542 |
-
-### Remaining backlog (200+)
+### Remaining backlog
 
 | # | Slug | Lines |
 |---|------|-------|
@@ -184,8 +137,8 @@ Eligible episodes with real transcripts (50+ lines) not yet curated or in curren
 | Milestone | Episodes Needed | Status |
 |-----------|----------------|--------|
 | **150** | 0 | ✅ Complete |
-| **175** | 25 more | from "Next batch" list |
-| **200** | 25 more | from "Following batch" list |
-| **All** | 135 more | full backlog above |
+| **175** | 0 | ✅ Complete |
+| **200** | 0 | ✅ Complete |
+| **All** | 85 more | full backlog above |
 
-**Note:** 2 possible duplicate slugs excluded from counts. Total unique eligible: ~135.
+**Note:** 2 possible duplicate slugs excluded from counts. Total unique eligible: ~85.
