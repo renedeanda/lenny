@@ -1,0 +1,208 @@
+{
+  "slug": "adriel-frederick",
+  "quotes": [
+    {
+      "id": "adriel-frederick-q001",
+      "speaker": "Adriel Frederick",
+      "text": "First is the rest of the company needs to see what you're doing as being core and critical to the mission. It can't seem like these guys are just playing off in a corner on something that isn't related to what we are doing every day. Because I think that leads to some of the resentment because you can imagine any team internally is fighting for resources.",
+      "timestamp": "00:12:30",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 125,
+        "lineEnd": 126
+      },
+      "themes": ["innovation", "organizational-design", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "adriel-frederick-q002",
+      "speaker": "Adriel Frederick",
+      "text": "When I was working on user acquisition and designing registration for Facebook, that knowledge was incorporated into the design of the product in ways that I think other companies not caught onto yet. And I know for a fact that a lot of that thinking that went into designing how you think about a phone number and a device and its use among one, has been helpful for Facebook's growth.",
+      "timestamp": "00:15:20",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 155,
+        "lineEnd": 156
+      },
+      "themes": ["diversity", "product-design", "global-growth"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "adriel-frederick-q003",
+      "speaker": "Adriel Frederick",
+      "text": "When you have that kind of a melting pot of ethnicities, religions, media consumption and kind of socioeconomic status in one place, you learn a lot of them because in school you're mixing up with everyone. That gives me this really different perspective that shows up at work.",
+      "timestamp": "00:14:40",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": ["diversity", "perspective", "culture"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "adriel-frederick-q004",
+      "speaker": "Adriel Frederick",
+      "text": "As a PM you are a leader. You have to provide a buffering or damping effect on the team. Sometimes we're doing stuff that everybody thought was amazing, you kind of got to bring people back down to earth. And then when it's terrible and the press is telling you that you're the worst thing to ever happen, you kind of have to also go back and say, Guys, slow down.",
+      "timestamp": "00:20:15",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 194,
+        "lineEnd": 195
+      },
+      "themes": ["leadership", "resilience", "controversy"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "adriel-frederick-q005",
+      "speaker": "Adriel Frederick",
+      "text": "The really hard part about dealing with this is understanding what criticism is valid and how much of it is just because the source of power is being changed. You kind of have to find the truth behind it and try to find a way to work on that and not get too lost in responding to the specific criticism.",
+      "timestamp": "00:22:00",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["controversy", "judgment", "user-empathy"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "adriel-frederick-q006",
+      "speaker": "Adriel Frederick",
+      "text": "There are probably techno utopians who would say feed all data to the algorithm, give it an objective and it will do the right thing. And I was like yeah, the reason that falls down is the algorithms don't understand long term effects often, nor do they understand how people might respond to it, nor do they understand your intent for the product.",
+      "timestamp": "00:36:30",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 269,
+        "lineEnd": 270
+      },
+      "themes": ["algorithms", "human-judgment", "product-intent"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "adriel-frederick-q007",
+      "speaker": "Adriel Frederick",
+      "text": "When you are working on algorithmic heavy products, your job is figuring out what the algorithm should be responsible for, what people are responsible for and the framework for making decisions.",
+      "timestamp": "00:37:00",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 270,
+        "lineEnd": 270
+      },
+      "themes": ["algorithms", "decision-making", "product-management"],
+      "zones": ["data", "intuition", "alignment"]
+    },
+    {
+      "id": "adriel-frederick-q008",
+      "speaker": "Adriel Frederick",
+      "text": "If you don't have a product that's providing real fundamental value to people, you can be a one hit wonder and have a flash in the pan and growth hack your way into something that might last for a few months but people will catch on it and then it'll disappear.",
+      "timestamp": "00:43:00",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["growth", "product-value", "sustainability"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "adriel-frederick-q009",
+      "speaker": "Adriel Frederick",
+      "text": "The vast majority of it was just hard work and finding ways to solve the real problems. One, make it easy to find the product. Number two, make it easy to get into the product. Three, stupid easy to find your friends. And then once you did that you were off the races and those were the things we were doing over and over again.",
+      "timestamp": "00:44:00",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 315,
+        "lineEnd": 315
+      },
+      "themes": ["growth", "simplicity", "execution"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "adriel-frederick-q010",
+      "speaker": "Adriel Frederick",
+      "text": "For me, it's a person who is just on the cusp of taking the action you want to take. When working on registration, I would try to find a country where we had a lot of growth, but for some reason our conversion rates were terrible. That's the marginal user. This is the person who is just on the cusp of coming in, wants to come in as you can see by the traffic, but we can't get them in.",
+      "timestamp": "00:47:30",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 362,
+        "lineEnd": 363
+      },
+      "themes": ["marginal-user", "growth", "conversion"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "adriel-frederick-q011",
+      "speaker": "Adriel Frederick",
+      "text": "I watch people fall into that trap of assuming, especially when you're working at companies with lots and lots of data, you fall into the trap of thinking that you're swimming in answers because you have all this data and just need to tease it up. Just go out and talk, you'll find it faster.",
+      "timestamp": "00:50:00",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 378,
+        "lineEnd": 378
+      },
+      "themes": ["user-research", "data-limitations", "qualitative"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "adriel-frederick-q012",
+      "speaker": "Adriel Frederick",
+      "text": "I recognized that if I wanted to have more impact, I couldn't do everything myself. There was just more that needed to be done. In today's world, you can't do anything meaningful by yourself. There's nothing meaningful that gets done by any single person, even though people like to make you think that in their hustle porn that they post online.",
+      "timestamp": "00:55:00",
+      "source": {
+        "slug": "adriel-frederick",
+        "path": "episodes/adriel-frederick/transcript.md",
+        "lineStart": 417,
+        "lineEnd": 417
+      },
+      "themes": ["leadership", "teamwork", "empathy"],
+      "zones": ["alignment", "focus"]
+    }
+  ],
+  "themes": ["innovation", "organizational-design", "alignment", "diversity", "product-design", "global-growth", "perspective", "culture", "leadership", "resilience", "controversy", "judgment", "user-empathy", "algorithms", "human-judgment", "product-intent", "decision-making", "product-management", "growth", "product-value", "sustainability", "simplicity", "execution", "marginal-user", "conversion", "user-research", "data-limitations", "qualitative", "teamwork", "empathy"],
+  "takeaways": [
+    "When building algorithmic products, PMs must define what algorithms should handle versus what requires human judgment -- algorithms optimize but lack understanding of long-term effects and user intent.",
+    "The marginal user framework helps prioritize growth work: find the person on the cusp of converting, observe their experience firsthand, and remove friction rather than relying solely on funnel data.",
+    "Diverse teams are not just ethically important but strategically powerful -- having team members who represent your global user base dramatically speeds up product design and reduces the need for external research.",
+    "Sustainable growth comes from grinding on fundamentals (findability, onboarding, core actions) rather than relying on clever hacks that provide short-lived spikes.",
+    "The most important leadership skills at senior levels are organizational design and empathy -- taking your own shoes off to understand others' motivations before trying to align on shared objectives."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.15,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "adriel-frederick-q006",
+      "why": "Pushes back hard against the prevailing 'let the algorithm decide' mentality, arguing algorithms fundamentally lack judgment about long-term effects and user intent.",
+      "related_zones": ["intuition", "data"]
+    },
+    {
+      "quoteId": "adriel-frederick-q011",
+      "why": "Challenges data-driven cultures by arguing that talking to users directly is faster than analyzing data, even at data-rich companies.",
+      "related_zones": ["discovery", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "algorithms-vs-humans", "diversity-in-product"]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "gustaf-alstromer",
+  "quotes": [
+    {
+      "id": "gustaf-alstromer-001",
+      "speaker": "Gustaf Alströmer",
+      "text": "The best way for you to figure out what is the intensity of the problem is not to ask them but to watch them or to watch them solve the thing that they do. You can't actually ask them how difficult is it to do X, Y, Z because they won't even know that it's that difficult to them.",
+      "timestamp": "00:33:06",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["user-research", "customer-discovery", "problem-validation"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "gustaf-alstromer-002",
+      "speaker": "Gustaf Alströmer",
+      "text": "The worst thing that can happen to startup is not that people hate what you're doing, it's that they're completely indifferent to what you're doing. It's not the worst thing, but the most common thing that happens is people just is indifferent. But it doesn't give you a second chance. Let's say, it always gives you a second chance.",
+      "timestamp": "00:30:37",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 223
+      },
+      "themes": ["customer-discovery", "resilience", "rejection"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "gustaf-alstromer-003",
+      "speaker": "Gustaf Alströmer",
+      "text": "When you are a small startup, strategy does not matter because there's not that much a strategy as about. Strategy kind of assumes that you can do multiple things at the same time, which small startups cannot. They can just do one thing at the same time. So execution is the thing that matters for companies.",
+      "timestamp": "00:53:02",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 376
+      },
+      "themes": ["execution", "strategy", "prioritization", "focus"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "gustaf-alstromer-004",
+      "speaker": "Gustaf Alströmer",
+      "text": "Whenever someone wants to have a strategy conversation, it assumes that they don't understand their priorities. The priorities is always a list from top to bottom where there's one thing that's more important than the others. You can't really have a strategy session about the other things because there's only one thing to work on.",
+      "timestamp": "00:53:51",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 379
+      },
+      "themes": ["prioritization", "focus", "execution"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "gustaf-alstromer-005",
+      "speaker": "Gustaf Alströmer",
+      "text": "I think that the reason that we talk about strategy a lot is because it goes back to business school. The origin of business school was to teach people to join the corporate world. And in the corporate world, strategy matters. When you join a big company, you're employee number 2,010, then you probably might have a business school job where thinking about corporate strategy is an important thing.",
+      "timestamp": "00:53:02",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 376
+      },
+      "themes": ["strategy", "startups", "corporate-culture"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "gustaf-alstromer-006",
+      "speaker": "Gustaf Alströmer",
+      "text": "If you take the average customer group in the world, 90% are not early adopters. It doesn't matter if you have something new and cool, they're just not interested. They are not incentivized to take risks in their job to try something new. Those 10 percents are the early adopters. They're the ones that you actually want to reach.",
+      "timestamp": "00:24:25",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 190,
+        "lineEnd": 190
+      },
+      "themes": ["sales", "early-adopters", "customer-discovery"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "gustaf-alstromer-007",
+      "speaker": "Gustaf Alströmer",
+      "text": "The most important characteristics of those individuals are they're really determined to win and they don't give up when things are hard and they have an internal motivation that's just really infectious to people around them, which is how they end up building really good teams around them.",
+      "timestamp": "00:41:04",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["founders", "determination", "leadership", "team-building"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "gustaf-alstromer-008",
+      "speaker": "Gustaf Alströmer",
+      "text": "What we're good at is knowing what failure looks like. What we sometimes like to tell founders at the beginning of the batch is like, 'If you fail, please do it in some new exciting way. Not one that we've seen 100 times.' Because we have seen people fail for a large number of reasons.",
+      "timestamp": "00:45:14",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 328
+      },
+      "themes": ["failure", "learning", "pattern-recognition"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "gustaf-alstromer-009",
+      "speaker": "Gustaf Alströmer",
+      "text": "Learning to project confidence as a founder is critical going back to this communication piece of motivating people around you. An investor isn't going to want to invest in someone who's completely not confident in their own idea. So learning to first build your own confidence for what you're working on and then projecting that confidence to the people around you I think is critical.",
+      "timestamp": "00:51:16",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
+      },
+      "themes": ["confidence", "communication", "leadership", "fundraising"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "gustaf-alstromer-010",
+      "speaker": "Gustaf Alströmer",
+      "text": "A good reason to not start a company is if you think of starting a company as a career step. Well, it is not. Because if it's successful, it'll be your entire career. It'll be 10 years most likely. And if it's not successful, then it's not something that people generally aspire to start.",
+      "timestamp": "00:14:23",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["founder-motivation", "startups", "career"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "gustaf-alstromer-011",
+      "speaker": "Gustaf Alströmer",
+      "text": "The truth is that the engineering part is the really hard part. If you view output of engineering as like, 'I just have an idea for a song, I just need someone to actually make it for me' and then you're not valuing software engineering or mechanical engineering or any engineering skill set deep enough.",
+      "timestamp": "00:35:17",
+      "source": {
+        "slug": "gustaf-alstromer",
+        "path": "episodes/gustaf-alstromer/transcript.md",
+        "lineStart": 256,
+        "lineEnd": 256
+      },
+      "themes": ["engineering", "co-founders", "valuation"],
+      "zones": ["perfection", "alignment"]
+    }
+  ],
+  "themes": ["customer-discovery", "execution", "prioritization", "focus", "founders", "leadership", "startups", "failure", "learning", "engineering", "early-adopters", "confidence", "communication", "strategy", "resilience"],
+  "takeaways": [
+    "The most common reason startups fail is not talking to customers - watch users do their work rather than asking them about their problems to discover true pain points",
+    "Strategy is overrated for early-stage startups - execution on a single priority matters far more than multi-pronged strategic planning",
+    "Customer indifference, not hatred, is the real enemy - most people are not early adopters, so founders must reach many to find the vital 10% who will engage",
+    "The most successful founders combine determination, technical ability, communication skills, and obsessive customer focus - but predicting outlier success remains nearly impossible",
+    "Starting a company is not a career step - it requires deep personal motivation that will sustain you through years of difficulty regardless of external validation"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "gustaf-alstromer-003",
+      "why": "Directly challenges the widely accepted importance of strategy in business, arguing it is irrelevant for startups",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "gustaf-alstromer-002",
+      "why": "Reframes rejection as irrelevant - argues indifference is the real threat, contradicting founder fear of negative feedback",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "pre-seed",
+    "primary_topics": ["customer-discovery", "startup-execution", "climate-tech"]
+  }
+}
