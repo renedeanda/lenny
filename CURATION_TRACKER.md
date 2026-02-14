@@ -1,10 +1,10 @@
 # Episode Curation Tracker
 
 **Last Updated:** 2026-02-14
-**Curated:** 200 / 295 total episodes (67.8%)
-**Quotes Extracted:** 2,293 (avg 11.5/episode)
-**Eligible Uncurated (real transcripts 50+ lines):** 85
-**Target:** ~~150 curated~~ ✅ → ~~175~~ ✅ → ~~200~~ ✅
+**Curated:** 230 / 295 total episodes (78.0%)
+**Quotes Extracted:** 2,627 (avg 11.4/episode)
+**Eligible Uncurated (real transcripts 50+ lines):** 55
+**Target:** ~~150 curated~~ ✅ → ~~175~~ ✅ → ~~200~~ ✅ → ~~230~~ ✅
 
 ---
 
@@ -27,7 +27,14 @@ geoff-charles, gergely, gia-laudi, gina-gotthilf, grant-lee, gustaf-alstromer, h
 
 ---
 
-## Remaining Uncurated Episodes (85)
+## Milestone: 230 Curated ✅
+
+Batch 9-14 of 30 episodes completed on 2026-02-14:
+joe-hudson, john-mark-nickels, jonathan-becker, jonathan-lowenhar, jonny-miller, josh-miller, judd-antin, jules-walter, julia-schottenstein, julian-shapiro, keith-coleman-jay-baxter, keith-yandell, kenneth-berger, kevin-aluwi, kevin-yien, kristen-berman, krithika-shankarraman, laura-modi, laura-schaffer, lauren-ipsen, lauryn-isford, luc-levesque, madhavan-ramanujam-20, manik-gupta, marily-nika, matt-abrahams, matt-dixon, matthew-dicks, maya-prohovnik, mayur-kamat
+
+---
+
+## Remaining Uncurated Episodes (55)
 
 Eligible episodes with real transcripts (50+ lines) not yet curated.
 
@@ -35,36 +42,6 @@ Eligible episodes with real transcripts (50+ lines) not yet curated.
 
 | # | Slug | Lines |
 |---|------|-------|
-| 51 | joe-hudson | 512 |
-| 52 | john-mark-nickels | 545 |
-| 53 | jonathan-becker | 608 |
-| 54 | jonathan-lowenhar | 668 |
-| 55 | jonny-miller | 598 |
-| 56 | josh-miller | 548 |
-| 57 | judd-antin | 613 |
-| 58 | jules-walter | 556 |
-| 59 | julia-schottenstein | 442 |
-| 60 | julian-shapiro | 487 |
-| 61 | keith-coleman-jay-baxter | 899 |
-| 62 | keith-yandell | 400 |
-| 63 | kenneth-berger | 650 |
-| 64 | kevin-aluwi | 389 |
-| 65 | kevin-yien | 800 |
-| 66 | kristen-berman | 623 |
-| 67 | krithika-shankarraman | 643 |
-| 68 | laura-modi | 462 |
-| 69 | laura-schaffer | 593 |
-| 70 | lauren-ipsen | 695 |
-| 71 | lauryn-isford | 481 |
-| 72 | luc-levesque | 647 |
-| 73 | madhavan-ramanujam-20 | 725 |
-| 74 | manik-gupta | 422 |
-| 75 | marily-nika | 436 |
-| 76 | matt-abrahams | 740 |
-| 77 | matt-dixon | 581 |
-| 78 | matthew-dicks | 712 |
-| 79 | maya-prohovnik | 665 |
-| 80 | mayur-kamat | 617 |
 | 81 | megan-cook | 658 |
 | 82 | melissa-perri-20 | 506 |
 | 83 | melissa-perri-denise-tilles | 622 |
@@ -139,6 +116,7 @@ Eligible episodes with real transcripts (50+ lines) not yet curated.
 | **150** | 0 | ✅ Complete |
 | **175** | 0 | ✅ Complete |
 | **200** | 0 | ✅ Complete |
-| **All** | 85 more | full backlog above |
+| **230** | 0 | ✅ Complete |
+| **All** | 55 more | full backlog above |
 
 **Note:** 2 possible duplicate slugs excluded from counts. Total unique eligible: ~85.
