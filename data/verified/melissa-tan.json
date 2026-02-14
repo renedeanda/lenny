@@ -1,0 +1,194 @@
+{
+  "slug": "melissa-tan",
+  "quotes": [
+    {
+      "id": "melissa-tan-001",
+      "speaker": "Melissa Tan",
+      "text": "I have a very people focused approach to how I lead and manage. I really think the core of it is deeply caring about people, building that trust, investing in their career development, helping them figure out where they want to go in their career.",
+      "timestamp": "00:14:57",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 135
+      },
+      "themes": ["leadership", "people-management", "trust"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "melissa-tan-002",
+      "speaker": "Melissa Tan",
+      "text": "I actually create a very results-oriented culture on the team where it's clear what our goals are, we break it down into the individual levers, it's clear how success is measured for each individual. And so I don't think they are mutually exclusive.",
+      "timestamp": "00:16:15",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": ["results", "goals", "team-culture", "metrics"],
+      "zones": ["data", "focus", "alignment"]
+    },
+    {
+      "id": "melissa-tan-003",
+      "speaker": "Melissa Tan",
+      "text": "I think sometimes as a manager it can maybe, you want to avoid the uncomfortable conversations, but I actually think the more direct you can be but also saying this is my intention. My intention is to set you up for success. That goes really far.",
+      "timestamp": "00:18:14",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": ["feedback", "radical-candor", "management", "directness"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "melissa-tan-004",
+      "speaker": "Melissa Tan",
+      "text": "As you are growing, it just is a smoother transition that the folks on your team can grow with you. People will build institutional knowledge and people talk a lot about founder intuition. I actually think that extends to early employees too, that have built a ton of context on the user.",
+      "timestamp": "00:21:30",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["talent-development", "scaling", "institutional-knowledge"],
+      "zones": ["alignment", "intuition", "discovery"]
+    },
+    {
+      "id": "melissa-tan-005",
+      "speaker": "Melissa Tan",
+      "text": "Something I always try to keep in the team, it's a feeling that we're owners and that really proactive mindset of how am I going to solve this problem? I'm blocked by this team, what am I going to do about it? And just being people that have strong sense of agency.",
+      "timestamp": "00:30:57",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 227,
+        "lineEnd": 228
+      },
+      "themes": ["ownership", "agency", "proactivity", "team-culture"],
+      "zones": ["velocity", "chaos", "focus"]
+    },
+    {
+      "id": "melissa-tan-006",
+      "speaker": "Melissa Tan",
+      "text": "If we double the team, what is everyone on the team going to own and drive? I didn't think that was going to be interesting enough for the team and going to help us recruit people that were excited to solve such small parts of the growth problem.",
+      "timestamp": "00:32:31",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 240
+      },
+      "themes": ["team-size", "scope", "growth-teams", "hiring"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "melissa-tan-007",
+      "speaker": "Melissa Tan",
+      "text": "Usually there's some live problem solving component to my interview process where I really lean more heavily into how would you approach X problem? And then I dig into the Y and try to understand why would they approach it this way, see what questions they're asking.",
+      "timestamp": "00:43:13",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 306,
+        "lineEnd": 306
+      },
+      "themes": ["hiring", "interviewing", "first-principles", "critical-thinking"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "melissa-tan-008",
+      "speaker": "Melissa Tan",
+      "text": "I recommend a prep call between the two of us before that presentation. And I actually will give feedback on the presentation. And what this gives me signal is what is it actually going to be like to work together? And then I see how they incorporate it into the final product.",
+      "timestamp": "00:44:26",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 312
+      },
+      "themes": ["hiring", "interviewing", "feedback", "collaboration"],
+      "zones": ["discovery", "alignment", "perfection"]
+    },
+    {
+      "id": "melissa-tan-009",
+      "speaker": "Melissa Tan",
+      "text": "I think sometimes teams are experimenting on things that are too small, that aren't going to move the needle because they heard it was really successful company X, but if you're early stage doesn't matter and you need to actually think bigger.",
+      "timestamp": "00:52:10",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 357
+      },
+      "themes": ["experimentation", "growth-strategy", "first-principles", "prioritization"],
+      "zones": ["data", "focus", "velocity"]
+    },
+    {
+      "id": "melissa-tan-010",
+      "speaker": "Melissa Tan",
+      "text": "Growth shouldn't feel like it's a layer on top. A lot of the things that are tricky early on is figuring out how you work with other teams. I think the best or the ideal way to work is to have growth infuse in the company.",
+      "timestamp": "00:52:48",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["growth-strategy", "cross-functional", "org-design"],
+      "zones": ["alignment", "velocity", "focus"]
+    },
+    {
+      "id": "melissa-tan-011",
+      "speaker": "Melissa Tan",
+      "text": "First principles thinking, I think of it as you are not using a set framework and set formula, but you're creating your own based on the context that you're getting. And so when I think about first principles thinking often it is knowing what questions to ask so that you can start forming a mental model.",
+      "timestamp": "01:06:34",
+      "source": {
+        "slug": "melissa-tan",
+        "path": "episodes/melissa-tan/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 462
+      },
+      "themes": ["first-principles", "critical-thinking", "mental-models", "curiosity"],
+      "zones": ["discovery", "intuition", "chaos"]
+    }
+  ],
+  "themes": ["leadership", "people-management", "growth-strategy", "hiring", "first-principles", "team-culture", "ownership", "cross-functional"],
+  "takeaways": [
+    "Deeply caring about people and being results-oriented are not mutually exclusive - the best growth teams combine clear metrics with genuine investment in each person's career development.",
+    "Ownership culture starts with scope design: resist doubling team size just because each person delivers results. Instead, carve out meaningful, meaty problem spaces that attract and retain top talent.",
+    "Direct, early feedback accelerates performance - share uncomfortable truths within weeks of someone joining, paired with genuine belief in their potential and an offer to support them.",
+    "Growth should be infused into the company from the start, not layered on top. The best execution comes from starting with user-centric hypotheses rather than copying best practices from other companies.",
+    "First principles thinking is the most valuable skill in growth: knowing what questions to ask, forming your own mental models from context, and staying curious enough to constantly revisit whether you're doing the right things."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.30,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "melissa-tan-006",
+      "why": "Pushed back against doubling team size despite data showing each PM generated $1M+ ARR - argues scope quality matters more than headcount math",
+      "related_zones": ["focus", "alignment"]
+    },
+    {
+      "quoteId": "melissa-tan-009",
+      "why": "Challenges the common practice of running small experiments copied from successful companies - argues early-stage teams should think bigger, not optimize micro-conversions",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth-teams", "people-management", "hiring", "first-principles", "go-to-market"]
+  }
+}

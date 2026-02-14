@@ -1,18 +1,12 @@
 ---
 guest: Jonathan Becker
-title: The crazy story of landing Uber as a client | Jonathan Becker (Thrive Digital)
+title: Mastering paid growth | Jonathan Becker (Thrive Digital)
 youtube_url: https://www.youtube.com/watch?v=mmxTeS0AVMo
 video_id: mmxTeS0AVMo
 publish_date: 2023-05-12
-description: 'Jonathan explains how he went from exploiting Uber''s marketing loophole
-  to landing them as a client.
-
-  🎙️Find the full episode here: https://youtu.be/mmxTeS0AVMo
-
-
-  —
-
-  '
+description: 'Jonathan Becker is the founder and president of Thrive Digital, where
+  he and his team have deployed more than $3.5 billion in paid acquisition budgets
+  for companies like Uber, Asana, Square, Tempur-Pedic, and MasterClass.'
 duration_seconds: 5669.0
 duration: '1:34:29'
 view_count: 461

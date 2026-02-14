@@ -38,7 +38,6 @@ export default function ExplorePage() {
   const [selectedKeywords, setSelectedKeywords] = useState<string[]>(initialState?.selectedKeywords || []);
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
-  const [showCuratedOnly, setShowCuratedOnly] = useState(initialState?.showCuratedOnly || false);
   const [showNoTranscript, setShowNoTranscript] = useState(initialState?.showNoTranscript || false);
   const [currentPage, setCurrentPage] = useState<number>(initialState?.currentPage || 1);
   const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
@@ -78,7 +77,6 @@ export default function ExplorePage() {
         selectedKeywords,
         sortBy,
         showFilters,
-        showCuratedOnly,
         showNoTranscript,
         showRecommendations,
         currentPage
@@ -86,7 +84,7 @@ export default function ExplorePage() {
     } catch (e) {
       // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters, showCuratedOnly, showNoTranscript, showRecommendations, currentPage]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, showNoTranscript, showRecommendations, currentPage]);
 
   // Check if user has quiz results and generate recommendations
   useEffect(() => {
@@ -122,18 +120,13 @@ export default function ExplorePage() {
   const filteredAndSortedEpisodes = useMemo(() => {
     let filtered = searchEpisodes(searchQuery, { keywords: selectedKeywords });
 
-    // Filter to curated episodes only if toggle is on
-    if (showCuratedOnly) {
-      filtered = filtered.filter(ep => enrichedSlugs.has(ep.slug));
-    }
-
     // Filter to no-transcript episodes only if toggle is on
     if (showNoTranscript) {
       filtered = filtered.filter(ep => noTranscriptSlugs.has(ep.slug));
     }
 
     return sortEpisodes(filtered, sortBy);
-  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, showNoTranscript, enrichedSlugs]);
+  }, [searchQuery, selectedKeywords, sortBy, showNoTranscript, enrichedSlugs]);
 
   // Reset to page 1 when filters change (but not on initial mount)
   const filtersInitialized = useRef(false);
@@ -143,7 +136,7 @@ export default function ExplorePage() {
       return;
     }
     setCurrentPage(1);
-  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, showNoTranscript]);
+  }, [searchQuery, selectedKeywords, sortBy, showNoTranscript]);
 
   // Scroll to top on page change (but not on initial mount)
   const pageInitialized = useRef(false);
@@ -182,7 +175,6 @@ export default function ExplorePage() {
   const clearFilters = () => {
     setSearchQuery('');
     setSelectedKeywords([]);
-    setShowCuratedOnly(false);
     setShowNoTranscript(false);
   };
 
@@ -361,23 +353,6 @@ export default function ExplorePage() {
               </div>
 
               <div className="flex gap-2">
-                {/* Curated Only Toggle */}
-                <button
-                  onClick={() => setShowCuratedOnly(!showCuratedOnly)}
-                  className={`px-4 py-4 border-2 transition-all flex items-center gap-2
-                           ${showCuratedOnly
-                      ? 'border-amber bg-amber text-void'
-                      : 'border-ash-darker text-ash hover:border-amber hover:text-amber'
-                    }`}
-                  title={`${enrichedSlugs.size} curated episodes with verified quotes`}
-                >
-                  <Sparkles className="w-4 h-4" />
-                  <span className="hidden sm:inline">CURATED</span>
-                  <span className="bg-void/20 text-current rounded px-1.5 py-0.5 text-xs font-bold">
-                    {enrichedSlugs.size}
-                  </span>
-                </button>
-
                 <button
                   onClick={() => setShowFilters(!showFilters)}
                   className={`px-6 py-4 border-2 transition-all flex items-center gap-2
@@ -620,7 +595,7 @@ export default function ExplorePage() {
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">
-                  {selectedKeywords.length + (showCuratedOnly ? 1 : 0) + (showNoTranscript ? 1 : 0)}
+                  {selectedKeywords.length + (showNoTranscript ? 1 : 0)}
                 </div>
                 <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
               </div>

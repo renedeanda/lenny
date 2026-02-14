@@ -1,17 +1,13 @@
 ---
 guest: Matt Mochary
-title: Are your fears giving you terrible advice? | Matt Mochary
+title: How to fire people with grace, work through fear, and nurture innovation | Matt Mochary (CEO coach)
 youtube_url: https://www.youtube.com/watch?v=bCel0X2Ta7U
 video_id: bCel0X2Ta7U
 publish_date: 2023-01-17
-description: 'From episode: (https://youtu.be/bCel0X2Ta7U) How to fire people with
-  grace, work through fear, and nurture innovation | Matt Mochary (CEO coach)
-
-  —
-
-  Matt Mochary, CEO of Mochary Method, is...
-
-  '
+description: 'Matt Mochary, CEO of Mochary Method, is a full-time executive coach
+  who has worked with some of the biggest names in tech and finance, including investor
+  Naval Ravikant and the CEOs of Notion, OpenAI, Coinbase, Reddit, and many others.
+  He''s also the author of The Great CEO Within.'
 duration_seconds: 4243.0
 duration: '1:10:43'
 view_count: 2138
