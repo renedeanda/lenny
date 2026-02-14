@@ -18,12 +18,12 @@
     {
       "id": "dmitry-zlokazov-002",
       "speaker": "Dmitry Zlokazov",
-      "text": "What defines the specialization is probably 5, 10, 15% while 85 to 90% is common to each one of them. And those things are, first of all, being a great problem solver and have a great linear thinking, but also have a creative approach towards nonlinear problems. Then building this context for customer and building empathy towards customer and translating it into the team.",
+      "text": "What defines the specialization is probably 5, 10, 15% while 85 to 90% is common to each one of them. And those things are, so first of all, being a great problem solver and have a great linear thinking, but also have a creative approach towards nonlinear problems. Then building this context for customer and building empathy towards customer and translating it into the team.",
       "timestamp": "00:10:55",
       "source": {
         "slug": "dmitry-zlokazov",
         "path": "episodes/dmitry-zlokazov/transcript.md",
-        "lineStart": 160,
+        "lineStart": 159,
         "lineEnd": 160
       },
       "themes": ["problem-solving", "empathy", "product-management"],
@@ -74,7 +74,7 @@
     {
       "id": "dmitry-zlokazov-006",
       "speaker": "Dmitry Zlokazov",
-      "text": "Founders of the company, they still review a hundred percent of screens that are being shipped and everything that you will see in the app pass this review. And there are a lot of eyeballs that were scrutinizing this and thinking of all possible edge cases and nuances that we need to consider to make sure that every single customer will be happy.",
+      "text": "Essentially founders of the company, they still review a hundred percent of screens that are being shipped and everything that you will see in the app pass this review. And there are a lot of eyeballs that were scrutinizing this and thinking of all possible edge cases and nuances that we need to consider to make sure that every single customer will be happy.",
       "timestamp": "00:19:31",
       "source": {
         "slug": "dmitry-zlokazov",
@@ -156,11 +156,11 @@
       "zones": ["velocity", "focus"]
     }
   ],
-  "themes": ["ownership", "leadership", "execution", "product-quality", "wow-factor", "hiring", "raw-intellect", "hunger", "depth", "technical-skill", "problem-solving", "empathy", "scalability", "systems-thinking", "autonomy", "velocity", "founder-mode", "attention-to-detail", "hands-on", "last-mile"],
+  "themes": ["ownership", "leadership", "execution", "product-quality", "wow-factor", "hiring", "raw-intellect", "hunger", "depth", "technical-skill", "problem-solving", "empathy", "scalability", "systems-thinking", "autonomy", "velocity", "founder-mode", "attention-to-detail", "hands-on", "last-mile", "mvp", "accountability"],
   "takeaways": [
     "Product owners at Revolut function as local CEOs with end-to-end ownership over their product, team, and business metrics — not scrum-style ticket managers.",
     "Revolut prioritizes raw intellect and hunger to build over years of experience, believing that driven builders with less experience often outperform seasoned professionals who rest on their laurels.",
-    "Every screen shipped at Revolut is reviewed by the founders, maintaining a culture of quality obsession where the product must be 'wow' — never shipping scrappy MVPs that compromise on UX.",
+    "Every screen shipped at Revolut is reviewed by the founders, maintaining a culture of quality obsession where the product must be lovable — never shipping scrappy MVPs that compromise on UX.",
     "Leadership goes deep on 7-10 highest-impact projects at a time rather than spreading thin across 100+ initiatives, creating accountability ripple effects across the organization.",
     "The 99% done is closer to 0% than 100% mentality reflects that shipping the product is only the beginning — ensuring adoption, marketing, and customer care follow-through is the real finish line."
   ],
