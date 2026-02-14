@@ -1,0 +1,208 @@
+{
+  "slug": "christopher-miller",
+  "quotes": [
+    {
+      "id": "christopher-miller-001",
+      "speaker": "Chris Miller",
+      "text": "One of the traits I look for in PMs is relentless curiosity, this insatiable desire to understand things and a lack of fear in admitting when they don't understand things and being uncompromising in getting the answers so that they do understand.",
+      "timestamp": "00:12:42",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": ["hiring", "curiosity", "product-management"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "christopher-miller-002",
+      "speaker": "Chris Miller",
+      "text": "If your primary modality of product-led growth work is experiment-driven product development and you're hitting more than 30 or 40% of the time, you're thinking too small. Only 20 to 30% of experiments a growth team runs might be successful. If you're not resilient, you end up grasping for a win by making bets that are too small to matter.",
+      "timestamp": "00:14:43",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 113,
+        "lineEnd": 115
+      },
+      "themes": ["experimentation", "growth", "resilience"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "christopher-miller-003",
+      "speaker": "Chris Miller",
+      "text": "The best growth product leaders I've worked with are almost ambivalent to the solution and certainly ambivalent to how complex a solution may or may not be. Taking little to no pleasure or pride in the complexity of a solution so long as it delivers the outcome that the business and your customers need.",
+      "timestamp": "00:15:49",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 118
+      },
+      "themes": ["growth-mindset", "simplicity", "outcomes"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "christopher-miller-004",
+      "speaker": "Chris Miller",
+      "text": "Finding people who are willing to invest in you is what really matters. When I interviewed with Fareed, I think I bombed it. I imagine there was something where the decision maker said, 'I think I can make something out of this.' Finding mentors is important, but finding sponsors and advocates is what really matters.",
+      "timestamp": "00:30:15",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 202
+      },
+      "themes": ["career-growth", "mentorship", "sponsorship"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "christopher-miller-005",
+      "speaker": "Chris Miller",
+      "text": "Typically when you're making decisions that could be described as hostile towards your customers but a net positive for the business, you're probably not thinking long-term enough. There's no possible way you could continually be hostile towards your customers and grow. At some point, that's going to catch up.",
+      "timestamp": "00:36:34",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 241
+      },
+      "themes": ["customer-obsession", "long-term-thinking", "strategy"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "christopher-miller-006",
+      "speaker": "Chris Miller",
+      "text": "Are we talking about a business problem, a customer problem, or an efficiency problem? Describe the nature of the problem. Generally, if there's a business problem, you might ask, 'Why hasn't that problem solved itself? What's the actual customer problem leading to the downstream negative thing happening to the business?'",
+      "timestamp": "00:38:42",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 250
+      },
+      "themes": ["problem-framing", "customer-centricity", "frameworks"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "christopher-miller-007",
+      "speaker": "Chris Miller",
+      "text": "We approached the team who owned it and we were like, 'Are you all working on this?' They were like, 'Nah, we're working on other stuff.' We were like, 'Can we take this?' They were like, 'Sure, if you want it.' And so we took it and immediately blew it up. That attitude of radical accountability and ownership mentality helped us find opportunities the business wasn't explicitly asking us to solve.",
+      "timestamp": "00:49:21",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 328
+      },
+      "themes": ["ownership", "initiative", "growth"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "christopher-miller-008",
+      "speaker": "Chris Miller",
+      "text": "A fallacy people fall into is assuming that in order to be a PLG company you can use that interchangeably with being a fully self-service business. Most larger, more successful PLG companies have a bunch of humans working on really important things on their go-to-market. It's more of a hybrid motion.",
+      "timestamp": "00:55:34",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 361
+      },
+      "themes": ["product-led-growth", "go-to-market", "strategy"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "christopher-miller-009",
+      "speaker": "Chris Miller",
+      "text": "We intentionally put out a lot of free software. It's not designed to run out of value on day one. It's designed so our smallest customers can get value in a sustainable way. But if they engage deeply enough, they'll run into limits. If we've done our jobs, the decision to purchase becomes a no-brainer.",
+      "timestamp": "01:09:39",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 454,
+        "lineEnd": 454
+      },
+      "themes": ["freemium", "product-led-growth", "customer-value"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "christopher-miller-010",
+      "speaker": "Chris Miller",
+      "text": "The number one mistake is hiring a head of growth, giving them no resources and expecting them to pull a rabbit out of their hat. Every PLG veteran has some joke about the poor head of growth who has no tooling, no engineering cycles, no designer, no access to data, and then are handed a really scary big number.",
+      "timestamp": "01:04:55",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 424,
+        "lineEnd": 427
+      },
+      "themes": ["growth-teams", "leadership", "resourcing"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "christopher-miller-011",
+      "speaker": "Chris Miller",
+      "text": "Bad data hygiene is a common mistake. Not having properly instrumented your product, messy data, no self-service way for people to access data. Eating your veggies and getting your house in order from a data standpoint is a crucial first step because if you can't measure what's happening, then why?",
+      "timestamp": "01:06:20",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 433,
+        "lineEnd": 433
+      },
+      "themes": ["data-hygiene", "analytics", "foundations"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "christopher-miller-012",
+      "speaker": "Chris Miller",
+      "text": "One of the things HubSpot did is never waste a good crisis. We leaned into goodwill pricing, lowered the price on some tools, and created temporary leniency around certain things. The removal of that friction ended up being a really interesting tailwind for the business.",
+      "timestamp": "01:16:45",
+      "source": {
+        "slug": "christopher-miller",
+        "path": "episodes/christopher-miller/transcript.md",
+        "lineStart": 514,
+        "lineEnd": 517
+      },
+      "themes": ["crisis-response", "pricing", "growth"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["hiring", "curiosity", "product-management", "experimentation", "growth", "resilience", "growth-mindset", "simplicity", "outcomes", "career-growth", "mentorship", "sponsorship", "customer-obsession", "long-term-thinking", "strategy", "problem-framing", "customer-centricity", "frameworks", "ownership", "initiative", "product-led-growth", "go-to-market", "freemium", "customer-value", "growth-teams", "leadership", "resourcing", "data-hygiene", "analytics", "foundations", "crisis-response", "pricing"],
+  "takeaways": [
+    "If your growth experiments succeed more than 30-40% of the time, you're thinking too small — resilience and willingness to fail are prerequisites for meaningful growth work",
+    "PLG is not synonymous with fully self-service — the most successful product-led companies use a hybrid approach where humans serve as backstops at key moments in the customer journey",
+    "Radical accountability means treating every problem as your problem — HubSpot's growth team found their biggest wins by adopting neglected code bases and initiatives nobody was working on",
+    "Distinguish between business problems and customer problems — if there's a negative business metric, trace it back to the underlying customer problem before building solutions",
+    "Give value before extracting value — HubSpot's flywheel evolved from free content marketing to free software, but the principle remained the same: earn trust through genuine value first"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "christopher-miller-002",
+      "why": "Argues that if your growth experiments are succeeding too often, it's actually a red flag — you're playing it too safe and thinking too small",
+      "related_zones": ["chaos", "data"]
+    },
+    {
+      "quoteId": "christopher-miller-008",
+      "why": "Pushes back against the common PLG purist view that self-service and PLG are interchangeable — argues most successful PLG companies are actually hybrid motions with significant human involvement",
+      "related_zones": ["data", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-led-growth", "experimentation", "growth-strategy"]
+  }
+}
