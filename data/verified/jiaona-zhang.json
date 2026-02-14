@@ -1,0 +1,199 @@
+{
+  "slug": "jiaona-zhang",
+  "quotes": [
+    {
+      "id": "jiaona-zhang-001",
+      "speaker": "Jiaona Zhang",
+      "text": "One of the biggest things I see, not just in my course but also just as a PM and some of the mistakes that you make as a PM is the idea of you get really attached to a solution, a way of implementing something that you can see in your head that you want to build.",
+      "timestamp": "00:05:16",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 80,
+        "lineEnd": 82
+      },
+      "themes": ["product-management", "solution-bias", "user-focus"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "jiaona-zhang-002",
+      "speaker": "Jiaona Zhang",
+      "text": "What we should have done is taken a step back and be like, 'What's the real problem? The real problem is people want to know what they're getting themselves into. We need to represent the homes a lot better.' And what's in your wheelhouse? We weren't that strong in operations. If you don't have that muscle and then you're asking the company to build it from the ground up, that's really, really difficult.",
+      "timestamp": "00:07:38",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 98
+      },
+      "themes": ["product-strategy", "unit-economics", "company-strengths"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "jiaona-zhang-003",
+      "speaker": "Jiaona Zhang",
+      "text": "I think it's totally fine to be like, 'Hey, we are going to try X for six months, three months, whatever it is, and we're explicitly going to go learn these types of things.' You can do what I call unscalable things in that prototyping phase, but you just have to be very, very clear with your team on what phase you're in.",
+      "timestamp": "00:12:32",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 130
+      },
+      "themes": ["experimentation", "learning-phases", "execution"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "jiaona-zhang-004",
+      "speaker": "Jiaona Zhang",
+      "text": "You should articulate what success looks like and the milestones you want to hit in the small intervals. So you don't get into this world where you're like, 'Hey, I've gone for two years investing in this thing. Now we got to cut it.' What is the quarter long milestone? And every single point, what is a go and no-go?",
+      "timestamp": "00:13:21",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 137
+      },
+      "themes": ["milestones", "sunk-cost", "execution"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "jiaona-zhang-005",
+      "speaker": "Jiaona Zhang",
+      "text": "Minimal lovable products is the new MVP. In a world where there are so many different options, it's hard to just feel like, 'Hey, use this thing. It barely meets a quality bar.' It's better to do five things instead of the 15 things in a really, really great way with a high degree of polish.",
+      "timestamp": "00:17:10",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 181
+      },
+      "themes": ["minimal-lovable-product", "quality", "product-strategy"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jiaona-zhang-006",
+      "speaker": "Jiaona Zhang",
+      "text": "For road mapping, my biggest thing is you're telling a story. What I really don't want is people thinking a spreadsheet with a bunch of projects, the RICE framework, everything has an impact, a cost and an effort column filled out, that is prioritization and that is a roadmap. What humans really crave is like, 'Why am I doing this body of work?'",
+      "timestamp": "00:22:46",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 202
+      },
+      "themes": ["roadmapping", "storytelling", "prioritization"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "jiaona-zhang-007",
+      "speaker": "Jiaona Zhang",
+      "text": "I think it's really important to become really good at and also known for something. Find something that you can be really, really good at. When you do that, you can crush the projects that you get because you're making a name for yourself, reputation, and then you are given more responsibility.",
+      "timestamp": "00:28:18",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["career-growth", "specialization", "reputation"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "jiaona-zhang-008",
+      "speaker": "Jiaona Zhang",
+      "text": "I would much rather have all the OKRs be red or yellow and we missed everything and we learned around why we missed it than everything to be green. In fact, when everything's green, you're like, 'We definitely did not set ambitious enough OKRs.'",
+      "timestamp": "00:32:29",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": ["OKRs", "ambition", "learning"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "jiaona-zhang-009",
+      "speaker": "Jiaona Zhang",
+      "text": "Understand the spirit of what they're trying to achieve. Being able to go back with, 'Hey, I understand the spirit. The spirit is that we're trying to get people who previously didn't consider Airbnb before to come and use Airbnb, but the right way to do it is not this very time-intensive, cost-intensive way.' It's coming back with actual options.",
+      "timestamp": "00:14:42",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 146
+      },
+      "themes": ["leadership", "pushback", "problem-framing"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "jiaona-zhang-010",
+      "speaker": "Jiaona Zhang",
+      "text": "On the product side, it's about really understanding why people love you and not forgetting to invest deeply in that core concept and then building everything around that. People love Dropbox for simplicity. We actually went for a period of time where we didn't invest enough in just performance of our client. That would've shifted your investments as opposed to chasing the competitive space.",
+      "timestamp": "00:52:06",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 403
+      },
+      "themes": ["product-strategy", "core-value", "competitive-pressure"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "jiaona-zhang-011",
+      "speaker": "Jiaona Zhang",
+      "text": "Think about your trust as a bank. It's like you're putting money into your bank and then at some point you're going to take money out, you're going to use that social capital, you're going to use that trust to go push for things, push for change, but you have to be thoughtful about how full your piggy bank is.",
+      "timestamp": "00:49:33",
+      "source": {
+        "slug": "jiaona-zhang",
+        "path": "episodes/jiaona-zhang/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 385
+      },
+      "themes": ["trust", "leadership", "first-90-days"],
+      "zones": ["alignment", "intuition"]
+    }
+  ],
+  "themes": ["product-management", "solution-bias", "user-focus", "product-strategy", "unit-economics", "company-strengths", "experimentation", "learning-phases", "execution", "milestones", "sunk-cost", "minimal-lovable-product", "quality", "roadmapping", "storytelling", "prioritization", "career-growth", "specialization", "reputation", "OKRs", "ambition", "learning", "leadership", "pushback", "problem-framing", "core-value", "competitive-pressure", "trust", "first-90-days"],
+  "takeaways": [
+    "Build Minimum Lovable Products, not MVPs — it's better to do five things exceptionally well than fifteen things at a barely viable level.",
+    "A roadmap is a story with themes, not a spreadsheet with RICE scores — teams need to understand WHY they're doing a body of work.",
+    "Set ambitious OKRs and prefer red/yellow results with learning over all-green results that signal sandbagging.",
+    "Understand why people love your product and double down on that core — don't chase competitors into areas outside your strategic strength.",
+    "Trust is a bank account: deposit through context-building and relationship-forming before withdrawing by pushing for change."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jiaona-zhang-008",
+      "why": "Prefers all OKRs to be red or yellow rather than green — directly challenges the common fear of missing targets and the sandbagging culture it creates.",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "jiaona-zhang-006",
+      "why": "Argues the RICE framework spreadsheet approach to roadmapping is fundamentally wrong — prioritization should be narrative and thematic, not numerical.",
+      "related_zones": ["alignment", "intuition"]
+    },
+    {
+      "quoteId": "jiaona-zhang-005",
+      "why": "Declares that MVP is dead and replaced by Minimum Lovable Product — challenges the dominant lean startup methodology of shipping the bare minimum.",
+      "related_zones": ["perfection", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-management", "roadmapping", "career-growth"]
+  }
+}

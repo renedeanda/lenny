@@ -1,0 +1,208 @@
+{
+  "slug": "grant-lee",
+  "quotes": [
+    {
+      "id": "grant-lee-001",
+      "speaker": "Grant Lee",
+      "text": "We got everyone together and said, it's going to be all hands on deck. We are going to do everything we possibly can to make the first 30 seconds of the product feel magical. The moment you land into the product, it has to be great, and it has to be so great that someone that goes through that onboarding is going to tell all their friends.",
+      "timestamp": "00:11:22",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["onboarding", "product-market-fit", "word-of-mouth"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "grant-lee-002",
+      "speaker": "Grant Lee",
+      "text": "Your mindset should almost be like you're trying to create a word of mouth machine. If you can get that part right, everything else becomes significantly easier. If you're not seeing a healthy chunk of those leads come through that way, I would go back. Why is that not happening?",
+      "timestamp": "00:13:38",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 142
+      },
+      "themes": ["word-of-mouth", "organic-growth", "product-market-fit"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "grant-lee-003",
+      "speaker": "Grant Lee",
+      "text": "Think about new users as you almost have a cynical view of them. You have to think about them being selfish, vain, and lazy. They're coming in, they have no desire to learn a new tool. So what can you give them in that first 30 seconds that earns you the next 30 seconds and then the next 30 seconds?",
+      "timestamp": "00:18:48",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 173,
+        "lineEnd": 175
+      },
+      "themes": ["onboarding", "user-psychology", "time-to-value"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "grant-lee-004",
+      "speaker": "Grant Lee",
+      "text": "There's this thing from consumer advertising: you throw a consumer one egg, they can probably catch it. You throw them four or five eggs, they're probably going to drop all of them. Oftentimes founders want to talk about the four or five features they have. We try to just give them that one egg, that one first experience.",
+      "timestamp": "00:20:12",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["simplicity", "onboarding", "focus"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "grant-lee-005",
+      "speaker": "Grant Lee",
+      "text": "A lot of people think influencer marketing and they'll think these big trendy creators, people that have a million followers. This is the wrong approach. You basically give them a script to read, immediately feels like an ad. You're much better doing the hard thing, which is finding the thousands of micro influencers that have an audience where your product is actually useful.",
+      "timestamp": "00:44:00",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 361
+      },
+      "themes": ["influencer-marketing", "authenticity", "growth"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "grant-lee-006",
+      "speaker": "Grant Lee",
+      "text": "Don't invest in performance marketing until you have word of mouth. Don't fool yourself into thinking that you'll solve other problems by just starting to ramp up a performance marketing program. If more than 50% of your acquisitions are coming through paid, your core growth engine is broken.",
+      "timestamp": "01:02:19",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 523,
+        "lineEnd": 526
+      },
+      "themes": ["paid-acquisition", "organic-growth", "growth-strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "grant-lee-007",
+      "speaker": "Grant Lee",
+      "text": "We would have an idea in the morning, come up with some sort of functional prototype, recruit a bunch of people that are legitimately good prospective users but have zero skin in the game, ship fast so people can start playing with it. In the afternoon, we're already running a pretty full scale experiment.",
+      "timestamp": "01:07:45",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 571,
+        "lineEnd": 571
+      },
+      "themes": ["experimentation", "speed", "user-research"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "grant-lee-008",
+      "speaker": "Grant Lee",
+      "text": "Your goal is you get that first 10 employees and you want to be able to then replicate the next 10 and then replicate the next 10, but that 10 needs to be all super cohesive. You need to have the same shared values, same principles, same ambition, same vision, and if you don't, then what are you even replicating?",
+      "timestamp": "01:37:32",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 838,
+        "lineEnd": 838
+      },
+      "themes": ["hiring", "culture", "team-building"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "grant-lee-009",
+      "speaker": "Grant Lee",
+      "text": "Brand marketing is performance marketing. Everything is some form of performance marketing. It just might not be as attributable, so the ability to actually map back to every single dollar spent is a little bit harder, but it doesn't mean that it's not impactful.",
+      "timestamp": "00:58:42",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 481,
+        "lineEnd": 481
+      },
+      "themes": ["brand", "performance-marketing", "attribution"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "grant-lee-010",
+      "speaker": "Grant Lee",
+      "text": "Every founder today has a chance to innovate on org design. When it comes to the management layer, all of our people leaders are player coaches in that they still do the end work themselves and they can mentor and coach those around them. There are no pure managers at Gamma.",
+      "timestamp": "01:41:13",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 859,
+        "lineEnd": 859
+      },
+      "themes": ["org-design", "management", "leadership"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "grant-lee-011",
+      "speaker": "Grant Lee",
+      "text": "When you find someone exceptional, bet big on them. A players want actually more playing time. They want to go after the hardest problems. They want to feel like they're making a huge impact. If you have fewer exceptional teammates where you can just throw almost anything at them and they'll figure it out, that feels great.",
+      "timestamp": "01:43:40",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 883,
+        "lineEnd": 886
+      },
+      "themes": ["hiring", "talent", "empowerment"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "grant-lee-012",
+      "speaker": "Grant Lee",
+      "text": "The temptation would've been to spend more on ads or spend more on marketing to fuel the top of the funnel. I think that would've been a trap. That would've led us down to this path of trying to brute force our way into product market fit. We made the tough call to go back and revamp the entire onboarding experience.",
+      "timestamp": "00:12:53",
+      "source": {
+        "slug": "grant-lee",
+        "path": "episodes/grant-lee/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 133
+      },
+      "themes": ["product-market-fit", "discipline", "onboarding"],
+      "zones": ["focus", "perfection"]
+    }
+  ],
+  "themes": ["onboarding", "product-market-fit", "word-of-mouth", "organic-growth", "user-psychology", "time-to-value", "simplicity", "focus", "influencer-marketing", "authenticity", "growth", "paid-acquisition", "growth-strategy", "experimentation", "speed", "user-research", "hiring", "culture", "team-building", "brand", "performance-marketing", "attribution", "org-design", "management", "leadership", "talent", "empowerment", "discipline"],
+  "takeaways": [
+    "Product market fit is not winning Product Hunt - it's when organic word-of-mouth growth takes off without any marketing spend, creating a self-sustaining growth engine",
+    "Make the first 30 seconds of your product feel magical by throwing users one egg instead of five - focus on the single most differentiating feature to earn the right to keep their attention",
+    "Influencer marketing works best with thousands of micro influencers you personally onboard, not a few big names reading a script - 90% of reach comes from 10% of creators",
+    "Never let paid acquisition exceed 50% of your growth - if your core word-of-mouth engine isn't working, fix the product before spending money on ads",
+    "Hire painfully slowly, keep every leader as a player-coach who does IC work, and bet big on exceptional generalists who want more playing time, not less"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.10,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "grant-lee-003",
+      "why": "Advocates viewing your new users as selfish, vain, and lazy - a deliberately cynical lens that challenges the typical empathy-first design thinking approach",
+      "related_zones": ["intuition", "perfection"]
+    },
+    {
+      "quoteId": "grant-lee-012",
+      "why": "Won Product of the Day, Week, and Month on Product Hunt and still decided to go back to the drawing board rather than scale - most founders would have doubled down on marketing",
+      "related_zones": ["focus", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["ai-startups", "product-led-growth", "influencer-marketing"]
+  }
+}

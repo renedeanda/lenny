@@ -1,0 +1,208 @@
+{
+  "slug": "gaurav-misra",
+  "quotes": [
+    {
+      "id": "gaurav-misra-001",
+      "speaker": "Gaurav Misra",
+      "text": "Our engineering goal is every engineer should ship a marketable product every week. A marketable product is a product that you can show to users and the user might subscribe or pay for the app just for that or come to the app essentially just for that.",
+      "timestamp": "00:13:30",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 139
+      },
+      "themes": ["shipping velocity", "engineering culture", "marketable features"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "gaurav-misra-002",
+      "speaker": "Gaurav Misra",
+      "text": "When time is being pressured downward, a lot of times engineers, PMs, designers will cut on quality rather than cutting on scope. We look at every element and just say, what if we remove this? Is the product still useful? We keep repeating that until we say it's going to be useless at this point. And that becomes the one-week project.",
+      "timestamp": "00:16:06",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 162,
+        "lineEnd": 163
+      },
+      "themes": ["scope cutting", "quality", "prioritization"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "gaurav-misra-003",
+      "speaker": "Gaurav Misra",
+      "text": "As a startup your job is to take on technical debt because that is how you operate faster than a bigger company. It's like financial debt in many ways. Financial debt is taken on to create leverage. You can create products that you wouldn't be able to build with a small team by taking on strategic technical debt. It's very positive actually.",
+      "timestamp": "00:20:22",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 216
+      },
+      "themes": ["technical debt", "startup strategy", "leverage"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "gaurav-misra-004",
+      "speaker": "Gaurav Misra",
+      "text": "Every piece of debt that you take on you have to pay interest on. If you take on enough debt, you'll be paying 80 or 90% interest and you'll not have any time to do anything new. You have a technical debt runway. Once you've taken on too much debt and haven't delivered enough value to hire engineers to pay the interest, you'll get in trouble.",
+      "timestamp": "00:22:50",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 240
+      },
+      "themes": ["technical debt", "runway", "startup risk"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "gaurav-misra-005",
+      "speaker": "Gaurav Misra",
+      "text": "We have what we think of as the public roadmap, which is basically what people have asked us for. But these are all features that every competitor knows about. If a user is asking us for it, they're asking everybody for it. So we have a second roadmap which we think of as a secret roadmap. Nobody has ever asked for anything on it.",
+      "timestamp": "00:27:26",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 295
+      },
+      "themes": ["product roadmap", "innovation", "competitive strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "gaurav-misra-006",
+      "speaker": "Gaurav Misra",
+      "text": "A lot of times we'll first design something without even having any idea of what or why we're doing it. We'll design a bunch of different things and then sit down with the PMs until we find interesting things and ideas that pop out of that. It often leads to discovering things we wouldn't have discovered if we were just too focused on metrics and numbers.",
+      "timestamp": "00:26:17",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 285,
+        "lineEnd": 286
+      },
+      "themes": ["design-first", "innovation process", "discovery"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "gaurav-misra-007",
+      "speaker": "Gaurav Misra",
+      "text": "Evan's philosophy was always he didn't fight the things that were getting copied. Stories got copied pretty much straight up. But he was more of the mindset of let's expand the pie, do something new and push the boundaries. We'll keep innovating.",
+      "timestamp": "00:44:59",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 432,
+        "lineEnd": 432
+      },
+      "themes": ["innovation", "competition", "Snap culture"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "gaurav-misra-008",
+      "speaker": "Gaurav Misra",
+      "text": "You can actually create alignment by causing internal virality. If there's enough people in the company, it actually starts acting like a consumer base might. We would create prototype products, share the build and it would explode. It would just go viral inside the company. It was a great way to create instant alignment.",
+      "timestamp": "00:46:48",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 450
+      },
+      "themes": ["alignment", "prototyping", "internal virality"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "gaurav-misra-009",
+      "speaker": "Gaurav Misra",
+      "text": "Not hiring PMs at Snap might've been one of those decisions where it actually succeeded despite that. Someone needs to do that work. If you don't have enough people to do it, then nobody truly owns it and then it doesn't really happen. Or if it doesn't happen, no one's responsible.",
+      "timestamp": "00:51:48",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 489,
+        "lineEnd": 489
+      },
+      "themes": ["product management", "organizational design", "Snap lessons"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "gaurav-misra-010",
+      "speaker": "Gaurav Misra",
+      "text": "Why shouldn't the PM understand marketing? I think that's actually the biggest opportunity for PMs. If you think about marketing, it's expanding the surface area of the product. Facebook ads is just placing a button to your app in Facebook. The funnel begins there and you have all the metrics all the way from the beginning.",
+      "timestamp": "00:52:48",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 495,
+        "lineEnd": 498
+      },
+      "themes": ["PM scope", "marketing", "full-funnel thinking"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "gaurav-misra-011",
+      "speaker": "Gaurav Misra",
+      "text": "Captions was sitting on my personal account. About a year and a half in, I opened it and I saw that there was $500,000 in there. The revenue was just growing completely on its own. No employees, no releases, no bug fixes, no customer support. That was a clear sign: you should have been working on that. That product works.",
+      "timestamp": "01:16:07",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 696,
+        "lineEnd": 699
+      },
+      "themes": ["product-market fit", "founder mistakes", "signal recognition"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "gaurav-misra-012",
+      "speaker": "Gaurav Misra",
+      "text": "The easiest way to be the best is to be the first. I love to compete and to win at the end of the day. And I think that to win, you have to be the best. But actually the easiest way to be the best is to be the first.",
+      "timestamp": "01:22:57",
+      "source": {
+        "slug": "gaurav-misra",
+        "path": "episodes/gaurav-misra/transcript.md",
+        "lineStart": 819,
+        "lineEnd": 825
+      },
+      "themes": ["first-mover advantage", "competition", "motto"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["shipping velocity", "scope cutting", "technical debt", "secret roadmap", "design-first", "innovation", "alignment", "product-market fit", "competition", "PM role"],
+  "takeaways": [
+    "Every engineer should ship a marketable feature every week - cut scope ruthlessly instead of cutting quality, removing elements until removing anything more would make the product useless.",
+    "Strategic technical debt is a startup's superpower - like financial debt, it creates leverage that lets small teams build what they otherwise couldn't, but there's a 'technical debt runway' where too much interest payments leave no time for new work.",
+    "Maintain a dual roadmap: a public roadmap of user-requested features that every competitor knows about, and a secret roadmap of ideas nobody asked for that can truly change user behavior.",
+    "Internal virality is a powerful alignment tool - at large companies, sharing exciting prototypes that spread organically creates instant organizational buy-in without formal alignment processes.",
+    "Product managers should own all the way to marketing because marketing is simply expanding the surface area of the product - understanding the full funnel from ad click to conversion is fundamental to building great products."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "gaurav-misra-003",
+      "why": "Frames technical debt as strategically positive rather than something to avoid - argues startups should actively embrace debt as their competitive weapon",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "gaurav-misra-009",
+      "why": "Suggests Snap's famous no-PM model may have succeeded despite itself, not because of it - challenges the designer-led product org narrative",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI product development", "shipping velocity", "consumer apps"]
+  }
+}
