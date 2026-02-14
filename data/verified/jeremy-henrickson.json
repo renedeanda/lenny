@@ -1,0 +1,194 @@
+{
+  "slug": "jeremy-henrickson",
+  "quotes": [
+    {
+      "id": "jeremy-henrickson-001",
+      "speaker": "Jeremy Henrickson",
+      "text": "Having smaller groups of people breaking down what is always a very, very large problem into sufficiently small bits that small groups can attack wholeheartedly and minimize horizontal communication, I think is the first thing.",
+      "timestamp": "00:09:12",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["velocity", "team-structure", "execution"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jeremy-henrickson-002",
+      "speaker": "Jeremy Henrickson",
+      "text": "It's very, very tempting to float up here as a leader and say, 'Hey, you take that hill over there. You guys do this over here.' When in fact where you really learn where the challenges are or the problems or the successes is by just being there with the people in the trenches on one of the things, whichever one seems hardest or most complicated.",
+      "timestamp": "00:11:05",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["leadership", "going-deep", "product-management"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jeremy-henrickson-003",
+      "speaker": "Jeremy Henrickson",
+      "text": "When you design a minimum viable product, you're optimizing for speed. And in that set of optimizations, you are minimizing the deeper product thinking about what can fully differentiate our product based on not only existing kind of capabilities within our products and platform, but based on what it ought to do in the future.",
+      "timestamp": "00:18:16",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 198
+      },
+      "themes": ["MVP", "product-strategy", "differentiation"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "jeremy-henrickson-004",
+      "speaker": "Jeremy Henrickson",
+      "text": "If you're only thinking through the simple cases and you're an engineer and no one's pushing you on saying, 'Wait, what about that healthcare hospital administration case where it's mission-critical life,' then you're going to make a different set of architectural assumptions, and then you're going to build on those for six months, nine months a year, and you'll have dozens or hundreds of assumptions built on top of those. And it's extremely difficult to unwind those decisions.",
+      "timestamp": "00:19:03",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["architecture", "technical-debt", "complex-use-cases"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jeremy-henrickson-005",
+      "speaker": "Jeremy Henrickson",
+      "text": "The idea of a compound startup for us is that we're basically a lot of businesses that all work together. The insight Parker had before he founded the company was actually the result you get when you have that is that there's all this data that gets replicated and copied and is impossible to keep in sync everywhere. The right answer is to have a single system of record.",
+      "timestamp": "00:23:40",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 231
+      },
+      "themes": ["compound-startup", "platform-strategy", "data-architecture"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "jeremy-henrickson-006",
+      "speaker": "Jeremy Henrickson",
+      "text": "Let's not schedule a meeting for next week or tomorrow or later today. We're in the middle of a meeting, we need to make a decision. Let's either make the decision or if we can't, let's Slack call in the person that we need in order to make that decision. And we'll be done with the decision today.",
+      "timestamp": "00:27:15",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 249,
+        "lineEnd": 249
+      },
+      "themes": ["decision-making", "speed", "culture"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "jeremy-henrickson-007",
+      "speaker": "Jeremy Henrickson",
+      "text": "No company I've been at any scale, 5 people, 5,000 people, has ever operated at the tempo this one does. And I think that our ability to continue to operate at that tempo, which is partly due to the fact that we are a compound startup and have these small teams independently operating teams, is a really differentiating thing about the culture.",
+      "timestamp": "00:27:44",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 252
+      },
+      "themes": ["velocity", "culture", "compound-startup"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jeremy-henrickson-008",
+      "speaker": "Jeremy Henrickson",
+      "text": "In product, you don't own a little feature, you own your product and you're expected to be the world's foremost expert in it. And if you are, what that means is instead of having to come back to people three days later with an answer, just off the top of your head, you can be like, 'Yes, this is what I think I should do about that or give me 30 minutes, look something up and I can tell you what we need to do.'",
+      "timestamp": "00:29:29",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 261
+      },
+      "themes": ["product-ownership", "domain-expertise", "decision-making"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "jeremy-henrickson-009",
+      "speaker": "Jeremy Henrickson",
+      "text": "That date passed. You don't get to retroactively make everybody react to the fact that you didn't operate quickly enough. And it's not a hostile thing, it's just people just have to get used to it. It's a deep cultural principle. And the fact that everyone stands behind it just means it gets reinforced on its own, out of its own gravity.",
+      "timestamp": "00:30:06",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 267
+      },
+      "themes": ["accountability", "velocity", "culture"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "jeremy-henrickson-010",
+      "speaker": "Jeremy Henrickson",
+      "text": "Product leaders have to be right most of the time because their decisions reflect across the entire org and their decisions fundamentally spend time and they spend energy. And if they make good ones, the company does really well. And if they make bad ones, the company doesn't.",
+      "timestamp": "00:39:01",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 336
+      },
+      "themes": ["decision-making", "product-leadership", "judgment"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "jeremy-henrickson-011",
+      "speaker": "Jeremy Henrickson",
+      "text": "You can't really understand a product unless you've gone there. And yes, it takes time and you can't just ignore the other half of the job of communicating with the engineering team and writing documents or whatever, but what's the point of writing a document if you don't know what you're talking about?",
+      "timestamp": "00:37:42",
+      "source": {
+        "slug": "jeremy-henrickson",
+        "path": "episodes/jeremy-henrickson/transcript.md",
+        "lineStart": 324,
+        "lineEnd": 324
+      },
+      "themes": ["domain-expertise", "product-management", "going-deep"],
+      "zones": ["perfection", "focus"]
+    }
+  ],
+  "themes": ["velocity", "team-structure", "execution", "leadership", "going-deep", "product-management", "MVP", "product-strategy", "differentiation", "architecture", "technical-debt", "complex-use-cases", "compound-startup", "platform-strategy", "data-architecture", "decision-making", "speed", "culture", "product-ownership", "domain-expertise", "accountability", "judgment"],
+  "takeaways": [
+    "Small teams with clear missions and minimized horizontal communication are the foundation of maintaining velocity at scale.",
+    "Design for the most complex use case first — MVPs can create technical debt that is extremely difficult to unwind later.",
+    "Leaders must dive deep into the trenches rather than directing from above, because that's where the real challenges and insights are found.",
+    "Product managers should be the world's foremost expert in their domain, enabling fast decision-making without delays.",
+    "Speed of decision-making is a cultural principle that must be modeled from the top and reinforced through deadlines that don't bend."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.20,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jeremy-henrickson-003",
+      "why": "Directly challenges MVP orthodoxy — argues that MVPs limit product creativity and lead to building the wrong technical foundations.",
+      "related_zones": ["perfection", "discovery"]
+    },
+    {
+      "quoteId": "jeremy-henrickson-009",
+      "why": "Strict deadline enforcement with no retroactive accommodation challenges the typical 'move fast but be flexible' startup culture.",
+      "related_zones": ["velocity", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["velocity-at-scale", "compound-startup", "product-leadership"]
+  }
+}

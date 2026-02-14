@@ -1,0 +1,194 @@
+{
+  "slug": "ayo-omojola",
+  "quotes": [
+    {
+      "id": "ayo-omojola-q001",
+      "speaker": "Ayo Omojola",
+      "text": "Being different is not enough, because it's very easy to build a thing that's different from what exists today, because you just have to look at what exists today and build something else. Being better is not enough, because it's also easy to say, 'Hey, I'm going to make this thing better, and just charge you more money for it.' It has to be better than what exists today in a way that matters to the end user.",
+      "timestamp": "11:20",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 113
+      },
+      "themes": ["differentiation", "product-strategy", "consumer"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "ayo-omojola-q002",
+      "speaker": "Ayo Omojola",
+      "text": "The thing Cash App did right was like 10 things, not one. There were like 10 things that actually best in class, like insane talent density, insane focus, very strong at fraud. The hero customer was the consumer, not the merchants, so it was like literally in 100% of the trade offs the consumer's needs came first.",
+      "timestamp": "08:23",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 100
+      },
+      "themes": ["consumer-focus", "talent-density", "trade-offs"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "ayo-omojola-q003",
+      "speaker": "Ayo Omojola",
+      "text": "When you are in a large organization, trying to do a actually new thing, I think small teams are better than big ones, period. And forcing the teams to be super thoughtful about hitting milestones and actually adding value, because there's this thing people say about the startup within a startup, everything's fake.",
+      "timestamp": "15:16",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 136
+      },
+      "themes": ["small-teams", "startup-within-startup", "discipline"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "ayo-omojola-q004",
+      "speaker": "Ayo Omojola",
+      "text": "There was something around a small, tightly-knit senior team super focused on a problem. And the smallness means just like, less prior miscommunication, and then the tightly-knit means a lot more trust.",
+      "timestamp": "17:52",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 148
+      },
+      "themes": ["team-building", "trust", "seniority"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "ayo-omojola-q005",
+      "speaker": "Ayo Omojola",
+      "text": "When you're hiring you pick the people, but they pick when. There are many people on the team where the time between when I first met them and the time when they joined the team was like months. There was one person who was like, a year and a half almost.",
+      "timestamp": "28:46",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 220
+      },
+      "themes": ["hiring", "patience", "relationships"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "ayo-omojola-q006",
+      "speaker": "Ayo Omojola",
+      "text": "One of my core philosophies in life is that everybody wants something. And most of the time it's not something you have to give, or you can connect them to. But if it is something that you have to give, or you can connect them to, it's criminal not to, actually.",
+      "timestamp": "29:31",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 223
+      },
+      "themes": ["generosity", "networking", "philosophy"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "ayo-omojola-q007",
+      "speaker": "Ayo Omojola",
+      "text": "You go ask somebody something, and they would give you an answer which is like the thing that they believe to be true, they're not lying and it's not malicious, and it's just wrong. And you just have to keep pushing until you get to an answer. You can't stop until you get to the end.",
+      "timestamp": "35:08",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 251,
+        "lineEnd": 253
+      },
+      "themes": ["first-principles", "depth", "rigor"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "ayo-omojola-q008",
+      "speaker": "Ayo Omojola",
+      "text": "Between plastic, the overlay, the paper, the envelope, and the finishes, easily 1,000 combinations before we got to like the first version of the Cash Card that was shipped. And there's a team still there, still doing like literally physical card objects that are not the same as anything that exists in-market.",
+      "timestamp": "34:09",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 249,
+        "lineEnd": 250
+      },
+      "themes": ["craftsmanship", "differentiation", "detail"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "ayo-omojola-q009",
+      "speaker": "Ayo Omojola",
+      "text": "It's not that you have to do everything yourself, it's that the person who you trust in the execution role, they have to become the expert. They can't stop until they hit the end. So much value is lost when the person in the execution role isn't really in command of all the details.",
+      "timestamp": "39:34",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 291,
+        "lineEnd": 292
+      },
+      "themes": ["execution", "ownership", "expertise"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "ayo-omojola-q010",
+      "speaker": "Ayo Omojola",
+      "text": "It's almost never enough for someone to say, 'I can't do it because X person said.' It is, 'I can't do it because we are contractually obligated to do this another way, and if we do not honor the contract these will be the consequences.' Articulate to me what actually will happen if we don't do it this way.",
+      "timestamp": "40:48",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 298
+      },
+      "themes": ["first-principles", "trust-but-verify", "accountability"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "ayo-omojola-q011",
+      "speaker": "Ayo Omojola",
+      "text": "I had this belief that these people that I had seen, many of whom have now gone on to start companies that are doing quite well, would be incredible value add. Like basically, it's kind of like, if you could just hold onto a rock for a little bit it can take you pretty far.",
+      "timestamp": "24:33",
+      "source": {
+        "slug": "ayo-omojola",
+        "path": "episodes/ayo-omojola/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 199
+      },
+      "themes": ["hiring-founders", "talent", "unconventional"],
+      "zones": ["chaos", "velocity"]
+    }
+  ],
+  "themes": ["differentiation", "product-strategy", "consumer", "consumer-focus", "talent-density", "trade-offs", "small-teams", "startup-within-startup", "discipline", "team-building", "trust", "seniority", "hiring", "patience", "relationships", "generosity", "networking", "philosophy", "first-principles", "depth", "rigor", "craftsmanship", "detail", "execution", "ownership", "expertise", "trust-but-verify", "accountability", "hiring-founders", "talent", "unconventional"],
+  "takeaways": [
+    "True product differentiation requires being both different AND better in a way that matters to the end user -- being merely different or merely better is insufficient for lasting consumer success.",
+    "Small, tightly-knit senior teams with high trust are the key to successfully building new products within large organizations -- you need real business scale before you grow headcount.",
+    "Great hiring is a long game: you pick the people, but they pick the timing. Build relationships and add value to potential hires months or years before they join.",
+    "The person in the execution role must become the true expert and push through until they reach the real answer -- don't accept secondhand explanations or surface-level expertise.",
+    "Hiring former founders brings differentially higher output but also higher attrition and lower tolerance for organizational waste -- a worthwhile trade-off if you embrace the costs."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.20,
+    "data": 0.00,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ayo-omojola-q010",
+      "why": "Aggressively challenges organizational 'no' answers by demanding people articulate the actual consequences of breaking rules, not just citing authority.",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "ayo-omojola-q011",
+      "why": "Advocates hiring failed founders into product teams despite organizational friction, arguing their output dramatically exceeds conventional hires.",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["differentiation", "team-building", "first-principles-thinking"]
+  }
+}
