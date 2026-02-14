@@ -1,0 +1,213 @@
+{
+  "slug": "mayur-kamat",
+  "quotes": [
+    {
+      "id": "mayur-kamat-001",
+      "speaker": "Mayur Kamat",
+      "text": "CZ, the founder and CEO at one point had 55 direct reports, and his direct reports had about the similar ones. For a large portion of the history of the company, there was just one level between the individual employees and the CEO. That leads to an extreme level of decision-making and execution.",
+      "timestamp": "00:06:35",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 100
+      },
+      "themes": ["organizational-structure", "flat-hierarchy", "velocity", "execution"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "mayur-kamat-002",
+      "speaker": "Mayur Kamat",
+      "text": "When you have really smart people, you give them really hard problems, you have no constraints on what you need to solve them, whether it's money, people, except time. Time is always at a premium. People can move mountains in a small amount of time.",
+      "timestamp": "00:08:45",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 109
+      },
+      "themes": ["execution", "velocity", "extreme-ownership", "talent"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "mayur-kamat-003",
+      "speaker": "Mayur Kamat",
+      "text": "The best thing you can do is find companies that are growing fast because it compounds your learning at a much faster interval. Even if your interest rate is low, if you're compounding daily versus compounding yearly, after two years, you will be at a whole different stage.",
+      "timestamp": "00:19:12",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 157
+      },
+      "themes": ["career-growth", "compounding", "fast-growth-companies"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "mayur-kamat-004",
+      "speaker": "Mayur Kamat",
+      "text": "You need to optimize for what you're great at. If you're 25 years old early in your career, it's very hard to say, 'Here are all my weaknesses and I need to improve on those.' You need to know what your superpowers are, and find jobs where success is determined by how much of that superpower you get to use.",
+      "timestamp": "00:20:04",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["career-advice", "strengths", "self-awareness", "hiring"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "mayur-kamat-005",
+      "speaker": "Mayur Kamat",
+      "text": "Strategy is a little bit overrated for product. For most product managers, your strategy should be, how fast can I go from hypothesis to data? The faster you can go there, the easier your strategy gets.",
+      "timestamp": "00:43:59",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 274,
+        "lineEnd": 277
+      },
+      "themes": ["strategy", "experimentation", "hypothesis-driven", "product-management"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "mayur-kamat-006",
+      "speaker": "Mayur Kamat",
+      "text": "The challenge with being a product manager is, everybody thinks they can do the job. Anybody who uses the product thinks they have ideas. The moment you build experimentation, you've now made it scientific. Now somebody comes up with an idea, you say, that's a bad idea -- here's why, because we tested it.",
+      "timestamp": "00:48:17",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 298
+      },
+      "themes": ["experimentation", "product-management", "discipline", "credibility"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "mayur-kamat-007",
+      "speaker": "Mayur Kamat",
+      "text": "I'm now in the camp that a lot of the growth comes with incredibly small things done faster. Booking.com was a $10 billion company that sold flights, hotels, and cars. 10 years later it still sells flights, hotels, and cars. It's a $170 billion company. You really don't need to do something completely different if you can truly compound your growth by optimizing every single thing really well.",
+      "timestamp": "01:01:31",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 364,
+        "lineEnd": 370
+      },
+      "themes": ["growth", "optimization", "experimentation", "compounding"],
+      "zones": ["velocity", "data", "perfection"]
+    },
+    {
+      "id": "mayur-kamat-008",
+      "speaker": "Mayur Kamat",
+      "text": "In FinTech, you have two customers. You have your usual customers and you have your regulator, and you need to keep both of them happy. And usually, what makes one happy, it makes the other one less happy. In FinTech, every trade-off is existential.",
+      "timestamp": "00:34:17",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 232
+      },
+      "themes": ["fintech", "trade-offs", "stakeholder-management", "regulation"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "mayur-kamat-009",
+      "speaker": "Mayur Kamat",
+      "text": "My probably most spectacular failure was, I was the first PM on Hangouts. We had thousands of people working. We had the entire power of Google. We had Larry literally sitting with us saying we can do anything. And we still didn't manage to build a great messaging product.",
+      "timestamp": "01:19:44",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 451,
+        "lineEnd": 451
+      },
+      "themes": ["failure", "company-dna", "product-market-fit", "google"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "mayur-kamat-010",
+      "speaker": "Mayur Kamat",
+      "text": "I have this premise that certain companies can never succeed at certain type of products like Microsoft with mobile or Google with social or Facebook with enterprise. It is just the DNA of the founder actively acts against you succeeding there.",
+      "timestamp": "01:20:18",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 453,
+        "lineEnd": 454
+      },
+      "themes": ["company-dna", "founder-influence", "strategy", "product-market-fit"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "mayur-kamat-011",
+      "speaker": "Mayur Kamat",
+      "text": "A full calendar is a badge of shame, not a badge of honor. You should have plenty of open spaces on your calendar. If you have hundreds of meetings, hundreds of one-on-ones, daily standups, you just can't find time to go work on high leverage problems.",
+      "timestamp": "01:13:13",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["time-management", "leverage", "leadership", "productivity"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "mayur-kamat-012",
+      "speaker": "Mayur Kamat",
+      "text": "There's no right or wrong decision. There's just slow and fast decisions. For anything that's reversible, anything that's not going to get you in jail or kill your company, no right or wrong decisions, just slow or fast decisions.",
+      "timestamp": "01:33:35",
+      "source": {
+        "slug": "mayur-kamat",
+        "path": "episodes/mayur-kamat/transcript.md",
+        "lineStart": 580,
+        "lineEnd": 580
+      },
+      "themes": ["decision-making", "velocity", "reversible-decisions", "leadership"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["organizational-structure", "flat-hierarchy", "velocity", "execution", "extreme-ownership", "talent", "career-growth", "compounding", "fast-growth-companies", "career-advice", "strengths", "self-awareness", "hiring", "strategy", "experimentation", "hypothesis-driven", "product-management", "discipline", "credibility", "growth", "optimization", "fintech", "trade-offs", "stakeholder-management", "regulation", "failure", "company-dna", "product-market-fit", "founder-influence", "time-management", "leverage", "leadership", "productivity", "decision-making", "reversible-decisions"],
+  "takeaways": [
+    "Compound your learning by working at high-growth companies -- daily compounding beats yearly, and after two years the gap is enormous.",
+    "Product strategy is overrated; the real question is how fast you can go from hypothesis to data -- experimentation makes strategy a solved problem.",
+    "Growth often comes from incredibly small optimizations done faster, not from reinventing the product -- Booking.com grew 17x in a decade selling the same three things.",
+    "Optimize for your superpowers, not your weaknesses -- find roles where success is determined by how much of your strengths you get to deploy.",
+    "A full calendar is a badge of shame -- protect open time to work on the highest-leverage problems rather than drowning in meetings."
+  ],
+  "zone_influence": {
+    "velocity": 0.30,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "mayur-kamat-005",
+      "why": "Calls product strategy 'overrated' -- a provocative stance in a field that fetishizes strategy decks and long-term planning.",
+      "related_zones": ["velocity", "data"]
+    },
+    {
+      "quoteId": "mayur-kamat-010",
+      "why": "Argues that company DNA is so strong that certain companies can never succeed at certain products regardless of resources -- challenges the 'anything is possible' startup mindset.",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "mayur-kamat-011",
+      "why": "Flips the common humble-brag of being 'so busy' on its head -- declares a packed calendar a sign of poor prioritization, not importance.",
+      "related_zones": ["focus", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["experimentation", "career-growth", "fintech", "velocity", "organizational-design"]
+  }
+}
