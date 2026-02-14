@@ -1,0 +1,194 @@
+{
+  "slug": "christine-itwaru",
+  "quotes": [
+    {
+      "id": "christine-itwaru-001",
+      "speaker": "Christine Itwaru",
+      "text": "Product operations is two things. One, it is a thing you do — the creation of some system that allows your team to thrive in product management. The second is the emergence of the role itself — people who are strong partners to the product manager and strategic advisors to the head of product.",
+      "timestamp": "00:05:11",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 65,
+        "lineEnd": 67
+      },
+      "themes": ["product-ops", "team-structure", "strategy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "christine-itwaru-002",
+      "speaker": "Christine Itwaru",
+      "text": "Speaking as a former PM, I would not ever give up spending time with customers and watching their pain. That's how I fell in love with product — I saw my internal customer 12 years back fighting with the keyboard, fighting with the mouse. If you don't want that, then don't be in product.",
+      "timestamp": "00:27:57",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 158
+      },
+      "themes": ["customer-obsession", "product-management", "empathy"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "christine-itwaru-003",
+      "speaker": "Christine Itwaru",
+      "text": "Do you want your PMs to constantly be fielding questions from your revenue team when they could be spending time with customers? That one seems to be the one that sticks. I can count on one hand the companies who have blocked their product managers from speaking to customers, and those companies are not product companies.",
+      "timestamp": "00:26:31",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 150
+      },
+      "themes": ["product-ops", "customer-access", "team-efficiency"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "christine-itwaru-004",
+      "speaker": "Christine Itwaru",
+      "text": "To say ops teams are generally a sign of inefficiency is not always accurate. It's generally a sign of growth and opportunity. People are really just trying to stay aligned and do the best for the people that are doing the thing — the product managing, the marketing, the selling within that org.",
+      "timestamp": "00:32:41",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 176,
+        "lineEnd": 177
+      },
+      "themes": ["operations", "growth", "organizational-design"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "christine-itwaru-005",
+      "speaker": "Christine Itwaru",
+      "text": "We as product ops want to and should be standing up whatever processes or systems are needed and then get out of the way so we can focus on driving more strategic value. I did what I said I was going to do — stand up the system, stand up the things that were going to either be given off to another team or automated.",
+      "timestamp": "00:33:58",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 179,
+        "lineEnd": 180
+      },
+      "themes": ["product-ops", "automation", "strategic-value"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "christine-itwaru-006",
+      "speaker": "Christine Itwaru",
+      "text": "Get into this role if you're comfortable letting go of things and moving on to something well worth your time. The company's going to change. Our process is going to need to be tweaked. Maybe ChatGPT is going to make things very clear that humans are not always going to be doing the same things.",
+      "timestamp": "00:34:56",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 186
+      },
+      "themes": ["career-advice", "adaptability", "change-management"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "christine-itwaru-007",
+      "speaker": "Christine Itwaru",
+      "text": "They knew something was coming, they just didn't know the extent of what to expect and how to prepare customers or prospects. There's knowing something's coming and then there's knowing what to do with it. You can use some status keeping thing, but it's what to do with it and how to position it that was missing.",
+      "timestamp": "00:38:42",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 206
+      },
+      "themes": ["launch-readiness", "transparency", "communication"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "christine-itwaru-008",
+      "speaker": "Christine Itwaru",
+      "text": "Our sales team was screaming for something and our success team was screaming for something else, but the product team was looking at something else. They're all wonderful relevant things, but they were talking about it separately. When we brought those folks in a room together, our head of professional services was like, 'Whoa, this could truly impact what we do.'",
+      "timestamp": "00:16:59",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["cross-functional", "voice-of-customer", "alignment"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "christine-itwaru-009",
+      "speaker": "Christine Itwaru",
+      "text": "Not everything requires a product change. If customers have friction around one area of the product, maybe it's enabling. Maybe we need to help you understand a little bit better so that you can make their experience better, or maybe it's just very simple things like updating documentation.",
+      "timestamp": "00:17:35",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 110,
+        "lineEnd": 110
+      },
+      "themes": ["problem-solving", "enablement", "efficiency"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "christine-itwaru-010",
+      "speaker": "Christine Itwaru",
+      "text": "The most successful product ops are the people that have their buy-in from their CEO or CPO at that level. You need to be able to articulate the value to somebody heading up businesses. The very mature product ops end up having people that are strategic advisors to a product leader.",
+      "timestamp": "00:25:32",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["product-ops", "leadership", "executive-buy-in"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "christine-itwaru-011",
+      "speaker": "Christine Itwaru",
+      "text": "We started bringing in engineers to customer meetings and the response was great. Some were flies on the wall. Some were actually engaging and it helped increase their confidence in speaking to customers. It ended up changing a lot of the way we started planning and making sure their voice had even more weight.",
+      "timestamp": "01:02:15",
+      "source": {
+        "slug": "christine-itwaru",
+        "path": "episodes/christine-itwaru/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 335
+      },
+      "themes": ["engineering-collaboration", "customer-research", "team-culture"],
+      "zones": ["discovery", "alignment"]
+    }
+  ],
+  "themes": ["product-ops", "team-structure", "strategy", "customer-obsession", "product-management", "empathy", "customer-access", "team-efficiency", "operations", "growth", "organizational-design", "automation", "strategic-value", "career-advice", "adaptability", "change-management", "launch-readiness", "transparency", "communication", "cross-functional", "voice-of-customer", "alignment", "problem-solving", "enablement", "efficiency", "leadership", "executive-buy-in", "engineering-collaboration", "customer-research", "team-culture"],
+  "takeaways": [
+    "Product ops is both a system you create AND a role — the distinction matters because sometimes you need processes and tools, not necessarily another person",
+    "The core thing a PM should never give up is spending time with customers and watching their pain — product ops exists to free PMs to focus on this, not replace it",
+    "Ops teams are not a sign of inefficiency but of growth — they emerge naturally as functions mature, helping maintain alignment across rapidly scaling organizations",
+    "Product ops should build systems and then get out of the way — the goal is to automate repeatable work and evolve into a strategic advisory role, not become permanent process managers",
+    "Bringing engineers into customer meetings is a simple yet transformative change that shifts planning dynamics and gives engineering voices more weight in the product development lifecycle"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.35,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "christine-itwaru-004",
+      "why": "Directly pushes back on the popular take that ops roles are a sign of inefficiency — argues they're actually a sign of growth and opportunity",
+      "related_zones": ["alignment", "velocity"]
+    },
+    {
+      "quoteId": "christine-itwaru-009",
+      "why": "Challenges the default PM instinct that every customer friction requires a product change — sometimes it's just better enablement or documentation",
+      "related_zones": ["focus", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-ops", "team-alignment", "voice-of-customer"]
+  }
+}

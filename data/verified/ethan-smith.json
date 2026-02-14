@@ -1,0 +1,194 @@
+{
+  "slug": "ethan-smith",
+  "quotes": [
+    {
+      "id": "ethan-smith-001",
+      "speaker": "Ethan Smith",
+      "text": "Anything can be optimized. You just need to understand the underlying systems and the rules of the game, and if you do that, then you can optimize anything. You can optimize algorithms, you can optimize people, anything could be optimized.",
+      "timestamp": "00:08:56",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["optimization", "systems thinking", "growth"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "ethan-smith-002",
+      "speaker": "Ethan Smith",
+      "text": "The LLM is summarizing many citations and so you need to get mentioned as many times as possible. Usually when you ask something like what's the best tool for X, the first answer will be mentioned the most in the citations, because that's very different from Google.",
+      "timestamp": "00:10:59",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 217,
+        "lineEnd": 217
+      },
+      "themes": ["AEO", "LLMs", "citation strategy"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "ethan-smith-003",
+      "speaker": "Ethan Smith",
+      "text": "For Google, it's usually something that you do Series A, Series B or later. You don't do it as soon as you start because you can't win early on. That's not the case for Answer Engine Optimization, because you can get mentioned by a citation tomorrow and start showing up immediately. Early-stage companies can win, they can win quickly.",
+      "timestamp": "00:12:23",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 238
+      },
+      "themes": ["AEO", "startups", "growth strategy"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "ethan-smith-004",
+      "speaker": "Ethan Smith",
+      "text": "We saw a 6X conversion rate difference between LLM traffic and Google Search traffic. It's probably because you're so primed because you're having a conversation with multiple follow-ups, and so there's so much intent that you've built. You've probably really narrowed in on what you want.",
+      "timestamp": "00:14:44",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 271
+      },
+      "themes": ["conversion", "LLM traffic", "data insights"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "ethan-smith-005",
+      "speaker": "Ethan Smith",
+      "text": "The Reddit strategy is the obvious strategy, which is just to be an actual user of Reddit. Make an account, say who you are, say where you work, and give a useful answer. You don't actually need 10,000 comments, even five could be great and that scales perfectly well.",
+      "timestamp": "00:18:30",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 319
+      },
+      "themes": ["Reddit", "authenticity", "community"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "ethan-smith-006",
+      "speaker": "Ethan Smith",
+      "text": "Most best practices, most blog posts are not correct. Somebody will say something and then it will get repeated, and then it becomes best practice and no one ever did an analysis. Do an experiment and see if it worked. Do your own experiment.",
+      "timestamp": "00:32:13",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 470,
+        "lineEnd": 473
+      },
+      "themes": ["experimentation", "skepticism", "data-driven"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "ethan-smith-007",
+      "speaker": "Ethan Smith",
+      "text": "One out of 20 landing pages drive roughly 85% of all your traffic. So 19 out of 20 landing pages drive little to no traffic. If I want to get ROI, I need to spend a small amount of money on a large number of pages. But if you knew the few things that would work, you could push all that money to that one page.",
+      "timestamp": "00:25:40",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 409,
+        "lineEnd": 412
+      },
+      "themes": ["SEO", "efficiency", "resource allocation"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "ethan-smith-008",
+      "speaker": "Ethan Smith",
+      "text": "There's significant misinformation on AEO. Every two years there's news articles about how Google Search is going to die because there's a new thing. Google's slice of the pie stays the same. The pie gets bigger. These are all new channels, they add on top of Google.",
+      "timestamp": "00:47:18",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 667,
+        "lineEnd": 673
+      },
+      "themes": ["misinformation", "Google", "market analysis"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "ethan-smith-009",
+      "speaker": "Ethan Smith",
+      "text": "AI-generated content does not work. AI-assisted content edited is great. We did a very rigorous study showing purely 100% AI-generated does not work. There's more AI-generated content on the internet than human-generated content, which is disturbing.",
+      "timestamp": "00:54:29",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 739,
+        "lineEnd": 743
+      },
+      "themes": ["AI content", "quality", "research"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "ethan-smith-010",
+      "speaker": "Ethan Smith",
+      "text": "If you feed derivatives of derivatives into the model, you'll basically take the wisdom of the crowd and that will shrink and you'll have a single opinion on everything, which is really bad. So if you ask what's the best flavor of ice cream, it will eventually say it's vanilla and it's only vanilla.",
+      "timestamp": "00:57:40",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 767,
+        "lineEnd": 775
+      },
+      "themes": ["model collapse", "AI risks", "content quality"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "ethan-smith-011",
+      "speaker": "Ethan Smith",
+      "text": "Help center optimization is probably the most exciting topic. People in chat are asking follow-up questions about your features, use cases, integrations. A help center is a great place to answer that. Move it from a subdomain to a subdirectory. Cross-link well. Fill in the tail of questions no one else is answering.",
+      "timestamp": "01:00:54",
+      "source": {
+        "slug": "ethan-smith",
+        "path": "episodes/ethan-smith/transcript.md",
+        "lineStart": 814,
+        "lineEnd": 832
+      },
+      "themes": ["help center SEO", "long tail", "AEO tactics"],
+      "zones": ["discovery", "data"]
+    }
+  ],
+  "themes": ["AEO", "SEO", "LLMs", "experimentation", "data-driven", "citation strategy", "Reddit", "content quality", "AI content", "growth strategy"],
+  "takeaways": [
+    "Answer Engine Optimization (AEO) levels the playing field for startups - unlike traditional SEO which requires domain authority built over years, early-stage companies can show up in LLM answers immediately through citation optimization.",
+    "LLM traffic converts at 6X the rate of Google Search traffic because users build deep intent through multi-turn conversations before clicking through.",
+    "The most effective Reddit strategy for AEO is authenticity - make a real account, say who you are and where you work, and give genuinely useful answers rather than trying to spam with fake accounts.",
+    "Most SEO and AEO best practices are not correct because nobody did the analysis - always run your own controlled experiments with test and control groups and verify reproducibility.",
+    "Pure AI-generated content does not work for SEO or AEO and leads to model collapse - AI-assisted content with human editing is the sustainable future of content creation."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.35,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ethan-smith-008",
+      "why": "Pushes back on the widely repeated narrative that Google Search is dying due to AI - argues the pie is growing, not shifting",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "ethan-smith-006",
+      "why": "Claims most SEO best practices and blog posts are simply wrong because no one bothers to actually run experiments",
+      "related_zones": ["data", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["SEO", "AEO", "growth marketing"]
+  }
+}
