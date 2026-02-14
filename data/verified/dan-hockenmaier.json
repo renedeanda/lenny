@@ -1,0 +1,194 @@
+{
+  "slug": "dan-hockenmaier",
+  "quotes": [
+    {
+      "id": "dan-hockenmaier-q001",
+      "speaker": "Dan Hockenmaier",
+      "text": "I think 50% of the value you get from it is simply building the model. It forces you to understand it and then you get this artifact which you can use to understand how to weigh different opportunities or understand the benefit of working on different things. I think importantly it is not a forecasting tool.",
+      "timestamp": "00:06:37",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 113,
+        "lineEnd": 114
+      },
+      "themes": ["growth-models", "strategy", "planning"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "dan-hockenmaier-q002",
+      "speaker": "Dan Hockenmaier",
+      "text": "One of the immediate things that you see when you build these is that your growth is much more sensitive to customer retention than you can ever intuit because there's a lot of interaction between having a healthy retained customer base and everything else you care about, which is the rate at which they're referring new customers, generating content, generating contribution margin.",
+      "timestamp": "00:16:00",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 204
+      },
+      "themes": ["retention", "growth-models", "metrics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "dan-hockenmaier-q003",
+      "speaker": "Dan Hockenmaier",
+      "text": "Very often I think the biggest wins in retention come from inflecting the early user experience. So if you're at three, six, twelve months out, usually a customer has formed a pretty strong opinion about whether or not they like this product. But in that very first experience, you have a lot of opportunity to teach them about why this is a valuable product.",
+      "timestamp": "00:21:49",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 240
+      },
+      "themes": ["retention", "onboarding", "user-experience"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "dan-hockenmaier-q004",
+      "speaker": "Dan Hockenmaier",
+      "text": "I think one of the most common analytical failure modes is this pattern, which is our best users do X, so why can't we make other users do that same thing and then drive future attention. It almost never works that way because there's something unique about that customer and their experience which is driving it.",
+      "timestamp": "00:23:41",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 249,
+        "lineEnd": 249
+      },
+      "themes": ["analytics", "correlation-vs-causation", "data"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "dan-hockenmaier-q005",
+      "speaker": "Dan Hockenmaier",
+      "text": "If you think about running a marketplace, you're basically like a gardener. You have to have a very light touch. If you're building a SaaS business, you're a construction worker, you're building the product and the features and selling it, and it's this very linear thing. For a marketplace, you're messing with this ecosystem that you don't actually really understand how it works.",
+      "timestamp": "00:40:52",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 375
+      },
+      "themes": ["marketplaces", "strategy", "ecosystem"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "dan-hockenmaier-q006",
+      "speaker": "Dan Hockenmaier",
+      "text": "I think ultimately demand is the only thing that matters. If you are successful at aggregating the demand in your industry, you will have the winning marketplace. Because if you go to a supplier, a restaurant or an electrician or a driver and say, 'I have this customer for you that I can give to you at a rate that's going to make you money,' they're always going to say yes.",
+      "timestamp": "00:34:00",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 330
+      },
+      "themes": ["marketplaces", "demand", "strategy"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "dan-hockenmaier-q007",
+      "speaker": "Dan Hockenmaier",
+      "text": "If you could tell me we could grow GMV 10% by getting 10% more customers or by getting 10% more of our current customers' wallet, I would take the latter because you now have a deeper relationship with them, which tells you something more about the future retention and defensibility of the marketplace. So I think it's basically a measure of depth rather than breadth. And I will take depth every time in a marketplace.",
+      "timestamp": "00:32:30",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 309
+      },
+      "themes": ["share-of-wallet", "marketplaces", "defensibility"],
+      "zones": ["focus", "data", "alignment"]
+    },
+    {
+      "id": "dan-hockenmaier-q008",
+      "speaker": "Dan Hockenmaier",
+      "text": "I've learned over and over and over that that's actually not the main thing. It's who can deliver an incredible end-to-end customer experience first, even if for a smaller number of customers. Because that's what creates the flame where actually customers are really loving it, retained, talking about it, and you can then expand from there.",
+      "timestamp": "00:45:33",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 417,
+        "lineEnd": 417
+      },
+      "themes": ["customer-experience", "expansion", "product"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "dan-hockenmaier-q009",
+      "speaker": "Dan Hockenmaier",
+      "text": "Broadly though, I think that we over hyped the idea of unbundling. I think the core logical error in the argument for unbundling is that they over focus on one type of improvement, which is user experience and they under focus on the things that make scale businesses have better economics.",
+      "timestamp": "00:50:18",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 450
+      },
+      "themes": ["unbundling", "marketplaces", "strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "dan-hockenmaier-q010",
+      "speaker": "Dan Hockenmaier",
+      "text": "It's easier for a marketplace to go SaaS than it is the other direction and the reason for that is two things. One is it's a new capability to generate demand, which is fundamentally what a marketplace has to do, and it's a higher value activity. And second is the marketplace by definition starts with relationships on both sides. But the SaaS business does not have any relationships with the demand side customer.",
+      "timestamp": "00:47:17",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 429
+      },
+      "themes": ["marketplace-vs-saas", "business-models", "strategy"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "dan-hockenmaier-q011",
+      "speaker": "Dan Hockenmaier",
+      "text": "Newer marketplaces are charging higher commissions and they're doing more work to justify those commissions. So broadly the evolution looks like kind of Marketplace 1.0, which is all they're doing is aggregating demand. Then you have a managed marketplace like Airbnb or Etsy, which did something really fundamental on top of that, which is generated trust.",
+      "timestamp": "00:58:54",
+      "source": {
+        "slug": "dan-hockenmaier",
+        "path": "episodes/dan-hockenmaier/transcript.md",
+        "lineStart": 507,
+        "lineEnd": 510
+      },
+      "themes": ["marketplace-evolution", "trust", "business-models"],
+      "zones": ["discovery", "data"]
+    }
+  ],
+  "themes": ["growth-models", "marketplaces", "retention", "strategy", "share-of-wallet", "demand", "unbundling", "analytics", "customer-experience", "business-models"],
+  "takeaways": [
+    "Half the value of building a growth model is the process itself - it forces you to understand how your business truly works and where you have leverage, not just forecast revenue.",
+    "Retention is far more sensitive to growth than you can intuit, and the biggest wins come from inflecting the early user experience rather than resurrecting churned users.",
+    "In marketplaces, demand is the only thing that ultimately matters - if you aggregate the demand, supply will always follow because suppliers want customers.",
+    "Share of wallet (depth) beats new customer acquisition (breadth) in a marketplace because deeper relationships create stronger retention and defensibility against competitors.",
+    "The unbundling thesis is overhyped - vertical competitors can improve UX but rarely overcome the economics advantages of horizontal platforms with higher LTV and stronger network effects."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.30,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dan-hockenmaier-q004",
+      "why": "Argues that correlational analysis of best users is one of the most common analytical failure modes - challenges the widespread practice of modeling aha moments from power users",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "dan-hockenmaier-q009",
+      "why": "Claims unbundling is overhyped and the core logical error is over-focusing on UX improvements while ignoring economic advantages of scale",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth-models", "marketplaces", "retention", "strategy"]
+  }
+}

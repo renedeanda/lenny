@@ -1,0 +1,194 @@
+{
+  "slug": "austin-hay",
+  "quotes": [
+    {
+      "id": "austin-hay-q001",
+      "speaker": "Austin Hay",
+      "text": "Marketing technology is a product manager whose specific role and focus is the system or the third party or first party platform because marketing technology can mean a collection of third party tools, but as a company scales and grows actually it could include a collection of first party homegrown solutions that you build yourself.",
+      "timestamp": "00:04:35",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 66,
+        "lineEnd": 66
+      },
+      "themes": ["martech", "systems-thinking", "product-management"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "austin-hay-q002",
+      "speaker": "Austin Hay",
+      "text": "Tools are just meant to solve problems. And the problem set for marketing technologists and business technologists is you focus on the tools.",
+      "timestamp": "00:10:11",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 93
+      },
+      "themes": ["tools", "problem-solving", "frameworks"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "austin-hay-q003",
+      "speaker": "Austin Hay",
+      "text": "Everybody thinks that marketing technology is just the third party tools, but actually it's designing, architecting and building that stuff on top of your third party tools. That's how you actually have a lot of velocity. It's not just build versus buy. It's build and buy now. You buy the tool to get 90% of the way there and then you build the cool thing on top with the other 10%.",
+      "timestamp": "00:11:35",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 101,
+        "lineEnd": 102
+      },
+      "themes": ["build-vs-buy", "architecture", "velocity"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "austin-hay-q004",
+      "speaker": "Austin Hay",
+      "text": "I think you should always be thinking about the future. That doesn't necessarily mean you should make design choices that over index towards the future so much that you miss product market fit or you make poor product decisions. But when you set up tools and you pick tools and you implement them, you should be thinking, what's going to happen a year from now if I don't change anything?",
+      "timestamp": "00:24:02",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 171
+      },
+      "themes": ["future-proofing", "systems-design", "trade-offs"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "austin-hay-q005",
+      "speaker": "Austin Hay",
+      "text": "I am paying a lot of attention to how marketers make decisions with probabilistic data because most of the work that I'm doing now is actually saying, well, given that we don't have deterministic data about a certain audience or where somebody came from, how can I find other information that will create a model for 30% of the population and we can use that to extrapolate to a hundred.",
+      "timestamp": "00:52:35",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 332,
+        "lineEnd": 333
+      },
+      "themes": ["probabilistic-data", "attribution", "decision-making"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "austin-hay-q006",
+      "speaker": "Austin Hay",
+      "text": "The most superhuman user acquisition people out there are engineers and they don't need a marketing technologist because they set up the tool themselves. They know how the paid campaign runs and they just do it all. You'll typically find these super humans at small startups where the engineer is just told by the co-founder, hey, go figure out how Facebook ads work.",
+      "timestamp": "00:26:21",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 183
+      },
+      "themes": ["engineering", "growth", "scrappiness"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "austin-hay-q007",
+      "speaker": "Austin Hay",
+      "text": "The secret sauce is more of how good of a cross-functional team player are they. I almost view them like a true quarterback. Because marketing technology lives between so many departments, it plays that role of having to call plays and pull on different departments.",
+      "timestamp": "00:19:10",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 138
+      },
+      "themes": ["cross-functional", "collaboration", "hiring"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "austin-hay-q008",
+      "speaker": "Austin Hay",
+      "text": "One of the things I tell people who are debating this is let's just get the infrastructure right from the beginning. Let's set up so that you have users, you have user attributes, you're collecting first and last UTM on users. That way when you actually want to progress your attribution model, you don't have to wait a really long time to start gathering that data.",
+      "timestamp": "00:47:55",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 306
+      },
+      "themes": ["attribution", "data-infrastructure", "future-proofing"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "austin-hay-q009",
+      "speaker": "Austin Hay",
+      "text": "The concept of thinking gray is so often in life and in our jobs, we are forced to make decisions very quickly. We have to think black or white about a problem set or a solution, and then decide. One of his tactics is this concept of thinking gray, which is actually to not decide for as long as you possibly can before you have to decide.",
+      "timestamp": "01:11:27",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 462
+      },
+      "themes": ["decision-making", "patience", "leadership"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "austin-hay-q010",
+      "speaker": "Austin Hay",
+      "text": "There's this PPS framework that I talk about a lot, which is problem, people and system. Whenever there's a challenge that comes up, I like to first say what's the problem? Who are the people involved and what system does it impact? Usually because people just jump straight to the system.",
+      "timestamp": "01:06:16",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 426,
+        "lineEnd": 426
+      },
+      "themes": ["frameworks", "problem-solving", "systems-thinking"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "austin-hay-q011",
+      "speaker": "Austin Hay",
+      "text": "I really like to hire people who are not tool specific, who are more tool agnostic and they think about tools as being things to solve problems as opposed to tools being things that you just solve because you've already solved it one way. Problems are not always the same. So, tools shouldn't always be the same.",
+      "timestamp": "01:02:12",
+      "source": {
+        "slug": "austin-hay",
+        "path": "episodes/austin-hay/transcript.md",
+        "lineStart": 384,
+        "lineEnd": 387
+      },
+      "themes": ["hiring", "problem-solving", "adaptability"],
+      "zones": ["discovery", "focus"]
+    }
+  ],
+  "themes": ["martech", "systems-thinking", "product-management", "tools", "problem-solving", "frameworks", "build-vs-buy", "architecture", "velocity", "future-proofing", "systems-design", "trade-offs", "probabilistic-data", "attribution", "decision-making", "engineering", "growth", "scrappiness", "cross-functional", "collaboration", "hiring", "data-infrastructure", "patience", "leadership", "adaptability"],
+  "takeaways": [
+    "Marketing technology is fundamentally a product management discipline focused on systems and platforms -- not just picking third-party tools, but architecting solutions that combine bought and built components.",
+    "The 'build AND buy' framework beats 'build vs buy' -- buy the tool to get 90% there, then build the custom 10% on top for maximum velocity and differentiation.",
+    "Future-proof your data infrastructure from day one by collecting first and last UTM attribution data on users and events, so you're ready for multi-touch attribution when the time comes.",
+    "In a post-IDFA world, marketers must become comfortable making decisions with probabilistic rather than deterministic data, using models built from partial population data to extrapolate insights.",
+    "The 'thinking gray' philosophy -- deliberately delaying decisions as long as possible before you must decide -- leads to better outcomes in systems design, hiring, and leadership."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.25,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "austin-hay-q009",
+      "why": "Challenges the bias-to-action culture in tech by arguing that deliberately NOT deciding for as long as possible leads to better outcomes.",
+      "related_zones": ["intuition", "focus"]
+    },
+    {
+      "quoteId": "austin-hay-q003",
+      "why": "Reframes the classic 'build vs buy' debate as a false dichotomy, arguing teams should always do both simultaneously for maximum velocity.",
+      "related_zones": ["velocity", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["martech", "data-infrastructure", "attribution"]
+  }
+}

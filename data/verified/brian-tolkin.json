@@ -1,0 +1,194 @@
+{
+  "slug": "brian-tolkin",
+  "quotes": [
+    {
+      "id": "brian-tolkin-001",
+      "speaker": "Brian Tolkin",
+      "text": "Uber always has this mentality and Opendoor does too of a twin turbine jet plane where you can fly the plane on one engine for a little bit if you need to, but it's operating most efficiently and effectively if both are working together.",
+      "timestamp": "00:06:56",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 94
+      },
+      "themes": ["product-ops", "operations", "teamwork"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "brian-tolkin-002",
+      "speaker": "Brian Tolkin",
+      "text": "The real world has entropy and it's hard and it's messy. Computers are deterministic, but humans aren't. And so building products that have a little bit more flex or a little bit more fail safes in case those things happen becomes a little bit more paramount.",
+      "timestamp": "00:19:11",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 181
+      },
+      "themes": ["product-design", "resilience", "operations"],
+      "zones": ["chaos", "perfection"]
+    },
+    {
+      "id": "brian-tolkin-003",
+      "speaker": "Brian Tolkin",
+      "text": "Most importantly, I think the primary goal is to help make the product better, to help the teams think through a problem. Product reviews hopefully are not feeling like firing squads. That's a scary environment to be in and not necessarily one that's conducive to how do we make the product better.",
+      "timestamp": "00:26:43",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 235,
+        "lineEnd": 235
+      },
+      "themes": ["product-reviews", "leadership", "culture"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "brian-tolkin-004",
+      "speaker": "Brian Tolkin",
+      "text": "I am a firm believer that the people closest to the problems also have the best context to solve that problem. As a more senior voice in the room, often the job is probing, asking questions, throwing out ideas in a way that says, 'This is not a mandate, this is a thought.'",
+      "timestamp": "00:27:43",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 241,
+        "lineEnd": 241
+      },
+      "themes": ["leadership", "empowerment", "decision-making"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "brian-tolkin-005",
+      "speaker": "Brian Tolkin",
+      "text": "What I really like about jobs to be done is it forces you to put yourself in the customer's shoes in a slightly deeper way. Most people at Opendoor, we don't have homes to sell every week. On average in the US it's something people do once every seven years. So it's a little bit harder to be a customer.",
+      "timestamp": "00:32:17",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 286,
+        "lineEnd": 289
+      },
+      "themes": ["jobs-to-be-done", "customer-empathy", "frameworks"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "brian-tolkin-006",
+      "speaker": "Brian Tolkin",
+      "text": "Don't just force yourself into A/B testing without running the power analysis. Be honest, is that acceptable? And if there are parts of your funnel that are low end and you can't run a canonical A/B test, how might you otherwise increase your conviction in the solution that you're building?",
+      "timestamp": "00:40:29",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 364
+      },
+      "themes": ["experimentation", "data-driven", "A/B-testing"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "brian-tolkin-007",
+      "speaker": "Brian Tolkin",
+      "text": "If you're not going to get significance, if there's no other techniques at your disposal, then sometimes you just got to trust your intuition and ship it. You shouldn't spend time trying to get false precision.",
+      "timestamp": "00:43:28",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["intuition", "decision-making", "shipping"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "brian-tolkin-008",
+      "speaker": "Brian Tolkin",
+      "text": "The business is challenging and it's complex from a number of different dimensions. You have to be really good at pricing, product, operations, risk, and capital markets. And so you have to put all of these functions together to build a vertically integrated product. That's been in Opendoor's DNA from day one.",
+      "timestamp": "00:48:58",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 403,
+        "lineEnd": 403
+      },
+      "themes": ["vertical-integration", "competitive-advantage", "strategy"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "brian-tolkin-009",
+      "speaker": "Brian Tolkin",
+      "text": "When you reflect the stress onto your teams, everybody tenses up and tightens up. And so it counterintuitively doesn't produce better outcomes. You're never as good as you think you are. You're never as bad as you think you are. That more even keeled demeanor allows you to have a clearer head.",
+      "timestamp": "00:53:18",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 436,
+        "lineEnd": 436
+      },
+      "themes": ["leadership", "resilience", "calm-under-pressure"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "brian-tolkin-010",
+      "speaker": "Brian Tolkin",
+      "text": "The core job is to understand what really matters. What is noise? What is a good idea, what is a suggestion, and what is really going to move the customer forward? Unfortunately that means saying no to maybe what sounds like some good ideas along the way.",
+      "timestamp": "00:56:33",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 457,
+        "lineEnd": 457
+      },
+      "themes": ["prioritization", "focus", "product-sense"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "brian-tolkin-011",
+      "speaker": "Brian Tolkin",
+      "text": "We try to be competition aware, but not necessarily competition focused. A vast majority of people still move the traditional way. So if we just stay super focused on who are the customers that we serve really well, there's a confidence that comes from being able to stay focused regardless of the competitive environment.",
+      "timestamp": "00:50:46",
+      "source": {
+        "slug": "brian-tolkin",
+        "path": "episodes/brian-tolkin/transcript.md",
+        "lineStart": 415,
+        "lineEnd": 418
+      },
+      "themes": ["competition", "strategy", "focus"],
+      "zones": ["focus", "discovery"]
+    }
+  ],
+  "themes": ["product-ops", "operations", "teamwork", "product-design", "resilience", "product-reviews", "leadership", "culture", "empowerment", "decision-making", "jobs-to-be-done", "customer-empathy", "frameworks", "experimentation", "data-driven", "A/B-testing", "intuition", "shipping", "vertical-integration", "competitive-advantage", "strategy", "calm-under-pressure", "prioritization", "focus", "product-sense", "competition"],
+  "takeaways": [
+    "Product and operations teams function best as a twin turbine engine — they need mutual respect and a strong bidirectional feedback loop to maximize efficiency",
+    "Product reviews should be safe spaces focused on making the product better, not firing squads — leaders should probe and suggest rather than mandate",
+    "Jobs to be done is most valuable when you can't easily be your own customer, forcing deeper empathy and understanding of the full context around purchasing decisions",
+    "When A/B testing isn't statistically viable, don't chase false precision — use alternative conviction-building techniques like customer interviews, observational data, or simply trust your intuition and ship",
+    "Vertical integration is a genuine competitive moat — it requires excellence across pricing, product, operations, risk, and capital markets simultaneously, making it extremely hard to replicate"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.20,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "brian-tolkin-007",
+      "why": "Argues against over-reliance on data by saying sometimes you just have to trust intuition and ship — warns against the trap of false precision",
+      "related_zones": ["intuition", "velocity"]
+    },
+    {
+      "quoteId": "brian-tolkin-002",
+      "why": "Challenges the Silicon Valley ideal of purely deterministic product design by emphasizing that real-world entropy means products need built-in flexibility and fail safes",
+      "related_zones": ["chaos", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-ops", "scaling", "experimentation"]
+  }
+}
