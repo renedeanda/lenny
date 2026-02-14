@@ -1,0 +1,199 @@
+{
+  "slug": "julia-schottenstein",
+  "quotes": [
+    {
+      "id": "julia-schottenstein-q001",
+      "speaker": "Julia Schottenstein",
+      "text": "M&A is always about creating plan Bs. For any one company, there's only ever two to three buyers that find what you're building to be extremely strategic. The strategy I would do in how do you get noticed is I would figure out the area that you bring a competitive advantage. And I would inflict pain on that potential buyer. Make it impossible for them to not notice you.",
+      "timestamp": "00:14:49",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 123
+      },
+      "themes": ["m-and-a", "strategy", "competitive-advantage"],
+      "zones": ["velocity", "chaos", "focus"]
+    },
+    {
+      "id": "julia-schottenstein-q002",
+      "speaker": "Julia Schottenstein",
+      "text": "You want to do that in a way that's still friendly and open. I see a lot of founders get this wrong and they prematurely will shut down a conversation or they won't talk to an incumbent or a potential future buyer because they take too competitive of a stance. M&A is all about creating plan Bs and you don't want to shut that door down prematurely because you don't know if you can really go the distance.",
+      "timestamp": "00:15:25",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 127
+      },
+      "themes": ["m-and-a", "strategy", "founder-advice", "optionality"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "julia-schottenstein-q003",
+      "speaker": "Julia Schottenstein",
+      "text": "There are four things that I care about when I'm looking at really early stage companies and it's people, market, product and distribution. People is really the CEO, the founder -- do you trust this person to lead. Markets -- is it growing? Is there space for a new entrant? Product -- can you hear that spark, that enthusiasm? And distribution -- do they have an advantage on how they're going to get to market?",
+      "timestamp": "00:08:52",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 102
+      },
+      "themes": ["investing", "startup-evaluation", "product-market-fit", "distribution"],
+      "zones": ["discovery", "data", "velocity"]
+    },
+    {
+      "id": "julia-schottenstein-q004",
+      "speaker": "Julia Schottenstein",
+      "text": "dbt was really this belief that if you know SQL, we want to invite you to do these workflows that were traditionally held by data engineers but you had to earn that. So dbt has this nice framework where it's harder to mess up, keeps data quality really high, but it is pretty simple to get started and learn. That was really the unlock in the industry.",
+      "timestamp": "00:21:37",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 159
+      },
+      "themes": ["product-strategy", "simplicity", "developer-tools", "open-source"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "julia-schottenstein-q005",
+      "speaker": "Julia Schottenstein",
+      "text": "Pricing and willingness to pay is such a hard conversation and lots of startups don't do this early enough in their company journey. Madhavan shares that you don't get to decide if you're going to have a pricing or willingness to pay conversation. You only get to decide what. So it's much better to have that conversation before you build the product.",
+      "timestamp": "00:32:09",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 231
+      },
+      "themes": ["pricing", "willingness-to-pay", "product-strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "julia-schottenstein-q006",
+      "speaker": "Julia Schottenstein",
+      "text": "At dbt Labs we have this value, it's one of our core values that says we are more concerned with value creation than value capture. When we talk about what is the value of dbt Labs to our customers, they often talk about how it's either 20 to 35% as valuable as what they spend on their cloud data warehouse. But what we charge our customers is a very small fraction of that.",
+      "timestamp": "00:33:04",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["pricing", "values", "value-creation", "culture"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "julia-schottenstein-q007",
+      "speaker": "Julia Schottenstein",
+      "text": "Worse is better and tech debt is a champagne problem. Perfect doesn't exist and you should instead go with good enough because when you ship, that's the moment when you get to learn a lot from your users and you just can't anticipate it. You try very hard to understand exactly how people will use the product and get all the edges ironed out. But you can't until you ship.",
+      "timestamp": "00:52:10",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 345,
+        "lineEnd": 345
+      },
+      "themes": ["shipping", "iteration", "perfectionism", "product-development"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "julia-schottenstein-q008",
+      "speaker": "Julia Schottenstein",
+      "text": "The initial version of the dbt cloud scheduler was pretty naive. We were a little embarrassed by it. It was a big old for loop over a big old jobs table. It's extremely naive and very simple, but it got the job done. We would be so lucky to have tech debt because that means people are using the product.",
+      "timestamp": "00:53:02",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 348,
+        "lineEnd": 348
+      },
+      "themes": ["shipping", "tech-debt", "pragmatism", "iteration"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "julia-schottenstein-q009",
+      "speaker": "Julia Schottenstein",
+      "text": "We recently codified our philosophy when it comes to competition. The first is hold true to our vision. The second philosophy is a grow the pie philosophy -- work with our partners to make the opportunity set even larger. And the last one is lean into our strengths. We want to leave space for our ecosystem to offer solutions to our users.",
+      "timestamp": "00:18:15",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 150
+      },
+      "themes": ["competition", "strategy", "ecosystem", "partnerships"],
+      "zones": ["focus", "alignment", "discovery"]
+    },
+    {
+      "id": "julia-schottenstein-q010",
+      "speaker": "Julia Schottenstein",
+      "text": "I still spend a lot of time investing in my network and I think it's an underrated way for a PM to spend their time. I try to build a network of operators at other companies that are like dbt Labs that are growing nicely, maybe a little bit ahead of where we are. And I ask them questions, how did you navigate open source? Pricing? Acquisitions? Then I take the best ideas and bring it back.",
+      "timestamp": "00:55:17",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 357
+      },
+      "themes": ["networking", "learning", "product-management", "benchmarking"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "julia-schottenstein-q011",
+      "speaker": "Julia Schottenstein",
+      "text": "In investing, you're constantly thinking about risk and the power laws. Most investments don't work out. But all the returns come from these rare events that make up for all the losses. In product, you still have to do the same thing. If 50% of the things I worked on went to zero, we'd have a problem. But it encourages me to continue to make bets that have the chance of bending the trajectory of our business.",
+      "timestamp": "00:56:18",
+      "source": {
+        "slug": "julia-schottenstein",
+        "path": "episodes/julia-schottenstein/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["risk", "investing", "product-strategy", "power-laws"],
+      "zones": ["chaos", "velocity", "discovery"]
+    }
+  ],
+  "themes": ["m-and-a", "strategy", "competitive-advantage", "founder-advice", "optionality", "investing", "startup-evaluation", "product-market-fit", "distribution", "product-strategy", "simplicity", "developer-tools", "open-source", "pricing", "willingness-to-pay", "values", "value-creation", "culture", "shipping", "iteration", "perfectionism", "product-development", "tech-debt", "pragmatism", "competition", "ecosystem", "partnerships", "networking", "learning", "product-management", "benchmarking", "risk", "power-laws"],
+  "takeaways": [
+    "Inflict pain on potential acquirers to make them notice you, but do it with a smile -- keep the door open because M&A is about creating plan Bs, not burning bridges.",
+    "Evaluate early-stage companies on four dimensions: people, market, product, and distribution -- and recognize you won't get a 10/10 on all four.",
+    "Worse is better and tech debt is a champagne problem -- ship the naive solution, learn from real users, and only rebuild when scale demands it.",
+    "Have the pricing and willingness-to-pay conversation before you build the product, not when your sales team is already struggling to close deals.",
+    "Apply power-law thinking from investing to product bets: make bold bets that can bend your trajectory rather than incremental ones that play it safe."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.20,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "julia-schottenstein-q001",
+      "why": "Advises startups to deliberately inflict competitive pain on potential acquirers while remaining friendly -- a counterintuitive dual strategy",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "julia-schottenstein-q007",
+      "why": "Embraces 'worse is better' as a product philosophy and calls tech debt a champagne problem, pushing back against engineering perfectionism",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "julia-schottenstein-q008",
+      "why": "Proudly describes shipping an embarrassingly naive scheduler (a simple for-loop) that successfully scaled to thousands of customers",
+      "related_zones": ["velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["m-and-a", "pricing", "competition", "open-source", "product-strategy"]
+  }
+}

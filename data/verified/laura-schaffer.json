@@ -1,0 +1,199 @@
+{
+  "slug": "laura-schaffer",
+  "quotes": [
+    {
+      "id": "laura-schaffer-q001",
+      "speaker": "Laura Schaffer",
+      "text": "Your executive team and executive teams at companies are often very sharp, but the nature of their day-to-day just does not link them with customers. And that means that over time, especially as a company grows, they often lose access to some of the best insights and in the heartbeat of the people who they're providing value to.",
+      "timestamp": "00:09:06",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 118
+      },
+      "themes": ["career-growth", "customer-insights", "leadership"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "laura-schaffer-q002",
+      "speaker": "Laura Schaffer",
+      "text": "We just asked for forgiveness and put these questions into the signup flow and ran as Navy test with a small group. And I'm fully expecting, 'Okay, this is going to hurt our numbers.' We start to get the data for this thing. I'm not kidding, an improved conversion. There's no personalization, nothing past it, just the questions. An improved conversion by like 5%, just improved signups.",
+      "timestamp": "00:23:03",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 208
+      },
+      "themes": ["experimentation", "onboarding", "conversion", "growth"],
+      "zones": ["data", "velocity", "discovery"]
+    },
+    {
+      "id": "laura-schaffer-q003",
+      "speaker": "Laura Schaffer",
+      "text": "When users are signing up for your product for the very first time, it's new. This is new, that means it's scary. They're expecting it to be difficult. They're anticipating that there's going to be friction and challenges and that they're not going to figure it out. Almost like looking for the bogeyman.",
+      "timestamp": "00:24:01",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["user-psychology", "onboarding", "conversion"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "laura-schaffer-q004",
+      "speaker": "Laura Schaffer",
+      "text": "Bad friction is bad, and good friction is good. There's no such thing as it being simple. It's just all friction is bad, which is what I had assumed going into this.",
+      "timestamp": "00:24:51",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 214
+      },
+      "themes": ["onboarding", "friction", "growth", "experimentation"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "laura-schaffer-q005",
+      "speaker": "Laura Schaffer",
+      "text": "The analogy I have for this is pilling a hot dog. If anyone's got a dog or an animal you have to feed a pill to, you can't just feed the pill to the animal. But if you shove it inside of a hot dog, which looks good and that's exciting, then you can get them to consume it more easily. You embed the scary unpleasant thing.",
+      "timestamp": "00:32:26",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 268,
+        "lineEnd": 268
+      },
+      "themes": ["onboarding", "user-psychology", "product-design"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "laura-schaffer-q006",
+      "speaker": "Laura Schaffer",
+      "text": "Roughly 80% of the time, our hypotheses and the things that we believe will be true fail. And so the closer you get to something where you go bear your head in the sand or go into an attic and build something for six months and ship it, the more likely it is that you are going to ship the 80% wrong stuff.",
+      "timestamp": "00:34:49",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
+      },
+      "themes": ["experimentation", "iteration", "failure"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "laura-schaffer-q007",
+      "speaker": "Laura Schaffer",
+      "text": "If it's not embarrassing, you've gone too far. Got to be embarrassing. The first thing we did was embarrassing, kicking people out of onboarding. That's nuts. But if it hadn't validated, that would've been a very cheap but very valuable learning.",
+      "timestamp": "00:35:40",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 295,
+        "lineEnd": 295
+      },
+      "themes": ["mvp", "iteration", "experimentation", "velocity"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "laura-schaffer-q008",
+      "speaker": "Laura Schaffer",
+      "text": "Those of us converting users and trying to upsell folks, we are very fortunate to not have that level of burden on us and we can take advantage of that. There are definitely times where I will advocate for lower confidence intervals than 95%, especially if that doubles the amount of experiments that you can run in a year.",
+      "timestamp": "00:43:47",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
+      },
+      "themes": ["experimentation", "a-b-testing", "data-driven", "velocity"],
+      "zones": ["data", "velocity", "chaos"]
+    },
+    {
+      "id": "laura-schaffer-q009",
+      "speaker": "Laura Schaffer",
+      "text": "Any growth team that's beholden to short timeline wins and improvement is always going to be dangerous. That's an environment that's conducive to vanity metric usage and massaging the data. Ones that are more successful are ones that are reporting over longer periods of time.",
+      "timestamp": "00:51:24",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["growth", "metrics", "team-management"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "laura-schaffer-q010",
+      "speaker": "Laura Schaffer",
+      "text": "Developers, almost two to one, do not look at your marketing website at all. They go straight to your signup flow. So all that beautiful context that you're setting and the product and pricing, all that stuff, very often they're skipping all of it context free and going straight to your signup.",
+      "timestamp": "01:06:16",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 460,
+        "lineEnd": 460
+      },
+      "themes": ["developer-experience", "onboarding", "product-led-growth"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "laura-schaffer-q011",
+      "speaker": "Laura Schaffer",
+      "text": "If a developer is required to use your product, they're responsible for that. If your service goes down, that's their responsibility. If the pager wakes up someone because the service they bought goes down, that's on them. That means that the stakes are very high every time they're adopting something new. So they can't afford to take someone's word for it.",
+      "timestamp": "01:08:54",
+      "source": {
+        "slug": "laura-schaffer",
+        "path": "episodes/laura-schaffer/transcript.md",
+        "lineStart": 469,
+        "lineEnd": 472
+      },
+      "themes": ["developer-experience", "product-led-growth", "trust"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["experimentation", "onboarding", "user-psychology", "growth", "developer-experience", "product-led-growth", "career-growth", "a-b-testing", "iteration", "friction", "data-driven"],
+  "takeaways": [
+    "Good friction is good - adding onboarding questions at Twilio increased conversion 5% by making users feel comfortable and in the right place, challenging the assumption all friction hurts.",
+    "80% of product hypotheses fail - embrace iterative shipping and be embarrassed by your first iteration, because failure is a compass that points you to what works.",
+    "The psyche of your user matters as much as the product - understand what feels scary or unfamiliar and embed the 'pill in the hot dog' to get users past psychological barriers.",
+    "Lower your statistical confidence thresholds to double experiment velocity - in product growth, the risk of not shipping enough experiments is greater than the risk of a false positive.",
+    "Carve your own career path by staying close to customers and sharing insights upward - executives lose touch with users and will champion people who bring those insights to life."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.00,
+    "discovery": 0.25,
+    "data": 0.25,
+    "intuition": 0.15,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "laura-schaffer-q004",
+      "why": "Good friction is good - directly challenges the universal growth principle that removing all friction improves conversion",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "laura-schaffer-q008",
+      "why": "Advocates for lower statistical confidence thresholds than the sacred 95% - argues that doubling experiment volume is worth accepting more false positives",
+      "related_zones": ["data", "velocity"]
+    },
+    {
+      "quoteId": "laura-schaffer-q007",
+      "why": "If your first iteration isn't embarrassing, you've gone too far - counters the instinct to polish before shipping",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "experimentation", "onboarding", "developer-experience", "product-led-growth"]
+  }
+}

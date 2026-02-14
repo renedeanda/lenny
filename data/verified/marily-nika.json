@@ -1,0 +1,194 @@
+{
+  "slug": "marily-nika",
+  "quotes": [
+    {
+      "id": "marily-nika-001",
+      "speaker": "Marily Nika",
+      "text": "There is something called the shiny object trap, and I'm always telling people, 'Hey, don't do AI for the sake of doing AI.' Make sure there is a problem there. Make sure there is a pain point that needs to be solved in a smart way. Once you have identified what that problem is, then reach out and try to figure out how to actually implement it.",
+      "timestamp": "00:14:11",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 153
+      },
+      "themes": ["ai-strategy", "problem-first", "product-management"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "marily-nika-002",
+      "speaker": "Marily Nika",
+      "text": "The generalist PM helps their team and their company build and ship the right product. But the AI PM helps their team or company solve the right problem. If you want to get into AI PM, figure out what the problem is that you will get a data scientist to create a model for solving.",
+      "timestamp": "00:14:11",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": ["ai-product-management", "problem-definition", "pm-role"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "marily-nika-003",
+      "speaker": "Marily Nika",
+      "text": "Don't do it for your MVP. It makes zero sense. Do not waste time of data scientists that can train models with using powerful machines that are going to take weeks to train. If you have an MVP and you just want to get buy-in for an idea, create a little figma prototype and just fake what the AI is going to be doing.",
+      "timestamp": "00:14:42",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 158,
+        "lineEnd": 159
+      },
+      "themes": ["mvp", "ai-strategy", "prototyping", "resource-management"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "marily-nika-004",
+      "speaker": "Marily Nika",
+      "text": "I believe that all product managers will be AI product managers in the future. This is because we see all products needing to have a personalized experience, a recommender system that is actually good. Also, automation is another thing. We need to keep making technological advancements.",
+      "timestamp": "00:08:39",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 116,
+        "lineEnd": 121
+      },
+      "themes": ["ai-product-management", "future-of-pm", "personalization", "automation"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "marily-nika-005",
+      "speaker": "Marily Nika",
+      "text": "You will need to get comfortable with having a partner that's a research scientist and understand that these people can produce a smart model. A lot of people are truly uncomfortable, a lot of people don't like the uncertainty that research has. If people get more used to uncertainty and research, things are going to be good for them.",
+      "timestamp": "00:09:35",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 125,
+        "lineEnd": 127
+      },
+      "themes": ["ai-product-management", "research-partnerships", "uncertainty", "collaboration"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "marily-nika-006",
+      "speaker": "Marily Nika",
+      "text": "It's totally your responsibility as a PM to decide the recognition of whether this photo is a cat or a dog is good enough for the users, it's like 70% accurate, 80% accurate, where is the bar, where do we launch? The AI PM role is so cool because you have problems like that to solve that no one else has tackled before.",
+      "timestamp": "00:18:08",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 173,
+        "lineEnd": 174
+      },
+      "themes": ["ai-product-management", "quality-bar", "launch-decisions", "accuracy"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "marily-nika-007",
+      "speaker": "Marily Nika",
+      "text": "If you're working on any product, you can always sprinkle in a smarter feature. You can personalize it, enhance it with fraud detection, make it more ethical, more accurate, faster. Basically anything where you can get data behind the behavior of users can be improved with AI.",
+      "timestamp": "00:11:40",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 144
+      },
+      "themes": ["ai-strategy", "product-enhancement", "personalization"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "marily-nika-008",
+      "speaker": "Marily Nika",
+      "text": "One of the challenges is the uncertainty. You may have been working on incredible research and ideas in hypothesis, but then when you actually train the model, the results may not be optimal. You need to be able to encourage the teams throughout this process because you're like the captain of the ship, cheerleading the team, making sure everyone keeps going.",
+      "timestamp": "00:29:30",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 241
+      },
+      "themes": ["ai-product-management", "uncertainty", "team-leadership", "resilience"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "marily-nika-009",
+      "speaker": "Marily Nika",
+      "text": "Usually product managers get ahead the more they launch. But if you're in a research role, you're not going to launch as often, so you need to make sure to clarify with the hiring managers early on, 'Hey, what does progress mean? How am I going to get ahead in a research role which is different than what I've been doing so far?'",
+      "timestamp": "00:30:22",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 245,
+        "lineEnd": 246
+      },
+      "themes": ["ai-product-management", "career-growth", "pm-career", "research"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "marily-nika-010",
+      "speaker": "Marily Nika",
+      "text": "Whenever I try to convince leadership about something that's a big bet, I always use examples. 'Hey, this seemed crazy at the time, here's how it worked. What I'm proposing is very similar.' And then I propose a contingency plan, like hey, if that doesn't work out, here's the rollback plan, here's the maximum negative impact.",
+      "timestamp": "00:32:09",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 254,
+        "lineEnd": 255
+      },
+      "themes": ["stakeholder-management", "buy-in", "risk-management", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "marily-nika-011",
+      "speaker": "Marily Nika",
+      "text": "ChatGPT and this technology is enhancing our work. It's enhancing us. It does not steal from us. It will make us smarter. It will free up time for me to do other things that are less tedious so that I can focus on the more strategic side of things.",
+      "timestamp": "00:05:34",
+      "source": {
+        "slug": "marily-nika",
+        "path": "episodes/marily-nika/transcript.md",
+        "lineStart": 80,
+        "lineEnd": 85
+      },
+      "themes": ["ai-augmentation", "future-of-work", "productivity"],
+      "zones": ["velocity", "discovery"]
+    }
+  ],
+  "themes": ["ai-strategy", "problem-first", "product-management", "ai-product-management", "problem-definition", "pm-role", "mvp", "prototyping", "resource-management", "future-of-pm", "personalization", "automation", "research-partnerships", "uncertainty", "collaboration", "quality-bar", "launch-decisions", "accuracy", "product-enhancement", "team-leadership", "resilience", "career-growth", "pm-career", "research", "stakeholder-management", "buy-in", "risk-management", "leadership", "ai-augmentation", "future-of-work", "productivity"],
+  "takeaways": [
+    "Don't do AI for the sake of AI -- start with the problem and pain point first, then determine if a smart solution is the right approach (avoid the shiny object trap).",
+    "Never build AI into your MVP -- fake the AI with a Figma prototype to validate the idea first, then invest in real model training once you have proven demand.",
+    "Every PM will eventually become an AI PM because personalization, recommendations, and automation are becoming table stakes for every product category.",
+    "AI PMs must get comfortable with research uncertainty -- models may fail, timelines are longer, and progress looks different from traditional launch-driven PM careers.",
+    "Getting buy-in for AI investments requires framing the bet with analogies to past successes and always presenting a contingency plan to de-risk the proposal."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "marily-nika-003",
+      "why": "Challenges the instinct of AI-excited founders and PMs to build real ML into their first product -- argues you should fake the AI entirely for MVP validation.",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "marily-nika-004",
+      "why": "Bold prediction that the distinction between 'AI PM' and 'PM' will dissolve entirely -- every product manager will need AI skills as a baseline.",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["ai-product-management", "machine-learning", "research-partnerships", "product-strategy", "career-growth"]
+  }
+}
