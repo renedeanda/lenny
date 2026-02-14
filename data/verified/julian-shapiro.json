@@ -1,0 +1,199 @@
+{
+  "slug": "julian-shapiro",
+  "quotes": [
+    {
+      "id": "julian-shapiro-q001",
+      "speaker": "Julian Shapiro",
+      "text": "Product-led acquisition is the use of the product grows the product. If I'm using PayPal and I'm sending $1,000 to somebody else, there is no way they will not create a PayPal account to accept the $1,000. By me trying to use PayPal in its everyday intention and me getting value out of it, I'm automatically enticing someone else, very strongly so, to also become a customer.",
+      "timestamp": "13:51",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 174
+      },
+      "themes": ["product-led-growth", "acquisition", "virality", "growth"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "julian-shapiro-q002",
+      "speaker": "Julian Shapiro",
+      "text": "People mistake product-led acquisition for referral programs, which it is not. Referral programs are a tacked on incentive trying to give people something to encourage them to invite because they otherwise are not inviting. Whereas PLA is through the natural use of the product, you get more value when you invite others. You don't have to incentivize them with anything artificial.",
+      "timestamp": "21:24",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 211
+      },
+      "themes": ["product-led-growth", "referral-programs", "growth", "acquisition"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "julian-shapiro-q003",
+      "speaker": "Julian Shapiro",
+      "text": "Billboarding is this idea that the use of the product is inherently visible to people around you. The product advertises itself. If I have a Calendly account, I have to share my Calendly link with the world in order to create an event on my calendar. No wonder they've exploded. Billboarding costs you nothing, scales infinitely, can have compounding effects.",
+      "timestamp": "22:40",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 216,
+        "lineEnd": 234
+      },
+      "themes": ["product-led-growth", "billboarding", "growth", "distribution"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "julian-shapiro-q004",
+      "speaker": "Julian Shapiro",
+      "text": "The way I think about retention, my favorite strategy is what I call building state. It's a concept I stole from video games, where basically the more you play any given game, the more state you're accruing. As a player of the game, the more state you build, the more you're compelled to stick around, because you don't want to lose everything you've worked so hard for.",
+      "timestamp": "30:01",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 261
+      },
+      "themes": ["retention", "stickiness", "state-building", "moats"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "julian-shapiro-q005",
+      "speaker": "Julian Shapiro",
+      "text": "This building state concept is why mediocre companies like eBay or Craigslist remain completely unbeatable for decades. Even though the UX is bad, people don't like using them, they fail to innovate, no one topples them and it's because of state.",
+      "timestamp": "31:16",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["retention", "moats", "competitive-advantage", "state-building"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "julian-shapiro-q006",
+      "speaker": "Julian Shapiro",
+      "text": "You have people who follow you for the quality of your brain, and you have people who follow you for you being a glorified curator. When people follow you for your mind, higher affinity means more loyalty, means they pay closer attention. Whereas if they're following you for your labor, you're interchangeable with all these other meme accounts.",
+      "timestamp": "06:16",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 98,
+        "lineEnd": 105
+      },
+      "themes": ["audience-building", "writing", "content-strategy", "authenticity"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "julian-shapiro-q007",
+      "speaker": "Julian Shapiro",
+      "text": "Novelty I define as a new idea that's also significant, so it's not some trivial fact, and it's something that I wouldn't have easily intuited on my own. When you have those ingredients -- it's new, it's significant, and you wouldn't have easily thought of it on your own -- that's when you trigger that dopamine hit reaction.",
+      "timestamp": "39:03",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 312
+      },
+      "themes": ["writing", "novelty", "content-creation", "creativity"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "julian-shapiro-q008",
+      "speaker": "Julian Shapiro",
+      "text": "Writing quality equals novelty times resonance. Novelty is all these things giving you dopamine hits where I'm opening your eyes about how the world really works. Resonance means if I don't wrap it in a way that resonates and really lifts off the page and into your mind, it's fairly ineffective novelty. It's more like just trivia.",
+      "timestamp": "49:36",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 396,
+        "lineEnd": 399
+      },
+      "themes": ["writing", "novelty", "storytelling", "content-creation"],
+      "zones": ["discovery", "intuition", "perfection"]
+    },
+    {
+      "id": "julian-shapiro-q009",
+      "speaker": "Julian Shapiro",
+      "text": "They visualize their creativity as a backed up pipe of water. The first mile is packed with wastewater, and this wastewater has to be emptied before the clear water behind it can arrive. Most creators are resisting their bad ideas. If you sat down, scribbled a few thoughts in a blank document, and just walked away because you weren't struck with gold, then you never actually finished the creative process.",
+      "timestamp": "55:23",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 457,
+        "lineEnd": 462
+      },
+      "themes": ["creativity", "writing", "creative-process", "persistence"],
+      "zones": ["chaos", "discovery", "intuition"]
+    },
+    {
+      "id": "julian-shapiro-q010",
+      "speaker": "Julian Shapiro",
+      "text": "Why do good ideas arrive after the bad ideas are emptied? It's because when you've gone through a bunch of bad ideas, your brain starts reflexively identifying what elements are causing the badness. Then it becomes way better at avoiding those bad elements and you become way better at pattern matching the novel ideas with way greater intuition.",
+      "timestamp": "56:53",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 462
+      },
+      "themes": ["creativity", "pattern-matching", "ideation", "writing"],
+      "zones": ["chaos", "discovery", "intuition"]
+    },
+    {
+      "id": "julian-shapiro-q011",
+      "speaker": "Julian Shapiro",
+      "text": "The real lesson is don't start a company if you have no idea how it's going to grow. If you have three ideas before you as a founder and one of them lends itself to product-led acquisition really beautifully, then lean in that direction perhaps if you think that growth is the key differentiator between them for what's going to lead to success.",
+      "timestamp": "20:17",
+      "source": {
+        "slug": "julian-shapiro",
+        "path": "episodes/julian-shapiro/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 207
+      },
+      "themes": ["startup-selection", "growth", "product-led-growth", "founder-advice"],
+      "zones": ["velocity", "focus"]
+    }
+  ],
+  "themes": ["product-led-growth", "acquisition", "virality", "growth", "referral-programs", "billboarding", "distribution", "retention", "stickiness", "state-building", "moats", "competitive-advantage", "audience-building", "writing", "content-strategy", "authenticity", "novelty", "content-creation", "creativity", "storytelling", "creative-process", "persistence", "pattern-matching", "ideation", "startup-selection", "founder-advice"],
+  "takeaways": [
+    "Product-led acquisition is the highest-leverage growth strategy: design your product so that using it naturally compels others to also become users, at zero marginal cost.",
+    "Don't confuse product-led acquisition with referral programs -- PLA means the product grows itself through natural use, not through artificial incentives.",
+    "Build state to retain users: encourage non-transferable reputation, audience, social graphs, or embedded infrastructure that makes switching costly and staying rewarding.",
+    "Writing quality equals novelty times resonance -- find counterintuitive insights first, then wrap them in stories and analogies that make them unforgettable.",
+    "Use the Creativity Faucet: empty your bad ideas first, because good ideas only arrive after your brain has pattern-matched its way through the waste."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.00,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "julian-shapiro-q005",
+      "why": "Argues that mediocre products like eBay and Craigslist are unbeatable not because they are good, but because they have accumulated user state that creates inescapable lock-in",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "julian-shapiro-q006",
+      "why": "Challenges the common pursuit of follower count by arguing that mind followers (who follow for original thinking) are far more valuable than labor followers (who follow for curated content)",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "julian-shapiro-q009",
+      "why": "Reframes creative block as a feature not a bug -- bad ideas are necessary wastewater that must be emptied before good ideas can flow",
+      "related_zones": ["chaos", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "mixed",
+    "primary_topics": ["growth", "product-led-acquisition", "retention", "writing", "creativity"]
+  }
+}
