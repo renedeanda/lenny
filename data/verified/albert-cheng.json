@@ -1,0 +1,199 @@
+{
+  "slug": "albert-cheng",
+  "quotes": [
+    {
+      "id": "albert-cheng-001",
+      "speaker": "Albert Cheng",
+      "text": "When you're in exploratory mode, think of it as finding the right mountain to climb. And then when you're in exploitation mode, it's like focusing your resources on climbing that mountain effectively. If you do too much exploration, you can have your team feel a little bit too scattershot. And if you do too much in exploitation, it can lead to this saturation and stagnation where you're just locally maximizing a thing.",
+      "timestamp": "00:10:13",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 157,
+        "lineEnd": 160
+      },
+      "themes": ["growth-strategy", "experimentation", "frameworks"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "albert-cheng-002",
+      "speaker": "Albert Cheng",
+      "text": "80% of people that review their games actually do so after a win. That's really counterintuitive to when we initially built the feature. We thought that people would want to use it after losses or to see their mistakes. That turned out not to be the truth when it came to the human psychology and the actual data of it.",
+      "timestamp": "00:11:34",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["user-psychology", "data-insights", "counterintuitive"],
+      "zones": ["data", "discovery", "intuition"]
+    },
+    {
+      "id": "albert-cheng-003",
+      "speaker": "Albert Cheng",
+      "text": "It grew game reviews by 25%, subscriptions by 20%, user retention by a lot as well. But the point is that it doesn't just stop there. You have to take that insight, share it broadly across the company. Now, adjacent product managers can think about how to audit these cold patterns in their product and think about making them more positive.",
+      "timestamp": "00:12:22",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["experimentation", "knowledge-sharing", "growth-wins"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "albert-cheng-004",
+      "speaker": "Albert Cheng",
+      "text": "We found completely that was not the case - all of a sudden, people were seeing Grammarly as a much more powerful tool than they were before and our upgrade rates nearly doubled. If you work on a freemium product, try to have your free product be a reflection of everything that your product can offer you. It generally will pay for itself if you're able to put your best foot forward.",
+      "timestamp": "00:23:58",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
+      },
+      "themes": ["freemium", "monetization", "conversion"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "albert-cheng-005",
+      "speaker": "Albert Cheng",
+      "text": "User retention is gold for consumer subscription companies. If you don't retain your users, then a lot of the onus is on getting them to pay on day one, that's super hard. Then you're dealing with totally different business models where you're paying for users, you're trying to aggressively upsell them before they hit any habitual usage patterns with your product.",
+      "timestamp": "00:28:31",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 328
+      },
+      "themes": ["retention", "subscription", "consumer-products"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "albert-cheng-006",
+      "speaker": "Albert Cheng",
+      "text": "I used to think it was versus, but now I realize that they combine really well. It could be rocket fuel for your growth. Growth experimentation is more the fast and steady approach where you're just continually iterating, making the product experience better, but then every so often, there's a big wave that comes in. You can quadruple your registrations overnight and you'd be a fool not to take advantage of that.",
+      "timestamp": "00:42:09",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 484
+      },
+      "themes": ["brand", "marketing", "growth-strategy"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "albert-cheng-007",
+      "speaker": "Albert Cheng",
+      "text": "Growth sometimes gets this reputation that it's just pure metrics hacking, like we're cold people that just are trying to move a particular metric up. I think what's most healthy for a company, and I want to work at durable companies, is to think about the user holistically. When you take that framing of connecting users to the value of your product, that value can change for a user over time.",
+      "timestamp": "00:54:03",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 607,
+        "lineEnd": 610
+      },
+      "themes": ["growth-philosophy", "user-centricity", "product-value"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "albert-cheng-008",
+      "speaker": "Albert Cheng",
+      "text": "I can pattern match all day long. I've worked at a lot of companies. But I'm wrong all the time. Consumer behavior can be very fickle and especially when you work at a company, you become a power user naturally. So sometimes you may forget what the actual user experience is for a brand new user, and so you leave a lot of opportunities on the table if you don't even try to experiment.",
+      "timestamp": "00:56:05",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 619,
+        "lineEnd": 619
+      },
+      "themes": ["experimentation", "humility", "user-experience"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "albert-cheng-009",
+      "speaker": "Albert Cheng",
+      "text": "Prior to 2023, the company practically didn't experiment at all. Last year they did about 50, this year they're on pace for about 250. And then next year we have that ambitious target of a thousand. Did I make it up? Yes, absolutely, I made it up, but it's still a target. The whole point of setting a goal is that you can have conversations about what would need to be true to actually hit that goal.",
+      "timestamp": "00:57:56",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 643,
+        "lineEnd": 646
+      },
+      "themes": ["experimentation", "goal-setting", "culture-change"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "albert-cheng-010",
+      "speaker": "Albert Cheng",
+      "text": "I saw some of the highest performers just being people that had very high agency, had that clock speed, had that energy. They didn't necessarily need to have deep experience on that matter. Sometimes experience could be a crutch, especially in this world where the grounds are shifting so fast with AI. A lot of your learned habits actually need to be intentionally discarded.",
+      "timestamp": "01:08:27",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 775,
+        "lineEnd": 775
+      },
+      "themes": ["hiring", "high-agency", "team-building"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "albert-cheng-011",
+      "speaker": "Albert Cheng",
+      "text": "As opposed to going against human intuition and trying to get them to share stuff that they otherwise wouldn't want to share, lean into it more, actually grab the moments where users are already organically screenshotting and make those much, much, much better. And you can 5X or 10X and drive a lot of growth that way too.",
+      "timestamp": "01:04:06",
+      "source": {
+        "slug": "albert-cheng",
+        "path": "episodes/albert-cheng/transcript.md",
+        "lineStart": 718,
+        "lineEnd": 718
+      },
+      "themes": ["virality", "user-behavior", "organic-growth"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["growth-strategy", "experimentation", "retention", "freemium", "monetization", "user-psychology", "hiring", "brand", "data-insights", "consumer-products"],
+  "takeaways": [
+    "Use the explore-exploit framework to oscillate between finding new growth insights and scaling proven ones across your organization, rather than getting stuck in local optimization.",
+    "In freemium products, your free tier should reflect the full power of your offering - giving users a taste of premium features nearly doubled Grammarly's upgrade rates.",
+    "User retention is the foundation of consumer subscription success - without it, you're forced into aggressive day-one monetization that rarely works sustainably.",
+    "Hire for high agency, clock speed, and energy over deep domain experience - especially in an AI-driven world where learned habits may need to be intentionally discarded.",
+    "Don't fight user behavior, amplify it - find where users are already organically engaged (like screenshotting achievements) and invest in making those moments dramatically better."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "albert-cheng-010",
+      "why": "Challenges conventional hiring wisdom by arguing deep experience can be a crutch and that learned habits should be intentionally discarded, especially in the AI era",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "albert-cheng-004",
+      "why": "Counterintuitive insight that giving away premium features for free actually doubles upgrade rates rather than cannibalizing paid subscriptions",
+      "related_zones": ["discovery", "data"]
+    },
+    {
+      "quoteId": "albert-cheng-002",
+      "why": "Reveals that 80% of game reviews happen after wins, not losses - completely opposite to the assumption that users want to learn from mistakes",
+      "related_zones": ["data", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "growth-leader",
+    "company_stage": "growth",
+    "primary_topics": ["growth-strategy", "experimentation", "retention", "freemium-monetization", "consumer-subscription"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "camille-ricketts",
+  "quotes": [
+    {
+      "id": "camille-ricketts-001",
+      "speaker": "Camille Ricketts",
+      "text": "I love using the word discovery because I think that that is even a little bit like a step further than awareness where true discovery is when you have intent to find out more. You've heard about it so many times or you've been intrigued by something that someone has told you to the extent that you're actually going to take the step of now learning about it.",
+      "timestamp": "00:14:31",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 162,
+        "lineEnd": 162
+      },
+      "themes": ["discovery", "brand-awareness", "growth"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "camille-ricketts-002",
+      "speaker": "Camille Ricketts",
+      "text": "The one that I found to be the most instructive was net new visitors to the Notion website. So month over month, how many new people who had never been there before were motivated enough to come and actually learn about the product.",
+      "timestamp": "00:15:08",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": ["metrics", "growth", "acquisition"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "camille-ricketts-003",
+      "speaker": "Camille Ricketts",
+      "text": "One of my number one recommendations for anybody who suspects the community could be a big growth driver is to not make metrics the be all end all at the very beginning. For any company that is seeing this type of just organic fervor, one of the worst things you can do is say, let's cut this off at the knees if it's not generating ROI.",
+      "timestamp": "00:18:58",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": ["community", "growth", "patience"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "camille-ricketts-004",
+      "speaker": "Camille Ricketts",
+      "text": "Community lends itself particularly well if you have something that your product creates that people want to share because it exhibits something about themselves. Showing people what it is that you've created is an aspirational thing to do. Because you are showing that you are really well versed in how to use the products, extremely organized. You're self expressing in some way.",
+      "timestamp": "00:20:19",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 195
+      },
+      "themes": ["community", "product-led-growth", "virality"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "camille-ricketts-005",
+      "speaker": "Camille Ricketts",
+      "text": "I would really urge people to sit down and really think carefully what is going to be more conducive to our long-term success? Is it going to be that ubiquity or is it going to be revenue now? If we look at a lot of the companies that have been just wildly successful from the start, they're people who have pushed off maybe monetizing every little thing if it's going to really put a damper on that type of enthusiasm and momentum.",
+      "timestamp": "00:27:45",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 231
+      },
+      "themes": ["strategy", "monetization", "growth"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "camille-ricketts-006",
+      "speaker": "Camille Ricketts",
+      "text": "Let's say that you're still on your way to product market fit and you're a strongly enterprise oriented product. You have the opportunity to do customer advisory boards, which is really convening even smaller circles of ideal fit users and making sure that they are connected to each other as well as you, and then incentivized to provide you with feedback. Those folks can end up growing into your biggest evangelists.",
+      "timestamp": "00:34:31",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["community", "enterprise", "product-market-fit"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "camille-ricketts-007",
+      "speaker": "Camille Ricketts",
+      "text": "The initial base of the ambassadors program which started back in 2019 was just 20 people and they were the 20 people who we happened to see be the most vocal already across Twitter and a couple of other social media platforms because they had that shared quality of wanting to be really vocal and expressive about their experience with the product.",
+      "timestamp": "00:38:10",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 288
+      },
+      "themes": ["community", "ambassadors", "organic-growth"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "camille-ricketts-008",
+      "speaker": "Camille Ricketts",
+      "text": "Not trying to hit a number early on. Don't dilute the impact of what it is that you're trying to do in order to show growth. Making sure that you are learning what individuals really want out of this and making them feel like they're very seen and very heard. That was a big area of focus and I think it's what kept people really engaged and coming back.",
+      "timestamp": "00:41:44",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 321,
+        "lineEnd": 321
+      },
+      "themes": ["community", "quality-over-quantity", "engagement"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "camille-ricketts-009",
+      "speaker": "Camille Ricketts",
+      "text": "If you grow to something like, oh we have 5,000 ambassadors, which feels really good to say on a website, the conversation is actually very muted. I think because people feel like they're speaking to an auditorium whenever they say anything. I think it's because you don't really have a sense of who else is there with you.",
+      "timestamp": "00:44:11",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 336
+      },
+      "themes": ["community", "scale", "intimacy"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "camille-ricketts-010",
+      "speaker": "Camille Ricketts",
+      "text": "The way that you think about product market fit, you have to think about content market fit. You still have to think about who is my audience? What is it that they need to get promoted? What is it that they need to avoid failure? What is it that causes them a great deal of anxiety in the day-to-day of their lives or their work? And can you create some type of content product that is going to address this for them?",
+      "timestamp": "00:51:54",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 441,
+        "lineEnd": 441
+      },
+      "themes": ["content-marketing", "product-market-fit", "audience"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "camille-ricketts-011",
+      "speaker": "Camille Ricketts",
+      "text": "Painkillers always win. Can your content be a painkiller? Can it help people out of situations that are causing them a lot of pain? Can it help people stop being so confused or can it make them even feel less alone in their experience? Helping operators share failures or suboptimal situations in the spirit of helping many other people feel like that was normalized.",
+      "timestamp": "00:52:36",
+      "source": {
+        "slug": "camille-ricketts",
+        "path": "episodes/camille-ricketts/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 444
+      },
+      "themes": ["content-marketing", "empathy", "value-creation"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["community-led-growth", "content-marketing", "brand-awareness", "discovery", "organic-growth", "ambassadors", "product-led-growth", "quality-over-quantity"],
+  "takeaways": [
+    "Community-led growth works best for freemium products with an 'atomic unit of sharing' -- something users create that they want to show off because it reflects their identity or skill, like Notion templates or Figma designs.",
+    "Don't make metrics the gatekeeper of community investment early on. Premature ROI demands can kill organic fervor. The most successful companies delayed monetization to protect enthusiasm and momentum.",
+    "Start small and stay intimate. Notion's ambassador program began with just 20 vocal users. Controlled growth preserves the dense personal bonds that make communities feel like families rather than auditoriums.",
+    "Content needs content-market fit just like products need product-market fit. Understand your audience's deepest anxieties and create painkiller content that addresses real professional pain, not vitamin content that's nice to have.",
+    "Community takes many forms depending on your stage and market. Use a two-by-two matrix of product-market fit status and enterprise vs. consumer orientation to determine whether ambassadors, champions, customer advisory boards, or consultants are the right play."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "camille-ricketts-003",
+      "why": "Argues against measuring community ROI early -- directly challenges the data-driven orthodoxy that everything must prove its value with metrics from day one",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "camille-ricketts-005",
+      "why": "Urges companies to choose ubiquity over immediate revenue -- contrarian to the pressure for short-term monetization and unit economics focus",
+      "related_zones": ["discovery", "focus"]
+    },
+    {
+      "quoteId": "camille-ricketts-009",
+      "why": "Deliberately limiting community size when growth metrics incentivize scale -- counterintuitive restraint that prioritizes conversation quality over vanity numbers",
+      "related_zones": ["focus", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["community-led-growth", "content-marketing", "brand-awareness", "ambassadors"]
+  }
+}

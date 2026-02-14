@@ -1,0 +1,199 @@
+{
+  "slug": "nabeel-s-qureshi",
+  "quotes": [
+    {
+      "id": "nabeel-s-qureshi-001",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "When people joined, they would write principles such as move fast and I would always be, 'Everyone likes to move fast.' It is not a good principle actually because nobody can really disagree with this reasonably. You need something that actually a lot of people are going to go, 'Why are you taking this principle? This seems wrong to me.' So you need something that people can disagree with.",
+      "timestamp": "00:12:56",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["culture", "strategy", "decision-making"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "nabeel-s-qureshi-002",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "The people who succeed the most in the Marines or the Special Forces or whatever it is, tend to be pretty smart people. They tend to have accomplished very difficult goals in very hostile environments. And it turns out that when you're starting a somewhat chaotic tech company, that's actually a very useful skill to have.",
+      "timestamp": "00:14:32",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 157,
+        "lineEnd": 157
+      },
+      "themes": ["hiring", "talent", "culture"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "nabeel-s-qureshi-003",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "I think there was a selection effect there, but there is also some training effect too. I even think it turned a lot of people who might not have become founders into good founders because of the way it works.",
+      "timestamp": "00:15:45",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["talent", "founder-mode", "training"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "nabeel-s-qureshi-004",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "You always had to earn your place in the company. You always had to earn the right to work on what you were working on. If you start performing well, it's actually very easy to shift that because there is no explicit title. And so it was a meritocratic thing.",
+      "timestamp": "00:18:32",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["culture", "meritocracy", "org-design"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "nabeel-s-qureshi-005",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "Every week, you would have a cadence where it's like Monday, you go in. You do your meetings. Monday night, you build something. Tuesday, you show it to somebody. Tuesday, you get the feedback. Tuesday night, you iterate on it. Wednesday, you show it to somebody. Wednesday night, you iterate on it. So you get four of these, five of these cycles every single week, and you're moving incredibly fast.",
+      "timestamp": "00:24:43",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 232
+      },
+      "themes": ["iteration", "velocity", "customer-feedback"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "nabeel-s-qureshi-006",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "The really radical thing Palantir said was, 'Go in and if you need a completely new product to do this, you can go ahead and build it.' A lot of the time companies will say this person's a forward deployed engineer, but actually they're mostly there to be more of a solutions architect. They're not empowered to do new product. That's really the key difference.",
+      "timestamp": "00:48:04",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 388
+      },
+      "themes": ["empowerment", "product-development", "innovation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "nabeel-s-qureshi-007",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "One thing I've seen in really strong founders is they're able to drop a bunch of those assumptions and almost treat a new opportunity as a completely blank slate. And then just figure out how to reshape things so that you're taking advantage of that, and that's how you don't get stuck at a local maximum.",
+      "timestamp": "00:46:14",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 376
+      },
+      "themes": ["founder-mode", "adaptability", "strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "nabeel-s-qureshi-008",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "It's this iceberg analogy where the actual analysis is actually just the tip of the iceberg, it's kind of the last five or 10%, and the 95% before that is gaining access to the data, cleaning the data, joining the data, normalizing it, putting it all in the same format. And so once we spotted that, then there's actually a lot of product to be built there.",
+      "timestamp": "00:54:21",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 436,
+        "lineEnd": 436
+      },
+      "themes": ["data", "product-development", "customer-problems"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "nabeel-s-qureshi-009",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "It's less about testing for the right skills. It's much more about just who has that extra 20%. When you actually feel that difference between somebody who's just checking the boxes and somebody who's kind of an animal in this way, they'll actually go and pursue and accomplish the end outcome, that difference is very, very big and it matters so much for your first 20 people.",
+      "timestamp": "01:01:18",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 478
+      },
+      "themes": ["hiring", "talent", "startup"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "nabeel-s-qureshi-010",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "PMs were almost always internal promotions and they always came from BD. The person who was managing that deployment, she later became the PM for ontology, and it was just because she'd kind of proven her method in the field. The failure mode that they were very averse to in traditional PMs was this kind of Google Docs syndrome of writing product requirement documents and managing it in a very sort of sane, rational way.",
+      "timestamp": "01:06:01",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 504,
+        "lineEnd": 505
+      },
+      "themes": ["product-management", "hiring", "customer-empathy"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "nabeel-s-qureshi-011",
+      "speaker": "Nabeel S. Qureshi",
+      "text": "One easy way to almost guarantee that you'll hit something is just to make a lot of bets and then cycle through them very quickly. When you take something to a customer, ask them to pay you a lot of money. If they won't, then find a new problem. Don't wait three weeks, which is what every founding team typically does because you don't have that kind of time.",
+      "timestamp": "01:16:27",
+      "source": {
+        "slug": "nabeel-s-qureshi",
+        "path": "episodes/nabeel-s-qureshi/transcript.md",
+        "lineStart": 556,
+        "lineEnd": 556
+      },
+      "themes": ["iteration", "founder-mode", "validation"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["forward-deployed-engineering", "founder-mode", "hiring", "culture", "data", "iteration", "customer-empathy", "product-management", "meritocracy", "startup"],
+  "takeaways": [
+    "Forward deployed engineers who live and breathe customer problems produce founders at an extraordinary rate because they get rapid iteration cycles and deep domain expertise that no amount of Zoom calls can replicate.",
+    "The best principles and values should be disagreeable to some people -- if nobody would object to your principle, it is not actually guiding any decisions and provides no real signal.",
+    "Hiring for mission alignment and the extra 20% of drive matters far more than raw skill in the first 20 hires of a startup, and you need creative lateral signals like military background or athletic discipline to find these people.",
+    "Data integration and access is the 95% iceberg beneath the surface of analytics -- the actual analysis is only the last 5-10%, and the companies that solve the painful plumbing build lasting competitive moats.",
+    "Strong founders treat every new opportunity as a blank slate, dropping prior assumptions rather than anchoring to their original product vision, which is how you avoid getting stuck at a local maximum."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.20,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nabeel-s-qureshi-001",
+      "why": "Rejects the universal principle of 'move fast' as useless -- argues good principles must be genuinely disagreeable to some people, which challenges conventional wisdom about rallying teams around positive values",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "nabeel-s-qureshi-006",
+      "why": "Argues forward deployed engineers must be empowered to build entirely new products, not just deploy existing ones -- most companies treat field engineers as solutions architects rather than product creators",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "nabeel-s-qureshi-010",
+      "why": "Claims the best PMs should never be hired externally but forged through field experience -- directly attacks the 'Google Docs syndrome' of traditional PM practice as a failure mode",
+      "related_zones": ["discovery", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "early-stage",
+    "primary_topics": ["forward-deployed-engineering", "founder-factory", "hiring", "data-platforms", "customer-empathy"]
+  }
+}

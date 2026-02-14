@@ -1,0 +1,199 @@
+{
+  "slug": "noah-weiss",
+  "quotes": [
+    {
+      "id": "noah-weiss-001",
+      "speaker": "Noah Weiss",
+      "text": "I think as much as possible is getting to the point where you have alignment on the principles for what it means to build a great product at that company. Not just about if the intuition and tasting gut, but how do you distill that to principles that become the language of the company so that everybody else can start thinking through a similar frame.",
+      "timestamp": "00:12:52",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["principles", "alignment", "product-culture"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "noah-weiss-002",
+      "speaker": "Noah Weiss",
+      "text": "I think you want to get the founder CEO really involved early on, especially if it's a big new project, to make sure that there's strategic buy-in that you agree on the principle strategy. Then the team can run and explore. Then at the very end you want them to really be bought in that did you build something that's up to the quality of the company.",
+      "timestamp": "00:14:22",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 178
+      },
+      "themes": ["founder-relationship", "strategy", "quality"],
+      "zones": ["alignment", "perfection", "velocity"]
+    },
+    {
+      "id": "noah-weiss-003",
+      "speaker": "Noah Weiss",
+      "text": "The promise of the UI has to match the quality of the underlying data. I think this is actually one of the failings of the various LLMs right now is they all appear supremely confident even when they're completely hallucinating. That's going to be something that people are going to have to work on a lot, which is to figure out how to not be so faultless, to acknowledge when you're not sure.",
+      "timestamp": "00:21:19",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 250
+      },
+      "themes": ["AI", "trust", "product-design", "honesty"],
+      "zones": ["data", "perfection", "intuition"]
+    },
+    {
+      "id": "noah-weiss-004",
+      "speaker": "Noah Weiss",
+      "text": "We started doing with these complaint-storms. We'd get a team together and we'd actually start off with other products first in adjacent spaces. We're going to go through the customer journey from the moment you land on the website through getting your first account going. We're going to fill in every issue, everything that's confusing, every pain point.",
+      "timestamp": "00:27:56",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 328
+      },
+      "themes": ["user-research", "empathy", "product-process"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "noah-weiss-005",
+      "speaker": "Noah Weiss",
+      "text": "It's really easy to fall into the trap of just constant incrementalism. The concept is like a feature team and you have a KPI and you feel like your whole life is measured by that KPI going up 1% a quarter and then you lose sight of what's beyond the horizon. Take bigger boulder bets. Get to the next hill to see what the horizon wants around you.",
+      "timestamp": "00:38:43",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 420,
+        "lineEnd": 424
+      },
+      "themes": ["strategy", "innovation", "ambition"],
+      "zones": ["chaos", "discovery", "velocity"]
+    },
+    {
+      "id": "noah-weiss-006",
+      "speaker": "Noah Weiss",
+      "text": "We said let's throw the whole roadmap away and instead come up with a bunch of hypotheses about what could be new levers that could actually help based on the insights that we now have about the next set of customers. We had to say for the next six months, we're probably not going to drive any impact at all. It's only going to be about learning.",
+      "timestamp": "00:46:24",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 493,
+        "lineEnd": 496
+      },
+      "themes": ["learning", "strategy", "growth", "humility"],
+      "zones": ["discovery", "data", "chaos"]
+    },
+    {
+      "id": "noah-weiss-007",
+      "speaker": "Noah Weiss",
+      "text": "I think of product market fit as almost like you keep stacking these S-curves where you get product market fit in a small group and then you suddenly reach exponential growth because you can crack that core group. But then you start declining because you start hitting the ceiling. Then you jump up to the next S-curve. Each become new curves that you have to build product market fit for.",
+      "timestamp": "00:51:08",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 532,
+        "lineEnd": 535
+      },
+      "themes": ["product-market-fit", "growth", "strategy"],
+      "zones": ["discovery", "data", "velocity"]
+    },
+    {
+      "id": "noah-weiss-008",
+      "speaker": "Noah Weiss",
+      "text": "I think the core of it really was building a product that customers loved enough that they would put their own social capital on the line to get their coworkers on board. That was the initial real strong product market fit.",
+      "timestamp": "00:54:13",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 558,
+        "lineEnd": 559
+      },
+      "themes": ["product-led-growth", "word-of-mouth", "customer-love"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "noah-weiss-009",
+      "speaker": "Noah Weiss",
+      "text": "I wish I could find out who wrote that expression early on of PM should be mini-CEOs. I think that's the most dangerous piece of advice ever in the history of product management because I think that is how you end up having PMs who try to act like dictators instead of leaders and facilitators.",
+      "timestamp": "01:05:45",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 670,
+        "lineEnd": 670
+      },
+      "themes": ["product-management", "leadership", "humility"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "noah-weiss-010",
+      "speaker": "Noah Weiss",
+      "text": "Your job is to facilitate the pace and quality of decision making. That is very different than you are the person who makes all the decisions. One of the things that PMs struggle with early on is how do you actually get the team to be able to make high quality decisions quickly without you arbitrarily playing tiebreaker all the time.",
+      "timestamp": "01:06:20",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 676,
+        "lineEnd": 679
+      },
+      "themes": ["decision-making", "product-management", "team-dynamics"],
+      "zones": ["alignment", "velocity", "focus"]
+    },
+    {
+      "id": "noah-weiss-011",
+      "speaker": "Noah Weiss",
+      "text": "I actually think there's a lot of people who developed some amount of intuition for what people will likely love before you're able to test it. Taste plus fluency in data, that combination is a pretty powerful combo.",
+      "timestamp": "01:14:21",
+      "source": {
+        "slug": "noah-weiss",
+        "path": "episodes/noah-weiss/transcript.md",
+        "lineStart": 744,
+        "lineEnd": 745
+      },
+      "themes": ["product-taste", "data", "intuition", "craft"],
+      "zones": ["intuition", "data"]
+    }
+  ],
+  "themes": ["product-management", "alignment", "growth", "product-led-growth", "AI", "leadership", "innovation", "decision-making", "product-market-fit", "user-research"],
+  "takeaways": [
+    "Align with product-minded founders through shared principles and a U-curve of involvement -- get buy-in early on strategy, give the team space to explore, then bring founders back for final quality refinement in code, not static mocks.",
+    "When growth plateaus, sacrifice short-term impact for learning -- Slack threw away its roadmap, spent six months on hypothesis-driven experimentation, and doubled its new paid customer growth rate by discovering new levers for the next generation of customers.",
+    "Product market fit is not a one-time achievement but a series of stacking S-curves -- each new customer segment requires re-establishing fit with fresh humility and a beginner's mindset.",
+    "The PM role is about facilitating great decisions, not making them -- reject the 'mini-CEO' myth and focus on amplifying your team, building credibility through execution, and optimizing the pace and quality of decision-making.",
+    "AI products must match their UI confidence to their data quality -- systems that appear supremely confident while hallucinating will undermine user trust, so build in transparency and virtuous feedback cycles from the start."
+  ],
+  "zone_influence": {
+    "velocity": 0.12,
+    "perfection": 0.18,
+    "discovery": 0.18,
+    "data": 0.13,
+    "intuition": 0.07,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.07
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "noah-weiss-009",
+      "why": "Calls the 'PM as mini-CEO' framing the most dangerous piece of advice in PM history -- directly attacks a widely held aspiration among product managers",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "noah-weiss-006",
+      "why": "Advocates throwing away the entire roadmap and accepting zero impact for six months purely to learn -- challenges the pressure to always show short-term results",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "noah-weiss-003",
+      "why": "Argues LLMs are fundamentally flawed because they appear supremely confident when hallucinating -- contrarian amid widespread AI enthusiasm",
+      "related_zones": ["data", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "product-leader",
+    "company_stage": "public",
+    "primary_topics": ["product-management", "product-led-growth", "AI-strategy", "founder-relationships", "team-culture"]
+  }
+}

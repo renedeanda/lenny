@@ -1,0 +1,199 @@
+{
+  "slug": "ronny-kohavi",
+  "quotes": [
+    {
+      "id": "ronny-kohavi-001",
+      "speaker": "Ronny Kohavi",
+      "text": "That simple idea increased revenue by about 12%. This thing was worth $100 million at the time when Bing was a lot smaller. And the key thing is it didn't hurt the user metrics. It's very easy to increase revenue by doing theatrics. Displaying more ads is a trivial way to raise revenue, but it hurts the user experience.",
+      "timestamp": "00:06:37",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 99
+      },
+      "themes": ["experimentation", "revenue", "user-experience"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "ronny-kohavi-002",
+      "speaker": "Ronny Kohavi",
+      "text": "We are often humbled by how bad we are at predicting the outcome of experiments. This was an example of a tiny change that was the best revenue generating idea in Bing's history, and we didn't rate it properly. Nobody gave this the priority that in hindsight, it deserves.",
+      "timestamp": "00:08:34",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["humility", "prediction", "prioritization"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "ronny-kohavi-003",
+      "speaker": "Ronny Kohavi",
+      "text": "Of these experiments, 92% failed to improve the metric that we were trying to move. So only 8% of our ideas actually were successful at moving the key metrics. Very humbling. I know that every group that starts to run experiments, they always start off by thinking that somehow, they're different. And their success rate's going to be much, much higher, and they're all humbled.",
+      "timestamp": "00:13:00",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 156
+      },
+      "themes": ["failure-rate", "humility", "experimentation"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "ronny-kohavi-004",
+      "speaker": "Ronny Kohavi",
+      "text": "One of the mistakes that some company makes is they launch a lot of experiments and never go back and summarize the learnings. So I've actually put a lot of effort in this idea of institutional learning, of doing the quarterly meeting of the most surprising experiments.",
+      "timestamp": "00:17:17",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 186
+      },
+      "themes": ["institutional-learning", "knowledge-management", "culture"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "ronny-kohavi-005",
+      "speaker": "Ronny Kohavi",
+      "text": "You need a portfolio. You need some experiments that are incremental that move you in the direction that you know you're going to be successful over time if you just try enough. But some experiments, you have to allocate sometimes to these high risk, high reward ideas. We're going to try something that's most likely to fail, but if it does win, it's going to be a home run.",
+      "timestamp": "00:21:30",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 222
+      },
+      "themes": ["portfolio-thinking", "risk-management", "strategy"],
+      "zones": ["velocity", "chaos", "data"]
+    },
+    {
+      "id": "ronny-kohavi-006",
+      "speaker": "Ronny Kohavi",
+      "text": "If you believe in that statistics that I published, then doing 17 changes together is more likely to be negative. Do them in smaller increments, learn from it, it's called OFAT one-factor-at-a-time. Do one factor, learn from it, and adjust. Of the 17, maybe you have four good ideas. Those are the ones that will launch and be positive.",
+      "timestamp": "00:37:41",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 336
+      },
+      "themes": ["incremental-change", "redesigns", "methodology"],
+      "zones": ["velocity", "data", "focus"]
+    },
+    {
+      "id": "ronny-kohavi-007",
+      "speaker": "Ronny Kohavi",
+      "text": "The OEC or the overall evaluation criterion is something that many people that start to dabble in A/B testing miss. And the question is, what are you optimizing for? It's very easy to say we're going to optimize for money, revenue. But that's the wrong question, because you can do a lot of bad things that will improve revenue.",
+      "timestamp": "00:28:14",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 270,
+        "lineEnd": 270
+      },
+      "themes": ["metrics", "OEC", "optimization"],
+      "zones": ["data", "focus", "perfection"]
+    },
+    {
+      "id": "ronny-kohavi-008",
+      "speaker": "Ronny Kohavi",
+      "text": "The key word is lifetime value, which is you have to define the OEC such that it is causally predictive of the lifetime value of the user. That's what causes you to think about things properly, which is, am I doing something that just helps me short term, or am I doing something that will help me in the long term?",
+      "timestamp": "00:32:05",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": ["lifetime-value", "long-term-thinking", "metrics"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "ronny-kohavi-009",
+      "speaker": "Ronny Kohavi",
+      "text": "If something is not statistically significant, that's a no ship, because you've just introduced more code. There is a maintenance overhead to shipping your stuff. I've heard people say, 'We already spent all this time. The team will be demotivated if we don't ship it.' And I'm, 'No, that's wrong. Shipping this project has no value, is complicating the code base. Maintenance costs will go up.'",
+      "timestamp": "00:44:23",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": ["discipline", "shipping", "sunk-cost"],
+      "zones": ["data", "focus", "perfection"]
+    },
+    {
+      "id": "ronny-kohavi-010",
+      "speaker": "Ronny Kohavi",
+      "text": "If in peace time you're wrong two thirds to 80% of the time, why would you be subtly right in wartime, in Covid time? So I don't believe in the idea that because bookings went down materially, the company should suddenly not be data driven and do things differently.",
+      "timestamp": "00:49:11",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 432
+      },
+      "themes": ["crisis-management", "data-driven", "conviction"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "ronny-kohavi-011",
+      "speaker": "Ronny Kohavi",
+      "text": "If any figure that looks interesting or different is usually wrong. If the result looks too good to be true, your normal movement of an experiment is under 1% and you suddenly have a 10% movement, hold the celebratory dinner. Investigate, because there's a large probability that something is wrong with the result. Nine out of 10, when we call Twyman's law, it is the case that we find some flaw.",
+      "timestamp": "01:00:51",
+      "source": {
+        "slug": "ronny-kohavi",
+        "path": "episodes/ronny-kohavi/transcript.md",
+        "lineStart": 543,
+        "lineEnd": 543
+      },
+      "themes": ["trust", "verification", "skepticism"],
+      "zones": ["data", "perfection"]
+    }
+  ],
+  "themes": ["experimentation", "data-driven", "A/B-testing", "metrics", "humility", "institutional-learning", "trust", "incremental-improvement"],
+  "takeaways": [
+    "Most ideas fail: 66-92% of experiments do not improve key metrics, and every team that starts experimenting is humbled by how bad humans are at predicting outcomes.",
+    "Define your Overall Evaluation Criterion (OEC) around lifetime value, not short-term revenue - optimizing for money alone leads to user-hostile decisions that destroy long-term growth.",
+    "Avoid big-bang redesigns: bundle 17 changes together and most will be negative. Instead, use one-factor-at-a-time (OFAT) to learn what works and iterate incrementally.",
+    "Build institutional memory by documenting surprising experiment results and holding quarterly reviews - organizations that fail to summarize learnings repeat the same mistakes.",
+    "Trust is the foundation of experimentation culture: if your platform produces unreliable results (inflated false positives, sample ratio mismatches), teams will lose faith in data-driven decision making entirely."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.05,
+    "data": 0.40,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ronny-kohavi-009",
+      "why": "Argues flat experiment results should never ship - directly opposes the common instinct to ship work teams have already invested in, calling sunk-cost reasoning a mistake",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "ronny-kohavi-010",
+      "why": "Claims crisis situations demand more experimentation, not less - challenges the intuition that wartime requires bold, untested bets and gut-driven decisions",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "ronny-kohavi-003",
+      "why": "States 92% of ideas fail even from expert teams - a humbling statistic that challenges every PM's confidence in their own judgment",
+      "related_zones": ["data", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "executive",
+    "company_stage": "public",
+    "primary_topics": ["A/B-testing", "experimentation", "data-driven-culture", "metrics"]
+  }
+}

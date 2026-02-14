@@ -1,0 +1,213 @@
+{
+  "slug": "karina-nguyen",
+  "quotes": [
+    {
+      "id": "karina-nguyen-001",
+      "speaker": "Karina Nguyen",
+      "text": "Model training is more an art than a science. And in a lot of ways we, as model trainers, think a lot about data quality. It's one of the most important things in model training is like how do you ensure the highest quality data for certain interaction model behavior that you want to create?",
+      "timestamp": "00:06:36",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["model-training", "data-quality", "craft"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "karina-nguyen-002",
+      "speaker": "Karina Nguyen",
+      "text": "There is always a balance trade off between how do you make the model to be more helpful for users, but also not being harmful in other scenarios. And so it's always about how do you make the model more robust and operate across a variety of diverse scenarios.",
+      "timestamp": "00:07:30",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": ["tradeoffs", "robustness", "safety"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "karina-nguyen-003",
+      "speaker": "Karina Nguyen",
+      "text": "We went from raw data sets from pre-trained models to infinite amount of tasks that you can teach the model in the post-training world via reinforcement learning. So any task, for example, how to search the web, how to use the computer, how to write, all sorts of tasks. And that's why we're saying there's no data wall, because there will be infinite amount of tasks and that's how the model becomes extremely super intelligent.",
+      "timestamp": "00:09:56",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 135
+      },
+      "themes": ["scaling", "post-training", "reinforcement-learning"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "karina-nguyen-004",
+      "speaker": "Karina Nguyen",
+      "text": "The way you synthetically train the model is physically figuring out what are the most core behaviors that you wanted the product feature to do. And for Canvas, for example, it came down to three main behaviors.",
+      "timestamp": "00:14:28",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 156
+      },
+      "themes": ["synthetic-data", "product-development", "model-behavior"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "karina-nguyen-005",
+      "speaker": "Karina Nguyen",
+      "text": "You definitely want to measure progress of your model and this is where evals is. You can have prompted model as a baseline already. And the most robust evals is the one where prompted baselines get the lowest score. Because then you know if you trained a good model, then it should just hill climb on that eval all the time, while not also regressing on other intelligence evals.",
+      "timestamp": "00:23:47",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 204
+      },
+      "themes": ["evals", "measurement", "iteration"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "karina-nguyen-006",
+      "speaker": "Karina Nguyen",
+      "text": "Prompting is also a way to prototype new product ideas. Early days at Anthropic when I was working file uploads feature, I was just prompting the model. I was just prototyping this in their local browser. I did the demo. People really, really loved it. It clicked on me prompting is a new way of product development or prototyping for designers and for product managers.",
+      "timestamp": "00:24:35",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 207,
+        "lineEnd": 207
+      },
+      "themes": ["prototyping", "product-development", "prompting"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "karina-nguyen-007",
+      "speaker": "Karina Nguyen",
+      "text": "The cost of intelligence is going down because it becomes that much cheaper. Small models are becoming even smarter than large models and that's because of the distillation research. We are moving towards that world. That has multiple implications, but the news is that people will have more access to AI and that's really good. Builders and developers will have much better access to AI, but also it means all the work that has been bottlenecked by intelligence will be unblocked.",
+      "timestamp": "00:38:22",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 333
+      },
+      "themes": ["cost-of-intelligence", "distillation", "accessibility"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "karina-nguyen-008",
+      "speaker": "Karina Nguyen",
+      "text": "Creative thinking. You want to generate a bunch of ideas and filter through them and not just build the best product experience. Listening. You want to build something that the most general model will not replace you. And oftentimes you build something and you make it really, really good for specific set of users and actually the moat is now in your user feedback. The moat is more in whether you listen to them, whether you can rapidly iterate.",
+      "timestamp": "00:42:42",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 357
+      },
+      "themes": ["creativity", "listening", "moat", "soft-skills"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "karina-nguyen-009",
+      "speaker": "Karina Nguyen",
+      "text": "AI research progress is bottlenecked by management, research management. It's because you have constrained set of compute and you need to allocate the compute to the research paths that you feel the most convinced about. You need to have a really high conviction in the research paths to put the compute, and it's more return on investment kind of situation.",
+      "timestamp": "00:46:28",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 372
+      },
+      "themes": ["management", "prioritization", "conviction", "compute"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "karina-nguyen-010",
+      "speaker": "Karina Nguyen",
+      "text": "I think it's actually really, really hard to teach the model how to be aesthetic or do really good visual design or how to be extremely creative in the way they write. I still think ChatGPT kind of sucks at writing and that's because it's bottlenecked by this creative reasoning.",
+      "timestamp": "00:46:01",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 369
+      },
+      "themes": ["creativity", "aesthetics", "limitations", "writing"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "karina-nguyen-011",
+      "speaker": "Karina Nguyen",
+      "text": "We are entering the era where I actually don't know sometimes if o1 gives me the correct answer or not because I'm not an expert in that field. And it's like I don't even know how to verify the outputs of the models. Only experts know, they can verify this.",
+      "timestamp": "00:37:48",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 327,
+        "lineEnd": 327
+      },
+      "themes": ["verification", "expertise", "trust", "intelligence"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "karina-nguyen-012",
+      "speaker": "Karina Nguyen",
+      "text": "The agents should build trust with you. And trust builds over time, which is like with humans. And you start this collaboration which is why this collaboration model with you and the model is so important because you build trust and the model learns from your preferences so that it can become more personalized and it will start predicting the next action that you want to take.",
+      "timestamp": "00:58:48",
+      "source": {
+        "slug": "karina-nguyen",
+        "path": "episodes/karina-nguyen/transcript.md",
+        "lineStart": 453,
+        "lineEnd": 453
+      },
+      "themes": ["trust", "personalization", "agents", "collaboration"],
+      "zones": ["alignment", "intuition"]
+    }
+  ],
+  "themes": ["model-training", "synthetic-data", "evals", "creativity", "soft-skills", "product-development", "AI-agents", "trust", "management", "prototyping"],
+  "takeaways": [
+    "Model training is more art than science - ensuring high-quality data and debugging conflicting model behaviors requires craft, intuition, and iterative refinement rather than purely formulaic approaches.",
+    "Synthetic data generation enables rapid product iteration - Canvas and Tasks were built by synthetically training models on core behaviors, making it cheaper and more scalable than collecting human data.",
+    "Soft skills are the future of work - creativity, listening, empathy, and management will become more valuable as AI automates hard skills like coding and writing, because these human capabilities remain difficult for models to replicate.",
+    "AI research progress is bottlenecked by management, not intelligence - allocating constrained compute resources to the highest-conviction research paths is a prioritization and leadership challenge.",
+    "Agents must build trust over time through collaboration - the paradigm shift from synchronous chat to asynchronous agents requires models that learn user preferences and prove reliability before acting autonomously."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "karina-nguyen-009",
+      "why": "Claims AI research is bottlenecked by management rather than technology - counterintuitive at cutting-edge labs where most assume the constraint is compute or algorithms",
+      "related_zones": ["focus", "alignment"]
+    },
+    {
+      "quoteId": "karina-nguyen-010",
+      "why": "An OpenAI researcher openly admitting ChatGPT sucks at writing due to creative reasoning limitations - refreshingly honest self-critique from inside the leading AI lab",
+      "related_zones": ["intuition", "perfection"]
+    },
+    {
+      "quoteId": "karina-nguyen-003",
+      "why": "Dismisses the data wall narrative entirely - argues post-training via reinforcement learning creates infinite tasks, making the bottleneck evaluations not data",
+      "related_zones": ["discovery", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "researcher",
+    "company_stage": "growth",
+    "primary_topics": ["model-training", "synthetic-data", "product-research", "soft-skills", "AI-agents"]
+  }
+}

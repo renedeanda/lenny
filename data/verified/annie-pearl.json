@@ -1,0 +1,199 @@
+{
+  "slug": "annie-pearl",
+  "quotes": [
+    {
+      "id": "annie-pearl-001",
+      "speaker": "Annie Pearl",
+      "text": "When I think about folks who are looking to get into product management, I think there's really two paths. One is more formal in nature. There are associate product manager programs out there at many scaled companies. I think you can actually find APM programs even at smaller, earlier stage companies than big tech.",
+      "timestamp": "00:06:25",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["career-growth", "product-management", "hiring"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "annie-pearl-002",
+      "speaker": "Annie Pearl",
+      "text": "Folks who have successfully transferred over tend to have a couple of characteristics. They're usually very curious, they tend to be really passionate about the product and solving customer problems. And sometimes, they've even tinkered with a side project as a way to hone their PM skills.",
+      "timestamp": "00:11:01",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["career-growth", "curiosity", "customer-empathy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "annie-pearl-003",
+      "speaker": "Annie Pearl",
+      "text": "One of the most impactful things we did pretty early on was to hone in on our overall product strategy. What's the actual market we're going after? What are the segments of that market? Who are the personas within the segments of that market? We've made a pretty clear distinction now, and teams can use that to prioritize and deliver better value for those users.",
+      "timestamp": "00:21:20",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 312
+      },
+      "themes": ["strategy", "prioritization", "focus", "target-market"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "annie-pearl-004",
+      "speaker": "Annie Pearl",
+      "text": "The idea of saying no is scary. When in reality, the ability to say no is going to allow you to make sure you're building something that's going to be amazing for the people that matter most and not something that's going to be average or okay for a lot of different people.",
+      "timestamp": "00:22:55",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 318,
+        "lineEnd": 318
+      },
+      "themes": ["prioritization", "focus", "strategy", "courage"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "annie-pearl-005",
+      "speaker": "Annie Pearl",
+      "text": "Strategy is really just an integrated set of choices that outline how you're going to win in whatever marketplace you choose. A good product strategy is going to answer questions like what's your winning aspiration, where are you going to play, what are the segments and personas, and then how are you going to win with a target audience?",
+      "timestamp": "00:32:16",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": ["strategy", "framework", "prioritization"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "annie-pearl-006",
+      "speaker": "Annie Pearl",
+      "text": "Year one, the percentage of resources we spent on the first horizon and the second was about a 70/30 split with 0% on horizon three. In year two, it shifted to 50/50. And now entering year three, we've got 30% in horizon one, 60% in horizon two, and 10% in horizon three. The allocation should feed right into the product strategy.",
+      "timestamp": "00:33:28",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 405,
+        "lineEnd": 408
+      },
+      "themes": ["resource-allocation", "planning", "strategy", "horizons"],
+      "zones": ["data", "focus", "velocity"]
+    },
+    {
+      "id": "annie-pearl-007",
+      "speaker": "Annie Pearl",
+      "text": "At the end of the day, seeing the sales team and the go-to-market team as this really great asset that can help you as a product manager get closer to the customer. I sort of flip that on its head and say sales and the go-to-market teams in general could be your biggest asset to helping you get your job done well.",
+      "timestamp": "00:29:37",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 378,
+        "lineEnd": 378
+      },
+      "themes": ["customer-empathy", "sales-partnership", "collaboration"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "annie-pearl-008",
+      "speaker": "Annie Pearl",
+      "text": "We've gotten a lot better at making commitments around the work that's right in front of us versus making a commitment around a project six months out when we haven't even done enough discovery, enough design and ideation to have a real clear understanding of estimation.",
+      "timestamp": "00:36:30",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 429
+      },
+      "themes": ["planning", "estimation", "product-development", "process"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "annie-pearl-009",
+      "speaker": "Annie Pearl",
+      "text": "There's only so many solo users who are going to pull out a credit card. Once you get to hundreds of millions of dollars of revenue scale, just the law of large numbers means that growth will slow. And so, you have to figure out where's that next growth curve going to come from.",
+      "timestamp": "00:44:54",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 549,
+        "lineEnd": 549
+      },
+      "themes": ["growth", "scale", "business-model", "revenue"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "annie-pearl-010",
+      "speaker": "Annie Pearl",
+      "text": "We have a meeting called OPA, which stands for opportunity/problem assessment. It's a meeting for PMs to really debate and discuss with each other and spar around either areas and problems that they want to go investigate or deciding whether we actually want to move forward and go try to develop a solution.",
+      "timestamp": "00:46:12",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 570,
+        "lineEnd": 570
+      },
+      "themes": ["team-culture", "process", "decision-making", "collaboration"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "annie-pearl-011",
+      "speaker": "Annie Pearl",
+      "text": "One of Calendly's core principles is focus wisely. I think many organizations really struggle to say no, and they're always adding more onto the plate versus taking off. There is something around focusing and the ability to focus to therefore deliver the highest quality of product that you can to your target customers.",
+      "timestamp": "00:48:51",
+      "source": {
+        "slug": "annie-pearl",
+        "path": "episodes/annie-pearl/transcript.md",
+        "lineStart": 588,
+        "lineEnd": 591
+      },
+      "themes": ["focus", "culture", "prioritization", "quality"],
+      "zones": ["focus", "perfection"]
+    }
+  ],
+  "themes": ["strategy", "focus", "prioritization", "growth", "product-management", "customer-empathy", "planning", "team-culture", "career-growth"],
+  "takeaways": [
+    "A clear product strategy that defines target market, segments, and personas is the most impactful tool for enabling teams to prioritize effectively and say no to distractions.",
+    "The ability to say no is what separates building something amazing for the right users from building something average for everyone -- and it requires a cultural commitment to focus wisely.",
+    "Resource allocation across strategic horizons should shift deliberately over time, moving investment from foundational work toward future growth as the business matures.",
+    "Sales and go-to-market teams are a product manager's greatest asset for customer empathy, not a distraction -- they talk to 10x more customers than any PM can reach alone.",
+    "Product development commitments should be phased around what teams can actually control: discovery first, then solutioning, then build estimates -- not six-month delivery dates made before work has begun."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.10,
+    "discovery": 0.18,
+    "data": 0.14,
+    "intuition": 0.03,
+    "alignment": 0.17,
+    "chaos": 0.02,
+    "focus": 0.28
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "annie-pearl-004",
+      "why": "Argues that saying no is what makes products amazing rather than limiting them -- most teams default to saying yes to everything",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "annie-pearl-007",
+      "why": "Flips the common PM-vs-sales tension on its head by framing sales teams as a product manager's biggest asset rather than a distraction",
+      "related_zones": ["discovery", "alignment"]
+    },
+    {
+      "quoteId": "annie-pearl-008",
+      "why": "Challenges the norm of committing to delivery dates upfront by arguing teams should only commit to work that's right in front of them",
+      "related_zones": ["velocity", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-strategy", "prioritization", "PLG-to-sales", "team-building", "focus"]
+  }
+}

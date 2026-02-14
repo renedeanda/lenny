@@ -1,0 +1,210 @@
+{
+  "slug": "tanguy-crusson",
+  "quotes": [
+    {
+      "id": "tanguy-crusson-001",
+      "speaker": "Tanguy Crusson",
+      "text": "Never do a rewrite, and there's good reasons for that. But basically we did that and out of it came up actually a new product called Stride. The problem is that the product was great, but by the time we were done, Slack was just miles ahead of us.",
+      "timestamp": "00:16:46",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["product-strategy", "rewrites", "competition"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "tanguy-crusson-002",
+      "speaker": "Tanguy Crusson",
+      "text": "There's a lot of assumptions in what made us successful, it doesn't mean that it's going to work. The founders keep telling us what took us here won't take us there. It's very easy for teams when they see success of something to think that it's successful because of X, but X is not validated.",
+      "timestamp": "00:22:43",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 229
+      },
+      "themes": ["validation", "assumptions", "strategy"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "tanguy-crusson-003",
+      "speaker": "Tanguy Crusson",
+      "text": "We ended up reacting to whatever the competitor was doing, which is really, really bad because that's when we lost basically what made HipChat successful so far. Your competitor, if you think of what they do as an iceberg, the top side is what they've shipped in terms of features, but it's based on all this stuff they've built in terms of research and understanding of their customer base.",
+      "timestamp": "00:29:00",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 265
+      },
+      "themes": ["competition", "product-strategy", "customer-focus"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "tanguy-crusson-004",
+      "speaker": "Tanguy Crusson",
+      "text": "Startups have the benefit of starving. We're a big company, we can throw a lot of resources at something that we're excited about. I think we thought we will win. And at the same time we thought that we could tackle the rewrite and the platformization. All these things were necessary, but all of them at the same time was probably a bit too much to bite.",
+      "timestamp": "00:31:37",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 286,
+        "lineEnd": 289
+      },
+      "themes": ["focus", "resource-management", "zero-to-one"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "tanguy-crusson-005",
+      "speaker": "Tanguy Crusson",
+      "text": "Great work can get parked. We need a very strong trigger for why now to go after it. I did not do a good enough job at articulating this. Why now? Why do we have to do this now versus in a year's time, in two years' time? The rationale for the sense of urgency needs to be there.",
+      "timestamp": "00:50:45",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 385
+      },
+      "themes": ["strategy", "urgency", "stakeholder-management"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "tanguy-crusson-006",
+      "speaker": "Tanguy Crusson",
+      "text": "We remind everyone things are going to fail, so that we could buy the opportunity to hack shit together that is not going to scale, that is not going to respect our design guidelines, that is not going to fit with the Jira target architecture. But we're going to test this with customers and see if the concepts make sense.",
+      "timestamp": "01:01:26",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 445,
+        "lineEnd": 445
+      },
+      "themes": ["zero-to-one", "experimentation", "prototyping"],
+      "zones": ["chaos", "velocity", "discovery"]
+    },
+    {
+      "id": "tanguy-crusson-007",
+      "speaker": "Tanguy Crusson",
+      "text": "What we're trying to do when starting new products is to basically emulate a startup in an environment that is not hungry, is not starving. And so you need to create scarcity. What I wanted with my team is to make sure that they feel the urgency. I also needed the rest of the company to go away so we could get the autonomy to test things.",
+      "timestamp": "01:02:29",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 451,
+        "lineEnd": 451
+      },
+      "themes": ["zero-to-one", "autonomy", "incubation"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "tanguy-crusson-008",
+      "speaker": "Tanguy Crusson",
+      "text": "If you're starting something like this, your teams will need to break a lot of rules that are established. But they need to be able to do that without breaking the trust of everyone in the organization. The rules were created to support the business at the stage where it was successful, and it just so happens that they might not work for new bets.",
+      "timestamp": "01:09:08",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 520,
+        "lineEnd": 523
+      },
+      "themes": ["trust", "rule-breaking", "organizational-change"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "tanguy-crusson-009",
+      "speaker": "Tanguy Crusson",
+      "text": "In my opinion everyone can be a product engineer. They just need to be exposed to the right user context. The right user context is 10 customers you know by name, you know their context, you know their problems. You can empathize with it. This empathy makes you want to act to change your product to solve their problem.",
+      "timestamp": "01:28:49",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 667,
+        "lineEnd": 667
+      },
+      "themes": ["product-engineering", "empathy", "customer-closeness"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "tanguy-crusson-010",
+      "speaker": "Tanguy Crusson",
+      "text": "Those kinds of things are what give people a sense of velocity and speed, and no one wants to fuck with a high-speed train. You don't get in front of it. That doesn't help and you're going to look bad by doing that. So basically that ended up buying us the time that we needed to get out of the ugly baby phase.",
+      "timestamp": "01:32:48",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 703,
+        "lineEnd": 703
+      },
+      "themes": ["velocity", "momentum", "stakeholder-management"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "tanguy-crusson-011",
+      "speaker": "Tanguy Crusson",
+      "text": "We don't need so much top-down leadership. What we need is a lot of autonomous leaders, regardless of their position within the org, able to push for change, fighting for the right things, but you need to do that in an environment that's safe for you to do so. If it's not, I think it's okay to consider alternatives.",
+      "timestamp": "01:39:15",
+      "source": {
+        "slug": "tanguy-crusson",
+        "path": "episodes/tanguy-crusson/transcript.md",
+        "lineStart": 775,
+        "lineEnd": 775
+      },
+      "themes": ["leadership", "autonomy", "psychological-safety"],
+      "zones": ["chaos", "alignment"]
+    }
+  ],
+  "themes": [
+    "zero-to-one",
+    "incubation",
+    "product-strategy",
+    "customer-closeness",
+    "autonomy",
+    "competition",
+    "validation",
+    "velocity",
+    "organizational-change",
+    "leadership"
+  ],
+  "takeaways": [
+    "When building zero-to-one inside a large company, deliberately create scarcity and starve the team of resources to emulate startup urgency rather than letting the organization over-invest too early.",
+    "Frame new bets as most likely to fail to buy autonomy from the broader org -- no one wants to drag the whole company into something that probably won't exist in six months.",
+    "Don't chase competitors feature-for-feature; you're only seeing the tip of their iceberg. Anchor back to your own customer research and build your own journey.",
+    "Articulate a compelling 'why now' for every bet -- great work gets parked when there's no clear trigger for urgency, no matter how strong the opportunity.",
+    "Turn every engineer into a product engineer by giving them direct relationships with 10 customers they know by name, creating empathy that drives better product decisions than any research report."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.00,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.25,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tanguy-crusson-006",
+      "why": "Argues that teams should deliberately position new bets as likely to fail -- counterintuitive when most companies try to build maximum enthusiasm and investment around new products",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "tanguy-crusson-007",
+      "why": "Claims big companies need to artificially create scarcity and push away organizational help, contradicting the common belief that more resources always accelerate innovation",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "tanguy-crusson-008",
+      "why": "Advocates breaking established company rules as a necessity for zero-to-one innovation, challenging the notion that process compliance and innovation can coexist easily",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["zero-to-one", "internal-incubation", "product-strategy", "organizational-change"]
+  }
+}
