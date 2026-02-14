@@ -1,0 +1,194 @@
+{
+  "slug": "garrett-lord",
+  "quotes": [
+    {
+      "id": "garrett-lord-001",
+      "speaker": "Garrett Lord",
+      "text": "For as long as models are improving, humans will be needed in this process. When you talk to the lead scientists and researchers at these labs, the data types will evolve and what they're trying to capture and collect, but there will be humans needed in the space for the next decade until we reach full ASI.",
+      "timestamp": "00:23:13",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 204,
+        "lineEnd": 204
+      },
+      "themes": ["AI training", "human data", "future of work"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "garrett-lord-002",
+      "speaker": "Garrett Lord",
+      "text": "I'm probably in the camp of GDP growth over universal basic income. One young, talented, AI native, Iron Man suit enabled young person can build their own videos, produce their own creative assets, post across multiple social media platforms, run all of their own analytics. They don't need a data science degree to be able to do that.",
+      "timestamp": "00:24:42",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 210
+      },
+      "themes": ["AI augmentation", "productivity", "future of work"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "garrett-lord-003",
+      "speaker": "Garrett Lord",
+      "text": "The only moat in human data is access to an audience. We built a decade of trust with 18 million people and they trust us. We have a ton of brand affinity. We're able to really target people really effectively and get to scale and volume of high quality data faster than anyone else.",
+      "timestamp": "00:30:58",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 246
+      },
+      "themes": ["competitive moat", "audience", "trust"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "garrett-lord-004",
+      "speaker": "Garrett Lord",
+      "text": "We started to see direct outreach from the Frontier Labs reaching out to us, trying to cut out the middleman. When we started to put together the dots that we could build a way better experience for our fellows, serve them directly to the labs, and basically cut out the middleman, providing a better experience to all sides.",
+      "timestamp": "00:46:09",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 363,
+        "lineEnd": 363
+      },
+      "themes": ["marketplace", "disintermediation", "opportunity recognition"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "garrett-lord-005",
+      "speaker": "Garrett Lord",
+      "text": "Everyone only had one job and one job only, and that was making Handshake AI successful. Separate engineering team, separate design team, separate accounts and operations team, separate finance team. Everything was separate. People that have started companies before. That was huge.",
+      "timestamp": "00:53:50",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 402
+      },
+      "themes": ["organizational design", "focus", "new ventures"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "garrett-lord-006",
+      "speaker": "Garrett Lord",
+      "text": "We were also way more upfront around this is going to be chaotic. Just owning that narrative in front of all hands at the core company, owning it directly with the team. We have a separate all hands, we have separate onboarding, we have a separate recruiting team.",
+      "timestamp": "00:54:46",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 405,
+        "lineEnd": 405
+      },
+      "themes": ["transparency", "chaos management", "startup culture"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "garrett-lord-007",
+      "speaker": "Garrett Lord",
+      "text": "We had this motto: leave nothing to chance. There will never be a time like this. How do you make sure that three months are not six months? You have no regrets. Get on the plane to go talk to a customer, make the late night push, check the data six times over again, ship the extra feature.",
+      "timestamp": "00:56:39",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 408,
+        "lineEnd": 411
+      },
+      "themes": ["urgency", "execution", "motto"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "garrett-lord-008",
+      "speaker": "Garrett Lord",
+      "text": "The frontier tax accountants don't want to be treated like they're drawing boundary boxes around stop signs in the Philippines. We just started from day one building this expert-first platform. We believe there'd be a deep network effect connected to our core business of starting, jumpstarting or restarting your career.",
+      "timestamp": "00:41:43",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 336
+      },
+      "themes": ["expert networks", "respect", "platform design"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "garrett-lord-009",
+      "speaker": "Garrett Lord",
+      "text": "We do this thing where we produce one unit of data ourselves. We pay for it, almost like a movie production. We run our own post-training on it, produce a bunch of specifications of the data, and we actually sell that individual package of data to many different labs.",
+      "timestamp": "00:43:03",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 339,
+        "lineEnd": 339
+      },
+      "themes": ["data production", "business model", "quality"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "garrett-lord-010",
+      "speaker": "Garrett Lord",
+      "text": "If you viewed your research team and model building team and the experiments they're running to be the cornerstone of how you're improving, you probably wouldn't want the latest research of what you're trying to work on being invested in by a peer. That's generally what we hear in this space.",
+      "timestamp": "00:29:50",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["competitive dynamics", "AI labs", "trust"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "garrett-lord-011",
+      "speaker": "Garrett Lord",
+      "text": "With Handshake AI, we've been way more focused on operating with data, and metrics, and rigor from an early stage. We pick the best person who's most capable of driving an initiative forward, regardless of the function to be the DRI. We're a lot more metrics-oriented.",
+      "timestamp": "00:51:35",
+      "source": {
+        "slug": "garrett-lord",
+        "path": "episodes/garrett-lord/transcript.md",
+        "lineStart": 393,
+        "lineEnd": 393
+      },
+      "themes": ["metrics", "DRI", "operating cadence"],
+      "zones": ["data", "velocity"]
+    }
+  ],
+  "themes": ["AI training", "human data", "marketplace", "startup within a company", "execution", "competitive moat", "expert networks", "metrics", "future of work", "urgency"],
+  "takeaways": [
+    "The only sustainable moat in human data for AI training is access to a trusted audience - performance marketing and LinkedIn recruiting are unsustainable alternatives that cost orders of magnitude more.",
+    "Building a new business inside an established company requires complete separation: separate teams, separate all-hands, separate onboarding, separate office space, and a founder-mode leader dedicating 80%+ of their time.",
+    "Treating AI training experts like interchangeable low-cost labor is a losing strategy - an expert-first platform with proper training, community, and fair compensation creates dramatically better retention and data quality.",
+    "In once-in-a-generation opportunities, the motto should be 'leave nothing to chance' - compress timelines ruthlessly, get on planes to meet customers, and check data six times over.",
+    "Humans will be needed in AI model training for at least the next decade - the data types will evolve from text to multimodal, from generalist to expert domain knowledge, but human-in-the-loop will remain essential."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "garrett-lord-002",
+      "why": "Rejects the UBI narrative in favor of AI augmenting human productivity - argues young people with AI are dramatically more capable, not displaced",
+      "related_zones": ["velocity", "discovery"]
+    },
+    {
+      "quoteId": "garrett-lord-008",
+      "why": "Calls out the industry practice of treating expert data labelers like low-cost gig workers - argues this approach fundamentally fails at the frontier",
+      "related_zones": ["alignment", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI training data", "marketplace building", "startup within a company"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "dhanji-r-prasanna",
+  "quotes": [
+    {
+      "id": "dhanji-r-prasanna-q001",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "We find engineering teams that are very, very AI forward are reporting about eight to 10 hours saved per week. And then we also have a number of check metrics to try and validate that. We feel across the whole company, we're probably trending towards 20 to 25% of manual hours saved.",
+      "timestamp": "00:16:03",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 175
+      },
+      "themes": ["ai-productivity", "metrics", "automation"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q002",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "One area in which we find that it's really good is for non-technical teams to be able to build little software tools for themselves. Our enterprise risk management team build a whole system for self-servicing enterprise risk, and this is compressing weeks of work into hours.",
+      "timestamp": "00:17:54",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 181
+      },
+      "themes": ["ai-tools", "non-technical-users", "productivity"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q003",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "Conway's Law can be really, really powerful. It's the law that basically says you ship your org structure. So what you're organized as in terms of teams, in terms of collaborating groups and your operating model matters a lot to what you build.",
+      "timestamp": "00:12:13",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["org-structure", "conways-law", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q004",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "All these LLMs are sitting idle overnight and on weekends, while humans aren't there. There's no need for that. They should be working all the time. They should be trying to build in anticipation of what we want.",
+      "timestamp": "00:33:36",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 304
+      },
+      "themes": ["ai-agents", "future-of-work", "autonomy"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q005",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "A lot of engineers think that code quality is important to building a successful product. The two have nothing to do with each other. My favorite example is YouTube. I was working at Google around the time YouTube was acquired and I just remember there was this whole wash of angst about how horrible the YouTube code base is. And you could argue that YouTube is the most successful product at Google by a long way.",
+      "timestamp": "01:02:02",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 511,
+        "lineEnd": 514
+      },
+      "themes": ["code-quality", "product-success", "engineering"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q006",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "The non-technical people using AI agents and programming tools to build things is really what's been surprising and really amazing. The people that are able to embrace it to optimize for their particular workday and their particular set of tasks are really showing the most impact from these tools.",
+      "timestamp": "00:49:50",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["ai-adoption", "non-technical-users", "productivity"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q007",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "I think there's a trap in getting away from your core purpose as a company. The savings and costs that there might be in replacing a vendor tool by something you build in-house is probably not worth it in the mental bandwidth that you've lost and the amount of the team's technical focus that's being taken away.",
+      "timestamp": "00:40:31",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 355
+      },
+      "themes": ["build-vs-buy", "focus", "strategy"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q008",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "One of the things that I do regularly, so I write code every day, but one of the things that I do regularly is just throw away huge, huge amounts of code, and it's kind of hard for me because I've never done that before. You build a whole new system or a whole new feature and you're like, 'Ah, it doesn't feel exactly right. I'm just going to delete and start over.'",
+      "timestamp": "00:35:00",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 311
+      },
+      "themes": ["ai-workflow", "iteration", "code"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q009",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "We had a lot of momentum in each of these silos, be it Cash App, be it Afterpay, be it Square. And no one was really talking to each other, no one was really aligned on technical strategy on what we even wanted to be five years from now as a collective team. Moving to a functional structure completely changes that.",
+      "timestamp": "00:13:24",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 154
+      },
+      "themes": ["org-structure", "functional-org", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q010",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "If you try to boil the ocean to make a cup of tea, you'll never get there. So if you're making a cup of tea, just make the cup of tea. You don't need to boil all the water that there is. Cash App started more or less as a hack week idea and grew into a bigger and bigger and bigger thing.",
+      "timestamp": "01:08:26",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 556,
+        "lineEnd": 571
+      },
+      "themes": ["start-small", "iteration", "product-development"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "dhanji-r-prasanna-q011",
+      "speaker": "Dhanji R. Prasanna",
+      "text": "My career has basically been a string of failed product on top of failed product. Google Wave, Google+, Secret, an email startup. Cash App was probably the big success for me. Been my career is essentially taking the learnings from all these failures, getting some humility out of it in the process too.",
+      "timestamp": "01:14:08",
+      "source": {
+        "slug": "dhanji-r-prasanna",
+        "path": "episodes/dhanji-r-prasanna/transcript.md",
+        "lineStart": 634,
+        "lineEnd": 643
+      },
+      "themes": ["failure", "resilience", "learning"],
+      "zones": ["chaos", "intuition"]
+    }
+  ],
+  "themes": ["ai-productivity", "org-structure", "code-quality", "automation", "start-small", "functional-org", "build-vs-buy", "failure", "leadership", "future-of-work"],
+  "takeaways": [
+    "Structure matters more than tools - moving from a GM structure to a functional org at Block delivered more productivity gains than any AI tool, because Conway's Law means you ship your org chart.",
+    "Non-technical teams are getting the most surprising value from AI - enterprise risk, legal, and support teams building their own software tools is compressing weeks of work into hours.",
+    "Code quality has nothing to do with product success - YouTube had terrible architecture stored in MySQL blobs and a Python stack, yet it's arguably Google's most successful product by far.",
+    "AI agents should work 24/7, not just during human hours - LLMs sitting idle overnight and on weekends is a waste when they could be building experiments in anticipation of what teams want.",
+    "Start small with everything - Cash App, Bitcoin on Square, and Goose all started as hack week ideas or side experiments that grew into massive products through iterative validation."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.00,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.25,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dhanji-r-prasanna-q005",
+      "why": "Flatly states code quality and product success have nothing to do with each other - directly challenges engineering culture's reverence for clean code and good architecture",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "dhanji-r-prasanna-q008",
+      "why": "A CTO who writes code every day and regularly throws away entire features and systems - embraces disposable code as a new way of working with AI",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "dhanji-r-prasanna-q007",
+      "why": "Despite leading one of the most AI-forward companies, argues against replacing vendor tools with homegrown AI solutions - the mental bandwidth cost isn't worth the savings",
+      "related_zones": ["focus", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["ai-transformation", "org-design", "engineering-leadership", "productivity"]
+  }
+}
