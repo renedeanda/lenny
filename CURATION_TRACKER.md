@@ -1,47 +1,20 @@
 # Episode Curation Tracker
 
 **Last Updated:** 2026-02-14
-**Curated:** 125 / 295 total episodes
-**Eligible Uncurated (real transcripts 50+ lines):** 160
-**Target:** 150 curated → 175 → 200
+**Curated:** 150 / 295 total episodes
+**Eligible Uncurated (real transcripts 50+ lines):** 135
+**Target:** ~~150 curated~~ ✅ → 175 → 200
 
 ---
 
-## Currently Being Curated (Batch to 150)
+## Milestone: 150 Curated ✅
 
-These 25 episodes are in the current curation batch:
-
-| # | Slug | Lines | Status |
-|---|------|-------|--------|
-| 1 | bob-baxley | 848 | IN PROGRESS |
-| 2 | albert-cheng | 1058 | IN PROGRESS |
-| 3 | elena-verna-40 | 811 | IN PROGRESS |
-| 4 | hilary-gridley | 1181 | IN PROGRESS |
-| 5 | jason-m-lemkin | 965 | IN PROGRESS |
-| 6 | karri-saarinen | 710 | IN PROGRESS |
-| 7 | lane-shackleton | 652 | IN PROGRESS |
-| 8 | nick-turley | 902 | IN PROGRESS |
-| 9 | noah-weiss | 887 | IN PROGRESS |
-| 10 | ronny-kohavi | 742 | IN PROGRESS |
-| 11 | sean-ellis | 824 | IN PROGRESS |
-| 12 | tanguy-crusson | 941 | IN PROGRESS |
-| 13 | todd-jackson | 745 | IN PROGRESS |
-| 14 | karina-nguyen | 661 | IN PROGRESS |
-| 15 | eric-simons | 800 | IN PROGRESS |
-| 16 | ryan-singer | 938 | IN PROGRESS |
-| 17 | nabeel-s-qureshi | 737 | IN PROGRESS |
-| 18 | matt-lemay | 1030 | IN PROGRESS |
-| 19 | jen-abel | 742 | IN PROGRESS |
-| 20 | annie-pearl | 769 | IN PROGRESS |
-| 21 | alex-hardimen | 686 | IN PROGRESS |
-| 22 | christopher-lochhead | 785 | IN PROGRESS |
-| 23 | camille-ricketts | 649 | IN PROGRESS |
-| 24 | jason-feifer | 962 | IN PROGRESS |
-| 25 | chandra-janakiraman | 1022 | IN PROGRESS |
+Batch of 25 episodes completed on 2026-02-14:
+bob-baxley, albert-cheng, elena-verna-40, hilary-gridley, jason-m-lemkin, karri-saarinen, lane-shackleton, nick-turley, noah-weiss, ronny-kohavi, sean-ellis, tanguy-crusson, todd-jackson, karina-nguyen, eric-simons, ryan-singer, nabeel-s-qureshi, matt-lemay, jen-abel, annie-pearl, alex-hardimen, christopher-lochhead, camille-ricketts, jason-feifer, chandra-janakiraman
 
 ---
 
-## Remaining Uncurated Episodes (135 after current batch)
+## Remaining Uncurated Episodes (135)
 
 Eligible episodes with real transcripts (50+ lines) not yet curated or in current batch.
 
@@ -208,11 +181,11 @@ Eligible episodes with real transcripts (50+ lines) not yet curated or in curren
 
 ## Summary
 
-| Milestone | Episodes Needed | Remaining After Current Batch |
-|-----------|----------------|-------------------------------|
-| **150** | 25 (in progress) | 0 |
+| Milestone | Episodes Needed | Status |
+|-----------|----------------|--------|
+| **150** | 0 | ✅ Complete |
 | **175** | 25 more | from "Next batch" list |
 | **200** | 25 more | from "Following batch" list |
 | **All** | 135 more | full backlog above |
 
-**Note:** 2 possible duplicate slugs excluded from counts. Total unique eligible: ~158-160.
+**Note:** 2 possible duplicate slugs excluded from counts. Total unique eligible: ~135.

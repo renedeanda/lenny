@@ -53,9 +53,19 @@ ls data/verified/{slug}.json
 ```
 **If the JSON file already exists, SKIP this episode** unless the user explicitly asks to re-curate it.
 
-### 3. Batch Curation: Programmatic Discovery
-When asked to "curate more episodes" or "scale to N episodes", **always programmatically determine** which episodes are eligible rather than guessing:
+### 3. Batch Curation: Use the Curation Tracker
+When asked to "curate more episodes" or "scale to N episodes", **consult `CURATION_TRACKER.md`** in the project root. It contains:
+- Current curation count and milestones
+- Pre-sorted lists of uncurated episodes organized into batches of 25
+- Line counts for each episode's transcript
+- Possible duplicates to investigate
 
+```bash
+# Quick reference: see what's next to curate
+cat CURATION_TRACKER.md
+```
+
+If the tracker is outdated or you need to verify programmatically:
 ```bash
 # Find all episodes with REAL transcripts (50+ lines, not just frontmatter)
 for dir in episodes/*/; do
@@ -76,6 +86,8 @@ ls data/verified/*.json | grep -v verified-content.json | sed 's|data/verified/|
 ```
 
 **Never assume an episode has a transcript.** Always verify the file has 50+ lines of real content. Out of ~295 episode slugs, many have only frontmatter placeholders.
+
+**After batch curation, update `CURATION_TRACKER.md`** to mark the batch complete and adjust counts.
 
 ### 4. NEVER Modify Existing Curated Files
 When curating new episodes:

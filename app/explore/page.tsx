@@ -378,22 +378,6 @@ export default function ExplorePage() {
                   </span>
                 </button>
 
-                {/* No Transcript Filter */}
-                <button
-                  onClick={() => setShowNoTranscript(!showNoTranscript)}
-                  className={`px-4 py-4 border-2 transition-all flex items-center gap-2
-                           ${showNoTranscript
-                      ? 'border-crimson bg-crimson text-void'
-                      : 'border-ash-darker text-ash hover:border-crimson hover:text-crimson'
-                    }`}
-                  title={`${noTranscriptSlugs.size} episodes without transcripts`}
-                >
-                  <span className="hidden sm:inline">NO TRANSCRIPT</span>
-                  <span className={`${showNoTranscript ? 'bg-void/20' : 'bg-void/20'} text-current rounded px-1.5 py-0.5 text-xs font-bold`}>
-                    {noTranscriptSlugs.size}
-                  </span>
-                </button>
-
                 <button
                   onClick={() => setShowFilters(!showFilters)}
                   className={`px-6 py-4 border-2 transition-all flex items-center gap-2
@@ -404,9 +388,9 @@ export default function ExplorePage() {
                 >
                   <Filter className="w-4 h-4" />
                   <span className="hidden sm:inline">FILTERS</span>
-                  {selectedKeywords.length > 0 && (
+                  {(selectedKeywords.length > 0 || showNoTranscript) && (
                     <span className="bg-amber text-void rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">
-                      {selectedKeywords.length}
+                      {selectedKeywords.length + (showNoTranscript ? 1 : 0)}
                     </span>
                   )}
                 </button>
@@ -436,6 +420,23 @@ export default function ExplorePage() {
                   exit={{ opacity: 0, height: 0 }}
                   className="border-2 border-ash-darker bg-void-light p-4 overflow-hidden"
                 >
+                  {/* No Transcript Toggle */}
+                  <div className="flex items-center justify-between mb-4">
+                    <button
+                      onClick={() => setShowNoTranscript(!showNoTranscript)}
+                      className={`px-3 py-2 text-sm border-2 transition-all flex items-center gap-2 font-medium
+                               ${showNoTranscript
+                          ? 'border-crimson bg-crimson text-void'
+                          : 'border-ash-darker text-ash bg-void-light hover:border-crimson hover:text-crimson'
+                        }`}
+                    >
+                      NO TRANSCRIPT
+                      <span className="text-current rounded px-1.5 py-0.5 text-xs font-bold bg-void/20">
+                        {noTranscriptSlugs.size}
+                      </span>
+                    </button>
+                  </div>
+
                   <div className="flex items-center justify-between mb-3">
                     <div className="text-xs text-amber tracking-wider">FILTER BY TOPIC</div>
                     {selectedKeywords.length > 0 && (
