@@ -1,0 +1,199 @@
+{
+  "slug": "bob-baxley",
+  "quotes": [
+    {
+      "id": "bob-baxley-001",
+      "speaker": "Bob Baxley",
+      "text": "They knew the products themselves were very ephemeral, but there's something about the culture of Apple that's lasted a very long time and I personally believe will last for some time yet to come. It's a way of making decisions, it's a way of behaving, it's a way of seeing the value of technology in the world and it infuses everything in that company.",
+      "timestamp": "00:05:33",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 82,
+        "lineEnd": 82
+      },
+      "themes": ["culture", "leadership", "longevity"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "bob-baxley-002",
+      "speaker": "Bob Baxley",
+      "text": "The thing I took away from Apple, and I think this is true for anybody changing from one major culture to another is most likely the new place hires you because of the values of the organization you left, but not the behaviors. Try to hold onto the values but not the behaviors.",
+      "timestamp": "00:08:23",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["culture", "career-transitions", "values"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "bob-baxley-003",
+      "speaker": "Bob Baxley",
+      "text": "I've also come to believe that I actually have never seen a company that grafted design on after the founding. I could name lots of companies that I think are kind of design led, not always designer led, but design led or design centric. But I've never seen somebody grafted on after the fact. It's there at the beginning in the root DNA or doesn't exist.",
+      "timestamp": "00:14:32",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 136
+      },
+      "themes": ["design-leadership", "culture", "founding"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "bob-baxley-004",
+      "speaker": "Bob Baxley",
+      "text": "When design thinking became big, I was always really confused because I didn't know how else you could think. Design is trying to imagine the future you want to live in and then take the steps to make it real.",
+      "timestamp": "00:15:55",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 151
+      },
+      "themes": ["design-philosophy", "vision", "mindset"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "bob-baxley-005",
+      "speaker": "Bob Baxley",
+      "text": "I joke about The Beatles. You get The Beatles with four people, you don't get The Beatles with eight people and you certainly don't get it with 24 people. The teams get too big and you can't get that what Brian Eno calls scenius. Scenius is the collective idea of genius and I think that's something that's really magical.",
+      "timestamp": "00:20:10",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["team-size", "creativity", "collaboration"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "bob-baxley-006",
+      "speaker": "Bob Baxley",
+      "text": "One of them was documentation is a failure state. In enterprise companies, a lot of times people think, 'Oh, we'll just put it in the manual.' And I would constantly be coming back and go, 'Stop it. Nobody wants to learn our software. Nobody cares. We are just one more browser tab in a world of browser tabs.'",
+      "timestamp": "00:40:46",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
+      },
+      "themes": ["design-tenets", "simplicity", "user-experience"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "bob-baxley-007",
+      "speaker": "Bob Baxley",
+      "text": "I've never seen a product be successful that used metrics as a driver for what they were doing. I've seen a lot of companies be really successfully seeing metrics as a consequence and a way to evaluate the quality of their decisions, and then using those to triangulate and make better decisions moving forward.",
+      "timestamp": "01:00:44",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 409,
+        "lineEnd": 409
+      },
+      "themes": ["metrics", "product-strategy", "decision-making"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "bob-baxley-008",
+      "speaker": "Bob Baxley",
+      "text": "You should wait as long as possible to draw a picture. Once you make that mark on the canvas, everything you do after that is in response to that mark. As soon as we drew a picture that looked even remotely real, everybody gravitated towards that and said, oh, that's the thing.",
+      "timestamp": "01:09:04",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 478
+      },
+      "themes": ["design-process", "prototyping", "creativity"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "bob-baxley-009",
+      "speaker": "Bob Baxley",
+      "text": "Design is a problem solving methodology. So the more variables you can remove before they go into the process, the more efficient it's going to be. If you give designers a lot of ambiguity, they're going to spend a lot of time spinning around, and honestly, that's your fault as the client.",
+      "timestamp": "01:05:32",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 448,
+        "lineEnd": 448
+      },
+      "themes": ["design-process", "efficiency", "collaboration"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "bob-baxley-010",
+      "speaker": "Bob Baxley",
+      "text": "We have an obligation as product people to put that emotional energy back into people's lives. They don't want to try to figure out how to navigate our login screens or go through our onboarding process, they just want to get home and spend time with their families and pet their dogs and have a nice dinner.",
+      "timestamp": "00:47:10",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 331,
+        "lineEnd": 331
+      },
+      "themes": ["user-empathy", "product-quality", "moral-obligation"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "bob-baxley-011",
+      "speaker": "Bob Baxley",
+      "text": "Ideas need champions. They need champions willing to put themselves on the line for them. If you believe in something and you've made your case and you can really make your case, have the courage of your convictions and get behind it and fight as hard as you can for it.",
+      "timestamp": "01:26:58",
+      "source": {
+        "slug": "bob-baxley",
+        "path": "episodes/bob-baxley/transcript.md",
+        "lineStart": 664,
+        "lineEnd": 664
+      },
+      "themes": ["leadership", "advocacy", "conviction"],
+      "zones": ["intuition", "chaos"]
+    }
+  ],
+  "themes": ["design-leadership", "culture", "product-quality", "team-size", "design-process", "user-empathy"],
+  "takeaways": [
+    "Design is a holistic mindset, not just visual expression - it must be embedded in a company's founding DNA, not grafted on after the fact.",
+    "Small teams produce the best creative work; Apple's online store had just six designers serving 30+ countries because clarity of vision eliminates the need for large headcount.",
+    "Design tenets are decision-making tools that resolve recurring debates once and for all, unlike design principles which are platitudes nobody would argue against.",
+    "Metrics should be treated as a consequence of good decisions, not as drivers - no successful product was built by optimizing metrics first.",
+    "Software is a medium like film or music with an emotional component, and product builders have a moral obligation to respect the emotional energy of the people on the other side of the screen."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.30,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.22,
+    "alignment": 0.12,
+    "chaos": 0.03,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "bob-baxley-007",
+      "why": "Challenges the data-driven orthodoxy by arguing metrics should never drive product decisions, only serve as feedback on decisions already made.",
+      "related_zones": ["intuition", "data"]
+    },
+    {
+      "quoteId": "bob-baxley-008",
+      "why": "Goes against the current trend of rapid prototyping and AI-generated mockups by arguing you should delay visual expression as long as possible.",
+      "related_zones": ["perfection", "velocity"]
+    },
+    {
+      "quoteId": "bob-baxley-003",
+      "why": "Asserts that design culture cannot be added to a company after founding, challenging the belief that any company can become design-led with the right hire.",
+      "related_zones": ["perfection", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": ["design-leadership", "product-culture", "team-building", "design-process", "user-empathy"]
+  }
+}

@@ -9,6 +9,7 @@ import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
 import { getVerifiedEpisodeSlugs } from '@/lib/verifiedQuotes';
+import { noTranscriptSlugs } from '@/lib/noTranscriptEpisodes';
 import { generateRecommendations, EpisodeAlignment } from '@/lib/recommendations';
 import { QuizAnswers } from '@/lib/types';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
@@ -38,6 +39,7 @@ export default function ExplorePage() {
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
   const [showCuratedOnly, setShowCuratedOnly] = useState(initialState?.showCuratedOnly || false);
+  const [showNoTranscript, setShowNoTranscript] = useState(initialState?.showNoTranscript || false);
   const [currentPage, setCurrentPage] = useState<number>(initialState?.currentPage || 1);
   const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
   const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
@@ -77,13 +79,14 @@ export default function ExplorePage() {
         sortBy,
         showFilters,
         showCuratedOnly,
+        showNoTranscript,
         showRecommendations,
         currentPage
       }));
     } catch (e) {
       // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters, showCuratedOnly, showRecommendations, currentPage]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, showCuratedOnly, showNoTranscript, showRecommendations, currentPage]);
 
   // Check if user has quiz results and generate recommendations
   useEffect(() => {
@@ -114,6 +117,8 @@ export default function ExplorePage() {
     return new Set(slugs);
   }, []);
 
+  // noTranscriptSlugs imported from lib/noTranscriptEpisodes.ts (static set)
+
   const filteredAndSortedEpisodes = useMemo(() => {
     let filtered = searchEpisodes(searchQuery, { keywords: selectedKeywords });
 
@@ -122,8 +127,13 @@ export default function ExplorePage() {
       filtered = filtered.filter(ep => enrichedSlugs.has(ep.slug));
     }
 
+    // Filter to no-transcript episodes only if toggle is on
+    if (showNoTranscript) {
+      filtered = filtered.filter(ep => noTranscriptSlugs.has(ep.slug));
+    }
+
     return sortEpisodes(filtered, sortBy);
-  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, enrichedSlugs]);
+  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, showNoTranscript, enrichedSlugs]);
 
   // Reset to page 1 when filters change (but not on initial mount)
   const filtersInitialized = useRef(false);
@@ -133,7 +143,7 @@ export default function ExplorePage() {
       return;
     }
     setCurrentPage(1);
-  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly]);
+  }, [searchQuery, selectedKeywords, sortBy, showCuratedOnly, showNoTranscript]);
 
   // Scroll to top on page change (but not on initial mount)
   const pageInitialized = useRef(false);
@@ -173,6 +183,7 @@ export default function ExplorePage() {
     setSearchQuery('');
     setSelectedKeywords([]);
     setShowCuratedOnly(false);
+    setShowNoTranscript(false);
   };
 
   return (
@@ -367,6 +378,22 @@ export default function ExplorePage() {
                   </span>
                 </button>
 
+                {/* No Transcript Filter */}
+                <button
+                  onClick={() => setShowNoTranscript(!showNoTranscript)}
+                  className={`px-4 py-4 border-2 transition-all flex items-center gap-2
+                           ${showNoTranscript
+                      ? 'border-crimson bg-crimson text-void'
+                      : 'border-ash-darker text-ash hover:border-crimson hover:text-crimson'
+                    }`}
+                  title={`${noTranscriptSlugs.size} episodes without transcripts`}
+                >
+                  <span className="hidden sm:inline">NO TRANSCRIPT</span>
+                  <span className={`${showNoTranscript ? 'bg-void/20' : 'bg-void/20'} text-current rounded px-1.5 py-0.5 text-xs font-bold`}>
+                    {noTranscriptSlugs.size}
+                  </span>
+                </button>
+
                 <button
                   onClick={() => setShowFilters(!showFilters)}
                   className={`px-6 py-4 border-2 transition-all flex items-center gap-2
@@ -464,6 +491,7 @@ export default function ExplorePage() {
                 index={index}
                 selectedKeywords={selectedKeywords}
                 hasEnrichment={enrichedSlugs.has(episode.slug)}
+                hasNoTranscript={noTranscriptSlugs.has(episode.slug)}
                 isFavorited={favoriteEpisodeSlugs.has(episode.slug)}
                 onToggleFavorite={handleToggleEpisodeFavorite}
               />
@@ -566,7 +594,7 @@ export default function ExplorePage() {
             transition={{ delay: 0.4 }}
             className="mt-16 pt-8 border-t-2 border-ash-darker text-center"
           >
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-8">
+            <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mb-8">
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">{allEpisodes.length}</div>
                 <div className="text-xs text-ash tracking-wider">TOTAL EPISODES</div>
@@ -574,6 +602,10 @@ export default function ExplorePage() {
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">{enrichedSlugs.size}</div>
                 <div className="text-xs text-ash tracking-wider">CURATED</div>
+              </div>
+              <div>
+                <div className="text-3xl font-bold text-crimson mb-1">{noTranscriptSlugs.size}</div>
+                <div className="text-xs text-ash tracking-wider">NO TRANSCRIPT</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">{allKeywords.length}</div>
@@ -587,7 +619,7 @@ export default function ExplorePage() {
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">
-                  {selectedKeywords.length + (showCuratedOnly ? 1 : 0)}
+                  {selectedKeywords.length + (showCuratedOnly ? 1 : 0) + (showNoTranscript ? 1 : 0)}
                 </div>
                 <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
               </div>
@@ -613,6 +645,7 @@ const EpisodeCard = memo(function EpisodeCard({
   index,
   selectedKeywords,
   hasEnrichment,
+  hasNoTranscript,
   isFavorited,
   onToggleFavorite
 }: {
@@ -620,6 +653,7 @@ const EpisodeCard = memo(function EpisodeCard({
   index: number;
   selectedKeywords: string[];
   hasEnrichment: boolean;
+  hasNoTranscript: boolean;
   isFavorited: boolean;
   onToggleFavorite: (slug: string, guest: string) => void;
 }) {
@@ -711,12 +745,19 @@ const EpisodeCard = memo(function EpisodeCard({
         )}
       </div>
 
-      {/* Curated indicator */}
-      {hasEnrichment && (
+      {/* Status indicator */}
+      {(hasEnrichment || hasNoTranscript) && (
         <div className="flex items-center gap-4 text-xs text-ash-dark mb-4 pt-4 border-t border-ash-darker">
-          <div className="font-mono flex items-center gap-1">
-            <span className="text-amber">✓</span> curated quotes
-          </div>
+          {hasEnrichment && (
+            <div className="font-mono flex items-center gap-1">
+              <span className="text-amber">✓</span> curated quotes
+            </div>
+          )}
+          {hasNoTranscript && (
+            <div className="font-mono flex items-center gap-1">
+              <span className="text-crimson">✗</span> no transcript
+            </div>
+          )}
         </div>
       )}
 
