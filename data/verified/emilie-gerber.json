@@ -1,0 +1,194 @@
+{
+  "slug": "emilie-gerber",
+  "quotes": [
+    {
+      "id": "emilie-gerber-001",
+      "speaker": "Emilie Gerber",
+      "text": "I feel like no one ever gets this tactical in PR. There's just so much theoretical conversation and examining the big blunders, but at the end of the day, if you are a startup that wants to get coverage for your company, you need to know actually the steps to take to do it.",
+      "timestamp": "00:17:28",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": ["PR strategy", "startups", "tactical advice"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "emilie-gerber-002",
+      "speaker": "Emilie Gerber",
+      "text": "When we pitch a funding story, we make it very clear. Here's the amount that's raised, here's the space they're in and here are the investors. You can get so in the weeds with your own messaging that you want to set up this massive problem statement, you want to make it a huge trend story, but if you're very straightforward and you're pattern matching, it's generally actually going to work.",
+      "timestamp": "00:15:10",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 136
+      },
+      "themes": ["pitching", "messaging", "clarity"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "emilie-gerber-003",
+      "speaker": "Emilie Gerber",
+      "text": "I'm of the belief that it does not matter as much as many people think it does. Any good reporter is not going to be making their editorial decisions based on who their friends are. The much harder and more important part is being good at writing really thoughtful notes to the right people.",
+      "timestamp": "00:31:34",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 258
+      },
+      "themes": ["relationships", "cold outreach", "PR strategy"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "emilie-gerber-004",
+      "speaker": "Emilie Gerber",
+      "text": "I would say my most successful pitches are three sentences and anytime it needs to be longer than that, I feel like my pitch is weaker for that reason. Attention spans are short, and so the more concise you can make it, the better.",
+      "timestamp": "00:35:06",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["pitching", "conciseness", "communication"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "emilie-gerber-005",
+      "speaker": "Emilie Gerber",
+      "text": "A lot of companies really want to position themselves as category creators, and I actually hate that. It doesn't work. It doesn't land with press. Instead, it's actually really great when you can talk about how you are doing what X household name does, but better for X reasons. Instantly it gives the reporter a frame of reference.",
+      "timestamp": "00:41:24",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 321,
+        "lineEnd": 324
+      },
+      "themes": ["positioning", "category creation", "storytelling"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "emilie-gerber-006",
+      "speaker": "Emilie Gerber",
+      "text": "We actually made a Gamma presentation and included all these fun elements that made it really interesting to reporters. I think reporters are used to getting the same thing all the time, and so we always try to think of what can we do that's slightly different for this one. Feel free to get fun and creative with it, and don't just follow the typical issuing press release format.",
+      "timestamp": "00:49:11",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 387
+      },
+      "themes": ["creativity", "press materials", "differentiation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "emilie-gerber-007",
+      "speaker": "Emilie Gerber",
+      "text": "If you can optimize for the reporter over the timing, you're going to see such a better outcome because getting the first choice reporter is going to drive way more for your business than announcing it four days sooner. I've even seen companies issue a press release for big news with no coverage because they had stuck to a certain day and were very rigid about it.",
+      "timestamp": "01:23:12",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 642,
+        "lineEnd": 642
+      },
+      "themes": ["timing", "flexibility", "PR strategy"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "emilie-gerber-008",
+      "speaker": "Emilie Gerber",
+      "text": "It's figuring out how to tie it to these things that people actually care about, and not just the company's messaging. That's our job. Identifying the piece of the story that's most interesting and then doubling down on that.",
+      "timestamp": "00:48:00",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 374,
+        "lineEnd": 375
+      },
+      "themes": ["storytelling", "messaging", "narrative"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "emilie-gerber-009",
+      "speaker": "Emilie Gerber",
+      "text": "We work with a lot of AI companies. If nine of them have one stance on something and one has the other stance, chances are that one is going to be the one that a reporter wants to talk to. We really push our clients to have something unique and different and bold to say.",
+      "timestamp": "00:36:33",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 284,
+        "lineEnd": 285
+      },
+      "themes": ["contrarian thinking", "differentiation", "bold opinions"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "emilie-gerber-010",
+      "speaker": "Emilie Gerber",
+      "text": "Press releases came about because reporters would be checking news wires for ideas. No reporters do that anymore. You can do the exact same thing in a blog post. The blog post can be a first person piece of content that has a lot more flexibility in the style. It's much more shareable on social, and you're encouraging people to go to something that lives on your website.",
+      "timestamp": "01:02:44",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 500,
+        "lineEnd": 504
+      },
+      "themes": ["press releases", "content strategy", "modernization"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "emilie-gerber-011",
+      "speaker": "Emilie Gerber",
+      "text": "Don't assume just because they have the huge logos. Find out what month one looks like with them. If month one is them just doing intake calls, you're not going to want to partner with an agency that needs a three-month ramp-up cycle. Ask them for recent writing samples. That's so easy to do.",
+      "timestamp": "01:20:19",
+      "source": {
+        "slug": "emilie-gerber",
+        "path": "episodes/emilie-gerber/transcript.md",
+        "lineStart": 630,
+        "lineEnd": 631
+      },
+      "themes": ["hiring agencies", "evaluation", "practical advice"],
+      "zones": ["data", "velocity"]
+    }
+  ],
+  "themes": ["PR strategy", "pitching", "messaging", "storytelling", "startups", "media relations", "cold outreach", "contrarian thinking", "creativity", "practical advice"],
+  "takeaways": [
+    "Cold outreach done well is just as effective as warm introductions to reporters - relationships get you an open and an answer, not coverage.",
+    "The most successful pitches are three sentences or less - be direct about what you want, reference incumbents instead of claiming category creation, and pattern match to what reporters cover.",
+    "Position your company against known incumbents rather than trying to create a new category - giving reporters a frame of reference is far more effective than inventing marketing language.",
+    "Press for B2B companies is primarily valuable for second-order effects like sales validation, recruiting, and credibility signals rather than direct growth.",
+    "Replace traditional press releases with blog posts - they offer more flexibility, are more shareable on social media, and drive traffic to your own website."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "emilie-gerber-003",
+      "why": "Challenges the widely held belief that warm reporter relationships are essential for PR success",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "emilie-gerber-005",
+      "why": "Directly opposes the popular startup advice of category creation as a positioning strategy",
+      "related_zones": ["intuition", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["PR strategy", "media relations", "startup communications"]
+  }
+}

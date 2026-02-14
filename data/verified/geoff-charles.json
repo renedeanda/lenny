@@ -1,0 +1,194 @@
+{
+  "slug": "geoff-charles",
+  "quotes": [
+    {
+      "id": "geoff-charles-001",
+      "speaker": "Geoff Charles",
+      "text": "Velocity is everything at Ramp. It's how we design our product development process. It's how we incentivize teams, it's who we want to hire, it's who we want to promote, and it's everything around how we make decisions and how we organize the organization.",
+      "timestamp": "00:07:27",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 88,
+        "lineEnd": 88
+      },
+      "themes": ["velocity", "culture", "product-development"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "geoff-charles-002",
+      "speaker": "Geoff Charles",
+      "text": "Constantly small teams have a single-threaded focus, give them the resources they need to execute big lofty goals, very tight timelines, and then shield them from the chaos that is the rest of the organization. So basically don't bother them and don't even tell the rest of the company that you're doing these things until they find product market fit.",
+      "timestamp": "00:09:49",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 100
+      },
+      "themes": ["team-structure", "focus", "product-market-fit"],
+      "zones": ["velocity", "focus", "chaos"]
+    },
+    {
+      "id": "geoff-charles-003",
+      "speaker": "Geoff Charles",
+      "text": "Oftentimes, more junior leaders kept focusing on the solutions and debating the right solution when in fact you should really be debating upstream of that. You should be debating the interpretation of data, you should be debating the hypotheses and the different ideas that you have there as to what's really going on or you should be debating the goals themselves.",
+      "timestamp": "00:15:43",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["leadership", "decision-making", "strategy"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "geoff-charles-004",
+      "speaker": "Geoff Charles",
+      "text": "The biggest waste of time is meetings and status updates. Statuses are done async. They are done in the systems by which they operate and largely they should be in real time. And meetings should be all about collaboration, ideation, decision-making. So just look at your calendar and just kill as many things as possible and kill just unimportant process.",
+      "timestamp": "00:25:48",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 181
+      },
+      "themes": ["productivity", "meetings", "process"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "geoff-charles-005",
+      "speaker": "Geoff Charles",
+      "text": "You can't ask for velocity and not have empowerment and not trust and not eliminate process and not increase the focus. And that requires some serious tradeoffs that oftentimes leaders, especially those coming from more traditional industries, are not comfortable with.",
+      "timestamp": "00:28:09",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["empowerment", "velocity", "tradeoffs"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "geoff-charles-006",
+      "speaker": "Geoff Charles",
+      "text": "I think the debate around working hard and burnout misses a key point, which is all about how much impact and how good you feel about the work that you're doing. I actually think velocity is a way to potentially avoid burnout. I'm not asking people to work endless hours a week. I'm asking people to get out of their own way and to focus on what truly matters.",
+      "timestamp": "00:29:38",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["burnout", "velocity", "impact"],
+      "zones": ["velocity", "focus", "alignment"]
+    },
+    {
+      "id": "geoff-charles-007",
+      "speaker": "Geoff Charles",
+      "text": "You signed an implicit contract joining Ramp. It's one where we prioritize velocity over almost everything else. What that means is it'll be somewhat chaotic. We'll ship things that don't work. We will change our products without necessarily fully enabling you and you'll have to constantly be on your toes.",
+      "timestamp": "00:32:54",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 217,
+        "lineEnd": 217
+      },
+      "themes": ["culture", "velocity", "expectations"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "geoff-charles-008",
+      "speaker": "Geoff Charles",
+      "text": "Every support ticket is a failure of our product. We literally have that as a quote just posted on all those channels. If the product works perfectly, no one should ever have to contact our support team. And what better way of holding the product team accountable for support other than having support report into product.",
+      "timestamp": "00:47:00",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 301
+      },
+      "themes": ["support", "product-quality", "accountability"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "geoff-charles-009",
+      "speaker": "Geoff Charles",
+      "text": "I'll take someone on my team any day that challenges what I tell them to do or what I think is important and is maybe a bit harder to manage, but it'll make me think way deeper about what I'm asking them and what I think is important. And I'll grow as a manager much faster because of that.",
+      "timestamp": "01:05:05",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 418,
+        "lineEnd": 418
+      },
+      "themes": ["management", "empowerment", "growth"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "geoff-charles-010",
+      "speaker": "Geoff Charles",
+      "text": "We look for people who have a very strong desire to have impact. And the best signal is, I'm leaving because things got too slow, things got too bureaucratic. I missed the old days where we were just building and shipping and launching. I look for people who can think deeply, so I'll go super deep into a decision, a tradeoff that they had to make.",
+      "timestamp": "01:06:02",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 424,
+        "lineEnd": 424
+      },
+      "themes": ["hiring", "impact", "deep-thinking"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "geoff-charles-011",
+      "speaker": "Geoff Charles",
+      "text": "By eliminating or reducing the size of the team, we've forced other people in the company to think like PMs. Making everyone feel like a PM is a great way to get leverage as a PM, and that means basically empowering the designer to think about the actual specs and priorities and scopes more than you.",
+      "timestamp": "00:58:06",
+      "source": {
+        "slug": "geoff-charles",
+        "path": "episodes/geoff-charles/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 385
+      },
+      "themes": ["team-structure", "empowerment", "leverage"],
+      "zones": ["velocity", "alignment"]
+    }
+  ],
+  "themes": ["velocity", "culture", "product-development", "team-structure", "focus", "product-market-fit", "leadership", "decision-making", "strategy", "productivity", "meetings", "process", "empowerment", "tradeoffs", "burnout", "impact", "support", "product-quality", "accountability", "management", "growth", "hiring", "deep-thinking", "leverage"],
+  "takeaways": [
+    "Velocity is the single most important cultural value at Ramp, driving hiring, promotions, product development, and decision-making",
+    "Small, single-threaded teams shielded from organizational chaos can outperform much larger teams when given lofty goals and tight timelines",
+    "Leaders should debate goals and hypotheses upstream rather than getting prescriptive about solutions, empowering teams closest to the ground",
+    "Every support ticket is a product failure - having support report into product creates direct accountability for quality",
+    "Burnout comes not from working hard but from low impact work; velocity and flow states actually help prevent burnout"
+  ],
+  "zone_influence": {
+    "velocity": 0.30,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "geoff-charles-007",
+      "why": "Explicitly embraces chaos as a feature of velocity culture, challenging the conventional wisdom that organizations need stability and predictability",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "geoff-charles-006",
+      "why": "Counterintuitively argues that higher velocity prevents burnout rather than causing it, flipping the common narrative",
+      "related_zones": ["velocity", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["velocity", "team-empowerment", "product-development"]
+  }
+}

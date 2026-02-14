@@ -1,0 +1,208 @@
+{
+  "slug": "jason-droege",
+  "quotes": [
+    {
+      "id": "jason-droege-001",
+      "speaker": "Jason Droege",
+      "text": "In business and in startups, everything's negotiable. We thought there was a way to do things, and at a very young age we realized there is no way to do things. There is just the way that you can negotiate your way through the world.",
+      "timestamp": "00:06:44",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 91
+      },
+      "themes": ["entrepreneurship", "negotiation", "mindset"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "jason-droege-002",
+      "speaker": "Jason Droege",
+      "text": "18 months ago, you would get a short story and it would say, 'Is this short story better than this short story?' And now you're at a point where one task is building an entire website by one of the world's best web developers, or it is explaining some very nuanced topic on cancer to a model. These tasks now take hours of time and they require PhDs and professionals.",
+      "timestamp": "00:15:15",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 131
+      },
+      "themes": ["ai-training", "data-labeling", "expertise"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "jason-droege-003",
+      "speaker": "Jason Droege",
+      "text": "Understanding what a document, a document that reads the exact same words in company A will have a different meaning and importance in company B. So how do you have a system that knows that? So this is all got to be built.",
+      "timestamp": "00:27:16",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 188
+      },
+      "themes": ["ai-enterprise", "context", "knowledge-management"],
+      "zones": ["data", "perfection", "discovery"]
+    },
+    {
+      "id": "jason-droege-004",
+      "speaker": "Jason Droege",
+      "text": "Like with any of these major tech revolutions, the headlines tell one story and then on the ground, laying broadband means you need to dig up every single road in America to lay it. Someone's got to dig up the road or someone's got to run the undersea cable. There's always some operational chiseling that's going on in all of these industries.",
+      "timestamp": "00:34:21",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 232
+      },
+      "themes": ["execution", "operations", "tech-revolutions"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "jason-droege-005",
+      "speaker": "Jason Droege",
+      "text": "The general trend right now is going from models knowing things to models doing things. And the next question becomes, what can it do for me? How does the agent make decisions for you?",
+      "timestamp": "00:35:47",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["ai-agents", "ai-future", "product-vision"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "jason-droege-006",
+      "speaker": "Jason Droege",
+      "text": "I don't take what a customer says literally. I look at the underlying incentives of the customer. And the underlying incentives of customers are not always financial. Sometimes it's ego, sometimes it's career growth.",
+      "timestamp": "00:42:33",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 274,
+        "lineEnd": 274
+      },
+      "themes": ["customer-insight", "incentives", "product-discovery"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jason-droege-007",
+      "speaker": "Jason Droege",
+      "text": "The biggest thing people miss when they're building new products is the urgency of the buyer part of it. You can build something that provides a lot of value, but if it's not the top thing that the customer is thinking about in their busy days, then you're just going to have a long road to a small town.",
+      "timestamp": "00:47:45",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 304
+      },
+      "themes": ["product-market-fit", "urgency", "customer-priorities"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "jason-droege-008",
+      "speaker": "Jason Droege",
+      "text": "From an entrepreneurship standpoint, it truly is about what insight do I have? Why am I so lucky to have this insight? Why in a world of a million entrepreneurs who are thinking, who are smart, who are trying everything, why am I in the position where I likely have an insight that others do not?",
+      "timestamp": "00:49:14",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 313
+      },
+      "themes": ["entrepreneurship", "independent-thinking", "insight"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jason-droege-009",
+      "speaker": "Jason Droege",
+      "text": "The other thing about independent thinking is that you can't fall in love with your ideas. Part of that is basically throwing away who you are, who you've been, all your ideas for the mission that you're on, which is trying to accomplish something for our customer.",
+      "timestamp": "00:50:20",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 319
+      },
+      "themes": ["independent-thinking", "ego", "customer-obsession"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "jason-droege-010",
+      "speaker": "Jason Droege",
+      "text": "If you want to give yourself the best chance, there's two ways that companies end up working out. The first is the founder is just a force of nature over a long duration of time. You're going to have to pivot, you have to have that energy to pivot. The second most important thing is you can easily educate yourself on what are good business models, what are bad business models.",
+      "timestamp": "00:51:07",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 328
+      },
+      "themes": ["entrepreneurship", "business-models", "persistence"],
+      "zones": ["velocity", "data", "focus"]
+    },
+    {
+      "id": "jason-droege-011",
+      "speaker": "Jason Droege",
+      "text": "Survival is just part of the game, and most people just give up before they get their timing right, before they get the right insight with the customer before they get the right product in the market. Life can change quickly in tech. You can go from being a dog to being a hero in a very short period of time.",
+      "timestamp": "01:05:51",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 424,
+        "lineEnd": 424
+      },
+      "themes": ["persistence", "survival", "startup-life"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "jason-droege-012",
+      "speaker": "Jason Droege",
+      "text": "I keep a very, very wide aperture on ideas for as long as I can until I'm like, okay, everything is coalescing. And I think there's a bunch of reasons why you have to keep an open aperture on considering ideas that might seem bad at the start, but you just keep digging and see if you're right that they're bad or you're wrong.",
+      "timestamp": "00:53:23",
+      "source": {
+        "slug": "jason-droege",
+        "path": "episodes/jason-droege/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
+      },
+      "themes": ["idea-evaluation", "open-mindedness", "entrepreneurship"],
+      "zones": ["discovery", "chaos"]
+    }
+  ],
+  "themes": ["entrepreneurship", "ai-training", "data-labeling", "customer-insight", "independent-thinking", "business-models", "persistence", "product-market-fit", "ai-agents", "execution", "negotiation", "survival", "incentives"],
+  "takeaways": [
+    "AI model training has evolved from simple preference tasks to requiring expert PhDs and professionals spending hours on sophisticated domain-specific labeling.",
+    "The biggest mistake in building new products is underestimating buyer urgency - value alone isn't enough if you're not solving the customer's most pressing daily concern.",
+    "Independent thinking and unique insight are the foundation of entrepreneurship - you must understand why you have an insight that a million other smart entrepreneurs do not.",
+    "Survival is the precursor to thriving in startups - most founders give up before timing, customer insight, and product converge into success.",
+    "Understanding customer incentives beyond the financial (ego, career growth, risk aversion) is critical to building products that customers actually adopt."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jason-droege-007",
+      "why": "Argues that value alone is insufficient for product success - buyer urgency matters more than the magnitude of the problem you solve",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "jason-droege-004",
+      "why": "Pushes back against AI hype by comparing it to broadband infrastructure - someone still has to dig up every road, and operational execution is what makes revolutions real",
+      "related_zones": ["velocity", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["ai-training-data", "entrepreneurship", "marketplace-building"]
+  }
+}
