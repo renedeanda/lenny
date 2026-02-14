@@ -1,0 +1,199 @@
+{
+  "slug": "chandra-janakiraman",
+  "quotes": [
+    {
+      "id": "chandra-janakiraman-001",
+      "speaker": "Chandra Janakiraman",
+      "text": "I started noticing that there was a certain mystique and aura about product strategy. There was this perception that some people were intrinsically really good at strategy and others were not. It was almost as if there was a strategy gene that you needed to be born with to be good at it. And that bothered me a lot. The answer is yes, anybody can build product strategy through a clear understanding of what it is and through a friendly and repeatable playbook.",
+      "timestamp": "00:09:07",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 103
+      },
+      "themes": ["strategy", "accessibility", "process"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "chandra-janakiraman-002",
+      "speaker": "Chandra Janakiraman",
+      "text": "Product strategy sits between the mission and vision and the plan. It forces choice to deploy scarce resources to generate maximum impact. It ideally includes three components: a handful of areas to focus on, which I call strategic pillars, a whole bunch of areas that are explicitly not the focus, and why.",
+      "timestamp": "00:12:49",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 124
+      },
+      "themes": ["strategy", "focus", "prioritization"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "chandra-janakiraman-003",
+      "speaker": "Chandra Janakiraman",
+      "text": "There is this concept called resonance. When you apply a certain frequency to an object and you get pretty close to its natural frequency, you see a disproportionate increase in the amplitude of how that object vibrates. The way to think about it in the context of strategy is selecting that frequency to achieve resonance between the product and the market.",
+      "timestamp": "00:13:40",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 124
+      },
+      "themes": ["strategy", "product-market-fit", "mental-models"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "chandra-janakiraman-004",
+      "speaker": "Chandra Janakiraman",
+      "text": "It could be made so much better if you just engage with your leaders before you actually build a strategy. It's amazing how few people actually do that. Imagine if you just asked the reviewer, 'Do you even like fruits?' How much better the experience would have been for both parties. Leadership interviews are a very important part of a strategy formulation process.",
+      "timestamp": "00:22:54",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 175,
+        "lineEnd": 175
+      },
+      "themes": ["leadership", "alignment", "stakeholder-management"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "chandra-janakiraman-005",
+      "speaker": "Chandra Janakiraman",
+      "text": "A lot of leaders have these better ideas, they just feel shy to share it because they don't want their teams to think of them as micromanage-y. They want their teams to figure out the answer themselves, but then when you ask them, they actually have a pet idea always. Asking them just takes the mystery out of it. It's actually a sign of strength and humility to ask your leaders what they want.",
+      "timestamp": "00:24:04",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 196
+      },
+      "themes": ["leadership", "communication", "humility"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "chandra-janakiraman-006",
+      "speaker": "Chandra Janakiraman",
+      "text": "I like the strategy working group to actually either interview a user or watch a video and report key learnings. The idea is not to action those insights, it's really to build empathy. When you get somebody in the room with a user, it just changes their mind, it softens them a little bit. It gets them out of their own preconceived notions of what to build.",
+      "timestamp": "00:26:33",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 208
+      },
+      "themes": ["user-research", "empathy", "strategy"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "chandra-janakiraman-007",
+      "speaker": "Chandra Janakiraman",
+      "text": "The reason I think this process works is there is a ton of alignment built in. It goes back to human psychology of just something that comes from you, feels a lot more familiar and easy to accept. This doc is actually not from the PM, the PM is facilitating it, but it's actually from the strategy working group. And the leadership inputs have been baked in, so it's actually very team representative.",
+      "timestamp": "01:02:46",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 577,
+        "lineEnd": 580
+      },
+      "themes": ["alignment", "psychology", "collaboration"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "chandra-janakiraman-008",
+      "speaker": "Chandra Janakiraman",
+      "text": "Intrinsically strategy has no business value. It's basically a document with a few words. It starts accumulating value as you generate business impact and results. And that happens when you actually test strategy with execution. Any strategy is only as good as the results it produces. One has to have the intellectual honesty, the humility, and the courage to say when it's working and when it's not.",
+      "timestamp": "01:13:49",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 697,
+        "lineEnd": 700
+      },
+      "themes": ["execution", "strategy", "intellectual-honesty"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "chandra-janakiraman-009",
+      "speaker": "Chandra Janakiraman",
+      "text": "Think of these prototypes as concept cars. The interesting thing about concept cars is they're never commercialized. They're often produced for inspiration, and to potentially take some small nuggets that you can run with. Then you start doing research with users, you answer key questions, and you uncover certain elements that resonate with people.",
+      "timestamp": "01:18:45",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 745,
+        "lineEnd": 748
+      },
+      "themes": ["innovation", "prototyping", "vision"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "chandra-janakiraman-010",
+      "speaker": "Chandra Janakiraman",
+      "text": "The person who's leading the charge on these efforts has to be really good at connecting diverse viewpoints and keeping them all moving forward. It's not easy, because sometimes you have people who take you in different directions and you have to keep it all hanging together. In some ways low ego, because it's not like they get to introduce their own ideas, but truly, it's about bringing the team together.",
+      "timestamp": "01:23:33",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 790,
+        "lineEnd": 793
+      },
+      "themes": ["leadership", "facilitation", "ego"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "chandra-janakiraman-011",
+      "speaker": "Chandra Janakiraman",
+      "text": "These mock strategies from AI tend to be pretty comprehensive and extensive, and there's an investment recommendation in a vast number of areas. The core of strategy is really to be very targeted and very focused. These mock strategies become an interesting input, but the burden is still on the team to down-select into the most important areas. Forcing that choice still is a human element and needs that layer of additional judgment.",
+      "timestamp": "01:29:49",
+      "source": {
+        "slug": "chandra-janakiraman",
+        "path": "episodes/chandra-janakiraman/transcript.md",
+        "lineStart": 841,
+        "lineEnd": 841
+      },
+      "themes": ["AI", "strategy", "judgment", "focus"],
+      "zones": ["focus", "data"]
+    }
+  ],
+  "themes": ["strategy", "alignment", "focus", "leadership", "execution", "process", "empathy", "innovation"],
+  "takeaways": [
+    "Product strategy is a learnable skill, not an innate talent - anyone can build great strategy through a structured, repeatable five-stage process spanning 8-12 weeks of preparation, strategy sprint, design sprint, document writing, and rollout.",
+    "Strategy forces choice by deploying scarce resources for maximum impact, ideally producing three strategic pillars, explicit non-focus areas, and the reasoning behind both decisions.",
+    "Engaging leaders early through interviews rather than presenting finished strategies avoids the costly cycle of rejection and rework, and leaders actually welcome the creative outlet.",
+    "A strategy working group of engineering, product, design, and data creates team-representative output that leverages human psychology - people accept ideas more readily when they helped create them.",
+    "Strategy has zero intrinsic value until tested with execution - teams must have the intellectual honesty to double down on what works and pivot away from what doesn't."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.35,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "chandra-janakiraman-008",
+      "why": "Claims strategy intrinsically has no business value - it's just words on a page until execution proves it, challenging the common reverence for strategy documents",
+      "related_zones": ["velocity", "data"]
+    },
+    {
+      "quoteId": "chandra-janakiraman-005",
+      "why": "Argues asking leaders what they want is a sign of strength, not weakness - goes against the common PM instinct to independently develop strategy before sharing",
+      "related_zones": ["alignment", "discovery"]
+    },
+    {
+      "quoteId": "chandra-janakiraman-011",
+      "why": "AI-generated strategies are surprisingly good but fundamentally flawed because they recommend investing everywhere - the hard human work is forcing the painful choice of what NOT to do",
+      "related_zones": ["focus", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["strategy", "alignment", "process", "leadership"]
+  }
+}

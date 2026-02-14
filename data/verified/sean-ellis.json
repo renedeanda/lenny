@@ -1,0 +1,199 @@
+{
+  "slug": "sean-ellis",
+  "quotes": [
+    {
+      "id": "sean-ellis-001",
+      "speaker": "Sean Ellis",
+      "text": "I would say it's a leading indicator of product market fit. The lightning indicator is, do they actually keep using it? So probably retention cohorts are more accurate, but the problem is, like your time at Airbnb, how long do you have to look at a retention cohort before you know that you've actually long-term retained someone?",
+      "timestamp": "00:06:40",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 100,
+        "lineEnd": 100
+      },
+      "themes": ["product-market-fit", "retention", "metrics"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "sean-ellis-002",
+      "speaker": "Sean Ellis",
+      "text": "It's set the right expectations and then speed to value. And so the next cohort of people that we surveyed were at 40% saying they'd be very disappointed without the product. So that literally took two weeks to make those changes. Six months later, it was 60% on the score.",
+      "timestamp": "00:11:38",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["activation", "onboarding", "speed-to-value"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "sean-ellis-003",
+      "speaker": "Sean Ellis",
+      "text": "Until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving.",
+      "timestamp": "00:14:30",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 145
+      },
+      "themes": ["product-market-fit", "customer-research", "growth"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "sean-ellis-004",
+      "speaker": "Sean Ellis",
+      "text": "Make sure that ultimately your product roadmap is doubling down on the things that are important to your must-have customers. Onboarding is bringing new people to the right experience. Your messaging is setting the right expectations, your acquisition campaigns are targeting people who actually have the need. It's all about getting the right people to the right experience.",
+      "timestamp": "00:17:06",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["onboarding", "positioning", "growth-strategy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "sean-ellis-005",
+      "speaker": "Sean Ellis",
+      "text": "I think the real power is having some kind of target for the team to be shooting for that basically says, 'We're not going to aggressively start to grow until we hit this target.' I think one of the biggest challenges in an early stage startup is half the people feel like we're years from having this product ready to grow, and half the people are like, 'What are we waiting for?'",
+      "timestamp": "00:17:53",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["product-market-fit", "team-alignment", "focus"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "sean-ellis-006",
+      "speaker": "Sean Ellis",
+      "text": "I prefer a more passionate customer base and work from there, just because I think your biggest competition when you're really innovating is just being irrelevant. And so if you're deeply relevant to anyone, I think that gives you a much better chance of long-term success.",
+      "timestamp": "00:35:53",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 322,
+        "lineEnd": 322
+      },
+      "themes": ["strategy", "niche", "product-market-fit"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "sean-ellis-007",
+      "speaker": "Sean Ellis",
+      "text": "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you, and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must-have users. It becomes kind of good for everyone but not great for anyone.",
+      "timestamp": "00:40:43",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 364,
+        "lineEnd": 367
+      },
+      "themes": ["customer-feedback", "product-market-fit", "prioritization"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "sean-ellis-008",
+      "speaker": "Sean Ellis",
+      "text": "When I think about a north star metric, that's what I'm thinking about is something that reflects how many people are coming in and experiencing that product-market fit experience. It's not just me telling them, 'Here's what your north star metric should be.' It's that ultimately the team needs to decide that together.",
+      "timestamp": "00:49:45",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 433,
+        "lineEnd": 433
+      },
+      "themes": ["metrics", "north-star", "team-alignment"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "sean-ellis-009",
+      "speaker": "Sean Ellis",
+      "text": "In three months, we improved the signup to usage rate by a thousand percent. We went from only 5% of people using the product to 50%. I went back, tried the exact same channels that previously only scaled to $10,000 a month. Now they scaled to a million dollars a month with a three-month payback on marketing dollars invested. 80% of new users were coming in through word of mouth.",
+      "timestamp": "00:55:24",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 460,
+        "lineEnd": 463
+      },
+      "themes": ["activation", "growth", "word-of-mouth"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "sean-ellis-010",
+      "speaker": "Sean Ellis",
+      "text": "People tend to be either over indexed on qualitative or over indexed on quantitative. I was very much in that initial camp for the first five years of my career. But I started finding that my experiments were so much better the more I talked to customers. The blend of qualitative and quantitative research leads to much better tests.",
+      "timestamp": "01:11:03",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 547,
+        "lineEnd": 550
+      },
+      "themes": ["experimentation", "customer-research", "data-driven"],
+      "zones": ["data", "intuition", "discovery"]
+    },
+    {
+      "id": "sean-ellis-011",
+      "speaker": "Sean Ellis",
+      "text": "Before the referral program, Dropbox had amazing referral rate. Companies that are trying to copy it are like, 'Why isn't anyone talking about our product? Let's add a referral program with incentives.' I think it's a great accelerant when it's already working, but it can't fix it if people don't want to talk about your product.",
+      "timestamp": "01:14:56",
+      "source": {
+        "slug": "sean-ellis",
+        "path": "episodes/sean-ellis/transcript.md",
+        "lineStart": 574,
+        "lineEnd": 574
+      },
+      "themes": ["referrals", "word-of-mouth", "growth-strategy"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["product-market-fit", "growth", "activation", "retention", "customer-research", "experimentation", "metrics", "onboarding"],
+  "takeaways": [
+    "The 40% 'very disappointed' test is a leading indicator of product-market fit, not the final proof -- retention cohorts are the true measure, but the survey lets you get signal on day one without needing a mature analytics system.",
+    "Speed to value and setting the right expectations are the two most powerful levers for improving activation -- at Lookout, repositioning on antivirus and streamlining onboarding moved the PMF score from 7% to 40% in just two weeks.",
+    "Customer acquisition should be the last step in a growth strategy, not the first -- optimize activation, engagement, referral, and revenue model before obsessing on channels, because acquisition is too competitive if you can't efficiently convert and retain.",
+    "Ignore 'somewhat disappointed' users when iterating on product-market fit -- catering to lukewarm feedback risks diluting the product for must-have users, making it good for everyone but great for no one.",
+    "The blend of qualitative and quantitative research produces dramatically better experiments -- talking to customers reveals the context behind the data and helps you ask the right questions at the right time."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sean-ellis-007",
+      "why": "Advises completely ignoring 'somewhat disappointed' users -- contradicts conventional wisdom of listening to all customer feedback to improve the product",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "sean-ellis-006",
+      "why": "Claims the biggest competition for innovators is irrelevance, not competitors -- argues for going narrow and passionate over broad and safe",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "sean-ellis-011",
+      "why": "Warns that referral programs can't create word of mouth that doesn't already exist -- challenges the popular belief that incentivized referrals can jumpstart growth",
+      "related_zones": ["discovery", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-market-fit", "growth-hacking", "activation", "experimentation", "north-star-metrics"]
+  }
+}

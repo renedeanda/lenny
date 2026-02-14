@@ -1,0 +1,199 @@
+{
+  "slug": "todd-jackson",
+  "quotes": [
+    {
+      "id": "todd-jackson-001",
+      "speaker": "Todd Jackson",
+      "text": "The thing about product-market fit is that I find it's mysterious to a lot of people, and people tend to think about it purely as an art rather than a science. And all the advice that you find out there on the internet is very general when it comes to product-market fit. You'll know it when you see it, you'll know it when you have it. It's not specific.",
+      "timestamp": "00:06:57",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["product-market-fit", "frameworks", "methodology"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "todd-jackson-002",
+      "speaker": "Todd Jackson",
+      "text": "If you find extreme product-market fit, the momentum just carries you, and the market pulls you along. And it's easy to know what to build because you're building the thing that your customers want and it's motivating as a team. It's easy to hire people, everything becomes easier if you find product-market fit, it is the thing that propels the company.",
+      "timestamp": "00:09:40",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 126
+      },
+      "themes": ["product-market-fit", "growth", "momentum"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "todd-jackson-003",
+      "speaker": "Todd Jackson",
+      "text": "Extreme product-market fit is a state of widespread demand for a product that satisfies a critical need and crucially can be delivered repeatably and efficiently to each customer. There's three key ideas in there: demand, satisfaction and efficiency.",
+      "timestamp": "00:17:03",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 195
+      },
+      "themes": ["product-market-fit", "frameworks", "efficiency"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "todd-jackson-004",
+      "speaker": "Todd Jackson",
+      "text": "If you have product-market fit, and as you are progressing along this journey, the marginal customer should be getting easier and easier and easier to get, easier to acquire them, easier to give them good service with a good product.",
+      "timestamp": "00:18:59",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["product-market-fit", "growth", "customer-acquisition"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "todd-jackson-005",
+      "speaker": "Todd Jackson",
+      "text": "It's satisfaction first, demand second, efficiency last when you're at level one. It's actually okay to be inefficient at this stage if it helps you uncover something that delivers an insanely good customer satisfaction.",
+      "timestamp": "00:22:08",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 222
+      },
+      "themes": ["efficiency", "customer-satisfaction", "early-stage"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "todd-jackson-006",
+      "speaker": "Todd Jackson",
+      "text": "You've got the persona, the problem, the promise, and the product. And all four of these things have to line up. Your product has to deliver a promise that solves the problem of your persona.",
+      "timestamp": "00:29:59",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": ["frameworks", "positioning", "product-strategy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "todd-jackson-007",
+      "speaker": "Todd Jackson",
+      "text": "I tend to gravitate towards the, 'I want to sell it before I build it,' because I really want the signal from customers and I want that to be the guide and the oxygen that drives what I'm building. I find that very motivating. I also find it easier, honestly.",
+      "timestamp": "00:33:55",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["customer-discovery", "validation", "selling"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "todd-jackson-008",
+      "speaker": "Todd Jackson",
+      "text": "You don't want to get friend-zoned by your customers, where your customers like you, but they don't love you and they don't need you. You want to get to the essence of: is my product critical for you or am I in the friend zone?",
+      "timestamp": "00:36:23",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 336
+      },
+      "themes": ["customer-satisfaction", "retention", "validation"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "todd-jackson-009",
+      "speaker": "Todd Jackson",
+      "text": "Most founders do a 10% pivot, and what they need to be doing is a 200% pivot. It's psychologically hard as a founder. You've gotten to this many customers, you're starting to plateau, but you're like, 'I don't want to throw this whole thing away.' But you have to be willing to let go and really focus on nailing the four Ps.",
+      "timestamp": "00:51:14",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 441,
+        "lineEnd": 441
+      },
+      "themes": ["pivoting", "founder-mindset", "strategy"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "todd-jackson-010",
+      "speaker": "Todd Jackson",
+      "text": "Founders spend 99% of their time building because that's what they've done. And they spend 1% of their time picking the market, picking the problem, picking the customer. And in reality, it's that pick that determines the constraints and the boundaries of where you're going to be working for the next 10 years of your life.",
+      "timestamp": "01:07:53",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 579,
+        "lineEnd": 582
+      },
+      "themes": ["founder-mindset", "market-selection", "strategy"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "todd-jackson-011",
+      "speaker": "Todd Jackson",
+      "text": "If I'm pitching a product idea to somebody and they are like, 'Wow, does that really work? If that thing works, I'd sign up for the wait list today.' That to me is like, 'Now I got to figure out how to build that thing, but I know if I am able to build it and deliver on that promise, they are going to want it.'",
+      "timestamp": "01:17:28",
+      "source": {
+        "slug": "todd-jackson",
+        "path": "episodes/todd-jackson/transcript.md",
+        "lineStart": 666,
+        "lineEnd": 666
+      },
+      "themes": ["customer-discovery", "validation", "selling"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["product-market-fit", "frameworks", "customer-discovery", "pivoting", "founder-mindset", "validation", "efficiency", "growth"],
+  "takeaways": [
+    "Product-market fit is not binary - it progresses through four levels (nascent, developing, strong, extreme) over roughly four to six years, and founders must know which level they are at to focus on the right priorities.",
+    "The three dimensions of extreme product-market fit are demand, satisfaction, and efficiency - but you should not optimize all three at once. Early on, satisfaction comes first, even if it means being wildly inefficient.",
+    "The four Ps framework (persona, problem, promise, product) gives founders a structured way to diagnose why they are stuck and decide what to pivot - the best pivots change one or two Ps rather than starting from scratch.",
+    "Founders spend 99% of their time building and only 1% picking the market, problem, and customer - but that pick is the most important decision because it sets the constraints for the next decade of work.",
+    "Dollar-driven customer discovery beats generic conversations - look for wow statements, demonstrated buying behavior, and willingness to pay rather than polite interest, because the word 'interesting' is a polite way of saying no."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "todd-jackson-009",
+      "why": "Most founders pivot too little - a 200% pivot is needed, not a 10% tweak, challenging the instinct to protect sunk costs",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "todd-jackson-005",
+      "why": "Being inefficient is actually fine at the earliest stage - contradicts the common startup advice to build scalable systems from day one",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "todd-jackson-010",
+      "why": "The most important thing founders do is pick the market, not build the product - challenges the builder identity most founders hold",
+      "related_zones": ["discovery", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "seed",
+    "primary_topics": ["product-market-fit", "customer-discovery", "frameworks", "pivoting"]
+  }
+}
