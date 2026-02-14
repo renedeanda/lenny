@@ -104,8 +104,7 @@ Eligible episodes with real transcripts (50+ lines) not yet curated.
 
 | Slug | Lines | Note |
 |------|-------|------|
-| hamel-husain-shreya-shankar | 1176 | Same line count as hamelshreya - likely duplicate |
-| hamelshreya | 1176 | Same line count as hamel-husain-shreya-shankar - likely duplicate |
+| ~~hamelshreya~~ | 1176 | RESOLVED: Duplicate of hamel-husain-shreya-shankar. Removed in favor of canonical slug. |
 
 ---
 

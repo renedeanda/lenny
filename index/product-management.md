@@ -39,7 +39,6 @@ Episodes discussing **product management**:
 - [Gibson Biddle](../episodes/gibson-biddle/transcript.md)
 - [Gokul Rajaram](../episodes/gokul-rajaram/transcript.md)
 - [Gustav Söderström](../episodes/gustav-söderström/transcript.md)
-- [Hamel+Shreya](../episodes/hamelshreya/transcript.md)
 - [Hari Srinivasan](../episodes/hari-srinivasan/transcript.md)
 - [Hilary Gridley](../episodes/hilary-gridley/transcript.md)
 - [Howie Liu](../episodes/howie-liu/transcript.md)
