@@ -1,0 +1,208 @@
+{
+  "slug": "inbal-s",
+  "quotes": [
+    {
+      "id": "inbal-s-001",
+      "speaker": "Inbal Shani",
+      "text": "The user of the AI tools to develop software needs to form a different thinking. You need to start figuring out how are you using these AI tools to help you be successful. And it's no longer just the actual code writing, it's really evolving your thinking to the big picture, to the connected experience, to connected systems.",
+      "timestamp": "08:02",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 102
+      },
+      "themes": ["AI", "systems-thinking", "developer-experience"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "inbal-s-002",
+      "speaker": "Inbal Shani",
+      "text": "If now there is an AI assistant that is helping them writing code, they can spend more time from the get-go understanding the system and understanding the environment that they're building or understanding the product that they're building, which today they don't have time because they are still learning how to code.",
+      "timestamp": "08:57",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["AI", "junior-developers", "learning", "systems-thinking"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "inbal-s-003",
+      "speaker": "Inbal Shani",
+      "text": "Some of the things that are overhyped is that generative AI will replace humans. I don't see that happening in the near future. That creative spark, that creative thinking that is the center of humanity, this will not be replaced by AI, at least not in the near future.",
+      "timestamp": "05:11",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 78,
+        "lineEnd": 78
+      },
+      "themes": ["AI-hype", "creativity", "human-in-the-loop"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "inbal-s-004",
+      "speaker": "Inbal Shani",
+      "text": "What is that problem that we're trying to solve and how can we leverage AI better to help solve the problem versus what do we do with AI? So it's really working backwards from the customer problem from what we're trying to solve, and then realize what are the best tools in order to do that work better.",
+      "timestamp": "14:38",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": ["AI-strategy", "working-backwards", "customer-problems"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "inbal-s-005",
+      "speaker": "Inbal Shani",
+      "text": "The design philosophy for Copilot is very much aligned with the working backwards concept. If it's an extra tool and if you need to ask for it and if you need to wait for it, then developers will not adopt it. The developer needs to want to use this tool. The more you add friction, the more you add churn, the more you add complexity, the developers will not want to use their tool.",
+      "timestamp": "19:05",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 186,
+        "lineEnd": 192
+      },
+      "themes": ["product-design", "friction", "developer-experience", "adoption"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "inbal-s-006",
+      "speaker": "Inbal Shani",
+      "text": "Time is not quantifiable as a success metrics because you can write really bad code really fast. So it's really about how are we taking time and translating it to efficiency, to productivity, to something that are harder to measure, and then how does that lead to developer happiness, which is another harder metrics to measure.",
+      "timestamp": "22:18",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 210
+      },
+      "themes": ["metrics", "productivity", "developer-happiness"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "inbal-s-007",
+      "speaker": "Inbal Shani",
+      "text": "If you don't try, if you don't experiment, you will never innovate. And if you don't fail, you will never learn from your mistakes, you'll never learn from your experience, so you will not progress forward. So really creating that ability to experiment is critical.",
+      "timestamp": "33:10",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 309
+      },
+      "themes": ["experimentation", "innovation", "failure", "culture"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "inbal-s-008",
+      "speaker": "Inbal Shani",
+      "text": "If you try to structure innovation, you're losing that organic spark that is humanity. Imagine that someone say you have 15 minutes a day to be creative. I don't think it's the pull. So it's encouraging that thinking more than structured.",
+      "timestamp": "36:18",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 330
+      },
+      "themes": ["innovation", "creativity", "culture", "organic-growth"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "inbal-s-009",
+      "speaker": "Inbal Shani",
+      "text": "A chief product officer is more than just the head of product. They need to have a business thinking. They need to understand their go-to market strategy. They need to understand the sales play. They need to understand how engineering are building products. It's how all these components in the company are operating together.",
+      "timestamp": "39:47",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 369
+      },
+      "themes": ["CPO-role", "leadership", "cross-functional"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "inbal-s-010",
+      "speaker": "Inbal Shani",
+      "text": "A product manager role is a very influential role and a lot of the things you do is influencing other people. You need to influence the engineering team to build a product that you want them to build. You need to influence the revenue team to go with a go to market and sell the product the way you envision it.",
+      "timestamp": "41:17",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 377,
+        "lineEnd": 377
+      },
+      "themes": ["influence", "product-management", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "inbal-s-011",
+      "speaker": "Inbal Shani",
+      "text": "When I started doing that without building that understanding of why we need to do a change or why this is a problem that we need to go and fix it, then you don't take people with you through that journey. Really analyzing that not everyone appreciate change the way you are, not everyone has that mindset of the go, go, go.",
+      "timestamp": "43:03",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 390,
+        "lineEnd": 390
+      },
+      "themes": ["change-management", "leadership", "communication"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "inbal-s-012",
+      "speaker": "Inbal Shani",
+      "text": "I think the future is going back to scale back a bit to the niche AI. So we will live in a hybrid world where you still have specific AI models that are solving very specific problem where the generative AI will have its limitation. There are going to be areas where you still need to train models.",
+      "timestamp": "31:06",
+      "source": {
+        "slug": "inbal-s",
+        "path": "episodes/inbal-s/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 288
+      },
+      "themes": ["AI-future", "niche-AI", "hybrid-models"],
+      "zones": ["data", "discovery"]
+    }
+  ],
+  "themes": ["AI", "developer-experience", "innovation", "experimentation", "product-design", "metrics", "leadership", "change-management", "systems-thinking", "working-backwards", "influence", "creativity"],
+  "takeaways": [
+    "AI will not replace developers but will transform how they think - junior developers can now focus on systems architecture from the start instead of spending years learning basic code syntax",
+    "The biggest mistake teams make with AI is asking 'what should we do with AI?' instead of 'what problem are we solving and can AI help?' - always work backwards from the customer problem",
+    "Measuring AI-powered developer productivity requires looking beyond time savings to developer happiness, code quality, and time-to-value as a composite",
+    "Innovation cannot be scheduled or structured into 15-minute slots - create cultural permission to experiment and accept failure rather than rigid innovation processes",
+    "The future of AI is hybrid: general-purpose LLMs alongside niche, specifically-trained models for domains requiring precision like automotive safety or aerospace"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "inbal-s-008",
+      "why": "Argues against structured innovation programs like Google's 20% time - claims scheduling creativity kills the organic spark of humanity",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "inbal-s-006",
+      "why": "Challenges the standard developer productivity metric of time saved - argues time is not quantifiable as a success metric because you can write bad code fast",
+      "related_zones": ["data", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["AI-development-tools", "developer-experience", "product-leadership"]
+  }
+}
