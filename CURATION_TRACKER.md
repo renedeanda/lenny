@@ -1,7 +1,7 @@
 # Episode Curation Tracker
 
 **Last Updated:** 2026-02-14
-**Curated:** 230 / 295 total episodes (78.0%)
+**Curated:** 260 / 294 total episodes (88.4%)
 **Quotes Extracted:** 2,627 (avg 11.4/episode)
 **Eligible Uncurated (real transcripts 50+ lines):** 55
 **Target:** ~~150 curated~~ ✅ → ~~175~~ ✅ → ~~200~~ ✅ → ~~230~~ ✅

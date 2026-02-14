@@ -85,7 +85,7 @@ ls data/verified/*.json | grep -v verified-content.json | sed 's|data/verified/|
 # The difference = episodes available for curation
 ```
 
-**Never assume an episode has a transcript.** Always verify the file has 50+ lines of real content. Out of ~295 episode slugs, many have only frontmatter placeholders.
+**Never assume an episode has a transcript.** Always verify the file has 50+ lines of real content. Out of ~294 episode slugs, many have only frontmatter placeholders.
 
 **After batch curation, update `CURATION_TRACKER.md`** to mark the batch complete and adjust counts.
 

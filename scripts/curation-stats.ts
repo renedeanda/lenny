@@ -172,7 +172,7 @@ function main() {
   console.log('═'.repeat(70));
   
   const episodes = loadVerifiedEpisodes();
-  const TOTAL_EPISODES = 295;
+  const TOTAL_EPISODES = 294;
   const TARGET_EPISODES = 100;
   
   // Overall progress

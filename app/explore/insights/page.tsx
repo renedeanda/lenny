@@ -380,7 +380,7 @@ export default function InsightsPage() {
           {/* Footer */}
           <div className="mt-12 pt-6 border-t border-ash-darker text-center text-sm text-ash-dark">
             <Link href="/explore" className="hover:text-amber transition-colors">
-              ← Browse all {295} episodes
+              ← Browse all {294} episodes
             </Link>
           </div>
         </div>

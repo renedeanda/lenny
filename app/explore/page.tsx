@@ -202,7 +202,7 @@ export default function ExplorePage() {
               <span>DATA EXPLORER</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold text-amber mb-4">
-              295 EPISODES
+              294 EPISODES
             </h1>
             <p className="text-ash text-lg max-w-2xl leading-relaxed">
               Search, filter, and explore every conversation from Lenny's Podcast.
