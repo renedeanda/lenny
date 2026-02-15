@@ -4,8 +4,9 @@ import { useMemo, useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Quote, Clock, ChevronDown } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Quote, Clock, ChevronDown, Lightbulb } from 'lucide-react';
 import { TOPIC_PAGES, getQuotesForTopic, getEpisodesForTopic } from '@/lib/topics';
+import { getTakeawaysForTopic } from '@/lib/verifiedQuotes';
 import { trackTopicViewed, trackTopicLoadMore } from '@/lib/analytics';
 import TopNav from '@/components/TopNav';
 
@@ -19,6 +20,7 @@ export default function TopicPage() {
   const topic = useMemo(() => TOPIC_PAGES.find(t => t.slug === slug), [slug]);
   const quotes = useMemo(() => getQuotesForTopic(slug), [slug]);
   const episodes = useMemo(() => getEpisodesForTopic(slug), [slug]);
+  const takeaways = useMemo(() => getTakeawaysForTopic(slug), [slug]);
 
   if (!topic) {
     return (
@@ -153,6 +155,33 @@ export default function TopicPage() {
                   </Link>
                 );
               })}
+            </div>
+          </motion.div>
+        )}
+
+        {/* Key Takeaways */}
+        {takeaways.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.25 }}
+            className="mb-12"
+          >
+            <h2 className="text-2xl font-bold text-amber mb-6">Key Takeaways</h2>
+            <div className="space-y-3">
+              {takeaways.slice(0, 8).map((takeaway, i) => (
+                <Link
+                  key={`${takeaway.episodeSlug}-${i}`}
+                  href={`/episodes/${takeaway.episodeSlug}`}
+                  className="flex items-start gap-3 p-4 border border-ash-darker bg-void-light hover:border-amber transition-all group"
+                >
+                  <Lightbulb className="w-4 h-4 text-amber/60 flex-shrink-0 mt-0.5" aria-hidden="true" />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm text-ash leading-relaxed mb-2">{takeaway.text}</p>
+                    <span className="text-xs text-amber font-bold group-hover:underline">{takeaway.guest}</span>
+                  </div>
+                </Link>
+              ))}
             </div>
           </motion.div>
         )}

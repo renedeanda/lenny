@@ -1,4 +1,5 @@
-import { Quote, EpisodeEnrichment } from './types';
+import { Quote, EpisodeEnrichment, GuestType } from './types';
+import { allEpisodes } from './allEpisodes';
 import verifiedContent from '../data/verified/verified-content.json';
 
 // In-memory cache of the verified content
@@ -108,4 +109,86 @@ export function getContrarianQuotes(): Array<{
   }
 
   return contrarians;
+}
+
+/**
+ * Get all takeaways with episode context
+ */
+export function getAllTakeaways(): Array<{
+  text: string;
+  episodeSlug: string;
+  guest: string;
+}> {
+  const episodeMap = new Map<string, string>();
+  for (const ep of allEpisodes) {
+    episodeMap.set(ep.slug, ep.guest);
+  }
+
+  const takeaways: Array<{
+    text: string;
+    episodeSlug: string;
+    guest: string;
+  }> = [];
+
+  for (const episode of registry.episodes) {
+    if (episode.takeaways && episode.takeaways.length > 0) {
+      const guest = episodeMap.get(episode.slug) || episode.slug;
+      for (const text of episode.takeaways) {
+        takeaways.push({ text, episodeSlug: episode.slug, guest });
+      }
+    }
+  }
+
+  return takeaways;
+}
+
+/**
+ * Get takeaways relevant to a topic (by matching theme keywords in takeaway text)
+ */
+export function getTakeawaysForTopic(topicSlug: string): Array<{
+  text: string;
+  episodeSlug: string;
+  guest: string;
+}> {
+  const episodeMap = new Map<string, string>();
+  for (const ep of allEpisodes) {
+    episodeMap.set(ep.slug, ep.guest);
+  }
+
+  const results: Array<{ text: string; episodeSlug: string; guest: string }> = [];
+
+  for (const episode of registry.episodes) {
+    if (!episode.takeaways || episode.takeaways.length === 0) continue;
+    if (!episode.themes?.some(t => t === topicSlug)) continue;
+
+    const guest = episodeMap.get(episode.slug) || episode.slug;
+    for (const text of episode.takeaways) {
+      results.push({ text, episodeSlug: episode.slug, guest });
+    }
+  }
+
+  return results;
+}
+
+/**
+ * Get guest type for a given episode slug
+ */
+export function getGuestType(slug: string): GuestType | undefined {
+  const episode = registry.episodes.find(ep => ep.slug === slug);
+  return episode?.guest_metadata?.guest_type;
+}
+
+/**
+ * Get a map of all episode slugs to their guest type
+ */
+let _guestTypeMap: Map<string, GuestType> | null = null;
+export function getGuestTypeMap(): Map<string, GuestType> {
+  if (_guestTypeMap) return _guestTypeMap;
+  _guestTypeMap = new Map();
+  for (const episode of registry.episodes) {
+    if (episode.guest_metadata?.guest_type) {
+      _guestTypeMap.set(episode.slug, episode.guest_metadata.guest_type);
+    }
+  }
+  return _guestTypeMap;
 }
