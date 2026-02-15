@@ -1,0 +1,199 @@
+{
+  "slug": "patrick-campbell",
+  "quotes": [
+    {
+      "id": "patrick-campbell-q001",
+      "speaker": "Patrick Campbell",
+      "text": "I think that's a really, really big misconception because you're not there to make everyone happy. You're there for some sort of mission and some sort of goal and you want to set up the culture and the team in a way that gets to that particular goal.",
+      "timestamp": "00:05:55",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 84
+      },
+      "themes": ["culture", "team-building", "mission"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "patrick-campbell-q002",
+      "speaker": "Patrick Campbell",
+      "text": "You can't be everything to all people, so who are you for? Who are you for and who are you not for? I think really defining that in your values, and values aren't values unless there's an actual trade-off.",
+      "timestamp": "00:07:52",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 96
+      },
+      "themes": ["culture", "values", "hiring"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "patrick-campbell-q003",
+      "speaker": "Patrick Campbell",
+      "text": "The basic idea is bootstrapping is for lifestyle businesses that want to cash flow. Funding is for companies trying to create a billion dollars in annual revenue. And that answer offends everybody.",
+      "timestamp": "00:12:22",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["bootstrapping", "funding", "strategy"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "patrick-campbell-q004",
+      "speaker": "Patrick Campbell",
+      "text": "You have three growth levers. You have acquiring customers, monetizing them, and retaining them. You're spending a lot of time and money on acquisition. You're spending some time and money on retention. You're probably do nothing on pricing and monetization and it's because you think it's this nebulous thing and there are some nebulous aspects to it.",
+      "timestamp": "00:18:31",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["pricing", "monetization", "growth"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "patrick-campbell-q005",
+      "speaker": "Patrick Campbell",
+      "text": "The number one thing to figure out when you're thinking about the different pricing pieces, pound for pound, it's the pricing metric or the value metric. That's how you charge per user, per thousand visits, per thousand what's its, whatever it is. If you get everything else in your pricing wrong or not great, but you get that right, you tend to be okay when it comes to monetization.",
+      "timestamp": "00:20:47",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 183
+      },
+      "themes": ["pricing", "value-metric", "monetization"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "patrick-campbell-q006",
+      "speaker": "Patrick Campbell",
+      "text": "Because you're so focused and so biased towards strategic retention, you miss out on this thing we call tactical retention -- payment failures, term optimization, cancellation flows, offboarding. If you're past product market fit, this tactical retention is typically about 25 to 40% of your churn problem, which is a significant amount, but you don't really look at it.",
+      "timestamp": "00:24:38",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 207,
+        "lineEnd": 207
+      },
+      "themes": ["retention", "churn", "product-management"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "patrick-campbell-q007",
+      "speaker": "Patrick Campbell",
+      "text": "I looked at two million cancellation flows. We found you have about 18 to 30 seconds when someone hits that cancel button, we found you should ask two questions. One, 'Why are you leaving?' Multiple choice. And then, 'What did you like about the product?' The minute you ask them what they like, you're basically tapping into this nostalgia effect and you're stopping that freight train.",
+      "timestamp": "00:25:26",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 213
+      },
+      "themes": ["retention", "cancellation", "user-research"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "patrick-campbell-q008",
+      "speaker": "Patrick Campbell",
+      "text": "In my opinion, your tempo framework is more important than your org design. And so if you've ever had a team that seems really, really smart, but they're always planning or they don't really ship a lot, or you've had trouble where everyone gets it at the leadership level, but then the team below them seems to be kind of going in a different direction, you probably don't have enough alignment on what good looks like in terms of tempo.",
+      "timestamp": "00:30:05",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["shipping", "tempo", "alignment"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "patrick-campbell-q009",
+      "speaker": "Patrick Campbell",
+      "text": "You can't actually solve a problem. You have a problem that you're trying to solve. Well then I want to break down what are all the causes. And then what I can do is I can rank those causes in terms of magnitude. And you get this nice alignment between, well, I can solve a cause, and if I solve the cause that's big enough and proper enough, I'm going to eventually solve the actual problem or mitigate the problem.",
+      "timestamp": "00:35:38",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 306,
+        "lineEnd": 309
+      },
+      "themes": ["first-principles", "problem-solving", "frameworks"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "patrick-campbell-q010",
+      "speaker": "Patrick Campbell",
+      "text": "Don't focus on your competitors is terrible advice. It's amazing advice for product teams. When you have competitive intel, I try never to share that with product ever because products should just focus on the customer. But as an overall missive, don't focus on your competitors is terrible advice. Over the past decade, you now have 16 times the number of competitors if you started a business today, than if you did 10 years ago.",
+      "timestamp": "00:47:09",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 402
+      },
+      "themes": ["competitive-intelligence", "strategy", "market-dynamics"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "patrick-campbell-q011",
+      "speaker": "Patrick Campbell",
+      "text": "People like to buy from people, but we as operators get so excited about the scale of the internet that we forget the basics of humanity. Prospects who meet you in person have 10 to 30% higher willingness to pay than those who didn't. Churn for those folks who you meet in person is typically 20% lower. Expansion revenue is typically 15 to 20% higher.",
+      "timestamp": "00:54:31",
+      "source": {
+        "slug": "patrick-campbell",
+        "path": "episodes/patrick-campbell/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 450
+      },
+      "themes": ["local-strategy", "sales", "human-connection"],
+      "zones": ["discovery", "alignment"]
+    }
+  ],
+  "themes": ["pricing", "retention", "bootstrapping", "team-building", "shipping", "competitive-intelligence", "customer-research", "growth"],
+  "takeaways": [
+    "Your tempo framework -- defining what 'good' looks like in terms of shipping cadence across every team -- matters more than your org chart and is the root cause of most alignment problems.",
+    "Tactical retention (payment failures, cancellation flows, offboarding) accounts for 25-40% of your churn problem post-product-market-fit, yet product teams almost always ignore it in favor of strategic feature work.",
+    "The single most impactful pricing lever is your value metric (how you charge), not the actual price number. Get that right and you unlock natural expansion revenue while lowering churn 20-25%.",
+    "Only 1 in 5 companies have buyer personas and only 1 in 10 do quarterly customer research, yet companies that do see 15-20% higher growth rates across every metric -- the gap between what we preach and practice is enormous.",
+    "Bootstrapping versus raising money is not an identity choice -- it's a strategic one that should match your revenue ceiling. If you can't see a path to a billion in annual revenue, the VC treadmill will likely leave you worse off than a well-run cash-flowing business."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.00,
+    "discovery": 0.20,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "patrick-campbell-q003",
+      "why": "Admits bootstrapping ProfitWell to a $200M exit was actually a mistake -- they should have raised funding. Challenges the bootstrapping-is-superior narrative from someone who lived it.",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "patrick-campbell-q010",
+      "why": "Directly attacks the popular Silicon Valley advice of 'don't focus on competitors' as terrible and outdated, arguing it only works for product teams, not as an overall company strategy.",
+      "related_zones": ["data", "chaos"]
+    },
+    {
+      "quoteId": "patrick-campbell-q006",
+      "why": "Tells product leaders that 25-40% of their churn problem is tactical stuff they're ignoring because they're too focused on being 'great product leaders' -- a direct challenge to product-centric thinking.",
+      "related_zones": ["data", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["pricing", "retention", "bootstrapping", "competitive-intelligence"]
+  }
+}

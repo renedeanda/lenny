@@ -1,0 +1,194 @@
+{
+  "slug": "sachin-monga",
+  "quotes": [
+    {
+      "id": "sachin-monga-q001",
+      "speaker": "Sachin Monga",
+      "text": "The teams aren't oriented around product surfaces. We don't have a team that's like the app team or a team that's like the dashboard team or the podcasting team. We have teams that are oriented around customers and solving bit of a timeless customer problem. We'll never be done serving writers.",
+      "timestamp": "00:08:43",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["org-design", "customer-centricity", "team-structure"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "sachin-monga-q002",
+      "speaker": "Sachin Monga",
+      "text": "I think the first thing was really treating my role in the beginning more as a facilitator than a decision maker when it comes to product. A specific problem we had when I joined was that we were just getting to the point where we wouldn't have one weekly meeting where Chris could be in the room and decide what we're doing in the next two weeks.",
+      "timestamp": "00:10:36",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": ["leadership", "facilitation", "founder-relationship"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "sachin-monga-q003",
+      "speaker": "Sachin Monga",
+      "text": "I'm never too worried if we have the perfect planning process or the perfect execution cadence or the perfect communication process, whatever our process is, we're never going to have a perfect one. And even if we did, it would soon be obsolete because we did a really good job and now we've grown 2X or something and we have more people and the process needs to change.",
+      "timestamp": "00:14:19",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 144
+      },
+      "themes": ["process", "growth", "adaptability"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "sachin-monga-q004",
+      "speaker": "Sachin Monga",
+      "text": "The main thing I care about is are we just getting better every week, every month, certainly every year. It sounds good in theory, but then when you're in the thick of it, you're constantly basically feeling like you don't know how to do the thing. Because as soon as you figure it out, it's obsolete. Doing the thing well means that you're not going to know what you're doing.",
+      "timestamp": "00:14:52",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 147
+      },
+      "themes": ["growth-mindset", "humility", "startup-life"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "sachin-monga-q005",
+      "speaker": "Sachin Monga",
+      "text": "At Facebook, it's not like we do this now or we do this later. It's doing this thing might mean we can't do this other thing at all, or it'll mean that instead of that chart being steady until we make the number go up, it might go down. By doing A, it might mean B is harder to do forever. Whereas at a startup, a lot of it is time. Time is the main variable.",
+      "timestamp": "00:18:46",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 174,
+        "lineEnd": 174
+      },
+      "themes": ["prioritization", "trade-offs", "startup-vs-bigco"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "sachin-monga-q006",
+      "speaker": "Sachin Monga",
+      "text": "If we could do something in a bunch of different ways, is there a way that provides more control to the writer or more control over the experience that the reader has to them? All things equal, do the one that holds constant this principle of control. From a prioritization standpoint and from a strategic standpoint, Substack is a pretty principled company.",
+      "timestamp": "00:21:20",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 195
+      },
+      "themes": ["principles", "prioritization", "user-control"],
+      "zones": ["intuition", "focus", "discovery"]
+    },
+    {
+      "id": "sachin-monga-q007",
+      "speaker": "Sachin Monga",
+      "text": "Going back to that principle of like, okay, well, if we were to insert it at the bottom of our post or in an email or something, it's clearly a thing now where the writer who owns that space is not really in control over what the experiences that they're offering their readers. Okay, so then back to the drawing board, what would be the most obvious maximal way to just put writers in control? What is the simplest version of this?",
+      "timestamp": "00:25:32",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 222
+      },
+      "themes": ["product-design", "user-control", "first-principles"],
+      "zones": ["discovery", "intuition", "perfection"]
+    },
+    {
+      "id": "sachin-monga-q008",
+      "speaker": "Sachin Monga",
+      "text": "One of the principles in this playbook that we're trying to write is we call it build with writers, build with readers. How do you build product responsibly if you care deeply about that? One way to do it would be to almost as a strong default, anytime we're going to make a fundamental change to how Substack works, do it in a way where we bring writers along.",
+      "timestamp": "00:32:56",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["product-development", "co-creation", "user-research"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "sachin-monga-q009",
+      "speaker": "Sachin Monga",
+      "text": "I'd say 90% of the chatter about Substack is going to probably ultimately just be a distraction to our product team at the end of the day that should just be focused on executing on the vision. You just learn to just keep your heads down and keep shipping. Ultimately, that's all that matters.",
+      "timestamp": "00:35:33",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 300,
+        "lineEnd": 303
+      },
+      "themes": ["focus", "resilience", "execution"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "sachin-monga-q010",
+      "speaker": "Sachin Monga",
+      "text": "If someone is subscribed to you, they're granting you write access to their brain is maybe the way I view it in a nerdy sense. What that means is not just like, 'I'll let you write your one long form thing once a week,' but, 'hey, you've got this other person that you think might have something interesting to say? Cool, let me know. I'm here for it.' I think writers underestimate that.",
+      "timestamp": "00:49:20",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 411,
+        "lineEnd": 411
+      },
+      "themes": ["creator-economy", "trust", "audience-relationship"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "sachin-monga-q011",
+      "speaker": "Sachin Monga",
+      "text": "The people building the spaces that we occupy are operating under a very complicated incentive structure and it's leading to these suboptimal user experiences. This is what we work on at Substack. This is what I think is fun to work on right now.",
+      "timestamp": "00:54:27",
+      "source": {
+        "slug": "sachin-monga",
+        "path": "episodes/sachin-monga/transcript.md",
+        "lineStart": 456,
+        "lineEnd": 456
+      },
+      "themes": ["incentive-design", "internet-philosophy", "user-experience"],
+      "zones": ["intuition", "perfection"]
+    }
+  ],
+  "themes": ["product-leadership", "founder-relationship", "user-control", "creator-economy", "growth-at-startups", "prioritization", "incentive-design"],
+  "takeaways": [
+    "Orient product teams around customers and timeless problems rather than product surfaces or features -- teams focused on serving writers, readers, and growth outlast frequent reorgs.",
+    "At a fast-growing startup, your processes will always be obsolete by the time you perfect them -- the real metric is whether you're getting better every week, not whether you have the perfect system.",
+    "Principle-driven prioritization beats framework-driven prioritization -- when choosing between approaches, default to the one that gives users more control, even if it seems harder to pull off.",
+    "Build with your users, not just for them -- Substack's Product Lab of 100 writers ensures features are co-created rather than imposed, and the shipped product often looks very different from what was originally conceived.",
+    "The internet's incentive structures have created suboptimal experiences because the people building the spaces are different from the people occupying them -- subscription-based models can realign these incentives."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.08,
+    "discovery": 0.22,
+    "data": 0.05,
+    "intuition": 0.17,
+    "alignment": 0.10,
+    "chaos": 0.13,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sachin-monga-q004",
+      "why": "Reframes competence at startups as perpetual incompetence -- doing the thing well means you're constantly feeling like you don't know what you're doing, which runs counter to the typical advice of mastering your craft",
+      "related_zones": ["chaos"]
+    },
+    {
+      "quoteId": "sachin-monga-q002",
+      "why": "A head of product choosing to be a facilitator rather than a decision maker challenges the conventional expectation that product leaders should be the ones calling the shots",
+      "related_zones": ["alignment", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-leadership", "creator-economy", "growth-features"]
+  }
+}

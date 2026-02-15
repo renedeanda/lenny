@@ -1,0 +1,199 @@
+{
+  "slug": "hamel-husain-shreya-shankar",
+  "quotes": [
+    {
+      "id": "hamel-husain-shreya-shankar-q001",
+      "speaker": "Hamel Husain",
+      "text": "It's really important that we don't think of evals as just tests. There's a common trap that a lot of people fall into because they jump straight to the test like, 'Let me write some tests,' and usually that's not what you want to do. You should start with some kind of data analysis to ground what you should even test, and that's a little bit different than software engineering where you have a lot more expectations of how the system is going to work.",
+      "timestamp": "00:10:06",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 131
+      },
+      "themes": ["evals", "data analysis", "methodology"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q002",
+      "speaker": "Hamel Husain",
+      "text": "You sample your data and just take a look, and it's surprising how much you learn when you do this. Everyone that does this immediately gets addicted to it and they say, 'This is the greatest thing that you can do when you're building an AI application.' You just learn a lot and you're like, 'Hmm, this is not how I want it to work.'",
+      "timestamp": "00:19:30",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 200,
+        "lineEnd": 200
+      },
+      "themes": ["data analysis", "product quality", "learning"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q003",
+      "speaker": "Shreya Shankar",
+      "text": "What we usually find when we try to ask an LLM to do this error analysis is it just says the trace looks good because it doesn't have the context needed to understand whether something might be bad product smell or not. For example, the hallucination about scheduling the tour, right? I can guarantee you, I would bet money on this, if I put that into ChatGPT and asked, 'Is there an error?' it would say, 'No, did a great job.'",
+      "timestamp": "00:24:04",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 263,
+        "lineEnd": 263
+      },
+      "themes": ["AI limitations", "domain expertise", "error analysis"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q004",
+      "speaker": "Hamel Husain",
+      "text": "When you're doing this open coding, a lot of teams get bogged down in having a committee do this. And for a lot of situations, that's wholly unnecessary. People get really uncomfortable with, 'Okay, we want everybody on board. We want everybody involved,' so on and so forth. You need to cut through the noise. And a lot of organizations, if you look really deeply, especially small, medium-sized companies, you can appoint one person whose tastes that you trust.",
+      "timestamp": "00:25:41",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 296,
+        "lineEnd": 296
+      },
+      "themes": ["decision-making", "leadership", "efficiency"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q005",
+      "speaker": "Shreya Shankar",
+      "text": "There's actually a term in data analysis and qualitative analysis called theoretical saturation. So what this means is when you do all of these processes of looking at your data, when do you stop? It's when you are theoretically saturating or you're not uncovering any new types of notes, new types of concepts, or nothing that will materially change the next part of your process.",
+      "timestamp": "00:30:31",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 356,
+        "lineEnd": 356
+      },
+      "themes": ["methodology", "data analysis", "prioritization"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q006",
+      "speaker": "Hamel Husain",
+      "text": "Basic counting is the most powerful analytical technique in data science because it's so simple and it's kind of undervalued in many cases, and so it's very approachable for people.",
+      "timestamp": "00:32:06",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 389,
+        "lineEnd": 389
+      },
+      "themes": ["data science", "simplicity", "analytics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q007",
+      "speaker": "Shreya Shankar",
+      "text": "We didn't invent error analysis. We don't actually want to invent things. That's bad signal. If somebody is coming to you with a way to do something that's entirely new and not grounded in hundreds of years of theory and literature, then you should, I don't know, be a little bit wary of that.",
+      "timestamp": "00:37:23",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 461,
+        "lineEnd": 461
+      },
+      "themes": ["intellectual honesty", "methodology", "skepticism"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q008",
+      "speaker": "Shreya Shankar",
+      "text": "People always think, 'Oh, this is at least as hard as my problem of creating the original agent.' And it's not, because you're asking the judge to do one thing, evaluate one failure mode, so the scope of the problem is very small and the output of this LLM judge is pass or fail. So it is a very, very tightly scoped thing that LLM judges are very capable of doing very reliably.",
+      "timestamp": "00:50:49",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 638,
+        "lineEnd": 638
+      },
+      "themes": ["LLM judges", "scope", "evaluation"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q009",
+      "speaker": "Hamel Husain",
+      "text": "You would want to do one specific failure and you want to make it binary because we want to simplify things. We don't want, 'Hey, score this on a rating of one to five. How good is it?' That's just in most cases, that's a weasel way of not making a decision. Like, 'No, you need to make a decision. Is this good enough or not? Yes or no?'",
+      "timestamp": "00:52:16",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 662,
+        "lineEnd": 662
+      },
+      "themes": ["decision-making", "simplicity", "metrics"],
+      "zones": ["focus", "data", "velocity"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q010",
+      "speaker": "Shreya Shankar",
+      "text": "You're never going to know what the failure modes are going to be upfront, and you're always going to uncover new vibes that you think that your product should have. You don't really know what you want until you see it with these LLMs, so you got to be flexible, have to look at your data, have to... PRDs are a great abstraction for thinking about this. It's not the end all, be all. It's going to change.",
+      "timestamp": "01:02:28",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 728,
+        "lineEnd": 728
+      },
+      "themes": ["product requirements", "adaptability", "AI development"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "hamel-husain-shreya-shankar-q011",
+      "speaker": "Shreya Shankar",
+      "text": "What's new here is that you can't figure out your rubrics upfront. People's opinions of good and bad change as they review more outputs, they think of failure modes only after seeing 10 outputs they would never have dreamed of in the first place, and these are experts. These are people who have built many LLM pipelines and now agents before, and you can't ever dream up everything in the first place.",
+      "timestamp": "01:03:35",
+      "source": {
+        "slug": "hamel-husain-shreya-shankar",
+        "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+        "lineStart": 752,
+        "lineEnd": 752
+      },
+      "themes": ["criteria drift", "evaluation", "AI complexity"],
+      "zones": ["chaos", "discovery", "intuition"]
+    }
+  ],
+  "themes": ["AI evals", "error analysis", "LLM judges", "data-driven product development", "product quality"],
+  "takeaways": [
+    "Start with error analysis by manually reviewing traces before writing any automated evals -- looking at your data is the highest-ROI activity for improving AI products.",
+    "Use a 'benevolent dictator' approach: appoint one trusted domain expert to lead the eval process rather than bogging down with committees, keeping the process tractable and fast.",
+    "Build LLM judges with binary pass/fail outputs for specific failure modes rather than Likert scales -- nobody knows what 3.2 versus 3.7 means, and simplicity drives better decisions.",
+    "Ground your evals in actual production data rather than hypothetical requirements -- you will always uncover failure modes and product expectations you could never have dreamed up in advance.",
+    "Error analysis techniques like open coding and axial coding are borrowed from social science and data science, not invented for AI -- be wary of entirely novel methodologies not grounded in established practice."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.30,
+    "intuition": 0.07,
+    "alignment": 0.03,
+    "chaos": 0.12,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "hamel-husain-shreya-shankar-q003",
+      "why": "Challenges the assumption that LLMs can automate quality analysis of their own outputs -- argues that domain context humans bring is irreplaceable even in the age of AI",
+      "related_zones": ["intuition"]
+    },
+    {
+      "quoteId": "hamel-husain-shreya-shankar-q009",
+      "why": "Pushes back against nuanced scoring scales that are industry standard, calling Likert-scale evaluations a 'weasel way of not making a decision' -- favors brutal binary simplicity",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "hamel-husain-shreya-shankar-q007",
+      "why": "Contrarian in the AI hype cycle -- warns against novel methodologies and argues that grounded, established techniques from social science are more trustworthy than new inventions",
+      "related_zones": ["discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["AI evals", "error analysis", "LLM product development"]
+  }
+}

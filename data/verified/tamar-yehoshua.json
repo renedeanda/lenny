@@ -1,0 +1,213 @@
+{
+  "slug": "tamar-yehoshua",
+  "quotes": [
+    {
+      "id": "tamar-yehoshua-q001",
+      "speaker": "Tamar Yehoshua",
+      "text": "One of the things that I caution product managers about is that you don't want to be too overly reliant on metrics and you want to also have an intuition. You want product managers who understand intuitively their customers and their product and sometimes you'll make decisions because you just know it's the right thing to do because it feels right and it usually is right if you understand your product well enough.",
+      "timestamp": "00:08:17",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 76,
+        "lineEnd": 76
+      },
+      "themes": ["product-intuition", "decision-making", "customer-understanding"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "tamar-yehoshua-q002",
+      "speaker": "Tamar Yehoshua",
+      "text": "Are you helping the business move forward? So it's not about I achieve what I was asked to do, but did you build something that people actually used? It's not about just launching something and did you do the right thing for the company? And that is different. It's a different mindset.",
+      "timestamp": "00:10:00",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 82,
+        "lineEnd": 82
+      },
+      "themes": ["impact", "career-growth", "mindset"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "tamar-yehoshua-q003",
+      "speaker": "Tamar Yehoshua",
+      "text": "You get all these requests for features all the time. If you did every single one, it would be impossible. Even if you did, 80, 90% of them won't matter for the success of the company. But then there are some that really matter. So what are the things that really matter?",
+      "timestamp": "00:12:51",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["prioritization", "product-strategy", "feature-requests"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "tamar-yehoshua-q004",
+      "speaker": "Tamar Yehoshua",
+      "text": "You have to know what phase you're in and what's important at that phase. So it isn't that at every phase, chaos is okay, and also some chaos is okay and some chaos is not okay. If you're changing your strategy all the time and you're changing your direction and you're changing projects on people all the time so that they can't actually achieve anything.",
+      "timestamp": "00:14:51",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": ["company-stage", "chaos-management", "strategy"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "tamar-yehoshua-q005",
+      "speaker": "Tamar Yehoshua",
+      "text": "You follow people who are the best at what they do. So it's not good enough to follow somebody who you like. You want to follow somebody who's either the best product thinker or the best engineer or the best salesperson. And so that you will learn the skill of how to be the best at that.",
+      "timestamp": "00:20:09",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["career-advice", "mentorship", "learning"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "tamar-yehoshua-q006",
+      "speaker": "Tamar Yehoshua",
+      "text": "Take a job where if you hire people, it's going to make their careers. Because I was getting offers for some turnaround jobs. And if you think you can turn around, great. But if you're going to hire the best people, you want to make sure that it's going to be a good place for them and that they're going to learn and they're going to grow.",
+      "timestamp": "00:22:43",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["hiring", "leadership", "career-advice"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "tamar-yehoshua-q007",
+      "speaker": "Tamar Yehoshua",
+      "text": "The biggest takeaway from those meetings was his consistency, which is he had principles that it made it easier for you to operate in his company because you knew what he cared about because he always had these principles. Everything had to be customer driven, everything had to be relevant for the customer.",
+      "timestamp": "00:28:17",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["leadership-principles", "consistency", "customer-obsession"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "tamar-yehoshua-q008",
+      "speaker": "Tamar Yehoshua",
+      "text": "I think the thing that I learned from him the most was the power of prototyping. And that even though he was such a great product thinker, he would always say, \"I can't tell you if this is going to work. I have to feel it. I have to try it. And a mock-up doesn't tell you what it's going to feel like.\"",
+      "timestamp": "00:30:55",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 187
+      },
+      "themes": ["prototyping", "product-craft", "iteration"],
+      "zones": ["velocity", "intuition", "perfection"]
+    },
+    {
+      "id": "tamar-yehoshua-q009",
+      "speaker": "Tamar Yehoshua",
+      "text": "The number of people using your product today is usually unless you're a Google far smaller than the number of people who are going to be using your product tomorrow. So design it for the bigger number of people who are going to be using it tomorrow.",
+      "timestamp": "00:46:04",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 304
+      },
+      "themes": ["product-design", "growth-mindset", "user-experience"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "tamar-yehoshua-q010",
+      "speaker": "Tamar Yehoshua",
+      "text": "We are underestimating how much it's going to change how we work. It's not going to be sudden from today to tomorrow because people haven't figured it out yet. They haven't figured out how exactly to leverage it. But the people who have are going to be so far ahead. They're going to be far ahead of everyone else because they're going to be working faster, they're going to be working better.",
+      "timestamp": "00:50:21",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["AI-transformation", "future-of-work", "competitive-advantage"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "tamar-yehoshua-q011",
+      "speaker": "Tamar Yehoshua",
+      "text": "AI, the one thing it's not good at is being creative. So if you're a PM who's doing the grout work, it's going to take your job away. But if you're a PM who actually is strategic and can pull the pieces together and be creative and think how you do something that it's going to differentiate. Because it's not going to give you that leap.",
+      "timestamp": "01:00:01",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 385
+      },
+      "themes": ["AI-and-PM", "creativity", "strategic-thinking"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "tamar-yehoshua-q012",
+      "speaker": "Tamar Yehoshua",
+      "text": "Too many people are building things to make up and compensate for the LLMs that all that work is going to go away. So it's okay to do it to understand that it's going to go away, but that can't be your differentiator. You have to understand that your differentiator is something that will continue to be there as the LLMs get better and smarter.",
+      "timestamp": "01:05:34",
+      "source": {
+        "slug": "tamar-yehoshua",
+        "path": "episodes/tamar-yehoshua/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["AI-strategy", "product-differentiation", "LLM-building"],
+      "zones": ["chaos", "focus", "intuition"]
+    }
+  ],
+  "themes": ["product-leadership", "AI-strategy", "career-growth", "cross-functional-alignment", "prototyping", "prioritization", "customer-intuition"],
+  "takeaways": [
+    "Balance data with intuition - great PMs don't over-rely on metrics but develop a deep understanding of their customers and product that guides instinctive decision-making.",
+    "Follow people, not plans - career growth comes from working with the best practitioners in their craft, not from five-year plans or chasing financial returns.",
+    "Build strong cross-functional partnerships with engineering through clear role division, shared reviews, mutual respect, and consistent alignment rituals like joint OKR sessions.",
+    "Design products for your future user base, not just your current vocal minority - be transparent and authentic when making changes that upset existing users.",
+    "AI will transform product work by automating execution tasks, making strategic creativity and product intuition the essential differentiators for PMs who want to stay relevant."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tamar-yehoshua-q001",
+      "why": "Warns PMs against over-reliance on metrics - counterintuitive in a data-obsessed industry where 'data-driven' is the default expectation",
+      "related_zones": ["intuition"]
+    },
+    {
+      "quoteId": "tamar-yehoshua-q009",
+      "why": "Advocates designing for future users over current ones and accepting that existing users will be unhappy - challenges the conventional wisdom of always prioritizing current customer satisfaction",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "tamar-yehoshua-q012",
+      "why": "Warns that building workarounds for LLM limitations is wasted work since LLMs will improve - challenges the instinct to over-engineer solutions around current AI shortcomings",
+      "related_zones": ["chaos", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-leadership", "AI-strategy", "cross-functional-relationships", "career-growth"]
+  }
+}

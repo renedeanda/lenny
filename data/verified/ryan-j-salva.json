@@ -1,0 +1,194 @@
+{
+  "slug": "ryan-j-salva",
+  "quotes": [
+    {
+      "id": "ryan-j-salva-q001",
+      "speaker": "Ryan J. Salva",
+      "text": "As developers, we love to be in that place where I'm creating things, where I'm focusing on some product, some piece of software that I'm going to give to my customers, my users. The labor of remembering what's the order of parameters that need to come into a particular API, or hey, what's the particular syntax of this thing I'm supposed to do... That's just labor. It's not creating. It's just typing.",
+      "timestamp": "00:13:08",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["developer-experience", "creativity", "flow"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "ryan-j-salva-q002",
+      "speaker": "Ryan J. Salva",
+      "text": "We started experimenting with different user experiences. Do we want it so that you right click and get a little side panel that comes up with a bunch of different options for things that you might want here. That was nice because it would give you whole functions, but it's out of the cursor. You had to really switch over to a different panel, which itself was a little bit distracting. We eventually came to this idea of inline autocomplete.",
+      "timestamp": "00:22:43",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["user-experience", "experimentation", "product-design"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "ryan-j-salva-q003",
+      "speaker": "Ryan J. Salva",
+      "text": "Creating the model is one thing, but then figuring out how to use the model in terms of what parameters do you want to adjust for, what do you want to optimize for... When you're in a code editor, you don't necessarily want to type, type, type and then have to wait one second, two seconds, three seconds to get a suggestion back when your entire goal is to stay in the flow. We would run experiments to see how many milliseconds are the right amount such that a developer doesn't feel like they're being interrupted.",
+      "timestamp": "00:25:27",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["performance", "experimentation", "user-experience"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "ryan-j-salva-q004",
+      "speaker": "Ryan J. Salva",
+      "text": "The first step is really hire really smart people, attract smart people, and give them the opportunity to be creative. Don't expect anything out of them that is going to turn into a money maker or something that is going to be beholden to fundamentals around security, privacy, uptime, accessibility, all that groovy kind of stuff upfront. They need space to create and experiment.",
+      "timestamp": "00:31:05",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 223
+      },
+      "themes": ["innovation", "team-building", "moonshots"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "ryan-j-salva-q005",
+      "speaker": "Ryan J. Salva",
+      "text": "When you do get to a place where that team has an idea that is clearly connected to a representative set of customers who have a genuine problem and there is signal with at least medium confidence that this solution solves it in a novel way, that's the time to start thinking about, let's start to actually bring prototypes of this in front of more and more customers to test it out and see, is this actually solving a problem for you?",
+      "timestamp": "00:31:37",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["validation", "product-market-fit", "prototyping"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "ryan-j-salva-q006",
+      "speaker": "Ryan J. Salva",
+      "text": "We made an intentional decision to take some of the researchers who were in the Next team and for a finite period of time, move them over to create a new EPD squad. We want them to be researchers, but we need to do knowledge transfer and we needed to actually provide the seed for a team that could eventually operationalize and productize.",
+      "timestamp": "00:33:21",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 232
+      },
+      "themes": ["team-building", "knowledge-transfer", "scaling"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "ryan-j-salva-q007",
+      "speaker": "Ryan J. Salva",
+      "text": "The criteria for moving researchers back into their R&D team, whatever that happens to be for your organization, that can't be based on a calendar. It needs to be based on a replacement in seat, who's actually doing the job and has picked up all of the skills necessary, and only then can the researcher move back. Make sure that you've got continuity of expertise and domain familiarity before you move over.",
+      "timestamp": "00:35:49",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["team-transitions", "knowledge-transfer", "organizational-design"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "ryan-j-salva-q008",
+      "speaker": "Ryan J. Salva",
+      "text": "The team who's responsible for maintaining the product, for building the product, who has the closest feedback loop with the end customer, they're the ones who really need to own and feel like they control the roadmap. Making sure that you're not outsourcing innovation exclusively to an R&D team, but that is happening within the product team as they take ownership over the idea and over the use case in the customer.",
+      "timestamp": "00:36:44",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["ownership", "roadmap", "product-team"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "ryan-j-salva-q009",
+      "speaker": "Ryan J. Salva",
+      "text": "There are lots and lots of different opportunities for AI to essentially be able to take some of the drudgery out of our work so that we can focus on creative acts. What I hear from developers and what I experience myself is that Copilot kind of forces me to think a little bit more about what are the design patterns I'm trying to create?",
+      "timestamp": "00:46:55",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["AI-augmentation", "creativity", "developer-experience"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "ryan-j-salva-q010",
+      "speaker": "Ryan J. Salva",
+      "text": "I want people to be skeptical of Copilot. We owe it to ourselves as a community to be skeptical of any AI. Because just like there's great potential for benefit, there's also great potential for harm. People keeping us accountable like, how are you preventing things like model poisoning? Is there going to be a new attack vector that we just haven't really thought of yet around AI that might produce negative consequences?",
+      "timestamp": "00:51:04",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 355
+      },
+      "themes": ["AI-ethics", "responsible-AI", "community"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "ryan-j-salva-q011",
+      "speaker": "Ryan J. Salva",
+      "text": "As a general principle, I certainly try to make sure that we're always reserving some capacity for bold, audacious experimental research projects. You can think of those really uncertain bets as being five to 10% of the team's capacity. About 25, maybe 30% of the team's capacity should generally be on just operations. And then the remainder, about 60% or so, is really on incremental progress for our end market products.",
+      "timestamp": "00:54:51",
+      "source": {
+        "slug": "ryan-j-salva",
+        "path": "episodes/ryan-j-salva/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 382
+      },
+      "themes": ["resource-allocation", "portfolio-management", "strategy"],
+      "zones": ["focus", "chaos"]
+    }
+  ],
+  "themes": ["AI-product-development", "innovation-at-scale", "developer-experience", "responsible-AI", "team-building", "organizational-design"],
+  "takeaways": [
+    "Incubating moonshots within large companies requires ring-fencing an R&D team separate from the core product org, giving researchers creative freedom without the burden of operational fundamentals upfront.",
+    "Transitioning an R&D project to a productized offering requires moving researchers alongside the project temporarily, then replacing them in seat based on readiness rather than arbitrary calendar dates.",
+    "The product team closest to the customer must own the roadmap - outsourcing innovation exclusively to an R&D group erodes ownership and disconnects the feedback loop that drives product quality.",
+    "AI tools should augment human creativity rather than replace it - Copilot's design philosophy as an 'AI pair programmer' shaped both the technical implementation and the ethical guardrails around the product.",
+    "Portfolio management requires deliberate resource allocation: roughly 5-10% on bold experimental bets, 25-30% on operational maintenance, and about 60% on incremental improvements to existing products."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ryan-j-salva-q004",
+      "why": "Argues that moonshot teams should not be held to operational fundamentals like security, privacy, and uptime - counterintuitive for product leaders who prioritize engineering rigor from day one",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "ryan-j-salva-q010",
+      "why": "A VP of Product actively encouraging skepticism of his own product is rare - most product leaders evangelize adoption rather than inviting doubt and criticism",
+      "related_zones": ["perfection", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["AI-product-development", "incubation-at-scale", "developer-tools"]
+  }
+}

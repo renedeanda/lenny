@@ -1,0 +1,194 @@
+{
+  "slug": "nancy-duarte",
+  "quotes": [
+    {
+      "id": "nancy-duarte-q001",
+      "speaker": "Nancy Duarte",
+      "text": "Who really holds the power in the room of a presentation is the audience, the audience gets to make a choice if they accept or reject your idea. So, the balance of power is with them and not you. So, it really is the role of the presenter to be the mentor.",
+      "timestamp": "00:18:48",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 161
+      },
+      "themes": ["empathy", "communication", "audience"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "nancy-duarte-q002",
+      "speaker": "Nancy Duarte",
+      "text": "When you're speaking to an audience, they're going to have an internal conflict that you have to give them something to soothe. And then you're asking them to therefore go and do this thing, take this action, do this call to action. They're not going to do that for you if you haven't empathetically thought about how hard what you're asking them is going to be for them to do.",
+      "timestamp": "00:19:32",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["empathy", "persuasion", "communication"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "nancy-duarte-q003",
+      "speaker": "Nancy Duarte",
+      "text": "When I say storytelling, I'm talking about an anecdote. When I say story structures, I'm talking about this format of a three act structure of storytelling that goes back tens of thousands of years, which is fused into the brain like FMRI machines now you can see them while a story's being told and the science is beautiful, if you're telling me a story and I'm listening, our brains are firing in the exact same order, in the exact same place. So, it has power to align our brains.",
+      "timestamp": "00:23:31",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 194,
+        "lineEnd": 194
+      },
+      "themes": ["storytelling", "neuroscience", "alignment"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "nancy-duarte-q004",
+      "speaker": "Nancy Duarte",
+      "text": "Story creates longing. It helps people long for something they'd never wanted before because if the future is told in the shape of a story and they see this alternate future, so many people escape through sci-fi. They escape through movie making into these future worlds. And so picture that you could verbally paint a picture of this future state and then you could bring your whole audience to this future state in an amazing way using this cadence of rise and fall.",
+      "timestamp": "00:24:58",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 200,
+        "lineEnd": 200
+      },
+      "themes": ["storytelling", "vision", "persuasion"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "nancy-duarte-q005",
+      "speaker": "Nancy Duarte",
+      "text": "Your whole presentation should be grounded in what we call the audience journey, which is the big idea where you're trying to move them from where you're trying to move them to. Then a big idea is what is your point of view and what's at stake if they do or do not adopt it? That's the organizing mechanism for your whole deck.",
+      "timestamp": "00:41:35",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 311,
+        "lineEnd": 311
+      },
+      "themes": ["communication", "strategy", "focus"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "nancy-duarte-q006",
+      "speaker": "Nancy Duarte",
+      "text": "Don't make a single slide unless it supports the one big idea of your whole talk. That's another principle for slide making, because most people go back to some sort of repository in some data store somewhere and they dig through old crappy slides and see if they can assemble something super quickly. And that's a cop out.",
+      "timestamp": "00:43:08",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 317,
+        "lineEnd": 317
+      },
+      "themes": ["focus", "craft", "communication"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "nancy-duarte-q007",
+      "speaker": "Nancy Duarte",
+      "text": "Most of the time if you really think empathetically about your audience, going to the repository might get you halfway there, but you should be modifying and mapping all of the content based on who you're talking to and especially if it's high stakes. And sometimes you're speaking to an audience that wants high density slides, because that's how they communicate in their culture.",
+      "timestamp": "00:44:01",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 320,
+        "lineEnd": 320
+      },
+      "themes": ["empathy", "audience", "adaptability"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "nancy-duarte-q008",
+      "speaker": "Nancy Duarte",
+      "text": "We make presentations the way Pixar makes movies. And that's very similar to the way we get somebody that has this high stakes moment where it's a big deal in this moment. You have to win in the moment to push things along. And so we do, we literally craft a narrative, craft the big idea, craft the script and visualize certain moments.",
+      "timestamp": "00:50:24",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 353,
+        "lineEnd": 353
+      },
+      "themes": ["craft", "process", "storytelling"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "nancy-duarte-q009",
+      "speaker": "Nancy Duarte",
+      "text": "Do I need a deck? Who am I talking to? And should is this a cookie cutter thing? And does the same process work every time? No. So, every time we solve something it's very different and we try to make it unique to the presenter and the audience that they're speaking to.",
+      "timestamp": "00:52:46",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 365,
+        "lineEnd": 365
+      },
+      "themes": ["empathy", "adaptability", "craft"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "nancy-duarte-q010",
+      "speaker": "Nancy Duarte",
+      "text": "The torch bearer, the reason we called that is the leaders know where they're headed, but they might not ever see it super, super clearly. And we chose a torch because a torch, if you're in a cave and you have a torch, you only see about five, eight feet around you, but it's enough to dissipate the fear of the people following you in. And so nobody sees the future clearly.",
+      "timestamp": "01:02:15",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 425,
+        "lineEnd": 425
+      },
+      "themes": ["leadership", "vision", "uncertainty"],
+      "zones": ["chaos", "intuition", "alignment"]
+    },
+    {
+      "id": "nancy-duarte-q011",
+      "speaker": "Nancy Duarte",
+      "text": "Each one of those five phases you need to use speeches, stories, ceremonies and symbols at each phase to give the people traveling with you the emotional fuel they need to keep going, to keep seeing that idea become realized. And it literally is about fueling the right emotions with speeches, stories, ceremonies, and symbols while you're moving people toward a bigger initiative.",
+      "timestamp": "01:03:53",
+      "source": {
+        "slug": "nancy-duarte",
+        "path": "episodes/nancy-duarte/transcript.md",
+        "lineStart": 431,
+        "lineEnd": 431
+      },
+      "themes": ["leadership", "change-management", "storytelling"],
+      "zones": ["alignment", "chaos"]
+    }
+  ],
+  "themes": ["storytelling", "empathy", "communication", "leadership", "persuasion", "craft"],
+  "takeaways": [
+    "Your audience is the hero of your presentation, not you - the presenter's role is to be the mentor who comes alongside the audience and helps them get unstuck.",
+    "The 'what is / what could be / new bliss' framework creates contrast and longing that works in any format - from boardroom meetings to personal conversations.",
+    "Story structures are neurologically powerful: when you tell a story, the listener's brain fires in the same order and same place as yours, creating alignment.",
+    "Don't make a single slide unless it supports the one big idea of your entire talk - empathetically tailor every element to your specific audience.",
+    "Leaders are torch bearers who don't need to see the future perfectly clearly - they just need to illuminate enough to dissipate fear and fuel their team's emotional journey through dream, leap, fight, climb, and arrive."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.25,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nancy-duarte-q009",
+      "why": "Contradicts the common PM desire for repeatable, scalable processes - argues every communication solution should be uniquely crafted rather than templatized",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "nancy-duarte-q010",
+      "why": "Challenges the expectation that leaders should have a crystal-clear vision - argues that only seeing five to eight feet ahead is sufficient and even preferable",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["storytelling", "presentations", "communication"]
+  }
+}

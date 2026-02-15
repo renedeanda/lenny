@@ -1,0 +1,194 @@
+{
+  "slug": "tim-holley",
+  "quotes": [
+    {
+      "id": "tim-holley-q001",
+      "speaker": "Tim Holley",
+      "text": "We had had a pretty entrenched consensus-based culture, where we would really debate a lot of decisions and a lot of features. And on the one hand, I think that that does lead to good outcomes, right? Thoughtful products that have a lot of viewpoints really baked into the core of the thinking. On the other hand, not fast.",
+      "timestamp": "00:08:12",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 86
+      },
+      "themes": ["culture", "decision-making", "velocity"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "tim-holley-q002",
+      "speaker": "Tim Holley",
+      "text": "One thing that is just such a standout is having GMS as our north star KPI, just having that, being absolutely front and center, being the drumbeat that we talk about in every meeting, the measuring stick that we measure the success of launches against. And maybe it's a bit surprising, but we didn't have that type of clarity in the past.",
+      "timestamp": "00:09:29",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 92,
+        "lineEnd": 92
+      },
+      "themes": ["north-star-metric", "alignment", "clarity"],
+      "zones": ["focus", "data", "alignment"]
+    },
+    {
+      "id": "tim-holley-q003",
+      "speaker": "Tim Holley",
+      "text": "Definitely focus on a clear KPI that the teams can rally around. The old adage of you need to say something three times before people understand it. I would wager you need to say it another three times before they internalize it. Having clarity on goal, the KPI point, and then clarity on why, the narrative point. If you can marry those two things, I think that's an incredibly powerful combination.",
+      "timestamp": "00:11:36",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 104,
+        "lineEnd": 105
+      },
+      "themes": ["leadership", "communication", "north-star-metric"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "tim-holley-q004",
+      "speaker": "Tim Holley",
+      "text": "Another example of a principle is minimizing waste. It aligns with how we think about product development, which is, we want to know, is the work we're doing adding value to the customer and the business? And so something that isn't working out a lot of times in product development we're wrong. And so being able to say, \"No, this is no longer valuable, we need to move on to the next thing,\" has been something that's served us really well.",
+      "timestamp": "00:12:52",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["product-development", "prioritization", "waste"],
+      "zones": ["focus", "velocity", "data"]
+    },
+    {
+      "id": "tim-holley-q005",
+      "speaker": "Tim Holley",
+      "text": "We were doing studio visits with sellers. We were going to their workshops, we were going to their homes. We were seeing how they make items, we were seeing how they package and ship them out. We were bringing them into the office when we were running hack weeks to say, \"Hey, we've got this crazy idea. Is this interesting?\" So trying to involve them in the product development process to the extent that it was reasonable or feasible.",
+      "timestamp": "00:19:30",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 146,
+        "lineEnd": 146
+      },
+      "themes": ["user-research", "marketplace", "seller-empathy"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "tim-holley-q006",
+      "speaker": "Tim Holley",
+      "text": "We have the insight into information, into data, that an individual seller won't. And so we can help them make hopefully better decisions that lead to sales, leveraging the insights that we have. Trying to be really data-driven in how we help and guide sellers to take actions that we really believe will be valuable for them and their business, because simply, they're either a small business owner and so they don't have time to do that level of digging.",
+      "timestamp": "00:23:47",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 170
+      },
+      "themes": ["data-driven", "marketplace", "seller-tools"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "tim-holley-q007",
+      "speaker": "Tim Holley",
+      "text": "We're often surprised by what works in an outsized way and what we think is going to be a knock it out of the park success, ends up being of minimal value. We've got examples where it's a one line copy change, and it's quite shocking the impact that that can have.",
+      "timestamp": "00:28:53",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 200,
+        "lineEnd": 234
+      },
+      "themes": ["experimentation", "conversion", "surprises"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "tim-holley-q008",
+      "speaker": "Tim Holley",
+      "text": "A/B testing is the highest bar. That proves with near absolute certainty that there's a causal relationship between the change you made and the KPI that you want to move. But I think that it maybe misses the point in some changes or some areas where you are working towards a bigger net new thing or this specific change won't really be indicative of the greater whole you're building towards.",
+      "timestamp": "00:35:28",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 247
+      },
+      "themes": ["experimentation", "data-driven", "product-strategy"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "tim-holley-q009",
+      "speaker": "Tim Holley",
+      "text": "The statement we have is keep commerce human. And that feels really simple, super pithy, easy to remember, but has lineage when you go all the way back to where we started in terms of really valuing the unique, valuing the handmade. And so that does permeate decision making, how we show up, the type of features we work on, the things we would prioritize.",
+      "timestamp": "00:46:38",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 308
+      },
+      "themes": ["brand", "values", "marketplace-identity"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "tim-holley-q010",
+      "speaker": "Tim Holley",
+      "text": "We don't subscribe to this idea of PM as the mini CEO. You're up there directing from on high that we're going to build that feature and we're going to do that. And that's just not the type of culture that we have, and generally speaking from what I've seen, doesn't lead to good decisions or the best features or product being built. Collaboration is something we really value and that we try to live through how we structure our teams.",
+      "timestamp": "00:56:45",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 375,
+        "lineEnd": 375
+      },
+      "themes": ["product-leadership", "collaboration", "culture"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "tim-holley-q011",
+      "speaker": "Tim Holley",
+      "text": "You don't have to have the best ideas, but you have to choose the best ideas. And so really figuring out how you're selecting what you're going to build and then living with the consequences. In many cases, back to your 80% stat that 80% of experiments don't work, owning what's next. Did we learn from that? If we did, what are we going to do about it? That definitely does fall to the PM.",
+      "timestamp": "00:57:35",
+      "source": {
+        "slug": "tim-holley",
+        "path": "episodes/tim-holley/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 381
+      },
+      "themes": ["product-leadership", "decision-making", "accountability"],
+      "zones": ["intuition", "data", "focus"]
+    }
+  ],
+  "themes": ["marketplace-strategy", "data-driven-culture", "product-leadership", "experimentation", "brand-identity", "seller-empathy", "prioritization", "collaboration"],
+  "takeaways": [
+    "A clear north star metric (GMS) transformed Etsy's culture from consensus-paralysis to focused execution -- rallying everyone around a single KPI that serves as the drumbeat in every meeting and the measuring stick for every launch.",
+    "Minimizing waste is a core product principle at Etsy -- being willing to kill what isn't working and move on is essential when you're a small team competing against massive competitors.",
+    "Deep seller immersion through studio visits, workshops, and hack weeks built Etsy's foundational understanding of supply-side needs, and the marketplace now uses its aggregate data advantage to help individual sellers make better business decisions.",
+    "A/B testing is the highest bar for validation but it can miss the point for bigger bets -- Etsy is expanding beyond pure experimentation to cohort analysis and other methods that better capture longer-horizon value like retention.",
+    "The PM is not the mini CEO but is ultimately accountable for choosing the best ideas from cross-functional partners and owning the consequences, including learning from the 80% of experiments that fail."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.05,
+    "discovery": 0.13,
+    "data": 0.25,
+    "intuition": 0.07,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.17
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tim-holley-q008",
+      "why": "Challenges the A/B testing orthodoxy by arguing that experimentation can miss the point for bigger bets, despite Etsy being famous for its testing culture",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "tim-holley-q010",
+      "why": "Directly rejects the popular 'PM as mini CEO' framework, arguing it leads to worse decisions and products",
+      "related_zones": ["alignment", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["marketplace-strategy", "experimentation", "product-team-culture"]
+  }
+}

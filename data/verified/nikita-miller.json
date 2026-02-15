@@ -1,0 +1,208 @@
+{
+  "slug": "nikita-miller",
+  "quotes": [
+    {
+      "id": "nikita-miller-q001",
+      "speaker": "Nikita Miller",
+      "text": "I as a product leader, I'm going to write down what I think the expectations and the role and responsibilities of my engineering manager, of my designer, of my data. And then we look at it together and then we arrive at essentially a contract with one another about what we think that looks like and what that responsibility is to our teams, and from there, we cascade it throughout the org.",
+      "timestamp": "17:29",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["roles-and-responsibilities", "team-building", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "nikita-miller-q002",
+      "speaker": "Nikita Miller",
+      "text": "I think a lot of people end up putting a lot on the PM's plate because of that misunderstanding. And so you end up looking at something as a group and saying, \"Well, no one human can do all of those things all the time, so let's talk about what the shared responsibility looks like.\" And what I think is really powerful about the triad is that it's a recognition of there are shared responsibilities.",
+      "timestamp": "21:18",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 253,
+        "lineEnd": 253
+      },
+      "themes": ["product-management", "shared-responsibility", "cross-functional"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "nikita-miller-q003",
+      "speaker": "Nikita Miller",
+      "text": "Data scientists, as with most humans, we get better the more focused we are and the more in depth we are in understanding the product itself. So if you have someone that's dedicated to a zone or an area of the product, then it's much easier for them to spot patterns as opposed to attempting to understand what's happening every time a ticket comes in.",
+      "timestamp": "22:13",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": ["data-science", "focus", "team-structure"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "nikita-miller-q004",
+      "speaker": "Nikita Miller",
+      "text": "For PMs it's often around the velocity of decision-making. How long does it take us actually from saying we need to do a thing to defining it potentially, and then deciding are we actually going to do it or how? And that I think takes a long time for most companies, most people. So velocity of decision-making, so I think that tends to fall on the PM most often.",
+      "timestamp": "24:18",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 301
+      },
+      "themes": ["decision-making", "velocity", "product-management"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "nikita-miller-q005",
+      "speaker": "Nikita Miller",
+      "text": "Many of the companies that I've either worked with or advised, coached over the past few years, it was all about outcomes. Everyone was, \"Outcomes, outcomes, outcomes,\" which is right. You want to make sure you're doing the right thing with the right goal and that's fine. And some folks, myself included at certain points, swung way too far on the outcomes train and forgot that output is an indicator of that.",
+      "timestamp": "25:35",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 307,
+        "lineEnd": 307
+      },
+      "themes": ["outcomes-vs-output", "execution", "velocity"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "nikita-miller-q006",
+      "speaker": "Nikita Miller",
+      "text": "If you have a team that's doing all of the ideation and figuring out how to make decisions quickly and getting the right documentation and setting up the right product briefs and design briefs and experiment briefs, all the things that we know go into to successful product development, that's great, but if you're also not shipping a lot of things to market quickly enough, then it just doesn't matter that much.",
+      "timestamp": "26:10",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["shipping", "execution", "urgency"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "nikita-miller-q007",
+      "speaker": "Nikita Miller",
+      "text": "I've worked at a few companies where I've worked with founders who are like, \"We don't have competition, we're the only ones doing this,\" and then fast forward a few years and you're like, \"Here are all the companies that were your competition that you didn't recognize then that are shipping great product now.\"",
+      "timestamp": "28:39",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 334,
+        "lineEnd": 334
+      },
+      "themes": ["competition", "urgency", "strategy"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "nikita-miller-q008",
+      "speaker": "Nikita Miller",
+      "text": "Just ask a bunch of questions. \"What did you deliver?\" And more questions, \"Okay, fine, but what did you deliver to production? Great. And how long have you been working on that? How long? What was the cycle time?\" So these questions that are really just I think seeking to understand because I understand complexity and so that exists everywhere, but maybe helping folks see that as they're reviewing their own work or their team's work goes a long way.",
+      "timestamp": "32:05",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 364,
+        "lineEnd": 364
+      },
+      "themes": ["accountability", "execution", "leadership"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "nikita-miller-q009",
+      "speaker": "Nikita Miller",
+      "text": "As you're seeing PM's becoming more technical, I think designers becoming more business-oriented, engineers are becoming a lot more product/user-focused, to me that's amazing because it means that we're getting closer to what I'd consider really deep collaboration. And it's not to say that we're not experts. There are expertise within that that we expect of folks, but that care for other disciplines I think is where a lot of magic happens.",
+      "timestamp": "34:54",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 376
+      },
+      "themes": ["cross-functional", "collaboration", "evolving-roles"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "nikita-miller-q010",
+      "speaker": "Nikita Miller",
+      "text": "When I think about work-life balance, I don't use the word balance, I use optimization. It's this question of what are you optimizing for right now? Whether it's today or this court or this year, with the understanding that I don't think you can have it all at the same time all the time.",
+      "timestamp": "40:05",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 439,
+        "lineEnd": 439
+      },
+      "themes": ["work-life-balance", "optimization", "prioritization"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "nikita-miller-q011",
+      "speaker": "Nikita Miller",
+      "text": "Solving a hard problem remotely with folks that you haven't spent in-person time with, that you haven't broken bread with, that you haven't disagreed with in person and built that trust is just really hard. In fact, it's much harder. So some of the things I've done even here at The Knot Worldwide is periodically when there's a really gnarly problem, I wave the flag and I say, \"Hey everyone, why don't we try and get together for two days and hash some of this stuff out, and then we can go back to our remote lives?\"",
+      "timestamp": "44:43",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 466,
+        "lineEnd": 466
+      },
+      "themes": ["remote-work", "trust", "problem-solving"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "nikita-miller-q012",
+      "speaker": "Nikita Miller",
+      "text": "The question I ask myself and I ask everyone in my life probably, whether it's on my team or when folks, friends talk to me, I always ask, \"What are you optimizing for?\" That's the question, it's what are you optimizing for? And it's the short, medium, long-term in product, but it's what are you optimizing for today, this quarter, this year? Whatever time horizon. And I think that can be just a really illuminating way of thinking about obviously just how are you spending your time?",
+      "timestamp": "53:08",
+      "source": {
+        "slug": "nikita-miller",
+        "path": "episodes/nikita-miller/transcript.md",
+        "lineStart": 526,
+        "lineEnd": 526
+      },
+      "themes": ["frameworks", "prioritization", "optimization"],
+      "zones": ["focus", "intuition"]
+    }
+  ],
+  "themes": ["alignment", "velocity", "roles-and-responsibilities", "execution", "cross-functional-collaboration", "prioritization", "remote-work", "product-management"],
+  "takeaways": [
+    "Define roles and responsibilities as a cross-functional contract: have product, design, engineering, and data leaders write expectations for each other, then align on a shared agreement that cascades through the org.",
+    "Output is the leading indicator of outcomes: teams that swing too far toward outcome-oriented planning without monitoring shipping velocity risk stalling - the more tries you have at it, the likelier you are to get it right.",
+    "Velocity of decision-making is the PM's core responsibility: the biggest execution bottleneck isn't building, it's the time between identifying what to do and deciding to actually do it.",
+    "Embed data scientists into product teams rather than centralizing them: dedicated data people spot patterns faster and eliminate the blocker of negotiating for shared analytical resources.",
+    "Replace 'work-life balance' with 'what are you optimizing for right now' - accept that you can't have it all at the same time, and intentionally choose what to prioritize in each season of your career."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nikita-miller-q005",
+      "why": "Challenges the dominant 'outcomes over outputs' orthodoxy in product management - argues the industry swung too far toward outcomes thinking and forgot that shipping velocity is itself a critical indicator",
+      "related_zones": ["velocity", "data"]
+    },
+    {
+      "quoteId": "nikita-miller-q007",
+      "why": "Calls out founders who claim they have no competition as dangerously naive - a contrarian take on the common startup advice to ignore competitors and focus on your own product",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": ["team-alignment", "execution-velocity", "remote-work", "product-leadership"]
+  }
+}
