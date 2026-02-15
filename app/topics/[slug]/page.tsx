@@ -80,6 +80,24 @@ export default function TopicPage() {
           </div>
         </motion.div>
 
+        {/* Empty state when no quotes match */}
+        {quotes.length === 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="mb-12 border border-ash-darker bg-void-light p-8 text-center"
+          >
+            <p className="text-ash-dark text-sm">
+              No curated quotes match this topic yet. Check out the{' '}
+              <Link href="/explore/insights" className="text-amber hover:underline">
+                curated insights
+              </Link>{' '}
+              page for all available quotes.
+            </p>
+          </motion.div>
+        )}
+
         {/* Featured Quotes */}
         {featuredQuotes.length > 0 && (
           <motion.div

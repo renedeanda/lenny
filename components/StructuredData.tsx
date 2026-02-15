@@ -11,9 +11,12 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuild
 
 /**
  * Safely serialize schema to JSON, stripping undefined values
+ * and escaping </script> tags that would break the HTML context
  */
-function safeJsonLd(schema: Record<string, unknown>): string {
-  return JSON.stringify(schema, (_, value) => (value === undefined ? undefined : value));
+export function safeJsonLd(schema: Record<string, unknown>): string {
+  const json = JSON.stringify(schema, (_, value) => (value === undefined ? undefined : value));
+  // Prevent </script> from breaking out of the JSON-LD script tag
+  return json.replace(/<\/script/gi, '<\\/script');
 }
 
 /**

@@ -21,7 +21,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   let description = episode.description || `Listen to ${episode.guest} on Lenny's Podcast`;
   if (enrichment?.takeaways && enrichment.takeaways.length > 0) {
     const takeawayPreview = enrichment.takeaways.slice(0, 2).join(' ');
-    description = `${episode.guest} on Lenny's Podcast: ${takeawayPreview}`.substring(0, 300);
+    let desc = `${episode.guest} on Lenny's Podcast: ${takeawayPreview}`;
+    if (desc.length > 300) {
+      // Truncate at last space before 300 chars to avoid cutting mid-word
+      const truncated = desc.substring(0, 300);
+      const lastSpace = truncated.lastIndexOf(' ');
+      desc = lastSpace > 200 ? truncated.substring(0, lastSpace) + '...' : truncated + '...';
+    }
+    description = desc;
   }
 
   const title = `${episode.guest} - Lenny's Podcast | PM Philosophy`;

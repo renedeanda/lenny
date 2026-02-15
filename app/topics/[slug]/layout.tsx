@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { TOPIC_PAGES, getQuotesForTopic, getEpisodesForTopic } from '@/lib/topics';
-import { BreadcrumbSchema, EpisodeListSchema } from '@/components/StructuredData';
+import { BreadcrumbSchema, EpisodeListSchema, safeJsonLd } from '@/components/StructuredData';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
@@ -108,7 +108,7 @@ export default async function TopicLayout({
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(faqSchema) }}
       />
       {children}
     </>

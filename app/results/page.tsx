@@ -168,11 +168,11 @@ ${window.location.origin}`;
 
   // Show first 5 primary, expand to all 12
   const visiblePrimary = showAllPrimary ? primary : primary.slice(0, 5);
-  const hiddenPrimaryCount = primary.length - 5;
+  const hiddenPrimaryCount = Math.max(0, primary.length - 5);
 
   // Show first 3 contrarian, expand to all 6
   const visibleContrarian = showAllContrarian ? contrarian : contrarian.slice(0, 3);
-  const hiddenContrarianCount = contrarian.length - 3;
+  const hiddenContrarianCount = Math.max(0, contrarian.length - 3);
 
   return (
     <div className="min-h-screen bg-void text-ash p-4 md:p-8 pt-20 md:pt-24">
@@ -256,6 +256,22 @@ ${window.location.origin}`;
         )}
 
         {/* Contrarian Recommendations */}
+        {contrarian.length === 0 && primary.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            className="border border-ash-darker bg-void-light p-6 text-center"
+          >
+            <h2 className="text-xl font-bold text-rose-400 mb-2">
+              Perspectives to Explore
+            </h2>
+            <p className="text-sm text-ash-dark">
+              Your philosophy profile is well-rounded — no strong blind spots detected.
+              Browse the zone sections below to discover episodes outside your comfort zone.
+            </p>
+          </motion.div>
+        )}
         {contrarian.length > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}

@@ -132,6 +132,30 @@ describe('generateRecommendations', () => {
     expect(total).toBeGreaterThanOrEqual(95);
     expect(total).toBeLessThanOrEqual(105);
   });
+
+  it('should not have byZone episodes overlap with primary or contrarian', () => {
+    const recs = generateRecommendations(mixedAnswers);
+    const usedSlugs = new Set([
+      ...recs.primary.map(r => r.slug),
+      ...recs.contrarian.map(r => r.slug),
+    ]);
+
+    const allZones: ZoneId[] = ['velocity', 'perfection', 'discovery', 'data', 'intuition', 'alignment', 'chaos', 'focus'];
+    for (const zone of allZones) {
+      for (const ep of recs.byZone[zone]) {
+        expect(usedSlugs.has(ep.slug)).toBe(false);
+      }
+    }
+  });
+
+  it('should handle edge case with very few answers gracefully', () => {
+    const tinyAnswers: QuizAnswers = { q1: 'a', q2: 'b' };
+    const recs = generateRecommendations(tinyAnswers);
+
+    expect(recs).toBeTruthy();
+    expect(recs.userProfile.primaryZone).toBeTruthy();
+    expect(Array.isArray(recs.primary)).toBe(true);
+  });
 });
 
 describe('getBlindSpotDescription', () => {

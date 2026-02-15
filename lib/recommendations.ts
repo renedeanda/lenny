@@ -549,7 +549,7 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
       };
     });
 
-  // Build zone-grouped recommendations (top 3 per zone)
+  // Build zone-grouped recommendations (top 3 per zone, excluding already-recommended episodes)
   const usedSlugs = new Set([...primarySlugs, ...contrarian.map(c => c.slug)]);
   const byZone: Record<ZoneId, EpisodeAlignment[]> = {} as Record<ZoneId, EpisodeAlignment[]>;
 
@@ -557,7 +557,7 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
     const zoneAlignments = initialAlignments
       .filter(a => {
         const zoneStrength = a.episodeZones[zone] ?? 0;
-        return zoneStrength > 0.15; // Episode must be meaningful in this zone
+        return zoneStrength > 0.15 && !usedSlugs.has(a.slug); // Exclude already-recommended episodes
       })
       .sort((a, b) => {
         // Sort by zone strength, then alignment score

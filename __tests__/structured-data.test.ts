@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest';
+import { safeJsonLd } from '@/components/StructuredData';
 
 /**
  * Tests for JSON-LD structured data generation.
@@ -42,10 +43,6 @@ describe('parseDurationToISO', () => {
 });
 
 describe('safeJsonLd', () => {
-  function safeJsonLd(schema: Record<string, unknown>): string {
-    return JSON.stringify(schema, (_, value) => (value === undefined ? undefined : value));
-  }
-
   it('should serialize valid JSON', () => {
     const result = safeJsonLd({ name: 'test', value: 42 });
     expect(JSON.parse(result)).toEqual({ name: 'test', value: 42 });
@@ -79,5 +76,22 @@ describe('safeJsonLd', () => {
     });
     const parsed = JSON.parse(result);
     expect(parsed.keywords).toEqual(['product', 'growth', 'strategy']);
+  });
+
+  it('should escape </script> tags to prevent HTML injection', () => {
+    const result = safeJsonLd({
+      text: 'Quote with </script><script>alert("xss")</script> inside',
+    });
+    // Should not contain a literal </script> that would break the HTML
+    expect(result).not.toContain('</script>');
+    // But should still be parseable (with the escaped version)
+    expect(result).toContain('<\\/script');
+  });
+
+  it('should handle case-insensitive script tag escaping', () => {
+    const result = safeJsonLd({
+      text: 'Test </Script> and </SCRIPT> tags',
+    });
+    expect(result).not.toMatch(/<\/script/i);
   });
 });
