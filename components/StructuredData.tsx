@@ -10,6 +10,13 @@ import { Episode } from '@/lib/allEpisodes';
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
 
 /**
+ * Safely serialize schema to JSON, stripping undefined values
+ */
+function safeJsonLd(schema: Record<string, unknown>): string {
+  return JSON.stringify(schema, (_, value) => (value === undefined ? undefined : value));
+}
+
+/**
  * WebSite schema - enables sitelinks search box in Google
  */
 export function WebSiteSchema() {
@@ -19,7 +26,7 @@ export function WebSiteSchema() {
     name: "Lenny's Podcast PM Philosophy",
     alternateName: 'PM Philosophy Quiz',
     url: BASE_URL,
-    description: "Discover your product management philosophy through Lenny's Podcast episodes. Take a quiz, get personalized episode recommendations based on verified quotes from 294 episodes.",
+    description: "Discover your product management philosophy through Lenny's Podcast episodes. Take a quiz, get personalized episode recommendations based on verified quotes.",
     publisher: {
       '@type': 'Organization',
       name: "Lenny's Podcast PM Philosophy",
@@ -30,7 +37,7 @@ export function WebSiteSchema() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }
@@ -54,22 +61,6 @@ export function PodcastEpisodeSchema({
     name: `${episode.guest} - ${episode.title}`,
     description: episode.description || `${episode.guest} shares insights on product management, strategy, and leadership on Lenny's Podcast.`,
     url: episodeUrl,
-    datePublished: episode.publishDate || undefined,
-    timeRequired: episode.duration ? `PT${parseDurationToISO(episode.duration)}` : undefined,
-    associatedMedia: episode.youtubeUrl ? {
-      '@type': 'VideoObject',
-      name: episode.title,
-      description: episode.description || `${episode.guest} on Lenny's Podcast`,
-      thumbnailUrl: `${BASE_URL}/og/${episode.slug}.png`,
-      uploadDate: episode.publishDate || undefined,
-      contentUrl: episode.youtubeUrl,
-      embedUrl: episode.videoId ? `https://www.youtube.com/embed/${episode.videoId}` : undefined,
-      interactionStatistic: episode.viewCount ? {
-        '@type': 'InteractionCounter',
-        interactionType: { '@type': 'WatchAction' },
-        userInteractionCount: episode.viewCount,
-      } : undefined,
-    } : undefined,
     partOfSeries: {
       '@type': 'PodcastSeries',
       name: "Lenny's Podcast",
@@ -80,6 +71,36 @@ export function PodcastEpisodeSchema({
       name: episode.guest,
     },
   };
+
+  // Only add fields that have values (avoid undefined in JSON)
+  if (episode.publishDate) {
+    schema.datePublished = episode.publishDate;
+  }
+
+  if (episode.duration) {
+    schema.timeRequired = `PT${parseDurationToISO(episode.duration)}`;
+  }
+
+  if (episode.youtubeUrl) {
+    const video: Record<string, unknown> = {
+      '@type': 'VideoObject',
+      name: episode.title,
+      description: episode.description || `${episode.guest} on Lenny's Podcast`,
+      thumbnailUrl: `${BASE_URL}/og/${episode.slug}.png`,
+      contentUrl: episode.youtubeUrl,
+    };
+    if (episode.publishDate) video.uploadDate = episode.publishDate;
+    if (episode.videoId) video.embedUrl = `https://www.youtube.com/embed/${episode.videoId}`;
+    if (episode.duration) video.duration = `PT${parseDurationToISO(episode.duration)}`;
+    if (episode.viewCount && episode.viewCount > 0) {
+      video.interactionStatistic = {
+        '@type': 'InteractionCounter',
+        interactionType: { '@type': 'WatchAction' },
+        userInteractionCount: episode.viewCount,
+      };
+    }
+    schema.associatedMedia = video;
+  }
 
   // Add keywords as about topics
   if (episode.keywords && episode.keywords.length > 0) {
@@ -97,7 +118,7 @@ export function PodcastEpisodeSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }
@@ -126,8 +147,9 @@ export function EpisodeFAQSchema({
   // Convert top quotes into Q&A format
   const topQuotes = enrichment.quotes?.slice(0, 3) || [];
   if (topQuotes.length > 0) {
+    const themes = enrichment.themes?.slice(0, 2).join(' and ') || 'product management';
     questions.push({
-      question: `What does ${episode.guest} say about ${enrichment.themes?.slice(0, 2).join(' and ') || 'product management'}?`,
+      question: `What does ${episode.guest} say about ${themes}?`,
       answer: topQuotes.map(q => `"${q.text}" - ${q.speaker}`).join(' '),
     });
   }
@@ -147,6 +169,7 @@ export function EpisodeFAQSchema({
     }
   }
 
+  // Don't render empty FAQ schema — Google will flag it
   if (questions.length === 0) return null;
 
   const schema = {
@@ -165,7 +188,7 @@ export function EpisodeFAQSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }
@@ -178,6 +201,8 @@ export function BreadcrumbSchema({
 }: {
   items: Array<{ name: string; url: string }>;
 }) {
+  if (items.length === 0) return null;
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -192,7 +217,7 @@ export function BreadcrumbSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }
@@ -210,13 +235,18 @@ export function EpisodeListSchema({
   listName: string;
   listDescription: string;
 }) {
+  if (episodes.length === 0) return null;
+
+  // Limit to 20 and report accurate count
+  const displayEpisodes = episodes.slice(0, 20);
+
   const schema = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
     name: listName,
     description: listDescription,
-    numberOfItems: episodes.length,
-    itemListElement: episodes.slice(0, 20).map((ep, index) => ({
+    numberOfItems: displayEpisodes.length,
+    itemListElement: displayEpisodes.map((ep, index) => ({
       '@type': 'ListItem',
       position: index + 1,
       url: `${BASE_URL}/episodes/${ep.slug}`,
@@ -227,40 +257,7 @@ export function EpisodeListSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
-/**
- * Quote/Citation schema for individual quotes
- * Enables quote attribution in search results
- */
-export function QuoteSchema({
-  quote,
-  episodeSlug,
-}: {
-  quote: Quote;
-  episodeSlug: string;
-}) {
-  const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Quotation',
-    text: quote.text,
-    creator: {
-      '@type': 'Person',
-      name: quote.speaker,
-    },
-    isPartOf: {
-      '@type': 'PodcastEpisode',
-      url: `${BASE_URL}/episodes/${episodeSlug}`,
-    },
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }
@@ -270,6 +267,7 @@ export function QuoteSchema({
  */
 function parseDurationToISO(duration: string): string {
   const parts = duration.split(':').map(Number);
+  if (parts.some(isNaN)) return '0S';
   if (parts.length === 3) {
     return `${parts[0]}H${parts[1]}M${parts[2]}S`;
   } else if (parts.length === 2) {

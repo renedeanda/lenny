@@ -139,23 +139,68 @@ export const TOPIC_PAGES: TopicPage[] = [
   },
 ];
 
+// --- Performance: Module-level caches ---
+// Build inverted index once: theme -> quotes
+let _themeIndex: Map<string, Quote[]> | null = null;
+// Build episode lookup once: slug -> episode
+let _episodeMap: Map<string, { guest: string; title: string }> | null = null;
+
+function getThemeIndex(): Map<string, Quote[]> {
+  if (_themeIndex) return _themeIndex;
+  _themeIndex = new Map();
+  const allQuotes = getAllVerifiedQuotes();
+  for (const quote of allQuotes) {
+    for (const theme of quote.themes) {
+      const existing = _themeIndex.get(theme);
+      if (existing) {
+        existing.push(quote);
+      } else {
+        _themeIndex.set(theme, [quote]);
+      }
+    }
+  }
+  return _themeIndex;
+}
+
+function getEpisodeMap(): Map<string, { guest: string; title: string }> {
+  if (_episodeMap) return _episodeMap;
+  _episodeMap = new Map();
+  for (const ep of allEpisodes) {
+    _episodeMap.set(ep.slug, { guest: ep.guest, title: ep.title });
+  }
+  return _episodeMap;
+}
+
 /**
  * Get quotes for a given topic (matches theme name or related topics)
+ * Uses inverted index for O(themes) instead of O(all_quotes)
  */
 export function getQuotesForTopic(topicSlug: string): Quote[] {
   const topic = TOPIC_PAGES.find(t => t.slug === topicSlug);
   if (!topic) return [];
 
-  const allQuotes = getAllVerifiedQuotes();
+  const themeIndex = getThemeIndex();
   const matchingThemes = [topicSlug, ...topic.relatedTopics];
 
-  return allQuotes.filter(q =>
-    q.themes.some(t => matchingThemes.includes(t))
-  );
+  // Collect unique quotes across all matching themes
+  const seen = new Set<string>();
+  const result: Quote[] = [];
+  for (const theme of matchingThemes) {
+    const quotes = themeIndex.get(theme);
+    if (!quotes) continue;
+    for (const q of quotes) {
+      if (!seen.has(q.id)) {
+        seen.add(q.id);
+        result.push(q);
+      }
+    }
+  }
+  return result;
 }
 
 /**
  * Get episodes that are most relevant to a topic
+ * Uses episode map for O(1) lookups instead of O(n) find()
  */
 export function getEpisodesForTopic(topicSlug: string): Array<{
   slug: string;
@@ -164,6 +209,7 @@ export function getEpisodesForTopic(topicSlug: string): Array<{
   quoteCount: number;
 }> {
   const quotes = getQuotesForTopic(topicSlug);
+  const episodeMap = getEpisodeMap();
 
   // Count quotes per episode
   const episodeCounts = new Map<string, number>();
@@ -175,7 +221,7 @@ export function getEpisodesForTopic(topicSlug: string): Array<{
   // Map to episode data and sort by quote count
   return Array.from(episodeCounts.entries())
     .map(([slug, count]) => {
-      const ep = allEpisodes.find(e => e.slug === slug);
+      const ep = episodeMap.get(slug);
       return {
         slug,
         guest: ep?.guest || slug,

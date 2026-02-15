@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Github, Home, Compass, Flame, CheckCircle } from 'lucide-react';
+import { Github, Home, Compass, Flame, CheckCircle, Hash } from 'lucide-react';
+import { TOPIC_PAGES } from '@/lib/topics';
 
 export default function Footer() {
   const [hasQuizResults, setHasQuizResults] = useState(false);
@@ -52,16 +53,16 @@ export default function Footer() {
   return (
     <footer className="relative z-20 border-t-2 border-ash-darker bg-void-light/50 backdrop-blur-sm font-mono">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {/* Navigation */}
           <div>
             <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">NAVIGATION</h3>
-            <nav className="space-y-2">
+            <nav className="space-y-2" aria-label="Footer navigation">
               <Link
                 href="/"
                 className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
               >
-                <Home className="w-4 h-4" />
+                <Home className="w-4 h-4" aria-hidden="true" />
                 Home
               </Link>
               {hasQuizResults ? (
@@ -69,7 +70,7 @@ export default function Footer() {
                   href="/results"
                   className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
                 >
-                  <CheckCircle className="w-4 h-4" />
+                  <CheckCircle className="w-4 h-4" aria-hidden="true" />
                   View Your Results
                 </Link>
               ) : (
@@ -77,7 +78,7 @@ export default function Footer() {
                   href="/quiz"
                   className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
                 >
-                  <Flame className="w-4 h-4" />
+                  <Flame className="w-4 h-4" aria-hidden="true" />
                   Take the Quiz
                 </Link>
               )}
@@ -85,9 +86,37 @@ export default function Footer() {
                 href="/explore"
                 className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
               >
-                <Compass className="w-4 h-4" />
+                <Compass className="w-4 h-4" aria-hidden="true" />
                 Explore Episodes
               </Link>
+              <Link
+                href="/explore/insights"
+                className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
+              >
+                <Hash className="w-4 h-4" aria-hidden="true" />
+                Curated Insights
+              </Link>
+            </nav>
+          </div>
+
+          {/* Topics */}
+          <div>
+            <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">TOPICS</h3>
+            <nav className="space-y-2" aria-label="Browse by topic">
+              {TOPIC_PAGES.slice(0, 8).map(topic => (
+                <Link
+                  key={topic.slug}
+                  href={`/topics/${topic.slug}`}
+                  className="block text-ash-dark hover:text-amber transition-colors text-sm"
+                >
+                  {topic.name}
+                </Link>
+              ))}
+              {TOPIC_PAGES.length > 8 && (
+                <span className="block text-ash-darker text-xs font-mono">
+                  +{TOPIC_PAGES.length - 8} more on Explore
+                </span>
+              )}
             </nav>
           </div>
 
@@ -109,7 +138,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm mb-4"
             >
-              <Github className="w-4 h-4" />
+              <Github className="w-4 h-4" aria-hidden="true" />
               View on GitHub
             </a>
             <p className="text-ash-darker text-xs">

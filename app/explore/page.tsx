@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, memo, useRef } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles, Heart } from 'lucide-react';
+import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles, Heart, Hash } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
@@ -15,6 +15,7 @@ import { QuizAnswers } from '@/lib/types';
 import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import { trackRecommendationsExpanded } from '@/lib/analytics';
 import { getFavoriteEpisodes, toggleFavoriteEpisode, isEpisodeFavorited } from '@/lib/favorites';
+import { TOPIC_PAGES } from '@/lib/topics';
 
 const STORAGE_KEY = 'lenny-explore-filters';
 const EPISODES_PER_PAGE = 24;
@@ -215,8 +216,32 @@ export default function ExplorePage() {
               className="inline-flex items-center gap-2 mt-4 px-4 py-2 border border-amber/50 text-amber text-sm hover:bg-amber hover:text-void transition-all"
             >
               <Sparkles className="w-4 h-4" />
-              Browse {enrichedSlugs.size} Curated Episodes with Verified Quotes →
+              Browse {enrichedSlugs.size} Curated Episodes with Verified Quotes
             </Link>
+
+            {/* Browse by Topic */}
+            <div className="mt-6">
+              <div className="flex items-center gap-2 mb-3 text-xs text-ash-dark tracking-wider">
+                <Hash className="w-3 h-3" aria-hidden="true" />
+                BROWSE BY TOPIC
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {TOPIC_PAGES.slice(0, 12).map(topic => (
+                  <Link
+                    key={topic.slug}
+                    href={`/topics/${topic.slug}`}
+                    className="px-3 py-1.5 text-xs border border-ash-darker text-ash-dark hover:border-amber hover:text-amber transition-all"
+                  >
+                    {topic.name}
+                  </Link>
+                ))}
+                {TOPIC_PAGES.length > 12 && (
+                  <span className="px-3 py-1.5 text-xs text-ash-dark font-mono">
+                    +{TOPIC_PAGES.length - 12} more
+                  </span>
+                )}
+              </div>
+            </div>
 
             {/* Recommendations Toggle */}
             {recommendations && (

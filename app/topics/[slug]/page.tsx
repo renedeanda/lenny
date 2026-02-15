@@ -52,8 +52,8 @@ export default function TopicPage() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 pt-20 pb-12 md:pt-24">
         {/* Breadcrumb */}
         <div className="mb-8">
-          <Link href="/explore" className="text-ash-dark hover:text-amber transition-colors text-sm flex items-center gap-2">
-            <ArrowLeft className="w-4 h-4" />
+          <Link href="/explore" className="text-ash-dark hover:text-amber transition-colors text-sm flex items-center gap-2" aria-label="Back to explore episodes">
+            <ArrowLeft className="w-4 h-4" aria-hidden="true" />
             Back to Explore
           </Link>
         </div>
@@ -97,7 +97,7 @@ export default function TopicPage() {
                   className="block border border-ash-darker bg-void-light p-5 hover:border-amber transition-all group"
                 >
                   <div className="flex items-start gap-3 mb-3">
-                    <Quote className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" />
+                    <Quote className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" aria-hidden="true" />
                     <p className="text-sm text-ash italic leading-relaxed">
                       &ldquo;{quote.text.length > 200 ? `${quote.text.substring(0, 197)}...` : quote.text}&rdquo;
                     </p>
@@ -151,7 +151,7 @@ export default function TopicPage() {
           </div>
           {episodes.length > 20 && (
             <p className="mt-4 text-sm text-ash-dark text-center">
-              And {episodes.length - 20} more episodes...
+              And {episodes.length - 20} more {episodes.length - 20 === 1 ? 'episode' : 'episodes'}...
             </p>
           )}
         </motion.div>

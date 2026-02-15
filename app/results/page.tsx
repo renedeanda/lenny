@@ -22,6 +22,11 @@ function ResultsContent() {
   const [isClient, setIsClient] = useState(false);
   const [answers, setAnswers] = useState<QuizAnswers>({});
   const [userName, setUserName] = useState('Your');
+  // These must be declared before any early returns (React hooks rule)
+  const [showAllPrimary, setShowAllPrimary] = useState(false);
+  const [showAllContrarian, setShowAllContrarian] = useState(false);
+  const [expandedZone, setExpandedZone] = useState<ZoneId | null>(null);
+  const [isDownloading, setIsDownloading] = useState(false);
 
   // Load from localStorage only on client side
   useEffect(() => {
@@ -67,8 +72,9 @@ function ResultsContent() {
 
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
-    if (!cardElement || !recommendations) return;
+    if (!cardElement || !recommendations || isDownloading) return;
 
+    setIsDownloading(true);
     try {
       const html2canvas = (await import('html2canvas')).default;
       const canvas = await html2canvas(cardElement, {
@@ -78,13 +84,16 @@ function ResultsContent() {
       });
 
       const link = document.createElement('a');
-      link.download = `${userName.replace(/\s+/g, '-')}-pm-philosophy.png`;
+      const safeName = userName.replace(/[^a-zA-Z0-9\s-]/g, '').replace(/\s+/g, '-') || 'pm';
+      link.download = `${safeName}-pm-philosophy.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
 
       trackResultsDownloaded(recommendations.userProfile.primaryZone);
     } catch (error) {
       console.error('Failed to generate image:', error);
+    } finally {
+      setIsDownloading(false);
     }
   };
 
@@ -156,9 +165,6 @@ ${window.location.origin}`;
   }
 
   const { userProfile, primary, contrarian, byZone } = recommendations;
-  const [showAllPrimary, setShowAllPrimary] = useState(false);
-  const [showAllContrarian, setShowAllContrarian] = useState(false);
-  const [expandedZone, setExpandedZone] = useState<ZoneId | null>(null);
 
   // Show first 5 primary, expand to all 12
   const visiblePrimary = showAllPrimary ? primary : primary.slice(0, 5);
@@ -334,6 +340,8 @@ ${window.location.origin}`;
                     >
                       <button
                         onClick={() => setExpandedZone(isExpanded ? null : zoneId as ZoneId)}
+                        aria-expanded={isExpanded}
+                        aria-label={`${isExpanded ? 'Collapse' : 'Expand'} ${zone.name} episodes`}
                         className="w-full p-4 flex items-center justify-between text-left"
                       >
                         <div className="flex items-center gap-3">
@@ -501,15 +509,18 @@ ${window.location.origin}`;
           <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={handleShare}
+              aria-label="Share your product philosophy results"
               className="px-10 py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-lg"
             >
-              🔥 SHARE YOUR PHILOSOPHY
+              SHARE YOUR PHILOSOPHY
             </button>
             <button
               onClick={handleDownload}
-              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg"
+              disabled={isDownloading}
+              aria-label={isDownloading ? 'Generating download...' : 'Download your results as an image'}
+              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg disabled:opacity-50 disabled:cursor-wait"
             >
-              📥 DOWNLOAD RESULTS
+              {isDownloading ? 'GENERATING...' : 'DOWNLOAD RESULTS'}
             </button>
           </div>
 
@@ -517,12 +528,14 @@ ${window.location.origin}`;
           <div className="flex flex-wrap gap-4 justify-center text-sm">
             <button
               onClick={handleExplore}
+              aria-label="Browse all podcast episodes"
               className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
             >
               Browse All Episodes
             </button>
             <button
               onClick={handleRetake}
+              aria-label="Retake the philosophy quiz"
               className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
             >
               Retake Quiz
@@ -538,7 +551,7 @@ ${window.location.origin}`;
           className="text-center py-8 border-t border-ash-darker mt-12"
         >
           <div className="text-xs text-ash-darker font-mono">
-            Based on {Object.keys(answers).length} questions and 294 episodes of Lenny's Podcast
+            Based on {Object.keys(answers).length} questions and {getRegistryInfo().episodeCount} curated episodes of Lenny's Podcast
           </div>
           <div className="text-xs text-ash-darker font-mono mt-2">
             Built for the PM community
