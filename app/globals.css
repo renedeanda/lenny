@@ -17,6 +17,19 @@ body {
   cursor: none !important;
 }
 
+/* Focus indicators for keyboard navigation */
+*:focus-visible {
+  outline: 2px solid #ffb347;
+  outline-offset: 2px;
+}
+
+/* Restore default cursor on touch devices */
+@media (pointer: coarse) {
+  body, * {
+    cursor: auto !important;
+  }
+}
+
 @layer utilities {
   .bg-gradient-radial {
     background: radial-gradient(var(--tw-gradient-stops));

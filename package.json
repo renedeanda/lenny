@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "generate:og-topics": "node scripts/generate-topic-og-images.js"
   },
   "keywords": [],
   "author": "",

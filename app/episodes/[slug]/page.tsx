@@ -41,6 +41,27 @@ interface TranscriptContent {
   sections: TranscriptSection[];
 }
 
+function escapeRegExp(str: string) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function HighlightedText({ text, query }: { text: string; query: string }) {
+  if (!query) return <>{text}</>;
+  const escaped = escapeRegExp(query);
+  const parts = text.split(new RegExp(`(${escaped})`, 'gi'));
+  return (
+    <>
+      {parts.map((part, i) =>
+        part.toLowerCase() === query.toLowerCase() ? (
+          <mark key={i} className="bg-amber/30 text-ash">{part}</mark>
+        ) : (
+          part
+        )
+      )}
+    </>
+  );
+}
+
 function EpisodePageContent() {
   const params = useParams();
   const searchParams = useSearchParams();
@@ -565,16 +586,7 @@ function EpisodePageContent() {
                               {section.speaker}
                             </div>
                             <div className="text-ash-dark text-sm leading-relaxed">
-                              {searchQuery ? (
-                                <span dangerouslySetInnerHTML={{
-                                  __html: section.text.replace(
-                                    new RegExp(`(${searchQuery})`, 'gi'),
-                                    '<mark class="bg-amber/30 text-ash">$1</mark>'
-                                  )
-                                }} />
-                              ) : (
-                                section.text
-                              )}
+                              <HighlightedText text={section.text} query={searchQuery} />
                             </div>
                           </div>
                         </div>
@@ -861,16 +873,7 @@ function EpisodePageContent() {
                                   {section.speaker}
                                 </div>
                                 <div className="text-ash-dark leading-relaxed">
-                                  {searchQuery ? (
-                                    <span dangerouslySetInnerHTML={{
-                                      __html: section.text.replace(
-                                        new RegExp(`(${searchQuery})`, 'gi'),
-                                        '<mark class="bg-amber/30 text-ash">$1</mark>'
-                                      )
-                                    }} />
-                                  ) : (
-                                    section.text
-                                  )}
+                                  <HighlightedText text={section.text} query={searchQuery} />
                                 </div>
                               </div>
                             </div>
