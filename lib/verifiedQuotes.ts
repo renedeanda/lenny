@@ -155,16 +155,34 @@ export function getTakeawaysForTopic(topicSlug: string): Array<{
     episodeMap.set(ep.slug, ep.guest);
   }
 
-  const results: Array<{ text: string; episodeSlug: string; guest: string }> = [];
+  // Group takeaways by guest for interleaving
+  const byGuest = new Map<string, Array<{ text: string; episodeSlug: string; guest: string }>>();
 
   for (const episode of registry.episodes) {
     if (!episode.takeaways || episode.takeaways.length === 0) continue;
     if (!episode.themes?.some(t => t === topicSlug)) continue;
 
     const guest = episodeMap.get(episode.slug) || episode.slug;
+    if (!byGuest.has(guest)) byGuest.set(guest, []);
     for (const text of episode.takeaways) {
-      results.push({ text, episodeSlug: episode.slug, guest });
+      byGuest.get(guest)!.push({ text, episodeSlug: episode.slug, guest });
     }
+  }
+
+  // Round-robin interleave across guests for diverse discovery
+  const queues = Array.from(byGuest.values());
+  const results: Array<{ text: string; episodeSlug: string; guest: string }> = [];
+  let round = 0;
+  let added = true;
+  while (added) {
+    added = false;
+    for (const queue of queues) {
+      if (round < queue.length) {
+        results.push(queue[round]);
+        added = true;
+      }
+    }
+    round++;
   }
 
   return results;

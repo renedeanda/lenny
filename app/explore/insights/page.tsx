@@ -203,14 +203,14 @@ export default function InsightsPage() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="mb-6"
+            className="mb-6 overflow-x-auto -mx-4 px-4"
           >
-            <div className="flex gap-1 border-b-2 border-ash-darker">
+            <div className="flex gap-1 border-b-2 border-ash-darker min-w-max">
               {TABS.map(tab => (
                 <button
                   key={tab.id}
                   onClick={() => setContentTab(tab.id)}
-                  className={`flex items-center gap-2 px-4 py-3 text-sm font-bold transition-all border-b-2 -mb-[2px] ${
+                  className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-3 text-sm font-bold transition-all border-b-2 -mb-[2px] whitespace-nowrap ${
                     contentTab === tab.id
                       ? tab.activeClass
                       : 'border-transparent text-ash-dark hover:text-ash'
