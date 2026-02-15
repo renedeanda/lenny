@@ -7,8 +7,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles, Heart } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
+import Scanlines from '@/components/Scanlines';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
-import { getVerifiedEpisodeSlugs } from '@/lib/verifiedQuotes';
+import { getVerifiedEpisodeSlugs, getGuestTypeMap, getRegistryInfo } from '@/lib/verifiedQuotes';
+import { GuestType } from '@/lib/types';
 import { noTranscriptSlugs } from '@/lib/noTranscriptEpisodes';
 import { generateRecommendations, EpisodeAlignment } from '@/lib/recommendations';
 import { QuizAnswers } from '@/lib/types';
@@ -39,6 +41,7 @@ export default function ExplorePage() {
   const [sortBy, setSortBy] = useState<SortOption>(initialState?.sortBy || 'date-desc');
   const [showFilters, setShowFilters] = useState(initialState?.showFilters || false);
   const [showNoTranscript, setShowNoTranscript] = useState(initialState?.showNoTranscript || false);
+  const [selectedGuestType, setSelectedGuestType] = useState<GuestType | ''>(initialState?.selectedGuestType || '');
   const [currentPage, setCurrentPage] = useState<number>(initialState?.currentPage || 1);
   const [showRecommendations, setShowRecommendations] = useState(initialState?.showRecommendations ?? false);
   const [recommendations, setRecommendations] = useState<{ primary: EpisodeAlignment[], contrarian: EpisodeAlignment[] } | null>(null);
@@ -78,13 +81,14 @@ export default function ExplorePage() {
         sortBy,
         showFilters,
         showNoTranscript,
+        selectedGuestType,
         showRecommendations,
         currentPage
       }));
     } catch (e) {
       // Silently fail if localStorage is not available
     }
-  }, [searchQuery, selectedKeywords, sortBy, showFilters, showNoTranscript, showRecommendations, currentPage]);
+  }, [searchQuery, selectedKeywords, sortBy, showFilters, showNoTranscript, selectedGuestType, showRecommendations, currentPage]);
 
   // Check if user has quiz results and generate recommendations
   useEffect(() => {
@@ -114,6 +118,10 @@ export default function ExplorePage() {
     const slugs = getVerifiedEpisodeSlugs();
     return new Set(slugs);
   }, []);
+  const registryInfo = useMemo(() => getRegistryInfo(), []);
+
+  // Guest type map for filtering
+  const guestTypeMap = useMemo(() => getGuestTypeMap(), []);
 
   // noTranscriptSlugs imported from lib/noTranscriptEpisodes.ts (static set)
 
@@ -125,8 +133,13 @@ export default function ExplorePage() {
       filtered = filtered.filter(ep => noTranscriptSlugs.has(ep.slug));
     }
 
+    // Filter by guest type
+    if (selectedGuestType) {
+      filtered = filtered.filter(ep => guestTypeMap.get(ep.slug) === selectedGuestType);
+    }
+
     return sortEpisodes(filtered, sortBy);
-  }, [searchQuery, selectedKeywords, sortBy, showNoTranscript, enrichedSlugs]);
+  }, [searchQuery, selectedKeywords, sortBy, showNoTranscript, selectedGuestType, guestTypeMap, enrichedSlugs]);
 
   // Reset to page 1 when filters change (but not on initial mount)
   const filtersInitialized = useRef(false);
@@ -136,7 +149,7 @@ export default function ExplorePage() {
       return;
     }
     setCurrentPage(1);
-  }, [searchQuery, selectedKeywords, sortBy, showNoTranscript]);
+  }, [searchQuery, selectedKeywords, sortBy, showNoTranscript, selectedGuestType]);
 
   // Scroll to top on page change (but not on initial mount)
   const pageInitialized = useRef(false);
@@ -176,6 +189,7 @@ export default function ExplorePage() {
     setSearchQuery('');
     setSelectedKeywords([]);
     setShowNoTranscript(false);
+    setSelectedGuestType('');
   };
 
   return (
@@ -183,10 +197,7 @@ export default function ExplorePage() {
       <InteractiveSpace />
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen px-4 pt-20 pb-12 md:pt-24 md:pb-20">
@@ -209,14 +220,16 @@ export default function ExplorePage() {
               Real insights from the world's best product leaders, builders, and founders.
             </p>
 
-            {/* Insights Page Link */}
-            <Link
-              href="/explore/insights"
-              className="inline-flex items-center gap-2 mt-4 px-4 py-2 border border-amber/50 text-amber text-sm hover:bg-amber hover:text-void transition-all"
-            >
-              <Sparkles className="w-4 h-4" />
-              Browse {enrichedSlugs.size} Curated Episodes with Verified Quotes →
-            </Link>
+            <div className="mt-4">
+              <Link
+                href="/explore/insights"
+                className="inline-flex items-center gap-3 px-4 py-2 border border-amber/30 bg-amber/5 text-amber text-sm hover:bg-amber/10 hover:border-amber/50 transition-all"
+              >
+                <Sparkles className="w-4 h-4" />
+                <span>{registryInfo.quoteCount} quotes &amp; takeaways from {enrichedSlugs.size} curated episodes</span>
+                <span className="text-amber/60">→</span>
+              </Link>
+            </div>
 
             {/* Recommendations Toggle */}
             {recommendations && (
@@ -252,9 +265,9 @@ export default function ExplorePage() {
                 transition={{ delay: 0.2 }}
                 className="mt-6 px-6 py-4 border border-amber/30 bg-amber/5"
               >
-                <div className="flex items-center justify-between gap-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-4">
                   <div className="flex items-center gap-3">
-                    <Sparkles className="w-5 h-5 text-amber" />
+                    <Sparkles className="w-5 h-5 text-amber flex-shrink-0" />
                     <div>
                       <div className="text-sm font-bold text-amber">Get personalized recommendations</div>
                       <div className="text-xs text-ash-dark mt-1">Take the quiz to discover episodes that match your philosophy</div>
@@ -262,7 +275,7 @@ export default function ExplorePage() {
                   </div>
                   <button
                     onClick={() => router.push('/quiz')}
-                    className="px-4 py-2 bg-amber text-void font-bold text-sm hover:bg-amber-dark transition-all whitespace-nowrap"
+                    className="px-4 py-2 bg-amber text-void font-bold text-sm hover:bg-amber-dark transition-all whitespace-nowrap ml-8 sm:ml-0"
                   >
                     TAKE QUIZ →
                   </button>
@@ -363,9 +376,9 @@ export default function ExplorePage() {
                 >
                   <Filter className="w-4 h-4" />
                   <span className="hidden sm:inline">FILTERS</span>
-                  {(selectedKeywords.length > 0 || showNoTranscript) && (
+                  {(selectedKeywords.length > 0 || showNoTranscript || selectedGuestType) && (
                     <span className="bg-amber text-void rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold">
-                      {selectedKeywords.length + (showNoTranscript ? 1 : 0)}
+                      {selectedKeywords.length + (showNoTranscript ? 1 : 0) + (selectedGuestType ? 1 : 0)}
                     </span>
                   )}
                 </button>
@@ -395,6 +408,32 @@ export default function ExplorePage() {
                   exit={{ opacity: 0, height: 0 }}
                   className="border-2 border-ash-darker bg-void-light p-4 overflow-hidden"
                 >
+                  {/* Guest Type Filter */}
+                  <div className="mb-4">
+                    <div className="text-xs text-amber tracking-wider mb-2">GUEST TYPE</div>
+                    <div className="flex flex-wrap gap-2">
+                      {([
+                        { type: 'founder' as GuestType, label: 'Founders' },
+                        { type: 'operator' as GuestType, label: 'Operators' },
+                        { type: 'investor' as GuestType, label: 'Investors' },
+                        { type: 'advisor' as GuestType, label: 'Advisors' },
+                        { type: 'academic' as GuestType, label: 'Academics' },
+                      ]).map(({ type, label }) => (
+                        <button
+                          key={type}
+                          onClick={() => setSelectedGuestType(selectedGuestType === type ? '' : type)}
+                          className={`px-3 py-2 text-sm border-2 transition-all font-medium
+                                   ${selectedGuestType === type
+                              ? 'border-amber bg-amber text-void'
+                              : 'border-ash-darker text-ash bg-void-light hover:border-amber hover:text-amber'
+                            }`}
+                        >
+                          {label}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
                   {/* No Transcript Toggle */}
                   <div className="flex items-center justify-between mb-4">
                     <button
@@ -414,7 +453,7 @@ export default function ExplorePage() {
 
                   <div className="flex items-center justify-between mb-3">
                     <div className="text-xs text-amber tracking-wider">FILTER BY TOPIC</div>
-                    {selectedKeywords.length > 0 && (
+                    {(selectedKeywords.length > 0 || selectedGuestType || showNoTranscript) && (
                       <button
                         onClick={clearFilters}
                         className="text-xs text-crimson hover:text-crimson/80 transition-colors font-bold"
@@ -595,7 +634,7 @@ export default function ExplorePage() {
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">
-                  {selectedKeywords.length + (showNoTranscript ? 1 : 0)}
+                  {selectedKeywords.length + (showNoTranscript ? 1 : 0) + (selectedGuestType ? 1 : 0)}
                 </div>
                 <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
               </div>

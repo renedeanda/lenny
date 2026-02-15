@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, useMemo, useRef } from 'react';
-import { useParams } from 'next/navigation';
+import { useState, useEffect, useMemo, useRef, Suspense } from 'react';
+import { useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -12,6 +12,7 @@ import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 import VerifiedQuotes from '@/components/VerifiedQuotes';
 import TopNav from '@/components/TopNav';
+import Scanlines from '@/components/Scanlines';
 
 // Client-side transcript loading
 async function loadTranscript(slug: string) {
@@ -40,9 +41,11 @@ interface TranscriptContent {
   sections: TranscriptSection[];
 }
 
-export default function EpisodePage() {
+function EpisodePageContent() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const slug = params.slug as string;
+  const initialTimestamp = searchParams.get('t');
 
   const episode = getEpisodeBySlug(slug);
 
@@ -165,6 +168,18 @@ export default function EpisodePage() {
             origin: window.location.origin,
           },
           events: {
+            onReady: () => {
+              // Auto-seek to timestamp if ?t= query param is present (e.g. from topic pages)
+              if (initialTimestamp && youtubePlayerRef.current?.seekTo) {
+                const seconds = timestampToSeconds(initialTimestamp);
+                if (seconds > 0) {
+                  youtubePlayerRef.current.seekTo(seconds, true);
+                  setTimeout(() => {
+                    youtubePlayerRef.current?.playVideo?.();
+                  }, 100);
+                }
+              }
+            },
             onError: (event: any) => {
               console.error('YouTube player error:', event.data);
             }
@@ -234,7 +249,7 @@ export default function EpisodePage() {
         }
       }
     };
-  }, [episode?.videoId]);
+  }, [episode?.videoId, initialTimestamp]);
 
   const jumpToTimestamp = (sectionIndex: number) => {
     if (!transcript) return;
@@ -349,10 +364,7 @@ export default function EpisodePage() {
     <div className="min-h-screen bg-void text-ash font-mono">
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       {/* Share Toast */}
       {showShareToast && (
@@ -1024,5 +1036,13 @@ export default function EpisodePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function EpisodePage() {
+  return (
+    <Suspense>
+      <EpisodePageContent />
+    </Suspense>
   );
 }

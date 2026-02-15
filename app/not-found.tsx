@@ -2,14 +2,12 @@
 
 import Link from 'next/link';
 import { Home, Compass, Flame, ArrowLeft } from 'lucide-react';
+import Scanlines from '@/components/Scanlines';
 
 export default function NotFound() {
   return (
     <main className="min-h-screen bg-void text-ash font-mono flex items-center justify-center px-4">
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       <div className="relative z-10 text-center max-w-2xl animate-fade-in">
           {/* Error Code */}

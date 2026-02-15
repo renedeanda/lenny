@@ -198,11 +198,6 @@
       "quoteId": "sander-schulhoff-011",
       "why": "Claims prompt injection is fundamentally unsolvable, contradicting many startups and security companies building guardrail products as solutions",
       "related_zones": ["chaos", "intuition"]
-    },
-    {
-      "quoteId": "sander-schulhoff-010",
-      "why": "Asserts that the most common industry defense against prompt injection - adding safety instructions to prompts - is completely ineffective",
-      "related_zones": ["chaos", "data"]
     }
   ],
   "guest_metadata": {

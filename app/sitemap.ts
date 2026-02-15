@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
 import { allEpisodes } from '@/lib/allEpisodes';
+import { TOPIC_PAGES } from '@/lib/topics';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
-  
+
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
     {
@@ -30,7 +31,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/topics`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ];
+
+  // Topic landing pages (SEO-rich content pages)
+  const topicPages: MetadataRoute.Sitemap = TOPIC_PAGES.map((topic) => ({
+    url: `${baseUrl}/topics/${topic.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
 
   // Episode pages (all 294)
   const episodePages: MetadataRoute.Sitemap = allEpisodes.map((episode) => ({
@@ -40,5 +55,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...episodePages];
+  return [...staticPages, ...topicPages, ...episodePages];
 }

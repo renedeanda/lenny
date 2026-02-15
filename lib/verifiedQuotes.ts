@@ -1,4 +1,5 @@
-import { Quote, EpisodeEnrichment } from './types';
+import { Quote, EpisodeEnrichment, GuestType } from './types';
+import { allEpisodes } from './allEpisodes';
 import verifiedContent from '../data/verified/verified-content.json';
 
 // In-memory cache of the verified content
@@ -108,4 +109,147 @@ export function getContrarianQuotes(): Array<{
   }
 
   return contrarians;
+}
+
+/**
+ * Get all takeaways with episode context
+ */
+export function getAllTakeaways(): Array<{
+  text: string;
+  episodeSlug: string;
+  guest: string;
+}> {
+  const episodeMap = new Map<string, string>();
+  for (const ep of allEpisodes) {
+    episodeMap.set(ep.slug, ep.guest);
+  }
+
+  const takeaways: Array<{
+    text: string;
+    episodeSlug: string;
+    guest: string;
+  }> = [];
+
+  for (const episode of registry.episodes) {
+    if (episode.takeaways && episode.takeaways.length > 0) {
+      const guest = episodeMap.get(episode.slug) || episode.slug;
+      for (const text of episode.takeaways) {
+        takeaways.push({ text, episodeSlug: episode.slug, guest });
+      }
+    }
+  }
+
+  return takeaways;
+}
+
+/**
+ * Get takeaways relevant to a topic (by matching theme keywords in takeaway text)
+ */
+export function getTakeawaysForTopic(topicSlug: string): Array<{
+  text: string;
+  episodeSlug: string;
+  guest: string;
+}> {
+  const episodeMap = new Map<string, string>();
+  for (const ep of allEpisodes) {
+    episodeMap.set(ep.slug, ep.guest);
+  }
+
+  // Group takeaways by guest for interleaving
+  const byGuest = new Map<string, Array<{ text: string; episodeSlug: string; guest: string }>>();
+
+  for (const episode of registry.episodes) {
+    if (!episode.takeaways || episode.takeaways.length === 0) continue;
+    if (!episode.themes?.some(t => t === topicSlug)) continue;
+
+    const guest = episodeMap.get(episode.slug) || episode.slug;
+    if (!byGuest.has(guest)) byGuest.set(guest, []);
+    for (const text of episode.takeaways) {
+      byGuest.get(guest)!.push({ text, episodeSlug: episode.slug, guest });
+    }
+  }
+
+  // Round-robin interleave across guests for diverse discovery
+  const queues = Array.from(byGuest.values());
+  const results: Array<{ text: string; episodeSlug: string; guest: string }> = [];
+  let round = 0;
+  let added = true;
+  while (added) {
+    added = false;
+    for (const queue of queues) {
+      if (round < queue.length) {
+        results.push(queue[round]);
+        added = true;
+      }
+    }
+    round++;
+  }
+
+  return results;
+}
+
+/**
+ * Normalize raw guest_type values (e.g. "founder-coach", "investor-founder")
+ * to the 5 canonical GuestType categories used in UI filters.
+ */
+const GUEST_TYPE_CANONICAL: Record<string, GuestType> = {
+  founder: 'founder',
+  operator: 'operator',
+  investor: 'investor',
+  advisor: 'advisor',
+  academic: 'academic',
+};
+
+function normalizeGuestType(raw: string): GuestType {
+  // Direct match
+  if (raw in GUEST_TYPE_CANONICAL) return GUEST_TYPE_CANONICAL[raw];
+
+  // Compound types: check each segment (e.g. "founder-coach" → "founder")
+  for (const segment of raw.split('-')) {
+    if (segment in GUEST_TYPE_CANONICAL) return GUEST_TYPE_CANONICAL[segment];
+  }
+
+  // Map common non-canonical types to closest category
+  const FALLBACK_MAP: Record<string, GuestType> = {
+    author: 'advisor',
+    coach: 'advisor',
+    consultant: 'advisor',
+    educator: 'academic',
+    executive: 'operator',
+    expert: 'advisor',
+    practitioner: 'operator',
+    researcher: 'academic',
+    'product-leader': 'operator',
+    'growth-leader': 'operator',
+    'design-leader': 'operator',
+    'media-executive': 'operator',
+    'thought-leader': 'advisor',
+    'executive-coach': 'advisor',
+  };
+  return FALLBACK_MAP[raw] || 'operator';
+}
+
+/**
+ * Get guest type for a given episode slug
+ */
+export function getGuestType(slug: string): GuestType | undefined {
+  const episode = registry.episodes.find(ep => ep.slug === slug);
+  const raw = episode?.guest_metadata?.guest_type;
+  return raw ? normalizeGuestType(raw) : undefined;
+}
+
+/**
+ * Get a map of all episode slugs to their guest type
+ */
+let _guestTypeMap: Map<string, GuestType> | null = null;
+export function getGuestTypeMap(): Map<string, GuestType> {
+  if (_guestTypeMap) return _guestTypeMap;
+  _guestTypeMap = new Map();
+  for (const episode of registry.episodes) {
+    const raw = episode.guest_metadata?.guest_type;
+    if (raw) {
+      _guestTypeMap.set(episode.slug, normalizeGuestType(raw));
+    }
+  }
+  return _guestTypeMap;
 }

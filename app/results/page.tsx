@@ -12,6 +12,7 @@ import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import QuizAnswersOverview from '@/components/QuizAnswersOverview';
 import TopNav from '@/components/TopNav';
 import { trackQuizCompleted, trackResultsShared, trackResultsDownloaded } from '@/lib/analytics';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
@@ -21,6 +22,12 @@ function ResultsContent() {
   const [isClient, setIsClient] = useState(false);
   const [answers, setAnswers] = useState<QuizAnswers>({});
   const [userName, setUserName] = useState('Your');
+  // These must be declared before any early returns (React hooks rule)
+  const [showAllPrimary, setShowAllPrimary] = useState(false);
+  const [showAllContrarian, setShowAllContrarian] = useState(false);
+  const [expandedZone, setExpandedZone] = useState<ZoneId | null>(null);
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [downloadError, setDownloadError] = useState(false);
 
   // Load from localStorage only on client side
   useEffect(() => {
@@ -42,15 +49,16 @@ function ResultsContent() {
 
   // Generate recommendations using new algorithm
   // Only compute after client-side hydration is complete
+  const hasAnswers = isClient && Object.keys(answers).length > 0;
   const recommendations = useMemo(() => {
-    if (!isClient || Object.keys(answers).length === 0) return null;
+    if (!hasAnswers) return null;
     try {
       return generateRecommendations(answers);
     } catch (error) {
       console.error('Error generating recommendations:', error);
       return null;
     }
-  }, [answers, isClient]);
+  }, [answers, hasAnswers]);
 
   // Track quiz completion when results are first viewed
   const [hasTrackedCompletion, setHasTrackedCompletion] = useState(false);
@@ -66,8 +74,10 @@ function ResultsContent() {
 
   const handleDownload = async () => {
     const cardElement = document.getElementById('philosophy-card');
-    if (!cardElement || !recommendations) return;
+    if (!cardElement || !recommendations || isDownloading) return;
 
+    setIsDownloading(true);
+    setDownloadError(false);
     try {
       const html2canvas = (await import('html2canvas')).default;
       const canvas = await html2canvas(cardElement, {
@@ -77,13 +87,17 @@ function ResultsContent() {
       });
 
       const link = document.createElement('a');
-      link.download = `${userName.replace(/\s+/g, '-')}-pm-philosophy.png`;
+      const safeName = userName.replace(/[^a-zA-Z0-9\s-]/g, '').replace(/\s+/g, '-') || 'pm';
+      link.download = `${safeName}-pm-philosophy.png`;
       link.href = canvas.toDataURL('image/png');
       link.click();
 
       trackResultsDownloaded(recommendations.userProfile.primaryZone);
     } catch (error) {
       console.error('Failed to generate image:', error);
+      setDownloadError(true);
+    } finally {
+      setIsDownloading(false);
     }
   };
 
@@ -141,20 +155,34 @@ ${window.location.origin}`;
       <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
         <TopNav />
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-amber mb-4">No quiz answers found</h1>
-          <p className="text-ash-dark mb-6">Take the quiz to discover your philosophy</p>
+          <h1 className="text-2xl font-bold text-amber mb-4">
+            {hasAnswers ? 'Something went wrong' : 'No quiz answers found'}
+          </h1>
+          <p className="text-ash-dark mb-6">
+            {hasAnswers
+              ? 'We had trouble generating your recommendations. Try retaking the quiz.'
+              : 'Take the quiz to discover your philosophy'}
+          </p>
           <button
             onClick={handleRetake}
             className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all"
           >
-            TAKE THE QUIZ
+            {hasAnswers ? 'RETAKE THE QUIZ' : 'TAKE THE QUIZ'}
           </button>
         </div>
       </div>
     );
   }
 
-  const { userProfile, primary, contrarian } = recommendations;
+  const { userProfile, primary, contrarian, byZone } = recommendations;
+
+  // Show first 5 primary, expand to all 12
+  const visiblePrimary = showAllPrimary ? primary : primary.slice(0, 5);
+  const hiddenPrimaryCount = Math.max(0, primary.length - 5);
+
+  // Show first 3 contrarian, expand to all 6
+  const visibleContrarian = showAllContrarian ? contrarian : contrarian.slice(0, 3);
+  const hiddenContrarianCount = Math.max(0, contrarian.length - 3);
 
   return (
     <div className="min-h-screen bg-void text-ash p-4 md:p-8 pt-20 md:pt-24">
@@ -205,12 +233,12 @@ ${window.location.origin}`;
                 Episodes For You
               </h2>
               <p className="text-ash-dark">
-                Based on your philosophy, these episodes will resonate with how you work
+                Based on your philosophy, these {primary.length} episodes will resonate with how you work
               </p>
             </div>
 
             <div className="grid gap-6">
-              {primary.map((episode, index) => (
+              {visiblePrimary.map((episode, index) => (
                 <EpisodeRecommendationCard
                   key={episode.slug}
                   episode={episode}
@@ -220,17 +248,40 @@ ${window.location.origin}`;
               ))}
             </div>
 
-            {primary.length < 5 && (
-              <div className="mt-4 p-4 border border-ash-darker bg-void-light">
-                <p className="text-sm text-ash-dark">
-                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 294 total episodes.
-                </p>
-              </div>
+            {hiddenPrimaryCount > 0 && (
+              <motion.button
+                onClick={() => setShowAllPrimary(!showAllPrimary)}
+                className="mt-6 w-full p-4 border border-amber/30 bg-amber/5 text-amber font-mono text-sm hover:bg-amber/10 hover:border-amber/50 transition-all flex items-center justify-center gap-2"
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+              >
+                {showAllPrimary ? (
+                  <>Show fewer recommendations <ChevronUp className="w-4 h-4" /></>
+                ) : (
+                  <>Show {hiddenPrimaryCount} more recommendations <ChevronDown className="w-4 h-4" /></>
+                )}
+              </motion.button>
             )}
           </motion.div>
         )}
 
         {/* Contrarian Recommendations */}
+        {contrarian.length === 0 && primary.length > 0 && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            className="border border-ash-darker bg-void-light p-6 text-center"
+          >
+            <h2 className="text-xl font-bold text-rose-400 mb-2">
+              Perspectives to Explore
+            </h2>
+            <p className="text-sm text-ash-dark">
+              Your philosophy profile is well-rounded — no strong blind spots detected.
+              Browse the zone sections below to discover episodes outside your comfort zone.
+            </p>
+          </motion.div>
+        )}
         {contrarian.length > 0 && (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -247,7 +298,7 @@ ${window.location.origin}`;
             </div>
 
             <div className="grid gap-6">
-              {contrarian.map((episode, index) => (
+              {visibleContrarian.map((episode, index) => (
                 <EpisodeRecommendationCard
                   key={episode.slug}
                   episode={episode}
@@ -255,6 +306,112 @@ ${window.location.origin}`;
                   variant="contrarian"
                 />
               ))}
+            </div>
+
+            {hiddenContrarianCount > 0 && (
+              <motion.button
+                onClick={() => setShowAllContrarian(!showAllContrarian)}
+                className="mt-6 w-full p-4 border border-rose-800/30 bg-rose-950/10 text-rose-400 font-mono text-sm hover:bg-rose-950/20 hover:border-rose-700/50 transition-all flex items-center justify-center gap-2"
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+              >
+                {showAllContrarian ? (
+                  <>Show fewer perspectives <ChevronUp className="w-4 h-4" /></>
+                ) : (
+                  <>Show {hiddenContrarianCount} more perspectives <ChevronDown className="w-4 h-4" /></>
+                )}
+              </motion.button>
+            )}
+          </motion.div>
+        )}
+
+        {/* Explore by Zone */}
+        {byZone && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+          >
+            <div className="mb-6">
+              <h2 className="text-3xl font-bold text-amber mb-2">
+                Explore by Philosophy
+              </h2>
+              <p className="text-ash-dark">
+                Dive deeper into specific areas of product thinking
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              {Object.entries(userProfile.zonePercentages)
+                .sort((a, b) => b[1] - a[1])
+                .map(([zoneId, percentage]) => {
+                  const zone = zones[zoneId as ZoneId];
+                  const zoneEpisodes = byZone[zoneId as ZoneId] || [];
+                  const isExpanded = expandedZone === zoneId;
+                  const isPrimary = zoneId === userProfile.primaryZone;
+                  const isSecondary = zoneId === userProfile.secondaryZone;
+
+                  if (zoneEpisodes.length === 0) return null;
+
+                  return (
+                    <motion.div
+                      key={zoneId}
+                      className={`border transition-all ${
+                        isExpanded
+                          ? 'border-amber bg-void-light md:col-span-2'
+                          : isPrimary
+                          ? 'border-amber/50 bg-void-light hover:border-amber'
+                          : 'border-ash-darker bg-void-light hover:border-ash-dark'
+                      }`}
+                    >
+                      <button
+                        onClick={() => setExpandedZone(isExpanded ? null : zoneId as ZoneId)}
+                        aria-expanded={isExpanded}
+                        aria-label={`${isExpanded ? 'Collapse' : 'Expand'} ${zone.name} episodes`}
+                        className="w-full p-4 flex items-center justify-between text-left"
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-2xl">{zone.icon}</span>
+                          <div>
+                            <div className="flex items-center gap-2">
+                              <span className={`font-bold font-mono ${isPrimary ? 'text-amber' : 'text-ash'}`}>
+                                {zone.name}
+                              </span>
+                              {isPrimary && (
+                                <span className="px-1.5 py-0.5 text-[10px] font-bold bg-amber text-void">PRIMARY</span>
+                              )}
+                              {isSecondary && (
+                                <span className="px-1.5 py-0.5 text-[10px] font-bold border border-amber/50 text-amber">SECONDARY</span>
+                              )}
+                            </div>
+                            <span className="text-xs text-ash-dark">{zone.tagline}</span>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <span className="text-xs text-ash-dark font-mono">{zoneEpisodes.length} episodes</span>
+                          {isExpanded ? (
+                            <ChevronUp className="w-4 h-4 text-ash-dark" />
+                          ) : (
+                            <ChevronDown className="w-4 h-4 text-ash-dark" />
+                          )}
+                        </div>
+                      </button>
+
+                      {isExpanded && (
+                        <div className="px-4 pb-4 space-y-3">
+                          {zoneEpisodes.map((episode, index) => (
+                            <EpisodeRecommendationCard
+                              key={episode.slug}
+                              episode={episode}
+                              index={index}
+                              variant="primary"
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </motion.div>
+                  );
+                })}
             </div>
           </motion.div>
         )}
@@ -378,28 +535,40 @@ ${window.location.origin}`;
           <div className="flex flex-wrap gap-4 justify-center">
             <button
               onClick={handleShare}
-              className="px-10 py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-lg"
+              aria-label="Share your product philosophy results"
+              className="px-6 py-4 md:px-10 md:py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-base md:text-lg"
             >
-              🔥 SHARE YOUR PHILOSOPHY
+              SHARE YOUR PHILOSOPHY
             </button>
             <button
               onClick={handleDownload}
-              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg"
+              disabled={isDownloading}
+              aria-label={isDownloading ? 'Generating download...' : 'Download your results as an image'}
+              className="px-6 py-4 md:px-10 md:py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-base md:text-lg disabled:opacity-50 disabled:cursor-wait"
             >
-              📥 DOWNLOAD RESULTS
+              {isDownloading ? 'GENERATING...' : 'DOWNLOAD RESULTS'}
             </button>
           </div>
+
+          {/* Download error feedback */}
+          {downloadError && (
+            <p className="text-center text-sm text-rose-400 font-mono">
+              Failed to generate image. Please try again.
+            </p>
+          )}
 
           {/* Secondary actions */}
           <div className="flex flex-wrap gap-4 justify-center text-sm">
             <button
               onClick={handleExplore}
+              aria-label="Browse all podcast episodes"
               className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
             >
               Browse All Episodes
             </button>
             <button
               onClick={handleRetake}
+              aria-label="Retake the philosophy quiz"
               className="px-6 py-3 border border-ash-darker text-ash-dark font-mono hover:text-amber hover:border-amber transition-all"
             >
               Retake Quiz
@@ -415,7 +584,7 @@ ${window.location.origin}`;
           className="text-center py-8 border-t border-ash-darker mt-12"
         >
           <div className="text-xs text-ash-darker font-mono">
-            Based on {Object.keys(answers).length} questions and 294 episodes of Lenny's Podcast
+            Based on {Object.keys(answers).length} questions and {getRegistryInfo().episodeCount} curated episodes of Lenny's Podcast
           </div>
           <div className="text-xs text-ash-darker font-mono mt-2">
             Built for the PM community
