@@ -183,3 +183,26 @@ export function trackResultsDownloaded(primaryZone: string) {
     primary_zone: primaryZone,
   });
 }
+
+/**
+ * Track topic page views
+ */
+export function trackTopicViewed(topicSlug: string, quoteCount: number, episodeCount: number) {
+  trackEvent('topic_viewed', {
+    event_category: 'content',
+    topic_slug: topicSlug,
+    quote_count: quoteCount,
+    episode_count: episodeCount,
+  });
+}
+
+/**
+ * Track when user loads more episodes on topic page
+ */
+export function trackTopicLoadMore(topicSlug: string, page: number) {
+  trackEvent('topic_load_more', {
+    event_category: 'engagement',
+    topic_slug: topicSlug,
+    page_number: page,
+  });
+}

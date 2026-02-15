@@ -27,6 +27,7 @@ function ResultsContent() {
   const [showAllContrarian, setShowAllContrarian] = useState(false);
   const [expandedZone, setExpandedZone] = useState<ZoneId | null>(null);
   const [isDownloading, setIsDownloading] = useState(false);
+  const [downloadError, setDownloadError] = useState(false);
 
   // Load from localStorage only on client side
   useEffect(() => {
@@ -48,15 +49,16 @@ function ResultsContent() {
 
   // Generate recommendations using new algorithm
   // Only compute after client-side hydration is complete
+  const hasAnswers = isClient && Object.keys(answers).length > 0;
   const recommendations = useMemo(() => {
-    if (!isClient || Object.keys(answers).length === 0) return null;
+    if (!hasAnswers) return null;
     try {
       return generateRecommendations(answers);
     } catch (error) {
       console.error('Error generating recommendations:', error);
       return null;
     }
-  }, [answers, isClient]);
+  }, [answers, hasAnswers]);
 
   // Track quiz completion when results are first viewed
   const [hasTrackedCompletion, setHasTrackedCompletion] = useState(false);
@@ -75,6 +77,7 @@ function ResultsContent() {
     if (!cardElement || !recommendations || isDownloading) return;
 
     setIsDownloading(true);
+    setDownloadError(false);
     try {
       const html2canvas = (await import('html2canvas')).default;
       const canvas = await html2canvas(cardElement, {
@@ -92,6 +95,7 @@ function ResultsContent() {
       trackResultsDownloaded(recommendations.userProfile.primaryZone);
     } catch (error) {
       console.error('Failed to generate image:', error);
+      setDownloadError(true);
     } finally {
       setIsDownloading(false);
     }
@@ -151,13 +155,19 @@ ${window.location.origin}`;
       <div className="min-h-screen bg-void text-ash flex items-center justify-center p-4">
         <TopNav />
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-amber mb-4">No quiz answers found</h1>
-          <p className="text-ash-dark mb-6">Take the quiz to discover your philosophy</p>
+          <h1 className="text-2xl font-bold text-amber mb-4">
+            {hasAnswers ? 'Something went wrong' : 'No quiz answers found'}
+          </h1>
+          <p className="text-ash-dark mb-6">
+            {hasAnswers
+              ? 'We had trouble generating your recommendations. Try retaking the quiz.'
+              : 'Take the quiz to discover your philosophy'}
+          </p>
           <button
             onClick={handleRetake}
             className="px-8 py-4 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all"
           >
-            TAKE THE QUIZ
+            {hasAnswers ? 'RETAKE THE QUIZ' : 'TAKE THE QUIZ'}
           </button>
         </div>
       </div>
@@ -539,6 +549,13 @@ ${window.location.origin}`;
               {isDownloading ? 'GENERATING...' : 'DOWNLOAD RESULTS'}
             </button>
           </div>
+
+          {/* Download error feedback */}
+          {downloadError && (
+            <p className="text-center text-sm text-rose-400 font-mono">
+              Failed to generate image. Please try again.
+            </p>
+          )}
 
           {/* Secondary actions */}
           <div className="flex flex-wrap gap-4 justify-center text-sm">
