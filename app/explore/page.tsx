@@ -9,7 +9,7 @@ import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
 import Scanlines from '@/components/Scanlines';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
-import { getVerifiedEpisodeSlugs, getGuestTypeMap, getRegistryInfo } from '@/lib/verifiedQuotes';
+import { getVerifiedEpisodeSlugs, getGuestTypeMap } from '@/lib/verifiedQuotes';
 import { GuestType } from '@/lib/types';
 import { noTranscriptSlugs } from '@/lib/noTranscriptEpisodes';
 import { generateRecommendations, EpisodeAlignment } from '@/lib/recommendations';
@@ -118,8 +118,6 @@ export default function ExplorePage() {
     const slugs = getVerifiedEpisodeSlugs();
     return new Set(slugs);
   }, []);
-  const registryInfo = useMemo(() => getRegistryInfo(), []);
-
   // Guest type map for filtering
   const guestTypeMap = useMemo(() => getGuestTypeMap(), []);
 
@@ -220,14 +218,12 @@ export default function ExplorePage() {
               Real insights from the world's best product leaders, builders, and founders.
             </p>
 
-            <div className="mt-4">
+            <div className="flex flex-wrap gap-3 mt-4 text-sm">
               <Link
                 href="/explore/insights"
-                className="inline-flex items-center gap-3 px-4 py-2 border border-amber/30 bg-amber/5 text-amber text-sm hover:bg-amber/10 hover:border-amber/50 transition-all"
+                className="text-ash-dark hover:text-amber transition-colors"
               >
-                <Sparkles className="w-4 h-4" />
-                <span>{registryInfo.quoteCount} quotes &amp; takeaways from {enrichedSlugs.size} curated episodes</span>
-                <span className="text-amber/60">→</span>
+                Explore quotes, takeaways &amp; contrarian takes from {enrichedSlugs.size} curated episodes →
               </Link>
             </div>
 
