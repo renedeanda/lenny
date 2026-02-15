@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useMemo, useRef } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
@@ -42,6 +42,7 @@ interface TranscriptContent {
 
 export default function EpisodePage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const slug = params.slug as string;
 
   const episode = getEpisodeBySlug(slug);
@@ -165,6 +166,19 @@ export default function EpisodePage() {
             origin: window.location.origin,
           },
           events: {
+            onReady: () => {
+              // Auto-seek to timestamp if ?t= query param is present (e.g. from topic pages)
+              const timeParam = searchParams.get('t');
+              if (timeParam && youtubePlayerRef.current?.seekTo) {
+                const seconds = timestampToSeconds(timeParam);
+                if (seconds > 0) {
+                  youtubePlayerRef.current.seekTo(seconds, true);
+                  setTimeout(() => {
+                    youtubePlayerRef.current?.playVideo?.();
+                  }, 100);
+                }
+              }
+            },
             onError: (event: any) => {
               console.error('YouTube player error:', event.data);
             }

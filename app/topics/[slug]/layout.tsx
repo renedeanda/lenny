@@ -97,7 +97,7 @@ export default async function TopicLayout({
       <BreadcrumbSchema
         items={[
           { name: 'Home', url: '/' },
-          { name: 'Topics', url: '/explore' },
+          { name: 'Topics', url: '/topics' },
           { name: topic.name, url: `/topics/${slug}` },
         ]}
       />

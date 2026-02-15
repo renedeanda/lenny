@@ -268,30 +268,46 @@ function getEpisodeMap(): Map<string, { guest: string; title: string }> {
 }
 
 /**
- * Get quotes for a given topic (matches theme name or related topics)
- * Uses inverted index for O(themes) instead of O(all_quotes)
+ * Get quotes for a given topic (matches theme name or related topics).
+ * Primary-tagged quotes (directly tagged with topic slug) are returned first,
+ * then related-topic quotes. This ensures each topic page has distinct
+ * featured quotes rather than the same quotes appearing everywhere.
+ * Uses inverted index for O(themes) instead of O(all_quotes).
  */
 export function getQuotesForTopic(topicSlug: string): Quote[] {
   const topic = TOPIC_PAGES.find(t => t.slug === topicSlug);
   if (!topic) return [];
 
   const themeIndex = getThemeIndex();
-  const matchingThemes = [topicSlug, ...topic.relatedTopics];
 
-  // Collect unique quotes across all matching themes
+  // Phase 1: Collect primary quotes (directly tagged with this topic slug)
   const seen = new Set<string>();
-  const result: Quote[] = [];
-  for (const theme of matchingThemes) {
+  const primary: Quote[] = [];
+  const primaryQuotes = themeIndex.get(topicSlug);
+  if (primaryQuotes) {
+    for (const q of primaryQuotes) {
+      if (!seen.has(q.id)) {
+        seen.add(q.id);
+        primary.push(q);
+      }
+    }
+  }
+
+  // Phase 2: Collect related quotes (from relatedTopics, excluding duplicates)
+  const related: Quote[] = [];
+  for (const theme of topic.relatedTopics) {
     const quotes = themeIndex.get(theme);
     if (!quotes) continue;
     for (const q of quotes) {
       if (!seen.has(q.id)) {
         seen.add(q.id);
-        result.push(q);
+        related.push(q);
       }
     }
   }
-  return result;
+
+  // Return primary first, then related — ensures featured quotes are distinct
+  return [...primary, ...related];
 }
 
 /**

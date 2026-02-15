@@ -122,11 +122,12 @@ export default function Footer() {
                   </Link>
                 );
               })}
-              {TOPIC_PAGES.length > FOOTER_TOPICS.length && (
-                <span className="block text-ash-darker text-xs font-mono">
-                  +{TOPIC_PAGES.length - FOOTER_TOPICS.length} more on Explore
-                </span>
-              )}
+              <Link
+                href="/topics"
+                className="block text-ash-dark hover:text-amber transition-colors text-xs font-mono"
+              >
+                Browse all {TOPIC_PAGES.length} topics →
+              </Link>
             </nav>
           </div>
 

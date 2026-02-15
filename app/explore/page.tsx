@@ -235,11 +235,12 @@ export default function ExplorePage() {
                     {topic.name}
                   </Link>
                 ))}
-                {TOPIC_PAGES.length > 12 && (
-                  <span className="px-3 py-1.5 text-xs text-ash-dark font-mono">
-                    +{TOPIC_PAGES.length - 12} more
-                  </span>
-                )}
+                <Link
+                  href="/topics"
+                  className="px-3 py-2 text-xs border border-amber/30 text-amber hover:border-amber hover:bg-amber/10 transition-all"
+                >
+                  All {TOPIC_PAGES.length} topics →
+                </Link>
               </div>
             </div>
 

@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Home, Compass, Flame, CheckCircle } from 'lucide-react';
+import { Home, Compass, Flame, CheckCircle, Hash } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 export default function TopNav() {
@@ -56,6 +56,13 @@ export default function TopNav() {
             >
               <Compass className="w-4 h-4" />
               <span className="hidden sm:inline">Explore</span>
+            </Link>
+            <Link
+              href="/topics"
+              className="flex items-center gap-2 text-ash-dark hover:text-amber transition-colors text-sm"
+            >
+              <Hash className="w-4 h-4" />
+              <span className="hidden sm:inline">Topics</span>
             </Link>
 
             {hasQuizResults ? (

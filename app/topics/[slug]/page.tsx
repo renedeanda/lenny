@@ -4,7 +4,7 @@ import { useMemo, useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowLeft, ArrowRight, Quote, Hash, ChevronDown } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Quote, Clock, ChevronDown } from 'lucide-react';
 import { TOPIC_PAGES, getQuotesForTopic, getEpisodesForTopic } from '@/lib/topics';
 import { trackTopicViewed, trackTopicLoadMore } from '@/lib/analytics';
 import TopNav from '@/components/TopNav';
@@ -33,14 +33,16 @@ export default function TopicPage() {
     );
   }
 
-  // Get featured quotes (top 6 by diversity of speakers)
+  // Get featured quotes — prioritize primary-tagged quotes (first in array)
+  // and diverse speakers. Primary quotes come first from getQuotesForTopic,
+  // so taking unique speakers in order naturally favors primary-tagged ones.
   const featuredQuotes = useMemo(() => {
     const seen = new Set<string>();
     return quotes.filter(q => {
       if (seen.has(q.speaker)) return false;
       seen.add(q.speaker);
       return true;
-    }).slice(0, 6);
+    }).slice(0, 8);
   }, [quotes]);
 
   // Related topics with their own pages
@@ -67,9 +69,9 @@ export default function TopicPage() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 pt-20 pb-12 md:pt-24">
         {/* Breadcrumb */}
         <div className="mb-8">
-          <Link href="/explore" className="text-ash-dark hover:text-amber transition-colors text-sm flex items-center gap-2" aria-label="Back to explore episodes">
+          <Link href="/topics" className="text-ash-dark hover:text-amber transition-colors text-sm flex items-center gap-2" aria-label="Browse all topics">
             <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-            Back to Explore
+            All Topics
           </Link>
         </div>
 
@@ -123,29 +125,34 @@ export default function TopicPage() {
           >
             <h2 className="text-2xl font-bold text-amber mb-6">Notable Quotes</h2>
             <div className="grid md:grid-cols-2 gap-4 md:gap-6">
-              {featuredQuotes.map((quote, i) => (
-                <Link
-                  key={quote.id}
-                  href={`/episodes/${quote.source.slug}`}
-                  className="block border border-ash-darker bg-void-light p-5 hover:border-amber transition-all group"
-                >
-                  <div className="flex items-start gap-3 mb-3">
-                    <Quote className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" aria-hidden="true" />
-                    <p className="text-sm text-ash italic leading-relaxed break-words">
-                      &ldquo;{quote.text.length > 200 ? `${quote.text.substring(0, 197)}...` : quote.text}&rdquo;
-                    </p>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs text-amber font-bold">{quote.speaker}</span>
-                    {quote.timestamp && (
-                      <span className="text-xs text-ash-dark flex items-center gap-1">
-                        <Hash className="w-3 h-3" />
-                        {quote.timestamp}
-                      </span>
-                    )}
-                  </div>
-                </Link>
-              ))}
+              {featuredQuotes.map((quote) => {
+                const episodeUrl = quote.timestamp
+                  ? `/episodes/${quote.source.slug}?t=${quote.timestamp}`
+                  : `/episodes/${quote.source.slug}`;
+                return (
+                  <Link
+                    key={quote.id}
+                    href={episodeUrl}
+                    className="block border border-ash-darker bg-void-light p-5 hover:border-amber transition-all group"
+                  >
+                    <div className="flex items-start gap-3 mb-3">
+                      <Quote className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" aria-hidden="true" />
+                      <p className="text-sm text-ash italic leading-relaxed break-words">
+                        &ldquo;{quote.text}&rdquo;
+                      </p>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs text-amber font-bold">{quote.speaker}</span>
+                      {quote.timestamp && (
+                        <span className="text-xs text-ash-dark flex items-center gap-1 group-hover:text-amber transition-colors">
+                          <Clock className="w-3 h-3" />
+                          {quote.timestamp}
+                        </span>
+                      )}
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </motion.div>
         )}
