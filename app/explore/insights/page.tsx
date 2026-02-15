@@ -1,11 +1,12 @@
 'use client';
 
-import { useState, useMemo, useEffect, useCallback } from 'react';
+import { useState, useMemo, useEffect, useCallback, memo } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Heart, Sparkles, Quote, Shuffle, ChevronLeft, Search, X, Lightbulb, Zap, Clock } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
+import Scanlines from '@/components/Scanlines';
 import { zones } from '@/lib/zones';
 import { ZoneId } from '@/lib/types';
 import { getAllVerifiedQuotes, getRegistryInfo, getAllTakeaways, getContrarianQuotes } from '@/lib/verifiedQuotes';
@@ -17,6 +18,12 @@ import {
 type ContentTab = 'quotes' | 'takeaways' | 'contrarian';
 const ZONE_IDS: ZoneId[] = ['velocity', 'perfection', 'discovery', 'data', 'intuition', 'alignment', 'chaos', 'focus'];
 const ITEMS_PER_PAGE = 20;
+
+const TABS: { id: ContentTab; label: string; shortLabel?: string; Icon: React.ComponentType<{ className?: string }>; activeClass: string }[] = [
+  { id: 'quotes', label: 'Quotes', Icon: Quote, activeClass: 'border-amber text-amber' },
+  { id: 'takeaways', label: 'Takeaways', Icon: Lightbulb, activeClass: 'border-amber text-amber' },
+  { id: 'contrarian', label: 'Contrarian Takes', shortLabel: 'Contrarian', Icon: Zap, activeClass: 'border-rose-400 text-rose-400' },
+];
 
 export default function InsightsPage() {
   const [contentTab, setContentTab] = useState<ContentTab>('quotes');
@@ -30,6 +37,11 @@ export default function InsightsPage() {
   const allTakeaways = useMemo(() => getAllTakeaways(), []);
   const allContrarians = useMemo(() => getContrarianQuotes(), []);
   const registryInfo = useMemo(() => getRegistryInfo(), []);
+  const tabCounts: Record<ContentTab, number> = useMemo(() => ({
+    quotes: allQuotes.length,
+    takeaways: allTakeaways.length,
+    contrarian: allContrarians.length,
+  }), [allQuotes.length, allTakeaways.length, allContrarians.length]);
 
   // Load favorites on mount
   useEffect(() => {
@@ -130,7 +142,7 @@ export default function InsightsPage() {
     setDisplayCount(ITEMS_PER_PAGE);
   }, [selectedZone, searchQuery, contentTab]);
 
-  const handleToggleFavorite = (quote: typeof allQuotes[0]) => {
+  const handleToggleFavorite = useCallback((quote: typeof allQuotes[0]) => {
     const isFavorited = toggleFavoriteQuote({
       quoteId: quote.id,
       text: quote.text,
@@ -148,17 +160,14 @@ export default function InsightsPage() {
       }
       return next;
     });
-  };
+  }, []);
 
   return (
     <div className="min-h-screen bg-void text-ash font-mono">
       <InteractiveSpace />
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen px-4 pt-20 pb-12 md:pt-24 md:pb-20">
@@ -197,43 +206,26 @@ export default function InsightsPage() {
             className="mb-6"
           >
             <div className="flex gap-1 border-b-2 border-ash-darker">
-              <button
-                onClick={() => setContentTab('quotes')}
-                className={`flex items-center gap-2 px-4 py-3 text-sm font-bold transition-all border-b-2 -mb-[2px] ${
-                  contentTab === 'quotes'
-                    ? 'border-amber text-amber'
-                    : 'border-transparent text-ash-dark hover:text-ash'
-                }`}
-              >
-                <Quote className="w-4 h-4" />
-                Quotes
-                <span className="text-xs opacity-60">{allQuotes.length}</span>
-              </button>
-              <button
-                onClick={() => setContentTab('takeaways')}
-                className={`flex items-center gap-2 px-4 py-3 text-sm font-bold transition-all border-b-2 -mb-[2px] ${
-                  contentTab === 'takeaways'
-                    ? 'border-amber text-amber'
-                    : 'border-transparent text-ash-dark hover:text-ash'
-                }`}
-              >
-                <Lightbulb className="w-4 h-4" />
-                Takeaways
-                <span className="text-xs opacity-60">{allTakeaways.length}</span>
-              </button>
-              <button
-                onClick={() => setContentTab('contrarian')}
-                className={`flex items-center gap-2 px-4 py-3 text-sm font-bold transition-all border-b-2 -mb-[2px] ${
-                  contentTab === 'contrarian'
-                    ? 'border-rose-400 text-rose-400'
-                    : 'border-transparent text-ash-dark hover:text-ash'
-                }`}
-              >
-                <Zap className="w-4 h-4" />
-                <span className="hidden sm:inline">Contrarian Takes</span>
-                <span className="sm:hidden">Contrarian</span>
-                <span className="text-xs opacity-60">{allContrarians.length}</span>
-              </button>
+              {TABS.map(tab => (
+                <button
+                  key={tab.id}
+                  onClick={() => setContentTab(tab.id)}
+                  className={`flex items-center gap-2 px-4 py-3 text-sm font-bold transition-all border-b-2 -mb-[2px] ${
+                    contentTab === tab.id
+                      ? tab.activeClass
+                      : 'border-transparent text-ash-dark hover:text-ash'
+                  }`}
+                >
+                  <tab.Icon className="w-4 h-4" />
+                  {tab.shortLabel ? (
+                    <>
+                      <span className="hidden sm:inline">{tab.label}</span>
+                      <span className="sm:hidden">{tab.shortLabel}</span>
+                    </>
+                  ) : tab.label}
+                  <span className="text-xs opacity-60">{tabCounts[tab.id]}</span>
+                </button>
+              ))}
             </div>
           </motion.div>
 
@@ -382,53 +374,13 @@ export default function InsightsPage() {
           {contentTab === 'quotes' && (
             <div className="space-y-4">
               {displayedQuotes.map((quote, idx) => (
-                <motion.div
+                <QuoteCard
                   key={quote.id}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: Math.min(idx * 0.02, 0.3) }}
-                  className="p-4 border border-ash-darker bg-void-light hover:border-amber/50 transition-colors"
-                >
-                  <blockquote className="text-ash leading-relaxed mb-3">
-                    &ldquo;{quote.text}&rdquo;
-                  </blockquote>
-                  <div className="flex items-center justify-between flex-wrap gap-3">
-                    <div className="flex items-center gap-3 text-sm">
-                      <span className="text-amber font-bold">{quote.speaker}</span>
-                      <Link
-                        href={quote.timestamp
-                          ? `/episodes/${quote.source?.slug || ''}?t=${quote.timestamp}`
-                          : `/episodes/${quote.source?.slug || ''}`}
-                        className="text-ash-dark hover:text-amber transition-colors"
-                      >
-                        →
-                      </Link>
-                      {(quote.zones || []).slice(0, 1).map(zoneId => {
-                        const zone = zones[zoneId];
-                        if (!zone) return null;
-                        return (
-                          <span
-                            key={zoneId}
-                            className="px-2 py-0.5 text-xs border"
-                            style={{ borderColor: zone.color, color: zone.color }}
-                          >
-                            {zone.icon} {zone.name}
-                          </span>
-                        );
-                      })}
-                    </div>
-                    <button
-                      onClick={() => handleToggleFavorite(quote)}
-                      className={`p-3 min-h-[44px] min-w-[44px] border transition-all ${
-                        favoriteQuoteIds.has(quote.id)
-                          ? 'border-rose-400 bg-rose-400/20 text-rose-400'
-                          : 'border-ash-darker text-ash-dark hover:border-rose-400 hover:text-rose-400'
-                      }`}
-                    >
-                      <Heart className={`w-4 h-4 ${favoriteQuoteIds.has(quote.id) ? 'fill-current' : ''}`} />
-                    </button>
-                  </div>
-                </motion.div>
+                  quote={quote}
+                  idx={idx}
+                  isFavorited={favoriteQuoteIds.has(quote.id)}
+                  onToggleFavorite={handleToggleFavorite}
+                />
               ))}
             </div>
           )}
@@ -437,27 +389,7 @@ export default function InsightsPage() {
           {contentTab === 'takeaways' && (
             <div className="space-y-4">
               {displayedTakeaways.map((takeaway, idx) => (
-                <motion.div
-                  key={`${takeaway.episodeSlug}-${idx}`}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: Math.min(idx * 0.02, 0.3) }}
-                  className="p-4 border border-ash-darker bg-void-light hover:border-amber/50 transition-colors"
-                >
-                  <div className="flex items-start gap-3 mb-3">
-                    <Lightbulb className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" />
-                    <p className="text-ash leading-relaxed">{takeaway.text}</p>
-                  </div>
-                  <div className="flex items-center gap-3 text-sm">
-                    <span className="text-amber font-bold">{takeaway.guest}</span>
-                    <Link
-                      href={`/episodes/${takeaway.episodeSlug}`}
-                      className="text-ash-dark hover:text-amber transition-colors"
-                    >
-                      View episode →
-                    </Link>
-                  </div>
-                </motion.div>
+                <TakeawayCard key={`${takeaway.episodeSlug}-${idx}`} takeaway={takeaway} idx={idx} />
               ))}
             </div>
           )}
@@ -466,36 +398,7 @@ export default function InsightsPage() {
           {contentTab === 'contrarian' && (
             <div className="space-y-4">
               {displayedContrarians.map((item, idx) => (
-                <motion.div
-                  key={`${item.quote.id}-contrarian`}
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: Math.min(idx * 0.02, 0.3) }}
-                  className="p-4 border border-ash-darker bg-void-light hover:border-rose-400/50 transition-colors"
-                >
-                  <blockquote className="text-ash leading-relaxed mb-3">
-                    &ldquo;{item.quote.text}&rdquo;
-                  </blockquote>
-                  <div className="mb-3 px-3 py-2 bg-rose-400/5 border-l-2 border-rose-400/40">
-                    <p className="text-sm text-ash-dark leading-relaxed">
-                      <span className="text-rose-400 font-bold text-xs tracking-wider">WHY IT&apos;S CONTRARIAN</span>
-                      <br />
-                      {item.why}
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-3 text-sm">
-                    <span className="text-amber font-bold">{item.guest}</span>
-                    <Link
-                      href={item.quote.timestamp
-                        ? `/episodes/${item.episodeSlug}?t=${item.quote.timestamp}`
-                        : `/episodes/${item.episodeSlug}`}
-                      className="text-ash-dark hover:text-amber transition-colors flex items-center gap-1"
-                    >
-                      {item.quote.timestamp && <Clock className="w-3 h-3" />}
-                      {item.quote.timestamp || 'View episode'} →
-                    </Link>
-                  </div>
-                </motion.div>
+                <ContrarianCard key={`${item.quote.id}-contrarian`} item={item} idx={idx} />
               ))}
             </div>
           )}
@@ -546,3 +449,132 @@ export default function InsightsPage() {
     </div>
   );
 }
+
+// --- Memoized card components (same pattern as EpisodeCard in /explore) ---
+
+type VerifiedQuote = ReturnType<typeof getAllVerifiedQuotes>[0];
+
+const QuoteCard = memo(function QuoteCard({
+  quote,
+  idx,
+  isFavorited,
+  onToggleFavorite,
+}: {
+  quote: VerifiedQuote;
+  idx: number;
+  isFavorited: boolean;
+  onToggleFavorite: (quote: VerifiedQuote) => void;
+}) {
+  const episodeUrl = quote.timestamp
+    ? `/episodes/${quote.source?.slug || ''}?t=${quote.timestamp}`
+    : `/episodes/${quote.source?.slug || ''}`;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(idx * 0.02, 0.3) }}
+      className="p-4 border border-ash-darker bg-void-light hover:border-amber/50 transition-colors"
+    >
+      <blockquote className="text-ash leading-relaxed mb-3">
+        &ldquo;{quote.text}&rdquo;
+      </blockquote>
+      <div className="flex items-center justify-between flex-wrap gap-3">
+        <div className="flex items-center gap-3 text-sm">
+          <span className="text-amber font-bold">{quote.speaker}</span>
+          <Link href={episodeUrl} className="text-ash-dark hover:text-amber transition-colors">→</Link>
+          {(quote.zones || []).slice(0, 1).map(zoneId => {
+            const zone = zones[zoneId];
+            if (!zone) return null;
+            return (
+              <span key={zoneId} className="px-2 py-0.5 text-xs border" style={{ borderColor: zone.color, color: zone.color }}>
+                {zone.icon} {zone.name}
+              </span>
+            );
+          })}
+        </div>
+        <button
+          onClick={() => onToggleFavorite(quote)}
+          className={`p-3 min-h-[44px] min-w-[44px] border transition-all ${
+            isFavorited
+              ? 'border-rose-400 bg-rose-400/20 text-rose-400'
+              : 'border-ash-darker text-ash-dark hover:border-rose-400 hover:text-rose-400'
+          }`}
+        >
+          <Heart className={`w-4 h-4 ${isFavorited ? 'fill-current' : ''}`} />
+        </button>
+      </div>
+    </motion.div>
+  );
+});
+
+type Takeaway = ReturnType<typeof getAllTakeaways>[0];
+
+const TakeawayCard = memo(function TakeawayCard({
+  takeaway,
+  idx,
+}: {
+  takeaway: Takeaway;
+  idx: number;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(idx * 0.02, 0.3) }}
+      className="p-4 border border-ash-darker bg-void-light hover:border-amber/50 transition-colors"
+    >
+      <div className="flex items-start gap-3 mb-3">
+        <Lightbulb className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" />
+        <p className="text-ash leading-relaxed">{takeaway.text}</p>
+      </div>
+      <div className="flex items-center gap-3 text-sm">
+        <span className="text-amber font-bold">{takeaway.guest}</span>
+        <Link href={`/episodes/${takeaway.episodeSlug}`} className="text-ash-dark hover:text-amber transition-colors">
+          View episode →
+        </Link>
+      </div>
+    </motion.div>
+  );
+});
+
+type ContrarianItem = ReturnType<typeof getContrarianQuotes>[0];
+
+const ContrarianCard = memo(function ContrarianCard({
+  item,
+  idx,
+}: {
+  item: ContrarianItem;
+  idx: number;
+}) {
+  const episodeUrl = item.quote.timestamp
+    ? `/episodes/${item.episodeSlug}?t=${item.quote.timestamp}`
+    : `/episodes/${item.episodeSlug}`;
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(idx * 0.02, 0.3) }}
+      className="p-4 border border-ash-darker bg-void-light hover:border-rose-400/50 transition-colors"
+    >
+      <blockquote className="text-ash leading-relaxed mb-3">
+        &ldquo;{item.quote.text}&rdquo;
+      </blockquote>
+      <div className="mb-3 px-3 py-2 bg-rose-400/5 border-l-2 border-rose-400/40">
+        <p className="text-sm text-ash-dark leading-relaxed">
+          <span className="text-rose-400 font-bold text-xs tracking-wider">WHY IT&apos;S CONTRARIAN</span>
+          <br />
+          {item.why}
+        </p>
+      </div>
+      <div className="flex items-center gap-3 text-sm">
+        <span className="text-amber font-bold">{item.guest}</span>
+        <Link href={episodeUrl} className="text-ash-dark hover:text-amber transition-colors flex items-center gap-1">
+          {item.quote.timestamp && <Clock className="w-3 h-3" />}
+          {item.quote.timestamp || 'View episode'} →
+        </Link>
+      </div>
+    </motion.div>
+  );
+});

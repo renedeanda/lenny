@@ -5,6 +5,7 @@ import { motion, useMotionValue, useSpring } from 'framer-motion';
 import { useRouter } from 'next/navigation';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
+import Scanlines from '@/components/Scanlines';
 
 export default function Home() {
   const router = useRouter();
@@ -92,10 +93,7 @@ export default function Home() {
         }}
       />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       {/* Main content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-12 pt-20 md:pt-24">

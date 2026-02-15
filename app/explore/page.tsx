@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, Play, Clock, Eye, Calendar, Flame, ExternalLink, ChevronLeft, ChevronRight, Sparkles, Heart } from 'lucide-react';
 import InteractiveSpace from '@/components/InteractiveSpace';
 import TopNav from '@/components/TopNav';
+import Scanlines from '@/components/Scanlines';
 import { allEpisodes, getAllKeywords, searchEpisodes, sortEpisodes, SortOption, Episode } from '@/lib/allEpisodes';
 import { getVerifiedEpisodeSlugs, getGuestTypeMap } from '@/lib/verifiedQuotes';
 import { GuestType } from '@/lib/types';
@@ -195,10 +196,7 @@ export default function ExplorePage() {
       <InteractiveSpace />
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       {/* Main Content */}
       <div className="relative z-10 min-h-screen px-4 pt-20 pb-12 md:pt-24 md:pb-20">
@@ -633,7 +631,7 @@ export default function ExplorePage() {
               </div>
               <div>
                 <div className="text-3xl font-bold text-amber mb-1">
-                  {selectedKeywords.length + (showNoTranscript ? 1 : 0)}
+                  {selectedKeywords.length + (showNoTranscript ? 1 : 0) + (selectedGuestType ? 1 : 0)}
                 </div>
                 <div className="text-xs text-ash tracking-wider">ACTIVE FILTERS</div>
               </div>

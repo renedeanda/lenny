@@ -12,6 +12,7 @@ import { episodeInsights, EpisodeInsights } from '@/lib/insightsData';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 import VerifiedQuotes from '@/components/VerifiedQuotes';
 import TopNav from '@/components/TopNav';
+import Scanlines from '@/components/Scanlines';
 
 // Client-side transcript loading
 async function loadTranscript(slug: string) {
@@ -363,10 +364,7 @@ function EpisodePageContent() {
     <div className="min-h-screen bg-void text-ash font-mono">
       <TopNav />
 
-      {/* Scanlines */}
-      <div className="fixed inset-0 pointer-events-none z-20 opacity-5">
-        <div className="w-full h-full bg-[repeating-linear-gradient(0deg,transparent,transparent_2px,#ffb347_2px,#ffb347_4px)]" />
-      </div>
+      <Scanlines />
 
       {/* Share Toast */}
       {showShareToast && (
