@@ -47,8 +47,9 @@ export interface EpisodeAlignment {
  */
 export interface Recommendations {
   userProfile: UserProfile;
-  primary: EpisodeAlignment[];     // Top matching episodes
-  contrarian: EpisodeAlignment[];  // Challenging perspectives with provocative quotes
+  primary: EpisodeAlignment[];     // Top matching episodes (up to 12)
+  contrarian: EpisodeAlignment[];  // Challenging perspectives with provocative quotes (up to 6)
+  byZone: Record<ZoneId, EpisodeAlignment[]>; // Top episodes grouped by zone (up to 3 each)
 }
 
 const ALL_ZONES: ZoneId[] = [
@@ -467,12 +468,12 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
     });
   }
 
-  // Build primary recommendations with diversity
+  // Build primary recommendations with diversity (expanded to 12)
   const primary: EpisodeAlignment[] = [];
   const sortedAlignments = [...initialAlignments].sort((a, b) => b.alignmentScore - a.alignmentScore);
 
   for (const alignment of sortedAlignments) {
-    if (primary.length >= 5) break;
+    if (primary.length >= 12) break;
 
     // Apply diversity penalty based on already-selected recommendations
     // Now considers zone overlap, guest type, and company stage
@@ -484,8 +485,8 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
     );
     const adjustedScore = Math.round(alignment.alignmentScore * (1 - penalty));
 
-    // Only skip if penalty makes it significantly worse AND we already have 3+ recs
-    if (primary.length >= 3 && adjustedScore < (primary[primary.length - 1]?.alignmentScore ?? 0) * 0.7) {
+    // Only skip if penalty makes it significantly worse AND we already have 5+ recs
+    if (primary.length >= 5 && adjustedScore < (primary[primary.length - 1]?.alignmentScore ?? 0) * 0.6) {
       continue;
     }
 
@@ -497,10 +498,10 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
   // Sort final primary list by adjusted score
   primary.sort((a, b) => b.alignmentScore - a.alignmentScore);
 
-  // Build contrarian recommendations using contrarian_candidates
+  // Build contrarian recommendations using contrarian_candidates (expanded to 6)
   const primarySlugs = new Set(primary.map(ep => ep.slug));
 
-  // Score ALL episodes for contrarian value, then pick best 3
+  // Score ALL episodes for contrarian value, then pick best 6
   const contrarianCandidates: Array<{
     alignment: AlignmentWithEpisode;
     contrarianData: { quote: Quote; why: string; score: number };
@@ -530,11 +531,11 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
     });
   }
 
-  // Sort by total contrarian score (descending) and take top 3
+  // Sort by total contrarian score (descending) and take top 6
   contrarianCandidates.sort((a, b) => b.totalScore - a.totalScore);
 
   const contrarian: EpisodeAlignment[] = contrarianCandidates
-    .slice(0, 3)
+    .slice(0, 6)
     .map(({ alignment, contrarianData }) => {
       const { episode, ...rest } = alignment;
       return {
@@ -548,10 +549,33 @@ export function generateRecommendations(answers: QuizAnswers): Recommendations {
       };
     });
 
+  // Build zone-grouped recommendations (top 3 per zone)
+  const usedSlugs = new Set([...primarySlugs, ...contrarian.map(c => c.slug)]);
+  const byZone: Record<ZoneId, EpisodeAlignment[]> = {} as Record<ZoneId, EpisodeAlignment[]>;
+
+  for (const zone of ALL_ZONES) {
+    const zoneAlignments = initialAlignments
+      .filter(a => {
+        const zoneStrength = a.episodeZones[zone] ?? 0;
+        return zoneStrength > 0.15; // Episode must be meaningful in this zone
+      })
+      .sort((a, b) => {
+        // Sort by zone strength, then alignment score
+        const aZone = a.episodeZones[zone] ?? 0;
+        const bZone = b.episodeZones[zone] ?? 0;
+        return (bZone * 0.6 + b.alignmentScore / 100 * 0.4) - (aZone * 0.6 + a.alignmentScore / 100 * 0.4);
+      })
+      .slice(0, 3)
+      .map(({ episode, ...rest }) => rest);
+
+    byZone[zone] = zoneAlignments;
+  }
+
   return {
     userProfile,
-    primary: primary.slice(0, 5),
+    primary: primary.slice(0, 12),
     contrarian,
+    byZone,
   };
 }
 

@@ -12,6 +12,7 @@ import EpisodeRecommendationCard from '@/components/EpisodeRecommendationCard';
 import QuizAnswersOverview from '@/components/QuizAnswersOverview';
 import TopNav from '@/components/TopNav';
 import { trackQuizCompleted, trackResultsShared, trackResultsDownloaded } from '@/lib/analytics';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 
 function ResultsContent() {
   const searchParams = useSearchParams();
@@ -154,7 +155,18 @@ ${window.location.origin}`;
     );
   }
 
-  const { userProfile, primary, contrarian } = recommendations;
+  const { userProfile, primary, contrarian, byZone } = recommendations;
+  const [showAllPrimary, setShowAllPrimary] = useState(false);
+  const [showAllContrarian, setShowAllContrarian] = useState(false);
+  const [expandedZone, setExpandedZone] = useState<ZoneId | null>(null);
+
+  // Show first 5 primary, expand to all 12
+  const visiblePrimary = showAllPrimary ? primary : primary.slice(0, 5);
+  const hiddenPrimaryCount = primary.length - 5;
+
+  // Show first 3 contrarian, expand to all 6
+  const visibleContrarian = showAllContrarian ? contrarian : contrarian.slice(0, 3);
+  const hiddenContrarianCount = contrarian.length - 3;
 
   return (
     <div className="min-h-screen bg-void text-ash p-4 md:p-8 pt-20 md:pt-24">
@@ -205,12 +217,12 @@ ${window.location.origin}`;
                 Episodes For You
               </h2>
               <p className="text-ash-dark">
-                Based on your philosophy, these episodes will resonate with how you work
+                Based on your philosophy, these {primary.length} episodes will resonate with how you work
               </p>
             </div>
 
             <div className="grid gap-6">
-              {primary.map((episode, index) => (
+              {visiblePrimary.map((episode, index) => (
                 <EpisodeRecommendationCard
                   key={episode.slug}
                   episode={episode}
@@ -220,12 +232,19 @@ ${window.location.origin}`;
               ))}
             </div>
 
-            {primary.length < 5 && (
-              <div className="mt-4 p-4 border border-ash-darker bg-void-light">
-                <p className="text-sm text-ash-dark">
-                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 294 total episodes.
-                </p>
-              </div>
+            {hiddenPrimaryCount > 0 && (
+              <motion.button
+                onClick={() => setShowAllPrimary(!showAllPrimary)}
+                className="mt-6 w-full p-4 border border-amber/30 bg-amber/5 text-amber font-mono text-sm hover:bg-amber/10 hover:border-amber/50 transition-all flex items-center justify-center gap-2"
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+              >
+                {showAllPrimary ? (
+                  <>Show fewer recommendations <ChevronUp className="w-4 h-4" /></>
+                ) : (
+                  <>Show {hiddenPrimaryCount} more recommendations <ChevronDown className="w-4 h-4" /></>
+                )}
+              </motion.button>
             )}
           </motion.div>
         )}
@@ -247,7 +266,7 @@ ${window.location.origin}`;
             </div>
 
             <div className="grid gap-6">
-              {contrarian.map((episode, index) => (
+              {visibleContrarian.map((episode, index) => (
                 <EpisodeRecommendationCard
                   key={episode.slug}
                   episode={episode}
@@ -255,6 +274,110 @@ ${window.location.origin}`;
                   variant="contrarian"
                 />
               ))}
+            </div>
+
+            {hiddenContrarianCount > 0 && (
+              <motion.button
+                onClick={() => setShowAllContrarian(!showAllContrarian)}
+                className="mt-6 w-full p-4 border border-rose-800/30 bg-rose-950/10 text-rose-400 font-mono text-sm hover:bg-rose-950/20 hover:border-rose-700/50 transition-all flex items-center justify-center gap-2"
+                whileHover={{ scale: 1.01 }}
+                whileTap={{ scale: 0.99 }}
+              >
+                {showAllContrarian ? (
+                  <>Show fewer perspectives <ChevronUp className="w-4 h-4" /></>
+                ) : (
+                  <>Show {hiddenContrarianCount} more perspectives <ChevronDown className="w-4 h-4" /></>
+                )}
+              </motion.button>
+            )}
+          </motion.div>
+        )}
+
+        {/* Explore by Zone */}
+        {byZone && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+          >
+            <div className="mb-6">
+              <h2 className="text-3xl font-bold text-amber mb-2">
+                Explore by Philosophy
+              </h2>
+              <p className="text-ash-dark">
+                Dive deeper into specific areas of product thinking
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-4">
+              {Object.entries(userProfile.zonePercentages)
+                .sort((a, b) => b[1] - a[1])
+                .map(([zoneId, percentage]) => {
+                  const zone = zones[zoneId as ZoneId];
+                  const zoneEpisodes = byZone[zoneId as ZoneId] || [];
+                  const isExpanded = expandedZone === zoneId;
+                  const isPrimary = zoneId === userProfile.primaryZone;
+                  const isSecondary = zoneId === userProfile.secondaryZone;
+
+                  if (zoneEpisodes.length === 0) return null;
+
+                  return (
+                    <motion.div
+                      key={zoneId}
+                      className={`border transition-all ${
+                        isExpanded
+                          ? 'border-amber bg-void-light md:col-span-2'
+                          : isPrimary
+                          ? 'border-amber/50 bg-void-light hover:border-amber'
+                          : 'border-ash-darker bg-void-light hover:border-ash-dark'
+                      }`}
+                    >
+                      <button
+                        onClick={() => setExpandedZone(isExpanded ? null : zoneId as ZoneId)}
+                        className="w-full p-4 flex items-center justify-between text-left"
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="text-2xl">{zone.icon}</span>
+                          <div>
+                            <div className="flex items-center gap-2">
+                              <span className={`font-bold font-mono ${isPrimary ? 'text-amber' : 'text-ash'}`}>
+                                {zone.name}
+                              </span>
+                              {isPrimary && (
+                                <span className="px-1.5 py-0.5 text-[10px] font-bold bg-amber text-void">PRIMARY</span>
+                              )}
+                              {isSecondary && (
+                                <span className="px-1.5 py-0.5 text-[10px] font-bold border border-amber/50 text-amber">SECONDARY</span>
+                              )}
+                            </div>
+                            <span className="text-xs text-ash-dark">{zone.tagline}</span>
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-3">
+                          <span className="text-xs text-ash-dark font-mono">{zoneEpisodes.length} episodes</span>
+                          {isExpanded ? (
+                            <ChevronUp className="w-4 h-4 text-ash-dark" />
+                          ) : (
+                            <ChevronDown className="w-4 h-4 text-ash-dark" />
+                          )}
+                        </div>
+                      </button>
+
+                      {isExpanded && (
+                        <div className="px-4 pb-4 space-y-3">
+                          {zoneEpisodes.map((episode, index) => (
+                            <EpisodeRecommendationCard
+                              key={episode.slug}
+                              episode={episode}
+                              index={index}
+                              variant="primary"
+                            />
+                          ))}
+                        </div>
+                      )}
+                    </motion.div>
+                  );
+                })}
             </div>
           </motion.div>
         )}

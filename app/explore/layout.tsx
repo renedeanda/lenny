@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import { BreadcrumbSchema, EpisodeListSchema } from '@/components/StructuredData';
+import { allEpisodes } from '@/lib/allEpisodes';
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
 
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
     title: 'Explore 294 Episodes | Lenny\'s Podcast',
     description: 'Browse 294 episodes with searchable transcripts, verified quotes, and insights from product and growth leaders.',
     url: `${baseUrl}/explore`,
-    siteName: 'PM Philosophy Quiz',
+    siteName: "Lenny's Podcast PM Philosophy",
     images: [
       {
         url: `${baseUrl}/explore-og-image.png`,
@@ -43,5 +45,24 @@ export default function ExploreLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Explore Episodes', url: '/explore' },
+        ]}
+      />
+      <EpisodeListSchema
+        episodes={allEpisodes.slice(0, 20).map(ep => ({
+          slug: ep.slug,
+          guest: ep.guest,
+          title: ep.title,
+        }))}
+        listName="Lenny's Podcast Episodes"
+        listDescription="Browse 294 episodes from Lenny's Podcast featuring top product leaders, growth experts, and innovators."
+      />
+      {children}
+    </>
+  );
 }

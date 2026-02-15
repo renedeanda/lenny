@@ -1,4 +1,5 @@
 import { Metadata } from 'next';
+import { BreadcrumbSchema } from '@/components/StructuredData';
 
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://lenny.productbuilder.net';
 
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
     title: 'Curated Quotes & Insights | Lenny\'s Podcast',
     description: 'Search and explore curated quotes from top product leaders. Filter by philosophy zone and save your favorites.',
     url: `${baseUrl}/explore/insights`,
-    siteName: 'PM Philosophy Quiz',
+    siteName: "Lenny's Podcast PM Philosophy",
     type: 'website'
   },
   twitter: {
@@ -37,5 +38,16 @@ export default function InsightsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return children;
+  return (
+    <>
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: '/' },
+          { name: 'Explore', url: '/explore' },
+          { name: 'Curated Insights', url: '/explore/insights' },
+        ]}
+      />
+      {children}
+    </>
+  );
 }
