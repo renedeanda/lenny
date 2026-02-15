@@ -53,7 +53,7 @@ export default function Footer() {
   return (
     <footer className="relative z-20 border-t-2 border-ash-darker bg-void-light/50 backdrop-blur-sm font-mono">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           {/* Navigation */}
           <div>
             <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">NAVIGATION</h3>

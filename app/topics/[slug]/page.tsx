@@ -68,7 +68,7 @@ export default function TopicPage() {
             <div className="w-2 h-2 bg-amber rounded-full animate-pulse" />
             <span className="text-xs text-ash-dark font-mono tracking-wider">TOPIC</span>
           </div>
-          <h1 className="text-4xl md:text-6xl font-bold text-amber mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-amber mb-4">
             {topic.name}
           </h1>
           <p className="text-lg text-ash-dark leading-relaxed max-w-3xl">
@@ -107,7 +107,7 @@ export default function TopicPage() {
             className="mb-12"
           >
             <h2 className="text-2xl font-bold text-amber mb-6">Notable Quotes</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-4 md:gap-6">
               {featuredQuotes.map((quote, i) => (
                 <Link
                   key={quote.id}
@@ -116,7 +116,7 @@ export default function TopicPage() {
                 >
                   <div className="flex items-start gap-3 mb-3">
                     <Quote className="w-4 h-4 text-amber/60 flex-shrink-0 mt-1" aria-hidden="true" />
-                    <p className="text-sm text-ash italic leading-relaxed">
+                    <p className="text-sm text-ash italic leading-relaxed break-words">
                       &ldquo;{quote.text.length > 200 ? `${quote.text.substring(0, 197)}...` : quote.text}&rdquo;
                     </p>
                   </div>
@@ -160,7 +160,7 @@ export default function TopicPage() {
                     {ep.title}
                   </div>
                 </div>
-                <div className="flex items-center gap-3 ml-4">
+                <div className="flex items-center gap-2 md:gap-3 ml-2 md:ml-4">
                   <span className="text-xs text-ash-dark font-mono">{ep.quoteCount} quotes</span>
                   <ArrowRight className="w-4 h-4 text-ash-dark group-hover:text-amber transition-colors" />
                 </div>
@@ -182,12 +182,12 @@ export default function TopicPage() {
             transition={{ delay: 0.4 }}
           >
             <h2 className="text-2xl font-bold text-amber mb-6">Related Topics</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3">
               {relatedTopics.map(related => (
                 <Link
                   key={related.slug}
                   href={`/topics/${related.slug}`}
-                  className="p-4 border border-ash-darker bg-void-light text-center hover:border-amber transition-all group"
+                  className="p-3 md:p-4 border border-ash-darker bg-void-light text-center hover:border-amber transition-all group"
                 >
                   <div className="font-bold text-ash group-hover:text-amber transition-colors text-sm">
                     {related.name}

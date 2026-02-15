@@ -526,7 +526,7 @@ ${window.location.origin}`;
             <button
               onClick={handleShare}
               aria-label="Share your product philosophy results"
-              className="px-10 py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-lg"
+              className="px-6 py-4 md:px-10 md:py-5 bg-amber text-void font-mono font-bold hover:bg-amber-dark transition-all hover:scale-105 active:scale-95 text-base md:text-lg"
             >
               SHARE YOUR PHILOSOPHY
             </button>
@@ -534,7 +534,7 @@ ${window.location.origin}`;
               onClick={handleDownload}
               disabled={isDownloading}
               aria-label={isDownloading ? 'Generating download...' : 'Download your results as an image'}
-              className="px-10 py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-lg disabled:opacity-50 disabled:cursor-wait"
+              className="px-6 py-4 md:px-10 md:py-5 border-2 border-amber text-amber font-mono font-bold hover:bg-amber hover:text-void transition-all hover:scale-105 active:scale-95 text-base md:text-lg disabled:opacity-50 disabled:cursor-wait"
             >
               {isDownloading ? 'GENERATING...' : 'DOWNLOAD RESULTS'}
             </button>
