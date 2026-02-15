@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo, useRef } from 'react';
+import { useState, useEffect, useMemo, useRef, Suspense } from 'react';
 import { useParams, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import Head from 'next/head';
@@ -40,10 +40,11 @@ interface TranscriptContent {
   sections: TranscriptSection[];
 }
 
-export default function EpisodePage() {
+function EpisodePageContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const slug = params.slug as string;
+  const initialTimestamp = searchParams.get('t');
 
   const episode = getEpisodeBySlug(slug);
 
@@ -168,9 +169,8 @@ export default function EpisodePage() {
           events: {
             onReady: () => {
               // Auto-seek to timestamp if ?t= query param is present (e.g. from topic pages)
-              const timeParam = searchParams.get('t');
-              if (timeParam && youtubePlayerRef.current?.seekTo) {
-                const seconds = timestampToSeconds(timeParam);
+              if (initialTimestamp && youtubePlayerRef.current?.seekTo) {
+                const seconds = timestampToSeconds(initialTimestamp);
                 if (seconds > 0) {
                   youtubePlayerRef.current.seekTo(seconds, true);
                   setTimeout(() => {
@@ -248,7 +248,7 @@ export default function EpisodePage() {
         }
       }
     };
-  }, [episode?.videoId]);
+  }, [episode?.videoId, initialTimestamp]);
 
   const jumpToTimestamp = (sectionIndex: number) => {
     if (!transcript) return;
@@ -1038,5 +1038,13 @@ export default function EpisodePage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function EpisodePage() {
+  return (
+    <Suspense>
+      <EpisodePageContent />
+    </Suspense>
   );
 }

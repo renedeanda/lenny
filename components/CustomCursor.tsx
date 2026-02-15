@@ -1,12 +1,14 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
+
+const INTERACTIVE_SELECTOR = 'a, button, [role="button"], input, select, textarea';
 
 export default function CustomCursor() {
   const [isVisible, setIsVisible] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
-  const [isTouchDevice, setIsTouchDevice] = useState(false);
+  const [isTouchDevice, setIsTouchDevice] = useState(true); // default true to avoid flash
 
   const cursorX = useMotionValue(0);
   const cursorY = useMotionValue(0);
@@ -26,6 +28,10 @@ export default function CustomCursor() {
     setIsTouchDevice(isTouchOrSmall);
   }, []);
 
+  // Stable references for window-level event listeners
+  const handleWindowEnter = useCallback(() => setIsVisible(true), []);
+  const handleWindowLeave = useCallback(() => setIsVisible(false), []);
+
   useEffect(() => {
     if (isTouchDevice) return;
 
@@ -35,48 +41,37 @@ export default function CustomCursor() {
       setIsVisible(true);
     };
 
-    const handleMouseEnter = () => setIsHovering(true);
-    const handleMouseLeave = () => setIsHovering(false);
+    // Use event delegation for hover detection instead of per-element listeners.
+    // This avoids the MutationObserver thrashing and memory leak from re-binding
+    // listeners on every DOM change.
+    const handleMouseOver = (e: MouseEvent) => {
+      const target = e.target as Element;
+      if (target?.closest?.(INTERACTIVE_SELECTOR)) {
+        setIsHovering(true);
+      }
+    };
 
-    // Track cursor movement
+    const handleMouseOut = (e: MouseEvent) => {
+      const target = e.target as Element;
+      if (target?.closest?.(INTERACTIVE_SELECTOR)) {
+        setIsHovering(false);
+      }
+    };
+
     window.addEventListener('mousemove', moveCursor);
-    window.addEventListener('mouseenter', () => setIsVisible(true));
-    window.addEventListener('mouseleave', () => setIsVisible(false));
-
-    // Track hover on interactive elements
-    const interactiveElements = document.querySelectorAll('a, button, [role="button"], input, select, textarea');
-    interactiveElements.forEach(el => {
-      el.addEventListener('mouseenter', handleMouseEnter);
-      el.addEventListener('mouseleave', handleMouseLeave);
-    });
-
-    // Observe DOM changes to catch dynamically added elements
-    const observer = new MutationObserver(() => {
-      const newInteractiveElements = document.querySelectorAll('a, button, [role="button"], input, select, textarea');
-      newInteractiveElements.forEach(el => {
-        el.removeEventListener('mouseenter', handleMouseEnter);
-        el.removeEventListener('mouseleave', handleMouseLeave);
-        el.addEventListener('mouseenter', handleMouseEnter);
-        el.addEventListener('mouseleave', handleMouseLeave);
-      });
-    });
-
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true,
-    });
+    window.addEventListener('mouseenter', handleWindowEnter);
+    window.addEventListener('mouseleave', handleWindowLeave);
+    document.addEventListener('mouseover', handleMouseOver);
+    document.addEventListener('mouseout', handleMouseOut);
 
     return () => {
       window.removeEventListener('mousemove', moveCursor);
-      window.removeEventListener('mouseenter', () => setIsVisible(true));
-      window.removeEventListener('mouseleave', () => setIsVisible(false));
-      interactiveElements.forEach(el => {
-        el.removeEventListener('mouseenter', handleMouseEnter);
-        el.removeEventListener('mouseleave', handleMouseLeave);
-      });
-      observer.disconnect();
+      window.removeEventListener('mouseenter', handleWindowEnter);
+      window.removeEventListener('mouseleave', handleWindowLeave);
+      document.removeEventListener('mouseover', handleMouseOver);
+      document.removeEventListener('mouseout', handleMouseOut);
     };
-  }, [cursorX, cursorY, isTouchDevice]);
+  }, [cursorX, cursorY, isTouchDevice, handleWindowEnter, handleWindowLeave]);
 
   if (isTouchDevice || !isVisible) return null;
 

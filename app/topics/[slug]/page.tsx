@@ -93,8 +93,11 @@ export default function TopicPage() {
           <p className="text-lg text-ash-dark leading-relaxed max-w-3xl">
             {topic.description}
           </p>
-          <div className="flex gap-4 mt-4 text-sm text-ash-dark">
+          <div className="flex flex-wrap gap-3 mt-4 text-sm text-ash-dark">
             <span className="px-3 py-1 border border-ash-darker">{quotes.length} quotes</span>
+            {takeaways.length > 0 && (
+              <span className="px-3 py-1 border border-ash-darker">{takeaways.length} takeaways</span>
+            )}
             <span className="px-3 py-1 border border-ash-darker">{episodes.length} episodes</span>
           </div>
         </motion.div>
@@ -171,7 +174,7 @@ export default function TopicPage() {
             <div className="space-y-3">
               {takeaways.slice(0, 8).map((takeaway, i) => (
                 <Link
-                  key={`${takeaway.episodeSlug}-${i}`}
+                  key={`${takeaway.episodeSlug}-takeaway-${i}`}
                   href={`/episodes/${takeaway.episodeSlug}`}
                   className="flex items-start gap-3 p-4 border border-ash-darker bg-void-light hover:border-amber transition-all group"
                 >

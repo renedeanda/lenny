@@ -452,7 +452,7 @@ export default function ExplorePage() {
 
                   <div className="flex items-center justify-between mb-3">
                     <div className="text-xs text-amber tracking-wider">FILTER BY TOPIC</div>
-                    {selectedKeywords.length > 0 && (
+                    {(selectedKeywords.length > 0 || selectedGuestType || showNoTranscript) && (
                       <button
                         onClick={clearFilters}
                         className="text-xs text-crimson hover:text-crimson/80 transition-colors font-bold"

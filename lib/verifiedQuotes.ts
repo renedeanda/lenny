@@ -171,11 +171,53 @@ export function getTakeawaysForTopic(topicSlug: string): Array<{
 }
 
 /**
+ * Normalize raw guest_type values (e.g. "founder-coach", "investor-founder")
+ * to the 5 canonical GuestType categories used in UI filters.
+ */
+const GUEST_TYPE_CANONICAL: Record<string, GuestType> = {
+  founder: 'founder',
+  operator: 'operator',
+  investor: 'investor',
+  advisor: 'advisor',
+  academic: 'academic',
+};
+
+function normalizeGuestType(raw: string): GuestType {
+  // Direct match
+  if (raw in GUEST_TYPE_CANONICAL) return GUEST_TYPE_CANONICAL[raw];
+
+  // Compound types: check each segment (e.g. "founder-coach" → "founder")
+  for (const segment of raw.split('-')) {
+    if (segment in GUEST_TYPE_CANONICAL) return GUEST_TYPE_CANONICAL[segment];
+  }
+
+  // Map common non-canonical types to closest category
+  const FALLBACK_MAP: Record<string, GuestType> = {
+    author: 'advisor',
+    coach: 'advisor',
+    consultant: 'advisor',
+    educator: 'academic',
+    executive: 'operator',
+    expert: 'advisor',
+    practitioner: 'operator',
+    researcher: 'academic',
+    'product-leader': 'operator',
+    'growth-leader': 'operator',
+    'design-leader': 'operator',
+    'media-executive': 'operator',
+    'thought-leader': 'advisor',
+    'executive-coach': 'advisor',
+  };
+  return FALLBACK_MAP[raw] || 'operator';
+}
+
+/**
  * Get guest type for a given episode slug
  */
 export function getGuestType(slug: string): GuestType | undefined {
   const episode = registry.episodes.find(ep => ep.slug === slug);
-  return episode?.guest_metadata?.guest_type;
+  const raw = episode?.guest_metadata?.guest_type;
+  return raw ? normalizeGuestType(raw) : undefined;
 }
 
 /**
@@ -186,8 +228,9 @@ export function getGuestTypeMap(): Map<string, GuestType> {
   if (_guestTypeMap) return _guestTypeMap;
   _guestTypeMap = new Map();
   for (const episode of registry.episodes) {
-    if (episode.guest_metadata?.guest_type) {
-      _guestTypeMap.set(episode.slug, episode.guest_metadata.guest_type);
+    const raw = episode.guest_metadata?.guest_type;
+    if (raw) {
+      _guestTypeMap.set(episode.slug, normalizeGuestType(raw));
     }
   }
   return _guestTypeMap;
