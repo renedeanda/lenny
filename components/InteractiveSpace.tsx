@@ -105,8 +105,18 @@ function DeepStars({ mouseX, mouseY }: InteractiveStarsProps) {
 
 export default function InteractiveSpace() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [reducedMotion, setReducedMotion] = useState(false);
 
   useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setReducedMotion(mq.matches);
+    const handler = (e: MediaQueryListEvent) => setReducedMotion(e.matches);
+    mq.addEventListener('change', handler);
+    return () => mq.removeEventListener('change', handler);
+  }, []);
+
+  useEffect(() => {
+    if (reducedMotion) return;
     const handleMouseMove = (e: MouseEvent) => {
       const x = (e.clientX / window.innerWidth) * 2 - 1;
       const y = (e.clientY / window.innerHeight) * 2 - 1;
@@ -115,7 +125,15 @@ export default function InteractiveSpace() {
 
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  }, [reducedMotion]);
+
+  if (reducedMotion) {
+    return (
+      <div className="fixed inset-0 z-0 bg-void">
+        <div className="absolute inset-0 bg-void/60 pointer-events-none" />
+      </div>
+    );
+  }
 
   return (
     <div className="fixed inset-0 z-0 bg-void">
@@ -129,7 +147,7 @@ export default function InteractiveSpace() {
 
       {/* Dark scrim for text readability */}
       <div className="absolute inset-0 bg-void/60 pointer-events-none" />
-      
+
       {/* Vignette effect */}
       <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-void pointer-events-none" />
     </div>

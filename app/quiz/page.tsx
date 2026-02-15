@@ -188,6 +188,7 @@ function QuizContent() {
                   <motion.button
                     key={answer.id}
                     onClick={() => handleAnswer(answer.id)}
+                    aria-label={answer.text}
                     className={`group relative w-full p-4 md:p-6 text-left border-2 transition-all duration-300 ${
                       selectedAnswer === answer.id
                         ? 'border-amber bg-amber/10'
