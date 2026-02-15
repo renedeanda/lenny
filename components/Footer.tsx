@@ -5,6 +5,12 @@ import Link from 'next/link';
 import { Github, Home, Compass, Flame, CheckCircle, Hash } from 'lucide-react';
 import { TOPIC_PAGES } from '@/lib/topics';
 
+// Curated selection for the footer — mix of popular + AI + craft topics
+const FOOTER_TOPICS = [
+  'leadership', 'strategy', 'growth', 'AI', 'ai-strategy',
+  'product-craft', 'first-principles', 'product-market-fit', 'execution',
+];
+
 export default function Footer() {
   const [hasQuizResults, setHasQuizResults] = useState(false);
 
@@ -103,18 +109,22 @@ export default function Footer() {
           <div>
             <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">TOPICS</h3>
             <nav className="space-y-2" aria-label="Browse by topic">
-              {TOPIC_PAGES.slice(0, 8).map(topic => (
-                <Link
-                  key={topic.slug}
-                  href={`/topics/${topic.slug}`}
-                  className="block text-ash-dark hover:text-amber transition-colors text-sm"
-                >
-                  {topic.name}
-                </Link>
-              ))}
-              {TOPIC_PAGES.length > 8 && (
+              {FOOTER_TOPICS.map(slug => {
+                const topic = TOPIC_PAGES.find(t => t.slug === slug);
+                if (!topic) return null;
+                return (
+                  <Link
+                    key={topic.slug}
+                    href={`/topics/${topic.slug}`}
+                    className="block text-ash-dark hover:text-amber transition-colors text-sm"
+                  >
+                    {topic.name}
+                  </Link>
+                );
+              })}
+              {TOPIC_PAGES.length > FOOTER_TOPICS.length && (
                 <span className="block text-ash-darker text-xs font-mono">
-                  +{TOPIC_PAGES.length - 8} more on Explore
+                  +{TOPIC_PAGES.length - FOOTER_TOPICS.length} more on Explore
                 </span>
               )}
             </nav>

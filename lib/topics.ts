@@ -137,6 +137,102 @@ export const TOPIC_PAGES: TopicPage[] = [
     description: "Keeping users engaged and reducing churn. Retention strategies from growth experts on Lenny's Podcast.",
     relatedTopics: ['growth', 'onboarding', 'metrics', 'product-market-fit'],
   },
+  {
+    slug: 'feedback',
+    name: 'Feedback',
+    description: "How top product leaders give and receive feedback effectively. Frameworks for radical candor, performance reviews, and building feedback loops from Lenny's Podcast.",
+    relatedTopics: ['communication', 'leadership', 'collaboration', 'trust'],
+  },
+  {
+    slug: 'vision',
+    name: 'Product Vision',
+    description: "Crafting and communicating a compelling product vision. How the best PMs align teams around a shared future from Lenny's Podcast guests.",
+    relatedTopics: ['strategy', 'leadership', 'storytelling', 'differentiation'],
+  },
+  {
+    slug: 'onboarding',
+    name: 'User Onboarding',
+    description: "Designing great user onboarding experiences that drive activation and retention. Tactics and frameworks from growth experts on Lenny's Podcast.",
+    relatedTopics: ['retention', 'growth', 'user-experience', 'product-design'],
+  },
+  {
+    slug: 'positioning',
+    name: 'Positioning',
+    description: "Product positioning, messaging, and finding your category. How top product marketers differentiate their products, from Lenny's Podcast.",
+    relatedTopics: ['differentiation', 'storytelling', 'strategy', 'competition'],
+  },
+  {
+    slug: 'simplicity',
+    name: 'Simplicity',
+    description: "The art of simplicity in product design and strategy. How the best product teams reduce complexity and focus on what matters, from Lenny's Podcast.",
+    relatedTopics: ['focus', 'product-design', 'craft', 'quality'],
+  },
+  {
+    slug: 'collaboration',
+    name: 'Collaboration',
+    description: "Cross-functional collaboration between product, design, and engineering. How great teams work together from Lenny's Podcast guests.",
+    relatedTopics: ['alignment', 'communication', 'team-building', 'trust'],
+  },
+  {
+    slug: 'resilience',
+    name: 'Resilience',
+    description: "Building resilience as a product leader. How top PMs and founders navigate failure, setbacks, and uncertainty from Lenny's Podcast.",
+    relatedTopics: ['mindset', 'failure', 'self-awareness', 'growth-mindset'],
+  },
+  {
+    slug: 'iteration',
+    name: 'Iteration',
+    description: "The power of rapid iteration in product development. How the best teams ship fast, learn faster, and continuously improve from Lenny's Podcast.",
+    relatedTopics: ['velocity', 'experimentation', 'execution', 'shipping'],
+  },
+  {
+    slug: 'trust',
+    name: 'Building Trust',
+    description: "Building trust with users, teams, and stakeholders. How great product leaders earn and maintain trust from Lenny's Podcast guests.",
+    relatedTopics: ['leadership', 'collaboration', 'communication', 'culture'],
+  },
+  {
+    slug: 'first-principles',
+    name: 'First Principles',
+    description: "Thinking from first principles in product management. How top leaders break down problems and challenge assumptions, from Lenny's Podcast.",
+    relatedTopics: ['decision-making', 'strategy', 'innovation', 'contrarian'],
+  },
+  {
+    slug: 'ai-strategy',
+    name: 'AI Strategy',
+    description: "How product leaders think about AI strategy, adoption, and integrating AI into their products. Strategic frameworks for the AI era from Lenny's Podcast.",
+    relatedTopics: ['AI', 'ai-product-strategy', 'ai-adoption', 'strategy'],
+  },
+  {
+    slug: 'ai-agents',
+    name: 'AI Agents',
+    description: "Building and deploying AI agents in products. How product teams approach agentic AI, autonomous workflows, and the future of AI-powered products from Lenny's Podcast.",
+    relatedTopics: ['agents', 'AI', 'ai-workflows', 'automation'],
+  },
+  {
+    slug: 'ai-tools',
+    name: 'AI Tools & Workflows',
+    description: "Using AI tools to supercharge product development workflows. How PMs and builders leverage AI for productivity, coding, and decision-making from Lenny's Podcast.",
+    relatedTopics: ['AI', 'ai-workflows', 'automation', 'productivity'],
+  },
+  {
+    slug: 'future-of-work',
+    name: 'Future of Work',
+    description: "How AI and technology are reshaping product management and the workplace. Perspectives on the future of PM, remote work, and human-AI collaboration from Lenny's Podcast.",
+    relatedTopics: ['AI', 'automation', 'ai-vs-human', 'future'],
+  },
+  {
+    slug: 'product-craft',
+    name: 'Product Craft & Taste',
+    description: "Developing product taste and craft — the intangible skill that separates great PMs from good ones. How top product leaders think about quality, detail, and design intuition from Lenny's Podcast.",
+    relatedTopics: ['craft', 'quality', 'product-design', 'simplicity'],
+  },
+  {
+    slug: 'systems-thinking',
+    name: 'Systems Thinking',
+    description: "Thinking in systems as a product manager. How the best PMs see connections, second-order effects, and design holistic solutions from Lenny's Podcast guests.",
+    relatedTopics: ['first-principles', 'mental-models', 'frameworks', 'decision-making'],
+  },
 ];
 
 // --- Performance: Module-level caches ---
