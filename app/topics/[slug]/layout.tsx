@@ -35,6 +35,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description,
       url: `${baseUrl}/topics/${slug}`,
       siteName: "Lenny's Podcast PM Philosophy",
+      images: [
+        {
+          url: `${baseUrl}/og/topics/${slug}.png`,
+          width: 1200,
+          height: 630,
+          alt: `${topic.name} - Lenny's Podcast PM Philosophy`,
+        },
+      ],
       type: 'website',
     },
     twitter: {
@@ -42,6 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title,
       description,
       creator: '@lennysan',
+      images: [`${baseUrl}/og/topics/${slug}.png`],
     },
     alternates: {
       canonical: `${baseUrl}/topics/${slug}`,
