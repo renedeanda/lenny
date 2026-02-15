@@ -1,0 +1,194 @@
+{
+  "slug": "hari-srinivasan",
+  "quotes": [
+    {
+      "id": "hari-srinivasan-001",
+      "speaker": "Hari Srinivasan",
+      "text": "Everything at LinkedIn is a very connected ecosystem. One of the things that we always think about is how the whole system fits together. How you make decisions based on the very complicated ecosystem is actually not very difficult because we're all here to help people connect to economic opportunity.",
+      "timestamp": "00:07:18",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 103
+      },
+      "themes": ["ecosystem-thinking", "mission", "decision-making"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "hari-srinivasan-002",
+      "speaker": "Hari Srinivasan",
+      "text": "We made a pretty big push in something we call skills-first hiring. This was the idea that we could translate people's experiences into a set of skills, and by that we could help them really start balancing the marketplace with a much different system.",
+      "timestamp": "00:17:31",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["skills-based-hiring", "marketplace", "innovation"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "hari-srinivasan-003",
+      "speaker": "Hari Srinivasan",
+      "text": "It has to clearly be something people want. If we had just said we're going to go like this, and every hire was like, 'I don't want to do this,' I don't think anything would click. We also have to be receptive enough to amplify that signal and allow it to work through a system so that it could actually be easy to use.",
+      "timestamp": "00:19:33",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 223
+      },
+      "themes": ["product-market-fit", "signal-amplification", "user-needs"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "hari-srinivasan-004",
+      "speaker": "Hari Srinivasan",
+      "text": "You have to think through second and third and maybe even fourth effects and manage that as you go through. I think that is something we really pride ourselves on is, how do we start thinking through these different things, and how do we start measuring them as we go?",
+      "timestamp": "00:37:21",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 385,
+        "lineEnd": 385
+      },
+      "themes": ["systems-thinking", "second-order-effects", "measurement"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "hari-srinivasan-005",
+      "speaker": "Hari Srinivasan",
+      "text": "We have something called RAPID, which is a really easy way to know who the decision-maker is. Just, you line up who's a recommender, who has to agree, who's a decision-maker. And then a five-day escalation rule, which makes sure that those items get resolved.",
+      "timestamp": "00:37:35",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 388
+      },
+      "themes": ["decision-making", "frameworks", "velocity", "operations"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "hari-srinivasan-006",
+      "speaker": "Hari Srinivasan",
+      "text": "If you had three back and forths in an email, you got to pick up the phone. And if you've been on the phone for 20 minutes, it's time to just write that decision-maker and go. That way, you can make sure the concept of an hour, you should be able to get a decision.",
+      "timestamp": "00:38:36",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 397,
+        "lineEnd": 397
+      },
+      "themes": ["decision-making", "speed", "communication"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "hari-srinivasan-007",
+      "speaker": "Hari Srinivasan",
+      "text": "I often really do try to suss out during interviews or in how we promote people, just their ability to see systems. Because I do think it's a different skillset and a different capability. Those who are able to see the whole, make decisions at the whole, that's rare actually.",
+      "timestamp": "00:39:56",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 430,
+        "lineEnd": 430
+      },
+      "themes": ["hiring", "systems-thinking", "talent", "leadership"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "hari-srinivasan-008",
+      "speaker": "Hari Srinivasan",
+      "text": "You need three different skills to be a great PM. You need to be a Steven Spielberg type creator. Something around data science and the ability to really look at data and see patterns and then see the future. And then especially more senior, I think it's a lot of general management.",
+      "timestamp": "00:48:29",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 508,
+        "lineEnd": 508
+      },
+      "themes": ["product-management", "skills", "career-growth"],
+      "zones": ["discovery", "data", "intuition"]
+    },
+    {
+      "id": "hari-srinivasan-009",
+      "speaker": "Hari Srinivasan",
+      "text": "I've actually never seen a great PM who's in the center of it. I find the great PMs live on the edges. There's always someone who's this exceptional data scientist and the ability to maybe be a great GM, or maybe someone who's so creative, who can lead a team in a different way.",
+      "timestamp": "00:49:01",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 511,
+        "lineEnd": 511
+      },
+      "themes": ["product-management", "specialization", "strengths"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "hari-srinivasan-010",
+      "speaker": "Hari Srinivasan",
+      "text": "I would tell people to just build. Try different clay, think through different ideas. I think that is a really important skill to have, to just being able to say, 'Okay, I'm going to start with a blank sheet and make some art.' I encourage people to do that because it's a muscle, like anything else. It can atrophy.",
+      "timestamp": "00:51:26",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 526,
+        "lineEnd": 526
+      },
+      "themes": ["building", "creativity", "side-projects", "product-management"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "hari-srinivasan-011",
+      "speaker": "Hari Srinivasan",
+      "text": "We started this thing where basically we call it orange and red priorities. We said, these are the big rocks we got to get done. We're going to get those things done first. We're going to be upfront and honest with you. And then you can plan from there. I think it's relieved a lot of the progress.",
+      "timestamp": "01:01:12",
+      "source": {
+        "slug": "hari-srinivasan",
+        "path": "episodes/hari-srinivasan/transcript.md",
+        "lineStart": 673,
+        "lineEnd": 673
+      },
+      "themes": ["planning", "prioritization", "transparency"],
+      "zones": ["focus", "alignment"]
+    }
+  ],
+  "themes": ["ecosystem-thinking", "systems-thinking", "decision-making", "skills-based-hiring", "product-management", "marketplace", "leadership", "prioritization", "hiring", "building", "creativity", "velocity"],
+  "takeaways": [
+    "Complex ecosystems require second, third, and fourth-order thinking - every product change at LinkedIn must consider ripple effects across interconnected marketplaces",
+    "Decision-making speed is a competitive advantage - use frameworks like RAPID and the five-day escalation rule to prevent organizational paralysis",
+    "Great PMs live on the edges of the skill triangle (creator, data scientist, GM) rather than being mediocre at everything in the center",
+    "Skills-first hiring is transforming the job market - translating experience into transferable skills helps balance supply and demand in ways title-based hiring never could",
+    "The building muscle atrophies if not exercised - PMs should continuously build side projects and experiment with new ideas to maintain their creative edge"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "hari-srinivasan-009",
+      "why": "Contradicts the common advice that PMs should be well-rounded generalists - argues the best PMs are actually specialists who lean into their edges",
+      "related_zones": ["intuition", "focus"]
+    },
+    {
+      "quoteId": "hari-srinivasan-006",
+      "why": "Proposes a strict escalation framework for decisions that challenges consensus-driven cultures - three emails then phone, 20 minutes then escalate",
+      "related_zones": ["velocity", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["complex-systems", "marketplace-dynamics", "product-management"]
+  }
+}

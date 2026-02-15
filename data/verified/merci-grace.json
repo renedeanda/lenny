@@ -1,0 +1,194 @@
+{
+  "slug": "merci-grace",
+  "quotes": [
+    {
+      "id": "merci-grace-001",
+      "speaker": "Merci Grace",
+      "text": "Deals happen or don't happen typically because of interpersonal dynamics and sometimes even just personality clashes or petty holdouts from years before. It's oftentimes because people just can see you as a founder, or CEO, or can see you running something like this. And so it's very subjective, more subjective than I thought it would be.",
+      "timestamp": "00:05:21",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 65,
+        "lineEnd": 65
+      },
+      "themes": ["venture-capital", "founder-dynamics", "storytelling"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "merci-grace-002",
+      "speaker": "Merci Grace",
+      "text": "Every pitch should start in the middle of the action, like a thriller or like a drama, like Mission Impossible movies always start with Tom Cruise doing some crazy shit in the middle of the job right before the job that the actual movie is about because it gets your attention. Great storytellers are not boring and they don't seem businessy.",
+      "timestamp": "00:07:25",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 74,
+        "lineEnd": 74
+      },
+      "themes": ["storytelling", "pitching", "communication"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "merci-grace-003",
+      "speaker": "Merci Grace",
+      "text": "One of the best things that the early founding team at Slack did was the understanding that this is a tool for work. And that made thousands of small decisions instant and obvious.",
+      "timestamp": "00:09:44",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 92,
+        "lineEnd": 92
+      },
+      "themes": ["product-vision", "focus", "decision-making"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "merci-grace-004",
+      "speaker": "Merci Grace",
+      "text": "We really started with curiosity first, and we weren't like, 'Okay, here are all of our baseline metrics. We already know what's important.' April Underwood had this great line: 'No one has built Slack before.' It was hilarious to watch people trying to replicate things in our product that actually weren't even working for us, but they had no insight into that.",
+      "timestamp": "00:17:13",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 140,
+        "lineEnd": 143
+      },
+      "themes": ["growth", "curiosity", "experimentation"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "merci-grace-005",
+      "speaker": "Merci Grace",
+      "text": "I think it is very dangerous to say this specific metric is a North Star for every business. A bunch of the things that moved the needle for us were about getting people into their new Slack team at the same time. It really matters that someone is there to greet you when you join.",
+      "timestamp": "00:19:04",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 149,
+        "lineEnd": 149
+      },
+      "themes": ["metrics", "activation", "growth"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "merci-grace-006",
+      "speaker": "Merci Grace",
+      "text": "Within any population, including a user base, there will be people who are more likely to invite other people to the product. It's a lot easier to get those people to send more invites than it is to get someone who's just not like that, who never is the host, who doesn't invite people to stuff. It's a lot easier to get someone to send more invites than it is to get someone who's a little shy to even send one.",
+      "timestamp": "00:22:22",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 191,
+        "lineEnd": 191
+      },
+      "themes": ["virality", "growth", "personas"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "merci-grace-007",
+      "speaker": "Merci Grace",
+      "text": "You need to have invites early and often so that you catch people who want to share it. For the people who would never participate, they can ignore it or skip it. But that doesn't mean it shouldn't be all over the entire product. That is advice to not listen to when users say they wouldn't invite someone during onboarding.",
+      "timestamp": "00:23:27",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 197,
+        "lineEnd": 197
+      },
+      "themes": ["growth", "invitations", "onboarding"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "merci-grace-008",
+      "speaker": "Merci Grace",
+      "text": "For every week that you continue to let people use it, you get incrementally more people who do convert because their timing on buying your product has nothing to do with your schedule or how quickly you want revenue and everything to do with, where in the quarter is it for them? Do they have a new project that they can use to try out your product?",
+      "timestamp": "00:25:15",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 209,
+        "lineEnd": 209
+      },
+      "themes": ["monetization", "conversion", "patience"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "merci-grace-009",
+      "speaker": "Merci Grace",
+      "text": "How you introduce something, how you frame something matters a lot. If you can think about even an online product from that first introduction, 'What will it be like for someone to come in here?' is something that's very useful to think about literally from the first days that you're designing the product. Unfortunately, many people think about onboarding at the last minute.",
+      "timestamp": "00:26:49",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 215,
+        "lineEnd": 218
+      },
+      "themes": ["onboarding", "game-design", "product-design"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "merci-grace-010",
+      "speaker": "Merci Grace",
+      "text": "You have to understand that people have really limited attention and no one cares about your product the way that you do. And so it can feel like you're dumbing it down or oversimplifying. And if you don't feel that way about your onboarding, about the growth work that you're doing, it's probably too complex.",
+      "timestamp": "00:32:58",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 239
+      },
+      "themes": ["simplicity", "onboarding", "user-attention"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "merci-grace-011",
+      "speaker": "Merci Grace",
+      "text": "Whether you thought about it consciously or not, you have already decided whether it is going to be product-led or sales-led. If it is the type of solution that you need buy-in from the head of HR because you need to integrate with systems that have a lot of PII and no IC has the keys to that system, boom, you know you have a sales-led motion.",
+      "timestamp": "00:35:56",
+      "source": {
+        "slug": "merci-grace",
+        "path": "episodes/merci-grace/transcript.md",
+        "lineStart": 275,
+        "lineEnd": 275
+      },
+      "themes": ["product-led-growth", "go-to-market", "strategy"],
+      "zones": ["focus", "data"]
+    }
+  ],
+  "themes": ["product-led-growth", "onboarding", "growth", "storytelling", "game-design", "virality", "simplicity", "go-to-market"],
+  "takeaways": [
+    "Design onboarding from the start, not as an afterthought - how you introduce the product shapes how people perceive its value, drawing from game design principles of progressive disclosure.",
+    "Product-led growth requires day-zero value - if users can't experience meaningful value immediately, the ease of entry also becomes an ease of exit.",
+    "Don't copy competitors blindly - Slack saw people replicate features that weren't even working internally, proving that external appearances are misleading signals for product strategy.",
+    "Lean into social connectors within your user base - it's far more effective to get naturally social people to invite more than to convince introverts to invite at all.",
+    "Simplify ruthlessly and resist the temptation to educate users with carousels - if your onboarding doesn't feel uncomfortably simple, it's probably too complex for your users."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "merci-grace-007",
+      "why": "Ignore user feedback that says they wouldn't invite during onboarding - have invites everywhere anyway to catch the social people",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "merci-grace-005",
+      "why": "No universal North Star metric exists - dangerous to apply one metric across all businesses",
+      "related_zones": ["data", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-led-growth", "onboarding", "growth-strategy", "game-design"]
+  }
+}

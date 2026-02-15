@@ -1,0 +1,199 @@
+{
+  "slug": "varun-mohan",
+  "quotes": [
+    {
+      "id": "varun-mohan-q001",
+      "speaker": "Varun Mohan",
+      "text": "You need to kind of be irrationally optimistic that what you're going to do is going to be differentially important. Because otherwise, why would you go out and do what you're doing? And if it's obvious, then a bigger company would've already done it. But then you also need to be really, really realistic because most ideas that are non-conventional are usually bad ideas. So it's this weird tightrope you need to kind of balance on top of.",
+      "timestamp": "00:08:28",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 98,
+        "lineEnd": 101
+      },
+      "themes": ["startup-mindset", "conviction", "realism"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "varun-mohan-q002",
+      "speaker": "Varun Mohan",
+      "text": "I think ideas, it's awesome when you have a great idea, but you should never be too in love with your ideas. And you have an organization that is very truth-seeking. I think a lot of people at the company have had their ideas tested over and over again.",
+      "timestamp": "00:11:41",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 122,
+        "lineEnd": 122
+      },
+      "themes": ["ideas", "truth-seeking", "humility"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "varun-mohan-q003",
+      "speaker": "Varun Mohan",
+      "text": "If you're trying to do another thing that you think is big and you're focused on something that you don't believe is valuable, you're guaranteed going to fail at the thing you think is going to be big.",
+      "timestamp": "00:11:20",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 119,
+        "lineEnd": 119
+      },
+      "themes": ["focus", "pivots", "prioritization"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "varun-mohan-q004",
+      "speaker": "Varun Mohan",
+      "text": "What we idolize is, be the smallest company we can be to satisfy our ambitions. That's what the goal is. If I told you I'm going to build an autonomous vehicle and I said our team is 10 people, you should rightfully say, 'Hey Varun, you're not serious.' So I think the answer is, what is the minimum number of people to go out and build the crazy ambition project that you have?",
+      "timestamp": "00:23:36",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 218,
+        "lineEnd": 218
+      },
+      "themes": ["hiring", "lean-teams", "ambition"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "varun-mohan-q005",
+      "speaker": "Varun Mohan",
+      "text": "When you hire for a role and you already have enough people there, you get a lot of weird politics that ultimately ends up happening. People that join a company and in reality you didn't really need them will go out and manufacture some other thing that they should go work on. And realistically, it's not that important, but they will go out and try to convince the rest of the organization that it is important.",
+      "timestamp": "00:24:40",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 224,
+        "lineEnd": 224
+      },
+      "themes": ["hiring", "politics", "organizational-debt"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "varun-mohan-q006",
+      "speaker": "Varun Mohan",
+      "text": "You don't win by doing 10 things well. You win by doing one thing really well and maybe you fail nine things. This is very different than school. In school you optimize for your total GPA. But for companies, I just need to get an A+ on the one class that matters. And then I can get an F in all the other classes.",
+      "timestamp": "00:26:45",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 236,
+        "lineEnd": 236
+      },
+      "themes": ["focus", "prioritization", "strategy"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "varun-mohan-q007",
+      "speaker": "Varun Mohan",
+      "text": "The person that is the most valuable at the company is the person that can do the most crazy sort of project out there with as few people as possible. And that's what you should be rewarding internally.",
+      "timestamp": "00:30:21",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 257,
+        "lineEnd": 257
+      },
+      "themes": ["hiring", "culture", "leverage"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "varun-mohan-q008",
+      "speaker": "Varun Mohan",
+      "text": "I think one of the things that's true about companies is it's like this massive group project. The thing about a person that is not pulling their weight that's bad, it's not the productivity. It's the team of people they work with that are almost basically saying, 'Is this the bar internally at the company? Is this the expectation?'",
+      "timestamp": "00:31:48",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 278,
+        "lineEnd": 278
+      },
+      "themes": ["culture", "standards", "team-dynamics"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "varun-mohan-q009",
+      "speaker": "Varun Mohan",
+      "text": "In a space that's moving this quickly, I think it's dangerous to have leaders that don't understand the technology deeply and are not building. It's very, very dangerous because there's too much armchair quarterbacking.",
+      "timestamp": "01:02:21",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 569,
+        "lineEnd": 569
+      },
+      "themes": ["leadership", "technical-depth", "building"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "varun-mohan-q010",
+      "speaker": "Varun Mohan",
+      "text": "We should be cannibalizing the existing state of our product every six to 12 months. Every six to 12 months, it should make our existing product look silly. It should almost make the form factor of our existing product look dumb.",
+      "timestamp": "01:06:54",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 638,
+        "lineEnd": 638
+      },
+      "themes": ["self-disruption", "innovation", "product-evolution"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "varun-mohan-q011",
+      "speaker": "Varun Mohan",
+      "text": "Imagine if you were a product manager that could actually very quickly make edits to the code base and just start pushing changes yourself. You probably get a tremendous amount of respect from your own engineering peers. You could probably get way more done because of that. I feel like there's no sort of ceiling at that point.",
+      "timestamp": "01:11:29",
+      "source": {
+        "slug": "varun-mohan",
+        "path": "episodes/varun-mohan/transcript.md",
+        "lineStart": 677,
+        "lineEnd": 677
+      },
+      "themes": ["agency", "product-management", "empowerment"],
+      "zones": ["velocity", "intuition"]
+    }
+  ],
+  "themes": ["lean-teams", "focus", "self-disruption", "agency", "hiring", "pivots", "AI-coding", "truth-seeking"],
+  "takeaways": [
+    "Be the smallest company you can be to satisfy your ambitions - lean teams force ruthless prioritization and prevent organizational politics from taking root.",
+    "Never fall in love with your ideas. Build a truth-seeking organization that continuously re-evaluates hypotheses and is willing to pivot overnight when assumptions prove wrong.",
+    "Aim to cannibalize your own product every 6-12 months. Incremental feature requests are table stakes; the real wins come from longer-term bets that disrupt your own form factor.",
+    "Agency is the most undervalued skill in the AI era. Domain experts who can build their own tools become force multipliers in ways their organizations never anticipated.",
+    "Win by getting an A+ on the one thing that matters, not by doing 10 things well. Companies are not school - you can fail nine things and still win if you nail the one that counts."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.20,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "varun-mohan-q006",
+      "why": "Argues companies should aim for an A+ in one thing and accept F's in everything else - directly contradicts conventional wisdom about well-rounded execution",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "varun-mohan-q010",
+      "why": "Advocates cannibalizing your own product every 6-12 months, making your current product look 'dumb' - most companies protect existing products rather than self-disrupt",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "varun-mohan-q005",
+      "why": "Claims that unnecessary hires will manufacture work and convince the organization it's important - challenges the assumption that more headcount equals more output",
+      "related_zones": ["focus", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI-coding", "lean-teams", "self-disruption", "hiring-philosophy", "agency"]
+  }
+}

@@ -116,7 +116,7 @@ export function getAllZones(): Zone[] {
 }
 
 // Total episodes analyzed
-export const TOTAL_EPISODES = 295;
+export const TOTAL_EPISODES = 294;
 
 // Get percentage of episodes that cover this zone's philosophy
 export function getZoneEpisodePercentage(zone: Zone): number {

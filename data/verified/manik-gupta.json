@@ -1,0 +1,199 @@
+{
+  "slug": "manik-gupta",
+  "quotes": [
+    {
+      "id": "manik-gupta-001",
+      "speaker": "Manik Gupta",
+      "text": "The first pattern is really about people. Surrounding yourself with the best people you can find. Play the long game. Once you find someone like that, stick to them. Because you will go on to do multiple things over your career with the same set of people. The shared trust and experience that you build with A plus people is just going to go a long way.",
+      "timestamp": "00:05:16",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 64,
+        "lineEnd": 79
+      },
+      "themes": ["career-growth", "people", "relationships", "long-game"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "manik-gupta-002",
+      "speaker": "Manik Gupta",
+      "text": "Building consumer products is very hard. People think it's easy, because each of us is a consumer. But man, it's hard. You're essentially trying to get so many things right. You have to reach a vast, heterogeneous set of users who have different needs. People have to choose you, you don't choose them.",
+      "timestamp": "00:21:47",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 169
+      },
+      "themes": ["consumer-products", "product-development", "product-market-fit"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "manik-gupta-003",
+      "speaker": "Manik Gupta",
+      "text": "There's a question before product market fit, which is how do you find company product fit? If the product is successful, does it actually serve the right place in a company's product portfolio? If it doesn't, don't do it. Why waste time? You should only invest because you can play to your strengths and create unique customer value.",
+      "timestamp": "00:26:57",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 191,
+        "lineEnd": 196
+      },
+      "themes": ["company-product-fit", "portfolio-strategy", "product-strategy"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "manik-gupta-004",
+      "speaker": "Manik Gupta",
+      "text": "In order to motivate the team, one of the best tricks is you just give a team a win. Winning really drives a lot of energy. We had a choice between launching something in six months versus launching something in a month. We chose the latter. You get confidence from getting things out, putting it out there.",
+      "timestamp": "00:18:47",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 152
+      },
+      "themes": ["team-motivation", "shipping", "leadership", "momentum"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "manik-gupta-005",
+      "speaker": "Manik Gupta",
+      "text": "The consumer stack has five capabilities: design-led thinking to delight users, strong focus and prioritization, the right metrics and instrumentation, high ship velocity with experimentation, and strong talent. If you get to an A job over time on each, you will start seeing very meaningful results.",
+      "timestamp": "00:31:01",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 235
+      },
+      "themes": ["consumer-products", "product-framework", "design-thinking", "metrics"],
+      "zones": ["perfection", "focus", "data"]
+    },
+    {
+      "id": "manik-gupta-006",
+      "speaker": "Manik Gupta",
+      "text": "Oftentimes companies will be like, 'I want to do this because some other company is doing it.' That is not a good reason. You should only invest in products because you can play to your strengths and you can create some unique consumer value. And by the way, you can do it better than anybody else out there.",
+      "timestamp": "00:27:57",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 196
+      },
+      "themes": ["product-strategy", "competitive-strategy", "company-product-fit"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "manik-gupta-007",
+      "speaker": "Manik Gupta",
+      "text": "On the what, it's really about real demonstrated impact. On the how, I just love people who are able to create both energy and create clarity. PMs who don't create clarity is such a time sink and the teams struggle so much. Then the last thing is followership. Do people want to work with them?",
+      "timestamp": "00:45:01",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 307
+      },
+      "themes": ["pm-career", "promotion", "leadership", "followership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "manik-gupta-008",
+      "speaker": "Manik Gupta",
+      "text": "The inflection points happen in two places. One is when someone has really successfully changed the trajectory of a product. The second is when you go from being a first line manager to becoming a manager of managers, and if you navigate that with very strong effectiveness, then you know this person has their act together.",
+      "timestamp": "00:48:24",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 315,
+        "lineEnd": 326
+      },
+      "themes": ["career-growth", "pm-career", "management", "inflection-points"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "manik-gupta-009",
+      "speaker": "Manik Gupta",
+      "text": "If you start putting process over progress, that's a problem. If process is helping progress, great. But if process is hurting progress, you should not be the person saying, 'No, no, no, we can't do it, because I'm just so married to the process.'",
+      "timestamp": "00:52:14",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 342,
+        "lineEnd": 346
+      },
+      "themes": ["product-management", "process-vs-progress", "execution"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "manik-gupta-010",
+      "speaker": "Manik Gupta",
+      "text": "The PM is not the CEO of the product. The PM is an enabler. It's a leverage job. Your job is to really make the team successful. Sometimes this can go to their head. People become too self-centered and that's a red flag.",
+      "timestamp": "00:53:48",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 348,
+        "lineEnd": 349
+      },
+      "themes": ["product-management", "pm-role", "team-leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "manik-gupta-011",
+      "speaker": "Manik Gupta",
+      "text": "The global patterns in consumer products in terms of user interface and what people expect are pretty universal. People spend too much time debating that users in market X are different. By and large the patterns are very similar. Build for the world from day one.",
+      "timestamp": "00:24:02",
+      "source": {
+        "slug": "manik-gupta",
+        "path": "episodes/manik-gupta/transcript.md",
+        "lineStart": 175,
+        "lineEnd": 181
+      },
+      "themes": ["consumer-products", "global-products", "localization"],
+      "zones": ["velocity", "discovery"]
+    }
+  ],
+  "themes": ["career-growth", "people", "relationships", "long-game", "consumer-products", "product-development", "product-market-fit", "company-product-fit", "portfolio-strategy", "product-strategy", "team-motivation", "shipping", "leadership", "momentum", "product-framework", "design-thinking", "metrics", "competitive-strategy", "pm-career", "promotion", "followership", "management", "inflection-points", "process-vs-progress", "execution", "pm-role", "team-leadership", "global-products", "localization"],
+  "takeaways": [
+    "Before chasing product-market fit at a large company, answer the harder question first: does this product have company-product fit -- does it belong in your portfolio and leverage your unique strengths?",
+    "The 'consumer stack' framework rates your team on five capabilities: design-led thinking, focus/prioritization, metrics/instrumentation, ship velocity, and talent -- grade yourself honestly on each.",
+    "Build consumer products for the world from day one -- global UI patterns are far more universal than teams assume, so don't over-index on market-specific variations.",
+    "The PM is not the CEO of the product -- the PM is an enabler whose job is to create clarity and energy for the team; self-centered PMs are a red flag.",
+    "Career inflection points come from two sources: changing the trajectory of a product, and successfully transitioning from managing ICs to managing managers."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.20,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "manik-gupta-003",
+      "why": "Introduces 'company-product fit' as a prerequisite to product-market fit -- argues that if a product doesn't fit your company's portfolio and strengths, finding PMF is pointless.",
+      "related_zones": ["focus", "alignment"]
+    },
+    {
+      "quoteId": "manik-gupta-010",
+      "why": "Directly challenges the popular 'PM is the CEO of the product' mantra, calling it one of the most incorrect things in the world and a career-damaging mindset.",
+      "related_zones": ["alignment"]
+    },
+    {
+      "quoteId": "manik-gupta-011",
+      "why": "Pushes back on the common belief that consumer products need heavy market-specific customization -- argues global patterns are universal and over-localization wastes resources.",
+      "related_zones": ["velocity", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["consumer-products", "product-management", "career-growth", "company-product-fit", "leadership"]
+  }
+}

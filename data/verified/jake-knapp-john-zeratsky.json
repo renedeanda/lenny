@@ -1,0 +1,194 @@
+{
+  "slug": "jake-knapp-john-zeratsky",
+  "quotes": [
+    {
+      "id": "jake-knapp-john-zeratsky-001",
+      "speaker": "Jake Knapp",
+      "text": "Most people try to get better and faster at doing what's right in front of them. We don't change the defaults in our environment so we can focus and spend time on these different more important things. Generally the things we want to do, they're big, they're not easy to start, they're slow to create dopamine hits, they're non-urgent.",
+      "timestamp": "00:15:40",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 149
+      },
+      "themes": ["productivity", "defaults", "focus", "priorities"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-002",
+      "speaker": "John Zeratsky",
+      "text": "Most productivity advice focuses on getting better and faster about doing the things that are already in front of you. The messages in your inbox, the meetings on your calendar. Our perspective is those are the defaults. The solution is to change those defaults. It's not about how do I go faster but how do I put the thing that is the most important first in my day.",
+      "timestamp": "00:10:16",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 131
+      },
+      "themes": ["productivity", "defaults", "prioritization"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-003",
+      "speaker": "Jake Knapp",
+      "text": "The notion with the highlight is imagine it's the end of the day, if someone asks you what was the highlight of your day, what would you say? Try to find a block that's 60 to 90 minutes. That highlight, that's the anchor of everything. That's the core, that's the foundation. Things can sometimes be a mess outside of that, and you still feel really good about your days.",
+      "timestamp": "00:20:30",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 176
+      },
+      "themes": ["highlight", "intention", "satisfaction", "focus"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-004",
+      "speaker": "John Zeratsky",
+      "text": "The calendar is this really powerful tool that most people just don't use as a tool, they just sort of hate it. But if you can use some of these tactics to reclaim it, and use it proactively as a tool for yourself, it can really help you structure your time around the things that you care about. We have a calendar template that we use as a team.",
+      "timestamp": "00:30:03",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 235
+      },
+      "themes": ["calendar", "time-management", "design-your-day"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-005",
+      "speaker": "Jake Knapp",
+      "text": "We strongly believe in people's intuition about how they should spend their time. If you have a boss, and a boss's boss's boss, you have great insight about what, if you had a window of time, would be the highest leverage thing for you to do. It might not show up on your OKRs. You have great intuition, and we want to create space for you to do that thing.",
+      "timestamp": "00:34:20",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 301
+      },
+      "themes": ["intuition", "autonomy", "leverage", "focus"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-006",
+      "speaker": "John Zeratsky",
+      "text": "The basic principle with laser is that willpower is never going to win. You're not going to white-knuckle your way through not looking at Twitter when you're trying to work. So it's all about making it hard, creating barriers to getting distracted. I stay logged out of those sites on my computer, except for when I want to use them for some specific purpose.",
+      "timestamp": "00:48:37",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 469,
+        "lineEnd": 470
+      },
+      "themes": ["distraction", "willpower", "barriers", "focus"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-007",
+      "speaker": "John Zeratsky",
+      "text": "I also signed up for two-factor authentication for everything, not because I care about somebody hacking my account, but because it's another speed bump. Even if your browser remembers your password, there's still another step, so it's sort of reverse engineering my own distractibility.",
+      "timestamp": "00:51:03",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 478,
+        "lineEnd": 478
+      },
+      "themes": ["distraction", "friction", "hacks", "self-awareness"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-008",
+      "speaker": "Jake Knapp",
+      "text": "There's this notion of attention residue. You pay attention to some things and they just stick in your head and they create this static. Those apps just create this static. The idea of email being on my phone and accessible at any time creates a discomfort, a disquiet that now that I've seen it and felt what it's like to not have it, I could not imagine experiencing it.",
+      "timestamp": "00:56:11",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 517,
+        "lineEnd": 517
+      },
+      "themes": ["attention-residue", "phone", "distraction", "awareness"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-009",
+      "speaker": "Jake Knapp",
+      "text": "Resetting expectations is just about having maybe a conversation with people you work with. A simple line in your email signature that says I'm checking email once or twice a day because I'm working on an important project. The real power of it is in changing our own expectations. Most of the stress comes internally, from our feeling that if we don't get back right away, we're not enough.",
+      "timestamp": "01:09:11",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 626,
+        "lineEnd": 631
+      },
+      "themes": ["email", "expectations", "stress", "boundaries"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-010",
+      "speaker": "Jake Knapp",
+      "text": "We basically are steered toward becoming reaction machines. I think this desire to be helpful is a big driver of it. CEOs and bosses, it works for them because they're applying their influence through being constantly reactive. But for the rest of us, if we're a reaction machine, we're not doing meaningful work, no Project A's and we're not really alive as humans. We're just chatbots.",
+      "timestamp": "01:16:42",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 673,
+        "lineEnd": 676
+      },
+      "themes": ["reactivity", "meaningful-work", "autonomy", "purpose"],
+      "zones": ["focus", "chaos", "intuition"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-011",
+      "speaker": "Jake Knapp",
+      "text": "Reflect is just simply the act of looking back on the day and treating the day not as a marble gravestone of your successes or failures, it's just an experiment that you ran. What happened in the experiment? Taking note of it in that lens. It's basically curiosity about your day instead of self-judgment about your day.",
+      "timestamp": "01:22:14",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky",
+        "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+        "lineStart": 730,
+        "lineEnd": 730
+      },
+      "themes": ["reflection", "experimentation", "mindset", "self-compassion"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["productivity", "focus", "time-management", "defaults", "distraction", "highlights", "reflection", "intentionality"],
+  "takeaways": [
+    "The Highlight method -- choosing one thing each day to focus 60-90 minutes of peak attention on -- is more powerful than any productivity hack because it creates intentionality, not just efficiency.",
+    "Willpower will never defeat distraction -- you must change the defaults by creating physical and digital barriers like deleting apps, logging out, and using two-factor auth as friction against yourself.",
+    "Most people are steered toward becoming reaction machines optimized for inbox zero and fast responses, but this reactive mode prevents meaningful Project A work from ever happening.",
+    "Your calendar should be a design tool, not something done to you -- blocking focus time, personal activities, and even meals creates structure that protects your most important work.",
+    "Treat each day as an experiment rather than a pass/fail test -- the reflect step of looking back with curiosity rather than judgment creates a sustainable improvement loop."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.10,
+    "chaos": 0.15,
+    "focus": 0.30
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jake-knapp-john-zeratsky-010",
+      "why": "Argues that being a fast, helpful responder -- the thing most companies reward -- actually turns you into a chatbot doing no meaningful work",
+      "related_zones": ["focus", "chaos"]
+    },
+    {
+      "quoteId": "jake-knapp-john-zeratsky-005",
+      "why": "Claims individuals have better intuition about highest-leverage work than their OKRs or bosses do -- challenges the top-down prioritization orthodoxy",
+      "related_zones": ["intuition", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["productivity", "time-management", "focus", "design-sprints"]
+  }
+}

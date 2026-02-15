@@ -1,0 +1,194 @@
+{
+  "slug": "dmitry-zlokazov",
+  "quotes": [
+    {
+      "id": "dmitry-zlokazov-001",
+      "speaker": "Dmitry Zlokazov",
+      "text": "Product owners are central to the company and its growth. They are end-to-end responsible for the product, for this part of the business, and for their customers to be happy. And for that, they do really everything. They run the teams, they define which roadmap we need to build to improve certain business metrics, and they also contribute to high-level company strategy, but then most importantly, they execute on it relentlessly.",
+      "timestamp": "00:07:28",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["ownership", "leadership", "execution"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "dmitry-zlokazov-002",
+      "speaker": "Dmitry Zlokazov",
+      "text": "What defines the specialization is probably 5, 10, 15% while 85 to 90% is common to each one of them. And those things are, so first of all, being a great problem solver and have a great linear thinking, but also have a creative approach towards nonlinear problems. Then building this context for customer and building empathy towards customer and translating it into the team.",
+      "timestamp": "00:10:55",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 160
+      },
+      "themes": ["problem-solving", "empathy", "product-management"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "dmitry-zlokazov-003",
+      "speaker": "Dmitry Zlokazov",
+      "text": "You need to get to the root cause of the problem really, really deep to understand what will work and what will not work. And that means that you also need to be quite technical, even if you are an expert, you still need to often go as deep as sitting with engineers and reading code.",
+      "timestamp": "00:11:48",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["depth", "technical-skill", "problem-solving"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "dmitry-zlokazov-004",
+      "speaker": "Dmitry Zlokazov",
+      "text": "It's not only going deep, but also being flexible and doing this switch between zooming in very deep and then raising on the level of helicopter view and then understanding, okay, so this seems very, very complex in details, but then when you zoom out, how can we simplify it and build a robust process around it, which is scalable?",
+      "timestamp": "00:14:01",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["scalability", "systems-thinking", "flexibility"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "dmitry-zlokazov-005",
+      "speaker": "Dmitry Zlokazov",
+      "text": "We also pay a lot of attention to look and feel of the app and how smooth it is and how frictionless the process. Not only we invest in reducing clicks and optimizing finals, but we also want people to feel that we really cared about them. We also want people to feel that we love our customers and we applied extra effort for the product to look great and feel great.",
+      "timestamp": "00:16:08",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 190,
+        "lineEnd": 190
+      },
+      "themes": ["product-quality", "user-experience", "wow-factor"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "dmitry-zlokazov-006",
+      "speaker": "Dmitry Zlokazov",
+      "text": "Essentially founders of the company, they still review a hundred percent of screens that are being shipped and everything that you will see in the app pass this review. And there are a lot of eyeballs that were scrutinizing this and thinking of all possible edge cases and nuances that we need to consider to make sure that every single customer will be happy.",
+      "timestamp": "00:19:31",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["founder-mode", "quality-control", "attention-to-detail"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "dmitry-zlokazov-007",
+      "speaker": "Dmitry Zlokazov",
+      "text": "Revolut values way more raw intellect and this unquenched hunger to build things rather than experience. Even if a candidate doesn't have a lot of years of experience, but they love building things, they've done it, they worked with engineers maybe in their own startup — these kind of people, they really thrive at Revolut.",
+      "timestamp": "00:25:12",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 241
+      },
+      "themes": ["hiring", "raw-intellect", "hunger"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "dmitry-zlokazov-008",
+      "speaker": "Dmitry Zlokazov",
+      "text": "We take maybe 7 or 10 projects which are most impactful for customers right now. And we go super deep into them, really, really deep sitting with engineers like reading code level. It's counterintuitive, but it works really well because teams talk to each other and they know which areas are being scrutinized right now.",
+      "timestamp": "00:32:57",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": ["management", "deep-dives", "accountability"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "dmitry-zlokazov-009",
+      "speaker": "Dmitry Zlokazov",
+      "text": "By giving people autonomy, they actually boost company growth. And as a result, I think Revolut is a strong outlier in the industry in terms of how many products being shipped and how fast they shipped.",
+      "timestamp": "00:38:56",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 304
+      },
+      "themes": ["autonomy", "velocity", "scaling"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "dmitry-zlokazov-010",
+      "speaker": "Dmitry Zlokazov",
+      "text": "When you launch a scrappy version and it's not getting traction, how do you know? Is it because the underlying idea is wrong or maybe your product just sucks and you need to improve it? So by forcing everyone to build a product that people will love, we kind of cut out this part of uncertainty. We can cut down the product in terms of functionality to just most critical features, but we will never compromise on the quality and UX and the aesthetics.",
+      "timestamp": "00:47:45",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 346,
+        "lineEnd": 346
+      },
+      "themes": ["product-quality", "mvp", "uncertainty"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "dmitry-zlokazov-011",
+      "speaker": "Dmitry Zlokazov",
+      "text": "Great product owners are very hands-on. They don't think of themselves as managers who just give tasks to people and wait them to complete it. They just go and get things done and they understand that most important things they will likely have to do themselves, and they understand that there needs to be relentless focus on execution, and if something is 99% done, it's closer to 0% rather than 100%.",
+      "timestamp": "00:55:49",
+      "source": {
+        "slug": "dmitry-zlokazov",
+        "path": "episodes/dmitry-zlokazov/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 394
+      },
+      "themes": ["execution", "hands-on", "last-mile"],
+      "zones": ["velocity", "focus"]
+    }
+  ],
+  "themes": ["ownership", "leadership", "execution", "product-quality", "wow-factor", "hiring", "raw-intellect", "hunger", "depth", "technical-skill", "problem-solving", "empathy", "scalability", "systems-thinking", "autonomy", "velocity", "founder-mode", "attention-to-detail", "hands-on", "last-mile", "mvp", "accountability"],
+  "takeaways": [
+    "Product owners at Revolut function as local CEOs with end-to-end ownership over their product, team, and business metrics — not scrum-style ticket managers.",
+    "Revolut prioritizes raw intellect and hunger to build over years of experience, believing that driven builders with less experience often outperform seasoned professionals who rest on their laurels.",
+    "Every screen shipped at Revolut is reviewed by the founders, maintaining a culture of quality obsession where the product must be lovable — never shipping scrappy MVPs that compromise on UX.",
+    "Leadership goes deep on 7-10 highest-impact projects at a time rather than spreading thin across 100+ initiatives, creating accountability ripple effects across the organization.",
+    "The 99% done is closer to 0% than 100% mentality reflects that shipping the product is only the beginning — ensuring adoption, marketing, and customer care follow-through is the real finish line."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.25,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "dmitry-zlokazov-007",
+      "why": "Challenges the industry norm of hiring for experience — Revolut explicitly prefers raw intellect and hunger over seasoned professionals, claiming experienced hires often lack the urgency to change the status quo.",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "dmitry-zlokazov-010",
+      "why": "Pushes back on the lean startup MVP approach — argues that shipping a scrappy product creates uncertainty about whether the idea or the execution failed, so you should always build something lovable even if minimal in scope.",
+      "related_zones": ["perfection", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-ownership", "hiring-philosophy", "product-quality"]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "varun-parmar",
+  "quotes": [
+    {
+      "id": "varun-parmar-q001",
+      "speaker": "Varun Parmar",
+      "text": "We believe the best work happens when we bring different diverse perspectives to the problem and then co-create the outcome that the customer is looking for. How do we actually come together as a team, and bring down the silos that might exist across functions?",
+      "timestamp": "00:06:43",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 78,
+        "lineEnd": 78
+      },
+      "themes": ["teamwork", "culture", "cross-functional"],
+      "zones": ["alignment"]
+    },
+    {
+      "id": "varun-parmar-q002",
+      "speaker": "Varun Parmar",
+      "text": "The fundamental value that Miro provides is that we enable teams. We take a team-centric lens. We're not saying, 'Hey, we're building a tool that just works for designers,' or 'Hey, we're building a tool that just works for engineers.' Because we fundamentally believe that innovation happens when cross-functional teams come together.",
+      "timestamp": "00:12:45",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 120
+      },
+      "themes": ["product-strategy", "innovation", "cross-functional"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "varun-parmar-q003",
+      "speaker": "Varun Parmar",
+      "text": "AMPED stands for analytics, marketing, product, engineering and design. When we say the product org, we actually don't mean product managers, designers and engineers. What we mean by product org in Miro is this AMPED function. By having this cross-functional representation where product marketing team is deeply embedded inside of each of these streams, we have different perspectives that come in.",
+      "timestamp": "00:19:43",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": ["org-design", "cross-functional", "product-marketing"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "varun-parmar-q004",
+      "speaker": "Varun Parmar",
+      "text": "One of the core philosophies that I have is that the success of a company is a direct relation of what the competition allows you to do. Every single instance when I looked at a company accelerated their growth or there was a deceleration of growth, it was a direct relation to what the competition allowed you to do. Competition is the biggest variable that allows you to figure that out.",
+      "timestamp": "00:24:24",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["competition", "strategy", "growth"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "varun-parmar-q005",
+      "speaker": "Varun Parmar",
+      "text": "Products either get better over a period of time or they get worse. Products never remain the same. Every single day, every single time somebody is pushing your code to production and you're releasing a feature or an enhancement, you are making the product better or you're making the product worse, but the products never remain same.",
+      "timestamp": "00:28:43",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 198
+      },
+      "themes": ["product-philosophy", "competition", "continuous-improvement"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "varun-parmar-q006",
+      "speaker": "Varun Parmar",
+      "text": "With every release that your competitor is making and every release that you're making, you're either making chess points, moves against them, positive points, or you're going negative. That framework actually drives an insane amount of clarity in terms of what you're doing and what the impact is going to be.",
+      "timestamp": "00:29:40",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["competition", "strategy", "decision-making"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "varun-parmar-q007",
+      "speaker": "Varun Parmar",
+      "text": "What you want to do is be the first one to hit the brick wall. If you consider yourself as an innovation-centric company, speed is the single biggest determinant in terms of who ends up being more successful versus not. The fundamental concept is can you be the first one to hit the brick wall where you have the learning faster than anyone else in the market.",
+      "timestamp": "00:32:00",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 228,
+        "lineEnd": 231
+      },
+      "themes": ["speed", "innovation", "learning"],
+      "zones": ["velocity", "chaos", "discovery"]
+    },
+    {
+      "id": "varun-parmar-q008",
+      "speaker": "Varun Parmar",
+      "text": "The reason why in some cases we are not able to move fast is because of roadblocks. My fundamental approach is to ensure that the product leads can instantly raise their hand and call out challenges. If you are able to resolve those issues, it starts a virtuous cycle where you can start to see those wins. Once you see those wins, you create that courage to do more things.",
+      "timestamp": "00:34:52",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 240
+      },
+      "themes": ["velocity", "leadership", "roadblocks"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "varun-parmar-q009",
+      "speaker": "Varun Parmar",
+      "text": "We have a motto in the product org: deliver customer value faster with high quality. Everything, from performance and reward system and measurements, everything is based on this one single statement. We believe customer value is only delivered when customers use it. Anytime as a PM at Miro, when you ship something, we are looking at what metric you were going to move and how much did it move.",
+      "timestamp": "00:37:51",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 249,
+        "lineEnd": 249
+      },
+      "themes": ["metrics", "customer-value", "product-culture"],
+      "zones": ["data", "velocity", "perfection"]
+    },
+    {
+      "id": "varun-parmar-q010",
+      "speaker": "Varun Parmar",
+      "text": "Velocity is more like the game of golf where you're just playing against yourself. We're just collecting all the information and making it available to everyone so they can see what the cycle times are. What we are interested in is from the time that you have an insight to the time you believe you can do something unique for your user, how long does it take for you to actually deliver that value?",
+      "timestamp": "00:44:13",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 297
+      },
+      "themes": ["velocity", "metrics", "cycle-time"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "varun-parmar-q011",
+      "speaker": "Varun Parmar",
+      "text": "We have a rolling six month roadmap that gets updated every three months. The first three months, we have an 80% confidence level. The next three months is 50%. What that allows the product teams to do is actually have flexibility based on what customers are asking for, competitive moves, and technology breakthroughs. They can pivot and they won't get penalized either by the customer or internally.",
+      "timestamp": "00:48:41",
+      "source": {
+        "slug": "varun-parmar",
+        "path": "episodes/varun-parmar/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 330
+      },
+      "themes": ["roadmap", "planning", "agility"],
+      "zones": ["focus", "velocity", "chaos"]
+    }
+  ],
+  "themes": ["competition", "velocity", "cross-functional", "product-culture", "org-design", "metrics", "leadership", "innovation"],
+  "takeaways": [
+    "Products never remain the same - every release either moves you ahead of or behind competitors. Treat each feature ship as a chess move with competitive consequences.",
+    "Be the first to hit the brick wall. Speed is the single biggest determinant of success in competitive markets because faster learning compounds into lasting advantages.",
+    "Embed cross-functional perspectives (analytics, marketing, product, engineering, design - AMPED) directly into product teams to prevent tunnel vision and improve positioning.",
+    "Measure velocity like golf - compete against yourself. Track cycle times from insight to customer value delivered, and make the data transparent so teams can benchmark and improve.",
+    "Use rolling roadmaps with degrading confidence levels (80% for 3 months, 50% for the next 3) to balance enterprise predictability with startup-like agility."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.15,
+    "intuition": 0.00,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "varun-parmar-q004",
+      "why": "Directly challenges the popular 'ignore the competition, focus on the customer' advice - argues competition is the biggest variable determining company growth",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "varun-parmar-q007",
+      "why": "Advocates for deliberately hitting brick walls fast rather than the common 'go slow to go fast' philosophy - speed over caution in innovation",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-management", "competition", "org-design", "velocity"]
+  }
+}

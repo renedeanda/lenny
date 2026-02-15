@@ -1,0 +1,208 @@
+{
+  "slug": "mihika-kapoor",
+  "quotes": [
+    {
+      "id": "mihika-kapoor-001",
+      "speaker": "Mihika Kapoor",
+      "text": "Vision is everything. The reality of the product development cycle is that it's so messy, so chaotic. You're going to have extreme highs and extreme lows. In order to ensure those are not discouraging but rather learning opportunities, it's so important to be anchored on that singular vision because then any step along the way feels like forward progress.",
+      "timestamp": "00:08:12",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 98,
+        "lineEnd": 98
+      },
+      "themes": ["vision", "resilience", "product-development"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "mihika-kapoor-002",
+      "speaker": "Mihika Kapoor",
+      "text": "You cannot go into a vacuum and come out with a compelling vision. You have to be fundamentally inseparable from your users and also fundamentally inseparable from your team. There is this important cross-pollination of functions that is really important in crafting a compelling vision.",
+      "timestamp": "00:09:03",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 101,
+        "lineEnd": 101
+      },
+      "themes": ["vision", "collaboration", "user-empathy"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "mihika-kapoor-003",
+      "speaker": "Mihika Kapoor",
+      "text": "We lean heavily into designing and prototyping even before a project gets a green light. Figma is very much a see-to-believe culture. Simply describing a product idea in words is not as compelling as seeing a testimonial from a user on top of a prototype or a mock, and really feeling the pain points.",
+      "timestamp": "00:17:54",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 140,
+        "lineEnd": 140
+      },
+      "themes": ["prototyping", "show-dont-tell", "vision"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "mihika-kapoor-004",
+      "speaker": "Mihika Kapoor",
+      "text": "Putting out an idea, even if it's totally wrong, is a much better catalyst for getting to a good solution because people are much more likely to react to an idea than to nothing. When you go into research, you want to go in with something that's at least an A- idea. If you talk to users and learn something, get to an A+. If not, at least you're not at a B.",
+      "timestamp": "00:25:11",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 176,
+        "lineEnd": 176
+      },
+      "themes": ["conviction", "iteration", "decision-making"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "mihika-kapoor-005",
+      "speaker": "Mihika Kapoor",
+      "text": "I am very direct and if you disagree with me, I want to know that. I'll do this thing where I'll be like, 'I think we should do this, but I feel medium confidence on it.' Always being very explicit about 'I feel really strongly about this' or 'I defer to you' or 'I do not have an opinion here.'",
+      "timestamp": "00:27:32",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 191,
+        "lineEnd": 191
+      },
+      "themes": ["communication", "directness", "confidence-levels"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "mihika-kapoor-006",
+      "speaker": "Mihika Kapoor",
+      "text": "Hype is something that you can't really create for something you don't believe in. The only way to create hype is to get people to see what you see. It's incredibly important to leverage very large forums like Maker Week, like Sales Kickoff, to get everyone to see what you're seeing and to be really scrappy about it.",
+      "timestamp": "00:36:50",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 230
+      },
+      "themes": ["hype", "momentum", "internal-evangelism"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "mihika-kapoor-007",
+      "speaker": "Mihika Kapoor",
+      "text": "My take is that your scope is the world. Nothing should ever be perceived as being out of bounds. Don't just think about the scope of what you're working on as the thing that happens to be in flight. Anyone can found something. You can found something inside of an existing company, you can found something from scratch.",
+      "timestamp": "00:54:25",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 308
+      },
+      "themes": ["agency", "intrapreneurship", "scope"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "mihika-kapoor-008",
+      "speaker": "Mihika Kapoor",
+      "text": "The key to being successful at zero-to-one is to honestly have optimism that borders on delusion. You need to have an almost reality distortion field where you don't hear the word no, or at the very least, you translate it into a not yet.",
+      "timestamp": "01:23:12",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 458,
+        "lineEnd": 458
+      },
+      "themes": ["zero-to-one", "persistence", "optimism"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "mihika-kapoor-009",
+      "speaker": "Mihika Kapoor",
+      "text": "When two people disagree about product strategy, it is because they have different assumptions. If you have the same assumptions, there is no reason why a person should think we should do X versus Y. You need to understand what are the assumptions that led to folks believing that that is the right idea.",
+      "timestamp": "00:52:03",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 296,
+        "lineEnd": 296
+      },
+      "themes": ["disagreement", "assumptions", "strategy"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "mihika-kapoor-010",
+      "speaker": "Mihika Kapoor",
+      "text": "In order for a company to stay competitive, a company needs to stay entrepreneurial. If you are not constantly thinking about what's next, defining the industry standard, seeing around the corner from your competitors, you will get taken over. That is a reality.",
+      "timestamp": "01:16:37",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 425,
+        "lineEnd": 425
+      },
+      "themes": ["intrapreneurship", "innovation", "competition"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "mihika-kapoor-011",
+      "speaker": "Mihika Kapoor",
+      "text": "Understanding motivations is one of the keys to running a team successfully. Some people do want a solution handed to them because the most exciting part is finding the technical solution in the code. Others find it really hard to feel passionately about a thing they have not contributed to. Cater to the individual, not the average.",
+      "timestamp": "01:29:58",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 488,
+        "lineEnd": 488
+      },
+      "themes": ["team-management", "motivation", "individualization"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "mihika-kapoor-012",
+      "speaker": "Mihika Kapoor",
+      "text": "I think about the person who is pushing a zero-to-one idea as being the keeper of the hearth. It is your job to stoke the flames and the embers if they are at risk of dying out. And it is also your job to ensure that the idea can spread like wildfire.",
+      "timestamp": "01:19:13",
+      "source": {
+        "slug": "mihika-kapoor",
+        "path": "episodes/mihika-kapoor/transcript.md",
+        "lineStart": 440,
+        "lineEnd": 440
+      },
+      "themes": ["zero-to-one", "persistence", "flame-metaphor"],
+      "zones": ["chaos", "focus"]
+    }
+  ],
+  "themes": ["zero-to-one", "vision", "conviction", "hype", "intrapreneurship", "culture", "directness", "team-motivation"],
+  "takeaways": [
+    "A compelling vision must be co-created with your team, not crafted in a vacuum - root it in user research, beautiful prototypes, and engineering feasibility simultaneously, not sequentially.",
+    "Start with a strong opinion even if it's wrong - people react better to an A- idea they can push back on than to nothing at all, and that reaction accelerates convergence to the right answer.",
+    "Being the keeper of the flame is the zero-to-one PM's core job - you must constantly stoke internal momentum through demos, hackathons, and every large company forum available to you.",
+    "Signal your confidence level explicitly when sharing opinions - saying 'I feel medium confidence' prevents the team from mistaking your hypothesis for a decree and keeps debate open.",
+    "Cater to individual motivations, not the average team member - some engineers want to shape the vision while others want clear specs, and understanding this variance unlocks the highest-functioning teams."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.20,
+    "chaos": 0.25,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "mihika-kapoor-008",
+      "why": "Success at zero-to-one requires optimism bordering on delusion - translate every 'no' into 'not yet' rather than accepting rejection rationally",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "mihika-kapoor-007",
+      "why": "Your scope is the world, not your assigned project - rejects the notion that PMs should stay in their lane",
+      "related_zones": ["chaos", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["zero-to-one", "intrapreneurship", "vision-crafting", "team-culture"]
+  }
+}

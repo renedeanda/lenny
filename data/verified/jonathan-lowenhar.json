@@ -1,0 +1,199 @@
+{
+  "slug": "jonathan-lowenhar",
+  "quotes": [
+    {
+      "id": "jonathan-lowenhar-q001",
+      "speaker": "Jonathan Lowenhar",
+      "text": "To be a founder is a state of being, it's an attitude. To be a CEO is a craft. The more founders who can accept that those are two separate things and they're both equally important to build an ascendant startup, the better all of us will be.",
+      "timestamp": "00:09:34",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 125
+      },
+      "themes": ["founder-ceo", "leadership", "skill-building"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jonathan-lowenhar-q002",
+      "speaker": "Jonathan Lowenhar",
+      "text": "Founder mode gets me angry. It really felt like an excuse. We were giving founders a permission to not learn the job. The things required to launch a company are not the same as grow a company as scale a company as exit a company, and the best startup CEOs learn them all along the way.",
+      "timestamp": "00:09:42",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 125
+      },
+      "themes": ["founder-mode", "leadership", "skill-building", "growth"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "jonathan-lowenhar-q003",
+      "speaker": "Jonathan Lowenhar",
+      "text": "We like to joke that more companies die from suicide than homicide, and it's grim, but also if the two or three people in charge of the business can't get along, nothing else matters. It's all going to break apart.",
+      "timestamp": "00:13:05",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["co-founder-dynamics", "startup-failure", "team"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "jonathan-lowenhar-q004",
+      "speaker": "Jonathan Lowenhar",
+      "text": "The laissez-faire CEO insanely believes that I can just hire great people and utterly ignore them and let markets take care of themselves. I have never met anyone that didn't benefit from good management and the laissez-faire CEO believes that management is not required.",
+      "timestamp": "00:17:59",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 152
+      },
+      "themes": ["management", "leadership", "ceo-failure-modes"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "jonathan-lowenhar-q005",
+      "speaker": "Jonathan Lowenhar",
+      "text": "In any given time, companies are working backwards from one of four things, whether they like it or not. I am working backwards from an exit. I'm working backwards from a next fundraise. I'm working backwards from profitability or I'm working backwards from winding down. We don't talk about the fourth one that much, but I got to choose one.",
+      "timestamp": "00:23:02",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 181
+      },
+      "themes": ["planning", "strategy", "working-backwards"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "jonathan-lowenhar-q006",
+      "speaker": "Jonathan Lowenhar",
+      "text": "Magic Box argues that the best outcomes for early-stage startups don't happen through a traditional sales process. You're never for sale. In fact, you have seduced a buyer. They see the fantasy, they fall in love. And there are three stages: learn the fantasy, prove the fantasy, and quantify the fantasy.",
+      "timestamp": "00:28:05",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["m-and-a", "startup-exits", "strategy"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jonathan-lowenhar-q007",
+      "speaker": "Jonathan Lowenhar",
+      "text": "You don't sell to a company. Magic Box is about finding the person. You're finding the champion on the other side, the person who is motivated for their own reasons, career, money, reputation. They see the fantasy. They fall in love. And this person says, I am in love with this idea.",
+      "timestamp": "00:31:18",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 241,
+        "lineEnd": 241
+      },
+      "themes": ["m-and-a", "sales", "champions"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "jonathan-lowenhar-q008",
+      "speaker": "Jonathan Lowenhar",
+      "text": "You should hire people who have already done the thing you need to have done next. Start with, it's 12 months later, you hired the person, they started today, 12 months have gone by, you're clinking champagne because of how great it's been. What's changed about the business? Document it. And then when you interview people, look for people that have already done that stuff.",
+      "timestamp": "00:51:18",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 361
+      },
+      "themes": ["hiring", "working-backwards", "recruiting"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jonathan-lowenhar-q009",
+      "speaker": "Jonathan Lowenhar",
+      "text": "We think there are three types of executives that startups end up hiring over time. We call them the architect, the optimizer, and the scaler. I only would want to bring on an architect if they'd been an architect before. If they'd only been an optimizer, they're going to fail because they've never written playbook from scratch.",
+      "timestamp": "00:57:07",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 391
+      },
+      "themes": ["hiring", "executive-hiring", "company-stage"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "jonathan-lowenhar-q010",
+      "speaker": "Jonathan Lowenhar",
+      "text": "All we're looking for in the beginning is a white-hot center of opportunity, a small population that is an enormous fan that's getting enormous impact. We can worry about adjacencies and expansion later. I like to remind them that Amazon just sold books. We can start with one thing and be great at it.",
+      "timestamp": "01:12:00",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 472
+      },
+      "themes": ["ideal-customer-profile", "focus", "go-to-market"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "jonathan-lowenhar-q011",
+      "speaker": "Jonathan Lowenhar",
+      "text": "That little voice when you get really still, the quiet one that says you should marry this person, you should take this job, you should start this company. That voice is who you are. It's not your brain. Your brain is a tool. It's our hands, it's our feet, just a tool. It's a pattern recognition machine. But who you are, if you can watch your brain, you know what you're thinking, that means you're not your brain.",
+      "timestamp": "01:15:31",
+      "source": {
+        "slug": "jonathan-lowenhar",
+        "path": "episodes/jonathan-lowenhar/transcript.md",
+        "lineStart": 499,
+        "lineEnd": 508
+      },
+      "themes": ["intuition", "founder-psychology", "decision-making"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["founder-ceo", "leadership", "skill-building", "founder-mode", "growth", "co-founder-dynamics", "startup-failure", "team", "management", "ceo-failure-modes", "planning", "strategy", "working-backwards", "m-and-a", "startup-exits", "champions", "sales", "hiring", "recruiting", "executive-hiring", "company-stage", "ideal-customer-profile", "focus", "go-to-market", "intuition", "founder-psychology", "decision-making"],
+  "takeaways": [
+    "Being a founder and being a CEO are two separate skill sets - the best startup leaders commit to learning the CEO craft rather than using 'founder mode' as an excuse to avoid it.",
+    "Every company is working backwards from one of four outcomes: exit, fundraise, profitability, or winding down - pick one and plan accordingly rather than drifting.",
+    "The best acquisitions happen through the Magic Box approach: seduce a buyer with a fantasy of the future rather than putting up a for-sale sign based on historical metrics.",
+    "When hiring, start by defining what success looks like 12 months from now, then find people who have already done that exact type of work before.",
+    "Trust your founder intuition - the quiet inner voice that emerges when you are still is who you actually are, not your reactive brain."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jonathan-lowenhar-q002",
+      "why": "Directly opposes the viral 'founder mode' concept by arguing it's an excuse for founders to avoid learning the CEO craft - a contrarian stance in the current startup zeitgeist",
+      "related_zones": ["perfection", "velocity"]
+    },
+    {
+      "quoteId": "jonathan-lowenhar-q006",
+      "why": "Flips the conventional M&A playbook by arguing startups should never put up a for-sale sign but instead seduce buyers through a fantasy of the future - completely inverts the traditional process",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "jonathan-lowenhar-q004",
+      "why": "Challenges the popular tech narrative of hiring great people and getting out of their way - argues no one has ever not benefited from good management",
+      "related_zones": ["alignment", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["founder-ceo-development", "hiring", "startup-exits", "go-to-market", "leadership"]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "kayvon-beykpour",
+  "quotes": [
+    {
+      "id": "kayvon-beykpour-q001",
+      "speaker": "Kayvon Beykpour",
+      "text": "The sacred cows are their own roadmap. It's like a built-in free roadmap of like, all right, what are all the things that you think we're not allowed to change? Let's start there.",
+      "timestamp": "00:28:50",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["product", "culture", "innovation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "kayvon-beykpour-q002",
+      "speaker": "Kayvon Beykpour",
+      "text": "You can't change culture without having alignment from the top. It's difficult to change culture when you have a pocket of a company trying to advocate for change.",
+      "timestamp": "00:24:37",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 205
+      },
+      "themes": ["culture", "leadership", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "kayvon-beykpour-q003",
+      "speaker": "Kayvon Beykpour",
+      "text": "I was like, I might flame out completely, but hell if I don't try. And so that was both fun and exhausting. But it was as simple as starting with we are voracious users of the product ourselves, and if we aren't, that's its own problem.",
+      "timestamp": "00:27:25",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 223
+      },
+      "themes": ["product", "courage", "dogfooding"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "kayvon-beykpour-q004",
+      "speaker": "Kayvon Beykpour",
+      "text": "One of the really important things about driving cultural change at the leadership level is you've got to identify whether someone's on the wagon or off the wagon and either quickly convince them to get on the wagon or if they're not on the wagon, they shouldn't be there.",
+      "timestamp": "00:36:35",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 271
+      },
+      "themes": ["leadership", "culture", "hiring"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "kayvon-beykpour-q005",
+      "speaker": "Kayvon Beykpour",
+      "text": "You need to staff projects with the team of people that are well equipped from a skillset standpoint, but more importantly have an obsession with the idea they want to pursue. Every project, whether big or small, there is an element of you need to will this thing into existence because it's hard.",
+      "timestamp": "00:44:50",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 313
+      },
+      "themes": ["team-building", "staffing", "obsession"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "kayvon-beykpour-q006",
+      "speaker": "Kayvon Beykpour",
+      "text": "Taking a bet on people and especially throwing them in a deep end, which on paper they may be unqualified for, I think is one of the best ways of driving change. You learn so much more when you're thrown into the deep end than in other contexts.",
+      "timestamp": "00:41:52",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 298
+      },
+      "themes": ["leadership", "talent", "growth"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "kayvon-beykpour-q007",
+      "speaker": "Kayvon Beykpour",
+      "text": "Every framework at its limit is followed to such a religious extent it's just unhelpful. You need to have nuance in how you leverage these frameworks. Otherwise, you lose the forest through the trees and you end up following a process for the sake of following a process.",
+      "timestamp": "00:48:00",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["frameworks", "product", "judgment"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "kayvon-beykpour-q008",
+      "speaker": "Kayvon Beykpour",
+      "text": "I don't give two shits what metrics that drives for Amazon. That is one of the most customer hostile things I experience in my daily life. The problem with these frameworks is that you lose nuance and your metrics aren't actually aligned with the customer's benefit.",
+      "timestamp": "00:49:47",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 334,
+        "lineEnd": 334
+      },
+      "themes": ["metrics", "customer-focus", "product"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "kayvon-beykpour-q009",
+      "speaker": "Kayvon Beykpour",
+      "text": "Twitter was really great at spotting meaningful changes in consumer social behavior. They spotted Vine and acquired Vine, botched it, spotted Periscope, botched it, spotted Instagram. They were phenomenal at spotting changes but then botching the execution.",
+      "timestamp": "01:06:35",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 406
+      },
+      "themes": ["execution", "strategy", "acquisitions"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "kayvon-beykpour-q010",
+      "speaker": "Kayvon Beykpour",
+      "text": "You need a special type of person to be able to both operate within the existing structure and change the structure, to know when to use the system and to know when to fuck the system.",
+      "timestamp": "00:41:02",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 295,
+        "lineEnd": 295
+      },
+      "themes": ["leadership", "culture-change", "entrepreneurship"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "kayvon-beykpour-q011",
+      "speaker": "Kayvon Beykpour",
+      "text": "The best cheat codes for getting better at building products is just being a voracious user of products. Trying new things, feeling out what works well, what doesn't. There's just no replacement for that. It's such an effective way of honing your own taste.",
+      "timestamp": "01:18:19",
+      "source": {
+        "slug": "kayvon-beykpour",
+        "path": "episodes/kayvon-beykpour/transcript.md",
+        "lineStart": 460,
+        "lineEnd": 460
+      },
+      "themes": ["product-sense", "taste", "learning"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["culture-change", "product-leadership", "sacred-cows", "execution", "frameworks", "consumer-products", "acquihires", "taste"],
+  "takeaways": [
+    "Sacred cows are your hidden roadmap - the things everyone says you can't change are exactly where the biggest opportunities lie for product innovation.",
+    "Staff for obsession, not availability - projects succeed when led by people who desperately want to build the thing, not whoever happens to be free.",
+    "Frameworks become toxic at the limit - Jobs-to-be-Done, OKRs, and metrics all fail when followed religiously without judgment and nuance.",
+    "Cultural change requires top-down alignment - you can't transform an organization from a pocket; leaders must quickly identify who's on the wagon and who needs to go.",
+    "Acquihires of hungry founders are the best weapon against organizational inertia - entrepreneurial leaders know when to use the system and when to break it."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.20,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "kayvon-beykpour-q001",
+      "why": "Sacred cows as a roadmap flips conventional thinking - instead of respecting constraints, actively targets them as the best opportunities",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "kayvon-beykpour-q008",
+      "why": "Directly attacks metrics-driven product development, argues customer-hostile experiences persist because they're good for numbers",
+      "related_zones": ["intuition", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["culture-change", "consumer-products", "product-leadership", "execution"]
+  }
+}

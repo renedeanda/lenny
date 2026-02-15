@@ -1,0 +1,199 @@
+{
+  "slug": "jen-abel",
+  "quotes": [
+    {
+      "id": "jen-abel-001",
+      "speaker": "Jen Abel",
+      "text": "Founder led sales is not about revenue on day one. It is about learning as fast as humanly possible to get to that pulse, so that you can earn the right to sell. There's this concept that I talk about, which is you're going out to run sales to collect the research, which is what founder led sales is. And then you have sales for revenue, which is that post founder led sales stage.",
+      "timestamp": "00:35:47",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": ["founder-led-sales", "learning", "customer-discovery"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "jen-abel-002",
+      "speaker": "Jen Abel",
+      "text": "The founder is the visionary. No one's going to be able to speak to it like they can. No salesperson, really no non-founder. The second is that they are the highest order in the hierarchy of the startup. It's the founder. So the market is excited to talk to a founder because they usually know something that the market doesn't know.",
+      "timestamp": "00:07:06",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 93
+      },
+      "themes": ["founder-led-sales", "competitive-advantage", "vision"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "jen-abel-003",
+      "speaker": "Jen Abel",
+      "text": "The founder can see something budding in a conversation that a salesperson won't be able to see. And it's those budding moments that's where all the gold lives. Their day one market vision is never the same vision that takes them in a product market fit. It's these little budding moments where you get to that budding insight because you went deeper and deeper through these calls and conversations.",
+      "timestamp": "00:07:50",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 96
+      },
+      "themes": ["product-market-fit", "insight", "customer-discovery"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jen-abel-004",
+      "speaker": "Jen Abel",
+      "text": "Before you buy any tool, don't even think about tools. Can you manually find 30 people that you want to spend 15 to 20 minutes writing a rock solid note to? Are there 30 people that you are deeply excited to learn from, that you are willing to invest 15 to 20 minutes to write a really thoughtful note? Let's just start there.",
+      "timestamp": "00:23:28",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 240
+      },
+      "themes": ["outbound", "lead-generation", "focus"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "jen-abel-005",
+      "speaker": "Jen Abel",
+      "text": "Everyone always comes back to we have the sales problem, we have an outbound problem. But the vast majority of the time, maybe you're just not saying anything interesting at all. Maybe the problem you're looking to solve just isn't widely felt. Maybe the perspective you have needs another level of refinement because you're just not getting those bites.",
+      "timestamp": "00:19:46",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 198
+      },
+      "themes": ["messaging", "product-market-fit", "honesty"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "jen-abel-006",
+      "speaker": "Jen Abel",
+      "text": "If you tell them you have a fully baked, ready to go product, they're not going to give you honest feedback. When you're vulnerable and when you tell them it's not fully built yet, even if it is, you will get more raw and honest feedback. Because it is easier to tell someone, hey, before you make this mistake, I actually don't care about that. If you've already built it, they're not going to give you that feedback.",
+      "timestamp": "00:32:20",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 330
+      },
+      "themes": ["vulnerability", "feedback", "customer-discovery"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "jen-abel-007",
+      "speaker": "Jen Abel",
+      "text": "Late stage sales and early stage sales are very, very different. And I think that's where a lot of early stage founders get tripped up as they're taking late stage sales advice, usually coming from an investor. Or they've maybe hired a salesperson that's focused on more mature sales.",
+      "timestamp": "00:34:55",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 345,
+        "lineEnd": 345
+      },
+      "themes": ["early-stage", "sales-strategy", "mistakes"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "jen-abel-008",
+      "speaker": "Jen Abel",
+      "text": "Everyone that I know says they have a bottom of funnel problem. It's never a bottom of funnel problem. It's a top of funnel problem. I've actually never seen a bottom of funnel sales problem. It's always qualification, which is a symptom of not reaching out to the right person, not having the right messaging, not solving the right problem, or not being different enough.",
+      "timestamp": "01:10:25",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 690,
+        "lineEnd": 690
+      },
+      "themes": ["qualification", "funnel", "diagnosis"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "jen-abel-009",
+      "speaker": "Jen Abel",
+      "text": "I think product market fit when you start with the market first, it's accelerated. But I will say this, I think that it's also capped on the upside. Because you're starting with the market versus the Airtable and the Figma, which started with the technical insight and has uncapped upside. But one is certainly riskier than the other. Starting with a product is a hell of a lot riskier.",
+      "timestamp": "00:22:00",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 222
+      },
+      "themes": ["product-market-fit", "strategy", "risk"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jen-abel-010",
+      "speaker": "Jen Abel",
+      "text": "Is service-based revenue great? No, we all know why it's not great. But it's great in the sense that it shows intent. It's great in the sense that you can call them a customer. It's great in the sense that now you can use their logo. And it's great in the sense because you are getting paid to educate them. You are getting paid to help them design their process. This is where all the power lives.",
+      "timestamp": "00:44:13",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 444,
+        "lineEnd": 444
+      },
+      "themes": ["services", "revenue", "enterprise-sales"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "jen-abel-011",
+      "speaker": "Jen Abel",
+      "text": "Sales is supposed to feel fun for the buyer. They should be like, this feels fun. This person's invigorating. They're going to change my world. They're going to make me see things differently. They're going to get me promoted. They're going to help me increase my influence internally. And so many salespeople are so boring. Bring the passion. Bring the energy. That is felt by the market.",
+      "timestamp": "01:11:23",
+      "source": {
+        "slug": "jen-abel",
+        "path": "episodes/jen-abel/transcript.md",
+        "lineStart": 702,
+        "lineEnd": 702
+      },
+      "themes": ["sales-energy", "buyer-experience", "passion"],
+      "zones": ["intuition", "alignment"]
+    }
+  ],
+  "themes": ["founder-led-sales", "customer-discovery", "enterprise-sales", "product-market-fit", "qualification", "vulnerability", "outbound", "services"],
+  "takeaways": [
+    "Founder led sales is about learning, not revenue -- founders should treat early sales as research to earn the right to sell, not as a revenue-generating exercise on day one.",
+    "Lead with a counterintuitive insight, not a product pitch -- cold outreach should focus on a novel problem perspective that makes the reader pause and think, not a list of features or claims of being 'better.'",
+    "Qualification is the real bottleneck, not closing -- most founders blame bottom-of-funnel conversion when the true problem is reaching the wrong people with the wrong message at the top of the funnel.",
+    "Vulnerability unlocks honest feedback -- telling prospects your product is still early (even if it's further along) creates psychological safety that yields more raw and actionable insights than a polished demo.",
+    "Selling services before technology is a valid and often necessary strategy -- 40-50% of B2B startups need to offer some form of service engagement to educate buyers and establish a foothold before the technology sale can happen."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jen-abel-006",
+      "why": "Advises founders to downplay product readiness even if it is built, in order to extract honest feedback -- counterintuitive to the instinct to impress prospects with a polished product",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "jen-abel-010",
+      "why": "Argues that 40-50% of B2B SaaS startups should sell services before technology, directly contradicting investor pressure and conventional wisdom that SaaS companies should avoid service revenue",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "jen-abel-008",
+      "why": "Claims bottom-of-funnel sales problems don't actually exist -- it's always a top-of-funnel qualification issue, challenging the common diagnosis founders make about their pipeline",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "early-stage-advisor",
+    "primary_topics": ["founder-led-sales", "enterprise-sales", "customer-discovery", "go-to-market"]
+  }
+}

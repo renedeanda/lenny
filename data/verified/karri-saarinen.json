@@ -1,0 +1,199 @@
+{
+  "slug": "karri-saarinen",
+  "quotes": [
+    {
+      "id": "karri-saarinen-001",
+      "speaker": "Karri Saarinen",
+      "text": "Sometimes people think that craft is about perfecting things and perfecting them in a very organized way or very early on. The downside with this perfection mindset is that it can be sometimes hard to put anything out because nothing is ever fully perfect. We try to balance this thinking with the fact that we should be always pushing things out very quickly, but then also fixing them, improving them very quickly.",
+      "timestamp": "00:11:21",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["craft", "iteration", "shipping"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "karri-saarinen-002",
+      "speaker": "Karri Saarinen",
+      "text": "One of the things I think that happens is when you build a team and you start creating these very specific roles for everything I think that often the PM can be the ones figuring things out and making decisions and guiding the team, but they're not the ones building the feature. They're not there looking at it the whole day like where does this button go or how does it work?",
+      "timestamp": "00:14:32",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["team-structure", "ownership", "product-management"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "karri-saarinen-003",
+      "speaker": "Karri Saarinen",
+      "text": "I think these things happen when you give people more of the ownership of the project and also the space to do that and then you also have leadership or generally the company culture that values the quality or the craft.",
+      "timestamp": "00:16:12",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 136
+      },
+      "themes": ["ownership", "culture", "craft"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "karri-saarinen-004",
+      "speaker": "Karri Saarinen",
+      "text": "In order to build quality things or build things in a certain way it's actually better if people actually also spend some time thinking about things and not just executing.",
+      "timestamp": "00:19:06",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["quality", "thinking", "execution"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "karri-saarinen-005",
+      "speaker": "Karri Saarinen",
+      "text": "My design mantra is always design something for someone. It is very hard to design everything for everyone because you just end up with a very generalized solution. So then what we are trying to do with the opinionated solution is that that's the best solution or at the most optimized solution we think of.",
+      "timestamp": "00:40:27",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
+      },
+      "themes": ["design", "opinionated-software", "focus"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "karri-saarinen-006",
+      "speaker": "Karri Saarinen",
+      "text": "Sometimes people use data a lot or too much because they're worrying or they're afraid that, will I make the wrong choice? And I'm using data to make the choice for me. But then you might still feel like this is not the right choice, but the data is telling me is the right choice. The company and you need to be okay that sometimes we make mistakes and we made the wrong choice and then we just can fix it. But at least we made that choice and the data didn't make that choice for us.",
+      "timestamp": "00:49:26",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
+      },
+      "themes": ["intuition", "decision-making", "data"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "karri-saarinen-007",
+      "speaker": "Karri Saarinen",
+      "text": "We are in the retention business. And the trust business that ideally we have a company starting use Linear very early on and then they stay with us forever. And I think the only way we can do that is we need to continuously deliver them good quality product and maintain that trust.",
+      "timestamp": "00:50:50",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 352
+      },
+      "themes": ["retention", "trust", "quality"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "karri-saarinen-008",
+      "speaker": "Karri Saarinen",
+      "text": "We often talk about the companies avoid the side quests. There's always ideas people have and it's a good thing and it's like people have ideas, but then it might be like, 'Yeah, let's make this T-shirt, so let's make this thing.' And then we're like, 'Well, does it help the customers? Does it help the product?' This sounds like a side quest to me, and basically means we shouldn't do it. This doesn't progress the main quest line, which is building this product and making it awesome for these customers.",
+      "timestamp": "00:55:38",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 403,
+        "lineEnd": 403
+      },
+      "themes": ["focus", "prioritization", "strategy"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "karri-saarinen-009",
+      "speaker": "Karri Saarinen",
+      "text": "It was always easier to work with a smaller team, very high quality people than with a very large team of more average people. It's almost like it's always faster and better output when you have a much more smaller team. That was the thing with Linear too, is we just believe that you can actually build better with less people than you can with more people.",
+      "timestamp": "00:57:09",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 415,
+        "lineEnd": 415
+      },
+      "themes": ["hiring", "team-size", "quality"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "karri-saarinen-010",
+      "speaker": "Karri Saarinen",
+      "text": "We want to build much... I think a company that has less employees, which means that it's... We don't want that many specialized roles or too specific areas of ownership or something. We just think that we could have less people and those people can take on more scope and they can own more scope.",
+      "timestamp": "01:00:51",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 436,
+        "lineEnd": 436
+      },
+      "themes": ["hiring", "generalists", "ownership"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "karri-saarinen-011",
+      "speaker": "Karri Saarinen",
+      "text": "Go slow to go fast. Sometimes people have a tendency to rushing into things and especially, I think, in startups, but other places too. I think urgency is important, but then sometimes you have too much urgency and you are rushing things, and what happens is that you rushed it and now you need to come back to fix it. Sometimes I like to think that you should take some time to actually think about it and then do it. In the end, it's going to be faster that way.",
+      "timestamp": "01:36:02",
+      "source": {
+        "slug": "karri-saarinen",
+        "path": "episodes/karri-saarinen/transcript.md",
+        "lineStart": 676,
+        "lineEnd": 676
+      },
+      "themes": ["pace", "quality", "thinking"],
+      "zones": ["perfection", "focus"]
+    }
+  ],
+  "themes": ["craft", "quality", "focus", "opinionated-software", "hiring", "intuition", "team-structure", "ownership", "design", "retention"],
+  "takeaways": [
+    "Craft is not about perfecting things in isolation -- it's about shipping quickly, getting feedback early from select customers, and then iterating rapidly toward quality before a general release.",
+    "Opinionated software beats flexible software for productivity tools. Design for someone specific rather than everyone, so users spend time on their work instead of configuring the tool.",
+    "Small, high-caliber teams with broad ownership outperform large, specialized teams. Hire people who are more than their title and can think about product, not just execute their narrow function.",
+    "Trust your intuition over data-driven decisions when you have deep customer understanding. Spend time with customers directly so the whole team builds enough context to make confident judgment calls without A/B tests.",
+    "Ruthlessly avoid side quests. Apply the RPG framework: if an activity does not progress the main quest line of building the product and serving customers, it should be deferred or eliminated."
+  ],
+  "zone_influence": {
+    "velocity": 0.12,
+    "perfection": 0.30,
+    "discovery": 0.03,
+    "data": 0.02,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.03,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "karri-saarinen-006",
+      "why": "Argues against data-driven decision making, saying people use data out of fear and should trust their own judgment even if it means making mistakes",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "karri-saarinen-002",
+      "why": "Challenges the value of dedicated product managers by arguing that PMs are disconnected from the details of what they ship, and engineers/designers should own product decisions",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "karri-saarinen-009",
+      "why": "Claims smaller teams always produce better and faster output than larger teams, directly countering the common startup instinct to scale headcount for growth",
+      "related_zones": ["perfection", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["craft", "opinionated-software", "hiring", "focus", "intuition-over-data"]
+  }
+}

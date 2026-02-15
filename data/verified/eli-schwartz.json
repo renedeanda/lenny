@@ -1,0 +1,224 @@
+{
+  "slug": "eli-schwartz",
+  "quotes": [
+    {
+      "id": "eli-schwartz-001",
+      "speaker": "Eli Schwartz",
+      "text": "I think of SEO as a product. And I think the product managers are the people that should be thinking about this SEO question because it's a product question. There are users that are coming in from the search channel. What is the product that I need to create for them? What is the experience that I need to create for them?",
+      "timestamp": "00:23:20",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 237
+      },
+      "themes": ["product-thinking", "seo-strategy", "user-experience"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "eli-schwartz-002",
+      "speaker": "Eli Schwartz",
+      "text": "The product people now need to think about how do we position this to the user that is not going to find out about this from a social channel, the user that's not going to be attracted by an ad, the user that's not going to discover this tool from a trade show. This is a user that's doing their own self-discovery journey, and this is what is the thing they're looking for and how do we position this product in a way that they're going to find it.",
+      "timestamp": "00:24:35",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 246
+      },
+      "themes": ["product-thinking", "user-journey", "positioning"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "eli-schwartz-003",
+      "speaker": "Eli Schwartz",
+      "text": "I think step one is the step that almost everyone misses on SEO, which is be the user. Try to understand who your user is. So the first thing anybody should really do around anything that they're trying to do SEO is try to be that customer. If I am a user of this SaaS, I'm building SaaS, and I want to market this tool, what is a user going to look for?",
+      "timestamp": "00:31:54",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 312
+      },
+      "themes": ["customer-empathy", "user-research", "seo-strategy"],
+      "zones": ["discovery", "intuition", "data"]
+    },
+    {
+      "id": "eli-schwartz-004",
+      "speaker": "Eli Schwartz",
+      "text": "If you can't answer the question about what is it that someone's going to do a search on, then don't do SEO because SEO is about appealing to that user. If you can understand what the user should do around looking for whatever product you have, then that's the first step for SEO.",
+      "timestamp": "00:33:09",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 315,
+        "lineEnd": 315
+      },
+      "themes": ["seo-strategy", "user-journey", "decision-making"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "eli-schwartz-005",
+      "speaker": "Eli Schwartz",
+      "text": "We have to really put away the myth that SEO is free because it's absolutely not free. There's a cost in time. There's a cost and resources, and, of course, there's the direct expense for SEO. If you're deciding that you should do SEO, so now we have to go through this evaluation. Again, this is where I think of it as a product where you have all these product ideas and what should you spend time and money on.",
+      "timestamp": "00:39:28",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["resource-allocation", "seo-strategy", "trade-offs"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "eli-schwartz-006",
+      "speaker": "Eli Schwartz",
+      "text": "I don't think restaurants typically should have a website. Not only should they not do SEO, but I don't know that they should have a website. Because if you think about the buyer journey for a person looking for food, they don't typically go to a website. If you're looking for pizza, you're going to Google Maps, DoorDash, Uber Eats.",
+      "timestamp": "00:45:02",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 408,
+        "lineEnd": 414
+      },
+      "themes": ["user-journey", "contrarian-thinking", "channel-strategy"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "eli-schwartz-007",
+      "speaker": "Eli Schwartz",
+      "text": "No one doing paid marketing will ever say, 'This is how many times I'm number one on this search, or this is how many clicks I get, or look at how much I spent.' There's really a, 'We spend this, and we're this efficient. This is what we drive from that.' And SEO really needs that same rigor.",
+      "timestamp": "00:51:02",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 450
+      },
+      "themes": ["metrics", "accountability", "seo-strategy"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "eli-schwartz-008",
+      "speaker": "Eli Schwartz",
+      "text": "The biggest myth in SEO is that you could just build links, and link building is the secret source and the secret sauce to growing your SEO footprint. That's totally wrong, because the way most people build links is they buy these guest posts, or they pay for links on low authority websites that sort of look like they might have authority, and it doesn't really benefit anyone because no one's reading these sites.",
+      "timestamp": "01:07:57",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 597,
+        "lineEnd": 597
+      },
+      "themes": ["myths", "link-building", "brand-building"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "eli-schwartz-009",
+      "speaker": "Eli Schwartz",
+      "text": "I don't think there's a chance that ChatGPT, or Perplexity, or Claude, or any of these other LLM startups, because they're startups now, even OpenAI is a startup with Microsoft's investments, still a startup. I don't think they have a chance at really unseating Google purely from a quality standpoint.",
+      "timestamp": "01:18:58",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 681,
+        "lineEnd": 681
+      },
+      "themes": ["google-dominance", "ai-competition", "distribution"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "eli-schwartz-010",
+      "speaker": "Eli Schwartz",
+      "text": "SEO is not dying. There will always be a world where users are requesting their own information. One of the reasons I think these home assistants, whether it's from Google, or Apple, or Amazon, have never taken off, is because you don't have choice. You talk to your Google, and it gives you only one answer. There will always be a world where there needs choice.",
+      "timestamp": "01:24:04",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 720,
+        "lineEnd": 720
+      },
+      "themes": ["future-of-search", "user-choice", "seo-strategy"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "eli-schwartz-011",
+      "speaker": "Eli Schwartz",
+      "text": "It is not a dark art. It should be for most things, it is simple. And then there are tons of companies out there get in a lot of trouble, and there's billions of dollars to be made on doing the right SEO. But a lot can be unlocked by very simplistic SEO. PMs that don't really have an SEO background can do enough SEO to make a lot of money for the company without needing to be an SEO expert.",
+      "timestamp": "01:36:26",
+      "source": {
+        "slug": "eli-schwartz",
+        "path": "episodes/eli-schwartz/transcript.md",
+        "lineStart": 822,
+        "lineEnd": 822
+      },
+      "themes": ["accessibility", "product-thinking", "empowerment"],
+      "zones": ["velocity", "alignment"]
+    }
+  ],
+  "themes": [
+    "product-thinking",
+    "seo-strategy",
+    "user-experience",
+    "user-journey",
+    "positioning",
+    "customer-empathy",
+    "user-research",
+    "decision-making",
+    "resource-allocation",
+    "trade-offs",
+    "contrarian-thinking",
+    "channel-strategy",
+    "metrics",
+    "accountability",
+    "myths",
+    "link-building",
+    "brand-building",
+    "google-dominance",
+    "ai-competition",
+    "distribution",
+    "future-of-search",
+    "user-choice",
+    "accessibility",
+    "empowerment"
+  ],
+  "takeaways": [
+    "SEO should be treated as a product discipline, not just a marketing tactic -- product managers should own the SEO strategy because it requires understanding user journeys, building real experiences, and allocating engineering and design resources.",
+    "The rise of AI Overviews is shifting SEO value from top-of-funnel content (informational queries) to mid-funnel experiences where user intent and conversion potential are highest -- companies should focus on being present where buyers are ready to act.",
+    "Most B2B SaaS companies should seriously question whether SEO is the right investment, because the buyer journey often requires committee decisions, sales conversations, and integrations that don't convert from organic search alone.",
+    "Link building as traditionally practiced is largely a myth -- the real path to SEO authority is building a strong brand that earns organic mentions, not buying guest posts on low-authority websites nobody reads.",
+    "Google's dominance is deeply entrenched through default distribution agreements and 25 years of user habit -- LLM startups are unlikely to unseat Google as the primary search platform, meaning SEO remains a durable channel for companies where it fits."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.08,
+    "discovery": 0.22,
+    "data": 0.20,
+    "intuition": 0.14,
+    "alignment": 0.10,
+    "chaos": 0.08,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "eli-schwartz-006",
+      "why": "Eli argues restaurants shouldn't even have a website, challenging the universal assumption that every business needs web presence. He grounds it in user journey analysis -- nobody Googles a restaurant website to decide on lunch.",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "eli-schwartz-004",
+      "why": "Advising companies to simply NOT do SEO if they can't identify what users would search for is a rare and bold stance from an SEO consultant. Most SEO advisors would never tell a potential client to walk away from the channel entirely.",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "eli-schwartz-009",
+      "why": "Claiming that ChatGPT, Perplexity, and Claude have essentially no chance of unseating Google is a contrarian position in a tech world buzzing with AI-will-replace-Google narratives. Eli backs it with distribution economics from the antitrust verdict.",
+      "related_zones": ["data", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["seo-strategy", "product-led-seo", "ai-impact-on-search"]
+  }
+}

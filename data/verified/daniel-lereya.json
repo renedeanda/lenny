@@ -1,0 +1,199 @@
+{
+  "slug": "daniel-lereya",
+  "quotes": [
+    {
+      "id": "daniel-lereya-q001",
+      "speaker": "Daniel Lereya",
+      "text": "We received a gift from our competitors. They showed us that it's possible. Use your competition, know it, and take it, and set ambitious goals, and believe in yourself, and you can do amazing things.",
+      "timestamp": "00:11:23",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 94,
+        "lineEnd": 94
+      },
+      "themes": ["competition", "ambition", "mindset"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "daniel-lereya-q002",
+      "speaker": "Daniel Lereya",
+      "text": "A great PM basically for me is someone that is relentless until he gets this impact, until he validates that this impact is in place. In some cases, doing the biggest impact is not developing another feature, it's about making the current value more accessible.",
+      "timestamp": "00:18:00",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["product-management", "impact", "accessibility"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "daniel-lereya-q003",
+      "speaker": "Daniel Lereya",
+      "text": "Many times, for me, a smell for that is that I hear people use the word, 'We're going to enhance...' 'We're going to augment...' 'We're going to extend value, and this, and this, and this.' No, it's not enough. What is it going to change for users and how you are going to see it that it actually happened?",
+      "timestamp": "00:21:56",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": ["impact", "metrics", "goal-setting"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "daniel-lereya-q004",
+      "speaker": "Daniel Lereya",
+      "text": "Before we went public, we actually shared every bit of information with our employees. You would get into our office and you would see a dashboard with how many paying accounts do you have, how many people have churned today, how many signups do we have, and so many different things. Even if you came for an interview, you would see these numbers.",
+      "timestamp": "00:34:39",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["transparency", "culture", "data"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "daniel-lereya-q005",
+      "speaker": "Daniel Lereya",
+      "text": "As a leader, there were many situations in my professional life that I knew some bit of information and I felt it all the way on my shoulders. You are coming to the office, there's nothing more demoralizing or depressing as a leader that you feel awful because of something that you know and you're coming to the office and everything is great and everyone are happy.",
+      "timestamp": "00:35:27",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 187
+      },
+      "themes": ["transparency", "leadership", "vulnerability"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "daniel-lereya-q006",
+      "speaker": "Daniel Lereya",
+      "text": "If you set a different goal, 'I want to reduce it from four months to three months.' So many times, this translates in people's heads to, 'I want you to work harder. I want you to work longer hours.' And, this is not a message here. It's about working smarter. There's fake speed, which means, trying to do the same work by skipping stages, but there's the real speed.",
+      "timestamp": "00:16:05",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "themes": ["velocity", "ambition", "execution"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "daniel-lereya-q007",
+      "speaker": "Daniel Lereya",
+      "text": "We really love to take risks, not for the sake of it, but we are not afraid to do bold moves. Not taking bold risks, not making bold moves, it's a risk for itself. Many times people want the inertia, people want just the incremental value. But if you want to do leaps many times you need to let go of things that were successful for you in the past.",
+      "timestamp": "00:45:45",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 277,
+        "lineEnd": 295
+      },
+      "themes": ["risk-taking", "boldness", "strategy"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "daniel-lereya-q008",
+      "speaker": "Daniel Lereya",
+      "text": "Many time, spending more time on working on something will not yield to better results or to better products. The point in which you make real people use your product is really scary. Because you suddenly put your work out there. But actually we really encourage people to get really fast to production, to put traps for themselves that is called by time and not by effort.",
+      "timestamp": "00:51:06",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 322
+      },
+      "themes": ["time-boxing", "shipping", "speed"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "daniel-lereya-q009",
+      "speaker": "Daniel Lereya",
+      "text": "When you build a lot of features, this can be like a death by a thousand cuts because in each corner of the product you add more than you need.",
+      "timestamp": "00:56:58",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 379
+      },
+      "themes": ["focus", "scope-creep", "product"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "daniel-lereya-q010",
+      "speaker": "Daniel Lereya",
+      "text": "What got me to this phase is not necessarily what's going to make me successful in the next phase. There were personally times when suddenly I saw how my biggest strength, for instance like, mastering all the details and having everything in my head, this was probably something that gave a lot of value when we were small. But, as we got bigger, it suddenly created even the damage.",
+      "timestamp": "01:00:00",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 421,
+        "lineEnd": 431
+      },
+      "themes": ["leadership", "growth", "self-awareness"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "daniel-lereya-q011",
+      "speaker": "Daniel Lereya",
+      "text": "We didn't want to have a free trial. Part of it is that we really wanted to hear feedback about our product only from people that the product means something to them. The best proxy for that is that they are paying because it means they get real value.",
+      "timestamp": "00:58:06",
+      "source": {
+        "slug": "daniel-lereya",
+        "path": "episodes/daniel-lereya/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 394
+      },
+      "themes": ["pricing", "customer-feedback", "signal-vs-noise"],
+      "zones": ["data", "focus"]
+    }
+  ],
+  "themes": ["impact", "velocity", "transparency", "ambition", "risk-taking", "focus", "leadership", "product-management", "time-boxing", "culture"],
+  "takeaways": [
+    "Orient everything around impact, not output - a great PM is relentless about validating that their work actually changed something measurable for users, not just shipping features.",
+    "Set goals so ambitious that working harder cannot achieve them - this forces teams to think fundamentally differently rather than just putting in more hours.",
+    "Radical transparency builds deep partnership - sharing all company metrics with every employee, even as a public company, creates collective ownership and surfaces problems faster.",
+    "Use time-based 'traps' instead of effort-based planning - deadlines force focus on what truly matters and prevent scope creep from theoretical concerns.",
+    "Not taking bold risks is itself a risk - inertia and incremental improvement can be more dangerous than making bold moves that might fail."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "daniel-lereya-q008",
+      "why": "Claims spending more time building does NOT lead to better products - early negative feedback is actually the ideal signal that you're on the right track",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "daniel-lereya-q011",
+      "why": "Deliberately chose not to have a free trial so that only paying customers would provide feedback - runs counter to the freemium orthodoxy",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "daniel-lereya-q001",
+      "why": "Frames a competitor shipping 30 columns when you only have 5 as a 'gift' rather than a threat - counterintuitive reframing of competitive pressure",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["execution-speed", "impact-driven-development", "transparency", "scaling"]
+  }
+}

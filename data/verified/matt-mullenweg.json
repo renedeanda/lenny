@@ -1,0 +1,194 @@
+{
+  "slug": "matt-mullenweg",
+  "quotes": [
+    {
+      "id": "matt-mullenweg-q001",
+      "speaker": "Matt Mullenweg",
+      "text": "If you think about it as more and more of our lives are influenced and actually controlled by the software we use, if we don't have fundamental freedoms attached to that software, we're not truly free.",
+      "timestamp": "00:19:56",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 201
+      },
+      "themes": ["open-source", "philosophy", "freedom"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "matt-mullenweg-q002",
+      "speaker": "Matt Mullenweg",
+      "text": "Don't just build a product, build a movement. And to the extent that we've been successful, I think it's that we give people something to believe in, a philosophy, a worldview.",
+      "timestamp": "00:35:48",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 282,
+        "lineEnd": 282
+      },
+      "themes": ["community", "product", "vision"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "matt-mullenweg-q003",
+      "speaker": "Matt Mullenweg",
+      "text": "A true platform, it's when your ecosystem makes more money than the core does. And so many times, whether it was the Facebook platform or the Shopify platform, companies build on it and then they get the rug pulled out from under them because they're too successful.",
+      "timestamp": "00:37:33",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 288,
+        "lineEnd": 288
+      },
+      "themes": ["platform", "strategy", "ecosystem"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "matt-mullenweg-q004",
+      "speaker": "Matt Mullenweg",
+      "text": "You don't have freedom unless you're building on open source. That's why more and more companies and people are choosing... If they're going to build a business on top of something else, if you build it on an open source, you have that guarantee.",
+      "timestamp": "00:38:42",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 294,
+        "lineEnd": 294
+      },
+      "themes": ["open-source", "platform", "freedom"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "matt-mullenweg-q005",
+      "speaker": "Matt Mullenweg",
+      "text": "I have some window where my creative output is useful to society. And if you fast forward like 50 or 100, I do believe that the utility for proprietary software eventually approaches zero.",
+      "timestamp": "00:27:43",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["open-source", "long-term-thinking", "legacy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "matt-mullenweg-q006",
+      "speaker": "Matt Mullenweg",
+      "text": "Technical debt is one of the most interesting concepts. There's so many companies as well that maybe have big market caps, but I feel like they might have billions or tens of billions of dollars of technical debt.",
+      "timestamp": "00:34:09",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 273
+      },
+      "themes": ["engineering", "quality", "technical-debt"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "matt-mullenweg-q007",
+      "speaker": "Matt Mullenweg",
+      "text": "I'm the unhappiest WordPress user in the world. There's parts of WordPress and WordPress.com that I'm a little embarrassed and ashamed of. We have a really large surface area that we cover with relatively few people.",
+      "timestamp": "00:34:52",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["quality", "self-awareness", "product"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "matt-mullenweg-q008",
+      "speaker": "Matt Mullenweg",
+      "text": "Is great software ever created by committee or does it more often reflect a vision of a leader? I think WordPress not just remaining relevant but actually accelerating growth over huge technological shifts over the past two decades shows the value of that vision.",
+      "timestamp": "01:02:24",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 435,
+        "lineEnd": 435
+      },
+      "themes": ["leadership", "vision", "founder-mode"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "matt-mullenweg-q009",
+      "speaker": "Matt Mullenweg",
+      "text": "If we had voted for whether we should do Gutenberg or not, everyone would've voted against it. It was going to take 10 years to do and it's going to suck for the first three or four years, and so everyone's going to hate it in the beginning.",
+      "timestamp": "01:03:56",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 441,
+        "lineEnd": 441
+      },
+      "themes": ["product", "long-term-thinking", "courage"],
+      "zones": ["chaos", "intuition", "focus"]
+    },
+    {
+      "id": "matt-mullenweg-q010",
+      "speaker": "Matt Mullenweg",
+      "text": "You need to work on the base issues, the fundamentals at the bottom of Maslow's Hierarchy of Needs, and then you also have to work on the things that raise your soul a little bit, so arts. I like that barbell approach to philanthropy.",
+      "timestamp": "00:14:40",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": ["philosophy", "philanthropy", "balance"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "matt-mullenweg-q011",
+      "speaker": "Matt Mullenweg",
+      "text": "I consider my role as an open source advocate to actually be my primary thing. It's very much my life mission. I also support Drupal and Joomla. Anything that's open source, I'm going to be a supporter of because when people choose that versus proprietary software, we're increasing the freedom and liberty in the world.",
+      "timestamp": "00:25:53",
+      "source": {
+        "slug": "matt-mullenweg",
+        "path": "episodes/matt-mullenweg/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 231
+      },
+      "themes": ["open-source", "mission", "advocacy"],
+      "zones": ["alignment", "discovery"]
+    }
+  ],
+  "themes": ["open-source", "platform-strategy", "founder-mode", "community", "long-term-thinking", "technical-debt", "freedom", "leadership"],
+  "takeaways": [
+    "Open source is the most important idea of our generation - if we don't have fundamental freedoms attached to the software that controls our lives, we're not truly free.",
+    "Build movements, not just products - WordPress succeeded by giving people something to believe in, a philosophy and worldview that transcends utility.",
+    "True platforms let their ecosystem earn more than the core - proprietary platforms inevitably pull the rug when third parties get too successful.",
+    "Great software reflects a singular vision, not committee consensus - WordPress's longevity across multiple tech shifts required unpopular long-term bets like Gutenberg.",
+    "Technical debt is real and undervalued - companies with big market caps may be sitting on billions in hidden technical debt that eventually catches up with them."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "matt-mullenweg-q005",
+      "why": "Claims proprietary software utility approaches zero over time - bold contrarian stance against commercial software industry",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "matt-mullenweg-q009",
+      "why": "Admits Gutenberg would have been voted down by the community - defends top-down decision-making against democratic ideals",
+      "related_zones": ["chaos", "intuition", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["open-source", "platform-strategy", "community-building", "distributed-work"]
+  }
+}

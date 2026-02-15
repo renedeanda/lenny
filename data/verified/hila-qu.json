@@ -1,0 +1,212 @@
+{
+  "slug": "hila-qu",
+  "quotes": [
+    {
+      "id": "hila-qu-001",
+      "speaker": "Hila Qu",
+      "text": "PLG I always say is actually fundamentally DLG, data led growth. So when you give away your free product, what you want to get in exchange are two things. One is the broader reach because free product spread itself is lower barrier to entry. Two, you want to understand the usage behavior of those free users, which features do they use and which features kind of correlates with a higher conversion rate, retention rate, all of that.",
+      "timestamp": "00:14:27",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 129
+      },
+      "themes": ["data-driven", "PLG-fundamentals", "growth-strategy"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "hila-qu-002",
+      "speaker": "Hila Qu",
+      "text": "If you don't have a foundation of data and understanding of how to analyze those data, you are giving a way of free product for nothing. Like you are really not being able to utilize all of that to build your PLG motion.",
+      "timestamp": "00:15:20",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["data-foundation", "PLG-pitfalls", "analytics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "hila-qu-003",
+      "speaker": "Hila Qu",
+      "text": "You need to commit to at least a year or even two years kind of roadmap to build this entire thing out and change the process internally sometimes as well to support that.",
+      "timestamp": "00:13:34",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 126,
+        "lineEnd": 126
+      },
+      "themes": ["commitment", "PLG-strategy", "roadmap"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "hila-qu-004",
+      "speaker": "Hila Qu",
+      "text": "I think doing growth is always about finding leverage. If you can always find the area that with relatively small investment can give you the biggest results, that can be such a kind of momentum, can empower you through future experiments and more work. And just finding leverage is a beautiful thing in my mind.",
+      "timestamp": "00:35:35",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": ["leverage", "growth-strategy", "prioritization"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "hila-qu-005",
+      "speaker": "Hila Qu",
+      "text": "At GitLab we actually did a bunch of analysis. We're trying to understand what is the aha moment for our new users. We ended up have something along the line of two users, two features used in the first 14 days. Two users is talking about the team components. Whatever the first user is trying and using that is so valuable, he or she is confident to invite another coworker to come in.",
+      "timestamp": "00:39:57",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 240
+      },
+      "themes": ["aha-moment", "activation", "metrics", "user-behavior"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "hila-qu-006",
+      "speaker": "Hila Qu",
+      "text": "In data you are only isolating correlation. You are not proving causation. You just saw people who are doing this are more likely to convert. But it doesn't mean if you get people to do that, they will convert. So experimentation is the step. You will finally kind of validate that.",
+      "timestamp": "00:43:49",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["experimentation", "data-analysis", "causation-vs-correlation"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "hila-qu-007",
+      "speaker": "Hila Qu",
+      "text": "I usually think about do is better than show is better than tell, meaning you want to remove all the frictions and somehow give them a warm start, give them some sample template, give them some sample thing they can play with initially in that very moment already, and you can supplement that with your email to bring them to the product if they don't do that.",
+      "timestamp": "00:48:00",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 285,
+        "lineEnd": 285
+      },
+      "themes": ["activation", "onboarding", "user-experience", "time-to-value"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "hila-qu-008",
+      "speaker": "Hila Qu",
+      "text": "I call retention the messy middle. It's actually a messy part of the entire funnel. A quick activation, conversion, those are fast. Those are almost sometimes shorter time span, right? Retention is super important, but it's a little bit messy. It's over a very long period of time, and your customers can be, at any given moment, they can be retained or not.",
+      "timestamp": "00:56:08",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 360
+      },
+      "themes": ["retention", "funnel-strategy", "growth-priorities"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "hila-qu-009",
+      "speaker": "Hila Qu",
+      "text": "When I was asked to work on retention, I did a bunch of analysis. The biggest leverage for me is actually activation. I identified what are the features for users to take experience value quickly so that they are more likely to retain. For us, it's a feature called recurring investment, which makes sense in hindsight, but at that time nobody's caring about that.",
+      "timestamp": "01:01:00",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 381,
+        "lineEnd": 381
+      },
+      "themes": ["retention", "activation", "data-analysis", "leverage"],
+      "zones": ["data", "discovery", "focus"]
+    },
+    {
+      "id": "hila-qu-010",
+      "speaker": "Hila Qu",
+      "text": "You change the problem from how do I improve retention to how do I drive adoption of higher-frequency use cases. Once you have a retirement account, an IRA, there's tax consequences, all of that. There it's very hard for you to leave. So you flip the question into, again, adoption/activation problem.",
+      "timestamp": "01:01:58",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 384,
+        "lineEnd": 384
+      },
+      "themes": ["retention", "reframing", "product-strategy", "frequency"],
+      "zones": ["intuition", "focus", "data"]
+    },
+    {
+      "id": "hila-qu-011",
+      "speaker": "Hila Qu",
+      "text": "A data analyst needs to be the very first hire. Sometimes even try to find a growth PM who can do analysis if you're really small. Or even before hiring growth PM, hiring analyst, I would actually go as far as that. Because without insight, without a lot of foundation, your experimentation, your effort is really directionless in a sense.",
+      "timestamp": "01:23:23",
+      "source": {
+        "slug": "hila-qu",
+        "path": "episodes/hila-qu/transcript.md",
+        "lineStart": 561,
+        "lineEnd": 564
+      },
+      "themes": ["hiring", "data-analyst", "growth-team", "prioritization"],
+      "zones": ["data", "focus"]
+    }
+  ],
+  "themes": [
+    "data-driven",
+    "PLG-fundamentals",
+    "growth-strategy",
+    "activation",
+    "retention",
+    "experimentation",
+    "leverage",
+    "onboarding",
+    "hiring",
+    "funnel-strategy",
+    "metrics",
+    "prioritization"
+  ],
+  "takeaways": [
+    "Product-led growth is fundamentally data-led growth (DLG) -- without a strong data foundation to understand user behavior, giving away a free product yields little strategic value.",
+    "Activation is usually the highest-leverage starting point for PLG: help users reach their aha moment fast using a 'do > show > tell' framework to reduce time to value.",
+    "Correlation is not causation in growth metrics -- you must run experiments to validate that driving users toward high-value actions actually improves conversion and retention.",
+    "Retention is the 'messy middle' of the funnel; the smartest approach is often to reframe retention problems as activation problems by driving adoption of higher-frequency use cases.",
+    "Building a PLG motion requires at least a one-to-two year commitment with a dedicated team, starting with a data analyst as potentially the very first hire before even a growth PM."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.35,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "hila-qu-001",
+      "why": "Redefines PLG as 'data-led growth' -- challenges the common assumption that PLG is primarily about offering a free product, arguing the real value is the data you collect in exchange.",
+      "related_zones": ["data", "discovery"]
+    },
+    {
+      "quoteId": "hila-qu-010",
+      "why": "Argues that retention problems should be reframed as activation problems -- instead of trying to directly improve retention, flip the question to driving adoption of higher-frequency use cases.",
+      "related_zones": ["intuition", "focus"]
+    },
+    {
+      "quoteId": "hila-qu-011",
+      "why": "Argues a data analyst should be hired before a growth PM -- counterintuitive for most companies who would prioritize a strategic leader first.",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "growth-leader",
+    "company_stage": "growth-to-public",
+    "primary_topics": ["product-led-growth", "activation", "data-infrastructure", "growth-team-building", "retention"]
+  }
+}

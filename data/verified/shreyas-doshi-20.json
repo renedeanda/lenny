@@ -1,0 +1,213 @@
+{
+  "slug": "shreyas-doshi-20",
+  "quotes": [
+    {
+      "id": "shreyas-doshi-20-q001",
+      "speaker": "Shreyas Doshi",
+      "text": "At some point in our product career, we reach something, we reach an immovable force that will just overwhelm us, no matter what we do. And that force is a scope. As we grow in our product career, our scope grows, and we kind of like that, but at some point your scope will be so large that no matter what you do in terms of efficiency, you are still going to be incredibly busy.",
+      "timestamp": "07:50",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 122,
+        "lineEnd": 125
+      },
+      "themes": ["scope", "productivity", "career-growth"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "shreyas-doshi-20-q002",
+      "speaker": "Shreyas Doshi",
+      "text": "Because I had a real product strategy, not one of those fake ones, a real product strategy that I had gotten alignment on with everybody, my planning for this major product for Stripe took me like three days. While a lot of my peers were in this four-to-six week cycle of planning, and meeting, I just put it all together in three days.",
+      "timestamp": "14:44",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 149,
+        "lineEnd": 149
+      },
+      "themes": ["strategy", "planning", "efficiency"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "shreyas-doshi-20-q003",
+      "speaker": "Shreyas Doshi",
+      "text": "If you have a real product strategy, a real one that everybody is aligned with, that you have got pre-alignment on, then a lot of this nonsense we tend to do with annual planning actually goes away. You still have to do some resource allocation, but even there, you don't need that false precision.",
+      "timestamp": "15:27",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 152
+      },
+      "themes": ["strategy", "planning", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "shreyas-doshi-20-q004",
+      "speaker": "Shreyas Doshi",
+      "text": "I realized that I am so busy because I'm not making good product decisions. By this time I'm like 15 years into building products. And so I think I'm pretty good. That's my kind of self-image. But then, if I'm being honest to myself, I'm not making as good product decisions as I can.",
+      "timestamp": "17:48",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["decision-making", "self-awareness", "honesty"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "shreyas-doshi-20-q005",
+      "speaker": "Shreyas Doshi",
+      "text": "I noticed that myself and my team, we were making these kinds of decisions without very clearly thinking through customer motivation, very clearly thinking through differentiation, very clearly thinking through a distribution approach for whatever this feature is. I guarantee you this is not how most product teams work. They're talking about, 'Well, is Bob the engineer going to be free?'",
+      "timestamp": "19:32",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 173,
+        "lineEnd": 173
+      },
+      "themes": ["decision-making", "customer-focus", "differentiation"],
+      "zones": ["discovery", "focus", "intuition"]
+    },
+    {
+      "id": "shreyas-doshi-20-q006",
+      "speaker": "Shreyas Doshi",
+      "text": "You have signed up for even more work for a feature you should not have built in the first place. That's why we're busy. Through a product leader's life, what happens is we just accumulate all of this debt, feature after feature. Most doors that look like two-way doors are actually one-way doors. They are two-way doors at Bezos' level, but as a PM leader, for you, they are a one-way door.",
+      "timestamp": "23:19",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 188,
+        "lineEnd": 188
+      },
+      "themes": ["decision-making", "feature-debt", "prioritization"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "shreyas-doshi-20-q007",
+      "speaker": "Shreyas Doshi",
+      "text": "Thinking is cheap, so you should do more thinking, not less.",
+      "timestamp": "25:37",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 203,
+        "lineEnd": 203
+      },
+      "themes": ["decision-making", "thinking"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "shreyas-doshi-20-q008",
+      "speaker": "Shreyas Doshi",
+      "text": "We talk about taste, we all talk about taste, and it's about the beautiful pixels, and the perfect product. Yes, taste is about that, but there is something that we as product leaders needed to recognize about taste as just a factor in pretty much everything we do, which is do we have good taste around the beliefs we choose to create within ourselves? Those beliefs end up dictating everything we do, including how we manage, how we lead, how we make decisions.",
+      "timestamp": "29:29",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 221,
+        "lineEnd": 221
+      },
+      "themes": ["taste", "beliefs", "leadership"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "shreyas-doshi-20-q009",
+      "speaker": "Shreyas Doshi",
+      "text": "Taste is about the ability to identify what is really good, without needing to see its results. It requires zero taste right now for anybody to say Jensen is a genius. If you are saying that in 2024, it requires zero taste, because you can just look up NVIDIA stock price. But to be able to say that in 2010, you have to realize Jensen Huang didn't change much between 2010 and 2024.",
+      "timestamp": "31:37",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 230,
+        "lineEnd": 230
+      },
+      "themes": ["taste", "judgment", "pattern-recognition"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "shreyas-doshi-20-q010",
+      "speaker": "Shreyas Doshi",
+      "text": "We get overly excited about cool metaphors. We get very impressed with alliterations. Like fail fast. What if that thing were called fail quickly? Do you think you would be as attracted to that idea if it were called fail quickly? Probably not. So what changed? The only thing that changed is one is an alliteration.",
+      "timestamp": "33:53",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 236,
+        "lineEnd": 239
+      },
+      "themes": ["critical-thinking", "cognitive-bias", "taste"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "shreyas-doshi-20-q011",
+      "speaker": "Shreyas Doshi",
+      "text": "Product work happens at three levels. There's the impact level, there's the execution level, and there's the optics level. My epiphany was I have a preferred level at which I like to operate, but if most of the day, and most of the week, I am forcing myself to operate in not my happy place, in my non-default level, that makes me very frustrated.",
+      "timestamp": "39:32",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 269,
+        "lineEnd": 269
+      },
+      "themes": ["self-awareness", "career", "impact-vs-optics"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "shreyas-doshi-20-q012",
+      "speaker": "Shreyas Doshi",
+      "text": "Identify your superpowers, and like Shakespeare said, 'To thine own self be true.' Operate your career and make your career decisions not out of expectation, not out of envy. Identify your superpowers, because if you identify your superpowers and work in accordance with them, you will do the best work of your life. You will love it, and you will be great at it, and you won't have that frustration.",
+      "timestamp": "42:34",
+      "source": {
+        "slug": "shreyas-doshi-20",
+        "path": "episodes/shreyas-doshi-20/transcript.md",
+        "lineStart": 278,
+        "lineEnd": 278
+      },
+      "themes": ["career", "self-awareness", "superpowers"],
+      "zones": ["focus", "intuition"]
+    }
+  ],
+  "themes": ["decision-making", "strategy", "taste", "self-awareness", "career", "critical-thinking", "prioritization", "leadership"],
+  "takeaways": [
+    "Productivity tools and frameworks eventually hit a ceiling -- beyond a certain scope, the only real solution is having a clear product strategy that eliminates unnecessary planning rituals and provides a rigorous framework for making decisions.",
+    "Most decisions that look like reversible two-way doors are actually one-way doors for PM leaders, because features accumulate organizational debt through QBR commitments and stakeholder expectations that make them nearly impossible to kill.",
+    "True taste is not about judging pixel-perfect designs -- it is about the quality of beliefs you choose to adopt as a leader, and the ability to identify greatness before its results are visible to everyone.",
+    "We are systematically fooled by catchy metaphors, alliterations, and authority bias into adopting ideas without rigorously evaluating them on their merits -- shedding these patterns is essential for genuine critical thinking.",
+    "Career frustration comes from operating at the wrong level of product work -- identify whether your happy place is impact, execution, or optics, and make career decisions that align with your superpowers rather than external expectations."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.30,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.30
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "shreyas-doshi-20-q006",
+      "why": "Challenges the widely-adopted Bezos 'two-way door' framework by arguing most decisions that look reversible are actually one-way doors for PM leaders, creating irrecoverable feature debt",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "shreyas-doshi-20-q010",
+      "why": "Attacks the product community's susceptibility to alliterations and catchy metaphors like 'fail fast' -- suggests we adopt ideas based on packaging rather than substance",
+      "related_zones": ["intuition", "data"]
+    },
+    {
+      "quoteId": "shreyas-doshi-20-q008",
+      "why": "Redefines taste beyond the conventional pixel-perfection definition to include the quality of beliefs and mental models a leader chooses to internalize",
+      "related_zones": ["intuition", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": ["decision-making", "product-strategy", "career-growth", "critical-thinking"]
+  }
+}

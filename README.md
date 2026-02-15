@@ -1,6 +1,6 @@
 # PM Philosophy Recommendations
 
-**Discover your product management philosophy through an interactive quiz experience built from 295 episodes of Lenny's Podcast.**
+**Discover your product management philosophy through an interactive quiz experience built from 294 episodes of Lenny's Podcast.**
 
 [**Try the Live Experience**](https://lenny.productbuilder.net)
 
@@ -153,7 +153,7 @@ npm run lint     # Run ESLint
 │   └── CustomCursor.tsx     # Sci-fi cursor effect
 │
 ├── lib/                     # Core business logic
-│   ├── allEpisodes.ts       # Episode metadata (295 episodes)
+│   ├── allEpisodes.ts       # Episode metadata (294 episodes)
 │   ├── zones.ts             # 8 philosophy zones
 │   ├── questions.ts         # Quiz questions
 │   ├── scoring.ts           # Quiz → zone calculations
@@ -166,7 +166,7 @@ npm run lint     # Run ESLint
 │   └── verified-content.json # Master registry
 │
 ├── episodes/                # Raw transcript markdown files
-│   └── [slug]/transcript.md # 295 episode transcripts
+│   └── [slug]/transcript.md # 294 episode transcripts
 │
 ├── public/                  # Static assets
 │   ├── og/                  # OG images for each episode
@@ -186,7 +186,7 @@ npm run lint     # Run ESLint
 
 | Metric | Count |
 |--------|-------|
-| Total Episodes | 295 |
+| Total Episodes | 294 |
 | Curated Episodes | 105 (35.6%) |
 | Verified Quotes | 1,224 |
 | Philosophy Zones | 8 |

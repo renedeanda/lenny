@@ -1,0 +1,199 @@
+{
+  "slug": "joe-hudson",
+  "quotes": [
+    {
+      "id": "joe-hudson-q001",
+      "speaker": "Joe Hudson",
+      "text": "Every single time the voice in your head is wrong. That critical voice in your head. To be specific, I'm talking about the voice in your head that is critical and repeats. There's the voice that says the same thing over and over again. You got to work out more, you got to work out more, you got to work out more. Whatever that is, it's always wrong, and that doesn't mean there isn't truth to what it says, but it's incorrect.",
+      "timestamp": "00:07:04",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["self-awareness", "inner-critic", "mindset"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "joe-hudson-q002",
+      "speaker": "Joe Hudson",
+      "text": "I think the best way to work with the voice in the head is to pick an experiment every day and respond to the voice in the head in a new way every day to have an experimental approach and say, oh, what's the relationship I want with this negative voice in my head?",
+      "timestamp": "00:08:46",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["self-awareness", "experimentation", "personal-growth"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "joe-hudson-q003",
+      "speaker": "Joe Hudson",
+      "text": "If you fully understand the problem, you know the solution. All you have to do is really fully understand the voice in your head through a series of experiments and the whole thing goes away.",
+      "timestamp": "00:11:48",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["problem-solving", "self-awareness", "experimentation"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "joe-hudson-q004",
+      "speaker": "Joe Hudson",
+      "text": "We make decisions in the emotional center of our brain. We use logic to try to figure out how we're going to feel. You can see this just by asking yourself the question, how many decisions have you made to feel like a success or to not feel like a failure or to feel happier, to not feel trapped? There's these huge buckets of emotions that we are trying to feel and not feel, and we're making decisions based on those. There's no such thing as a logical decision.",
+      "timestamp": "00:14:23",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 124
+      },
+      "themes": ["decision-making", "emotions", "neuroscience"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "joe-hudson-q005",
+      "speaker": "Joe Hudson",
+      "text": "If you learn to fall in love with all of your emotions, then solution sets become available that you didn't have before. If you are like, oh, I can't feel like a failure, well, then you're probably not going to take certain risks. If you are, oh, I want to feel loved and I can't feel unliked by people, well, then you're not going to say your truth.",
+      "timestamp": "00:15:20",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["emotional-intelligence", "risk-taking", "authenticity"],
+      "zones": ["intuition", "chaos", "discovery"]
+    },
+    {
+      "id": "joe-hudson-q006",
+      "speaker": "Joe Hudson",
+      "text": "Whatever emotion that you're trying to avoid, you are inviting into your life in exactly the way that you're trying to avoid it.",
+      "timestamp": "00:31:30",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["emotions", "self-sabotage", "conflict-avoidance"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "joe-hudson-q007",
+      "speaker": "Joe Hudson",
+      "text": "Enjoyment is such an important tool for productivity. If you say, I'm going to figure out how to enjoy what I do 10% more and you succeed, you are 10% more efficient. Not only that, usually, the quality is going to get a lot better too.",
+      "timestamp": "00:39:57",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 259
+      },
+      "themes": ["productivity", "enjoyment", "efficiency"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "joe-hudson-q008",
+      "speaker": "Joe Hudson",
+      "text": "At what time in the journey of an oak tree is it perfect? Is it when it's an acorn, when it's sprout, when it's 20 years old, 40 years old, 150 years old? The idea that I need to improve myself, it really disturbs the natural process that's at hand, which is we evolve. We as human beings evolve.",
+      "timestamp": "00:46:49",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["personal-growth", "authenticity", "self-acceptance"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "joe-hudson-q009",
+      "speaker": "Joe Hudson",
+      "text": "The atomic structure of a company is the meetings and the decisions. It's particularly true in Silicon Valley, but it's really true in all businesses that all we are as a company is a group of people's relationships and ideas.",
+      "timestamp": "01:03:57",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 397,
+        "lineEnd": 397
+      },
+      "themes": ["company-culture", "meetings", "leadership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "joe-hudson-q010",
+      "speaker": "Joe Hudson",
+      "text": "How do you make every meeting enjoyable? Literally, how is it that everybody when they walk out of a meeting, they're like, oh, fuck, that was great? If you do that, every single problem with your company will come to the surface. Every single one of them.",
+      "timestamp": "01:05:04",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 400
+      },
+      "themes": ["meetings", "company-culture", "leadership", "enjoyment"],
+      "zones": ["alignment", "velocity", "intuition"]
+    },
+    {
+      "id": "joe-hudson-q011",
+      "speaker": "Joe Hudson",
+      "text": "Seven minutes of gratitude with another person every day. It can't be, I'm grateful for this, I'm grateful for this. It has to be feeling the gratitude and then seeing what comes out of your mouth when you're coming from the felt sense of gratitude. If you have a full body sensation of gratitude and you experience that for seven minutes a day, it'll change your life dramatically really quickly.",
+      "timestamp": "01:11:00",
+      "source": {
+        "slug": "joe-hudson",
+        "path": "episodes/joe-hudson/transcript.md",
+        "lineStart": 433,
+        "lineEnd": 433
+      },
+      "themes": ["gratitude", "daily-practice", "personal-growth"],
+      "zones": ["intuition", "alignment"]
+    }
+  ],
+  "themes": ["self-awareness", "inner-critic", "mindset", "experimentation", "personal-growth", "problem-solving", "decision-making", "emotions", "neuroscience", "emotional-intelligence", "risk-taking", "authenticity", "self-sabotage", "conflict-avoidance", "productivity", "enjoyment", "efficiency", "self-acceptance", "company-culture", "meetings", "leadership", "gratitude", "daily-practice"],
+  "takeaways": [
+    "The critical voice in your head is always wrong - instead of fighting it, experiment with different ways of responding to it each day.",
+    "All decisions are emotional at their core, and learning to welcome every emotion expands your available options as a leader and decision maker.",
+    "The emotions you try to avoid are the ones you invite into your life - a conflict-avoidant CEO creates a company full of unresolved tension.",
+    "Ask yourself how to enjoy what you're doing 10% more right now - enjoyment is the most powerful and underrated productivity tool.",
+    "The atomic unit of company health is the quality of your meetings - make every meeting five stars and every problem will surface naturally."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.35,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "joe-hudson-q004",
+      "why": "Challenges the deeply held belief in rational decision-making by arguing there is no such thing as a logical decision - all decisions are emotional",
+      "related_zones": ["intuition", "data"]
+    },
+    {
+      "quoteId": "joe-hudson-q006",
+      "why": "Counterintuitive claim that avoiding an emotion actually invites that exact emotion into your life - directly challenges conventional wisdom about managing negative feelings",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "joe-hudson-q010",
+      "why": "Argues that making meetings enjoyable is not soft or indulgent but is actually the most diagnostic tool for finding every problem in a company",
+      "related_zones": ["alignment", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["emotional-intelligence", "executive-coaching", "self-awareness", "leadership", "productivity"]
+  }
+}

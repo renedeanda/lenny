@@ -1,0 +1,194 @@
+{
+  "slug": "jake-knapp-john-zeratsky-20",
+  "quotes": [
+    {
+      "id": "jake-knapp-john-zeratsky-20-001",
+      "speaker": "Jake Knapp",
+      "text": "A Foundation Sprint is a two-day exercise where a team comes together and answers these four questions. Who's our target customer? What's the specific problem we're solving for them? What's the solution? And how is it different from everything else that's out there? Those are questions that every team needs to be able to answer, and most teams don't have the answer written down.",
+      "timestamp": "00:08:59",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 99
+      },
+      "themes": ["foundation-sprint", "strategy", "alignment", "clarity"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-002",
+      "speaker": "John Zeratsky",
+      "text": "One phenomenon we've seen when teams are building things really quickly with AI is that the more AI-generated or assisted they are, the more generic they tend to turn out. In this excitement, in this rush to say wow look at how fast we can build it, you actually end up with something that is less differentiated than what already exists in the world.",
+      "timestamp": "01:01:14",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 501,
+        "lineEnd": 502
+      },
+      "themes": ["AI", "differentiation", "speed-vs-quality", "generic"],
+      "zones": ["chaos", "perfection", "discovery"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-003",
+      "speaker": "John Zeratsky",
+      "text": "It's really helpful to put yourself in a situation where you can slow down a little bit and do some hard thinking, some deep thinking about what's actually going to make your product unique. And then you can switch into this mode of okay great, now let's go as fast as possible. It's actually kind of counterintuitive that going fast can actually slow you down in the long run.",
+      "timestamp": "01:01:48",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 504,
+        "lineEnd": 505
+      },
+      "themes": ["speed-vs-quality", "differentiation", "deep-thinking", "counterintuitive"],
+      "zones": ["focus", "perfection", "discovery"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-004",
+      "speaker": "Jake Knapp",
+      "text": "Every project has at its core a hypothesis. There is a founding hypothesis. It's just usually not explicit. It's usually hidden, and different people on the team may have different ideas about what it is. Because it's not explicit, it's very hard to interrogate it and test it and find out if the different variables in it are the right variables.",
+      "timestamp": "01:18:34",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 612,
+        "lineEnd": 616
+      },
+      "themes": ["hypothesis", "alignment", "strategy", "clarity"],
+      "zones": ["alignment", "discovery", "data"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-005",
+      "speaker": "Jake Knapp",
+      "text": "We see this as a great tool for product people. It's a way to give you a structure for leading your team through those decisions. A way to give all the folks on a team the exact right opportunity to contribute and participate in forming the strategy, and then to make it real and turn that hypothesis about what might work into hopefully evidence that it does work.",
+      "timestamp": "01:06:09",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 537,
+        "lineEnd": 538
+      },
+      "themes": ["product-management", "team-alignment", "decision-making", "evidence"],
+      "zones": ["alignment", "data", "focus"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-006",
+      "speaker": "Jake Knapp",
+      "text": "One of the observations from our hundreds of experiences working alongside founders is that there are so many founders who are incredibly bright, incredibly capable, they have great insights about the market, and yet their startup does not work out. There's a problem with selection bias. The danger in thinking like well they didn't follow a process so I don't need to. This just increases your odds.",
+      "timestamp": "01:07:58",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 546,
+        "lineEnd": 550
+      },
+      "themes": ["survivorship-bias", "process", "startups", "odds"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-007",
+      "speaker": "John Zeratsky",
+      "text": "When we were creating this method, one of the things that we did was look back across all the projects we've been involved in and the ones that were really successful, and we looked for patterns. While those teams didn't have the Foundation Sprint, they ended up having really clear differentiation and a really clear view of what made them unique that they were able to build on.",
+      "timestamp": "01:10:20",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 558,
+        "lineEnd": 559
+      },
+      "themes": ["differentiation", "patterns", "success", "methodology"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-008",
+      "speaker": "Jake Knapp",
+      "text": "If you go back to the early days of Gmail, the promise was massive storage, great search. You fast forward to 2014, Slack says if you believe having fun and boosting teamwork is important, it's a new way of looking at the world. ChatGPT goes from zero clicks, just tells you the answer. This is what made those projects take off. The common element in all of them is differentiation.",
+      "timestamp": "01:13:28",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 574,
+        "lineEnd": 583
+      },
+      "themes": ["differentiation", "product-strategy", "examples", "positioning"],
+      "zones": ["discovery", "focus", "perfection"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-009",
+      "speaker": "John Zeratsky",
+      "text": "Founders who go through this process with us say that they're able to accelerate three to four months of work into the three or four weeks back-to-back sprints that we're doing together. They're only a week in. They've already built three prototypes, and they've tested those three prototypes with four real customers. That's after a week.",
+      "timestamp": "01:23:01",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 685,
+        "lineEnd": 697
+      },
+      "themes": ["velocity", "sprints", "prototyping", "customer-testing"],
+      "zones": ["velocity", "data", "discovery"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-010",
+      "speaker": "John Zeratsky",
+      "text": "We had a couple of teams where they jumped to vibe coding prototypes right away. When you generate something using an AI tool it looks pretty real. But actually it was super generic. It didn't really describe what the product was. In that second sprint they really took a step back and said let's think through this. While you're outsourcing prototyping, don't outsource the thinking as well.",
+      "timestamp": "01:34:33",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 835,
+        "lineEnd": 844
+      },
+      "themes": ["AI", "vibe-coding", "thinking", "differentiation"],
+      "zones": ["chaos", "perfection", "focus"]
+    },
+    {
+      "id": "jake-knapp-john-zeratsky-20-011",
+      "speaker": "Jake Knapp",
+      "text": "Doing this level of thought where you're pausing, you're being really intentional about what does the customer need to know, what needs to happen for them to find a solution to their problem, that's a way of doing your prompt engineering. If you start off with a very clear plan rather than going immediately into a conversational mode co-designing with the LLM, this is much likelier to yield an opinionated product.",
+      "timestamp": "01:35:45",
+      "source": {
+        "slug": "jake-knapp-john-zeratsky-20",
+        "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+        "lineStart": 858,
+        "lineEnd": 862
+      },
+      "themes": ["AI", "prompt-engineering", "intentionality", "opinionated-product"],
+      "zones": ["perfection", "focus", "intuition"]
+    }
+  ],
+  "themes": ["foundation-sprint", "differentiation", "strategy", "AI-age-building", "hypothesis", "prototyping", "customer-testing", "vibe-coding"],
+  "takeaways": [
+    "The Foundation Sprint forces teams to answer four critical questions before building anything -- who's your customer, what's their problem, what's your solution, and how is it different -- which most teams cannot explicitly answer.",
+    "In the age of AI and vibe coding, building fast produces generic products trained on existing data -- teams that slow down to think deeply about differentiation before prototyping build more compelling products.",
+    "Every successful product has a founding hypothesis at its core, but most teams leave it implicit and unwritten -- making it explicit allows teams to interrogate, test, and iterate on the variables that matter.",
+    "Differentiation is the common pattern behind every breakthrough product from Gmail to Slack to ChatGPT -- not just having a good product, but having clarity about what makes it fundamentally different.",
+    "Three to four weeks of sequential design sprints with real customer testing can compress three to four months of typical startup iteration -- speed comes from structured testing, not from building faster."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.20,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jake-knapp-john-zeratsky-20-002",
+      "why": "Directly challenges the vibe coding movement by arguing AI-generated products are inherently generic and less differentiated than what already exists",
+      "related_zones": ["chaos", "perfection"]
+    },
+    {
+      "quoteId": "jake-knapp-john-zeratsky-20-003",
+      "why": "Counterintuitively argues that going fast can slow you down -- the opposite of the move-fast-and-break-things ethos dominant in startups",
+      "related_zones": ["focus", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "pre-seed",
+    "primary_topics": ["foundation-sprint", "design-sprint", "differentiation", "product-strategy"]
+  }
+}

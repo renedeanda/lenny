@@ -1,0 +1,224 @@
+{
+  "slug": "jason-m-lemkin",
+  "quotes": [
+    {
+      "id": "jason-m-lemkin-001",
+      "speaker": "Jason Lemkin",
+      "text": "However you get those first 10, 15, 20 customers, be honest, and if you've talked to them as a founder and you know that they need a sales type motion, they need effort to deploy it, they have questions about security, they have questions about competition, they have onboarding requirements, and you say, 'Hey, I don't like sales, so I'm going to do a PLG motion,' you'll fail.",
+      "timestamp": "00:07:06",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["honesty", "sales-motion", "founder-mistakes"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "jason-m-lemkin-002",
+      "speaker": "Jason Lemkin",
+      "text": "If you're not spending 20% of your time in sales and 20% of your time in recruiting, you're failing as a founder. You need 20% of each, 20% in sales and 20% recruiting. Nothing else really matters at some level as a CEO. Once you cross the 20%, you need leverage or your calendar will die.",
+      "timestamp": "00:14:26",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 151
+      },
+      "themes": ["time-management", "founder-priorities", "hiring"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jason-m-lemkin-003",
+      "speaker": "Jason Lemkin",
+      "text": "We're looking for pirates and romantics in the early days. We are not looking for folks with massive sales operations teams and enablement teams. You're looking for that quirky one that's got a few extra IQ points, that for reasons that make no sense has fallen in love with your little product that is so feature poor and does nothing, but they love it, they love it, they love it.",
+      "timestamp": "00:16:23",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["hiring", "early-stage", "sales-culture"],
+      "zones": ["chaos", "intuition", "discovery"]
+    },
+    {
+      "id": "jason-m-lemkin-004",
+      "speaker": "Jason Lemkin",
+      "text": "Leads are so precious in the early days. It's so hard to find leads. That's the problem. You hire this perfect person from Snowflake and you have three leads a month and you give him two and he doesn't close them, your company's going to die. Leads are so precious. That's what folks don't get.",
+      "timestamp": "00:18:24",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["lead-generation", "hiring-mistakes", "survival"],
+      "zones": ["velocity", "focus", "data"]
+    },
+    {
+      "id": "jason-m-lemkin-005",
+      "speaker": "Jason Lemkin",
+      "text": "You need two reps that are hitting quota and then you hire VP of sales. If you hire it before then, you're doing a Hail Mary. It never, ever, never, ever, ever, never, ever works. You're asking them to find product market fit to be the first rep, to be the second rep and scale it all at the same time. It's mission impossible to do all four at the same time.",
+      "timestamp": "00:20:29",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["hiring-sequence", "vp-of-sales", "scaling"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "jason-m-lemkin-006",
+      "speaker": "Jason Lemkin",
+      "text": "The best sales folks love sales. It's a craft. They love money. Yes, they love money, and that does matter. Do not hire a sales rep that doesn't like money. Trust me on this one. There's 0% chance they'll work out either, but they also like the craft. They like honing the script. They like beating the competition. They like figuring out the weapon and the 10x feature. They like hunting. They love it.",
+      "timestamp": "00:28:12",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["sales-craft", "motivation", "hiring"],
+      "zones": ["velocity", "intuition", "perfection"]
+    },
+    {
+      "id": "jason-m-lemkin-007",
+      "speaker": "Jason Lemkin",
+      "text": "Here's the mistake that 99% of founders and sales reps make. We're not really selling in B2B. We're solving problems. Our job as sales reps in SaaS is to not sell a used car. We are selling a Tesla Model 3 performance. It has competition. I might not need it this week, but it's pretty darn good.",
+      "timestamp": "00:37:10",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 298
+      },
+      "themes": ["sales-philosophy", "problem-solving", "mindset"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "jason-m-lemkin-008",
+      "speaker": "Jason Lemkin",
+      "text": "I'd much rather have two reps, each closing a million than 20 reps struggling to close 100k each. Culturally, it's terrible. There's no domain knowledge in the company. Everyone's miserable, everyone's fighting. What you want to do in the early days is concentrate your leads and your best closers.",
+      "timestamp": "00:51:18",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 406
+      },
+      "themes": ["team-quality", "focus", "scaling"],
+      "zones": ["focus", "velocity", "data"]
+    },
+    {
+      "id": "jason-m-lemkin-009",
+      "speaker": "Jason Lemkin",
+      "text": "Every quarter, give your head of sales a certain budget, whether it's story points or 10% of the pie chart. And when you do this, things will radically change. Even the best VPs of sales, they change the wind. On Monday, what they really need is the HubSpot integration. And then, on Wednesday, a new prospect comes in and they need SAP. You need a budget to force prioritization.",
+      "timestamp": "01:13:46",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 574,
+        "lineEnd": 574
+      },
+      "themes": ["product-sales-alignment", "prioritization", "roadmap"],
+      "zones": ["alignment", "data", "focus"]
+    },
+    {
+      "id": "jason-m-lemkin-010",
+      "speaker": "Jason Lemkin",
+      "text": "This stress between product and sales is a good thing. It's a sign of a well-run B2B company when there is stress between product and sales. It's a good sign. If there's no stress, you're not in enough deals. You're not in enough deals if there's no stress.",
+      "timestamp": "01:17:58",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 598,
+        "lineEnd": 598
+      },
+      "themes": ["product-sales-tension", "organizational-health", "growth"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "jason-m-lemkin-011",
+      "speaker": "Jason Lemkin",
+      "text": "Products that cannot offer a free edition cut corners because they don't have to be good at onboarding. The products that do not have a free edition have human beings that bridge the gap between buying and deployment. All of your product is better if people can actually use a free edition. All your customers benefit, even your enterprise customers benefit.",
+      "timestamp": "01:37:26",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 748,
+        "lineEnd": 748
+      },
+      "themes": ["freemium", "product-quality", "onboarding"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "jason-m-lemkin-012",
+      "speaker": "Jason Lemkin",
+      "text": "Ship three great things this year. Let's just do them not good, great. Few things inspire teams more than when you're shipping great products. If you weren't the leaders the last two years, if you were being forced to weaponize your customer base, ship three great things this year. That's my challenge.",
+      "timestamp": "01:40:53",
+      "source": {
+        "slug": "jason-m-lemkin",
+        "path": "episodes/jason-m-lemkin/transcript.md",
+        "lineStart": 775,
+        "lineEnd": 775
+      },
+      "themes": ["product-excellence", "team-inspiration", "leadership"],
+      "zones": ["velocity", "perfection", "alignment"]
+    }
+  ],
+  "themes": [
+    "sales-hiring",
+    "founder-led-sales",
+    "product-sales-alignment",
+    "scaling-sales-teams",
+    "freemium",
+    "customer-centricity",
+    "hiring-mistakes",
+    "sales-craft",
+    "prioritization",
+    "team-quality"
+  ],
+  "takeaways": [
+    "Your first two sales hires must be people you would buy your own product from -- quirky pirates and romantics who genuinely love your product, not polished reps with impressive LinkedIn profiles from big-name companies.",
+    "Never hire a VP of Sales before you have two reps consistently hitting quota; premature VP hires approach a 100% failure rate because you're asking one person to simultaneously find product-market fit, be the first rep, and build the scaling playbook.",
+    "Give your head of sales an explicit quarterly budget of engineering points for feature requests, forcing them to prioritize rather than whiplashing the product team between competing deal demands every other day.",
+    "The tension between product and sales is a sign of organizational health, not dysfunction -- if there's no stress between the two functions, you're simply not in enough deals to be growing.",
+    "Free editions make all your software better because they force you to invest in onboarding and self-serve quality that benefits every customer tier, including enterprise -- be the VP of Free in your company."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jason-m-lemkin-003",
+      "why": "Argues against hiring from prestigious companies -- the best early sales hires are 'pirates and romantics' who love your scrappy product, not polished professionals with impressive resumes",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "jason-m-lemkin-010",
+      "why": "Reframes product-sales tension as a positive health indicator rather than a dysfunction to eliminate -- no tension means not enough deals",
+      "related_zones": ["chaos", "alignment"]
+    },
+    {
+      "quoteId": "jason-m-lemkin-011",
+      "why": "Claims free editions make ALL software better, including enterprise, because they force better onboarding -- goes against the common wisdom of gating features behind paywalls",
+      "related_zones": ["perfection", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor-founder",
+    "company_stage": "multi-stage",
+    "primary_topics": ["sales-hiring", "founder-led-sales", "product-sales-alignment", "freemium", "scaling-teams"]
+  }
+}

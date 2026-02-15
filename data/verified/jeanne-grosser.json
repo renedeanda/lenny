@@ -1,0 +1,194 @@
+{
+  "slug": "jeanne-grosser",
+  "quotes": [
+    {
+      "id": "jeanne-grosser-001",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "One of the things you're going to want to see more in this particular moment is that go-to-market become a really integrated lifecycle. We've gone through a period of hyper-specialization in go-to-market. There are 17 different roles within go-to-market these days and I hypothesize that a lot of those are going to start to collapse.",
+      "timestamp": "00:06:57",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["go-to-market", "organizational-design", "specialization"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "jeanne-grosser-002",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "We had 10 SDRs doing this inbound workflow and now we just have one that is effectively QA-ing the agent. The other nine we deployed on outbound, so we got to move them up the value chain.",
+      "timestamp": "00:19:44",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 160,
+        "lineEnd": 160
+      },
+      "themes": ["ai-agents", "sales-automation", "efficiency"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "jeanne-grosser-003",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "For the 20 years I've been in sales, it's always been somewhere around 30% to 40% of time sellers actually spend in front of customers. I think we're getting to a point where with layering in agents, ideally we finally get salespeople to a point where they're actually spending 70% of their time interacting with humans.",
+      "timestamp": "00:17:44",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 151
+      },
+      "themes": ["sales-productivity", "ai-agents", "human-interaction"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "jeanne-grosser-004",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "The biggest loss that quarter according to the account executive was lost on price. And when you ran the agent over every Slack interaction, every email, every GONG call, it said actually you lost because you never really got in touch with an economic buyer. The reason we lost was an inability to demonstrate value.",
+      "timestamp": "00:35:39",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 226,
+        "lineEnd": 226
+      },
+      "themes": ["sales-analysis", "ai-insights", "deal-review"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "jeanne-grosser-005",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "The litmus test I have always given my sales team is if you are an account executive in my org and I put you in front of 10 engineers at our company, it should take them 10 minutes to figure out you aren't a product manager.",
+      "timestamp": "01:09:59",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["sales-culture", "product-depth", "credibility"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "jeanne-grosser-006",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "We buy a lot of things because of how we feel about them. The experience that you have of being sold to will increasingly actually differentiate a company and drive buying decisions if products are only different at the margin. And so then you really want to create a customer buying journey that feels like very unique experiences.",
+      "timestamp": "00:48:01",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
+      },
+      "themes": ["buying-experience", "differentiation", "go-to-market"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "jeanne-grosser-007",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "80% of customers buy to avoid pain or reduce risk as opposed to increased upside, which is a good thing for startup founders to understand. We all love to talk about the art of the possible, everything we're going to enable in the future, but that's often really a sale that's going to resonate with another founder.",
+      "timestamp": "00:58:27",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 352
+      },
+      "themes": ["sales-psychology", "risk-aversion", "enterprise-sales"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "jeanne-grosser-008",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "I forever have given founders the advice that you often want to bring in revenue operations, which is basically the analytical arm of sales earlier than you think because having data, having process is actually what gives you insights as a founder into what is and isn't working.",
+      "timestamp": "00:28:26",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["revenue-operations", "data-driven", "founder-advice"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "jeanne-grosser-009",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "A lot of good companies invest in docs, good thing to do, but they stop there. Particularly if you are selling into a slightly larger company doing things like well-architected guides or blueprints. Customers really want to know the best practice for how exactly to implement your product with their particular setup.",
+      "timestamp": "00:54:07",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 322,
+        "lineEnd": 322
+      },
+      "themes": ["sales-enablement", "content-strategy", "enterprise-sales"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "jeanne-grosser-010",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "Excellent salespeople typically will talk well under half the time in a conversation because they're out asking questions, probing often helping a customer arrive at conclusions on their own. Learning to be great at five whys, go deep rather than immediately going into problem solving mode.",
+      "timestamp": "00:54:39",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 326
+      },
+      "themes": ["discovery", "listening", "sales-skills"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jeanne-grosser-011",
+      "speaker": "Jeanne DeWitt Grosser",
+      "text": "I also believe that the best go-to-market orgs on the planet are equal parts revenue driving and R&D. If I have a 20-person sales team, think of the number of customers that we talk to in a week. If we can do an excellent job of translating all of that feedback into signal, we can be actually an extension of the product management org.",
+      "timestamp": "01:09:59",
+      "source": {
+        "slug": "jeanne-grosser",
+        "path": "episodes/jeanne-grosser/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["sales-as-rd", "product-feedback", "customer-signal"],
+      "zones": ["discovery", "data", "alignment"]
+    }
+  ],
+  "themes": ["go-to-market", "ai-agents", "sales-automation", "sales-culture", "enterprise-sales", "buying-experience", "discovery", "revenue-operations", "data-driven", "product-depth", "sales-psychology", "content-strategy", "listening"],
+  "takeaways": [
+    "GTM engineers are transforming sales by automating rote workflows with AI agents, enabling one SDR to do the work of ten while maintaining the same lead-to-opportunity conversion rate.",
+    "80% of enterprise customers buy to avoid pain or reduce risk rather than increase upside - founders need to shift their pitch from art of the possible to risk reduction.",
+    "The best sales organizations function as an extension of R&D, translating the signal from hundreds of customer conversations per week into product roadmap insights.",
+    "Salespeople should be indistinguishable from product managers in product depth - this builds credibility with engineering teams and transforms sales from transaction to consultation.",
+    "Revenue operations should be brought in earlier than most founders think, because data and process give founders the insights they need to understand what is and isn't working."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.20,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.00,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jeanne-grosser-007",
+      "why": "Challenges the startup pitch convention of selling vision and possibility - argues that 80% of buying decisions are about pain avoidance, making the 'art of the possible' pitch a founder-to-founder luxury",
+      "related_zones": ["intuition", "data"]
+    },
+    {
+      "quoteId": "jeanne-grosser-005",
+      "why": "Sets a radical bar for sales teams: your salespeople should be so technically deep that engineers can't distinguish them from product managers in the first 10 minutes",
+      "related_zones": ["perfection", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["go-to-market", "ai-in-sales", "enterprise-sales"]
+  }
+}

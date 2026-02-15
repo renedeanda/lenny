@@ -1,0 +1,213 @@
+{
+  "slug": "jessica-hische",
+  "quotes": [
+    {
+      "id": "jessica-hische-001",
+      "speaker": "Jessica Hische",
+      "text": "Everybody that starts a company knows that they need a logo. Some people start a company and think the logo is going to drive the culture of the company, which I don't think that that is true. I think that the product itself, and the team you build, and the people you put together are the thing that should be driving things forward.",
+      "timestamp": "00:06:32",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 82,
+        "lineEnd": 82
+      },
+      "themes": ["branding", "culture", "product-first"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "jessica-hische-002",
+      "speaker": "Jessica Hische",
+      "text": "I am sort of a weird contrarian in this way in the brand world where brand people are like, 'Brand is everything. You need to take a significant investment in brand.' But I think being a bit more of an insider within the tech world, I understand that sometimes people start companies and have an intention to do something, but then the company has to pivot for one reason or another.",
+      "timestamp": "00:08:24",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 88
+      },
+      "themes": ["branding", "startups", "pragmatism"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "jessica-hische-003",
+      "speaker": "Jessica Hische",
+      "text": "If you are using something that's available to everyone, the chances of someone else coming in and copying you are very easy and high. One way to avoid that is by doing something that's more customized when it comes to the logo and brand.",
+      "timestamp": "00:11:03",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 99,
+        "lineEnd": 100
+      },
+      "themes": ["differentiation", "branding", "competitive-moat"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jessica-hische-004",
+      "speaker": "Jessica Hische",
+      "text": "Most people are better at understanding the feelings and sensations that typography and logos give us than they give themselves credit for, because what we are as people are endless absorbers of patterns, and information, and all this kind of stuff as we move throughout the world. We don't take time to sit and digest it, but it's still coming in and getting logged.",
+      "timestamp": "00:25:06",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["design-literacy", "pattern-recognition", "intuition"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jessica-hische-005",
+      "speaker": "Jessica Hische",
+      "text": "I think a good exercise is just looking at fonts that are available in the world and asking yourself, 'What feeling does this give me?' Just give yourself permission to say whatever is happening in your mind, the first thing. Don't overanalyze it. Just look at it and be like, 'That feels calm to me. That feels exciting to me.'",
+      "timestamp": "00:26:08",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["design-literacy", "typography", "intuition"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jessica-hische-006",
+      "speaker": "Jessica Hische",
+      "text": "It's cool because you are reverse-justifying decisions. I think that's a really fun exercise to do, is to Song Exploder your intuition. You make a decision intuitively or look at something and intuit what you feel from it, and then really try to dive in, 'Why do I feel that way? What could this have reminded me of that made me feel that way?'",
+      "timestamp": "00:30:08",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["intuition", "design-process", "self-awareness"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jessica-hische-007",
+      "speaker": "Jessica Hische",
+      "text": "You end up creating something that's perfect and then have to make it not perfect in order to make it be perceived as perfect. That's another just fun thing to start noticing. You notice it a lot more on typefaces and typography that is heavier in weight, because when things are heavier weight, you're constantly managing these really inky moments where things join together.",
+      "timestamp": "00:35:23",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["typography", "optical-correction", "craft"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "jessica-hische-008",
+      "speaker": "Jessica Hische",
+      "text": "Sometimes the delight is the fact that nothing is getting in your way as you're using that product. You just figure out what's your ethos of your company. Is the whole thing about doing a thing well, doing it simply, and making sure that everything gets out of the way of that experience?",
+      "timestamp": "00:45:34",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 280
+      },
+      "themes": ["product-design", "simplicity", "delight"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jessica-hische-009",
+      "speaker": "Jessica Hische",
+      "text": "My goal always when designing a logo is to design a logo that's so easy to use that you don't have to be an extremely skilled designer to design well with it. That's my number one goal, because I know not everybody is going to be at a stage where they have an internal brand team or a designer that's a rock star designer.",
+      "timestamp": "00:41:43",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": ["design-systems", "usability", "accessibility"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "jessica-hische-010",
+      "speaker": "Jessica Hische",
+      "text": "I do this thing where I bounce back and forth between projects a lot as I'm losing steam, and so having multiple things to work on keeps me motivated to keep working. Rather than taking breaks, I just take a break by working on something that feels fresh.",
+      "timestamp": "01:10:50",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 415,
+        "lineEnd": 415
+      },
+      "themes": ["productivity", "creative-process", "burnout-prevention"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "jessica-hische-011",
+      "speaker": "Jessica Hische",
+      "text": "The more homogenous your life and career and job is, the faster you're going to burn out, so just making sure that you have enough variety and all the things that you do.",
+      "timestamp": "01:11:35",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 421,
+        "lineEnd": 421
+      },
+      "themes": ["burnout-prevention", "career-diversity", "sustainability"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "jessica-hische-012",
+      "speaker": "Jessica Hische",
+      "text": "There's some weird knowledge around understanding that nothing is ever 100% perfect, and the most you can aspire and get to is 99.8 or whatever. That last 0.2%, you could spend your whole life trying to do that, or you could move on and do other things and understand that it's nearly perfect.",
+      "timestamp": "01:18:57",
+      "source": {
+        "slug": "jessica-hische",
+        "path": "episodes/jessica-hische/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 472
+      },
+      "themes": ["perfectionism", "pragmatism", "decision-making"],
+      "zones": ["velocity", "perfection"]
+    }
+  ],
+  "themes": ["branding", "culture", "product-first", "startups", "pragmatism", "differentiation", "competitive-moat", "design-literacy", "pattern-recognition", "intuition", "typography", "design-process", "self-awareness", "optical-correction", "craft", "product-design", "simplicity", "delight", "design-systems", "usability", "accessibility", "productivity", "creative-process", "burnout-prevention", "career-diversity", "sustainability", "perfectionism", "decision-making"],
+  "takeaways": [
+    "A 'good enough' logo is fine for early-stage startups — invest heavily in brand only after you've found product-market fit and are ready to scale.",
+    "Everyone has more design intuition than they realize — practice noticing how typography and logos make you feel to build design literacy.",
+    "The best logos are easy to use without a 500-page brand book; they should teach you how to use them by how they exist.",
+    "Prevent creative burnout by switching between diverse projects rather than taking breaks — variety sustains motivation better than rest.",
+    "Perfect typography requires making things imperfect — optical corrections break mathematical regularity to achieve perceived perfection."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.15,
+    "data": 0.00,
+    "intuition": 0.25,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jessica-hische-002",
+      "why": "A branding expert who argues against heavy brand investment for startups — directly contradicts the prevailing wisdom of her own industry.",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "jessica-hische-007",
+      "why": "The paradox that achieving visual perfection requires intentional imperfection challenges engineering-minded thinking about design.",
+      "related_zones": ["perfection", "intuition"]
+    },
+    {
+      "quoteId": "jessica-hische-010",
+      "why": "Advocates against taking traditional breaks — instead recommends switching between different types of work as the optimal way to sustain energy.",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["branding", "typography", "design-process"]
+  }
+}

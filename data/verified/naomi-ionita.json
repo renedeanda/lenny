@@ -1,0 +1,208 @@
+{
+  "slug": "naomi-ionita",
+  "quotes": [
+    {
+      "id": "naomi-ionita-q001",
+      "speaker": "Naomi Ionita",
+      "text": "One challenge that Evernote really struggled with was this evolution from single-player to multiplayer to team to enterprise. It's a chasm that a lot of bottom-up SaaS businesses struggle to cross. Evernote was philosophically antisocial. It was meant to be your second brain, kind of your personal tool. And I think that capped the company's growth potential.",
+      "timestamp": "00:06:39",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 81
+      },
+      "themes": ["growth", "collaboration", "product-strategy"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "naomi-ionita-q002",
+      "speaker": "Naomi Ionita",
+      "text": "I always used to say you can't retrofit collaboration. You have to be collaboration-first. And a lot of companies now really take that for granted. But back in mid-2000s, this was kind of a new way of building product.",
+      "timestamp": "00:06:39",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 81
+      },
+      "themes": ["collaboration", "product-strategy", "lessons-learned"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "naomi-ionita-q003",
+      "speaker": "Naomi Ionita",
+      "text": "I see companies way too long to make that shift from building a product to building a business. And I think that's the true signal of product-market fit, is ultimately having people open up their wallets and pay you.",
+      "timestamp": "00:10:28",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["monetization", "product-market-fit", "pricing"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "naomi-ionita-q004",
+      "speaker": "Naomi Ionita",
+      "text": "When you don't monetize, you're inadvertently cheapening your product. People attribute a lower dollar value or a $0 value to what you've built. You're missing out on critical feedback loops to understand what people are willing to pay. And you're shooting your future self in the foot because at some point you're going to start charging, and you're going to experience some backlash.",
+      "timestamp": "00:10:55",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["monetization", "pricing", "growth"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "naomi-ionita-q005",
+      "speaker": "Naomi Ionita",
+      "text": "If guilt is one of the main reasons why people are paying you, then your free version is too good, and you are leaving money on the table.",
+      "timestamp": "00:16:46",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 144
+      },
+      "themes": ["freemium", "pricing", "monetization"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "naomi-ionita-q006",
+      "speaker": "Naomi Ionita",
+      "text": "Think about your pricing just like you do your roadmap. Every six to 12 months, there's probably something meaningful that you're launching for users. Treat that as an opportunity to revisit your monetization strategy and making sure you're compensated appropriately.",
+      "timestamp": "00:19:03",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 156
+      },
+      "themes": ["pricing", "strategy", "iteration"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "naomi-ionita-q007",
+      "speaker": "Naomi Ionita",
+      "text": "Matching price to value creates alignment with your user. This entails picking the right value metric. So, this is the unit of value that they derive from using your product, and it creates this natural escalator, because as people use it more, you get paid more over time.",
+      "timestamp": "00:15:53",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": ["pricing", "value-metric", "monetization"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "naomi-ionita-q008",
+      "speaker": "Naomi Ionita",
+      "text": "We doubled our upgrade rate from our starter plan to our pro plan while also increasing the price of the pro plan. To actually get twice as many people to upgrade while paying something like 30% more for that new plan is pretty rare to get the compounding benefits of that.",
+      "timestamp": "00:14:00",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["pricing", "experimentation", "growth"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "naomi-ionita-q009",
+      "speaker": "Naomi Ionita",
+      "text": "What is a day one premium feature? What is a premium feature that you can get value from the very first time you engage with the product? That's different than your day 100 features. Those are the ones that represent more advanced functionality where the value is derived from having a certain scale of data in the platform.",
+      "timestamp": "00:14:00",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["pricing", "packaging", "user-journey"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "naomi-ionita-q010",
+      "speaker": "Naomi Ionita",
+      "text": "Roughly half of companies that instituted a pricing change saw at least a 25% increase in ARR. So that's a pretty massive step function improvement in your revenue from something that doesn't require massive technological overhaul. I find that most companies regret not doing it sooner.",
+      "timestamp": "00:23:22",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 192
+      },
+      "themes": ["pricing", "revenue", "growth-lever"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "naomi-ionita-q011",
+      "speaker": "Naomi Ionita",
+      "text": "The impact with an improvement on monetization was 4X that of acquisition. So, this idea of how can you efficiently improve your business monetization is really underappreciated as a growth lever.",
+      "timestamp": "00:24:13",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 195
+      },
+      "themes": ["monetization", "growth", "efficiency"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "naomi-ionita-q012",
+      "speaker": "Naomi Ionita",
+      "text": "I encourage users to continue to ask for more, to understand where the upper bound might be, and to understand that it's okay sometimes to lose some deals due to price. Something on the order of 20 to 30% is reasonable so that you can get a sense for where the limit might be.",
+      "timestamp": "00:27:13",
+      "source": {
+        "slug": "naomi-ionita",
+        "path": "episodes/naomi-ionita/transcript.md",
+        "lineStart": 216,
+        "lineEnd": 216
+      },
+      "themes": ["pricing", "enterprise-sales", "negotiation"],
+      "zones": ["chaos", "velocity"]
+    }
+  ],
+  "themes": ["monetization", "pricing", "freemium", "growth", "PLG", "experimentation", "value-metrics", "collaboration"],
+  "takeaways": [
+    "Monetization is a 4X more efficient growth lever than acquisition - most companies underinvest in pricing strategy and regret not optimizing sooner.",
+    "You can't retrofit collaboration into a single-player product - the bridge from individual to team to enterprise must be intentional from the start, as Evernote's failure to cross this chasm demonstrated.",
+    "Match price to value using the right value metric - this creates a natural escalator where revenue grows with usage, replacing the outdated seat-based model with hybrid approaches.",
+    "Treat pricing like your product roadmap by revisiting it every 6-12 months - setting it and forgetting it cheapens your product and leaves money on the table.",
+    "Use the day-1 vs day-100 framework for packaging: free features should deliver the aha moment and drive habit formation, while premium features should map to advanced functionality that grows with user maturity."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.35,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "naomi-ionita-q005",
+      "why": "Challenges the common freemium wisdom by arguing that if guilt drives conversions, your free tier is too generous - a counterintuitive signal most companies miss",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "naomi-ionita-q012",
+      "why": "Encourages founders to be comfortable losing 20-30% of deals on price, which runs against the instinct to close every deal",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "mixed",
+    "primary_topics": ["monetization", "pricing-strategy", "PLG", "growth", "freemium"]
+  }
+}

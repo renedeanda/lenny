@@ -1,0 +1,199 @@
+{
+  "slug": "melissa-perri",
+  "quotes": [
+    {
+      "id": "melissa-perri-001",
+      "speaker": "Melissa Perri",
+      "text": "I've met a lot of organizations that think most of their issues are in the training of their people. And 99% of the time, I see that it's actually in the way that they're setting their goals and deploying their strategy. Because once you train those people, they have no context on what to work towards.",
+      "timestamp": "00:20:57",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 191,
+        "lineEnd": 191
+      },
+      "themes": ["strategy", "leadership", "training"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melissa-perri-002",
+      "speaker": "Melissa Perri",
+      "text": "Signs that there are no strategy, teams are all working like dogs. They're working 80 hours a week. People are heads down, crunching, crunching, crunching, releasing, releasing, releasing. Or sometimes not releasing, but they're working like crazy and none of the metrics are moving. So the executive team is going, what is happening? Product is a black box. Tech is a black box.",
+      "timestamp": "00:21:51",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 200,
+        "lineEnd": 200
+      },
+      "themes": ["strategy", "metrics", "execution"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "melissa-perri-003",
+      "speaker": "Melissa Perri",
+      "text": "There's usually some kind of strategy, but it lives in people's heads, and they're really bad about writing it down and getting it out. So I always tell people, if you think that there's no strategy, go interrogate people for awhile. Go talk to the leaders. I usually can pull out what people believe the goals to be, and sometimes they're just not explicitly written down.",
+      "timestamp": "00:22:59",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 206
+      },
+      "themes": ["strategy", "communication", "documentation"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "melissa-perri-004",
+      "speaker": "Melissa Perri",
+      "text": "I once asked all the executive team at a healthcare company, what's the vision for this company? And they said, to be the backbone of healthcare. And I said, what does that mean? And they couldn't elaborate. Nobody could elaborate on that. And I said, cool, that's a tagline, but it's not a vision. What are we manifesting into? What are we doing? What are we not doing?",
+      "timestamp": "00:23:57",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 212,
+        "lineEnd": 212
+      },
+      "themes": ["vision", "strategy", "leadership"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "melissa-perri-005",
+      "speaker": "Melissa Perri",
+      "text": "If you deploy your strategy well, your product teams will deeply understand how their stuff actually impacts the business. And if you don't deploy it well, they're going to be like, I don't know why I'm building this stuff. If you have a bunch of people asking you, why are we building this, then you didn't do a good job as a leader explaining what it is that you're after.",
+      "timestamp": "00:28:14",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 239,
+        "lineEnd": 239
+      },
+      "themes": ["strategy", "leadership", "communication"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melissa-perri-006",
+      "speaker": "Melissa Perri",
+      "text": "When strategy is deployed correctly and you have that type of culture with your executives, they're all on the same page. So you can have very calm trade-off talks about, are we going to do strategic intent one or two? If we do this, then we don't get that. Are we okay with that? And it's not emotional, it's more objective, because we're all there together to further the business.",
+      "timestamp": "00:29:32",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 248,
+        "lineEnd": 248
+      },
+      "themes": ["strategy", "alignment", "prioritization"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melissa-perri-007",
+      "speaker": "Melissa Perri",
+      "text": "Chief product officers have to deeply understand how to get from roadmap to revenue and how to analyze those things and put it into perspective. So they're usually joined at the hip with the chief revenue officer, or the head of sales, the CFO. They can confidently project to the board. They're a fantastic executive navigator when it comes to dealing with other executives.",
+      "timestamp": "00:15:03",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 158,
+        "lineEnd": 158
+      },
+      "themes": ["leadership", "product-leadership", "revenue"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "melissa-perri-008",
+      "speaker": "Melissa Perri",
+      "text": "A vision should be concrete enough where people can picture what it will be in their head. It can't be fluffy. People need to be able to look at a vision and say, I can understand that we're going to get there one day. I don't know how we're going to get there today, but we will find out along the way. That's a good vision.",
+      "timestamp": "00:36:07",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 308
+      },
+      "themes": ["vision", "strategy", "leadership"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "melissa-perri-009",
+      "speaker": "Melissa Perri",
+      "text": "Good visions also say what you don't want to do. I love reading a vision that's like, we're not going to be like that. And that, to me, is so powerful because you're like, oh, okay, we're not going to copy that. We're not going to go after that. Because you can easily have a whole team be like, oh, let's just copy what they did over there.",
+      "timestamp": "00:38:15",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 320,
+        "lineEnd": 320
+      },
+      "themes": ["vision", "focus", "differentiation"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "melissa-perri-010",
+      "speaker": "Melissa Perri",
+      "text": "We don't always make the right choice when it comes to strategy, but you've got to make a choice. And I think that's the hardest part for some people. They're like, I want to be 100% certain this is going to work. And you can't. A good aspect of being a leader is making the best informed decision that you possibly can at the time, but then also being willing to correct yourself if you find out it's the wrong one.",
+      "timestamp": "00:41:55",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 353,
+        "lineEnd": 353
+      },
+      "themes": ["decision-making", "leadership", "strategy"],
+      "zones": ["chaos", "intuition", "data"]
+    },
+    {
+      "id": "melissa-perri-011",
+      "speaker": "Melissa Perri",
+      "text": "Doesn't matter what framework you use, as long as it works for your company. But they all got to that framework by asking those questions, and looking at the data, and deeply understanding their market, and deeply understanding their customers, and just trying to piece it all together.",
+      "timestamp": "00:43:12",
+      "source": {
+        "slug": "melissa-perri",
+        "path": "episodes/melissa-perri/transcript.md",
+        "lineStart": 362,
+        "lineEnd": 362
+      },
+      "themes": ["frameworks", "strategy", "customer-understanding"],
+      "zones": ["discovery", "data"]
+    }
+  ],
+  "themes": ["strategy", "vision", "leadership", "alignment", "product-operations", "prioritization", "communication", "decision-making"],
+  "takeaways": [
+    "The most common problem in product organizations is not lack of training but lack of strategy deployment -- 99% of the time, teams struggle because they have no context on what to work towards, not because they lack skills.",
+    "A good product vision must be concrete enough to picture, lofty enough to require iteration, clearly differentiated from competitors, and explicit about what you will NOT do.",
+    "Strategy deployment is the 'missing middle' -- the gap between what executives want (business outcomes) and what teams are building (features). Bridging this gap requires written strategy at every level, from strategic intents to product initiatives to team solutions.",
+    "When strategy is well-deployed, trade-off conversations become calm and objective rather than emotional and political. Executives align on shared goals instead of fighting for competing priorities.",
+    "Product operations is the emerging discipline that scales product management by standardizing the cross-team interactions -- roadmap formats, strategy check-in cadences, customer research coordination -- while leaving team-level practices autonomous."
+  ],
+  "zone_influence": {
+    "velocity": 0.03,
+    "perfection": 0.02,
+    "discovery": 0.12,
+    "data": 0.13,
+    "intuition": 0.10,
+    "alignment": 0.30,
+    "chaos": 0.05,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "melissa-perri-001",
+      "why": "Challenges the common instinct to solve organizational problems through training -- argues the real issue is almost always strategy deployment, not people skills",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "melissa-perri-010",
+      "why": "Pushes against analysis paralysis and the desire for certainty -- argues leaders must make imperfect strategic bets and be willing to reverse course rather than wait for perfect data",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "melissa-perri-009",
+      "why": "Argues that a great vision is defined as much by what you refuse to do as what you pursue -- a counterpoint to expansionist growth mindsets",
+      "related_zones": ["focus", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "consultant",
+    "company_stage": "growth",
+    "primary_topics": ["product-strategy", "product-operations", "leadership", "org-design"]
+  }
+}

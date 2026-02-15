@@ -1,0 +1,199 @@
+{
+  "slug": "kevin-aluwi",
+  "quotes": [
+    {
+      "id": "kevin-aluwi-001",
+      "speaker": "Kevin Aluwi",
+      "text": "We started with a very local problem and the first product was an on-demand super app where you could ask someone on a motorcycle to give you a ride, send a package for you or buy something and deliver it to you. This then evolved over the years into a more general on-demand consumer super app.",
+      "timestamp": "00:06:03",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 75,
+        "lineEnd": 76
+      },
+      "themes": ["product-evolution", "super-apps", "local-problems", "scaling"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "kevin-aluwi-002",
+      "speaker": "Kevin Aluwi",
+      "text": "I am kind of annoyed at how much super apps are being mentioned these days. All of the things that are really appealing, lower customer acquisition costs, higher attach rates, higher retention, ease of cross-selling. All of these things sound great, but in reality, a lot of those benefits don't pan out.",
+      "timestamp": "00:10:19",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 115
+      },
+      "themes": ["super-apps", "strategy", "product-market-fit", "contrarian"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "kevin-aluwi-003",
+      "speaker": "Kevin Aluwi",
+      "text": "There needs to be a unifying concept across all of your services within the app for your users to think about your product in a sensible way. For us, the way customers thought about us was the driver. When we went from ride hailing to food delivery, customers understood that. But when you start doing other things without that unifying factor, it starts breaking down.",
+      "timestamp": "00:12:25",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 122
+      },
+      "themes": ["product-design", "super-apps", "user-mental-models", "strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "kevin-aluwi-004",
+      "speaker": "Kevin Aluwi",
+      "text": "The two most important things in a consumer business are product and brand in that order. Brand as an afterthought is definitely one of the areas where I think there's a giant missed opportunity for consumer tech businesses. Without brand, we probably would've never gotten to escape velocity beyond that scrappy stage.",
+      "timestamp": "00:16:23",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 137
+      },
+      "themes": ["brand", "consumer-business", "growth", "strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "kevin-aluwi-005",
+      "speaker": "Kevin Aluwi",
+      "text": "Great brands create associations in their customer's minds that transcend the typically transactional or utilitarian one that most people have with businesses and they become part of one's identity. That loyalty goes beyond a relationship that can easily be swayed just through discounts or other more features that competitors might have.",
+      "timestamp": "00:18:42",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 145
+      },
+      "themes": ["brand", "loyalty", "identity", "competition"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "kevin-aluwi-006",
+      "speaker": "Kevin Aluwi",
+      "text": "People would be seeing these drivers with their jackets and helmets, they would be seeing passengers on the backseat as they were stuck in traffic. Immediately I get that association like, I'm stuck in traffic, but I could be out there cutting through traffic on a motorcycle. It was this beautiful combination of imagery as a reminder of the brand and a physical reminder of the service.",
+      "timestamp": "00:23:58",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 159,
+        "lineEnd": 163
+      },
+      "themes": ["brand", "growth-hacks", "marketing", "physical-world"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "kevin-aluwi-007",
+      "speaker": "Kevin Aluwi",
+      "text": "We actually had cash booths. Physical spaces with a vault and cash where drivers could show up with their driver ID and balance. We eventually figured out bank integrations and ATM networks. But in the early days we just did it ourselves, building essentially a mini ATM network. It was literally a booth with a vault with cash in it.",
+      "timestamp": "00:27:11",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 174,
+        "lineEnd": 178
+      },
+      "themes": ["scrappiness", "operations", "emerging-markets", "problem-solving"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "kevin-aluwi-008",
+      "speaker": "Kevin Aluwi",
+      "text": "I really don't like the idea of moats. I don't believe that any moats are durable over time. One so-called moat that doesn't get talked about enough is the fact that you're able to do hard things because hard things are hard. Simply doing things that are hard, as long as they create value to your customers, makes it harder for your competitors to win.",
+      "timestamp": "00:33:41",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 199
+      },
+      "themes": ["moats", "competition", "strategy", "contrarian"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "kevin-aluwi-009",
+      "speaker": "Kevin Aluwi",
+      "text": "We actually hired private security to help our drivers in those situations, to help extract them out of sticky situations with motorcycle taxi mafia. We ran a fairly big private security operation for a fairly long time. It showed our commitment to the driver community and helped build goodwill even as competitors started paying more money.",
+      "timestamp": "00:34:52",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 201,
+        "lineEnd": 205
+      },
+      "themes": ["operations", "driver-safety", "loyalty", "doing-hard-things"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "kevin-aluwi-010",
+      "speaker": "Kevin Aluwi",
+      "text": "A lot of times I felt like I needed to understand every part of the business as best as I could, and seeing how bad I am at it allowed me to understand what good looked like. I held a lot of those roles just because I wanted to understand every part of the business in order to then find somebody who could do it orders of magnitude better than myself.",
+      "timestamp": "00:40:05",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 232
+      },
+      "themes": ["founder-mentality", "hiring", "learning", "humility"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "kevin-aluwi-011",
+      "speaker": "Kevin Aluwi",
+      "text": "Whoever is accountable for the results should also be the decider. I found that a lot of literature says product teams should be this communal best-ideas-come-from-everywhere group, which is well-intentioned. But not having it be super clear who is accountable and who is deciding often slows down execution a lot.",
+      "timestamp": "01:00:53",
+      "source": {
+        "slug": "kevin-aluwi",
+        "path": "episodes/kevin-aluwi/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 373
+      },
+      "themes": ["decision-making", "accountability", "execution", "product-teams"],
+      "zones": ["focus", "velocity"]
+    }
+  ],
+  "themes": ["product-evolution", "super-apps", "local-problems", "scaling", "strategy", "product-market-fit", "contrarian", "product-design", "user-mental-models", "brand", "consumer-business", "growth", "loyalty", "identity", "competition", "growth-hacks", "marketing", "physical-world", "scrappiness", "operations", "emerging-markets", "problem-solving", "moats", "doing-hard-things", "driver-safety", "founder-mentality", "hiring", "learning", "humility", "decision-making", "accountability", "execution", "product-teams"],
+  "takeaways": [
+    "Super apps are overrated - the benefits of lower CAC and cross-selling only materialize when there's a unifying concept customers can grasp; without it, awareness of services plummets even when they're on the homepage.",
+    "Brand is the second most important thing in a consumer business after product - it creates identity-level loyalty that discounts and features from competitors cannot erode.",
+    "Doing hard things IS the moat - no moat is permanent, but the willingness to build cash vaults, hire security teams, and solve unglamorous operational problems creates compounding advantages competitors won't match.",
+    "Founders should do every job in the company badly first to learn what excellence looks like - seeing how bad you are at a role is the fastest way to know what great looks like when hiring.",
+    "Don't just copy the playbook from developed markets - Gojek's biggest innovations (branded driver helmets, motorcycle-centric super app) came from solving uniquely local problems rather than cloning Western models."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.25,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "kevin-aluwi-002",
+      "why": "Directly challenges the super app hype from someone who actually built one of the world's biggest super apps - argues the touted benefits of lower CAC and cross-selling largely don't pan out",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "kevin-aluwi-008",
+      "why": "Rejects the popular VC concept of moats entirely - argues no moat is durable and that the real competitive advantage is simply being willing to do hard things others won't",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "kevin-aluwi-004",
+      "why": "In an industry that idolizes product above all, argues brand is the massively underinvested second pillar - without it, even great products can't achieve escape velocity against better-funded competitors",
+      "related_zones": ["discovery", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["super-apps", "brand", "scrappiness", "emerging-markets", "operations"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "eric-simons",
+  "quotes": [
+    {
+      "id": "eric-simons-001",
+      "speaker": "Eric Simons",
+      "text": "We were extremely conservative during 2020 and 2021, times where exuberance and growing headcount were KPIs of companies. If we had tripled the company and kicked up the burn rate, there would be no Bolt. We would've gone out of business a long time ago.",
+      "timestamp": "00:28:02",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 274,
+        "lineEnd": 274
+      },
+      "themes": ["discipline", "burn-rate", "survival"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "eric-simons-002",
+      "speaker": "Eric Simons",
+      "text": "There are periods of time where you have to make judgment calls that are not going to be the consensus view. Maybe years later, it'll become the consensus view, but you got to have confidence in your convictions on how to best play the hand.",
+      "timestamp": "00:28:48",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 277,
+        "lineEnd": 277
+      },
+      "themes": ["conviction", "contrarian", "entrepreneurship"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "eric-simons-003",
+      "speaker": "Eric Simons",
+      "text": "Until you see pull, just people pulling the product out of your hands, you don't want to be spending money. You should be like, default, no. Keep the burn rate as low as possible, because you need as many shots on goal as you can possibly get.",
+      "timestamp": "00:27:32",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 271
+      },
+      "themes": ["frugality", "product-market-fit", "startup-strategy"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "eric-simons-004",
+      "speaker": "Eric Simons",
+      "text": "It's rare to find startups where you have the core group of five, six, seven people that have been there for five years plus. The problem with turnover is that you can't take really long bets like the one we did. Having less people and more context per head, that's just been how we do it.",
+      "timestamp": "00:35:19",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["team-retention", "small-teams", "long-term-bets"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "eric-simons-005",
+      "speaker": "Eric Simons",
+      "text": "Everyone has agency to actually get stuff done, front to back. There's no political committee to get stuff approved by. We had engineers that were on a call with someone running into an issue, going and fixing it, cooking up the UI on the spot, and landing this thing, without involving anyone else.",
+      "timestamp": "00:36:00",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 328
+      },
+      "themes": ["autonomy", "agency", "speed"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "eric-simons-006",
+      "speaker": "Eric Simons",
+      "text": "A lot of people will complain that having everyone in the same room every day is the most expensive use of everyone's time, but there's 0% fidelity loss in that. When you're in times of extreme growth, you want as close to 0% loss on communications.",
+      "timestamp": "00:44:16",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 403,
+        "lineEnd": 403
+      },
+      "themes": ["communication", "alignment", "remote-work"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "eric-simons-007",
+      "speaker": "Eric Simons",
+      "text": "There's a lot of things that you just don't even know are possible to do, and so people aren't going to be necessarily explicitly asking for them. We use our gut instinct on, 'Hey, no one's asking for this, in meaningful numbers at least. But we think this is going to be a big deal.'",
+      "timestamp": "00:41:28",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 371
+      },
+      "themes": ["intuition", "product-vision", "prioritization"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "eric-simons-008",
+      "speaker": "Eric Simons",
+      "text": "The people we see that are most successful with Bolt, outside of developers, are people that are amazing PMs. Their job is to direct developers on how to go and improve the product, spec this thing out in a way that's executable, without lossiness in the communication.",
+      "timestamp": "00:53:10",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 472
+      },
+      "themes": ["product-management", "AI-tools", "skills"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "eric-simons-009",
+      "speaker": "Eric Simons",
+      "text": "The entire software world order is going to get rewritten. PMs are going to be writing code instead of just writing a JIRA ticket and waiting for a developer to do it. The developers are going to work on intellectually challenging tasks that LLMs are not well suited for.",
+      "timestamp": "00:55:30",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 481,
+        "lineEnd": 481
+      },
+      "themes": ["future-of-work", "AI-transformation", "org-design"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "eric-simons-010",
+      "speaker": "Eric Simons",
+      "text": "Software is deterministic. When you write code and you hit run, it either runs or it doesn't. And that's the key insight. You can create training data by permutating every type of app you could ever build. LLMs are going to get insanely better at writing code than probably most other applications.",
+      "timestamp": "01:09:57",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 598,
+        "lineEnd": 598
+      },
+      "themes": ["AI-training", "determinism", "technical-insight"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "eric-simons-011",
+      "speaker": "Eric Simons",
+      "text": "The value proposition is real. The free market is filled with rational actors. People are coming to these tools because it is solving problems, they're able to do way more for way less cost. I think we're going to see more of this, whether it's in coding or other verticals.",
+      "timestamp": "00:09:40",
+      "source": {
+        "slug": "eric-simons",
+        "path": "episodes/eric-simons/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["market-validation", "value-proposition", "AI-adoption"],
+      "zones": ["data", "velocity"]
+    }
+  ],
+  "themes": ["AI-coding", "startup-survival", "small-teams", "conviction", "product-management", "future-of-work", "velocity", "frugality"],
+  "takeaways": [
+    "Keep your burn rate ruthlessly low and take many shots on goal -- Bolt was an overnight success seven years in the making because StackBlitz survived long enough to find product-market fit by staying extremely capital-efficient even when the market rewarded exuberance.",
+    "Small, high-context teams with low turnover can outperform large organizations -- a core group of 15-20 people who had worked together for 5+ years built one of the fastest-growing products in history by maximizing context per head and eliminating political overhead.",
+    "Bet on gut instinct for new capabilities, not just user requests -- the biggest feature launches at Bolt were things nobody was explicitly asking for, driven by the team's intuition about what would unlock entirely new use cases.",
+    "PMs and non-technical builders are the biggest winners of the AI coding revolution -- 67% of Bolt users are not developers, and the PM skillset of scoping, specifying, and directing is the most transferable to working with AI coding agents.",
+    "Software's deterministic nature makes it uniquely suited for AI improvement -- because code either runs or it doesn't, LLMs can generate massive training data through reinforcement learning, meaning AI will get dramatically better at coding faster than at most other tasks."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "eric-simons-002",
+      "why": "Argues founders must make judgment calls against consensus -- being contrarian for years before the market validates your view is the cost of entrepreneurship",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "eric-simons-001",
+      "why": "Stayed extremely conservative on spending during the 2020-2021 era when every VC was pushing startups to grow headcount aggressively -- directly against prevailing wisdom",
+      "related_zones": ["focus", "intuition"]
+    },
+    {
+      "quoteId": "eric-simons-006",
+      "why": "Daily all-hands meetings with the entire company contradicts common remote-work wisdom that meetings are the enemy of productivity",
+      "related_zones": ["alignment", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI-coding", "startup-survival", "small-teams", "future-of-work"]
+  }
+}

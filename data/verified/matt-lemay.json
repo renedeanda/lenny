@@ -1,0 +1,199 @@
+{
+  "slug": "matt-lemay",
+  "quotes": [
+    {
+      "id": "matt-lemay-001",
+      "speaker": "Matt LeMay",
+      "text": "The magic lies in the way people work together. I spent years as a touring musician. It's that magic of people with different perspectives, different ideas, building into something that is somehow greater than the sum of its individual parts and perspectives. That's what makes product development interesting, especially in the age of AI.",
+      "timestamp": "00:05:39",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 162
+      },
+      "themes": ["collaboration", "teamwork", "product-development"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "matt-lemay-002",
+      "speaker": "Matt LeMay",
+      "text": "If you are contributing to the business in a way that the business at large can understand, that the CEO can understand, that the CFO can understand, if your team is a good investment for the business, then the business will continue making that investment. If your team is not a good investment for the business or you don't really know if your team is a good investment, that puts you in a really tenuous position.",
+      "timestamp": "00:08:02",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 203,
+        "lineEnd": 207
+      },
+      "themes": ["impact", "business-value", "accountability"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "matt-lemay-003",
+      "speaker": "Matt LeMay",
+      "text": "If you were the CEO of this company, would you fully fund your own team? That is a small question that can provoke some big reactions. The idea that my team came at a cost to the business, that at some point somebody might look at my team on a spreadsheet and say, 'Who are these very expensive people? Why do we need them?' It just wasn't something that crossed my mind.",
+      "timestamp": "00:12:17",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 261
+      },
+      "themes": ["self-assessment", "business-impact", "leadership"],
+      "zones": ["focus", "data", "alignment"]
+    },
+    {
+      "id": "matt-lemay-004",
+      "speaker": "Matt LeMay",
+      "text": "The product manager is responsible for the whole team thinking like a CEO. If the product manager takes that on as their sole responsibility and says, 'I'm the mini CEO. I think about the business,' that's a missed opportunity. In my consulting work, it's more often than not been an engineer who's actually able to get to that specific impact-level goal for the team, sometimes before the product manager does.",
+      "timestamp": "00:16:19",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 318
+      },
+      "themes": ["product-management", "team-empowerment", "leadership"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "matt-lemay-005",
+      "speaker": "Matt LeMay",
+      "text": "There are a lot of folks who are really fixated on doing things the right way. You might go through the motions of doing OKRs the right way or doing strategy the right way, but that doesn't guarantee that your strategy is going to work. It doesn't mean that your OKRs are going to add up to what your investors or your shareholders need to see.",
+      "timestamp": "00:20:44",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 393
+      },
+      "themes": ["best-practices", "OKRs", "strategy", "anti-process"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "matt-lemay-006",
+      "speaker": "Matt LeMay",
+      "text": "Low-impact work begets low-impact work. The more low-impact work you do, the harder it is to do high-impact work, the more likely you are to do low-impact work and so on and so forth. It goes and goes and goes until the next round of layoffs, and this is a real problem.",
+      "timestamp": "00:26:33",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 422,
+        "lineEnd": 423
+      },
+      "themes": ["death-spiral", "impact", "prioritization", "layoffs"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "matt-lemay-007",
+      "speaker": "Matt LeMay",
+      "text": "You can follow all the best practices and have the highest velocity and do everything quote-unquote 'right', but if your company goes out of business, they're not going to keep writing your paycheck for two years because all of your OKRs were a 0.6 or a 0.7. That's not how it works. The reality is that things outside of our control affect us.",
+      "timestamp": "00:34:26",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 461,
+        "lineEnd": 462
+      },
+      "themes": ["accountability", "business-reality", "OKRs", "impact"],
+      "zones": ["focus", "chaos", "data"]
+    },
+    {
+      "id": "matt-lemay-008",
+      "speaker": "Matt LeMay",
+      "text": "Those constraints are how you do product management. Those are what guides you to the commercial decisions you should be making. If you're regulated, your competitors are regulated too. If you can really understand those constraints, figure out how to work well within them, that's a huge commercial advantage for your business.",
+      "timestamp": "00:42:49",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 509,
+        "lineEnd": 510
+      },
+      "themes": ["constraints", "competitive-advantage", "pragmatism"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "matt-lemay-009",
+      "speaker": "Matt LeMay",
+      "text": "The first step is in setting team goals, close to company goals. No more than one step away from company goals. Don't let it get cascaded into oblivion. Whether you're doing OKRs or KPIs or north star metrics, whatever framework you're ostensibly using, if you use it well, it looks like the company goal as a center of gravity, and every other team goal orbiting one level around it.",
+      "timestamp": "00:44:59",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 528,
+        "lineEnd": 534
+      },
+      "themes": ["goal-setting", "alignment", "OKRs", "strategy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "matt-lemay-010",
+      "speaker": "Matt LeMay",
+      "text": "If you're doing product management really well, you never have to say yes and you never have to say no. You're giving people options and you're helping them understand the trade-offs. If those people are in a position of formal authority in the organization, I've certainly never had luck telling them no.",
+      "timestamp": "01:08:24",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 705,
+        "lineEnd": 708
+      },
+      "themes": ["stakeholder-management", "communication", "trade-offs"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "matt-lemay-011",
+      "speaker": "Matt LeMay",
+      "text": "The commercially minded PMs I interviewed were also the happiest, which I did not expect at all. They were just like, 'I work for a business and I do the best I can, and then I go home. When I'm at work, my job is to help the business succeed. And I do that by understanding our business model, by trying to do work that contributes to what the business wants.'",
+      "timestamp": "00:35:06",
+      "source": {
+        "slug": "matt-lemay",
+        "path": "episodes/matt-lemay/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 466
+      },
+      "themes": ["happiness", "work-life-balance", "business-mindset", "impact"],
+      "zones": ["focus", "data", "alignment"]
+    }
+  ],
+  "themes": ["impact", "business-alignment", "goal-setting", "prioritization", "accountability", "stakeholder-management", "OKRs", "death-spiral", "constraints", "collaboration"],
+  "takeaways": [
+    "Ask yourself: 'If I were the CEO, would I fully fund my own team?' If you can't confidently say yes, you are in a tenuous position and need to realign your work to business-critical outcomes.",
+    "Low-impact work creates a death spiral -- small features and cosmetic improvements pile up, making high-impact work progressively harder until the next round of layoffs forces a reset.",
+    "Set team goals no more than one step away from company goals. Don't let objectives get cascaded through so many layers that you can't trace them back to what the business actually needs.",
+    "Constraints like regulation, B2B models, or quarterly targets aren't obstacles to good product management -- they are the very things that shape and guide your most commercially valuable decisions.",
+    "The best product managers never say yes or no outright. Instead, they present options with trade-offs and a recommendation, helping decision-makers understand what they're giving up with each choice."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.30,
+    "chaos": 0.05,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "matt-lemay-005",
+      "why": "Challenges the widespread reverence for OKR best practices -- doing things 'the right way' doesn't guarantee business success and can become a dangerous distraction from actual impact",
+      "related_zones": ["focus", "chaos"]
+    },
+    {
+      "quoteId": "matt-lemay-007",
+      "why": "Argues that following all best practices with perfect OKR scores is meaningless if the company fails -- a direct challenge to process-driven product cultures",
+      "related_zones": ["focus", "chaos"]
+    },
+    {
+      "quoteId": "matt-lemay-004",
+      "why": "Reframes the 'PM as mini-CEO' concept -- the PM's job is not to be the sole strategic thinker but to make the entire team think like a CEO, often with engineers leading impact thinking",
+      "related_zones": ["alignment", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "consultant",
+    "company_stage": "cross-stage",
+    "primary_topics": ["impact-first", "goal-alignment", "prioritization", "stakeholder-management", "business-outcomes"]
+  }
+}

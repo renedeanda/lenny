@@ -1878,28 +1878,6 @@ export const allEpisodes: Episode[] = [
     ]
   },
   {
-    "guest": "Hamel+Shreya",
-    "slug": "hamelshreya",
-    "summary": "This podcast episode features Hamel Husain and Shreya Shankar discussing the importance and methodology of evaluations (evals) for AI products. They provide a comprehensive walkthrough of their systematic approach to building evals, starting with error analysis of real application traces, then categorizing problems using open and axial coding techniques, and finally implementing automated LLM-as-judge evaluators. The conversation addresses common misconceptions about evals, clarifies the ongoing debate in the AI community about their necessity, and emphasizes that evals are essentially data science applied to AI applications.",
-    "keywords": [
-      "evals",
-      "AI evaluation",
-      "LLM-as-judge",
-      "error analysis",
-      "open coding",
-      "axial coding",
-      "product management",
-      "AI applications",
-      "data science",
-      "automated testing",
-      "Nurture Boss",
-      "real estate AI",
-      "systematic measurement",
-      "benevolent dictator",
-      "conversational AI"
-    ]
-  },
-  {
     "guest": "Hamilton Helmer",
     "slug": "hamilton-helmer",
     "summary": "Hamilton Helmer, author of 7 Powers, discusses his framework for identifying sustainable competitive advantages in business. He explains how startups can develop power through counter-positioning, scale economies, switching costs, and network effects, while distinguishing between operational excellence and true strategic power. Helmer emphasizes that founders should think about power from the beginning, not just after achieving product-market fit.",

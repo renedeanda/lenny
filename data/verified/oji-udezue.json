@@ -1,0 +1,194 @@
+{
+  "slug": "oji-udezue",
+  "quotes": [
+    {
+      "id": "oji-udezue-001",
+      "speaker": "Oji Udezue",
+      "text": "The place where B2B SaaS really thrives is niche workflows that are highly frequent. High ni is what I call it, high frequency niche. If you are in one of the top two quadrants, high ni and high everyone and you solve a really important problem, workflow problem, you can probably turn into a billion-dollar company.",
+      "timestamp": "00:06:58",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["B2B-SaaS", "product-strategy", "market-selection"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "oji-udezue-002",
+      "speaker": "Oji Udezue",
+      "text": "If you do something 20% better, often people just around you, just as a human, people don't notice. And so for a product to make a difference, it has to be at least two, three more X for people to say, 'You know what? This is offering enough value for me to maybe make a switch.'",
+      "timestamp": "00:13:39",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["product-differentiation", "value-proposition", "switching-costs"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "oji-udezue-003",
+      "speaker": "Oji Udezue",
+      "text": "Pick those kinds of problems. If you have the narrative in your head that if you really solve this, people will pony up. When you work on sharp problems, it's hard to fail because you can make mistakes and the customer's obsession will carry you, but if you work on something that doesn't have a sharp problem, mistakes can kill you.",
+      "timestamp": "00:26:22",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 199
+      },
+      "themes": ["sharp-problems", "resilience", "product-market-fit"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "oji-udezue-004",
+      "speaker": "Oji Udezue",
+      "text": "Draw the current approximate average workflow for your target customer, and then draw the workflow after they've used your software and see how much shorter it is. If it's 2X shorter, 3X shorter, that's how you figure out if it's a sharp problem or not.",
+      "timestamp": "00:28:43",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 217,
+        "lineEnd": 217
+      },
+      "themes": ["workflow-compression", "product-validation", "customer-research"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "oji-udezue-005",
+      "speaker": "Oji Udezue",
+      "text": "Customer listening is different from discovery. It is the scarfing up of customer signals that are happening constantly anyway. People are talking on social, on app stores and G2. If you have an instrumented churn survey, people are talking. If you have NPS, people are giving you verbatims.",
+      "timestamp": "00:34:01",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 237
+      },
+      "themes": ["customer-listening", "signals", "continuous-discovery"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "oji-udezue-006",
+      "speaker": "Oji Udezue",
+      "text": "If you ask individuals to do customer discovery, they will not do customer discovery. This is the thing that dies in an innovative company because it's very difficult to actually talk to the right customer, not talk to any customer, talk to the right customer continuously.",
+      "timestamp": "00:32:49",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["customer-discovery", "organizational-design", "friction"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "oji-udezue-007",
+      "speaker": "Oji Udezue",
+      "text": "Products who try to be viral just for what I call synthetic virality that fail. Because in the end, if you're synthetically viral and people get to the product and it sucks, that's it. Build a great product that solves a sharp problem. This is the bedrock of virality.",
+      "timestamp": "00:52:30",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
+      },
+      "themes": ["virality", "product-quality", "growth"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "oji-udezue-008",
+      "speaker": "Oji Udezue",
+      "text": "Slack wasn't even viral, there was no synthetic virality. Slack couldn't even connect to organizations for the longest time. You could be working on the third floor and someone using Slack on the fourth floor and you would have no clue. But what happens when you went to lunch? People are like, 'We got Slack and this is amazing.' Great product first is virality.",
+      "timestamp": "00:54:42",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 379
+      },
+      "themes": ["virality", "word-of-mouth", "product-excellence"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "oji-udezue-009",
+      "speaker": "Oji Udezue",
+      "text": "Network effects is a feature by itself, and it's the most powerful feature. A good way to illustrate the power of network effects is Twitter did not die because Threads came about. In fact, the last telegram was sent in 2016, over 100 years after it was invented because of network effects. It had to be manually closed down.",
+      "timestamp": "00:48:03",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 333,
+        "lineEnd": 333
+      },
+      "themes": ["network-effects", "moats", "competitive-advantage"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "oji-udezue-010",
+      "speaker": "Oji Udezue",
+      "text": "Forest time is the idea that you make time within your week, within your month to see the forest for the trees. Most of the time when you're operating, you're seeing the tree, which is the problem in front of you. But sometimes you need to see the forest, so you can figure out an alternate path.",
+      "timestamp": "00:57:39",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 400
+      },
+      "themes": ["forest-time", "strategic-thinking", "leadership"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "oji-udezue-011",
+      "speaker": "Oji Udezue",
+      "text": "In product development, we aim for maybe like 10% of the time and then we execute and build for the other side. If your aim is off, then you are spending one, two million dollars incorrectly of people's time. And so forest time should improve your aim.",
+      "timestamp": "01:00:01",
+      "source": {
+        "slug": "oji-udezue",
+        "path": "episodes/oji-udezue/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["strategy", "efficiency", "planning"],
+      "zones": ["focus", "data"]
+    }
+  ],
+  "themes": ["sharp-problems", "PLG", "virality", "workflow-frameworks", "customer-discovery", "network-effects", "forest-time", "B2B-SaaS"],
+  "takeaways": [
+    "The best B2B SaaS companies solve high-frequency niche workflows - map the problem space by frequency and departmental breadth to predict which ideas have billion-dollar potential before you invest years building.",
+    "Sharp problems are your biggest competitive advantage - when customers are obsessed with the problem you solve, mistakes are survivable; on dull problems, every misstep can be fatal.",
+    "Virality is not a growth hack, it's customer-augmented marketing - synthetic viral loops fail if the product isn't remarkable, while truly great products like Slack spread through lunch conversations without any viral mechanics.",
+    "Customer discovery dies from friction - automate conversations onto your team's calendars by default rather than asking individuals to do it, and distinguish between targeted discovery and continuous customer listening from existing signals.",
+    "Forest time is essential for product leaders - take one day per month to elevate above the trees, survey the landscape, and recalibrate your aim before spending millions of dollars on execution."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.15,
+    "discovery": 0.30,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "oji-udezue-007",
+      "why": "Synthetic virality is a waste of time - attacks the growth-hack mentality by arguing that product quality is the only true foundation for viral growth",
+      "related_zones": ["perfection", "velocity"]
+    },
+    {
+      "quoteId": "oji-udezue-006",
+      "why": "If you ask individuals to do customer discovery, they will not do it - challenges the assumption that advocating for research is enough, argues you must automate it",
+      "related_zones": ["data", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["PLG", "virality", "frameworks", "customer-discovery", "B2B-SaaS"]
+  }
+}

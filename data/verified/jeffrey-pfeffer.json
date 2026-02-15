@@ -1,0 +1,199 @@
+{
+  "slug": "jeffrey-pfeffer",
+  "quotes": [
+    {
+      "id": "jeffrey-pfeffer-001",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "Political skill is associated with a lot of positive outcomes, salary, getting promoted, being happy in your career, being happy in your job, being less stressed. So the reason why you should pay attention to this is because it leads to a lot of good things.",
+      "timestamp": "00:03:02",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 82,
+        "lineEnd": 82
+      },
+      "themes": ["power", "career", "political-skill"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "jeffrey-pfeffer-002",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "I see people with hammers hitting other people on the head. That does not mean that a hammer is not a useful tool. Laura has a knife. She uses it to cure cancer. Muggers have knives. They use it to rob people. So I think we've confused the tool for how it has been used.",
+      "timestamp": "00:03:51",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 88,
+        "lineEnd": 89
+      },
+      "themes": ["power", "ethics", "framing"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "jeffrey-pfeffer-003",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "If I think power is dirty, if I think power is evil, if I think power is something I want nothing to do with, the first thing that's going to happen is I'm not going to do what I need to do to be successful in my career.",
+      "timestamp": "00:21:20",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 200
+      },
+      "themes": ["self-sabotage", "mindset", "power"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jeffrey-pfeffer-004",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "No one is going to promote Lenny if they don't know who the hell you are. If they don't know you, you cannot choose what is not in your head. So therefore you have to do something to differentiate yourself. You have to build a brand.",
+      "timestamp": "00:15:58",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 173
+      },
+      "themes": ["personal-brand", "visibility", "career"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "jeffrey-pfeffer-005",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "If you have visibility without substance, people will know you're useless. But if you have substance without visibility, no one will know the substance that you got.",
+      "timestamp": "00:19:55",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 188
+      },
+      "themes": ["personal-brand", "visibility", "substance"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "jeffrey-pfeffer-006",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "If somebody is on your critical path, the only judgment you should make is they're on my critical path. If I want to get something done, I need their collaboration and cooperation, and the fact that I may not like them is in fact irrelevant.",
+      "timestamp": "00:09:46",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 118
+      },
+      "themes": ["pragmatism", "relationships", "collaboration"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "jeffrey-pfeffer-007",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "The first principle of networking is in fact generosity. What can I do for you? How can I be helpful? Who can I introduce you to? But in order to be able to introduce you to someone who's going to be useful to you, I have to know people. The broader your social network, the more people and the more things you will know.",
+      "timestamp": "00:30:42",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 274
+      },
+      "themes": ["networking", "generosity", "knowledge"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "jeffrey-pfeffer-008",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "When you break the rules, you stand out. You become memorable when you do something that's unexpected. And being memorable is of course important. The rules were made mostly by the people who are favored by the rules in place.",
+      "timestamp": "00:26:18",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 235,
+        "lineEnd": 236
+      },
+      "themes": ["rule-breaking", "differentiation", "power"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "jeffrey-pfeffer-009",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "When Steve Jobs began, Steve Jobs couldn't convince you to buy water if you were dying of thirst. He could not give a presentation to save his life. And Regis McKenna and his team took Steve Jobs under their wing and created Steve Jobs, a man who could sell anything to anybody. These are skills.",
+      "timestamp": "00:44:43",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 352
+      },
+      "themes": ["skills", "presentation", "growth"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "jeffrey-pfeffer-010",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "You can have power or you can have autonomy, but you cannot have both. And I have chosen to live a life of freedom, autonomy. I do not have an assistant who controls my schedule. I control my schedule. Time goes in only one direction. I want control of my time.",
+      "timestamp": "01:10:57",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 472,
+        "lineEnd": 478
+      },
+      "themes": ["power-tradeoffs", "autonomy", "time"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jeffrey-pfeffer-011",
+      "speaker": "Jeffrey Pfeffer",
+      "text": "You have to do what plays to your strengths. You have to do things that cause you to stand out. One of the conventional wisdoms that people adhere to way too much is don't ask. Don't ask for help. If you ask and they say no, you are no worse off than had you not asked in the first place.",
+      "timestamp": "00:27:14",
+      "source": {
+        "slug": "jeffrey-pfeffer",
+        "path": "episodes/jeffrey-pfeffer/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 241
+      },
+      "themes": ["asking", "rule-breaking", "self-advocacy"],
+      "zones": ["chaos", "velocity"]
+    }
+  ],
+  "themes": ["power", "career", "personal-brand", "networking", "leadership", "political-skill", "visibility", "rule-breaking", "pragmatism", "autonomy", "mindset", "self-advocacy", "skills", "generosity"],
+  "takeaways": [
+    "Power is a skill that can be learned, not an innate personality trait - Steve Jobs himself had to be taught how to present and persuade before he became the iconic communicator we remember.",
+    "The biggest obstacle to building power is getting in your own way - believing power is dirty or suffering from imposter syndrome prevents you from doing what's necessary for career success.",
+    "Networking is fundamentally about generosity and connecting people - the broader your network, the more non-redundant knowledge and opportunities flow through you as a broker.",
+    "Substance without visibility means nobody knows what you bring - building a personal brand is not self-promotion but the necessary act of being known for your contributions.",
+    "Power and autonomy are fundamentally at odds - acquiring power means surrendering control of your time, privacy, and freedom to the demands of the position."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.20,
+    "chaos": 0.20,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jeffrey-pfeffer-010",
+      "why": "From the world's foremost teacher of power: you can have power or autonomy but not both - a radical admission that the pursuit of power has a fundamental, irreconcilable tradeoff",
+      "related_zones": ["focus", "chaos"]
+    },
+    {
+      "quoteId": "jeffrey-pfeffer-006",
+      "why": "Argues that personal feelings about colleagues are irrelevant to getting things done - the only judgment that matters is whether someone is on your critical path",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "jeffrey-pfeffer-008",
+      "why": "Claims the rules were made by incumbents who benefit from them, so breaking rules is not just acceptable but necessary for anyone trying to disrupt the status quo",
+      "related_zones": ["chaos", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "academic",
+    "company_stage": "mixed",
+    "primary_topics": ["power-dynamics", "career-advancement", "organizational-behavior"]
+  }
+}

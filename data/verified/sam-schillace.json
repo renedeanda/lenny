@@ -1,0 +1,199 @@
+{
+  "slug": "sam-schillace",
+  "quotes": [
+    {
+      "id": "sam-schillace-001",
+      "speaker": "Sam Schillace",
+      "text": "I think the more interesting ones are the what-if questions, like, what if this does work? Just use your imagination. Think about, how far can I extend the curve? What are the implications of that? I'm an engineer, and engineers are fundamentally pessimistic people. Somebody once told me engineers come into the world broken. They just look at everything as a problem to be solved. But I feel like I've missed out more by being pessimistic than I have by being too optimistic too early.",
+      "timestamp": "08:55",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 103
+      },
+      "themes": ["optimism", "innovation", "mindset"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "sam-schillace-002",
+      "speaker": "Sam Schillace",
+      "text": "There's just not that much of a prize for being pessimistic and right, particularly in a moment like this. It's much better to be optimistic and wrong than pessimistic and right, I think.",
+      "timestamp": "09:26",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": ["optimism", "risk-taking", "mindset"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "sam-schillace-003",
+      "speaker": "Sam Schillace",
+      "text": "Every new idea looks dumb at first. Unfortunately, the dumb ideas also look dumb at first. But the more disruptive they are, the more dumb you're going to feel they are. If you hear people saying something's a toy, that's often a really good signifier that it's actually something real and threatening, and they can't think of a better criticism for it than it's just a toy right now.",
+      "timestamp": "10:26",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["disruption", "innovation", "signal-detection"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "sam-schillace-004",
+      "speaker": "Sam Schillace",
+      "text": "That bifurcation of love it, hate it, is really how you have an idea of whether you have impact in what you're building. If you get more of the bell curve of modern indifference and maybe mild like and mild dislike, that's an incremental product. That's not really disrupting anything. But if you look at something like ChatGPT where the entire world is like, 'This is amazing' or 'This is terrible' and there's not a whole lot in between, that's a very good signifier of it being truly impactful and disruptive.",
+      "timestamp": "11:52",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 121
+      },
+      "themes": ["disruption", "product-market-fit", "signal-detection"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "sam-schillace-005",
+      "speaker": "Sam Schillace",
+      "text": "Maybe a better way to say it is growth mindset, right? You want to look at the possibilities rather than the limitations, and suspend some disbelief and just work on these problems. I just personally feel like I've missed out on more than I've protected myself from. If I sum up both sides of that equation over my career, I wish I had been more open-minded and more optimistic, and more willing to try things, and more focused on possibilities rather than problems.",
+      "timestamp": "16:33",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 151
+      },
+      "themes": ["growth-mindset", "optimism", "career"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "sam-schillace-006",
+      "speaker": "Sam Schillace",
+      "text": "You're always wrong about products. That's one of my other rules is you're just always wrong. And so you have to try it. You have to put it in front of people. You have to try it yourself before you'll understand it. No one can really design products in their head completely as far as I can tell.",
+      "timestamp": "19:23",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["iteration", "experimentation", "product-development"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "sam-schillace-007",
+      "speaker": "Sam Schillace",
+      "text": "It's all about user value. Users are lazy, right? We're all lazy. We don't really care that much at the end of the day. No one's going to do something really in their life for any other reason other than it makes their life better. Nobody cares that you're friendly or nice or the logo is pretty or whatever. They care about making their life easier. If you can't point at user value, significant user value, it's not going to work.",
+      "timestamp": "22:53",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 190,
+        "lineEnd": 190
+      },
+      "themes": ["user-value", "product-strategy", "laziness"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "sam-schillace-008",
+      "speaker": "Sam Schillace",
+      "text": "Users will only adopt what you're doing if that sum total of energy that they have to expend is less than the resulting ease in their life that they get, usually by a factor of at least a couple, right? So it has to make your life a lot better, hopefully a really a lot better, like 10X better than what you spend to use it.",
+      "timestamp": "27:21",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 214
+      },
+      "themes": ["user-value", "friction", "adoption"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "sam-schillace-009",
+      "speaker": "Sam Schillace",
+      "text": "Product builders and entrepreneurs, you have this really hard problem of you have to be very rigid about your mission. I know where I'm going. I know what my mission is, and I'm going to go there because the world doesn't care, it's going to push back. But you also have to be really flexible about feedback. You're probably aren't going to be right about a bunch of it. And so you have to blend these two things together somehow.",
+      "timestamp": "36:32",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
+      },
+      "themes": ["mission", "feedback", "product-building"],
+      "zones": ["focus", "intuition", "discovery"]
+    },
+    {
+      "id": "sam-schillace-010",
+      "speaker": "Sam Schillace",
+      "text": "The reality is, you should go do the thing that you feel guilty to get paid for, if there's a thing like that, and do the hell out of it, right? Do it as hard as you can. If you get pleasure from doing something that people want to pay you for, do it the best you can do it, as hard as you can do it. And if that's messing around and playing around with cool ideas, do the hell out of that.",
+      "timestamp": "55:51",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 376,
+        "lineEnd": 376
+      },
+      "themes": ["career", "passion", "intensity"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "sam-schillace-011",
+      "speaker": "Sam Schillace",
+      "text": "I actually think we're at the beginning of this just gigantic disruption in the software industry. I think the way that the internet made distribution of information free, I think AI is going to make pixels free. Pixels are expensive to produce now, they take programmers and they take lots of infrastructure, and putting a pixel in front of the user is a hard thing to do and lots of software is predicated on that.",
+      "timestamp": "1:04:19",
+      "source": {
+        "slug": "sam-schillace",
+        "path": "episodes/sam-schillace/transcript.md",
+        "lineStart": 433,
+        "lineEnd": 436
+      },
+      "themes": ["AI", "disruption", "software-industry"],
+      "zones": ["chaos", "velocity"]
+    }
+  ],
+  "themes": ["disruptive-innovation", "optimism", "experimentation", "user-value", "what-if-thinking", "career-advice", "AI-disruption", "product-building"],
+  "takeaways": [
+    "Ask 'what if' questions instead of 'why not' questions - the more disruptive an idea, the dumber it looks at first, and pessimism has a much smaller prize than optimism in moments of technological change.",
+    "The love-it-or-hate-it bifurcation is the real signal of disruptive impact - if your product gets polite indifference, it's incremental; if it gets passionate love and passionate hate, you're onto something.",
+    "Users are fundamentally lazy and only adopt products that deliver at least 10X more value than the effort required to use them - remove all friction and focus ruthlessly on genuine user value over features or marketing.",
+    "Be rigid about your mission but flexible about your feedback - product builders must blend stubborn vision with genuine openness to being wrong, like a samurai sword that is hard on one side and flexible on the other.",
+    "Do the thing you feel guilty getting paid for with maximum intensity - the most career impact comes not from grinding through unpleasant work, but from leaning hard into what comes naturally and feels almost like play."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.25,
+    "alignment": 0.05,
+    "chaos": 0.20,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sam-schillace-002",
+      "why": "Directly argues pessimism has no prize - contradicts the common belief that cautious, pessimistic analysis protects you from failure",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "sam-schillace-006",
+      "why": "Claims you're always wrong about products - challenges the idea that careful upfront planning and design can predict product success",
+      "related_zones": ["velocity", "discovery"]
+    },
+    {
+      "quoteId": "sam-schillace-010",
+      "why": "Argues against the grind mentality - says the best career outcomes come from doing what feels like play, not from suffering through hard work",
+      "related_zones": ["intuition", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["disruptive-innovation", "optimism", "product-building", "AI", "career-advice"]
+  }
+}

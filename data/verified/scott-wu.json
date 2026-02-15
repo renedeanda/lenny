@@ -1,0 +1,199 @@
+{
+  "slug": "scott-wu",
+  "quotes": [
+    {
+      "id": "scott-wu-001",
+      "speaker": "Scott Wu",
+      "text": "I really like the phrase jagged intelligence, because obviously there are certain things that it is much better at than a human. There are certain things that it's much worse at than a human.",
+      "timestamp": "00:07:02",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["AI-capabilities", "product-design"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "scott-wu-002",
+      "speaker": "Scott Wu",
+      "text": "The big shift that we really felt we would see is moving from this text to text model to an actual autonomous system that can make decisions, that can interact with the real world, that can take in feedback, that can iterate and take multiple steps to solve problems. And now we call that agents, but that was what we were really excited about at the time.",
+      "timestamp": "00:13:34",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["AI-agents", "vision", "product-strategy"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "scott-wu-003",
+      "speaker": "Scott Wu",
+      "text": "Software engineering is, we think of it today as Python and C++ and JavaScript, but at the end of the day, the discipline is all about just being able to tell your computer what to do. In that lens, I really think that programming is only going to become more and more important as AI gets more powerful.",
+      "timestamp": "00:20:20",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["engineering", "future-of-work", "AI"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "scott-wu-004",
+      "speaker": "Scott Wu",
+      "text": "The soul of programming has really been about defining the problem that you're facing and really thinking through exactly what is the solution that you want to build. Thinking through the architecture, thinking through the details, and really mapping out in your mind exactly what you want to build. I think that's what makes software engineering really great and that's the funnest part of software engineering.",
+      "timestamp": "00:24:00",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 235,
+        "lineEnd": 235
+      },
+      "themes": ["engineering", "architecture", "craft"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "scott-wu-005",
+      "speaker": "Scott Wu",
+      "text": "One of the ways that we've thought about Devin is really allowing engineers to go from bricklayer to architect. A lot of it is just getting to the point where you can do the high-level directing and you can specify things exactly how you want. It's very much about still having the human in control, but just multiplying the magnitude of what you can do and build in one day.",
+      "timestamp": "00:24:48",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 241,
+        "lineEnd": 241
+      },
+      "themes": ["AI-tools", "engineering", "leverage", "product-vision"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "scott-wu-006",
+      "speaker": "Scott Wu",
+      "text": "Software is truly the shining example of Jevons Paradox, where we have always managed as a society to find more and more things that we want to build software for. As it becomes easier and easier to program, I think we're going to have a lot more programmers. In practice, we're going to build even more than 10 times as much code.",
+      "timestamp": "00:28:40",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 277
+      },
+      "themes": ["economics", "future-of-work", "scaling"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "scott-wu-007",
+      "speaker": "Scott Wu",
+      "text": "You want to be giving Devin tasks, not problems. You generally want something that is easy to verify and easy to test. You can work on bigger projects or bigger asks as well, but in that case you should certainly expect to need to steer Devin more to make sure it's going the right direction.",
+      "timestamp": "00:48:00",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 526,
+        "lineEnd": 529
+      },
+      "themes": ["AI-tools", "task-management", "product-craft"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "scott-wu-008",
+      "speaker": "Scott Wu",
+      "text": "I think it's often less about moats and more about stickiness. Moats typically mean a competitor couldn't even enter the market. I don't think there's any hard barrier that would prevent others from entering. What does exist is stickiness - once you have a product experience that you really like, are you excited to keep using that experience?",
+      "timestamp": "00:57:30",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 598,
+        "lineEnd": 598
+      },
+      "themes": ["strategy", "competition", "product-market-fit"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "scott-wu-009",
+      "speaker": "Scott Wu",
+      "text": "In terms of base intelligence, we're honestly basically already there. A lot of what we spend our time on is less about increasing the base IQ of a model, and more about teaching it all of the idiosyncrasies of real-world engineering - how you use Datadog, how you diagnose errors, how you make a GitHub PR. It's teaching the model to mirror the complexity of the real world.",
+      "timestamp": "01:03:11",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 628,
+        "lineEnd": 631
+      },
+      "themes": ["AI-capabilities", "engineering", "real-world-complexity"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "scott-wu-010",
+      "speaker": "Scott Wu",
+      "text": "Most of the big tech revolutions over the last 50 years - personal computer, the internet, the mobile phone - they all had this big hardware component that was a big part of the distribution. One of the things which is already different in AI is just how explosive the technology can be. There's no weight on hardware distribution. It means that the space is just growing so exponentially.",
+      "timestamp": "01:04:30",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 637,
+        "lineEnd": 640
+      },
+      "themes": ["technology-shifts", "AI", "growth"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "scott-wu-011",
+      "speaker": "Scott Wu",
+      "text": "Building companies well sometimes just comes down to doing those three to five things even more than you could possibly expect. We had a hackathon in November, another in December, started the company in January, prototypes to users in February, launched in March, first customers in April. Truly pushing the pace in every spot where we possibly could has really made a difference.",
+      "timestamp": "01:16:11",
+      "source": {
+        "slug": "scott-wu",
+        "path": "episodes/scott-wu/transcript.md",
+        "lineStart": 715,
+        "lineEnd": 718
+      },
+      "themes": ["startup-execution", "speed", "focus"],
+      "zones": ["velocity", "focus"]
+    }
+  ],
+  "themes": ["AI-agents", "future-of-software-engineering", "startup-execution", "product-strategy", "velocity", "leverage", "competition", "real-world-complexity"],
+  "takeaways": [
+    "AI coding agents represent a fundamental shift from text completion to autonomous systems that can make decisions, interact with the real world, take feedback, and iterate - this is the paradigm that will define the next era of software engineering.",
+    "The role of the software engineer is evolving from bricklayer to architect - the soul of programming has always been about defining problems and designing solutions, and AI lets engineers focus on that 10% instead of spending 90% on implementation and debugging.",
+    "AI has no hardware distribution bottleneck unlike previous tech revolutions (PC, internet, mobile), meaning its adoption curve is exponentially faster - engineers who aren't using AI to code are already falling behind.",
+    "Defensibility in AI products comes from stickiness rather than traditional moats - as an agent learns your code base, your team's patterns, and accumulates context over time, switching costs grow naturally.",
+    "Startup success comes down to executing ruthlessly on the basics - move fast, hire great people, build something people want, stay close to customers, and always think about where things are going rather than where they are today."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.00,
+    "intuition": 0.15,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "scott-wu-009",
+      "why": "Claims AI base intelligence is already sufficient for coding - the real challenge is teaching real-world idiosyncrasies, not raw IQ improvements",
+      "related_zones": ["perfection", "discovery"]
+    },
+    {
+      "quoteId": "scott-wu-006",
+      "why": "Argues against the zero-sum view that AI will reduce engineering jobs - invokes Jevons Paradox to claim there will be far more programmers, not fewer",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "scott-wu-008",
+      "why": "Reframes the moat debate entirely - argues there are no real moats in AI, only stickiness, which is a fundamentally different competitive dynamic",
+      "related_zones": ["discovery", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI-agents", "software-engineering-future", "startup-execution", "product-strategy"]
+  }
+}

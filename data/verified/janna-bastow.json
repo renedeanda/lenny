@@ -1,0 +1,194 @@
+{
+  "slug": "janna-bastow",
+  "quotes": [
+    {
+      "id": "janna-bastow-001",
+      "speaker": "Janna Bastow",
+      "text": "Surround yourself with the people who are going to help you continue that community and are going to help you with that consistency, and going to help you surround you with more and more of the right people.",
+      "timestamp": "00:07:09",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 96
+      },
+      "themes": ["community", "leadership", "networking"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "janna-bastow-002",
+      "speaker": "Janna Bastow",
+      "text": "One of the things that I've stopped doing is I used to sit down with a PowerPoint and start writing my deck in PowerPoint or Slides, now. What I now do is I start with my story points. I start with my narratives. I try to figure out what I'm actually trying to say, and then I fit it into the deck.",
+      "timestamp": "00:16:06",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["communication", "storytelling", "strategy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "janna-bastow-003",
+      "speaker": "Janna Bastow",
+      "text": "Find the people in the audience who are your fans. And you'll find them in the course of your talk. There's always going to be some people in the audience who just look bored and they're on your phone, just ignore them. Find the people who are nodding along and smiling and going, 'Yeah, yeah, that's me.' And just speak to them.",
+      "timestamp": "00:17:56",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": ["communication", "public-speaking", "audience"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "janna-bastow-004",
+      "speaker": "Janna Bastow",
+      "text": "It's humanizing when you screw up, right? People don't like people who are perfectly perfect and don't mess up, and it makes them feel like they can't go up and go do their talk.",
+      "timestamp": "00:21:47",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": ["vulnerability", "leadership", "authenticity"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "janna-bastow-005",
+      "speaker": "Janna Bastow",
+      "text": "No one was actually delivering the roadmap in the timeframe that they were saying they were. So we're like, 'Wait, if it's not just us who's not living the roadmap and none of these better than us roadmap product managers are building the roadmap on time, what's the point of a roadmap?'",
+      "timestamp": "00:24:35",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 249,
+        "lineEnd": 249
+      },
+      "themes": ["roadmapping", "planning", "product-management"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "janna-bastow-006",
+      "speaker": "Janna Bastow",
+      "text": "It's taking from the concept of the cone of uncertainty, taking from the idea that things get less certain as they get further away, which is kind of how reality works. So the whole beef with the timeline roadmap is just taking apart the concept of the timeline.",
+      "timestamp": "00:26:18",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 258
+      },
+      "themes": ["roadmapping", "uncertainty", "planning"],
+      "zones": ["chaos", "discovery", "intuition"]
+    },
+    {
+      "id": "janna-bastow-007",
+      "speaker": "Janna Bastow",
+      "text": "A focus on discovery. So this ability to spend time in discovery and asking questions of customers and constantly being able to iterate based on that. And psychological safety, so teams who are able to question each other, speak up when they see that things are wrong.",
+      "timestamp": "00:34:37",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 336
+      },
+      "themes": ["discovery", "psychological-safety", "team-culture"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "janna-bastow-008",
+      "speaker": "Janna Bastow",
+      "text": "Retrospectives make such a big difference because they are indicative of psychological safety, which underpins so much, right? Once you start building in this psychological safety, the ability to ask questions and to start saying, 'What are we doing that's working? What are we doing that's not working?'",
+      "timestamp": "00:35:24",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 342,
+        "lineEnd": 342
+      },
+      "themes": ["retrospectives", "psychological-safety", "iteration"],
+      "zones": ["alignment", "discovery", "data"]
+    },
+    {
+      "id": "janna-bastow-009",
+      "speaker": "Janna Bastow",
+      "text": "I think of culture as calcification. So calcification being the limestone that is built up as watered run over and that sort of thing. And in order to fix it, you can kind of chip it off over time. You can't just fix it all in one go.",
+      "timestamp": "00:37:04",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": ["culture-change", "organizational-change", "leadership"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "janna-bastow-010",
+      "speaker": "Janna Bastow",
+      "text": "You're not asking for any more leeway than your salesperson. What you should be able to do is point at how many experiments you ran the previous quarter, and what numbers moved in the right direction. You should be accountable for your experiments and how you're spending the money and what you're doing.",
+      "timestamp": "00:46:30",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 408,
+        "lineEnd": 408
+      },
+      "themes": ["experimentation", "accountability", "product-management"],
+      "zones": ["data", "chaos", "velocity"]
+    },
+    {
+      "id": "janna-bastow-011",
+      "speaker": "Janna Bastow",
+      "text": "The value isn't in your roadmap, the value is in the roadmapping process. What you're actually doing is laying out your assumptions of the problems that you're solving. So you're saying, 'I think we have this problem, then this problem. What do you think?' The whole point is that you just share your early assumptions with other people.",
+      "timestamp": "00:42:45",
+      "source": {
+        "slug": "janna-bastow",
+        "path": "episodes/janna-bastow/transcript.md",
+        "lineStart": 393,
+        "lineEnd": 393
+      },
+      "themes": ["roadmapping", "strategy", "collaboration"],
+      "zones": ["discovery", "alignment"]
+    }
+  ],
+  "themes": ["roadmapping", "planning", "product-management", "communication", "storytelling", "public-speaking", "community", "leadership", "psychological-safety", "discovery", "experimentation", "culture-change", "vulnerability", "authenticity", "iteration", "accountability"],
+  "takeaways": [
+    "The value of a roadmap is not the plan itself but the roadmapping process - it's a prototype for your strategy that helps you check assumptions with others.",
+    "The Now, Next, Later framework replaces timeline-based roadmaps by embracing the cone of uncertainty - things get less certain the further out you plan.",
+    "The best product teams are defined by a focus on customer discovery and psychological safety - the ability to question, learn, and iterate openly.",
+    "Changing product culture at large companies requires chipping away at calcified processes incrementally, starting with small pockets of innovation.",
+    "Product teams should frame their work like sales teams frame theirs: accountable for running experiments and moving metrics, not for predicting exactly what will ship when."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.15,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "janna-bastow-005",
+      "why": "Challenges the fundamental assumption that roadmaps should have timelines, arguing that no one delivers on schedule and the format itself is the problem",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "janna-bastow-010",
+      "why": "Reframes product management accountability as experiment-driven rather than delivery-driven, comparing PM work directly to sales pipeline uncertainty",
+      "related_zones": ["chaos", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["roadmapping", "product-management", "community-building"]
+  }
+}

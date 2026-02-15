@@ -1,0 +1,199 @@
+{
+  "slug": "marc-benioff",
+  "quotes": [
+    {
+      "id": "marc-benioff-001",
+      "speaker": "Marc Benioff",
+      "text": "I am looking to try to find the winning tactic and turn it into a winning strategy. I don't know actually which one of those things is going to be the most important thing in launching this product, so I'm trying a lot of things with that old expression. I'm throwing everything against the wall. I'm looking at what's going to stick. Then, once I find that thing, I will then grow that as my strategy.",
+      "timestamp": "20:58",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["strategy", "experimentation", "launch"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "marc-benioff-002",
+      "speaker": "Marc Benioff",
+      "text": "One of my friends is Chris Rock, the comedian. He just doesn't go out and do a Netflix special with all of his jokes. He's out there testing his jokes in clubs and doing all kinds of crazy things. By the time it gets to the big Netflix special, he knows what works and what doesn't work. So that is something that we all have to do as entrepreneurs. We need to be testing lots of things. We need a lot of experimentation, and we can't be too arrogant.",
+      "timestamp": "22:31",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["experimentation", "humility", "iteration"],
+      "zones": ["data", "chaos", "velocity"]
+    },
+    {
+      "id": "marc-benioff-003",
+      "speaker": "Marc Benioff",
+      "text": "We have to be cultivating our beginner's mind. We have to use our mindfulness in a way to clear everything out and then get back to, \"What is my beginner's mind?\" In the beginner's mind, I have every possibility, but in the expert's mind, I have few, and in some cases, maybe none. I don't want to have an expert's mind. I want to have a beginner's mind.",
+      "timestamp": "23:15",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 246,
+        "lineEnd": 246
+      },
+      "themes": ["mindfulness", "beginner-mind", "creativity"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "marc-benioff-004",
+      "speaker": "Marc Benioff",
+      "text": "We're all writing an album in our head. What album are you writing? What music are you writing? How are you getting into that zone yourself? You want to be a great entrepreneur. You want to be a great CEO. You got to clear your mind, and you got to be ready to write that music.",
+      "timestamp": "28:38",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 273
+      },
+      "themes": ["creativity", "vision", "mindfulness"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "marc-benioff-005",
+      "speaker": "Marc Benioff",
+      "text": "I find the stock to be very distracting, and I encourage my employees also don't look at the stock because the stock is just a reflection. Money isn't the goal, right? The stock isn't the goal. It's coming at the end of the journey. It's like that's not why we're doing this. The journey is the reward.",
+      "timestamp": "30:31",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["purpose", "leadership", "culture"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "marc-benioff-006",
+      "speaker": "Marc Benioff",
+      "text": "I am a startup CEO. I'm a startup entrepreneur. I'm still at the beginning of Salesforce. No matter what I'm doing at Salesforce, whether I'm the CEO, I'm sometimes the chair of the board. Sometimes I'm a product manager. This is a startup, and we're a 25-year-old, 75,000-person, $38 billion, $300 something billion market cap startup, but we're a startup nonetheless.",
+      "timestamp": "31:05",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 315,
+        "lineEnd": 315
+      },
+      "themes": ["startup-mindset", "leadership", "growth"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "marc-benioff-007",
+      "speaker": "Marc Benioff",
+      "text": "It's very important, if you're an entrepreneur, to realize it's not just about the product. It's not just about sales. It's not just about marketing. It's not just about accounting. It's not just about your investors. It's not just about your employees. It's not just about your stakeholders. It's about everything, so you better be ready to be an orchestra leader. You can't just be playing the clarinet.",
+      "timestamp": "44:56",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 435,
+        "lineEnd": 435
+      },
+      "themes": ["leadership", "holistic-thinking", "founder-role"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "marc-benioff-008",
+      "speaker": "Marc Benioff",
+      "text": "You want to be playing the whole symphony, and you want to get everyone running. That symphony is sales, service, marketing, product. Every part of your shareholders, your stakeholders, your customers. You have to be constantly playing the whole symphony. It's not just about product and technology. If you're going to narrowcast yourself, you're doing a disservice not just to yourself, but to everybody else as well.",
+      "timestamp": "45:20",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 438,
+        "lineEnd": 438
+      },
+      "themes": ["leadership", "strategy", "stakeholders"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "marc-benioff-009",
+      "speaker": "Marc Benioff",
+      "text": "One of those things that we did two years ago was we had to architect a layoff, and we had never done a scaled layoff before. We had to lay off 10% of the company to save the company, and I didn't want to do it. It's the last thing I want to do as an entrepreneur, which is to adjust our headcount, but we were coming out of the pandemic, and we had just hired too many people.",
+      "timestamp": "47:12",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 447
+      },
+      "themes": ["resilience", "hard-decisions", "leadership"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "marc-benioff-010",
+      "speaker": "Marc Benioff",
+      "text": "There is no linear success. There's no up-and-to-the-right perfect chart where it's just one line. I don't care who you are. Apple doesn't have one. No one has one. There's going to be changes. The entrepreneurial life is a rock-and-roll roller coaster, and you get ready because it's going to be pounding you all the time.",
+      "timestamp": "49:39",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 462,
+        "lineEnd": 462
+      },
+      "themes": ["resilience", "entrepreneurship", "growth"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "marc-benioff-011",
+      "speaker": "Marc Benioff",
+      "text": "That's a mistake. You want the mindset of, \"Oh, the next thing is coming. I can't wait for the next thing.\" In some ways, you have to be saying, \"I can't wait for the next failure. I can't wait for the next success. I can't wait for the next innovation.\"",
+      "timestamp": "52:54",
+      "source": {
+        "slug": "marc-benioff",
+        "path": "episodes/marc-benioff/transcript.md",
+        "lineStart": 480,
+        "lineEnd": 480
+      },
+      "themes": ["growth-mindset", "innovation", "resilience"],
+      "zones": ["chaos", "velocity", "intuition"]
+    }
+  ],
+  "themes": ["experimentation", "beginner-mind", "leadership", "resilience", "entrepreneurship", "strategy", "mindfulness", "growth-mindset"],
+  "takeaways": [
+    "Find the winning tactic, then turn it into a winning strategy - entrepreneurs should throw everything against the wall like Chris Rock testing jokes in clubs, because you cannot know in advance what will work.",
+    "Cultivate beginner's mind over expert's mind - after 45 years of writing software, Benioff deliberately clears his mind through meditation to stay open to every possibility rather than defaulting to what he already knows.",
+    "Think of yourself as a startup no matter how large you grow - Salesforce at $38 billion in revenue and 75,000 employees is still a startup in Benioff's mind because the moment you stop thinking that way, you stop innovating.",
+    "Be an orchestra leader, not a clarinet player - founders who narrowcast themselves to just product or just technology do a disservice to everyone; you must play the whole symphony of sales, marketing, product, stakeholders, and customers.",
+    "There is no linear success - the entrepreneurial journey is a rock-and-roll roller coaster, and the right mindset is to embrace the next failure, success, and innovation with equal eagerness rather than clinging to stability."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.00,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.15,
+    "chaos": 0.25,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "marc-benioff-003",
+      "why": "Argues for beginner's mind over expertise - counterintuitive for a 45-year industry veteran running the second largest software company to reject the expert's mind",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "marc-benioff-007",
+      "why": "Directly challenges product-led founder culture by insisting entrepreneurs must be orchestra leaders across all functions, not just product specialists",
+      "related_zones": ["alignment", "chaos"]
+    },
+    {
+      "quoteId": "marc-benioff-005",
+      "why": "CEO of a $350B company telling employees to never look at the stock price - contradicts typical shareholder-value-first thinking in public companies",
+      "related_zones": ["focus", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "public",
+    "primary_topics": ["entrepreneurship", "leadership", "AI-agents", "beginner-mind", "experimentation"]
+  }
+}

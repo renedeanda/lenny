@@ -1,0 +1,199 @@
+{
+  "slug": "lane-shackleton",
+  "quotes": [
+    {
+      "id": "lane-shackleton-001",
+      "speaker": "Lane Shackleton",
+      "text": "The core job of a product person in general is to turn ambiguity into clarity. And if you think about the job of a product leader or a product manager, everything is ambiguous all the time. It's like what's my role on this team? What problem are we solving? Who's the target customer? What prototype is going to solve this particular problem? So it's literally everything.",
+      "timestamp": "00:16:38",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["product-management", "clarity", "ambiguity"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "lane-shackleton-002",
+      "speaker": "Lane Shackleton",
+      "text": "Instead of being obsessed with the goal, be obsessed with the system that gets you there. Goals with good intentions don't work. A really common example is teams that are trying to learn about customers or do research. A team may have a goal like an OKR of talking to 10 customers this quarter and they may or may not hit that OKR. And then the next quarter, they may not have a goal of talking to customers anymore.",
+      "timestamp": "00:18:34",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 138,
+        "lineEnd": 138
+      },
+      "themes": ["systems-thinking", "customer-research", "habits"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "lane-shackleton-003",
+      "speaker": "Lane Shackleton",
+      "text": "You want your teams to feel like they're building a cathedral and not laying bricks. I think it's really easy when PMs are really busy on a day-to-day to just be one task after the other, really execution oriented and maybe not take the time to help the team take a broader frame, open the aperture a little bit and have a view of what the cathedral is.",
+      "timestamp": "00:25:14",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": ["vision", "leadership", "motivation"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "lane-shackleton-004",
+      "speaker": "Lane Shackleton",
+      "text": "One of the things that we have tried to do when we go through big planning cycles is show all the different sides of this. So instead of just having a writeup, we may have a writeup, we may couple that with a metric, we may couple that with directional mocks and what the billboard might look like or how our homepage may change. And really what we're trying to do is take the mystery out of the set of broader constraints or where we're headed.",
+      "timestamp": "00:26:22",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 229
+      },
+      "themes": ["planning", "strategy", "communication"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "lane-shackleton-005",
+      "speaker": "Lane Shackleton",
+      "text": "The way that you learn or the way that everyone including me learns new things is you go seek out the best at that given craft. And then you just unpack what they're doing and how they're doing it. And insofar as you can put yourself in situations that are uncomfortable or force you to do things like tell a story or force you to come up with a clear strategy, you should always opt into those, especially early in your career.",
+      "timestamp": "00:30:30",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 258
+      },
+      "themes": ["career-growth", "learning", "discomfort"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "lane-shackleton-006",
+      "speaker": "Lane Shackleton",
+      "text": "Moments that stretch you or moments that you feel uncomfortable in or you find yourself saying, 'Oh shit, I shouldn't be here,' or, 'I'm under qualified to be here,' those are the moments you should be seeking out. Those are the moments that stretch you and give you a new foundation. A much sharper way to ask about career growth is, 'How many oh shit moments have you had in the last six months?'",
+      "timestamp": "00:31:49",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["career-growth", "self-assessment", "discomfort"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "lane-shackleton-007",
+      "speaker": "Lane Shackleton",
+      "text": "The core insight for most review forums or product reviews or decision forums is that they generally suffer from two problems that are hard to spot unless you've sat through hundreds of them. The first is they have standing attendees, and the second is they're normally single-threaded, meaning they're normally one topic at a time.",
+      "timestamp": "00:42:21",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": ["rituals", "meetings", "decision-making"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "lane-shackleton-008",
+      "speaker": "Lane Shackleton",
+      "text": "You can take any set of problems or solutions or themes or whatever you want to get people's input on, and you put those into a table and then people can vote with their dollars. I have found that especially in planning processes, little rituals like this are great at getting the elephant in the room out. Going back to the thesis of turning ambiguity into clarity, a lot of this is like we're trying to get the ambiguous stuff out there so that we can make it more clear.",
+      "timestamp": "00:48:02",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 372,
+        "lineEnd": 372
+      },
+      "themes": ["planning", "rituals", "prioritization"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "lane-shackleton-009",
+      "speaker": "Lane Shackleton",
+      "text": "Look, we can debate this forever. So I would rather us see the upper and lower bounds of how good this could be or how bad this is going to be immediately. The lesson that I took, and I've seen this proven out hundreds of times since, is stop talking about it and go make something. Go run an experiment. Go make a prototype, go write a doc, go make a mock. Just don't talk about it.",
+      "timestamp": "00:59:49",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 426,
+        "lineEnd": 427
+      },
+      "themes": ["experimentation", "bias-to-action", "prototyping"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "lane-shackleton-010",
+      "speaker": "Lane Shackleton",
+      "text": "I think most people can be way more concise with their communication. Even internally, people don't care. You should assume that people don't care. Or if you're talking to customers, writing a blog post for customers, you should assume that they don't care. When you start with that assumption, you really force yourself to be a little bit sharper in your communication style.",
+      "timestamp": "01:10:30",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 480,
+        "lineEnd": 480
+      },
+      "themes": ["communication", "customer-empathy", "conciseness"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "lane-shackleton-011",
+      "speaker": "Lane Shackleton",
+      "text": "It's critical to disconnect strategy discussions from OKR discussions. A really simple question to ask yourself is do we have a separate strategy process or strategy ritual that is distinct from OKR setting and metric setting and goal setting? I do think it's quite important to pull those two things apart.",
+      "timestamp": "01:19:37",
+      "source": {
+        "slug": "lane-shackleton",
+        "path": "episodes/lane-shackleton/transcript.md",
+        "lineStart": 534,
+        "lineEnd": 534
+      },
+      "themes": ["strategy", "okrs", "planning"],
+      "zones": ["focus", "data"]
+    }
+  ],
+  "themes": ["product-management", "systems-thinking", "rituals", "clarity", "career-growth", "strategy", "communication", "leadership"],
+  "takeaways": [
+    "The core job of a product manager is turning ambiguity into clarity - every aspect of the role from target customer to prototype to team role is inherently ambiguous, and great PMs systematically resolve that ambiguity.",
+    "Systems beat goals every time - instead of setting OKRs like 'talk to 10 customers this quarter,' build default-on habits like weekly customer sessions that compound learning over time.",
+    "Great teams need a cathedral, not just bricks - PMs must show multiple facets of the vision (writeups, metrics, mocks, billboards) so every team member can see their contribution to the bigger picture.",
+    "Stop debating and start making - the skippable ads lesson proves that running experiments with extreme variants produces conviction faster than months of discussion, and this applies from ICPMs to CPOs.",
+    "Separate strategy from OKRs and keep planning under 10% of execution time - conflating strategy with goal-setting is a common trap, and over-planning steals time from the learning that only comes from shipping."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "lane-shackleton-002",
+      "why": "Directly challenges the OKR-obsessed culture of tech companies, arguing that goals with good intentions don't work and systems are what actually drive outcomes",
+      "related_zones": ["discovery", "velocity"]
+    },
+    {
+      "quoteId": "lane-shackleton-006",
+      "why": "Reframes career growth as counting 'oh shit moments' rather than promotions or title changes - a deliberately uncomfortable metric that most career frameworks avoid",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "lane-shackleton-010",
+      "why": "Argues you should assume people don't care about your product or communication - counterintuitive for PMs who are deeply invested in their work",
+      "related_zones": ["intuition", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "product-leader",
+    "company_stage": "growth",
+    "primary_topics": ["rituals", "systems-thinking", "product-management-principles", "team-culture", "career-growth"]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "claire-vo",
+  "quotes": [
+    {
+      "id": "claire-vo-001",
+      "speaker": "Claire Vo",
+      "text": "When it comes to career growth, it boils down to something really simple, which is know what you want out of your career, be clear and ask for it, and then make it easy for your boss or whoever can support or champion you to get you from here to there.",
+      "timestamp": "00:05:56",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 103
+      },
+      "themes": ["career-growth", "leadership", "agency"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "claire-vo-002",
+      "speaker": "Claire Vo",
+      "text": "The conversation needs to be about what you being in a different position does for the company and why the company needs it. That's solving a problem for the company. That's not solving a career growth issue for an individual.",
+      "timestamp": "00:10:52",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 133
+      },
+      "themes": ["career-growth", "leadership", "strategy"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "claire-vo-003",
+      "speaker": "Claire Vo",
+      "text": "The universe is bendable to your will. Organizations are very fluid and I like to organize around talented motivated individuals. Just because we're organized in a particular way now doesn't mean that's necessarily the way they have to be.",
+      "timestamp": "00:15:31",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["agency", "org-design", "leadership"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "claire-vo-004",
+      "speaker": "Claire Vo",
+      "text": "I truly believe defining and understanding your zone of genius, where you are exceptional, where no one else can step into the job and do just as good of a job as you can, and where you derive tremendous intellectual emotional joy out of the work is what makes it sustainable over time.",
+      "timestamp": "00:17:32",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 187,
+        "lineEnd": 187
+      },
+      "themes": ["zone-of-genius", "sustainability", "career-growth"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "claire-vo-005",
+      "speaker": "Claire Vo",
+      "text": "People often think that I get hired into later stage companies because I'm supposed to teach them how to operate like a big company. And in fact, I say I'm hired to remind them they can operate like a startup.",
+      "timestamp": "00:23:06",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 223,
+        "lineEnd": 223
+      },
+      "themes": ["velocity", "startup-mindset", "leadership"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "claire-vo-006",
+      "speaker": "Claire Vo",
+      "text": "I communicate to my leaders that my expectation is they bring in the clock speed one click faster. If you think something needs to be done this year, it needs to be done this half. This half, this quarter. This quarter, this month. This week, today. End of day, in this meeting.",
+      "timestamp": "00:23:58",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 229,
+        "lineEnd": 229
+      },
+      "themes": ["velocity", "pace-setting", "execution"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "claire-vo-007",
+      "speaker": "Claire Vo",
+      "text": "There's this anti-pattern of, 'We'll make the decision in the next meeting.' That is an artificial timeline introduced by Google Calendar. It's not a real thing. I want to put us on real timelines. When can we make the decision? How much information do we need?",
+      "timestamp": "00:26:41",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["velocity", "decision-making", "execution"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "claire-vo-008",
+      "speaker": "Claire Vo",
+      "text": "Conflict-avoidant, feedback-avoidant cultures degrade the talent bar. They just do, because the expectations are not stated and you're not holding accountability. And I do not think that's kind. That is not setting up people for success in their careers.",
+      "timestamp": "00:28:39",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 259
+      },
+      "themes": ["feedback", "culture", "talent-bar"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "claire-vo-009",
+      "speaker": "Claire Vo",
+      "text": "I really hire for is scrappiness. I think you have to be able to do a lot with a little, and I think you have to know where you're getting and, come hell or high water, figure out a way to get there. You also have to get yourself in the room.",
+      "timestamp": "00:45:06",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
+      },
+      "themes": ["scrappiness", "hiring", "agency"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "claire-vo-010",
+      "speaker": "Claire Vo",
+      "text": "There should be no debates over what's best for product or what's best for engineering, what's best for design. It should be what is best for the organization at whole. What do our customers need and what does our business need?",
+      "timestamp": "00:50:21",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 406
+      },
+      "themes": ["org-design", "CPTO", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "claire-vo-011",
+      "speaker": "Claire Vo",
+      "text": "Is it going to eliminate PMs next year? Probably not. Are the skills required going to shift? Yes. Could they shift much faster than we all anticipate? Probably. I think there's a lot of change coming and I want to be prepared for it.",
+      "timestamp": "01:03:11",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 511,
+        "lineEnd": 511
+      },
+      "themes": ["AI", "future-of-PM", "adaptability"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "claire-vo-012",
+      "speaker": "Claire Vo",
+      "text": "Fast beats right. Every time when debating between, do I noodle this for a thousand years and try to come to the perfect solution or do I make a decision and get executing and direction I have conviction on, I consistently see and believe that fast at the end of the day, wins.",
+      "timestamp": "01:24:26",
+      "source": {
+        "slug": "claire-vo",
+        "path": "episodes/claire-vo/transcript.md",
+        "lineStart": 736,
+        "lineEnd": 736
+      },
+      "themes": ["velocity", "decision-making", "conviction"],
+      "zones": ["velocity", "intuition"]
+    }
+  ],
+  "themes": ["velocity", "career-growth", "leadership", "agency", "org-design", "feedback", "AI", "scrappiness", "decision-making", "CPTO"],
+  "takeaways": [
+    "Career growth comes from knowing what you want and making it easy for your organization to get you there -- frame promotions as solving company problems, not personal ambitions.",
+    "Organizations should operate one click faster than their natural pace -- don't let recurring meeting cadences become artificial timelines that slow down decision-making and execution.",
+    "The CPTO role unifying product, engineering, and design under one leader eliminates functional optimization debates and creates singular accountability for R&D investment against business outcomes.",
+    "AI will reshape PM skills faster than most anticipate -- lowercase-c communication (information routing) will be replaced, but uppercase-C Communication (influence, boldness, getting humans to follow) remains irreplaceable.",
+    "The universe is bendable to your will -- take agency over your career by identifying organizational gaps, proposing solutions that happen to advance your role, and hiring for scrappiness over pedigree."
+  ],
+  "zone_influence": {
+    "velocity": 0.30,
+    "perfection": 0.05,
+    "discovery": 0.00,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "claire-vo-012",
+      "why": "Fast beats right challenges the careful-analysis orthodoxy -- argues speed and conviction consistently outperform deliberation and perfect solutions",
+      "related_zones": ["velocity", "intuition"]
+    },
+    {
+      "quoteId": "claire-vo-005",
+      "why": "Gets hired into later-stage companies not to teach big-company processes but to remind them they can still operate like a startup -- against the scaling-means-slowing-down assumption",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["career-growth", "velocity", "CPTO-role", "AI-and-PM", "org-design"]
+  }
+}

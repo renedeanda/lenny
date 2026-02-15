@@ -1,0 +1,194 @@
+{
+  "slug": "robby-stein",
+  "quotes": [
+    {
+      "id": "robby-stein-001",
+      "speaker": "Robby Stein",
+      "text": "I find a lot of this is actually this compounding effect when you think about just every month ruthlessly improving the product or the models and just every day getting better, and then it just hits this tipping point where people just like it, they use it more, they enjoy it.",
+      "timestamp": "07:19",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 106,
+        "lineEnd": 106
+      },
+      "themes": ["compounding", "iteration", "growth"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "robby-stein-002",
+      "speaker": "Robby Stein",
+      "text": "AI hasn't really changed those foundational needs in many ways, and what we're finding is that AI is expansionary, and so there's actually just more and more questions being asked and curiosity that can be fulfilled now with AI. And so that's where you get the growth.",
+      "timestamp": "08:24",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "themes": ["ai-strategy", "growth", "user-behavior"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "robby-stein-003",
+      "speaker": "Robby Stein",
+      "text": "You need to be the physical manifestation of two pieces of things. One is just relentlessness, just complete effort, but is always exerted in a direction of positive productivity. And then the second is make things better. You have to always make things better, you're never content.",
+      "timestamp": "22:08",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 250
+      },
+      "themes": ["relentless-improvement", "mindset", "leadership"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "robby-stein-004",
+      "speaker": "Robby Stein",
+      "text": "For the things that went well, there was always this spirit of just we're going to get it eventually if we just make two more moves to make it better. And then eventually you get this tipping point where it just tips over into being net useful to people because of just that amount of compounding effort. You're the harshest critic and the most dissatisfied person in the room about your own work basically.",
+      "timestamp": "23:17",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 265,
+        "lineEnd": 265
+      },
+      "themes": ["self-criticism", "persistence", "product-quality"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "robby-stein-005",
+      "speaker": "Robby Stein",
+      "text": "That was one of the big motivations, was actually identifying that user problem, being very disgruntled on behalf of the user. We're just failing the user every day. We are not helping them actually get their thing better understood, and we're going to go build a whole thing because of it, because that's hard to do by the way, to build all of that. But it just was so obvious that that's what we needed to do.",
+      "timestamp": "26:27",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["user-advocacy", "product-motivation", "conviction"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "robby-stein-006",
+      "speaker": "Robby Stein",
+      "text": "You actually start with a problem or the inverse of that, which is a vision, but they're connected. Most great companies, most great products come out of a problem, but out of the problem becomes like, 'Here's a better way.' It comes out of this dissatisfaction and this sense of better that you need to make things better, but then you're going to build, and at the end of the day, you need your instrumentation to know if you're on the right track.",
+      "timestamp": "27:18",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 298
+      },
+      "themes": ["vision", "problem-solving", "metrics"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "robby-stein-007",
+      "speaker": "Robby Stein",
+      "text": "Not every great thing is going to be invented by you. But I think that a lot of these things are, they can become formats that you can make your own and you need to learn from the world and what's happening out there in order for your product to always give the best thing to its users.",
+      "timestamp": "30:47",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 316
+      },
+      "themes": ["competitive-strategy", "humility", "user-focus"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "robby-stein-008",
+      "speaker": "Robby Stein",
+      "text": "I view product like golf, you're always one stroke away from shanking. And as soon as you think you're good, you're not, you don't know anything. The world changes quickly. You have to always be a servant to your user base and the people that are out there and learn from them.",
+      "timestamp": "35:57",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 343,
+        "lineEnd": 343
+      },
+      "themes": ["humility", "user-focus", "adaptability"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "robby-stein-009",
+      "speaker": "Robby Stein",
+      "text": "Don't think of users as using your product. Think of users as hiring you to do something for them. The first is deeply understand people. It really helps you be a student of why someone ends up, in his words, hiring a product.",
+      "timestamp": "52:08",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 448,
+        "lineEnd": 448
+      },
+      "themes": ["jobs-to-be-done", "user-understanding", "product-thinking"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "robby-stein-010",
+      "speaker": "Robby Stein",
+      "text": "Designing for clarity instead of cleverness. If something's a standard and people understand it, if you lean into it, you're going to get so much leverage than if you reinvent it, and you have to be really thoughtful around when you reinvent and where you don't.",
+      "timestamp": "54:30",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 475
+      },
+      "themes": ["design", "clarity", "simplicity"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "robby-stein-011",
+      "speaker": "Robby Stein",
+      "text": "There's this cult of lean, scrappy, fast, throw away your product quickly, keep moving. I see teams just give up too early or under invest in the product. I see the opposite more true where people hold on to small teams too long and then it either takes forever to get to the thing you're looking for.",
+      "timestamp": "63:19",
+      "source": {
+        "slug": "robby-stein",
+        "path": "episodes/robby-stein/transcript.md",
+        "lineStart": 610,
+        "lineEnd": 613
+      },
+      "themes": ["team-size", "investment", "contrarian"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["relentless-improvement", "user-understanding", "product-craft", "ai-strategy", "humility", "design-clarity", "compounding-effort", "jobs-to-be-done"],
+  "takeaways": [
+    "Embody relentless improvement: great products come from a compounding effect of ruthlessly making things better every day until a tipping point is reached where users naturally adopt and love the product.",
+    "Be disgruntled on behalf of your users: the best product motivation comes from deeply feeling the pain your users experience and refusing to tolerate a broken or incomplete experience.",
+    "Deeply understand why people hire your product using the jobs-to-be-done framework, apply analytical rigor to diagnose root causes, and design for clarity over cleverness.",
+    "New product formats should be complementary, not replacements: Stories expanded Instagram rather than replacing the feed, just as AI Mode expands Google Search rather than replacing core search.",
+    "Challenge the cult of lean: teams that stay too small for too long under-invest in the product, and it dies on the vine. Know when to scale up after you have internal conviction."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.20,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.00,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "robby-stein-011",
+      "why": "Challenges the popular cult of lean and scrappy teams, arguing that under-investment and keeping teams too small actually kills products more often than over-investing does",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "robby-stein-007",
+      "why": "Defends adopting successful formats invented by competitors rather than insisting on original invention, arguing that refusing to do so robs your users of a better product",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["ai-product-strategy", "relentless-improvement", "consumer-product-growth", "design-clarity", "jobs-to-be-done"]
+  }
+}

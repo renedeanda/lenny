@@ -1,0 +1,213 @@
+{
+  "slug": "richard-rumelt",
+  "quotes": [
+    {
+      "id": "richard-rumelt-q001",
+      "speaker": "Richard Rumelt",
+      "text": "A strategy is a design for overcoming a high-stakes challenge. It's a mixture of policy and action designed to deal with a challenge. The challenge could have an upside. It could be, 'Oh geez, we were fooling around in the back 40 and we discovered oil, what we do?' Or it could be negative, could be that new innovation is driving us out of the market.",
+      "timestamp": "00:05:05",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 75,
+        "lineEnd": 75
+      },
+      "themes": ["strategy", "problem-solving", "leadership"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "richard-rumelt-q002",
+      "speaker": "Richard Rumelt",
+      "text": "I had a client who had 17 priorities. This is what we're doing. We have 17 priorities. And that's the opposite of policy. That's a laundry list of all the things we wish would happen over the next year. You wouldn't want to be in a commercial airplane and hear the tower say to the pilot, 'I'm giving priority to the following three planes on runway five.' Right away, you know there's something wrong.",
+      "timestamp": "00:10:28",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 90,
+        "lineEnd": 90
+      },
+      "themes": ["prioritization", "focus", "bad-strategy"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "richard-rumelt-q003",
+      "speaker": "Richard Rumelt",
+      "text": "The most important part of a strategy, the part that it's so easy to leave out because people like to think of strategy as this high level conceptual thing, is the coherent action. You have to do something. And what you do has to be coherent in several ways. The first way is it has to deal with the problem or the diagnosis and the guiding policy, it has to implement.",
+      "timestamp": "00:12:14",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 96
+      },
+      "themes": ["strategy", "execution", "coherence"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "richard-rumelt-q004",
+      "speaker": "Richard Rumelt",
+      "text": "Strategy's not mysterious. What's mysterious to me, what was mysterious to me and what remains mysterious to me is how so many organizational leaders don't do it. They create bad strategy. They do something that they say is strategy and then it's not.",
+      "timestamp": "00:15:55",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["bad-strategy", "leadership", "organizational-failure"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "richard-rumelt-q005",
+      "speaker": "Richard Rumelt",
+      "text": "We work best when we concentrate. We're more effective when we concentrate on a few things, a few people, a few... focus, it's the fundamental source of power and strategy. Trying to do too many different things is defocusing.",
+      "timestamp": "00:24:53",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 144
+      },
+      "themes": ["focus", "power", "prioritization"],
+      "zones": ["focus"]
+    },
+    {
+      "id": "richard-rumelt-q006",
+      "speaker": "Richard Rumelt",
+      "text": "To burn that black thread, there has to be a source of power, the sun. There has to be a focus, that's the magnifying that to the power. And it has to be a target that can be affected. It has to be a black thread, not white thread. And that sequence is part of strategic action. You need a source of power.",
+      "timestamp": "00:25:28",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": ["power", "focus", "strategic-thinking"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "richard-rumelt-q007",
+      "speaker": "Richard Rumelt",
+      "text": "If you don't have access to other times and other places and other things that have happened, it's very hard to think strategically about the situation you're in because there isn't a science of strategy. It's not like physics. It's not like engineering where we can write down the equations of stress on a beam and say, how thick does the beam have to be? It's not like that. A lot of it is based on analogy to previous human experience.",
+      "timestamp": "00:47:42",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 261
+      },
+      "themes": ["strategic-thinking", "history", "pattern-recognition"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "richard-rumelt-q008",
+      "speaker": "Richard Rumelt",
+      "text": "The most important intellectual tool we have is to think again, to say, okay, I came up with this diagnosis because I thought this and I thought this. Is there another way to look at this situation? Is there a bigger piece of wood over there than I can grab onto?",
+      "timestamp": "00:52:05",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 276
+      },
+      "themes": ["diagnosis", "critical-thinking", "intellectual-humility"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "richard-rumelt-q009",
+      "speaker": "Richard Rumelt",
+      "text": "My two pieces of advice, anybody that's actually trying to do this is, A, state the problem, and, B, don't call it a strategy, call it an action agenda, that you're not creating a strategy, you're creating an action agenda. What are we going to do about this problem? That's essence of what you're doing.",
+      "timestamp": "00:57:18",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["strategy", "action", "problem-solving"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "richard-rumelt-q010",
+      "speaker": "Richard Rumelt",
+      "text": "The search for an action agenda is this balance between problems that are important because they're close to your ambition and problems that you can actually address and do something about. And that overlap then becomes the choice you make.",
+      "timestamp": "01:01:48",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 324,
+        "lineEnd": 324
+      },
+      "themes": ["prioritization", "achievability", "decision-making"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "richard-rumelt-q011",
+      "speaker": "Richard Rumelt",
+      "text": "The problem of strategy inside an organization is diversity of interest and fear of action. Because action, when you do something in an organization of any size, it involves people changing what they do. It involves changing power relationships among humans in some way, that someone who's been the alpha maybe is not the alpha anymore, someone else is the alpha.",
+      "timestamp": "01:15:36",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 366,
+        "lineEnd": 366
+      },
+      "themes": ["organizational-dynamics", "leadership", "power"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "richard-rumelt-q012",
+      "speaker": "Richard Rumelt",
+      "text": "You've got to be of two minds. You've got to be convinced of the certainty that you're going to win, and you've got to be willing to shift when things aren't working, and that's a double-jointed exercise that some people can do and some people can't. It's almost a human skill to both commit and to be willing to move.",
+      "timestamp": "01:23:05",
+      "source": {
+        "slug": "richard-rumelt",
+        "path": "episodes/richard-rumelt/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": ["startups", "adaptability", "commitment"],
+      "zones": ["chaos", "velocity", "intuition"]
+    }
+  ],
+  "themes": ["strategy", "focus", "problem-solving", "leadership", "organizational-dynamics", "power", "diagnosis", "action"],
+  "takeaways": [
+    "Strategy is fundamentally about solving problems, not setting goals or writing mission statements -- the kernel of good strategy requires a diagnosis, a guiding policy, and coherent actions.",
+    "Focus is the fundamental source of power in strategy -- having 17 priorities means you have none, and trying to do too many things at once is the fastest way to turn a good strategy into a bad one.",
+    "Don't call it a strategy, call it an action agenda -- this reframing forces you to focus on what you're actually going to do about the problem rather than what you wish would happen.",
+    "The biggest barriers to strategy in organizations are diversity of interest and fear of action -- someone must ultimately decide, and that decision inevitably changes power relationships.",
+    "Startup founders must hold two contradictory mindsets simultaneously: total conviction they will win, and willingness to pivot when reality reveals their initial bet was wrong."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.30
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "richard-rumelt-q009",
+      "why": "Rejects the entire strategy industry -- missions, visions, values frameworks -- in favor of simply stating the problem and creating an action agenda",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "richard-rumelt-q007",
+      "why": "Claims there is no science of strategy and that studying history and analogy matters more than any analytical framework or theory",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "richard-rumelt-q012",
+      "why": "Argues that the best founders must simultaneously hold contradictory beliefs -- total conviction AND willingness to abandon course -- which defies conventional wisdom about commitment",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "academic",
+    "company_stage": "mixed",
+    "primary_topics": ["strategy", "organizational-dynamics", "decision-making"]
+  }
+}

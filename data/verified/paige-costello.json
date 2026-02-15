@@ -1,0 +1,194 @@
+{
+  "slug": "paige-costello",
+  "quotes": [
+    {
+      "id": "paige-costello-q001",
+      "speaker": "Paige Costello",
+      "text": "If you ask too much for a particular quarter, a particular week, or date, you will make strange choices about scope. So, really, we align on what success looks like, and the teams do their best job to ship as quickly as possibly, as iteratively as possibly, and we really encourage prototyping. So we added into our product process a notion that we might pivot or cut from stuff that we put on our roadmap because it felt like once it was on the roadmap, it had to be done, and that's just not smart.",
+      "timestamp": "00:10:38",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["planning", "iteration", "scope-management"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "paige-costello-q002",
+      "speaker": "Paige Costello",
+      "text": "That process of going broad, and going narrow, and going broad, and going narrow forces people to get out of their opinion-driven lens because so often, we need to be curious quantitatively and qualitatively about what we're doing and why, and be more systematic and rigorous about getting there. It doesn't take long, but it just breaks the frame.",
+      "timestamp": "00:13:00",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 184
+      },
+      "themes": ["product-process", "discovery", "decision-making"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "paige-costello-q003",
+      "speaker": "Paige Costello",
+      "text": "If you pick your success metrics as using a feature, that's it. You're teaching to the test. It's not actually driving the outcome. So while our planning process is around effectively defining category and how we win, and making sure that customers receive certain benefits from using work management, the through line to the individual project that a team might be leading is they need to know who they're solving for and what it means to have that problem solved.",
+      "timestamp": "00:14:56",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 199,
+        "lineEnd": 199
+      },
+      "themes": ["metrics", "customer-centricity", "outcomes"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "paige-costello-q004",
+      "speaker": "Paige Costello",
+      "text": "Bring the insight. Know thy customer. Know thy market. Know thy competitors. Know thy numbers. Know thy product. If you can be the person in the room who has watched customers use the product and has a point of view about why one tool is significantly better or worse in a given dimension, and you can do that with confidence and clarity, you can bring insight that makes people curious, and trust you, and just immediately believe that there's an opportunity that you're not advocating for that just is true.",
+      "timestamp": "00:22:13",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 268,
+        "lineEnd": 268
+      },
+      "themes": ["trust-building", "customer-insight", "credibility"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "paige-costello-q005",
+      "speaker": "Paige Costello",
+      "text": "It's really risky to become less sensitive to the needs and behaviors of customers because people think they are their customer, and it also becomes very navel-gazey. So I think the more you get out and break up how people are having conversations about what we should do and why, and what we shouldn't do and why, and it's not about your opinion, it's about asking questions, and then bringing insight can really change the nature of the conversation and build trust.",
+      "timestamp": "00:24:59",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 280,
+        "lineEnd": 280
+      },
+      "themes": ["customer-centricity", "dogfooding-risk", "discovery"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "paige-costello-q006",
+      "speaker": "Paige Costello",
+      "text": "Real confidence is often conveyed by being willing to ask the question or to say, \"I don't know what you mean by that. Can you say that again?\" So one of the best things you can do is if you're in a meeting, be in that meeting. Continually scan the faces of everyone in the room, see if someone has a question, pause at the beginning, and welcome people, and then close asking questions like, \"Did I get all of that? Is there anything you would've expected to cover that we missed?\"",
+      "timestamp": "00:26:36",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 286,
+        "lineEnd": 289
+      },
+      "themes": ["confidence", "leadership-presence", "communication"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "paige-costello-q007",
+      "speaker": "Paige Costello",
+      "text": "Exposure was such an important one where I thought like, \"Okay. So you're not in the driver's seat, but you're in the car, and you hear what's happening, and you're evaluating what the impact is.\" If you can be a learner, not just in an education or experience context, but in an exposure context, you can really grow so much more quickly and in so many more directions than you will get from just what does your day entail from what work is directly required of you.",
+      "timestamp": "00:30:29",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 301
+      },
+      "themes": ["career-growth", "learning", "mentorship"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "paige-costello-q008",
+      "speaker": "Paige Costello",
+      "text": "Think big, ship small. What's the smallest thing you can do to do that thing? But let's not, because we're trying to ship all the time and in small chunks, start thinking in small ways because it's really easy to get a little too incremental, a little too wrapped around the axle around optimizing a metric and miss the bigger picture.",
+      "timestamp": "00:33:59",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 319
+      },
+      "themes": ["iteration", "vision", "shipping"],
+      "zones": ["velocity", "focus", "intuition"]
+    },
+    {
+      "id": "paige-costello-q009",
+      "speaker": "Paige Costello",
+      "text": "When it came to the massive leap forward in LLMs recently, we staffed a team to really prototype quickly, and discover what was possible, and just apply hypotheses outside of the typical norms of how we work. So they went straight to prototyping instead of going through that Double Diamond. What that meant was that we were really quickly able to say, \"Wow, this is just so much better than we imagined and would never have prioritized it because we thought it would take so much longer.\"",
+      "timestamp": "00:40:24",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 349
+      },
+      "themes": ["AI-adoption", "prototyping", "process-flexibility"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "paige-costello-q010",
+      "speaker": "Paige Costello",
+      "text": "This illusion that you have to be all-knowing and super confident sets you up to be in a place of advocacy instead of inquiry. So PMs who are newer in their careers really want to be pro really fast. What pro means is trying to cut that straight path, and that can reduce information and conversation that makes you smarter. Something that really holds PMs back is not being collaborative from a place of true curiosity like performative collaboration where they want to do a review, but ultimately, they don't really want the questions or the feedback.",
+      "timestamp": "00:46:11",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 397
+      },
+      "themes": ["PM-growth", "curiosity", "collaboration"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "paige-costello-q011",
+      "speaker": "Paige Costello",
+      "text": "I would go to my meetings with a stack of Post-Its, and I would write what I wish I was saying on Post-Its and see if someone else would say it first. Then, if by the end of the meeting, I had decided that I still had a Post-It or two that was worthwhile, I would say them. But you've got to police yourself because no one else will do it because no matter how accessible you think you are, other people know that you're the boss.",
+      "timestamp": "00:49:57",
+      "source": {
+        "slug": "paige-costello",
+        "path": "episodes/paige-costello/transcript.md",
+        "lineStart": 412,
+        "lineEnd": 412
+      },
+      "themes": ["management", "empowerment", "self-awareness"],
+      "zones": ["alignment", "perfection"]
+    }
+  ],
+  "themes": ["customer-centricity", "product-process", "leadership", "coaching", "collaboration", "iteration", "career-growth"],
+  "takeaways": [
+    "Start every product decision with customer insight, not opinion -- the Double Diamond process forces teams to go broad before going narrow, systematically breaking out of opinion-driven thinking.",
+    "Trust is built through credibility (bring the insight), reliability (say-do ratio), and authenticity (vulnerability), divided by perception of self-interest -- not through pretending to have more experience than you do.",
+    "Think big, ship small -- maintain ambitious vision while shipping incrementally, and build explicit permission to pivot or cut from roadmap items so teams aren't locked into commitments that no longer make sense.",
+    "The biggest thing that holds new PMs back is performative collaboration -- wanting to appear collaborative while not actually being open to questions or feedback, which comes from the illusion that PMs must be all-knowing.",
+    "When new technology creates step-function change, skip the standard process and go straight to prototyping -- Asana's AI team bypassed their Double Diamond process to rapidly discover what LLMs could actually do."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "paige-costello-q006",
+      "why": "Argues that real confidence comes from vulnerability and asking 'I don't know' rather than from assertiveness -- counter to the typical 'project strength' leadership advice",
+      "related_zones": ["alignment"]
+    },
+    {
+      "quoteId": "paige-costello-q009",
+      "why": "Advocates deliberately skipping your own established product process (Double Diamond) when technology shifts demand speed over rigor",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-process", "coaching", "customer-centricity", "leadership"]
+  }
+}

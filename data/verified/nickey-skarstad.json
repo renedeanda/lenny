@@ -1,0 +1,194 @@
+{
+  "slug": "nickey-skarstad",
+  "quotes": [
+    {
+      "id": "nickey-skarstad-q001",
+      "speaker": "Nickey Skarstad",
+      "text": "Airbnb does not ship product if it is not good. Even if they're trying new things, they are obsessed with the end consumer experience. All the edge cases had been thought through. That obsession with the end consumer experience really influences the quality of their product suite and is something I try to bring to my job today because no one does it better.",
+      "timestamp": "00:07:39",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 103
+      },
+      "themes": ["product-quality", "consumer-experience", "craft"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "nickey-skarstad-q002",
+      "speaker": "Nickey Skarstad",
+      "text": "If you are building early product, really thinking about how can you pick some good quality metrics that might actually balance or conflate with growth metrics, and use that as sort of your north star because it really helped the whole team to understand what they were actually trying to do at the end of the day.",
+      "timestamp": "00:09:08",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["metrics", "quality", "growth"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "nickey-skarstad-q003",
+      "speaker": "Nickey Skarstad",
+      "text": "We actually put more friction in the onboarding flow to help to start to solve for that. We actually slowed you down. We made you be more thoughtful about what you were listing. And by doing that, we actually helped you get to a first sale faster.",
+      "timestamp": "00:13:06",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": ["onboarding", "friction", "quality-vs-speed"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "nickey-skarstad-q004",
+      "speaker": "Nickey Skarstad",
+      "text": "Get really good at figuring out what are the things that you love most about being a product person, and how can you optimize your next role for those things that you love. Each company has a very different product org. And the day to day of your job as a product manager, depending on where you go in the product that you're building, is very different.",
+      "timestamp": "00:18:17",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["career", "self-awareness", "energy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "nickey-skarstad-q005",
+      "speaker": "Nickey Skarstad",
+      "text": "I've seen a lot of director level people through my career who will try to work on strategy in a vacuum alone. They'll write a document and be like, 'Okay, team. Here's what we're doing.' And it never goes well. Because you did not bring people along on that journey to come up with it, they did not feel like they had a hand in crafting it themselves.",
+      "timestamp": "00:27:51",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 244
+      },
+      "themes": ["strategy", "buy-in", "leadership"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "nickey-skarstad-q006",
+      "speaker": "Nickey Skarstad",
+      "text": "Good product work is often not democratic. You need a clear leader who understands a lot of the signals and understands the larger competitive marketplace that can make decisions. It's great to get input, but ultimately at the end of the day, you should have one person who is responsible for it.",
+      "timestamp": "00:28:40",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["decision-making", "leadership", "strategy"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "nickey-skarstad-q007",
+      "speaker": "Nickey Skarstad",
+      "text": "If it is a two-way door decision, it's not going to make a huge impact, you can change it later if you need to, let your team cruise on those things. Because it gives people autonomy. It helps you move fast. And then it just makes sure that when it does come down to decisions that are harder to change longer term, those are the moments you should spend time and really think about.",
+      "timestamp": "00:39:28",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 340
+      },
+      "themes": ["decision-making", "autonomy", "speed"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "nickey-skarstad-q008",
+      "speaker": "Nickey Skarstad",
+      "text": "If I make this decision today, it's going to impact this next level of decisions and the next level after that. And that will cascade through our larger system. A great book to read if you are a product person is Thinking in Systems by Donella Meadows. It's about really thinking through how systems work, and then you can start to extrapolate what is the second order effect.",
+      "timestamp": "00:41:34",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 355,
+        "lineEnd": 355
+      },
+      "themes": ["systems-thinking", "second-order-effects", "decision-making"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "nickey-skarstad-q009",
+      "speaker": "Nickey Skarstad",
+      "text": "If you can get teams to align on first principles early on, it saves you a lot of heartache later because you've got people to align way early days before you even got into the design process, or before you had to start thinking about how do we actually technically implement this.",
+      "timestamp": "00:45:36",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 382
+      },
+      "themes": ["first-principles", "alignment", "process"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "nickey-skarstad-q010",
+      "speaker": "Nickey Skarstad",
+      "text": "Teams who are very bought into your vision and strategy are less distractable. Where I usually have more trouble is with leadership that aren't necessarily in the weeds with your team every day. I'll get an idea from them: 'Have you thought about doing this one random obscure thing?' And it's not in service of this long term plan.",
+      "timestamp": "00:48:29",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 406
+      },
+      "themes": ["focus", "strategy", "distraction"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "nickey-skarstad-q011",
+      "speaker": "Nickey Skarstad",
+      "text": "Ideally in a perfect world, there's three check-in moments. There is the first principles check-in: what are you solving for? Getting approval on that is almost the most important thing. Because it saves a lot of teams a lot of time when they get later in their feedback review process and people are like, 'You're not solving for the right thing.'",
+      "timestamp": "00:52:26",
+      "source": {
+        "slug": "nickey-skarstad",
+        "path": "episodes/nickey-skarstad/transcript.md",
+        "lineStart": 446,
+        "lineEnd": 446
+      },
+      "themes": ["process", "product-review", "alignment"],
+      "zones": ["alignment", "perfection"]
+    }
+  ],
+  "themes": ["product-quality", "systems-thinking", "decision-making", "strategy", "alignment", "first-principles", "onboarding", "leadership"],
+  "takeaways": [
+    "Quality metrics should balance growth metrics as your north star - at Airbnb Experiences, review rate trumped bookings, and at Etsy, adding friction to onboarding actually accelerated seller success by improving first-sale speed.",
+    "Strategy built in a vacuum fails regardless of how good it is - bring your team along in crafting it so they feel ownership, but maintain one clear decision-maker because good product work is not democratic.",
+    "Use the one-way vs two-way door framework to calibrate decision speed - give teams autonomy to cruise on reversible decisions while investing time in irreversible ones that cascade through your system.",
+    "Second order thinking is the most important muscle a PM can build - every decision cascades through your ecosystem, and aligning on first principles early saves massive rework later.",
+    "Track your energy with a red/yellow/green calendar system to understand what work gives you life - optimize your PM career for the type of product work that energizes you, not just prestigious company names."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nickey-skarstad-q003",
+      "why": "Adding friction to onboarding to improve outcomes contradicts the conventional wisdom of removing all friction from user flows",
+      "related_zones": ["perfection", "data"]
+    },
+    {
+      "quoteId": "nickey-skarstad-q006",
+      "why": "Good product work is not democratic - challenges the consensus-driven, inclusive decision-making culture prevalent in tech",
+      "related_zones": ["focus", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "mixed",
+    "primary_topics": ["product-quality", "strategy-execution", "systems-thinking", "decision-making", "team-alignment"]
+  }
+}

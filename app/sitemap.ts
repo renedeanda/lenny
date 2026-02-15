@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Episode pages (all 295)
+  // Episode pages (all 294)
   const episodePages: MetadataRoute.Sitemap = allEpisodes.map((episode) => ({
     url: `${baseUrl}/episodes/${episode.slug}`,
     lastModified: episode.publishDate ? new Date(episode.publishDate) : new Date(),

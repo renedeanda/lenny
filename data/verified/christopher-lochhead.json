@@ -1,0 +1,199 @@
+{
+  "slug": "christopher-lochhead",
+  "quotes": [
+    {
+      "id": "christopher-lochhead-001",
+      "speaker": "Christopher Lochhead",
+      "text": "Nobody legendary ever did that. Not a one. We all know who Bob Marley is. We don't know who the 17th greatest reggae musician or band in the world is. We all know who Pablo Picasso is. We don't know who the fifth greatest cubist artist is. Wherever you look in life, the people that we tend to admire the most are the people who broke and took new ground. And the aha here is the category makes the product, the category makes the brand, the category makes the company.",
+      "timestamp": "00:13:53",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["category-design", "differentiation", "strategy"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "christopher-lochhead-002",
+      "speaker": "Christopher Lochhead",
+      "text": "In tech market categories, on average, one company earns two-thirds, 76% to be exact, of the total value created as measured by market cap and or valuation. So you take a category, you add all the companys' value together, and you say, what percent goes to the leader, the category queen or king? And what percent goes to everybody else? One company, two-thirds of the economics.",
+      "timestamp": "00:15:32",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["data", "category-design", "market-economics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "christopher-lochhead-003",
+      "speaker": "Christopher Lochhead",
+      "text": "The company that designs the space and gets it to tip at scale, what I mean is specifically gets a meaningful percentage of the world to agree with their definition of a problem set, which then leads to their definition of a solution set. The company that does that at any kind of scale, wins. And at its heart, category design is about the most radical kind of differentiation.",
+      "timestamp": "00:20:49",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["category-design", "differentiation", "problem-framing"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "christopher-lochhead-004",
+      "speaker": "Christopher Lochhead",
+      "text": "Problems create categories, and you either have to solve a new problem, or reframe, name and claim an existing problem in a very different way. If you reframe the existing problem such that people see it in a different way, that's when they'll be open to a new solution. You can't take an existing problem with an existing solution, launch exactly the same shit, tell the world it's better and have the world embrace it. Because the problem makes the solution the other way around.",
+      "timestamp": "00:33:33",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 250
+      },
+      "themes": ["problem-framing", "innovation", "category-design"],
+      "zones": ["discovery", "intuition", "chaos"]
+    },
+    {
+      "id": "christopher-lochhead-005",
+      "speaker": "Christopher Lochhead",
+      "text": "The first law of category design is thinking about thinking is the most important kind of thinking. If you're going to think about thinking, we have to define thinking. The minute I start down this path, there's a meaningful percentage of people whose eyes rolling, going, here comes some bullshit. Just tell me how to do the SEO. Whatever the tactical thing is.",
+      "timestamp": "00:39:08",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 295,
+        "lineEnd": 295
+      },
+      "themes": ["thinking", "strategy", "first-principles"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "christopher-lochhead-006",
+      "speaker": "Christopher Lochhead",
+      "text": "There's something in category design called languaging, which is the strategic use of language to change thinking. A mistake that a lot of entrepreneurs make is they use old language to describe their new thing. We can't use so much new language that nobody knows what we're talking about, so we have to meet the category where it is and bring them forward, but we have to create new language.",
+      "timestamp": "00:49:09",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 391,
+        "lineEnd": 391
+      },
+      "themes": ["languaging", "marketing", "category-design"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "christopher-lochhead-007",
+      "speaker": "Christopher Lochhead",
+      "text": "New languaging creates new thinking, and a demarcation point in language creates a demarcation point in thinking, which can create a demarcation point in perceived value, and she who changes and or creates net new value perceptions wins.",
+      "timestamp": "00:57:53",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 460,
+        "lineEnd": 460
+      },
+      "themes": ["languaging", "value-creation", "category-design"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "christopher-lochhead-008",
+      "speaker": "Christopher Lochhead",
+      "text": "Categories make products not the other way around. What you want is you want to design a market category for your product, not fit your product into a market category. The tech industry is full of product bigots, because they really believe, like they believe in the availability of oxygen, the best product wins. What people buy is a new insight around a problem or opportunity that requires a different solution. That's what they buy.",
+      "timestamp": "01:12:43",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 556,
+        "lineEnd": 556
+      },
+      "themes": ["product-market-fit", "category-design", "contrarian"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "christopher-lochhead-009",
+      "speaker": "Christopher Lochhead",
+      "text": "Positioning in the modern context is for losers. That is to say people who are fighting over the 24%. You position against competitors. If you're doing positioning in that context, you just decided you're fighting for 24% of the demand designed by somebody else. In the tech space where one company earns two thirds of the economics, if that's your starting point, you fuck yourself from the start.",
+      "timestamp": "01:16:32",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 574,
+        "lineEnd": 574
+      },
+      "themes": ["positioning", "competition", "contrarian"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "christopher-lochhead-010",
+      "speaker": "Christopher Lochhead",
+      "text": "In category design, we don't compete, period, full stop at the brand to brand or product to product level. Category designers do compete, but not against a product, not against a company, not against a brand. Category designers compete against the status quo.",
+      "timestamp": "01:19:34",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 586,
+        "lineEnd": 586
+      },
+      "themes": ["competition", "status-quo", "category-design"],
+      "zones": ["chaos", "discovery", "focus"]
+    },
+    {
+      "id": "christopher-lochhead-011",
+      "speaker": "Christopher Lochhead",
+      "text": "Marketing's job is to put the right words in the right mouths and to get that word of mouth to scale. Brands are about us. Categories are about customers. We care about what they care about. When you have a powerful category point of view, that drives word of mouth. Category design is the only business strategy whose primary execution focus starts with word of mouth.",
+      "timestamp": "01:33:05",
+      "source": {
+        "slug": "christopher-lochhead",
+        "path": "episodes/christopher-lochhead/transcript.md",
+        "lineStart": 664,
+        "lineEnd": 664
+      },
+      "themes": ["word-of-mouth", "marketing", "growth"],
+      "zones": ["velocity", "alignment"]
+    }
+  ],
+  "themes": ["category-design", "differentiation", "languaging", "problem-framing", "contrarian", "marketing", "competition", "word-of-mouth"],
+  "takeaways": [
+    "Category design beats competition: In tech, one company earns 76% of the total value in a category. Competing for the remaining 24% with a 'better' product is a losing strategy -- legendary companies create their own category instead.",
+    "Problems create categories, not products: The biggest mistake entrepreneurs make is obsessing over the solution while ignoring the problem. Frame, name, and claim a new problem, and the solution naturally follows.",
+    "Languaging is a strategic weapon: Creating new language (like Starbucks' 'grande latte' or OpenAI's 'large language model') changes how people think, creates demarcation points in value perception, and is how category queens differentiate.",
+    "Backcast from the future instead of forecasting from the present: Legendary entrepreneurs reject the premise of the status quo, envision a radically different future, then work backwards to determine how to make it happen.",
+    "Category design starts with word of mouth, not reach and frequency: Instead of peanut-butter spreading your marketing budget, use lightning strikes targeted at super consumers with a powerful category point of view that drives organic word of mouth."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.00,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.25,
+    "alignment": 0.05,
+    "chaos": 0.25,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "christopher-lochhead-008",
+      "why": "Directly attacks the sacred cow of product-market fit, calling the tech industry 'full of product bigots' and arguing categories make products, not the reverse",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "christopher-lochhead-009",
+      "why": "Declares positioning is 'for losers' -- a direct attack on one of the most widely accepted frameworks in product and marketing strategy",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "christopher-lochhead-004",
+      "why": "Argues that a better product with better distribution still fails if it doesn't reframe the problem, using Threads and the Amazon Fire Phone as evidence",
+      "related_zones": ["discovery", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "author-advisor",
+    "company_stage": "advisory",
+    "primary_topics": ["category-design", "marketing-strategy", "languaging", "differentiation"]
+  }
+}

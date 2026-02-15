@@ -1,0 +1,199 @@
+{
+  "slug": "edwin-chen",
+  "quotes": [
+    {
+      "id": "edwin-chen-001",
+      "speaker": "Edwin Chen",
+      "text": "We hit over a billion of revenue last year with under 100 people. I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions. So when we started Surge, we wanted to build it completely differently with a super small, super elite team.",
+      "timestamp": "00:05:40",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 100
+      },
+      "themes": ["lean-teams", "velocity", "contrarian"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "edwin-chen-002",
+      "speaker": "Edwin Chen",
+      "text": "Fewer employees means less capital. Less capital means you don't need a raise. So instead of companies started by founders who are great at pitching and great at hyping, you'll get founders who are really great at technology and product. And instead of products optimized for revenue and what VCs want to see, you'll get more interesting ones built by these tiny obsessed teams.",
+      "timestamp": "00:06:29",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["bootstrapping", "founder-type", "product-quality"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "edwin-chen-003",
+      "speaker": "Edwin Chen",
+      "text": "Most people don't understand what quality even means in this space. They think you could just throw bodies at a problem and get good data, that's completely wrong. We are looking for Nobel Prize-winning poetry. Is this poetry unique? Is it full of subtle imagery? Does it surprise you and target your heart? Does it teach you something about the nature of moonlight?",
+      "timestamp": "00:09:47",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 137
+      },
+      "themes": ["quality", "data-quality", "craft"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "edwin-chen-004",
+      "speaker": "Edwin Chen",
+      "text": "There's almost like an art to post training. It's not purely a science. When you are deciding what kind of model you're trying to create and what it's good at, there's this notion of taste and sophistication. And there's all these notions of taste sophistication that you have to decide between when you're designing your post training mix.",
+      "timestamp": "00:15:36",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 184,
+        "lineEnd": 187
+      },
+      "themes": ["taste", "ai-training", "art-vs-science"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "edwin-chen-005",
+      "speaker": "Edwin Chen",
+      "text": "I don't trust the benchmarks at all. It's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs. And that's because even though IMO gold medals seem hard to the average person, they have this notion of objectivity that parsing a PDF sometimes doesn't have. So it's easier for the frontier labs to hill-climb on all of these than to solve all these messy ambiguous problems in the real world.",
+      "timestamp": "00:18:00",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 217
+      },
+      "themes": ["benchmarks", "real-world-vs-academic", "ai-limitations"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "edwin-chen-006",
+      "speaker": "Edwin Chen",
+      "text": "I'm worried that instead of building AI that will actually advance us as a species, curing cancer, solving poverty, understand the universe, we are optimizing for AI slop instead. We're basically teaching our models to chase dopamine instead of truth. The easiest way to climb LLM Arena is adding crazy bolding, doubling the number of emojis, tripling the length of your model responses, even if your model starts hallucinating.",
+      "timestamp": "00:23:14",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 259,
+        "lineEnd": 266
+      },
+      "themes": ["ai-safety", "incentives", "dopamine-vs-truth"],
+      "zones": ["perfection", "chaos"]
+    },
+    {
+      "id": "edwin-chen-007",
+      "speaker": "Edwin Chen",
+      "text": "I've always really hated a lot of the Silicon Valley mantras. Don't pivot. Don't blitz scale. Don't hire that Stanford grad who simply wants to add a hot company to their resume. Just build the one thing only you could build, a thing that wouldn't exist without the insight and expertise that only you have.",
+      "timestamp": "00:29:02",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 319
+      },
+      "themes": ["contrarian", "focus", "mission-driven"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "edwin-chen-008",
+      "speaker": "Edwin Chen",
+      "text": "I have this very romantic notion of startups. Startups are supposed to be a way of taking big risks to build something that you really believe in. But if you're constantly pivoting, you're not taking any risks. You're just trying to make a quick buck. The only way you build something that matters that's going to change the world is if you find a big idea you believe in and you say no to everything else.",
+      "timestamp": "00:30:03",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["conviction", "risk-taking", "mission-driven"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "edwin-chen-009",
+      "speaker": "Edwin Chen",
+      "text": "RL environments are essentially a simulation of the real world. Think of it like building a video game with a fully fleshed out universe. Every character has a real story, every business has tools and data you can call, and you have all these different entities interacting with each other. These environments really showcase where models are weak at end-to-end tasks in the real world.",
+      "timestamp": "00:34:49",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 364,
+        "lineEnd": 373
+      },
+      "themes": ["reinforcement-learning", "simulation", "ai-training"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "edwin-chen-010",
+      "speaker": "Edwin Chen",
+      "text": "I've always said I would rather be Terrence Tao than Warren Buffett, so that notion of creating research that pushes the frontier forward and not just getting some valuation, that's always been what drives me.",
+      "timestamp": "00:46:59",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 496,
+        "lineEnd": 496
+      },
+      "themes": ["intellectual-curiosity", "research", "values"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "edwin-chen-011",
+      "speaker": "Edwin Chen",
+      "text": "The values that the companies have will shape the model. Do you want a model that says, 'You're absolutely right. There are definitely 20 more ways to improve this email,' and it continues for 50 more iterations? Or do you want a model that's optimizing for your time and productivity and just says, 'No. You need to stop. Your email's great. Just send it and move on'?",
+      "timestamp": "00:48:45",
+      "source": {
+        "slug": "edwin-chen",
+        "path": "episodes/edwin-chen/transcript.md",
+        "lineStart": 514,
+        "lineEnd": 521
+      },
+      "themes": ["ai-values", "product-philosophy", "differentiation"],
+      "zones": ["intuition", "alignment"]
+    }
+  ],
+  "themes": ["lean-teams", "velocity", "contrarian", "bootstrapping", "quality", "data-quality", "craft", "taste", "ai-training", "benchmarks", "ai-safety", "incentives", "dopamine-vs-truth", "focus", "mission-driven", "conviction", "reinforcement-learning", "simulation", "intellectual-curiosity", "research", "ai-values", "product-philosophy"],
+  "takeaways": [
+    "Building a billion-dollar company with fewer than 100 people proves that tiny, obsessed teams with deep expertise can vastly outperform large organizations — AI is only accelerating this trend.",
+    "The AI industry is optimizing for the wrong things: leaderboard scores, engagement metrics, and sycophantic responses are pushing models toward 'dopamine over truth' instead of genuine intelligence.",
+    "Quality in AI data is deeply subjective and requires taste — the difference between checking instruction boxes and producing Nobel Prize-worthy output is what separates the best models from the rest.",
+    "AI model differentiation will increasingly come from the values and objective functions of the companies building them, not just raw intelligence — the personality of the lab shapes the personality of the model.",
+    "Startups should resist the Silicon Valley playbook of pivoting, blitz-scaling, and chasing hype — the companies that matter are built by founders who find one big idea and say no to everything else."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "edwin-chen-006",
+      "why": "Argues the entire AI industry is optimizing for slop over substance — that leaderboard climbing through emojis, bolding, and longer responses actually makes models worse while scores go up.",
+      "related_zones": ["perfection", "chaos"]
+    },
+    {
+      "quoteId": "edwin-chen-008",
+      "why": "Directly attacks the lean startup pivot-until-you-find-PMF orthodoxy — argues constantly pivoting is the opposite of risk-taking and you should stubbornly build the one thing only you can build.",
+      "related_zones": ["focus", "chaos"]
+    },
+    {
+      "quoteId": "edwin-chen-001",
+      "why": "Claims you could fire 90% of people at big tech companies and move faster — a radical take on organizational bloat that he then proved by building a billion-dollar company with under 100 people.",
+      "related_zones": ["velocity", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["ai-data-quality", "bootstrapping", "responsible-ai"]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "gia-laudi",
+  "quotes": [
+    {
+      "id": "gia-laudi-001",
+      "speaker": "Georgiana Laudi",
+      "text": "The problem with funnels and pirate metrics is that nobody knows what those mean. It puts every customer in the same sort of buckets. It assumes that all customers and all products are the same. It puts businesses at the center of the business versus putting customers at the center. It's about the values of the business, not the value to the customer.",
+      "timestamp": "00:07:04",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["customer-centricity", "metrics", "funnels"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "gia-laudi-002",
+      "speaker": "Georgiana Laudi",
+      "text": "Recurring revenue businesses, you cannot think about marketing and growth and the business overall as ending at acquisition. Otherwise, you're not in business anymore. The vast, vast majority of these models don't take post-acquisition retention, expansion, all of that into account.",
+      "timestamp": "00:08:01",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["retention", "saas", "growth"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "gia-laudi-003",
+      "speaker": "Georgiana Laudi",
+      "text": "We shortened the trial from 30 days to seven. The conversion on the website went up with this new messaging by 89%. But the thing that I love the most is that we didn't even touch anything after the signup experience. The trial-to-paid conversion rate increased 40%, and we didn't touch it. It was just because a more qualified, better fit customer was coming through the door.",
+      "timestamp": "00:10:46",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 132
+      },
+      "themes": ["conversion", "messaging", "customer-fit"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "gia-laudi-004",
+      "speaker": "Georgiana Laudi",
+      "text": "Product onboarding in particular tends to be kind of like no man's land. Who owns that? Is it marketing? If it's freemium, in my opinion it should be marketing because freemium is a marketing tool. Not every company would necessarily agree. A lot of companies might say, 'No, it's product.' So we end up seeing a messy middle because there's no natural handoff.",
+      "timestamp": "00:13:06",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": ["onboarding", "ownership", "freemium"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "gia-laudi-005",
+      "speaker": "Georgiana Laudi",
+      "text": "The process is pretty straightforward. At the highest level, understand your best customers, map their experience through the lens of delivering value to them, make it measurable, and then evaluate what you're doing today that is out of alignment with that.",
+      "timestamp": "00:19:46",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 222,
+        "lineEnd": 222
+      },
+      "themes": ["customer-research", "process", "value-delivery"],
+      "zones": ["discovery", "data", "alignment"]
+    },
+    {
+      "id": "gia-laudi-006",
+      "speaker": "Georgiana Laudi",
+      "text": "What I mean by best customers is those that get a ton of value from your product as it exists today, pay obviously, they're happy, they're low maintenance. And very importantly, they signed up for your product recently enough that they remember what life was like before. Generally, we say that's in the three to six-month range.",
+      "timestamp": "00:22:57",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 232
+      },
+      "themes": ["customer-research", "best-customers", "methodology"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "gia-laudi-007",
+      "speaker": "Georgiana Laudi",
+      "text": "The most important one is that they have an urgent problem. The whole pain killer versus vitamin thing, you always want to be selling a pain killer. So who has an urgent problem that needs solving, not something that they might have a problem with six months down the line?",
+      "timestamp": "00:25:10",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["urgency", "product-market-fit", "prioritization"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "gia-laudi-008",
+      "speaker": "Georgiana Laudi",
+      "text": "We often talk about it and describe it as the story of how I met and fell in love with your product. It's like this documentary of being out in the world, finding it, realizing that like, 'Hell yeah, this might actually solve a problem for us.' Getting enough value to convince them to keep going to full value realization, to continue value-to-value growth.",
+      "timestamp": "00:35:04",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 309
+      },
+      "themes": ["customer-journey", "storytelling", "value-realization"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "gia-laudi-009",
+      "speaker": "Georgiana Laudi",
+      "text": "At a given milestone, unless they've reached that value moment, you can't keep them on the train to something else. If they haven't even discovered that really most valued part of their product, you would need to focus on getting them to that value. Otherwise, you can't just keep firing off emails and hoping they're going to jump back into the product.",
+      "timestamp": "00:42:32",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 352
+      },
+      "themes": ["activation", "value-delivery", "onboarding"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "gia-laudi-010",
+      "speaker": "Georgiana Laudi",
+      "text": "You can guess and you can use your best judgment. You can use internal stakeholders and the internal team knowledge. But it should never come before learning from and listening to your best ideal customers and using the language that they use. You want to reflect them back to them.",
+      "timestamp": "00:51:21",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 438,
+        "lineEnd": 438
+      },
+      "themes": ["messaging", "customer-voice", "positioning"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "gia-laudi-011",
+      "speaker": "Georgiana Laudi",
+      "text": "Research takes a long time and can often lead to more questions and can slow everything down. You can end up in analysis paralysis, but it doesn't have to be that way. In a survey scenario, it can be a couple of weeks. Two or three weeks, you can actually come out with something solid to move forward with.",
+      "timestamp": "00:57:54",
+      "source": {
+        "slug": "gia-laudi",
+        "path": "episodes/gia-laudi/transcript.md",
+        "lineStart": 510,
+        "lineEnd": 510
+      },
+      "themes": ["research", "speed", "pragmatism"],
+      "zones": ["velocity", "discovery"]
+    }
+  ],
+  "themes": ["customer-centricity", "metrics", "funnels", "retention", "saas", "growth", "conversion", "messaging", "customer-fit", "onboarding", "ownership", "freemium", "customer-research", "process", "value-delivery", "best-customers", "methodology", "urgency", "product-market-fit", "prioritization", "customer-journey", "storytelling", "value-realization", "activation", "customer-voice", "positioning", "research", "speed", "pragmatism"],
+  "takeaways": [
+    "Traditional funnels and pirate metrics put the business at the center rather than the customer, failing to account for post-acquisition retention and expansion",
+    "Improving messaging and targeting to attract better-fit customers can dramatically increase trial-to-paid conversion without touching the product itself",
+    "Your best customers for research are happy, paying users who signed up recently enough (3-6 months) to remember what life was like before your product",
+    "Map the customer journey as a story of falling in love with the product, with measurable KPIs at each milestone so you can catch people when they fall off",
+    "Customer research doesn't have to be slow - focused surveys can deliver decisive insights in two to three weeks that transform your growth strategy"
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.30,
+    "data": 0.25,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.00,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "gia-laudi-001",
+      "why": "Directly challenges the sacred pirate metrics (AARRR) framework that most growth teams rely on, calling them fundamentally business-centric rather than customer-centric",
+      "related_zones": ["discovery", "data"]
+    },
+    {
+      "quoteId": "gia-laudi-004",
+      "why": "Argues freemium is a marketing tool, not a product feature - a controversial take that challenges how most companies think about product-led growth",
+      "related_zones": ["alignment", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["customer-led-growth", "jobs-to-be-done", "saas-conversion"]
+  }
+}

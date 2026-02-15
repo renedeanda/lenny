@@ -1,0 +1,199 @@
+{
+  "slug": "shaun-clowes",
+  "quotes": [
+    {
+      "id": "shaun-clowes-q001",
+      "speaker": "Shaun Clowes",
+      "text": "If there's 10 times engineers, and I would argue they definitely are, they must be 10 times product managers too. But those 10 times product managers, because product management is ultimately about leverage, it's about helping other people have dramatically more impact, then a 10 times product manager has 100 times return or more because they're 10 timesing the return on 10 times resources.",
+      "timestamp": "00:06:39",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 90,
+        "lineEnd": 90
+      },
+      "themes": ["product-management", "leverage", "career-growth"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "shaun-clowes-q002",
+      "speaker": "Shaun Clowes",
+      "text": "Product management is so damn fun because it's about trying to figure out an edge. It's like trying to look at the world, find the portion of the chessboard that isn't occupied, but that is valuable and find a way to get into it, invade it and destroy it. It's decisions under uncertainty and that makes it unbelievably fun.",
+      "timestamp": "00:08:52",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 102
+      },
+      "themes": ["product-management", "strategy", "competition"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "shaun-clowes-q003",
+      "speaker": "Shaun Clowes",
+      "text": "The time you spend looking inside the building doesn't really benefit you very much at all. Very small number of PMs spend 80% of their time thinking outside the building. They get dragged into internal politics, they get dragged into scrum management or product delivery, and you just can't win that way. The job is about finding reliable, differentiated value that you can uniquely deliver into the market.",
+      "timestamp": "00:09:43",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["product-management", "customer-focus", "strategy"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "shaun-clowes-q004",
+      "speaker": "Shaun Clowes",
+      "text": "All data and no analysis is not very useful. Everyone can bring back an omnibus edition of random stuff I heard on a Tuesday, but the competitive advantage is extracted out of figuring out what other people don't see, figuring out where we are wrong, figuring out where a well-placed bet could have dramatically outlandish returns.",
+      "timestamp": "00:11:50",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": ["data-analysis", "competitive-advantage", "insight"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "shaun-clowes-q005",
+      "speaker": "Shaun Clowes",
+      "text": "People spend far too much time looking for what they're hoping to see, not for what they're not looking to see. You can literally ask ChatGPT to help you find where the customer is probing at the edges of what you're trying to do, where it's wrong, where what you're saying is not what they believe.",
+      "timestamp": "00:15:40",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 135,
+        "lineEnd": 135
+      },
+      "themes": ["ai-tools", "customer-research", "confirmation-bias"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "shaun-clowes-q006",
+      "speaker": "Shaun Clowes",
+      "text": "Information has a decay rate. Any new piece of data decays in its value to your decision-making very quickly. You've got this synthesis machine, which is this LLM thing, but if it hasn't got all that data to do synthesis on top of, it's got nothing. LLMs can only be as good as the data they are given and how recent that data is. They're ultimately like information shredders.",
+      "timestamp": "00:20:28",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 156,
+        "lineEnd": 156
+      },
+      "themes": ["ai-strategy", "data-management", "decision-making"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "shaun-clowes-q007",
+      "speaker": "Shaun Clowes",
+      "text": "If you want to have a smart AI experience, you'll convince yourself that all I really need to do is get a model and wire it in. And if you think that way, you're going to be very sad for a very long time because you are constantly going to be wrestling with how do I get good data to this thing? It's a data management problem. That's where 90% of the calories go.",
+      "timestamp": "00:22:47",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 168
+      },
+      "themes": ["ai-strategy", "data-management", "product-building"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "shaun-clowes-q008",
+      "speaker": "Shaun Clowes",
+      "text": "All vertical SaaS or business SaaS is ultimately forms on databases. But the real thing staring at everybody in the face is it's all about the business rules. That is what drives the lock-in. Why do you buy Workday? You buy it because you want to configure it to be your company's HR processes. The longer you have the software, the more it becomes your specific company.",
+      "timestamp": "00:25:45",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 186
+      },
+      "themes": ["enterprise-saas", "competitive-moats", "ai-disruption"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "shaun-clowes-q009",
+      "speaker": "Shaun Clowes",
+      "text": "Data is more like a compass than a GPS. If you look at data as a way of giving you the answer, you're always wrong. You're always wrong or you're slow. Wrong or slow or sometimes both, because mostly data doesn't give you the answer. It just tells you if what you just said is ridiculous or there's potentially something there.",
+      "timestamp": "00:36:48",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 228,
+        "lineEnd": 228
+      },
+      "themes": ["data-informed", "intuition", "decision-making"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "shaun-clowes-q010",
+      "speaker": "Shaun Clowes",
+      "text": "If you're looking at data and the result tells you something that your intuition tells you is insanely wrong, they're probably not right. First, believe your intuition and go and prove yourself right. The most likely explanation for something that is insanely not intuitive is that it's just wrong, that there's a problem somewhere.",
+      "timestamp": "00:39:35",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 243,
+        "lineEnd": 243
+      },
+      "themes": ["data-analysis", "intuition", "critical-thinking"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "shaun-clowes-q011",
+      "speaker": "Shaun Clowes",
+      "text": "My career has been a little bit like a bingo card. I've always been looking to fill in boxes I didn't have filled because I felt like that would make me a better professional. It's fun to learn something new, it's fun to prove to yourself that you can do those new things, and it makes you more versatile because any given problem you go up against, you've seen something that pattern matches to it.",
+      "timestamp": "00:56:42",
+      "source": {
+        "slug": "shaun-clowes",
+        "path": "episodes/shaun-clowes/transcript.md",
+        "lineStart": 348,
+        "lineEnd": 348
+      },
+      "themes": ["career-growth", "versatility", "learning"],
+      "zones": ["discovery", "chaos"]
+    }
+  ],
+  "themes": ["product-management", "data-informed", "ai-strategy", "enterprise-saas", "growth", "career-growth", "decision-making", "competitive-advantage"],
+  "takeaways": [
+    "Product management is fundamentally about leverage and finding differentiated value outside the building - PMs who spend 80% of their time thinking about customers, competitors, and markets dramatically outperform those dragged into internal politics and scrum execution.",
+    "LLMs and AI products are only as good as the data fed into them - information has a decay rate, and 90% of the work in building great AI experiences is the data management problem of getting the right data to the model at the right time.",
+    "Data is a compass, not a GPS - being overly data-driven makes you slow or wrong, and when data contradicts strong intuition, the data is usually the thing that's flawed. The real skill is right-sizing data usage and seeking disconfirming evidence.",
+    "B2B SaaS moats come from accumulated business rules and configuration, not UIs or data models - AI won't easily disrupt incumbents because the lock-in is in years of evolved workflows that even the companies themselves can't fully articulate without reading their own code.",
+    "Treat your career like a bingo card by deliberately choosing roles that stretch you into unfamiliar domains - the compounding benefit of diverse experiences creates pattern-matching superpowers that make you dangerous in unexpected situations."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.10,
+    "discovery": 0.22,
+    "data": 0.25,
+    "intuition": 0.13,
+    "alignment": 0.04,
+    "chaos": 0.08,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "shaun-clowes-q009",
+      "why": "Challenges the data-driven PM orthodoxy by arguing data is a compass not a GPS - being too data-driven makes you slow or wrong, contradicting the dominant Silicon Valley belief that more data always leads to better decisions",
+      "related_zones": ["data", "intuition"]
+    },
+    {
+      "quoteId": "shaun-clowes-q008",
+      "why": "Argues that AI won't disrupt incumbent SaaS companies despite widespread belief that AI makes it trivial to clone any B2B app - the real moat is invisible business rules, not the UI or data model",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "shaun-clowes-q007",
+      "why": "Counters the prevailing excitement about AI models by insisting the unsexy data management problem is where 90% of the work lies - most builders are focused on the wrong layer of the stack",
+      "related_zones": ["data", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-management", "ai-strategy", "data-informed-decisions", "enterprise-saas", "b2b-growth"]
+  }
+}

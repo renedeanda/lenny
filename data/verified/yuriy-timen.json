@@ -1,0 +1,194 @@
+{
+  "slug": "yuriy-timen",
+  "quotes": [
+    {
+      "id": "yuriy-timen-q001",
+      "speaker": "Yuriy Timen",
+      "text": "It's very hard to manufacture product network effects if they aren't there from the get go. Contrast that with a company like Grammarly. It just wasn't there. It's not an inherently multiplayer task constructed communication. And so you can try to engineer that, but from my experience, it is an uphill battle.",
+      "timestamp": "00:13:47",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 162,
+        "lineEnd": 162
+      },
+      "themes": ["network-effects", "product-strategy", "growth-loops"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "yuriy-timen-q002",
+      "speaker": "Yuriy Timen",
+      "text": "With SEO, the first pillar is do you have a unique angle. Do you have something unique to contribute to that conversation? Another thing is, do you have a unique programmatic angle? For instance, Canva dealt with templates. Do you have a unique data angle? If you can check two of those three boxes as a back of the envelope framework, you may be in good shape.",
+      "timestamp": "00:17:58",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 180
+      },
+      "themes": ["SEO", "growth-strategy", "frameworks"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "yuriy-timen-q003",
+      "speaker": "Yuriy Timen",
+      "text": "The definition of efficient acquisition and good payback windows is shifting. Before for a consumer subscription company, 12 month payback was decent. Now it's like, you better pay back your paid media in six months or less. That's the sentiment.",
+      "timestamp": "00:24:38",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 273
+      },
+      "themes": ["paid-acquisition", "unit-economics", "market-shifts"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "yuriy-timen-q004",
+      "speaker": "Yuriy Timen",
+      "text": "The companies that had strong cash positions, have strong unit economics, strong payback periods already like Grammarly, Canva, they're going to be winners because all of a sudden, if previously they were competing with companies who were nowhere as efficient as them, but for whatever reason had the green light to keep spending, now all of those are going to pull back their budgets.",
+      "timestamp": "00:27:26",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 297
+      },
+      "themes": ["paid-acquisition", "competitive-advantage", "discipline"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "yuriy-timen-q005",
+      "speaker": "Yuriy Timen",
+      "text": "I would say focus paired with rapid iterations. With limited resources, naturally you have to practice some form of essentialism and ruthless prioritization, but at the same time, the clock is always ticking. There is a finite number of tries that you have at finding what works. Either one taken to an extreme, focus or trying multiple things, is not a good thing.",
+      "timestamp": "00:32:44",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 357
+      },
+      "themes": ["prioritization", "focus", "iteration", "resource-allocation"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "yuriy-timen-q006",
+      "speaker": "Yuriy Timen",
+      "text": "The only thing that's worse than a channel or a tactic that you tried not working is when you didn't give it the appropriate shot and you erroneously concluded that it doesn't work. It's remarkable how often you find that to be the case. 'Oh, YouTube, we tried it doesn't work.' And then you look at it and it was not designed to even have a shot at working from the get go.",
+      "timestamp": "00:33:54",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["experimentation", "growth-channels", "failure-modes"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "yuriy-timen-q007",
+      "speaker": "Yuriy Timen",
+      "text": "From the outside looking in, you oftentimes assume that it's a highly diversified growth engine. I have to say it's often not the case. Definitely the 80/20 applies. There is a strategy that's working overwhelmingly well, and there is a scramble internally to minimize reliance on that one thing.",
+      "timestamp": "00:38:18",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 381,
+        "lineEnd": 381
+      },
+      "themes": ["growth-strategy", "diversification", "risk"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "yuriy-timen-q008",
+      "speaker": "Yuriy Timen",
+      "text": "I encounter sometimes early stage companies where one thing is working well and they're already worried about over reliance and starting to talk about diversification. I come in and say, 'No, no. Too early. Sure, this one tactic is accounting for 80 plus percent of your new user acquisition, but your user acquisition is still small. Don't get distracted with diversification. Lean more into this.'",
+      "timestamp": "00:40:25",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 390,
+        "lineEnd": 390
+      },
+      "themes": ["growth-strategy", "focus", "early-stage", "diversification"],
+      "zones": ["focus", "velocity", "intuition"]
+    },
+    {
+      "id": "yuriy-timen-q009",
+      "speaker": "Yuriy Timen",
+      "text": "A healthy website visit to a free account creation conversion rate is probably in that 20 to 35% range. From a free user to a paying account, anything under 5% is not going to work long term, regardless of how big your top of funnel is. It's got to be north of 5%, ideally more than 7%.",
+      "timestamp": "00:49:45",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 447
+      },
+      "themes": ["conversion-rates", "benchmarks", "freemium", "metrics"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "yuriy-timen-q010",
+      "speaker": "Yuriy Timen",
+      "text": "Onboarding is really, really important because there's such a huge difference between landing someone on that initial editor page and having them left to their own devices versus getting as much relevant information upfront and customizing that landing experience for them. So that if they're there to do X and we know XYZ about them, we're able to guide them and not expose them to the robustness of the product all at once.",
+      "timestamp": "00:52:19",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 456,
+        "lineEnd": 456
+      },
+      "themes": ["onboarding", "activation", "user-experience", "personalization"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "yuriy-timen-q011",
+      "speaker": "Yuriy Timen",
+      "text": "Getting to know your customer always pays off. Customer research, surveying, interviewing panels, incredibly useful. The amount of clarity and momentum that it can create inside of a seed to Series B company when you first do some proper research push, the way it can galvanize the team and give them focus and clarity and purpose is remarkable.",
+      "timestamp": "00:54:15",
+      "source": {
+        "slug": "yuriy-timen",
+        "path": "episodes/yuriy-timen/transcript.md",
+        "lineStart": 474,
+        "lineEnd": 474
+      },
+      "themes": ["customer-research", "user-insights", "team-alignment"],
+      "zones": ["discovery", "alignment"]
+    }
+  ],
+  "themes": ["growth-strategy", "paid-acquisition", "SEO", "onboarding", "conversion-rates", "experimentation", "focus", "customer-research"],
+  "takeaways": [
+    "Product network effects are either inherent from inception or extremely hard to manufacture -- don't try to force virality if the product doesn't naturally lend itself to multiplayer dynamics.",
+    "The 80/20 rule applies to growth engines even at later-stage companies: one channel usually dominates, and premature diversification distracts from maximizing what already works.",
+    "The worst growth mistake isn't a channel failing -- it's prematurely concluding a channel doesn't work because you never gave it a proper shot with sufficient creative angles and volume.",
+    "Healthy freemium conversion benchmarks matter: 20-35% visitor-to-free-signup, and north of 5% free-to-paid conversion is the minimum threshold for a sustainable subscription business.",
+    "Customer research always pays off. The clarity and momentum it creates in early-stage companies by galvanizing the team around real user insights is consistently one of the highest-ROI investments."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.25,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.00,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "yuriy-timen-q008",
+      "why": "Counterintuitively advises early-stage companies against diversifying growth channels even when 80%+ reliant on one channel -- argues small scale makes concentration a feature not a bug",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "yuriy-timen-q006",
+      "why": "Reframes channel failure as a company execution problem rather than a channel problem -- most companies wrongly dismiss channels they never properly tested",
+      "related_zones": ["velocity", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth-marketing", "user-acquisition", "retention"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "raaz-herzberg",
+  "quotes": [
+    {
+      "id": "raaz-herzberg-001",
+      "speaker": "Raaz Herzberg",
+      "text": "We kind of understood that we were listening in the wrong way, maybe, that we were looking for positive reinforcements, but not really listening intently to signs of deep enthusiasm, and that ended up pivoting us around to cloud security.",
+      "timestamp": "00:11:14",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["product-market-fit", "customer-discovery", "listening"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "raaz-herzberg-002",
+      "speaker": "Raaz Herzberg",
+      "text": "You have a bias to look for affirmation, versus a bias to look for what you don't want to hear. That's just natural, being a person. So I felt like, that is what we ended up really being in tune with. They're intently interested. They want to connect me to somebody. They want to know how much this costs.",
+      "timestamp": "00:13:53",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 214
+      },
+      "themes": ["product-market-fit", "customer-signals", "bias"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "raaz-herzberg-003",
+      "speaker": "Raaz Herzberg",
+      "text": "Sometimes, it's hard to get the courage to say, 'Actually, I don't understand.' But I think by now, in my career, it's my favorite question. I feel like I say, 'I don't understand,' a lot of times a day. If you build a company with the right type of culture, then it's not a shame to say, 'I don't understand, or please explain again.'",
+      "timestamp": "00:15:38",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 235,
+        "lineEnd": 238
+      },
+      "themes": ["culture", "vulnerability", "clarity"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "raaz-herzberg-004",
+      "speaker": "Raaz Herzberg",
+      "text": "I'm not trying to push something on someone, especially not at this point, and my opinion, not ever, not even today, not even when you sell at large scales. I'm not trying to push anybody to anything, I really want to make sure they want it. I have to feel that want back.",
+      "timestamp": "00:20:32",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["sales", "product-market-fit", "customer-pull"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "raaz-herzberg-005",
+      "speaker": "Raaz Herzberg",
+      "text": "If you can't do it one time end to end, and you're the core, core group, the chances of just bringing somebody from the outside to solve that problem, it's wishful, in some ways, but it never ends up that way.",
+      "timestamp": "00:22:49",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 322,
+        "lineEnd": 322
+      },
+      "themes": ["founder-led-sales", "hiring", "ownership"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "raaz-herzberg-006",
+      "speaker": "Raaz Herzberg",
+      "text": "In the early days, I felt like the heat was in the product kitchen. Then the heat moves to engineering, like, 'Build it, somebody wants it.' Then you bring in sales, and the heat moves to sales. And then, the heat starts moving to marketing, where it's like, 'We have product market fit. Salespeople can sell it, but they're saying, give me more pipeline.'",
+      "timestamp": "00:28:19",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 394,
+        "lineEnd": 401
+      },
+      "themes": ["scaling", "organizational-focus", "growth-stages"],
+      "zones": ["velocity", "chaos", "alignment"]
+    },
+    {
+      "id": "raaz-herzberg-007",
+      "speaker": "Raaz Herzberg",
+      "text": "As a product manager, less is more. Every new feature you add, you'll have to think about how it works with every other feature. Making a mistake, adding something that is not truly what your customer needed, even if it's what they asked for, has a huge cost associated with it.",
+      "timestamp": "00:36:59",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 493,
+        "lineEnd": 497
+      },
+      "themes": ["product-discipline", "feature-creep", "customer-needs"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "raaz-herzberg-008",
+      "speaker": "Raaz Herzberg",
+      "text": "Marketing is quite the opposite. There's no cost to anything, no maintenance, no technical depth. If tomorrow I post a video and nobody likes it, nothing happened. Tomorrow, I'll post a different video. So we have to just use it to our advantage. Let's try everything.",
+      "timestamp": "00:37:40",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 499,
+        "lineEnd": 503
+      },
+      "themes": ["marketing", "experimentation", "risk-taking"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "raaz-herzberg-009",
+      "speaker": "Raaz Herzberg",
+      "text": "If you're on the product side, you can often work with things that are fluffy or blurry or gray. But when you try to scale your message, you can't. It gets lost in translation. You have to be crystal clear, black and white. You have to communicate very clearly, especially as an organization scales.",
+      "timestamp": "00:46:10",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 601,
+        "lineEnd": 601
+      },
+      "themes": ["communication", "product-marketing", "clarity"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "raaz-herzberg-010",
+      "speaker": "Raaz Herzberg",
+      "text": "Your customers are just learning what you put there 10 months ago. You are the only one looking at this thing, day after day. You're actually going to change it, and only they're just starting to grasp it, and you're changing it under their feet.",
+      "timestamp": "00:50:33",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 649,
+        "lineEnd": 649
+      },
+      "themes": ["customer-empathy", "messaging", "patience"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "raaz-herzberg-011",
+      "speaker": "Raaz Herzberg",
+      "text": "I do feel like an imposter, and I know there's always those statistics about many people feeling that way. So maybe just, let's embrace it. I feel like an imposter, you feel like an imposter, everybody feels like an imposter. Maybe embrace it, but don't let that stop you from making a decision. You will never know your limit if you don't try.",
+      "timestamp": "00:54:30",
+      "source": {
+        "slug": "raaz-herzberg",
+        "path": "episodes/raaz-herzberg/transcript.md",
+        "lineStart": 718,
+        "lineEnd": 728
+      },
+      "themes": ["imposter-syndrome", "courage", "leadership"],
+      "zones": ["chaos", "intuition"]
+    }
+  ],
+  "themes": ["product-market-fit", "customer-discovery", "culture", "marketing", "scaling", "courage", "clarity", "founder-led-growth"],
+  "takeaways": [
+    "True product-market fit is unmistakable - when customers start asking about pricing, pushing for POVs, and connecting you to their teams, that pull is qualitatively different from polite interest and 'sounds interesting' feedback.",
+    "The courage to say 'I don't understand' can redirect an entire company - Raaz's honest confusion about what Wiz was building triggered the pivot from network security to cloud security, leading to the fastest-growing software company in history.",
+    "Founders must do the job end-to-end before hiring someone to do it - Wiz's founding team closed millions in deals themselves before hiring salespeople, because if the core team can't do it, an outside hire won't magically solve the problem.",
+    "Follow the heat within your organization - as a company scales, the critical bottleneck shifts from product to engineering to sales to marketing, and the best leaders move to wherever the most urgent organizational need is.",
+    "Product messages must be crystal clear to scale - what works as fluffy, gray context inside the product team gets completely lost in translation when it crosses to marketing, sales, and customers. Simplicity is the prerequisite for scale."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "raaz-herzberg-011",
+      "why": "Instead of fighting imposter syndrome, embrace it - stop trying to build confidence and just act despite feeling like a fraud, because everyone feels this way",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "raaz-herzberg-005",
+      "why": "Challenges the common startup advice to 'hire experts' - argues that if the founding team can't do it themselves first, no outside hire will fix the problem",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "raaz-herzberg-008",
+      "why": "Product thinking (less is more, every decision is costly) is the opposite of what works in marketing (try everything, nothing has lasting cost) - challenges PMs who bring product rigor to marketing",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-market-fit", "customer-discovery", "marketing-strategy", "scaling", "organizational-leadership"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "sri-batchu",
+  "quotes": [
+    {
+      "id": "sri-batchu-q001",
+      "speaker": "Sri Batchu",
+      "text": "What you see internally is razor-sharp focus on reducing cycle time and bias to action. I think it's basically the core of it culturally to me is getting people to think about smaller units of time for decision making. It seems obvious but I think you really have to reinforce it culturally.",
+      "timestamp": "00:16:30",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 162,
+        "lineEnd": 162
+      },
+      "themes": ["velocity", "culture", "decision-making"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "sri-batchu-q002",
+      "speaker": "Sri Batchu",
+      "text": "We don't work in years, quarters, weeks, we work in days. Each day matters and so never put out something tomorrow that you know can get done today. And that bias to action really permeates not just in the product teams but everywhere.",
+      "timestamp": "00:17:28",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 165
+      },
+      "themes": ["velocity", "culture", "execution"],
+      "zones": ["velocity"]
+    },
+    {
+      "id": "sri-batchu-q003",
+      "speaker": "Sri Batchu",
+      "text": "Doing calendar audits of yourself as well as of your team to say, okay, what are your highest priorities for this week, this day, this month? And how does your calendar reflect your priorities? Because in many ways you ship your calendar and so thinking about how are you spending your time and then blocking your time accordingly.",
+      "timestamp": "00:20:31",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 183,
+        "lineEnd": 183
+      },
+      "themes": ["prioritization", "productivity", "time-management"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "sri-batchu-q004",
+      "speaker": "Sri Batchu",
+      "text": "I think it's a red herring about team structure and team design and what's the right one. I think most of that is irrelevant. What actually matters is culture and rituals and cadences rather than the team itself.",
+      "timestamp": "00:31:03",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 261,
+        "lineEnd": 261
+      },
+      "themes": ["team-building", "culture", "growth"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "sri-batchu-q005",
+      "speaker": "Sri Batchu",
+      "text": "A great growth team is one where you set the culture, set very simple north star metrics, usually one, at most two. And you've created a culture of defining hypotheses that are data driven and a culture where that can be executed quickly and have an MVP mentality for product and non-product projects where people can fail and learn quickly and iterate quickly.",
+      "timestamp": "00:31:35",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["growth", "metrics", "experimentation", "culture"],
+      "zones": ["data", "velocity", "chaos"]
+    },
+    {
+      "id": "sri-batchu-q006",
+      "speaker": "Sri Batchu",
+      "text": "You want to actually hold people accountable for things that they can influence. And then we created via the finance and data team, a translation layer for every team's metric into MAO. It would be like if you got one extra weekly order because of your checkout flow, it would have point X impact on the company's MAO and then you would just roll up all project plans back into this singular metric.",
+      "timestamp": "00:34:13",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 276
+      },
+      "themes": ["metrics", "accountability", "prioritization"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "sri-batchu-q007",
+      "speaker": "Sri Batchu",
+      "text": "Speed, quality, and cost. All three are important, but it's very hard to optimize all three at the same time. So you need to have a particular prioritization. The way I think about the growth team's journey is step one is build a system that can move fast and then work on improving the quality and then work on optimization of cost after.",
+      "timestamp": "00:46:06",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 399
+      },
+      "themes": ["prioritization", "growth", "strategy"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "sri-batchu-q008",
+      "speaker": "Sri Batchu",
+      "text": "When you focus on CAC and reducing CAC, what tends to happen is you actually might be doing something very damaging where you're succeeding in reducing CAC, but you're actually bringing in customers that are less valuable because those are the ones that you're able to attract with a lower CAC.",
+      "timestamp": "00:47:02",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 405,
+        "lineEnd": 405
+      },
+      "themes": ["metrics", "growth", "acquisition"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "sri-batchu-q009",
+      "speaker": "Sri Batchu",
+      "text": "We celebrate failure. Growth experiments in my history are typically 30%-ish success rate. So the vast majority of things that you try don't work. And so you want to create a culture where people aren't afraid to take risks and aren't afraid to fail. And for me, failure is not that you didn't drive revenue, failure is not learning.",
+      "timestamp": "00:51:57",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 429,
+        "lineEnd": 429
+      },
+      "themes": ["experimentation", "culture", "failure"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "sri-batchu-q010",
+      "speaker": "Sri Batchu",
+      "text": "In B2B, you don't usually have the luxury of large N, which you do in consumer. Facebook can get stats sig in two hours. A B2B company could take two years to get the same number of touch points. And so to counteract that, I recommend people just trying to maximize the treatment effect. Just throw all of the possible tactics and resources that you think would move that needle because you can always cost rationalize later if it works.",
+      "timestamp": "00:53:00",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 432,
+        "lineEnd": 432
+      },
+      "themes": ["experimentation", "B2B", "strategy"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "sri-batchu-q011",
+      "speaker": "Sri Batchu",
+      "text": "I strongly, strongly believe that small teams of successful people can drive a lot more impact than larger teams of mediocre people. And so I strongly believe you have to design a system where you're able to reward 10X operators with 10X the comp.",
+      "timestamp": "01:03:30",
+      "source": {
+        "slug": "sri-batchu",
+        "path": "episodes/sri-batchu/transcript.md",
+        "lineStart": 492,
+        "lineEnd": 495
+      },
+      "themes": ["hiring", "compensation", "team-building"],
+      "zones": ["focus", "velocity"]
+    }
+  ],
+  "themes": ["growth", "velocity", "metrics", "experimentation", "team-building", "prioritization"],
+  "takeaways": [
+    "Velocity at Ramp is operationalized by thinking in days not quarters, with a live day counter at days.ramp.com reinforcing bias to action across every team.",
+    "The best growth engines are built on culture, rituals, and cadences rather than specific team structures, with one or two north star metrics everyone can translate their work into.",
+    "Payback period using contribution margin is a far better growth efficiency metric than CAC or LTV-to-CAC because it relies on recent observable data rather than speculative lifetime assumptions.",
+    "Growth experiments should be designed to fail conclusively by maximizing the treatment effect, especially in B2B where sample sizes are small and you cannot afford to rerun inconclusive tests for years.",
+    "Small teams of high-performers dramatically outperform larger mediocre teams, and companies should design compensation systems that reward 10X operators with 10X comp to hire and retain the best talent."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.0,
+    "discovery": 0.0,
+    "data": 0.30,
+    "intuition": 0.0,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sri-batchu-q004",
+      "why": "Dismisses team structure debates as a 'red herring' when most growth leaders obsess over org design, arguing culture and cadences matter far more than reporting lines.",
+      "related_zones": ["alignment"]
+    },
+    {
+      "quoteId": "sri-batchu-q010",
+      "why": "Advocates throwing all possible tactics at once in B2B experiments rather than the conventional wisdom of testing one variable at a time, prioritizing conclusive learning over isolation of variables.",
+      "related_zones": ["chaos", "data"]
+    },
+    {
+      "quoteId": "sri-batchu-q011",
+      "why": "Argues against compensation equality and narrowing pay bands, taking the contrarian position that 10X operators should receive 10X compensation to maintain talent density.",
+      "related_zones": ["focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "metrics", "velocity", "experimentation", "hiring"]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "jag-duggal",
+  "quotes": [
+    {
+      "id": "jag-duggal-001",
+      "speaker": "Jag Duggal",
+      "text": "Really think hard and tap into a very deep pain point. The large incumbent Brazilian banks were amongst the most profitable in the world, they were also amongst the most hated in the world. We want our customers to love us fanatically. A lot of my interview process from my side was really vetting if that was real, or if that was a sign on the wall.",
+      "timestamp": "00:06:44",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 107,
+        "lineEnd": 116
+      },
+      "themes": ["customer-obsession", "pain-points", "culture"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "jag-duggal-002",
+      "speaker": "Jag Duggal",
+      "text": "We rarely scale a project, a product we've launched, until we know the Sean Ellis score and we know that it's hit a threshold that we find really compelling. For us our threshold isn't 40%, we've generally moved it up to 50%. I don't believe we have product market fit unless 50% of Brazilians are telling us they would be very disappointed.",
+      "timestamp": "00:14:26",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 143,
+        "lineEnd": 152
+      },
+      "themes": ["product-market-fit", "sean-ellis", "measurement", "discipline"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "jag-duggal-003",
+      "speaker": "Jag Duggal",
+      "text": "Good enough isn't good enough. Is it great enough? Because that's the bar, particularly for some of our tent-pole products. A lot of companies spend a ton of money on marketing. Their VC funding basically goes to Google and Facebook. It is a much better scenario if the main portion of what you're doing is actually investing in making the product great that you don't have to do that.",
+      "timestamp": "00:20:44",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 182
+      },
+      "themes": ["quality", "product-excellence", "word-of-mouth", "growth"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "jag-duggal-004",
+      "speaker": "Jag Duggal",
+      "text": "We just tell them, call 10 of them. Pick up the phone yourself. Don't ask a researcher to come up with a plan to go do the research to then summarize it, to then bring it to you, which has so many degrees of distance built in. Nine times out of 10, by the time you've made your fifth call, you could predict what customer six, seven, eight, nine and 10 are going to tell you.",
+      "timestamp": "00:26:27",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 206
+      },
+      "themes": ["customer-research", "direct-feedback", "product-management"],
+      "zones": ["discovery", "velocity", "intuition"]
+    },
+    {
+      "id": "jag-duggal-005",
+      "speaker": "Jag Duggal",
+      "text": "If you don't have a hypothesis, you're going to spend a lot of time researching, you're going to get a lot of data back and you're not going to know what to make of it. It just becomes an interesting conversation. The pitfall is I've fallen in love with my hypothesis. I'm a lawyer for my hypothesis. I'm not a judge of whether the hypothesis is right or not right.",
+      "timestamp": "00:35:56",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 269,
+        "lineEnd": 272
+      },
+      "themes": ["hypothesis-driven", "research", "bias", "customer-discovery"],
+      "zones": ["discovery", "data", "intuition"]
+    },
+    {
+      "id": "jag-duggal-006",
+      "speaker": "Jag Duggal",
+      "text": "Great execution multiplied by a poor strategy is a waste of everyone's time. One of my favorite quotes from Kevin Systrom in the early days of Instagram: We may not be right, but at least we are clear. Even if your strategy isn't right, you will have a clearer read on if you are going off course because you have a very clear idea of what was supposed to be happening.",
+      "timestamp": "00:44:46",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 306,
+        "lineEnd": 308
+      },
+      "themes": ["strategy", "clarity", "execution"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "jag-duggal-007",
+      "speaker": "Jag Duggal",
+      "text": "Strategy is very specific, it's very detailed, it's very locked in. In 2014, we had millennial, middle-class, urban Brazilians who hated paying credit card fees. And we could offer them a no-fee credit card, which was an emotional thing. We could do that because we were branchless and digital. That is a coherent description of a very specific problem for a very specific set of customers with a very specific solution.",
+      "timestamp": "00:46:55",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 314,
+        "lineEnd": 314
+      },
+      "themes": ["strategy", "specificity", "focus", "category-design"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "jag-duggal-008",
+      "speaker": "Jag Duggal",
+      "text": "Concentration is what builds wealth, diversification is what preserves wealth. And you're a startup. You're not trying to preserve anything. You're trying to build something. It requires concentrated bets, not hedging. And because you're concentrating bets, those bets are high stakes. You need to be very, very clear on what bets you're making and why you think it's going to succeed.",
+      "timestamp": "00:48:36",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 320,
+        "lineEnd": 320
+      },
+      "themes": ["strategy", "concentration", "startups", "risk"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "jag-duggal-009",
+      "speaker": "Jag Duggal",
+      "text": "We're not trying to be incrementally better, we are trying to be fundamentally different. Only fundamentally different gets customers to tell their friends. Incrementally better, they won't even notice. There are certain features where you're in the incrementally better business, but we're searching for those anchors that are going to be fundamentally different all the time.",
+      "timestamp": "00:52:22",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 344,
+        "lineEnd": 347
+      },
+      "themes": ["differentiation", "category-design", "innovation", "word-of-mouth"],
+      "zones": ["chaos", "discovery", "perfection"]
+    },
+    {
+      "id": "jag-duggal-010",
+      "speaker": "Jag Duggal",
+      "text": "We are not going to take a small problem and scale it because if we do that, we end up with a big mess. Something isn't working at small scale, no problem. We iterate, we get it right and then once we get it right, scaling if you do it right in many cases takes care of itself because the customer is now excitedly telling their friends.",
+      "timestamp": "00:29:35",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 244,
+        "lineEnd": 245
+      },
+      "themes": ["scaling", "product-market-fit", "discipline", "iteration"],
+      "zones": ["focus", "data", "velocity"]
+    },
+    {
+      "id": "jag-duggal-011",
+      "speaker": "Jag Duggal",
+      "text": "It is your job whether product or design or engineering, if you genuinely believe it's not yet ready to scale your products, at the end of the day, the big mess is a thing you're still going to owe and we're all going to forget that we told you to scale the thing. We're all going to still blame you at the end of the day. So you might as well bite the bullet earlier.",
+      "timestamp": "00:33:27",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 260,
+        "lineEnd": 260
+      },
+      "themes": ["pushback", "product-management", "courage", "ownership"],
+      "zones": ["alignment", "focus", "chaos"]
+    },
+    {
+      "id": "jag-duggal-012",
+      "speaker": "Jag Duggal",
+      "text": "Customers everywhere around the world live harshly unoptimized financial lives. If you have a young child, it is very hard to keep track of all the things you should be doing. These are problems that should be solved and can be automated and where insights can be brought to bear for customers who are not super sophisticated in their level of financial education, which by the way is almost all of us.",
+      "timestamp": "01:08:16",
+      "source": {
+        "slug": "jag-duggal",
+        "path": "episodes/jag-duggal/transcript.md",
+        "lineStart": 439,
+        "lineEnd": 440
+      },
+      "themes": ["fintech", "vision", "customer-problems", "automation"],
+      "zones": ["discovery", "intuition"]
+    }
+  ],
+  "themes": ["customer-obsession", "product-market-fit", "strategy", "category-design", "differentiation", "scaling", "customer-research", "fintech"],
+  "takeaways": [
+    "Don't scale a product until at least 50% of users say they'd be very disappointed if it went away -- Nubank uses the Sean Ellis score as a hard gate before investing in growth.",
+    "Great execution multiplied by poor strategy equals zero -- strategy must be specific, detailed, and focused on a clear customer problem with a clear advantage, not vague aspirations.",
+    "Being fundamentally different, not incrementally better, is what drives word-of-mouth growth -- Nubank's 80-90% organic growth comes from products that redefine categories rather than just improving them.",
+    "PMs should pick up the phone and call 10 customers directly rather than going through layers of research abstraction -- by the fifth call, you'll be able to predict what the rest will say.",
+    "Startups need concentrated bets, not hedging -- concentration builds wealth while diversification preserves it, and startups aren't in the preservation business."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.15,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jag-duggal-008",
+      "why": "Argues startups should concentrate bets rather than diversify, directly contradicting business school orthodoxy about risk management",
+      "related_zones": ["focus", "chaos"]
+    },
+    {
+      "quoteId": "jag-duggal-009",
+      "why": "Claims incrementally better products are invisible to customers and only fundamentally different ones drive word-of-mouth -- attacks the dominant lean iteration philosophy",
+      "related_zones": ["chaos", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-market-fit", "strategy", "category-design", "customer-obsession"]
+  }
+}

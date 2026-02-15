@@ -1,0 +1,199 @@
+{
+  "slug": "tom-conrad",
+  "quotes": [
+    {
+      "id": "tom-conrad-001",
+      "speaker": "Tom Conrad",
+      "text": "When I look back on my career and think about the things that I've done, my professional satisfaction is not well correlated with those external metrics and very, very coordinated with do I love the thing we were building and do I love the people I was working with?",
+      "timestamp": "00:11:53",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 130
+      },
+      "themes": ["career", "satisfaction", "people"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "tom-conrad-002",
+      "speaker": "Tom Conrad",
+      "text": "I think the thing I've come to better appreciate is that companies are also like a math problem that describes how you take investment and pour them into the equation and out the other side comes returns on some time horizon.",
+      "timestamp": "00:24:16",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["business-model", "strategy", "unit-economics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "tom-conrad-003",
+      "speaker": "Tom Conrad",
+      "text": "I think what was really fundamentally broken with Quibi was that the actual foundational equation of can you make enough premium content that's totally bespoke and made for the service and takes advantage of the nature of the phone, it is enough content to get people to sign up and retain, and can you do that for a couple billion dollars? And I think the answer is no.",
+      "timestamp": "00:27:26",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 208
+      },
+      "themes": ["failure", "business-model", "content-strategy"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "tom-conrad-004",
+      "speaker": "Tom Conrad",
+      "text": "You can't spend two years iterating your way on optimizing the funnels like you would in a startup that had a different cost structure. In a world where you have to spend a billion dollars a year of making content, you just can't afford to not be a hit.",
+      "timestamp": "00:33:12",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 250,
+        "lineEnd": 250
+      },
+      "themes": ["iteration", "cost-structure", "risk"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "tom-conrad-005",
+      "speaker": "Tom Conrad",
+      "text": "It was such a blessing to be forced to go deep on something, because I spent a lot of time developing chops as an engineering manager, but I also wrote a ton of software. And that's really honestly when I became a software engineer. My college education was insufficient to get me there, and the amount of software I wrote at Apple was insufficient to get me there.",
+      "timestamp": "00:38:48",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 310,
+        "lineEnd": 310
+      },
+      "themes": ["depth", "craft", "growth"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "tom-conrad-006",
+      "speaker": "Tom Conrad",
+      "text": "We thought one of our superpowers as a young company was that we could just engage with our audience as real human beings, not as a shiny brand that was trying to be something that we could just never be. This period is where the iPod and iTunes are at the peak of their powers. And so there was no way we could sort of out-Apple Apple on the brand front.",
+      "timestamp": "00:46:35",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 367,
+        "lineEnd": 367
+      },
+      "themes": ["authenticity", "brand", "customer-engagement"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "tom-conrad-007",
+      "speaker": "Tom Conrad",
+      "text": "We never spent any money on paid user acquisition, literally no dollars in the entire time I was there, because people loved the product and they told their friends about it and that's how it grew.",
+      "timestamp": "00:47:02",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["word-of-mouth", "organic-growth", "product-quality"],
+      "zones": ["perfection", "velocity"]
+    },
+    {
+      "id": "tom-conrad-008",
+      "speaker": "Tom Conrad",
+      "text": "One really, really big important lesson that I learned at Snap is about risk taking. When you have the financial support and the foundational relationship with your investors that Evan has, it really allowed him to take these really big swings, build features speculatively that maybe would be pruned in any other product roadmap planning process because the odds of them having an outsized impact were modest.",
+      "timestamp": "01:00:14",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 445,
+        "lineEnd": 445
+      },
+      "themes": ["risk-taking", "big-bets", "innovation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "tom-conrad-009",
+      "speaker": "Tom Conrad",
+      "text": "I see my job as CEO is to try to surf that edge of I'm really in the details, so I deeply understand the business and the product decisions that we're making and the processes that we're using to run the business, but not overplay my hand with respect to dictating outcomes.",
+      "timestamp": "01:03:49",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 466,
+        "lineEnd": 466
+      },
+      "themes": ["leadership", "details", "empowerment"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "tom-conrad-010",
+      "speaker": "Tom Conrad",
+      "text": "There is an equation that describes the business. It talks about how you turn investment into returns. Maybe it's a little embarrassing that I had to be 53 years old before the scales fell through my eyes and I was like, 'Oh, companies are equations.'",
+      "timestamp": "01:11:34",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 499,
+        "lineEnd": 499
+      },
+      "themes": ["unit-economics", "business-model", "learning"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "tom-conrad-011",
+      "speaker": "Tom Conrad",
+      "text": "I just wasn't interested in performative contribution, that it's the work that matters and what I want to celebrate is if you can show up and do it and go home and have other things in your life, because I think that's a recipe for being able to do it on a sustained basis rather than burning yourself out.",
+      "timestamp": "01:23:11",
+      "source": {
+        "slug": "tom-conrad",
+        "path": "episodes/tom-conrad/transcript.md",
+        "lineStart": 559,
+        "lineEnd": 559
+      },
+      "themes": ["culture", "burnout", "sustainability"],
+      "zones": ["alignment", "focus"]
+    }
+  ],
+  "themes": ["business-model", "failure-lessons", "organic-growth", "craft", "leadership", "risk-taking", "unit-economics", "culture", "authenticity"],
+  "takeaways": [
+    "Companies are math equations - no amount of great product execution can overcome a fundamentally broken business model, as demonstrated by Quibi's billion-dollar content bet that required top-10 app store placement from day one.",
+    "Go deep before going wide - becoming truly excellent at one discipline, rather than being a generalist across many, is what transforms a capable person into an exceptional one, as Tom learned moving from Apple's broad culture to the focused swim lanes at Berkeley Systems.",
+    "Authentic customer engagement beats polished branding - at Pandora, routing all support emails to every employee and letting people respond as real humans, not a brand, catalyzed the word of mouth that grew the product to 80 million users with zero paid acquisition.",
+    "Big swings require financial architecture that supports them - learning from Evan Spiegel at Snap, Tom came to appreciate that speculative bets on features and technologies need investor relationships and capital structures that can absorb the inevitable misses.",
+    "Celebrate output over performative hustle - building a sustainable culture means rewarding the person who ships great work in focused hours over the one who is celebrated for working through the night, because sustained excellence requires balance."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.20,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tom-conrad-003",
+      "why": "Challenges the startup mantra of iterate-your-way-to-success - argues some business models are fundamentally broken and no amount of execution can fix a wrong equation",
+      "related_zones": ["data", "focus"]
+    },
+    {
+      "quoteId": "tom-conrad-011",
+      "why": "Rejects hustle culture and performative overwork - argues sustainable output matters more than visible hours, directly countering the glorification of grinding",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "tom-conrad-007",
+      "why": "Zero dollars spent on paid user acquisition at Pandora - challenges the growth-hacking orthodoxy that paid channels are essential for scaling consumer products",
+      "related_zones": ["perfection", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["business-model-math", "failure-lessons", "organic-growth", "leadership", "risk-taking"]
+  }
+}

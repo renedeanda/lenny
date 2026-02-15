@@ -1,0 +1,199 @@
+{
+  "slug": "ryan-singer",
+  "quotes": [
+    {
+      "id": "ryan-singer-001",
+      "speaker": "Ryan Singer",
+      "text": "We are not going to start something unless we can see the end from the beginning. We're not going to take a big concept and then say, 'What's the estimate for this thing?' We're going to go the other way around and say, 'What is the maximum amount of time we're willing to go before we actually finish something?'",
+      "timestamp": "00:19:10",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 277,
+        "lineEnd": 277
+      },
+      "themes": ["appetite", "time-boxing", "planning"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "ryan-singer-002",
+      "speaker": "Ryan Singer",
+      "text": "We don't want to do the sometimes called scrum paper shredder. That's where you take an idea and then you split it into 100 tickets, and you hope that it all glues together still after you've done that step. Instead, we want to have a whole idea, give it to a team so they see the whole, they really understand it.",
+      "timestamp": "00:22:41",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 304,
+        "lineEnd": 307
+      },
+      "themes": ["team-autonomy", "anti-scrum", "whole-work"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "ryan-singer-003",
+      "speaker": "Ryan Singer",
+      "text": "When it comes to real product work, where there's some functionality that we have to figure out how to make it exist, we can't just cut the scope if we run out of time. So what it means is that the shaping work is really working hard together to figure out what are the main moving pieces of this thing.",
+      "timestamp": "00:32:13",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 400
+      },
+      "themes": ["shaping", "scope", "product-development"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "ryan-singer-004",
+      "speaker": "Ryan Singer",
+      "text": "If you're doing a home renovation, you can have the most beautiful rendering of the new bedroom, but if you haven't checked if there's electricity in that wall there or not, it's going to drastically change the cost and the time and everything if you're going to have to rip open those walls.",
+      "timestamp": "00:41:15",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 442,
+        "lineEnd": 442
+      },
+      "themes": ["de-risking", "unknowns", "technical-feasibility"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "ryan-singer-005",
+      "speaker": "Ryan Singer",
+      "text": "If it's shaped well, you can usually describe it in less than 10 moving pieces. If I can say, 'It's going to have this, this, this, this, this, and this,' that's a good indicator that it's clear enough that it's shaped well.",
+      "timestamp": "00:42:21",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 448,
+        "lineEnd": 448
+      },
+      "themes": ["shaping", "clarity", "simplicity"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "ryan-singer-006",
+      "speaker": "Ryan Singer",
+      "text": "The dominant failure case that I see in the real world is always, again and again, not enough detail. And it's also the most common failure mode where the engineers run back to the product folks and say, 'I'm not getting enough from you.'",
+      "timestamp": "00:47:26",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 475,
+        "lineEnd": 475
+      },
+      "themes": ["detail", "failure-modes", "engineering-product-gap"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "ryan-singer-007",
+      "speaker": "Ryan Singer",
+      "text": "I like to think of it like the grumpy old plumber who's seen everything and he insists on opening up the walls and looking at the pipes before he'll give you a quote. When you've got that person in the room, they're saying, 'That all sounds great. Let's take a quick look at the code and figure out what screen you're actually talking about.'",
+      "timestamp": "00:52:14",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 496,
+        "lineEnd": 496
+      },
+      "themes": ["de-risking", "engineering-involvement", "shaping"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "ryan-singer-008",
+      "speaker": "Ryan Singer",
+      "text": "If you have a feature factory, meaning you're continually cranking out features, you're probably quite healthy. All you need to do is feed a different input to the beginning of the factory. What most teams are struggling with is that they don't have predictable repeatable shipping of things.",
+      "timestamp": "01:18:38",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 676,
+        "lineEnd": 676
+      },
+      "themes": ["feature-factory", "shipping", "velocity"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "ryan-singer-009",
+      "speaker": "Ryan Singer",
+      "text": "The PM moves upstream. So the PM is less busy with 'How do I get this project to not be in a bad state when it's getting built?' and way more in 'How do I understand the business context? How do I narrow down the problem? How do I negotiate back and forth to understand where the core of it is?'",
+      "timestamp": "01:26:43",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 748,
+        "lineEnd": 748
+      },
+      "themes": ["product-management", "upstream-work", "problem-definition"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "ryan-singer-010",
+      "speaker": "Ryan Singer",
+      "text": "I would say wait until it hurts more. If the unfamiliarity is the big problem with it, then maybe the things are fine. Changing is really hard, and if there's a good reason to do it, there comes a point where it's like, I know that this is uncomfortable, but I think we need to try something different because we can't continue this way.",
+      "timestamp": "01:13:40",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 655,
+        "lineEnd": 655
+      },
+      "themes": ["change-management", "pragmatism", "organizational-pain"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "ryan-singer-011",
+      "speaker": "Ryan Singer",
+      "text": "Good engineering leadership untangles things, so we can work on this system without having to be thinking about this other system somewhere else. When you have some untangling with your infrastructure and your architecture, then you have some freedom.",
+      "timestamp": "00:36:47",
+      "source": {
+        "slug": "ryan-singer",
+        "path": "episodes/ryan-singer/transcript.md",
+        "lineStart": 421,
+        "lineEnd": 421
+      },
+      "themes": ["engineering-leadership", "architecture", "independence"],
+      "zones": ["velocity", "focus"]
+    }
+  ],
+  "themes": ["shaping", "appetite", "time-boxing", "product-development", "team-autonomy", "de-risking", "shipping", "engineering-product-collaboration"],
+  "takeaways": [
+    "Start from appetite, not estimates -- fix the time budget first, then shape a solution that fits within it, rather than estimating how long an unbounded idea will take.",
+    "Shaping requires engineering in the room -- the most common failure mode is product and design shaping without technical input, leading to blown-up projects when reality hits implementation.",
+    "Well-shaped work can be described in fewer than 10 moving pieces -- if you cannot hold the whole idea in your head, it is not shaped enough to confidently hand to a build team.",
+    "Feature factories are not the real problem -- most teams actually struggle with predictable, repeatable shipping; if you can crank out features consistently, you just need better inputs.",
+    "The PM's highest-leverage work is upstream -- narrowing down the problem, understanding business context, and framing what is worth building matters more than shepherding the build process."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.00,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.25
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ryan-singer-008",
+      "why": "Defends feature factories as healthy -- the real problem is not shipping too many features but not shipping at all, which challenges the widely accepted 'feature factory' critique",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "ryan-singer-006",
+      "why": "Claims the dominant failure is too little detail, not too much -- pushes back against the common fear of over-specifying work for engineers",
+      "related_zones": ["alignment", "perfection"]
+    },
+    {
+      "quoteId": "ryan-singer-010",
+      "why": "Advises teams to wait until the pain is severe enough before changing process -- resists the common urge to adopt new frameworks prematurely",
+      "related_zones": ["intuition", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "practitioner",
+    "company_stage": "bootstrapped",
+    "primary_topics": ["shape-up", "product-development-process", "shaping", "team-autonomy", "engineering-product-collaboration"]
+  }
+}

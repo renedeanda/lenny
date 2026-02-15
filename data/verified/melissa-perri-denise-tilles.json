@@ -1,0 +1,194 @@
+{
+  "slug": "melissa-perri-denise-tilles",
+  "quotes": [
+    {
+      "id": "melissa-perri-denise-tilles-001",
+      "speaker": "Melissa Perri",
+      "text": "When I was at OpenSky in early days of my product management career, I had to go learn MongoDB to get data out of a database. That was a lot of time that I spent doing that instead of spending it on good feature work and on understanding my customers and working with my developers and figuring out what we were actually going to build.",
+      "timestamp": "00:10:27",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["product-ops", "productivity", "data-access"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-002",
+      "speaker": "Denise Tilles",
+      "text": "It's really about helping the product managers focus on what they were actually hired for, the strategic work. More and more product managers are taking on the data, harvesting the data, implementation and just to get data to work with, they're spending 20%, 30% of their time. So what would that look like if they were enabled and had all of those great inputs to actually focus on company growth?",
+      "timestamp": "00:08:08",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 105
+      },
+      "themes": ["product-ops", "strategic-work", "efficiency"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-003",
+      "speaker": "Melissa Perri",
+      "text": "Product operations does not take away decision making rights from the product manager. It's there to inform them. They're the product manager for the product managers. Their decision should be around how do I operationalize great product management here.",
+      "timestamp": "00:24:33",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 195,
+        "lineEnd": 195
+      },
+      "themes": ["product-ops", "decision-rights", "role-clarity"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-004",
+      "speaker": "Melissa Perri",
+      "text": "Do you want to hire 10,000 product managers and let them all do these things off the side of their desk and then concentrate on strategic work 30% of the time or do you want them concentrating on strategic work majority of the time and then help build a product operations team around them that can create these shared systems and this infrastructure?",
+      "timestamp": "00:20:09",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 171,
+        "lineEnd": 171
+      },
+      "themes": ["product-ops", "scale", "leverage"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-005",
+      "speaker": "Melissa Perri",
+      "text": "As a chief product officer, ARR is interesting to me, but it's not as interesting to me as ARR by customer segment. It's not as interesting as ARR by product line. When we start to put those lenses on it, they now become a really powerful strategy insight.",
+      "timestamp": "00:31:22",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 237
+      },
+      "themes": ["data-insights", "strategy", "product-metrics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-006",
+      "speaker": "Melissa Perri",
+      "text": "A lot of people give large organizations a lot of flack for focusing on processes. I don't think processes are the enemy here. If I hear somebody really worried about getting a roadmapping tool in there, I'm like, yes, you need that because you have no idea what your 4,000 teams are doing. You have to have the transparency to actually see those things.",
+      "timestamp": "00:43:50",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 286,
+        "lineEnd": 286
+      },
+      "themes": ["process", "transparency", "scale"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-007",
+      "speaker": "Melissa Perri",
+      "text": "We do see this trend of people throwing agile coaches at this, and agile coaches who have never been a product manager before in a well-run company are going to struggle there because they're going to revert back to agile processes. We don't usually need another agile coach telling us how to run a standup. We need people to come in and help us figure out the cross-functional roadmap reviews.",
+      "timestamp": "00:43:05",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 300,
+        "lineEnd": 300
+      },
+      "themes": ["product-ops", "hiring", "agile"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-008",
+      "speaker": "Denise Tilles",
+      "text": "When was the last time you changed your mind about something really important and why? Do they have a learning mindset? Do they have self-awareness? Can they acknowledge where they were and how they evolved? That's usually a pretty insightful question.",
+      "timestamp": "01:11:49",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 549,
+        "lineEnd": 549
+      },
+      "themes": ["hiring", "learning-mindset", "self-awareness"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-009",
+      "speaker": "Denise Tilles",
+      "text": "Go-to-market was a really big pain point. A company I'm working with right now, there's a big challenge with that and it's a large enterprise level company. So how do we break down all of the different silos between departments and team leads? It's really talking about here's how we're going to do it, here's some simple templates, training sales, training product, and then getting that into play.",
+      "timestamp": "00:27:19",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 210
+      },
+      "themes": ["go-to-market", "cross-functional", "product-ops"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-010",
+      "speaker": "Melissa Perri",
+      "text": "If you are at a one-to-one ratio of product ops to product managers, you're doing it wrong. It should be a well-run lean team who thinks about how to leverage tools or build your own products for the product team. If you are building products for the product team, you still need somebody to look over that product and make sure it's relevant.",
+      "timestamp": "00:39:43",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 276,
+        "lineEnd": 270
+      },
+      "themes": ["product-ops", "team-sizing", "leverage"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "melissa-perri-denise-tilles-011",
+      "speaker": "Denise Tilles",
+      "text": "If you try to serve everybody, you serve no one. It's about honing in on who you're actually building your product for, who your persona is.",
+      "timestamp": "01:14:15",
+      "source": {
+        "slug": "melissa-perri-denise-tilles",
+        "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+        "lineStart": 570,
+        "lineEnd": 570
+      },
+      "themes": ["focus", "persona", "prioritization"],
+      "zones": ["focus", "intuition"]
+    }
+  ],
+  "themes": ["product-operations", "data-insights", "strategic-work", "scale", "process", "go-to-market", "role-clarity", "cross-functional"],
+  "takeaways": [
+    "Product operations exists to free PMs for strategic work - it doesn't take away decision rights but builds shared systems and infrastructure so product managers spend 70%+ of their time on strategy instead of 30%.",
+    "Product ops rests on three pillars: business data and insights (quantitative), customer and market insights (qualitative), and process and practices. High-growth companies typically start with data; enterprises start with process and governance.",
+    "At scale, ARR alone is an insufficient metric. Product leaders need ARR by customer segment, by product line, by feature adoption, and cross-referenced with retention. Product ops builds these repeatable dashboards so leaders can monitor strategy execution.",
+    "Process is not the enemy at large organizations - transparency is essential when you have thousands of teams. But don't throw agile coaches at product ops problems. You need people with product management backgrounds who understand roadmap reviews and portfolio management.",
+    "Start product ops with one person focused on your biggest pain point. If a 1:1 ratio of product ops to PMs exists, something is wrong. The team should be lean, leveraging tools and automation to create shared services that scale."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.00,
+    "discovery": 0.10,
+    "data": 0.25,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.00,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "melissa-perri-denise-tilles-006",
+      "why": "Argues that process and tooling are NOT the enemy at large orgs - pushes back against the anti-process sentiment common in Silicon Valley product culture",
+      "related_zones": ["alignment", "data"]
+    },
+    {
+      "quoteId": "melissa-perri-denise-tilles-004",
+      "why": "Reframes the PM scaling question: instead of hiring more PMs doing everything at 30% capacity, build ops infrastructure so fewer PMs can focus on strategic work",
+      "related_zones": ["velocity", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["product-operations", "organizational-design", "data-infrastructure", "process-governance", "scale"]
+  }
+}

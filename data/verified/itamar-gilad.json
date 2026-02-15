@@ -1,0 +1,208 @@
+{
+  "slug": "itamar-gilad",
+  "quotes": [
+    {
+      "id": "itamar-gilad-001",
+      "speaker": "Itamar Gilad",
+      "text": "Google+ was my first experience at Gmail. We went on and we launched a series of features in Gmail for a couple of years and none of it worked. It turned out people actually didn't need another social network. Eventually in Gmail we rolled back all the Google+ integration and Google+ itself was shut down in 2019.",
+      "timestamp": "00:04:57",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 59,
+        "lineEnd": 61
+      },
+      "themes": ["failure", "opinion-based-development", "evidence"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "itamar-gilad-002",
+      "speaker": "Itamar Gilad",
+      "text": "In hindsight I was asking and saying, why was this project so different? And I think the reason is that we didn't have that much confidence in our opinions. We had opinions, we had ideas but we didn't just go all in and just let's build it. We actually used an evidence guided system.",
+      "timestamp": "00:12:45",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["evidence-guided", "product-development", "humility"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "itamar-gilad-003",
+      "speaker": "Itamar Gilad",
+      "text": "Steve Jobs, he just brainstorm in his kitchen the iPhone and then just told the team to build it. That's the story Steve Jobs told but it's not the real story at all. The iPhone has actually a story of discovery, of trial and error, multiple projects, most of them failed. Steve Jobs was the architect. He was actually against it for a while but over time as he saw the evidence he was able to piece together something that was very useful.",
+      "timestamp": "00:15:01",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 132
+      },
+      "themes": ["innovation", "evidence", "iteration", "leadership"],
+      "zones": ["discovery", "data", "intuition"]
+    },
+    {
+      "id": "itamar-gilad-004",
+      "speaker": "Itamar Gilad",
+      "text": "I think evidence is so powerful, if you come with data, if you run a secret experiment and you come back and you show them you usually get one of two results. Either they get extremely mad at you and you need to start polishing your resume. But the more common case is they're pleasantly surprised. Even Steve Jobs given evidence was willing to flip.",
+      "timestamp": "00:18:33",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 147
+      },
+      "themes": ["evidence", "pushback", "leadership", "experimentation"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "itamar-gilad-005",
+      "speaker": "Itamar Gilad",
+      "text": "There's a few telltale signs that I look for. First the goals are very unclear. Missing metrics or just using revenue and business metrics but there's no user facing metrics. Then there's a lot of time and effort spent on planning especially on road mapping. There's not a lot of experimentation and the team is disengaged, focused on output.",
+      "timestamp": "00:19:45",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": ["metrics", "planning", "experimentation", "team-engagement"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "itamar-gilad-006",
+      "speaker": "Itamar Gilad",
+      "text": "The North Star metric measures how much value we create for the market. For example, WhatsApp for a very long time measured messages sent because every message sent is a little incremental of value for the sender, the receiver. If in year one we have a billion messages being sent in year two two billion, probably we doubled the amount of value.",
+      "timestamp": "00:27:02",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 213
+      },
+      "themes": ["metrics", "north-star", "value-creation"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "itamar-gilad-007",
+      "speaker": "Itamar Gilad",
+      "text": "People tend to just go with gut instinct and then give themselves a high confidence. They say it's an eight and I'm pretty convinced, so it's eight for confidence and I found this a bit disturbing because it kind of subverts the whole system. So I wanted to help people realize when they have strong evidence in support of their guesses and when it's weak evidence.",
+      "timestamp": "00:38:22",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 300,
+        "lineEnd": 303
+      },
+      "themes": ["confidence", "bias", "decision-making"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "itamar-gilad-008",
+      "speaker": "Itamar Gilad",
+      "text": "Maybe you connected it to some theme, it's about AI, that makes it a good idea? Absolutely not. Thousands and thousands of terrible ideas are being implemented right now as we speak based on these themes. So all these things combined can give you a maximum 0.1 out of 10 according to the confidence meter.",
+      "timestamp": "00:39:59",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 318
+      },
+      "themes": ["confidence-meter", "themes", "bias"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "itamar-gilad-009",
+      "speaker": "Itamar Gilad",
+      "text": "People tend to think it's an either/or. Either we are building very fast or we are learning. But the metric is not how fast can we get the bits into production. It's about getting the right bits to production. It's about time to outcomes and I would argue that the evidence guided method is far more impactful, far faster, far more resource efficient than the opinion-based method.",
+      "timestamp": "00:44:41",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 342,
+        "lineEnd": 342
+      },
+      "themes": ["velocity", "learning", "evidence-guided", "efficiency"],
+      "zones": ["velocity", "data", "discovery"]
+    },
+    {
+      "id": "itamar-gilad-010",
+      "speaker": "Itamar Gilad",
+      "text": "Initially you don't build anything, you fake it. You do a fake door test, you do a smoke test, Wizard of Oz test, a concierge test. We used a lot of those in the tabbed inbox. One of the first early versions was we showed the tabbed inbox working to people. But it wasn't really Gmail, it was just a facade of HTML. People were like, wow, this is actually very cool. And that gave us evidence to go and say we should try and build this thing.",
+      "timestamp": "00:52:18",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 387
+      },
+      "themes": ["testing", "prototyping", "validation", "experimentation"],
+      "zones": ["discovery", "velocity", "data"]
+    },
+    {
+      "id": "itamar-gilad-011",
+      "speaker": "Itamar Gilad",
+      "text": "In many organizations there's these two worlds. There's the planning world where basically you have the managers and stakeholders. But guess who is not invited to the party? The people who are actually doing the work. They live in Agile world, focused on moving tickets to the done state, on burning story points. And there's a big gap between these two worlds.",
+      "timestamp": "00:55:46",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 426,
+        "lineEnd": 426
+      },
+      "themes": ["agile", "team-engagement", "planning", "alignment"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "itamar-gilad-012",
+      "speaker": "Itamar Gilad",
+      "text": "I recommend release roadmaps where you are just saying by Q3 we want to launch this, they're kind of competing with this. If you're doing that and people know that the goal is to launch that thing by October, forget about learning. I recommend using outcome roadmaps saying by October we want to achieve this outcome.",
+      "timestamp": "01:02:54",
+      "source": {
+        "slug": "itamar-gilad",
+        "path": "episodes/itamar-gilad/transcript.md",
+        "lineStart": 471,
+        "lineEnd": 471
+      },
+      "themes": ["roadmapping", "outcomes", "planning"],
+      "zones": ["focus", "data", "alignment"]
+    }
+  ],
+  "themes": ["evidence-guided", "experimentation", "metrics", "confidence", "planning", "roadmapping", "team-engagement", "product-development"],
+  "takeaways": [
+    "Opinion-based development is the root cause of massive product failures -- even at companies like Google with brilliant people, as demonstrated by Google+ consuming 1000+ engineers for years before being shut down.",
+    "The confidence meter helps teams honestly assess how strong their evidence is, ranging from 0.1 for gut feelings and thematic alignment to 10 for fully validated experiments -- most teams overestimate their confidence.",
+    "North Star metrics should measure value delivered to users (like WhatsApp's messages sent), not just business value captured -- and metric trees connecting these create alignment across the entire organization.",
+    "Teams should fake it before they build it -- Wizard of Oz tests, smoke tests, and fake door tests can validate ideas with zero code, as demonstrated by Gmail's tabbed inbox validation using manually sorted HTML facades.",
+    "Outcome roadmaps beat release roadmaps -- committing to launch a specific feature by a date kills learning, while committing to achieve an outcome preserves the team's ability to discover the right solution."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.35,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "itamar-gilad-008",
+      "why": "Boldly claims that even connecting an idea to hot themes like AI gives it a maximum 0.1 out of 10 confidence -- directly challenges the bandwagon effect in tech",
+      "related_zones": ["data", "chaos"]
+    },
+    {
+      "quoteId": "itamar-gilad-009",
+      "why": "Argues evidence-guided is actually faster than move-fast-and-break-things, flipping the conventional speed vs quality tradeoff on its head",
+      "related_zones": ["velocity", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["evidence-guided-development", "experimentation", "metrics-and-goals"]
+  }
+}

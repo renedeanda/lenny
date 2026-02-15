@@ -1,0 +1,213 @@
+{
+  "slug": "sahil-mansuri",
+  "quotes": [
+    {
+      "id": "sahil-mansuri-q001",
+      "speaker": "Sahil Mansuri",
+      "text": "Your sale strategy has to fundamentally change in order to meet the moment and meet the market to where it is. Cold prospecting goes down in favor of cross-selling and upselling your existing customer base because it's hard to break into new accounts when companies have budget freezes and hiring freezes and layoffs.",
+      "timestamp": "00:11:18",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["sales-strategy", "adaptability", "retention"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "sahil-mansuri-q002",
+      "speaker": "Sahil Mansuri",
+      "text": "You got to set the targets upfront because as founders, we tend to have a bias towards optimism. That's generally how founders operate. In today's market, that's more of a disadvantage than an advantage.",
+      "timestamp": "00:18:29",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 153,
+        "lineEnd": 153
+      },
+      "themes": ["forecasting", "founder-psychology", "planning"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "sahil-mansuri-q003",
+      "speaker": "Sahil Mansuri",
+      "text": "The only response is to try to get really comfortable with being wrong and adding new data in order to make decisions regularly without the fear of coming across as not knowing what you're doing.",
+      "timestamp": "00:20:47",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 165,
+        "lineEnd": 165
+      },
+      "themes": ["decision-making", "uncertainty", "leadership"],
+      "zones": ["chaos", "data"]
+    },
+    {
+      "id": "sahil-mansuri-q004",
+      "speaker": "Sahil Mansuri",
+      "text": "Salespeople get labeled as coin operated and mercenaries and all these other adages because the way we compensate them, the way we treat them, the way we measure them is in a mercenary sort of way. I would call on founders and VCs and executives to rethink that and to instead come up with compensation that aligns the incentives of the customer, the business and the rep.",
+      "timestamp": "00:32:00",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 225,
+        "lineEnd": 225
+      },
+      "themes": ["compensation", "incentive-alignment", "sales-culture"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "sahil-mansuri-q005",
+      "speaker": "Sahil Mansuri",
+      "text": "The real problem isn't sales compensation plans and quotas. That's a symptom. The real problem is we all just wanted to have hyper growth instead of thinking are we actually building good businesses.",
+      "timestamp": "00:38:42",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 264
+      },
+      "themes": ["growth-vs-sustainability", "business-fundamentals", "strategy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "sahil-mansuri-q006",
+      "speaker": "Sahil Mansuri",
+      "text": "There is no replacement for building a product that customers love and having a great go to market motion that brings that product and that value to your clients and ensuring that they actually are thrilled that they bought your product and are getting a lot of value from it.",
+      "timestamp": "00:39:23",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 267
+      },
+      "themes": ["product-market-fit", "customer-value", "sustainability"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "sahil-mansuri-q007",
+      "speaker": "Sahil Mansuri",
+      "text": "Take your best salespeople and make them customer success managers. What's the point if people aren't going to buy anyway? What we cannot under any circumstances do is lose our existing customers because replacing them is going to be impossible.",
+      "timestamp": "00:43:18",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 291,
+        "lineEnd": 294
+      },
+      "themes": ["retention", "customer-success", "resource-allocation"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "sahil-mansuri-q008",
+      "speaker": "Sahil Mansuri",
+      "text": "The advantage you have as a vendor is you get a cross-section of what everyone who fits a certain ICP is doing at the same time. How good are you at extracting value out of that and finding ways of becoming less of a tool as part of the SaaS stack and more of a value added advisor that can help you actually plan and prepare for what to do next.",
+      "timestamp": "00:47:46",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 318,
+        "lineEnd": 318
+      },
+      "themes": ["data-leverage", "customer-retention", "value-creation"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "sahil-mansuri-q009",
+      "speaker": "Sahil Mansuri",
+      "text": "Companies either grow or they die. There are no middle. Startups in particular are effectively energy driven. The more energy, the more belief, the more momentum that you have, the more tailwinds you have, the more things grow and feel possible.",
+      "timestamp": "00:51:40",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 336,
+        "lineEnd": 339
+      },
+      "themes": ["startup-momentum", "growth-mindset", "energy"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "sahil-mansuri-q010",
+      "speaker": "Sahil Mansuri",
+      "text": "Stop using email. Email is where deals go to die. Text message is where deals get done. You get the name and you say, great, can you make me an e-intro? Actually even better, can you connect me over text?",
+      "timestamp": "00:55:30",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 357,
+        "lineEnd": 357
+      },
+      "themes": ["sales-tactics", "communication", "closing-deals"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "sahil-mansuri-q011",
+      "speaker": "Sahil Mansuri",
+      "text": "Great salespeople are extremely pessimistic internally and are great at being able to then still be optimistic externally. They're actually trying to disqualify you. They're looking for signals that you're not going to buy and weeding those out, while still at the same time positively spinning you and selling you. That ability to juxtapose is what diverges good from great.",
+      "timestamp": "01:10:27",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 447,
+        "lineEnd": 450
+      },
+      "themes": ["sales-craft", "psychology", "excellence"],
+      "zones": ["intuition", "data", "focus"]
+    },
+    {
+      "id": "sahil-mansuri-q012",
+      "speaker": "Sahil Mansuri",
+      "text": "People try to optimize their way out of problems. You can't optimize your way out of a problem. You got to completely change the rules of the game. In doing so, you suddenly will learn something new.",
+      "timestamp": "01:17:51",
+      "source": {
+        "slug": "sahil-mansuri",
+        "path": "episodes/sahil-mansuri/transcript.md",
+        "lineStart": 486,
+        "lineEnd": 486
+      },
+      "themes": ["innovation", "paradigm-shift", "adaptability"],
+      "zones": ["chaos", "intuition"]
+    }
+  ],
+  "themes": ["sales-strategy", "recession-playbook", "customer-retention", "founder-selling", "incentive-alignment", "innovation"],
+  "takeaways": [
+    "In a downturn, forecast conservatively with short-term milestones that unlock the ability to accelerate spending only when targets are hit, rather than relying on founder optimism.",
+    "Modernize sales compensation plans to align incentives across the customer, the business, and the rep -- rewarding retention and customer quality, not just top-line new business.",
+    "Move your best salespeople to customer success roles because in tough markets, retaining existing customers is far more valuable than chasing scarce new ones.",
+    "Leverage your unique cross-section of customer data to become a value-added advisor, not just a SaaS tool -- this creates retention moats your competitors cannot replicate.",
+    "When market conditions stack the rules against you, do not optimize around the edges. Change the rules of the game entirely through business model innovation."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.08,
+    "discovery": 0.12,
+    "data": 0.15,
+    "intuition": 0.13,
+    "alignment": 0.07,
+    "chaos": 0.22,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "sahil-mansuri-q007",
+      "why": "Argues you should move your best salespeople AWAY from sales and into customer success -- the opposite of conventional wisdom that says your top performers should always be on revenue-generating roles.",
+      "related_zones": ["chaos", "focus"]
+    },
+    {
+      "quoteId": "sahil-mansuri-q005",
+      "why": "Directly challenges the dominant VC-backed SaaS growth model, calling hyper growth the real problem rather than the solution most founders treat it as.",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "sahil-mansuri-q012",
+      "why": "Rejects incremental optimization as a strategy, arguing that you must completely change the rules rather than make minor adjustments -- a contrarian stance against typical operational thinking.",
+      "related_zones": ["chaos", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["sales-strategy", "recession-planning", "customer-retention"]
+  }
+}

@@ -223,7 +223,7 @@ ${window.location.origin}`;
             {primary.length < 5 && (
               <div className="mt-4 p-4 border border-ash-darker bg-void-light">
                 <p className="text-sm text-ash-dark">
-                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 295 total episodes.
+                  More episodes coming soon! We're currently building a library of {getRegistryInfo().episodeCount} curated episodes from 294 total episodes.
                 </p>
               </div>
             )}
@@ -415,7 +415,7 @@ ${window.location.origin}`;
           className="text-center py-8 border-t border-ash-darker mt-12"
         >
           <div className="text-xs text-ash-darker font-mono">
-            Based on {Object.keys(answers).length} questions and 295 episodes of Lenny's Podcast
+            Based on {Object.keys(answers).length} questions and 294 episodes of Lenny's Podcast
           </div>
           <div className="text-xs text-ash-darker font-mono mt-2">
             Built for the PM community

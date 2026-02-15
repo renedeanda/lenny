@@ -1,0 +1,194 @@
+{
+  "slug": "pete-kazanjy",
+  "quotes": [
+    {
+      "id": "pete-kazanjy-001",
+      "speaker": "Pete Kazanjy",
+      "text": "The way to think about what sellers are is they're the microeconomic agents in the market that bring supply to demand rather than waiting for demand to find supply. They have supply in their back pocket and they run around trying to find people who ought to have the demand.",
+      "timestamp": "00:07:25",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 105,
+        "lineEnd": 105
+      },
+      "themes": ["sales", "market-dynamics", "distribution"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "pete-kazanjy-002",
+      "speaker": "Pete Kazanjy",
+      "text": "As a founder, it's going to be way easier for you to get good, or minimally viable good, at selling by having interactions with non-friendly parties and having commercial conversations and asking for money in exchange for value delivery. It's going to be easier for you to do that than it is for some third party to become as expert at the subject matter that you're tackling.",
+      "timestamp": "00:11:11",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 120
+      },
+      "themes": ["founder-led-sales", "expertise", "learning"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "pete-kazanjy-003",
+      "speaker": "Pete Kazanjy",
+      "text": "The way to think about a sales motion is kind of like software and what you want to be doing is constantly updating it. Oh, that was a really interesting question that the prospect asked, I didn't have a good answer for it and moreover, I didn't have a slide for it. I should make a slide that handles that objection. Now, my sales motion has been updated.",
+      "timestamp": "00:20:04",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 162,
+        "lineEnd": 162
+      },
+      "themes": ["iteration", "sales-process", "continuous-improvement"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "pete-kazanjy-004",
+      "speaker": "Pete Kazanjy",
+      "text": "Never mistake your lead gen for your business. A lot of people took a lot of lumps there and folks have learned that. People paying 19 bucks a month is really great, but getting to a $50,000 or a $100,000 or a $250,000 contract, that's where big ARR numbers start racking up, and organizations want to talk to a human in order to navigate that.",
+      "timestamp": "00:25:48",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 207,
+        "lineEnd": 207
+      },
+      "themes": ["PLG", "enterprise-sales", "revenue"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "pete-kazanjy-005",
+      "speaker": "Pete Kazanjy",
+      "text": "As a seller, the way that I like to frame it is that you're a consultant that has a particular predilection for a given solution, your solution. If someone shows up and they're like, 'I've got to get really good at sales, I need to buy your software,' and they only have one salesperson, I'm not going to sell them. They're going to be unhappy, it's going to be dumb.",
+      "timestamp": "00:33:50",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 252,
+        "lineEnd": 252
+      },
+      "themes": ["sales-ethics", "ICP", "customer-success"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "pete-kazanjy-006",
+      "speaker": "Pete Kazanjy",
+      "text": "I'm going to go out in the market and find the people that have a high proclivity that our technology solves and then through a series of questions, I'm going to reveal to them that they're doing it probably not great. And once I've revealed the fact that they have this high magnitude problem, I reveal that there is a better way of approaching it and magically enough, I happen to be a representative of that solution.",
+      "timestamp": "00:34:56",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 255,
+        "lineEnd": 255
+      },
+      "themes": ["discovery-selling", "problem-finding", "value-delivery"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "pete-kazanjy-007",
+      "speaker": "Pete Kazanjy",
+      "text": "If it reliably runs on your local and it doesn't error out, now it's time to see if it reproduces over here. Generally speaking, it's going to be that you can reliably, at a pretty okay win rate, maybe 15% or 20% or 25%, turn first meetings into eventual customers and do that in a reliable fashion.",
+      "timestamp": "00:15:10",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 141,
+        "lineEnd": 141
+      },
+      "themes": ["repeatability", "metrics", "founder-sales"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "pete-kazanjy-008",
+      "speaker": "Pete Kazanjy",
+      "text": "Are we getting second dates? So, just metaphorize it to dating. Are we getting the second dates? Are we getting the third dates? Because if we're not getting the second dates, probably something's amiss there. As those conversions get better, man, I'm not getting any second dates. Cool, you need a haircut or you need a shower.",
+      "timestamp": "00:22:08",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 177,
+        "lineEnd": 180
+      },
+      "themes": ["funnel-metrics", "leading-indicators", "sales-coaching"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "pete-kazanjy-009",
+      "speaker": "Pete Kazanjy",
+      "text": "The worst possible situation is nine months in, you're like, 'Man, it's not working.' If you looked at the leading indicators, you would have known two months in this wasn't working. Having instrumentation on the most leading indicator possible gives you eyes onto whether or not things are working.",
+      "timestamp": "00:48:54",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 345,
+        "lineEnd": 345
+      },
+      "themes": ["leading-indicators", "data-driven", "sales-management"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "pete-kazanjy-010",
+      "speaker": "Pete Kazanjy",
+      "text": "Think about people that you interact with in the world who maybe are a little shields up, maybe it's bartenders or a flight attendant or a barista. Think about how quickly you can become friends with them, how you can break that down, because that's going to be a really good skill for you when you're interacting with a prospect.",
+      "timestamp": "00:30:43",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 234,
+        "lineEnd": 234
+      },
+      "themes": ["rapport-building", "social-skills", "sales-skills"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "pete-kazanjy-011",
+      "speaker": "Pete Kazanjy",
+      "text": "There's a whole generation of SDRs who have never learned the skills that are needed at the same clip that they would have sitting amongst 10 others with an SDR manager sitting in the middle of them. The loops, the speed with which you're able to update their software and make sure that the sales motion is running appropriately, is quite high when you're side-by-side.",
+      "timestamp": "00:52:28",
+      "source": {
+        "slug": "pete-kazanjy",
+        "path": "episodes/pete-kazanjy/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 369
+      },
+      "themes": ["coaching", "in-person", "sales-training"],
+      "zones": ["velocity", "alignment"]
+    }
+  ],
+  "themes": ["founder-led-sales", "sales-process", "leading-indicators", "ICP", "PLG-to-sales", "data-driven-sales", "rapport-building"],
+  "takeaways": [
+    "Founders must do sales themselves first because it's easier to learn minimum viable selling than to teach a third party your domain expertise - you can't outsource the feedback loop between product and market.",
+    "Treat your sales motion like software: constantly update your pitch, slides, and scripts based on every customer interaction, iterating dozens of times before you have something repeatable enough to hand off.",
+    "Leading indicators like second and third meeting conversion rates reveal sales health months before lagging revenue numbers do - instrument everything and measure stage-by-stage progression.",
+    "Never mistake PLG lead generation for a business - virtually every B2B company eventually needs a sales organization to unlock enterprise contracts worth 10-100x self-serve revenue.",
+    "Modern sales is consultative problem discovery, not persuasion - the best sellers reveal to prospects that they have a problem they didn't know about, then present their solution as the natural answer."
+  ],
+  "zone_influence": {
+    "velocity": 0.25,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.30,
+    "intuition": 0.00,
+    "alignment": 0.10,
+    "chaos": 0.00,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "pete-kazanjy-002",
+      "why": "Argues that founders learning to sell is easier than salespeople learning domain expertise - challenges the common instinct to outsource sales immediately",
+      "related_zones": ["velocity", "discovery"]
+    },
+    {
+      "quoteId": "pete-kazanjy-004",
+      "why": "Warns PLG companies that self-serve revenue is just lead gen, not a business - contrarian to the common PLG-first mindset",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["founder-led-sales", "B2B-sales", "sales-management", "PLG-to-sales"]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "brendan-foody",
+  "quotes": [
+    {
+      "id": "brendan-foody-001",
+      "speaker": "Brendan Foody",
+      "text": "If the model is the product, then the eval is the product requirement document. And the way that researchers' day-to-day looks is that they'll run dozens of experiments where they'll make small improvements on an eval set. And reinforcement learning is becoming so effective that once they have an eval, they can help climb it.",
+      "timestamp": "00:06:39",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 109,
+        "lineEnd": 109
+      },
+      "themes": ["evals", "AI-training", "product-development"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "brendan-foody-002",
+      "speaker": "Brendan Foody",
+      "text": "The core way to think about it is how can they build a test or systematic way to measure how well AI automates their core value chain? Each company has its own value chain and just thinking about how they measure that is the prerequisite to really effectively applying AI throughout their entire business.",
+      "timestamp": "00:07:39",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 115
+      },
+      "themes": ["evals", "strategy", "AI-adoption"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "brendan-foody-003",
+      "speaker": "Brendan Foody",
+      "text": "It's highly likely that the entire economy will become an aural environment machine, building out all of these worlds and contexts. And I think the narrative in AI over the last three years has almost entirely been one of job displacement, but very few companies and people have talked about this new category of jobs that's being created.",
+      "timestamp": "00:19:06",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 208
+      },
+      "themes": ["future-of-work", "AI-impact", "job-creation"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "brendan-foody-004",
+      "speaker": "Brendan Foody",
+      "text": "In terms of jobs, I would respond with a category of things that have very elastic demand are going to be super exciting. Because when we make people 10 times more productive, we'll build 10 times, if not 100 times as much software as an example. And so I think the product managers that can now do so much more are going to be extremely well-positioned.",
+      "timestamp": "00:20:47",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 214
+      },
+      "themes": ["future-of-work", "productivity", "product-management"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "brendan-foody-005",
+      "speaker": "Brendan Foody",
+      "text": "We'll give people interviews where we say, 'Use ChatGPT and Kodak. Use Claude code. Use whatever tools are available to build a website and let's see what product you're able to build in an hour.' I think it pertains to the skills that people should be honing in on of how can they leverage this technology to do so much more.",
+      "timestamp": "00:21:49",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 220,
+        "lineEnd": 220
+      },
+      "themes": ["hiring", "AI-tools", "talent-assessment"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "brendan-foody-006",
+      "speaker": "Brendan Foody",
+      "text": "There's certain enterprises we talk to that are almost fearful not wanting to engage, not wanting to eval their businesses because that'll provide the evidence that their value chain is being automated. And there's others that are leaning into it of if we have the ability to do 10 or 100 times more, what will that mean.",
+      "timestamp": "00:25:10",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["enterprise-adoption", "AI-transformation", "mindset"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "brendan-foody-007",
+      "speaker": "Brendan Foody",
+      "text": "The most important thing is looking at the leading indicators in fast-moving markets. What matters a ton is actually figuring out what are the new markets, the new pockets of demand that are changing very quickly where the wealthiest customers in the world are willing to pay whatever it takes, and how do we focus on the leading indicators of those markets.",
+      "timestamp": "00:39:20",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["product-market-fit", "strategy", "growth"],
+      "zones": ["data", "velocity", "discovery"]
+    },
+    {
+      "id": "brendan-foody-008",
+      "speaker": "Brendan Foody",
+      "text": "I spent a lot of time trying to force product-market fit. You should be persistent and have theses that you have conviction about how the world will change. But sometimes you just need to sheer it from the market and know that it's there, the pull. Because if it's difficult to sell, you're not going to be able to grow a huge business.",
+      "timestamp": "00:43:57",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 391,
+        "lineEnd": 391
+      },
+      "themes": ["product-market-fit", "founder-advice", "growth"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "brendan-foody-009",
+      "speaker": "Brendan Foody",
+      "text": "The first one is having a can-do attitude. We've always set these ridiculously ambitious goals, and then somehow the trajectory of the company forms around those goals. I said we'd be at 50 million in run rate by the end of the year. They said we were absolutely insane. Plus or minus two weeks, we hit it.",
+      "timestamp": "00:46:04",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 406,
+        "lineEnd": 406
+      },
+      "themes": ["culture", "ambition", "goal-setting"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "brendan-foody-010",
+      "speaker": "Brendan Foody",
+      "text": "For the last year and a half of the business, we've had no one in sales and marketing. We focused 100% of company resources on how do we build great products and experiences for our customers. Just getting word of mouth. Some founders can get caught up in marketing before they've figured out the thing that really drives customer love.",
+      "timestamp": "00:40:18",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 373,
+        "lineEnd": 373
+      },
+      "themes": ["customer-obsession", "growth", "product-led"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "brendan-foody-011",
+      "speaker": "Brendan Foody",
+      "text": "In a set of 100 people that we hire, oftentimes the top 10% of people will drive majority of the model improvement. It's like a company. When we're able to build proprietary advantages in identifying who are those top 10% of people, it creates so much value for customers that it's difficult to compete against.",
+      "timestamp": "00:35:03",
+      "source": {
+        "slug": "brendan-foody",
+        "path": "episodes/brendan-foody/transcript.md",
+        "lineStart": 319,
+        "lineEnd": 319
+      },
+      "themes": ["talent", "competitive-advantage", "hiring"],
+      "zones": ["data", "focus"]
+    }
+  ],
+  "themes": ["evals", "AI-training", "product-development", "strategy", "AI-adoption", "future-of-work", "AI-impact", "job-creation", "productivity", "product-management", "hiring", "AI-tools", "talent-assessment", "enterprise-adoption", "AI-transformation", "mindset", "product-market-fit", "growth", "founder-advice", "culture", "ambition", "goal-setting", "customer-obsession", "product-led", "talent", "competitive-advantage"],
+  "takeaways": [
+    "Evals are the PRDs of AI — the primary bottleneck to improving models is measuring what success looks like, making eval creation the most critical skill in the AI era",
+    "Industries with elastic demand (like software development) will thrive as AI makes people 10-100x more productive, creating more work rather than eliminating it",
+    "Product-market fit should not be forced — founders need conviction about how the world will change, but should remain open-minded about the exact form their business takes",
+    "Radical customer obsession beats early investment in sales and marketing — Mercor reached $400M in revenue run rate with zero sales and marketing headcount for 18 months",
+    "The transition from crowdsourced low-skill labor to expert-driven AI training represents a fundamental shift where quality of human input directly determines quality of AI output"
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "brendan-foody-003",
+      "why": "Challenges the dominant AI narrative of job displacement by arguing a massive new category of jobs is being created that few are talking about",
+      "related_zones": ["discovery", "chaos"]
+    },
+    {
+      "quoteId": "brendan-foody-010",
+      "why": "Contrarian take that the fastest-growing company in history achieved this with zero sales and marketing investment, purely through customer obsession",
+      "related_zones": ["focus", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["AI-training", "evals", "future-of-work"]
+  }
+}

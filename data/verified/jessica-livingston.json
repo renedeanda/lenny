@@ -1,0 +1,194 @@
+{
+  "slug": "jessica-livingston",
+  "quotes": [
+    {
+      "id": "jessica-livingston-q001",
+      "speaker": "Jessica Livingston",
+      "text": "My three co-founders were deeply technical people, and I was not. But I would look at other things about founders. Do the co-founders get along? Are these people committed? Do they really know about their product? All these little social cues that I'd try to pick up on.",
+      "timestamp": "00:08:13",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 103
+      },
+      "themes": ["founder-evaluation", "social-radar", "investing"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "jessica-livingston-q002",
+      "speaker": "Jessica Livingston",
+      "text": "If a founder would get defensive, that was always a bad sign. The best founders would say, 'Gosh, I have thought about it and here's what I figured out.' The open-mindedness, the flexible-mindedness of people was really important.",
+      "timestamp": "00:16:33",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["founder-evaluation", "open-mindedness", "defensiveness"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jessica-livingston-q003",
+      "speaker": "Jessica Livingston",
+      "text": "Earnestness is one of the most important because earnest, sort of to me, is bucketed with authenticity. To be a successful startup founder, you have to care so much about the problem you're trying to solve, the users you're serving. There are so many wannabe founders doing it because it's cool.",
+      "timestamp": "00:30:47",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 238
+      },
+      "themes": ["earnestness", "authenticity", "founder-qualities"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "jessica-livingston-q004",
+      "speaker": "Jessica Livingston",
+      "text": "We've got to fund these guys. I don't know about the idea. Maybe they'll change their idea, who knows? But they seem really great. The energy level and the passion with which they spoke about their experience was convincing.",
+      "timestamp": "00:25:10",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["founder-evaluation", "airbnb", "betting-on-people"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "jessica-livingston-q005",
+      "speaker": "Jessica Livingston",
+      "text": "You sort of need that desperation. You have to burn the boat. We found that founders who were still getting a paycheck and health insurance, once the going got tough, they did not quit their job.",
+      "timestamp": "00:35:00",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
+      },
+      "themes": ["commitment", "desperation", "founder-qualities"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "jessica-livingston-q006",
+      "speaker": "Jessica Livingston",
+      "text": "I did consciously, especially early on, tend to say, 'I really think this person's an asshole, I do not want to fund them.' And we often wouldn't. Life's too short. And as it turns out, that was the basis of our Y Combinator community.",
+      "timestamp": "00:13:08",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 130,
+        "lineEnd": 130
+      },
+      "themes": ["culture", "community", "values"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "jessica-livingston-q007",
+      "speaker": "Jessica Livingston",
+      "text": "Confidence means you can say, 'I've thought about that and I don't know the answer.' That's confidence. And they'll say, 'But here's what I do to try to figure it out. Here are my plans to address that.'",
+      "timestamp": "00:33:03",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 253,
+        "lineEnd": 253
+      },
+      "themes": ["confidence", "humility", "founder-qualities"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "jessica-livingston-q008",
+      "speaker": "Jessica Livingston",
+      "text": "I love co-founders that have a history together; either they went to school together, college together, work together, maybe they're siblings. Because when you have a long-term relationship, you trust each other and you know each other's weaknesses. It's really scary when two founders get together just to start the startup.",
+      "timestamp": "00:36:59",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 268,
+        "lineEnd": 268
+      },
+      "themes": ["co-founders", "trust", "relationships"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "jessica-livingston-q009",
+      "speaker": "Jessica Livingston",
+      "text": "There's no one that I had a strong dislike for that I sort of said, 'We should not fund them,' that has gone on to be a super success. It doesn't happen all the time that I really put my foot down, but sometimes I have.",
+      "timestamp": "00:44:35",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 337,
+        "lineEnd": 337
+      },
+      "themes": ["social-radar", "judgment", "track-record"],
+      "zones": ["intuition", "data"]
+    },
+    {
+      "id": "jessica-livingston-q010",
+      "speaker": "Jessica Livingston",
+      "text": "None of us had any experience angel investing. We decided to fund a bunch of startups at once during the summer so that we could learn how to invest. Sometimes ignorance is sort of bliss and you just discover new things.",
+      "timestamp": "01:22:59",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 646,
+        "lineEnd": 646
+      },
+      "themes": ["innovation", "yc-origin", "learning"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "jessica-livingston-q011",
+      "speaker": "Jessica Livingston",
+      "text": "Paul would get so excited about the idea that by the end of the interview he'd be giving them ideas about how to grow their product. And he'd say, 'Fund them.' And I'd say, 'Whoa, you can't just fund this because you love the idea. These two founders are working at Google and they don't say they're going to quit.'",
+      "timestamp": "00:11:39",
+      "source": {
+        "slug": "jessica-livingston",
+        "path": "episodes/jessica-livingston/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["founder-evaluation", "balance", "yc-process"],
+      "zones": ["data", "intuition"]
+    }
+  ],
+  "themes": ["founder-evaluation", "social-radar", "earnestness", "co-founder-dynamics", "commitment", "community-building", "yc-origin", "intuition"],
+  "takeaways": [
+    "The Social Radar is YC's secret weapon - evaluating founders on social cues, commitment signals, and co-founder dynamics is as important as evaluating their technology.",
+    "Defensiveness in founders is always a bad sign - the best founders engage in spirited debate rather than closing up when challenged.",
+    "Earnestness and authenticity predict success better than charisma - founders doing it because it's cool rarely survive when things get hard.",
+    "You have to burn the boat - founders who keep their safety-net jobs consistently fail to push through the hardest moments of building a startup.",
+    "YC's batch model was born from ignorance, not expertise - not knowing how angel investing worked led to the most successful innovation in startup funding history."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.35,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "jessica-livingston-q006",
+      "why": "Explicitly filtering out assholes from YC despite many successful founders being known as difficult people - anti-brilliance-excuses-everything",
+      "related_zones": ["alignment", "intuition"]
+    },
+    {
+      "quoteId": "jessica-livingston-q010",
+      "why": "Ignorance as advantage - their lack of investing experience led to the batch model innovation that experienced investors would never have tried",
+      "related_zones": ["discovery", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "investor",
+    "company_stage": "growth",
+    "primary_topics": ["founder-evaluation", "social-radar", "yc-history", "community-building"]
+  }
+}

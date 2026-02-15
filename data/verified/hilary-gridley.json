@@ -1,0 +1,213 @@
+{
+  "slug": "hilary-gridley",
+  "quotes": [
+    {
+      "id": "hilary-gridley-001",
+      "speaker": "Hilary Gridley",
+      "text": "If they come to me and they're upset, I try to focus them less around how you litigate another person's impression of you and more on what is the action that you can take to counter program the narrative that you are afraid that this other person has of you. What are you going to do next to demonstrate that you are the person that you know yourself to be?",
+      "timestamp": "00:08:41",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 124,
+        "lineEnd": 124
+      },
+      "themes": ["resilience", "self-management", "leadership"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "hilary-gridley-002",
+      "speaker": "Hilary Gridley",
+      "text": "The misconception is I'll feel better and then I'll act. And the thing that therapists try to teach people is I will act and then I will feel better. But acting is hard if you are in the furrows of depression. And so a lot of the work is in how you help people identify specific actions that they can take that will reliably lift their mood.",
+      "timestamp": "00:19:41",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 208,
+        "lineEnd": 208
+      },
+      "themes": ["behavioral-activation", "mental-health", "action-orientation"],
+      "zones": ["velocity", "intuition"]
+    },
+    {
+      "id": "hilary-gridley-003",
+      "speaker": "Hilary Gridley",
+      "text": "So much of their self identity is wrapped up in having the answers, being competent, getting things done. And so many of them have been people who have been really good at that for most of their careers, which is how they got into these jobs in the first place. I think that can be an extremely stressful thing for them. That in many cases can be the driver of burnout.",
+      "timestamp": "00:22:10",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 235
+      },
+      "themes": ["burnout", "identity", "product-management"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "hilary-gridley-004",
+      "speaker": "Hilary Gridley",
+      "text": "When you give people the skills of taking a punch, you are helping them feel less afraid of getting the punch in the first place. And that's why I think it's so important.",
+      "timestamp": "00:25:30",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 256,
+        "lineEnd": 256
+      },
+      "themes": ["resilience", "courage", "management"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "hilary-gridley-005",
+      "speaker": "Hilary Gridley",
+      "text": "What is much more helpful than understanding what your CEO thinks is understanding how your CEO thinks. And when I feel confident that people on my team understand how I think, I don't need to read their emails, I don't need to approve things. The times where I feel like I need to do that is because I'm working with people where I don't have confidence that they understand how I think.",
+      "timestamp": "00:29:00",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 292
+      },
+      "themes": ["mental-models", "transparency", "autonomy"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "hilary-gridley-006",
+      "speaker": "Hilary Gridley",
+      "text": "I talk about what I like to call the magic questions, but the thing about magic questions is they're not actually questions, they're statements and they end with 'Do you agree?' or 'Is that right?' I have found this the most helpful way for trying to understand a person's mental model is to just put facts in front of them and see what they say no to and what they say yes to.",
+      "timestamp": "00:41:56",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["communication", "mental-models", "influence"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "hilary-gridley-007",
+      "speaker": "Hilary Gridley",
+      "text": "People think that the game is all about influencing the CEO, influencing the people around them. You come up thinking like you're the protagonist. But in the story of work, you are probably not the protagonist. You're not special. And I used to spend so much time and energy just being like, 'Oh, people don't see it my way and I have to convince them.'",
+      "timestamp": "00:50:56",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 421,
+        "lineEnd": 422
+      },
+      "themes": ["humility", "leadership", "self-awareness"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "hilary-gridley-008",
+      "speaker": "Hilary Gridley",
+      "text": "In product, there's no right answers. There's only wrong answers, and you're just trying to execute well on the least wrong answer that's available to you. Reasonable people can disagree about this stuff. The only chance we have of succeeding is not being torn apart on that.",
+      "timestamp": "01:01:03",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 364
+      },
+      "themes": ["decision-making", "disagreement", "execution"],
+      "zones": ["chaos", "velocity", "alignment"]
+    },
+    {
+      "id": "hilary-gridley-009",
+      "speaker": "Hilary Gridley",
+      "text": "The reward loop needs to be powerful, it needs to be immediate, and it needs to be emotional, so that when this person does the thing that you want them to do, they feel like a million bucks. When I think about any kind of habit I'm trying to build on my team, I'm always thinking about how can I make sure that when a person does this, they feel really great.",
+      "timestamp": "01:05:48",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 583,
+        "lineEnd": 586
+      },
+      "themes": ["habit-formation", "reward-loops", "behavior-change"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "hilary-gridley-010",
+      "speaker": "Hilary Gridley",
+      "text": "If you're just pushing yourself at 100% of your physical capacity all the time, not only are you going to burn out, but you're literally going to suffer performance decline. I think we forget that at work, but the analog is 100% there. It's so important to have active rest. It's so important to have heads downtime.",
+      "timestamp": "01:18:39",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 742,
+        "lineEnd": 745
+      },
+      "themes": ["burnout-prevention", "recovery", "performance"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "hilary-gridley-011",
+      "speaker": "Hilary Gridley",
+      "text": "The sort of learning applications around AI that I get really excited about are, how do you shrink that loop? So that my team can get feedback that is at least 80% close to the feedback that I would be giving them. But instead of having to wait until our one on one, they can get that on demand as many times as they want forever.",
+      "timestamp": "01:24:22",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 811,
+        "lineEnd": 814
+      },
+      "themes": ["ai-learning", "feedback-loops", "skill-development"],
+      "zones": ["velocity", "data", "discovery"]
+    },
+    {
+      "id": "hilary-gridley-012",
+      "speaker": "Hilary Gridley",
+      "text": "Fiction teaches you how to sit inside tension. So much of working in product is you're in this fog and you just have to provide clarity. To succeed at the job, you have to be able to do that. But to succeed as a human in the job, you have to be able to sit in the mess and sit in the ambiguity.",
+      "timestamp": "01:45:22",
+      "source": {
+        "slug": "hilary-gridley",
+        "path": "episodes/hilary-gridley/transcript.md",
+        "lineStart": 1054,
+        "lineEnd": 1054
+      },
+      "themes": ["ambiguity", "personal-growth", "creativity"],
+      "zones": ["chaos", "intuition"]
+    }
+  ],
+  "themes": ["resilience", "mental-models", "behavioral-activation", "leadership", "alignment", "habit-formation", "ai-learning", "burnout-prevention", "communication", "ambiguity"],
+  "takeaways": [
+    "When you take a professional punch, don't litigate the past -- counter-program the narrative by taking one small action that demonstrates the opposite of what you fear others think about you.",
+    "Understanding how your leaders think matters far more than knowing what they think. Share your interpretation of leadership conversations weekly so your team can build accurate mental models and operate with autonomy.",
+    "Use 'magic questions' -- statements ending with 'Do you agree?' -- to map another person's mental model rather than asking open-ended questions that people struggle to answer clearly.",
+    "Build team habits through behavioral psychology, not education: focus on consistency (daily small actions), reducing friction (remove work pressure from practice), and designing powerful, immediate, emotional reward loops.",
+    "Invest in AI tools that compress the feedback loop for learning -- the reps that used to take two years of entry-level grinding can be dramatically accelerated with on-demand, personalized AI practice."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.05,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.30,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "hilary-gridley-007",
+      "why": "Challenges the protagonist mentality that most ambitious PMs carry -- argues you're not special and your job is to operationalize the CEO's vision, not push your own",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "hilary-gridley-008",
+      "why": "Rejects the idea of 'right answers' in product entirely -- frames all product decisions as choosing the least wrong path and committing fully even when you disagree",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "hilary-gridley-004",
+      "why": "Inverts the usual resilience narrative -- the real value of learning to take a punch isn't recovery, it's that you stop being afraid to put yourself out there in the first place",
+      "related_zones": ["chaos", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "product-leader",
+    "company_stage": "growth",
+    "primary_topics": ["resilience", "management", "mental-models", "behavioral-psychology", "ai-adoption"]
+  }
+}

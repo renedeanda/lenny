@@ -1,0 +1,199 @@
+{
+  "slug": "meltem-kuran",
+  "quotes": [
+    {
+      "id": "meltem-kuran-q001",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "When you go out to the market and try to answer people's questions, people don't want to be sold to, they want their problem solved. So those cheaper channels are often places where people are just trying to get an answer to their question. Whether that be search engine optimization, looking onto Reddit where people are asking these questions in communities, forming partnerships with other groups that are trying to answer these questions.",
+      "timestamp": "00:06:56",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 91
+      },
+      "themes": ["growth", "community", "acquisition"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "meltem-kuran-q002",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "A lot of people jump that because they think, 'Oh, it's one person here, two people there.' But when you start helping people, that combined with word of mouth, and guess what, these are digital places, you provide one answer and your answer lives out there for other people to repeatedly refine. So when I think about cheap channels, I think about where are people asking the questions and providing them the answers.",
+      "timestamp": "00:08:21",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["growth", "content", "compounding"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "meltem-kuran-q003",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "The biggest mistake people make is they will just shove keywords. But the main thing to think about is, is the Google search over? If someone reads your content, if they typed in something to Google, and then they read the article that you've published, are they going back to Google to continue reading more or is the Google search over? Because ultimately that's what the search engines care about.",
+      "timestamp": "00:16:40",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["SEO", "content", "user-experience"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "meltem-kuran-q004",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "We have this framework that we call the traffic light system. Those set of keywords get ranked by highest volume to the lowest volume. And then you go one by one and say, what is the intent of someone searching this keyword? Is this a university student looking to write an article and they're never going to become our customer? Or is this someone that is actually looking to solve their existing solution?",
+      "timestamp": "00:18:42",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["SEO", "prioritization", "frameworks"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "meltem-kuran-q005",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "If your one-liner can also work for another business, please don't let that be your one-liner. Make it so that people actually understand what you do. There's a lot of statements out there like, 'we do the complex things so you can focus on what you do best', what does that mean? You can give that to 90% of the B2B businesses out there and it would apply to them, which means it's not good enough.",
+      "timestamp": "00:28:06",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 292,
+        "lineEnd": 292
+      },
+      "themes": ["positioning", "messaging", "differentiation"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "meltem-kuran-q006",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "Early days, it's very important to just go back to the basics, build the skeleton before you put on the makeup. Do you have a website? Is it fast? Do the search engines know that it exists? Can people find it? Only after all of those questions are answered, should you then consider, do I have money? Can I put it behind some paid ads? You can't run a successful paid ads program if you have a website that's loading in four plus seconds.",
+      "timestamp": "00:26:59",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 283,
+        "lineEnd": 286
+      },
+      "themes": ["growth", "fundamentals", "prioritization"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "meltem-kuran-q007",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "I'm not a huge fan of early awareness campaigns for B2B businesses specifically. To do a proper awareness campaign, it takes time. You need to have teams doing the strategy, doing the creative work, and they don't always hit. And then you look back, and you've worked on this thing for a whole month and it hasn't resonated and you've wasted a full month.",
+      "timestamp": "00:32:36",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["awareness", "B2B", "prioritization"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "meltem-kuran-q008",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "Just because you share an audience doesn't mean your audience goes to your partner for guidance when they have this problem. It's important to not only recognize the importance of an audience overlap as well as whether or not those people are seen as a trusted resource for the solution you are putting out there.",
+      "timestamp": "00:35:18",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 346,
+        "lineEnd": 349
+      },
+      "themes": ["partnerships", "trust", "strategy"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "meltem-kuran-q009",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "If you're a team of 35 people, and you're trying to hire the director of whatever from a huge company, you need to ask, when did this person join that huge company? Did they join when the company was already 5,000 people and from day one they had all the resources at their disposal? Or were they actually one of the earlier employees who helped that growth? Oftentimes people hire someone from an amazing company but they're not used to operating with 10% of the resources.",
+      "timestamp": "00:47:53",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 439,
+        "lineEnd": 439
+      },
+      "themes": ["hiring", "team-building", "resourcefulness"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "meltem-kuran-q010",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "Recognizing that it's not a software and a platform that we're trying to make it the best, but it's like, no, it's a business trying to pay a human so they can live their lives and the business can continue growing. So that care is something that we need people to bring to the table.",
+      "timestamp": "00:56:57",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 508,
+        "lineEnd": 511
+      },
+      "themes": ["customer-empathy", "culture", "mission"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "meltem-kuran-q011",
+      "speaker": "Meltem Kuran Berkowitz",
+      "text": "Our version of velocity is something that we call 'Deel speed', is that we want to make sure that we act with urgency. It doesn't matter how big the team has grown, we want to act with urgency on behalf of our customers. If a customer has a problem, they're not going to wait two weeks to get an answer. If we need to build out a product because many customers are asking for it, that product is going to get built in one-tenth the time that any of our competitors will likely build it in.",
+      "timestamp": "00:55:12",
+      "source": {
+        "slug": "meltem-kuran",
+        "path": "episodes/meltem-kuran/transcript.md",
+        "lineStart": 499,
+        "lineEnd": 499
+      },
+      "themes": ["speed", "culture", "urgency"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["growth-strategy", "SEO", "community-driven-growth", "B2B-marketing", "hiring", "culture", "prioritization", "positioning"],
+  "takeaways": [
+    "Start with cheap growth channels by going where people are already asking questions -- Reddit, Quora, communities -- and genuinely answer their problems rather than selling your solution.",
+    "For SEO, ask 'is the Google search over?' after someone reads your content. If they need to keep searching, your content isn't good enough. Use the traffic light framework to prioritize high-intent keywords over high-volume ones.",
+    "Build the skeleton before you put on the makeup: ensure your website is fast, findable, and clearly communicates what you do before investing in paid acquisition or awareness campaigns.",
+    "When hiring for a growth team at an early-stage company, look for people who commit to revenue KPIs (not just leads), have operated with limited resources before, and are willing to do the 'little hands' nitty-gritty work.",
+    "Culture at high-growth companies requires 'Deel speed' (acting with urgency), default optimism (asking how it can work instead of why it won't), and genuine care for customers as humans, not just users of software."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.10,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "meltem-kuran-q007",
+      "why": "Argues against early awareness campaigns for B2B, which is counter to the common instinct to 'build brand' first -- instead insisting you should exhaust bottom-of-funnel before going top-of-funnel.",
+      "related_zones": ["focus", "data"]
+    },
+    {
+      "quoteId": "meltem-kuran-q009",
+      "why": "Challenges the common startup practice of hiring prestigious big-company executives, arguing that someone who joined at 5,000 employees may be useless at a 35-person company because they've never operated without resources.",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "meltem-kuran-q005",
+      "why": "Directly attacks generic B2B positioning that sounds impressive but could apply to any company -- a common trap that most marketing teams fall into.",
+      "related_zones": ["perfection", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth-strategy", "SEO", "community-growth", "paid-acquisition", "hiring", "culture", "B2B-marketing"]
+  }
+}

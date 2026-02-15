@@ -1,0 +1,194 @@
+{
+  "slug": "nilan-peiris",
+  "quotes": [
+    {
+      "id": "nilan-peiris-001",
+      "speaker": "Nilan Peiris",
+      "text": "But probably the stat I'm most proud of, and the hardest thing to make happen out of all of that was we acquired 70% of the users that found out about Wise last month through word of mouth. So, contextually, we have 16 million customers, and we're acquiring about a million a quarter.",
+      "timestamp": "00:05:05",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 63,
+        "lineEnd": 63
+      },
+      "themes": ["word-of-mouth", "growth", "metrics"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "nilan-peiris-002",
+      "speaker": "Nilan Peiris",
+      "text": "But when we got people from sixes to this seven and eight group, they doubled the number of people they told. Eight to nine, they doubled again, and nine to 10, they doubled again. So, this is pretty crazy when you see it for the first time.",
+      "timestamp": "00:11:13",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["NPS", "word-of-mouth", "growth-metrics"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "nilan-peiris-003",
+      "speaker": "Nilan Peiris",
+      "text": "But if you move the NPS from 30% to 50%, you increase the viral coefficient of your customer base. So every customer that goes through tells X many more. When you model this through, the ROI on NPS increases is absolutely huge.",
+      "timestamp": "00:12:00",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 111
+      },
+      "themes": ["NPS", "viral-growth", "metrics"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "nilan-peiris-004",
+      "speaker": "Nilan Peiris",
+      "text": "We only got the advocacy when we were eight to 10 times cheaper. That's when people started talking about it.",
+      "timestamp": "00:13:20",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["pricing", "word-of-mouth", "competitive-advantage"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "nilan-peiris-005",
+      "speaker": "Nilan Peiris",
+      "text": "But to get to recommendation, you're going to blow your users' socks off, and the phrase we use is, you have to give them an experience they didn't know was previously possible. And when you are in that place of doing something that no one has ever done before, that's where you get it.",
+      "timestamp": "00:20:02",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 168,
+        "lineEnd": 168
+      },
+      "themes": ["product-excellence", "word-of-mouth", "innovation"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "nilan-peiris-006",
+      "speaker": "Nilan Peiris",
+      "text": "You've got to build a 10x better product than what's there. And if it's 10x product better, basically it doesn't exist already. So if you're plugging in something else, that's kind of a misstep.",
+      "timestamp": "00:22:18",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": ["product-strategy", "competitive-advantage", "innovation"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "nilan-peiris-007",
+      "speaker": "Nilan Peiris",
+      "text": "So you can't split test your way to love. So, this experiment led product management approach, where you throw a bunch of things on the wall, and then you kind of see what sticks, and generally we don't advocate this. Mainly because engineering is expensive, and you can actually figure out what matters to customers through other means.",
+      "timestamp": "00:39:21",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 327,
+        "lineEnd": 327
+      },
+      "themes": ["experimentation", "product-management", "conviction"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "nilan-peiris-008",
+      "speaker": "Nilan Peiris",
+      "text": "Taking a step back, where every business I've ever worked in, it's always got these two lists, a list of things to do for your customers, and then it's got a list of things to do to make money. And you generally do everything you need to do to make money, and you do two things with the customer list. The neat thing about Wise is we just had one list.",
+      "timestamp": "00:35:32",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["customer-centricity", "strategy", "alignment"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "nilan-peiris-009",
+      "speaker": "Nilan Peiris",
+      "text": "The founders have this philosophy that unless you're doing something hard and new, it's kind of a waste of time. So, the culture of the product team is we're super incentivized to do the hard things, and that's what's rewarded.",
+      "timestamp": "00:54:16",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 432,
+        "lineEnd": 432
+      },
+      "themes": ["culture", "ambition", "hard-problems"],
+      "zones": ["chaos", "perfection"]
+    },
+    {
+      "id": "nilan-peiris-010",
+      "speaker": "Nilan Peiris",
+      "text": "He realized that people believed they saved money, but they didn't believe the number. And so closing this delta between what you've done, and what's perceived to be done is what I call product marketing within the product. And that in its own right is a discipline.",
+      "timestamp": "01:05:07",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 528,
+        "lineEnd": 528
+      },
+      "themes": ["product-marketing", "perception", "value-communication"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "nilan-peiris-011",
+      "speaker": "Nilan Peiris",
+      "text": "So instead of incrementally going, doing a jump to make it a little better, a little better, a little better, you can never get there. How do we take two years, and end up there? What is the theoretical minimum cost for moving money into a market? What is the theoretical maximum speed?",
+      "timestamp": "00:22:45",
+      "source": {
+        "slug": "nilan-peiris",
+        "path": "episodes/nilan-peiris/transcript.md",
+        "lineStart": 192,
+        "lineEnd": 192
+      },
+      "themes": ["strategy", "first-principles", "ambition"],
+      "zones": ["perfection", "focus"]
+    }
+  ],
+  "themes": ["word-of-mouth", "NPS", "customer-led-growth", "pricing", "product-excellence", "conviction-over-experimentation", "10x-product", "product-marketing"],
+  "takeaways": [
+    "Word of mouth at scale requires giving customers an experience they didn't know was previously possible - incremental improvements drive usage but only 8-10x better drives recommendation and advocacy.",
+    "NPS is not just a vanity metric - at Wise, moving customers from a 6 to a 9-10 doubled referral rates at each threshold, making NPS improvement the highest-ROI growth investment.",
+    "You can't split-test your way to love - build conviction about what matters to customers through qualitative insights and data, then make bold bets rather than running endless A/B experiments.",
+    "Merge the customer list and the business list into one - at Wise, solving hard customer problems like reducing prices and increasing speed directly drove growth and shareholder value.",
+    "Product marketing within the product is a discipline - the gap between what you deliver and what customers perceive you deliver is a massive untapped growth lever for referral and word of mouth."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.25,
+    "discovery": 0.25,
+    "data": 0.20,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nilan-peiris-007",
+      "why": "Challenges experiment-driven product management - argues you can't split test your way to love and conviction beats incremental testing",
+      "related_zones": ["intuition", "focus"]
+    },
+    {
+      "quoteId": "nilan-peiris-004",
+      "why": "Being slightly cheaper than competitors does nothing - only 8-10x cheaper triggers advocacy, challenging incremental pricing strategies",
+      "related_zones": ["perfection", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["word-of-mouth", "NPS", "pricing", "product-led-growth", "customer-centricity"]
+  }
+}

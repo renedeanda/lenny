@@ -1,0 +1,208 @@
+{
+  "slug": "shweta-shriva",
+  "quotes": [
+    {
+      "id": "shweta-shriva-q001",
+      "speaker": "Shweta Shrivastava",
+      "text": "We're using a lot of human driving data to train our deep models. So it's important to make sure that the behavior of the car doesn't seem robotic, it can feel quite unnatural. And from the get-go, we focused on building a fully autonomous system. So it's important to have that familiarity, that trust, building with the riders where they're not daunted by technology, they don't feel like they're sitting in our walk. It has to feel very human-like, but in a good way.",
+      "timestamp": "06:07",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 73,
+        "lineEnd": 73
+      },
+      "themes": ["trust", "user-experience", "design-philosophy"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "shweta-shriva-q002",
+      "speaker": "Shweta Shrivastava",
+      "text": "I would say that the PMC has to be able to go technically indeed, compared to what they would do in other software products. They have to be able to get into the details as much as needed. They have to be okay with uncertainty and ambiguity.",
+      "timestamp": "08:46",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 87,
+        "lineEnd": 87
+      },
+      "themes": ["product-management", "technical-depth", "ambiguity"],
+      "zones": ["chaos", "perfection"]
+    },
+    {
+      "id": "shweta-shriva-q003",
+      "speaker": "Shweta Shrivastava",
+      "text": "The concept of MVP, which is so widely popular in the SaaS product management world, has a whole new meaning here at Waymo when you work in a product like this because safety is on top of mind for all of us and can't really cut corners on safety. The MVP bar itself for safety is extremely high for us.",
+      "timestamp": "10:04",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 91,
+        "lineEnd": 93
+      },
+      "themes": ["mvp", "safety", "product-management"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "shweta-shriva-q004",
+      "speaker": "Shweta Shrivastava",
+      "text": "We had to integrate this into our design philosophy from the very beginning that this has to feel credible, predictable and the writers have to be able to trust the system. So that has been sort of the core of the design philosophy.",
+      "timestamp": "12:38",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 101,
+        "lineEnd": 101
+      },
+      "themes": ["design-philosophy", "trust", "predictability"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "shweta-shriva-q005",
+      "speaker": "Shweta Shrivastava",
+      "text": "The goal here is to be able to drive safer than humans. Now, we don't really have one standard human driving benchmark, safety benchmark, that everybody uses, but we do gather enough of that data. We have access to enough of that data to form an opinion on or a metric on or benchmark on what does human driving look like, how many collisions, as an example, a human driver would have every a hundred thousand mile. And then we want to make sure that our performance is better than that.",
+      "timestamp": "17:38",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 121,
+        "lineEnd": 121
+      },
+      "themes": ["metrics", "safety", "benchmarking"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "shweta-shriva-q006",
+      "speaker": "Shweta Shrivastava",
+      "text": "The name of the game here is to show progress, show meaningful progress and meaningful progress, not just in terms of technology but in terms of commercial deployments. That is the rubber meets the road, if you will, phase of the product. And the results have to speak for themselves, for our investors to have the confidence in us.",
+      "timestamp": "23:21",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 151,
+        "lineEnd": 153
+      },
+      "themes": ["stakeholder-management", "momentum", "commercial-scaling"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "shweta-shriva-q007",
+      "speaker": "Shweta Shrivastava",
+      "text": "You have to focus on creating value for the customers, creating value for the riders. You have to build a business that makes sense and the investors see that too. We're not going to do something unnatural or something that doesn't align with the business goals in order to gain any short term brownie points with investors. I think it doesn't work that way and the investors will see through that too.",
+      "timestamp": "24:23",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 155,
+        "lineEnd": 155
+      },
+      "themes": ["customer-value", "business-strategy", "authenticity"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "shweta-shriva-q008",
+      "speaker": "Shweta Shrivastava",
+      "text": "It's also very important to know what you're not building. And this one is not only in big companies, I would say even in startups, it's extremely important to know what you're not building because you could very easily get swayed by customer X telling you to do this, customer Y telling you to do that. And a product that tries to be all things to all people usually doesn't end up going anywhere.",
+      "timestamp": "27:13",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 175,
+        "lineEnd": 175
+      },
+      "themes": ["prioritization", "focus", "product-strategy"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "shweta-shriva-q009",
+      "speaker": "Shweta Shrivastava",
+      "text": "I have definitely learned the lesson that you need to disrupt yourself before somebody else does because it's going to happen. It's inevitable. And large companies that are constantly challenging themselves and disrupting their own models or their own product capabilities to bring those, even something more transformational for the customers, are the ones that really succeed.",
+      "timestamp": "28:16",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 179,
+        "lineEnd": 179
+      },
+      "themes": ["innovation", "self-disruption", "strategy"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "shweta-shriva-q010",
+      "speaker": "Shweta Shrivastava",
+      "text": "You really have to come in with that growth mindset, with that beginner's mindset, be able to absorb and just learn and listen and don't jump in with ideas necessarily. Take the time to formulate that opinion to really learn and understand the customer and the market and really be true to that tenant of working backwards from the customer problem, not just say because it's become such a platitude now in the product world.",
+      "timestamp": "30:02",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 188,
+        "lineEnd": 188
+      },
+      "themes": ["listening", "empathy", "customer-discovery"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "shweta-shriva-q011",
+      "speaker": "Shweta Shrivastava",
+      "text": "Challenging your own assumptions is extremely important. As a big enough product manager as well as a seasoned product leader, if you're not doing enough of that, then I think you might not be listening well. If there's no conflict, if there's no contention, then something is missing.",
+      "timestamp": "32:24",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 205
+      },
+      "themes": ["self-awareness", "assumptions", "conflict"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "shweta-shriva-q012",
+      "speaker": "Shweta Shrivastava",
+      "text": "The way to get promoted is to not want it too badly. It is about you have to focus on the impact. It's about having an impact and then doing what is right for the business. So not sort of optimizing things for your promotion. Are you working on the right things that will have the right outcome for the business? Because if you are and if you are giving it to your 100%, that will be visible.",
+      "timestamp": "33:28",
+      "source": {
+        "slug": "shweta-shriva",
+        "path": "episodes/shweta-shriva/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 215
+      },
+      "themes": ["career-growth", "impact", "promotion"],
+      "zones": ["focus", "alignment"]
+    }
+  ],
+  "themes": ["product-management", "safety", "trust", "prioritization", "self-disruption", "customer-value", "career-growth", "autonomous-driving"],
+  "takeaways": [
+    "MVP has a different meaning when safety is paramount -- you can't cut corners, so the minimum bar itself must be extremely high, fundamentally reshaping how you scope and ship.",
+    "Knowing what you're NOT building is as important as knowing what you are -- a product that tries to be all things to all people usually ends up going nowhere.",
+    "You need to disrupt yourself before somebody else does -- large companies that constantly challenge their own models and capabilities are the ones that truly succeed.",
+    "Show meaningful progress to maintain stakeholder buy-in -- results must speak for themselves through both technology advancement and commercial deployment, not short-term brownie points.",
+    "Challenge your own assumptions relentlessly -- if there's no conflict or contention in your product decisions, something is missing and you're probably not listening well enough."
+  ],
+  "zone_influence": {
+    "velocity": 0.08,
+    "perfection": 0.20,
+    "discovery": 0.18,
+    "data": 0.07,
+    "intuition": 0.07,
+    "alignment": 0.10,
+    "chaos": 0.12,
+    "focus": 0.18
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "shweta-shriva-q003",
+      "why": "Challenges the sacred MVP concept in product management -- argues that in safety-critical products, the MVP bar must be extremely high, pushing back against the dominant ship-fast-and-iterate culture",
+      "related_zones": ["perfection", "focus"]
+    },
+    {
+      "quoteId": "shweta-shriva-q012",
+      "why": "Counter-intuitive career advice that the way to get promoted is to not want it too badly -- contradicts hustle culture and self-advocacy norms in tech",
+      "related_zones": ["focus", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["autonomous-driving", "product-management", "safety", "stakeholder-management"]
+  }
+}

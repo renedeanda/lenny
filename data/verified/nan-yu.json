@@ -1,0 +1,194 @@
+{
+  "slug": "nan-yu",
+  "quotes": [
+    {
+      "id": "nan-yu-001",
+      "speaker": "Nan Yu",
+      "text": "People talk about this as if there were a trade-off almost in a naive way because when they think about speed, the thing they over index on is rushing or being sloppy, and what they should be indexing on is being really competent or being like an expert. If you look at people who are at the pinnacle of their craft, you can basically tell how good the output is going to be of their work product by how fast they're going.",
+      "timestamp": "00:08:20",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 96,
+        "lineEnd": 97
+      },
+      "themes": ["speed-vs-quality", "craft", "expertise"],
+      "zones": ["velocity", "perfection"]
+    },
+    {
+      "id": "nan-yu-002",
+      "speaker": "Nan Yu",
+      "text": "Speed... What it really looks like is you have some rough time budget for how long you think something's going to take, and by the time 10% of it has passed, you have a workable solution. It's not like, 'Oh, at the halfway point, we have something that is maybe a candidate that we can play around with.' It's like, no, no, no. After week one you have something that works that tests some kind of key hypothesis internally.",
+      "timestamp": "00:09:36",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 103
+      },
+      "themes": ["speed", "iteration", "prototyping"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "nan-yu-003",
+      "speaker": "Nan Yu",
+      "text": "We don't have any expectation that the first version of it is going to be great. That is not in the cards. The first version of it is our best guess in the general direction of what we want to actually ship in the end. So, no one feels like they have to be a perfectionist and get everything all sanded down and really in tip-top shape. It just has to work and get the job done and validate or invalidate our major assumptions.",
+      "timestamp": "00:10:43",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 115
+      },
+      "themes": ["iteration", "mvp", "assumptions"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "nan-yu-004",
+      "speaker": "Nan Yu",
+      "text": "The stuff that we absolutely have to say no to is also the exact kind of thing that leads to this bloatedness that makes ICs hate their lives, and it's very specific. It's customization features requested by middle managers in order to make reporting a little bit easier at the cost of making IC workflows worse.",
+      "timestamp": "00:16:14",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 151
+      },
+      "themes": ["product-strategy", "saying-no", "user-advocacy"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "nan-yu-005",
+      "speaker": "Nan Yu",
+      "text": "A trap that a lot of times PMs will fall into is they'll make something, and they'll make some choices in it because maybe it's beautiful or it's elegant, but they don't go the step of like, 'Is reality also beautiful and elegant?' Because reality is ugly sometimes, and if you have a beautiful and elegant solution that doesn't match with reality, it doesn't really matter.",
+      "timestamp": "00:25:36",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 213,
+        "lineEnd": 214
+      },
+      "themes": ["product-reality", "user-research", "pragmatism"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "nan-yu-006",
+      "speaker": "Nan Yu",
+      "text": "My goal is to feel bad in the same way that customers feel bad. They come to us with a request, and it's like there's something motivating it. You can do the normal analytical thing and ask five whys, but you might miss the reason that they actually feel bad for not having this thing. What is the actual emotional valence that is motivating whatever you're telling me?",
+      "timestamp": "00:30:59",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 240,
+        "lineEnd": 241
+      },
+      "themes": ["empathy", "customer-discovery", "emotions"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "nan-yu-007",
+      "speaker": "Nan Yu",
+      "text": "The more competitive your industry is, the more the low-hanging goal-oriented stuff is already picked because every PM from every one of these companies has been asking, 'What's your goal? What is your job to be done?' So, you have to look at things from an angle that other people might not have seen and for me, it's the angle of where are the emotional hooks that you're experiencing as you go through your work day.",
+      "timestamp": "00:34:27",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 258,
+        "lineEnd": 259
+      },
+      "themes": ["competitive-advantage", "emotional-hooks", "product-differentiation"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "nan-yu-008",
+      "speaker": "Nan Yu",
+      "text": "The biggest risk is you didn't see the right choice to begin with. You have these three choices and none of them were right. It's this fourth one that was over in this corner, but you didn't look in that corner, so you never found it. The whole goal of this is to try to expand the search space of what you're trying to do.",
+      "timestamp": "00:46:52",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 321,
+        "lineEnd": 322
+      },
+      "themes": ["creativity", "decision-making", "exploration"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "nan-yu-009",
+      "speaker": "Nan Yu",
+      "text": "If you think about how a lot of B2B software gets created, it's because there was some person in the middle of some giant company who implemented some kind of process, and they turned that process and that tool into a startup. So, when you adopt that tool, you're not just adopting the actual software, you're adopting the idea that this is a practice that you ought to be doing in the first place.",
+      "timestamp": "00:54:38",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 402,
+        "lineEnd": 403
+      },
+      "themes": ["b2b-software", "process", "adoption"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "nan-yu-010",
+      "speaker": "Nan Yu",
+      "text": "Find where the incentives are really misaligned amongst your user base. There's a middle manager that wants really detailed reporting and there's an IC who just really doesn't want to go through all those extra steps, and the incentives for what they want are just very misaligned, and you have to find those situations and be pretty judicious about how you make those trade-offs.",
+      "timestamp": "00:39:54",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 280
+      },
+      "themes": ["incentive-alignment", "user-advocacy", "trade-offs"],
+      "zones": ["alignment", "data"]
+    },
+    {
+      "id": "nan-yu-011",
+      "speaker": "Nan Yu",
+      "text": "The only way to make deadlines real is to take them so seriously that they are basically like a P0 problem, and everything else has to not matter in comparison. Don't have too many of them, and when you do, it's a P0. As a PM, your job is to just cut as much scope as possible to make it possible to hit that deadline.",
+      "timestamp": "00:09:49",
+      "source": {
+        "slug": "nan-yu",
+        "path": "episodes/nan-yu/transcript.md",
+        "lineStart": 546,
+        "lineEnd": 550
+      },
+      "themes": ["deadlines", "scope-management", "prioritization"],
+      "zones": ["focus", "velocity"]
+    }
+  ],
+  "themes": ["speed-vs-quality", "iteration", "user-advocacy", "empathy", "product-strategy", "creativity", "b2b-software", "deadlines"],
+  "takeaways": [
+    "Speed and quality are not a trade-off -- the most skilled practitioners move fastest. Aim to have a workable prototype within the first 10% of your time budget to validate key hypotheses early.",
+    "Protect IC workflows above all else. Say no to customization features requested by middle managers for reporting that degrade the daily experience of individual contributors.",
+    "Go beyond goals and jobs-to-be-done by finding the emotional hooks in your users' workflows. In competitive markets, the low-hanging goal-oriented opportunities are already taken.",
+    "Explore extreme versions of product ideas along specific attributes before settling on the balanced solution. The biggest risk is not seeing the right option because you never expanded the search space.",
+    "B2B software teaches companies how to work, not just solves problems. When building opinionated tools, find consensus among high-performing teams and encode those best practices as default features."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "nan-yu-004",
+      "why": "Explicitly rejects middle-manager-driven customization in B2B, arguing that catering to buyers over users destroys the product",
+      "related_zones": ["focus", "perfection"]
+    },
+    {
+      "quoteId": "nan-yu-007",
+      "why": "Argues that goal-oriented product discovery is commoditized in competitive markets, and emotional hooks are the real untapped opportunity",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-craft", "speed-quality", "user-empathy", "b2b-strategy"]
+  }
+}

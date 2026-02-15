@@ -1,0 +1,194 @@
+{
+  "slug": "crystal-w",
+  "quotes": [
+    {
+      "id": "crystal-w-q001",
+      "speaker": "Crystal Widjaja",
+      "text": "This concept of doing things that are somewhat crazy, but validate a point, doing stuff that don't scale, especially I think is really the bread and butter of what we did at Gojek. We were insanely scrappy.",
+      "timestamp": "00:13:22",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 134,
+        "lineEnd": 134
+      },
+      "themes": ["scrappiness", "experimentation", "growth"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "crystal-w-q002",
+      "speaker": "Crystal Widjaja",
+      "text": "We ended up saying, 'We have this voucher system that we can distribute vouchers in the back end. We obviously know our driver's phone numbers. Why don't we just add them to a WhatsApp group?' We'll add a hundred drivers randomly to a WhatsApp group. We'll tell them, 'Every time you are on a ride with a customer, try to sell them this pitch.'",
+      "timestamp": "00:14:02",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 137,
+        "lineEnd": 137
+      },
+      "themes": ["wizard-of-oz", "experimentation", "scrappiness"],
+      "zones": ["chaos", "velocity", "discovery"]
+    },
+    {
+      "id": "crystal-w-q003",
+      "speaker": "Crystal Widjaja",
+      "text": "Even if you have a sample size of 30, the data you get back, generally, does not change but its precision will. So mathematically speaking, you're going to get the same level of trends, but the precision at which you understand those trends will become more deep if you have more data. But the underlying information that you're getting out of that won't be very different at larger scales.",
+      "timestamp": "00:17:32",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 161
+      },
+      "themes": ["experimentation", "data", "statistics"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "crystal-w-q004",
+      "speaker": "Crystal Widjaja",
+      "text": "What's one step before the user makes that decision? What are the things that they have to do, the things that have to be done? So we're always looking for what is a specific reason that this user might have converted? For things like GoFood it would be things like when does a user try a new merchant if what people are ordering right now or just food that they already trust and know.",
+      "timestamp": "00:18:39",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 173,
+        "lineEnd": 173
+      },
+      "themes": ["user-behavior", "conversion", "trust"],
+      "zones": ["data", "discovery", "intuition"]
+    },
+    {
+      "id": "crystal-w-q005",
+      "speaker": "Crystal Widjaja",
+      "text": "When you think about retention, that's just not specific enough. So there is this mental model that I use from made to stick where they'll tell you like, 'Lenny, think of everything in the world that is orange.' And you're like, 'An orange. What else?' And then if you change that structure with sandbox to think of everything orange that's in a construction site, then you really start to realize and grasp at concrete concepts.",
+      "timestamp": "00:20:41",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 182,
+        "lineEnd": 182
+      },
+      "themes": ["retention", "metrics", "mental-models"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "crystal-w-q006",
+      "speaker": "Crystal Widjaja",
+      "text": "If you have a lot of people landing on a webpage or an app and then not doing anything, then it's probably copy. They haven't even experienced the product, it's clearly not the product that's wrong. So how can you change the copy and resonate with the pain point rather than the solution you are offering so that users understand how to fit themselves into the use case?",
+      "timestamp": "00:22:44",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 194,
+        "lineEnd": 194
+      },
+      "themes": ["conversion", "copy", "growth"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "crystal-w-q007",
+      "speaker": "Crystal Widjaja",
+      "text": "If it's a free product, 60%. It has to be at least 60%. If it's a free product, we go over a week. If it's a paid product, I usually look at that more as maybe 20 to 30%.",
+      "timestamp": "00:25:14",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 206,
+        "lineEnd": 206
+      },
+      "themes": ["retention", "metrics", "benchmarks"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "crystal-w-q008",
+      "speaker": "Crystal Widjaja",
+      "text": "If you are much smaller, your friends and family that better be near close to 80% no matter what, because if you can't even convince the people who care about you to use the product, it probably isn't going to solve the job for anyone else.",
+      "timestamp": "00:25:34",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 212,
+        "lineEnd": 212
+      },
+      "themes": ["retention", "product-market-fit", "startups"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "crystal-w-q009",
+      "speaker": "Crystal Widjaja",
+      "text": "Start with what currently works and currently exists and where you think the biggest constraint is or the best lever is, and then fix that one piece because the entire universe isn't exploding. The world isn't changing so dramatically that your physics change. So I think rooted in reality is very important.",
+      "timestamp": "00:34:15",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 284,
+        "lineEnd": 284
+      },
+      "themes": ["growth-strategy", "constraints", "focus"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "crystal-w-q010",
+      "speaker": "Crystal Widjaja",
+      "text": "The symptom of a bad data tracking approach is you have a ton of rows with a ton of events, but every event has one property or no property being tracked. So an example with Gojek would be when a user lands on the map to select a drop off point, the event would be drop off or map loaded. And the properties there should be things like how many drivers do they see on the screen? What is the pickup location?",
+      "timestamp": "00:44:33",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 356,
+        "lineEnd": 356
+      },
+      "themes": ["analytics", "instrumentation", "data"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "crystal-w-q011",
+      "speaker": "Crystal Widjaja",
+      "text": "You wouldn't believe how great of a salesperson someone can be when you were literally trapped in a car with them going somewhere. And so you have this captive audience, captive attention, you have someone who has the incentive to cross pay or cross sell someone into GoPay. And customers were able to feel the benefit because the driver was explaining it to them directly.",
+      "timestamp": "00:32:59",
+      "source": {
+        "slug": "crystal-w",
+        "path": "episodes/crystal-w/transcript.md",
+        "lineStart": 272,
+        "lineEnd": 272
+      },
+      "themes": ["growth-levers", "acquisition", "creativity"],
+      "zones": ["chaos", "discovery", "velocity"]
+    }
+  ],
+  "themes": ["growth", "experimentation", "data", "retention", "analytics", "scrappiness", "conversion", "metrics", "product-market-fit", "growth-strategy"],
+  "takeaways": [
+    "Run experiments even with tiny sample sizes - 30 data points is infinitely better than zero, and the underlying trends won't change much at larger scales.",
+    "Retention as a goal is too vague - constrain the problem space like a sandbox to find actionable, specific user behaviors you can actually influence.",
+    "Bad analytics instrumentation is the root cause of most failed analytics efforts - track rich event properties that capture the user's context, not just that an event happened.",
+    "Start your growth strategy rooted in reality - understand the physics of your market, product, model, and channels before changing anything, and only change one variable at a time.",
+    "Do things that don't scale to validate hypotheses quickly - Wizard of Oz tests, WhatsApp groups, and screenshots overlaid on apps can prove out ideas before writing a line of code."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.30,
+    "intuition": 0.05,
+    "alignment": 0.05,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "crystal-w-q003",
+      "why": "Argues you should run experiments with just 30 people - most growth teams would say that's statistically meaningless",
+      "related_zones": ["data", "chaos"]
+    },
+    {
+      "quoteId": "crystal-w-q005",
+      "why": "Claims retention as a goal is essentially useless because it's too broad to be actionable - challenges the retention-first orthodoxy",
+      "related_zones": ["data", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["growth", "analytics", "experimentation", "retention"]
+  }
+}

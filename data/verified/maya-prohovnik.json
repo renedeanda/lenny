@@ -1,0 +1,194 @@
+{
+  "slug": "maya-prohovnik",
+  "quotes": [
+    {
+      "id": "maya-prohovnik-001",
+      "speaker": "Maya Prohovnik",
+      "text": "As a PM, one of the biggest things that you're supposed to be is a voice of the user. And the best way to do that is to actually use the product on a daily basis, to deeply understand what experience the user is having. And at Spotify, especially for podcasters, that's why I think it was so valuable that I was a podcaster.",
+      "timestamp": "00:05:03",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 62,
+        "lineEnd": 62
+      },
+      "themes": ["dogfooding", "user-empathy", "product-management"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "maya-prohovnik-002",
+      "speaker": "Maya Prohovnik",
+      "text": "One of the mistakes that I think companies make with dogfooding is that they do it for one week and then they stop. The product team tries it and then they move on to the next thing. Dogfooding to me is like a lifestyle and it has to be something that you're doing all the time.",
+      "timestamp": "00:06:21",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 73,
+        "lineEnd": 74
+      },
+      "themes": ["dogfooding", "product-management", "continuous-discovery"],
+      "zones": ["discovery", "perfection"]
+    },
+    {
+      "id": "maya-prohovnik-003",
+      "speaker": "Maya Prohovnik",
+      "text": "Sometimes you actually need someone in the room who's willing to say, 'I know the data says this, but actually my gut says something different.' You need the conviction to be able to say, 'I know this doesn't look great in the data. Let me tell you from my personal experience as a creator, this is actually going to be the right thing for us.'",
+      "timestamp": "00:10:34",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 103,
+        "lineEnd": 106
+      },
+      "themes": ["intuition", "data-vs-gut", "conviction", "leadership"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "maya-prohovnik-004",
+      "speaker": "Maya Prohovnik",
+      "text": "I think a lot of PMs get into this habit of just endlessly looking at data and doing research instead of just building the thing and seeing if it works. Sometimes you just need to do the thing. If the downside risk is low, just try it.",
+      "timestamp": "00:12:07",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 118,
+        "lineEnd": 119
+      },
+      "themes": ["bias-to-action", "experimentation", "velocity", "decision-making"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "maya-prohovnik-005",
+      "speaker": "Maya Prohovnik",
+      "text": "I always say, if you can make a decision that's reversible quickly, just make it. Even if you're 60% confident, just go. The cost of being wrong and reversing it is way lower than the cost of waiting six months to be 90% confident.",
+      "timestamp": "00:13:30",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 135
+      },
+      "themes": ["decision-making", "velocity", "reversible-decisions"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "maya-prohovnik-006",
+      "speaker": "Maya Prohovnik",
+      "text": "If you can commit upfront to what success looks like, specifically the metrics, before you ship, it becomes so much easier to have those honest conversations after the fact about whether something worked or not. It removes the politics from it.",
+      "timestamp": "00:20:49",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 191
+      },
+      "themes": ["metrics", "accountability", "experimentation", "product-management"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "maya-prohovnik-007",
+      "speaker": "Maya Prohovnik",
+      "text": "I think Radical Candor is the number one most important thing that a leader can do. Tell people the truth. Tell them where they stand. If someone is not performing, tell them early. Don't wait until it's too late.",
+      "timestamp": "00:35:24",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 308
+      },
+      "themes": ["leadership", "radical-candor", "feedback", "management"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "maya-prohovnik-008",
+      "speaker": "Maya Prohovnik",
+      "text": "One of the things that I learned about podcasting that I didn't expect was how good it is for building internal culture. We started doing an internal podcast at Spotify where leaders would interview each other, and it became this really cool way for people to get to know the leadership team.",
+      "timestamp": "00:40:25",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 347,
+        "lineEnd": 349
+      },
+      "themes": ["culture-building", "internal-communication", "podcasting", "leadership"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "maya-prohovnik-009",
+      "speaker": "Maya Prohovnik",
+      "text": "I think the biggest problem that podcasters face today is discovery and audience growth. How do you find new listeners? You have this amazing content and nobody knows about it. That's really the problem that I want to solve at Spotify.",
+      "timestamp": "00:45:56",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 399,
+        "lineEnd": 401
+      },
+      "themes": ["discovery", "growth", "podcasting", "platform-strategy"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "maya-prohovnik-010",
+      "speaker": "Maya Prohovnik",
+      "text": "We had this philosophy called 'Two-Way Door' that we got from Amazon. If a decision is a two-way door, meaning you can walk through it and come back, make it fast. If it's a one-way door, take your time. Most decisions in product are two-way doors.",
+      "timestamp": "00:50:30",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 434,
+        "lineEnd": 437
+      },
+      "themes": ["decision-making", "velocity", "reversible-decisions", "amazon-principles"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "maya-prohovnik-011",
+      "speaker": "Maya Prohovnik",
+      "text": "I always tell my team the biggest problem that I want to solve for podcasters is discovery and audience growth, and I really think we can be the ones to do it.",
+      "timestamp": "00:59:45",
+      "source": {
+        "slug": "maya-prohovnik",
+        "path": "episodes/maya-prohovnik/transcript.md",
+        "lineStart": 520,
+        "lineEnd": 520
+      },
+      "themes": ["mission", "podcasting", "platform-strategy", "focus"],
+      "zones": ["focus", "discovery"]
+    }
+  ],
+  "themes": ["dogfooding", "user-empathy", "product-management", "continuous-discovery", "intuition", "data-vs-gut", "conviction", "leadership", "bias-to-action", "experimentation", "velocity", "decision-making", "reversible-decisions", "metrics", "accountability", "radical-candor", "feedback", "management", "culture-building", "internal-communication", "podcasting", "growth", "platform-strategy", "amazon-principles", "mission", "focus"],
+  "takeaways": [
+    "Dogfooding should be a lifestyle, not a one-week exercise -- deeply using your own product every day makes you the authentic voice of the user in every product decision.",
+    "When data and gut disagree, have the conviction to follow your gut on reversible decisions -- you need someone in the room willing to challenge the spreadsheet.",
+    "Most product decisions are two-way doors -- if you're 60% confident and it's reversible, just ship it; the cost of delay far exceeds the cost of being wrong.",
+    "Define success metrics before you ship, not after -- pre-committing to what success looks like removes politics from post-launch evaluations.",
+    "Radical Candor is the most important leadership skill: tell people the truth about where they stand early and often, especially when they're underperforming."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.10,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.10,
+    "chaos": 0.10,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "maya-prohovnik-003",
+      "why": "In a data-driven culture like Spotify, arguing for gut over data takes real conviction -- most PMs default to 'what the data says.'",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "maya-prohovnik-004",
+      "why": "Challenges the common PM habit of over-researching before building -- argues that endless analysis is often a disguised form of indecision.",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["podcasting", "product-management", "dogfooding", "decision-making", "platform-strategy"]
+  }
+}

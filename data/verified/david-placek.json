@@ -1,0 +1,199 @@
+{
+  "slug": "david-placek",
+  "quotes": [
+    {
+      "id": "david-placek-q001",
+      "speaker": "David Placek",
+      "text": "Your brand name, whether it's a product name or a company name, nothing's going to be used more often or for longer than that name. Design will change, messaging will change, products will change, but that name is there.",
+      "timestamp": "00:14:49",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 114
+      },
+      "themes": ["branding", "naming", "longevity"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "david-placek-q002",
+      "speaker": "David Placek",
+      "text": "Most clients, they come to a naming project absolutely believing with full confidence that they're going to know it when they see it, and the truth is it almost never happens. Humans do like to be comfortable. Part of our job here is to help people to give the confidence going bigger and being uncomfortable.",
+      "timestamp": "00:08:07",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 81,
+        "lineEnd": 84
+      },
+      "themes": ["naming", "psychology", "boldness"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "david-placek-q003",
+      "speaker": "David Placek",
+      "text": "Our conversations always start with, 'Talk to us about how you behave now and how you want to behave in the future,' as opposed to, 'Tell me about your positioning, tell me about your values, tell me about your mission.' That's really kind of old thinking.",
+      "timestamp": "00:10:54",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 93
+      },
+      "themes": ["naming-process", "behavior", "strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "david-placek-q004",
+      "speaker": "David Placek",
+      "text": "We don't use large brainstorming sections. Along the way through some analysis, we really discovered that that was not really working for us. That actually, the names were coming from employees and from small groups. And so we've moved our process to, at least, two or three small teams of two people.",
+      "timestamp": "00:21:44",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 148
+      },
+      "themes": ["creativity", "process", "team-structure"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "david-placek-q005",
+      "speaker": "David Placek",
+      "text": "Each team gets a different briefing. One team knows everything about the project but the other teams don't. If we're working for Microsoft, the second team thinks they're working for Apple. And then the third team, we take it out of computers, and they might be naming a bicycle or a car. Most of our names have come out of the second or third team because they're free to make all kinds of mistakes.",
+      "timestamp": "00:22:41",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 150
+      },
+      "themes": ["creativity", "disguised-briefs", "innovation"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "david-placek-q006",
+      "speaker": "David Placek",
+      "text": "V, from our research that we've done, is the most alive and vibrant sound in the English alphabet. And that's whether you were born in Rome or in Sausalito, California. B, the sound of the letter B is one of the most reliable sounds in the English alphabet. That was one of our rationales, by the way, for Blackberry.",
+      "timestamp": "00:46:11",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 297
+      },
+      "themes": ["linguistics", "sound-symbolism", "naming"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "david-placek-q007",
+      "speaker": "David Placek",
+      "text": "Windsurf checks all the boxes. It's a wonderful image, it's an experience. It's a compound, two words put together. We know from the research we've invested in that compounds like Powerbook or Facebook are multipliers of associations because there's wind and there's circles around that, and then there's surf images around that. So 1 + 1 = 3.",
+      "timestamp": "00:33:49",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 219,
+        "lineEnd": 219
+      },
+      "themes": ["compound-names", "naming", "associations"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "david-placek-q008",
+      "speaker": "David Placek",
+      "text": "We look for polarization. We look for tension in a team arguing about these things, because we think that polarization is a sign of strength in the word. Andy Grove told me, 'I see the polarization here amongst people. That tells me there's energy for Pentium here.' And I've never forgotten that.",
+      "timestamp": "01:08:38",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 453,
+        "lineEnd": 456
+      },
+      "themes": ["polarization", "naming", "decision-making"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "david-placek-q009",
+      "speaker": "David Placek",
+      "text": "At this point, it doesn't really matter at all. The .com or URL address has become an area code. And whether you're in 415 or 615, it doesn't really matter to people. And now with AI, SEO is going to be less important. The principle in play is let's get the right name first.",
+      "timestamp": "01:11:10",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 474,
+        "lineEnd": 474
+      },
+      "themes": ["domain-names", "naming", "seo"],
+      "zones": ["chaos", "focus"]
+    },
+    {
+      "id": "david-placek-q010",
+      "speaker": "David Placek",
+      "text": "Processing fluency, which is when you think about how the brain processes information. We're told by a number of cognitive science that our brains are a little bit on the lazy side. We don't like complex things. And so, we really strive to make all of our solutions relatively easy for the brain to process.",
+      "timestamp": "00:49:26",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 309,
+        "lineEnd": 309
+      },
+      "themes": ["cognitive-science", "naming", "simplicity"],
+      "zones": ["data", "perfection"]
+    },
+    {
+      "id": "david-placek-q011",
+      "speaker": "David Placek",
+      "text": "You don't want to make a statement here. You want to start a story. And Azure is going to behave differently in the marketplace than Cloud Pro.",
+      "timestamp": "00:13:27",
+      "source": {
+        "slug": "david-placek",
+        "path": "episodes/david-placek/transcript.md",
+        "lineStart": 108,
+        "lineEnd": 108
+      },
+      "themes": ["naming", "storytelling", "differentiation"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["branding", "naming", "creativity", "linguistics", "sound-symbolism", "polarization", "boldness", "process", "cognitive-science", "storytelling"],
+  "takeaways": [
+    "You won't know the right name when you see it - humans default to comfort and familiarity, but the most powerful brand names create discomfort and polarization, which signals strength.",
+    "Small disguised teams outperform large brainstorms - the best names come from teams that don't even know the real assignment, because they're free to make creative mistakes.",
+    "Every letter of the alphabet has a measurable emotional signal - V is vibrant and alive, B signals reliability, Z creates noise, and understanding these sounds creates asymmetric naming advantage.",
+    "Compound names (two words combined) are multipliers of association - Windsurf, PowerBook, and Facebook create richer mental imagery than single coined words because 1+1=3.",
+    "A name should start a story, not make a statement - descriptive names like 'Cloud Pro' limit you, while evocative names like 'Azure' create space for the brand to grow into."
+  ],
+  "zone_influence": {
+    "velocity": 0.00,
+    "perfection": 0.10,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.25,
+    "alignment": 0.00,
+    "chaos": 0.20,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "david-placek-q002",
+      "why": "Claims you will almost never 'know it when you see it' - directly challenges the common intuition-first approach to naming decisions",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "david-placek-q005",
+      "why": "The best names come from teams that don't know the real assignment - counterintuitive that less context produces better creative output",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "david-placek-q009",
+      "why": "Claims .com domains don't matter at all anymore - challenges the widespread belief that you must have the .com to be legitimate",
+      "related_zones": ["chaos", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["brand-naming", "creativity", "linguistics", "marketing"]
+  }
+}

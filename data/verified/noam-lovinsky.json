@@ -1,0 +1,194 @@
+{
+  "slug": "noam-lovinsky",
+  "quotes": [
+    {
+      "id": "noam-lovinsky-001",
+      "speaker": "Noam Lovinsky",
+      "text": "One of the things that I remember doing really on is actually talking to the leadership team and being like, 'I don't think we should be putting 50 engineers on this project. Looking at the rest of the roadmap and the rest of the priorities, I think this team would likely be better served elsewhere.' Even though that was likely negotiating my way out of a job in month three.",
+      "timestamp": "00:10:26",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": ["prioritization", "selflessness", "organizational-health"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "noam-lovinsky-002",
+      "speaker": "Noam Lovinsky",
+      "text": "In the right organizations, even in large organizations, advocate for what's best for the team, advocate for what's best for the organization even if that means that it puts you at a particular difficult moment. If it is a healthy team that rewards those sorts of decisions and actions, good things will happen. If it's not, that's good to know too. That's good to know early.",
+      "timestamp": "00:11:39",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 148,
+        "lineEnd": 148
+      },
+      "themes": ["leadership", "organizational-health", "career"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "noam-lovinsky-003",
+      "speaker": "Noam Lovinsky",
+      "text": "I went to Salar and said, 'Hey, I think I should actually report to Hunter. I think this would work better if we kind of combined the organizations this way and then we divided and conquered this way.' Very atypical, no one has ever come to me in my career and said, 'I would like you to layer me in this other person.'",
+      "timestamp": "00:13:41",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 154,
+        "lineEnd": 154
+      },
+      "themes": ["self-awareness", "career", "humility"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "noam-lovinsky-004",
+      "speaker": "Noam Lovinsky",
+      "text": "What kills most projects most early companies is stamina. And so many of these things that are so high ambiguity where you don't know exactly what to build, they require just an ungodly level of faith and stamina. When you see a team that is motivated, that is building something like they're really excited about, the inertia, the quality, it's like a whole different game.",
+      "timestamp": "00:19:56",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["resilience", "team-energy", "startups"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "noam-lovinsky-005",
+      "speaker": "Noam Lovinsky",
+      "text": "Growth masks all problems. You don't really have a true understanding of what is working well and what is not working well when you have incredible growth. And I think as a PM, if you've only ever worked on things that grow and you've never felt the other side of that, I think you lose a lot in your career if you don't experience that.",
+      "timestamp": "00:24:24",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 196
+      },
+      "themes": ["growth", "self-awareness", "learning"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "noam-lovinsky-006",
+      "speaker": "Noam Lovinsky",
+      "text": "I'm kind of naturally paranoid. And especially as I manage growth, I often look at things and ask myself like, 'Okay, what do I do right now if it went negative? How would I prioritize things if it went negative?' Having gone through that experience, I just look at things in a different way of urgency.",
+      "timestamp": "00:25:58",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 202
+      },
+      "themes": ["paranoia", "resilience", "prioritization"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "noam-lovinsky-007",
+      "speaker": "Noam Lovinsky",
+      "text": "No one can be a bystander on product strategy. Just because you've got product in your title doesn't mean you're the only one that should be thinking about product strategy. The CFO, the head of people, everyone needs to have a seat at the table when it comes to product strategy.",
+      "timestamp": "00:36:39",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 262,
+        "lineEnd": 262
+      },
+      "themes": ["strategy", "cross-functional", "leadership"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "noam-lovinsky-008",
+      "speaker": "Noam Lovinsky",
+      "text": "If you're a large organization and you do some performance management process like twice a year and that's how you're going to evaluate and incentivize people in your 0 to 1 incubator, you've already killed it. It's the wrong incentive, it's the wrong timeframe. It creates adverse selection problems for the sort of people that you bring in.",
+      "timestamp": "00:46:26",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 316
+      },
+      "themes": ["incentives", "innovation", "0-to-1"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "noam-lovinsky-009",
+      "speaker": "Noam Lovinsky",
+      "text": "Grammarly is one of the few products where you just install it and it makes you better. You don't have to configure it, you don't have to manipulate it, you don't have to change anything about what you're doing. It takes a very, very small amount of effort to tap on one of those things, get some value and keep going. It's essentially a huge AI achievement masquerading as a little UX innovation.",
+      "timestamp": "00:52:14",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 340,
+        "lineEnd": 343
+      },
+      "themes": ["product-design", "AI", "user-experience"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "noam-lovinsky-010",
+      "speaker": "Noam Lovinsky",
+      "text": "I always try to prioritize putting myself in positions that are going to cause a lot of growth and learning. And growth and learning can be very painful. And you kind of got to be okay with that and go into that because on the other side of that pain I think is the promised land.",
+      "timestamp": "00:59:37",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 388,
+        "lineEnd": 388
+      },
+      "themes": ["career", "growth-mindset", "resilience"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "noam-lovinsky-011",
+      "speaker": "Noam Lovinsky",
+      "text": "In any situation you should be able to lean on one or two things that you're really strong at. That can be the foundation that keeps you going while you learn the other things. So just be wary of situations that are too net new.",
+      "timestamp": "01:01:24",
+      "source": {
+        "slug": "noam-lovinsky",
+        "path": "episodes/noam-lovinsky/transcript.md",
+        "lineStart": 397,
+        "lineEnd": 397
+      },
+      "themes": ["career", "self-awareness", "balance"],
+      "zones": ["focus", "intuition"]
+    }
+  ],
+  "themes": ["career-growth", "organizational-health", "resilience", "0-to-1-innovation", "growth-leadership", "cross-functional-strategy", "product-led-growth"],
+  "takeaways": [
+    "Advocate for what's best for the organization even when it costs you personally - killing your own project or asking to be layered under someone else builds more trust and career capital than protecting your turf.",
+    "Growth masks all problems - teams only discover true product-market fit gaps when growth slows or reverses, making downturns the most important learning opportunities in a PM's career.",
+    "Creating startups within large companies requires fundamentally different incentive systems - standard performance review cycles and promotion timelines destroy the stamina and risk-taking needed for 0-to-1 innovation.",
+    "No one can be a bystander on product strategy - in hard times especially, the entire leadership team (CFO, head of people, everyone) must have fingerprints on company strategy to rally the organization.",
+    "Prioritize career moves that stretch you, not ones that feel safe - lean on one or two strengths as your foundation while seeking roles that force growth in areas you haven't mastered."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.10,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.25,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "noam-lovinsky-001",
+      "why": "Argues you should advocate to kill your own project if it's not the best use of company resources - radical selflessness over self-preservation",
+      "related_zones": ["alignment", "focus"]
+    },
+    {
+      "quoteId": "noam-lovinsky-005",
+      "why": "Growth masks all problems - challenges the assumption that growing companies have things figured out, argues PMs need to experience downturns",
+      "related_zones": ["data", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["career-growth", "0-to-1", "turnarounds", "product-leadership", "innovation"]
+  }
+}

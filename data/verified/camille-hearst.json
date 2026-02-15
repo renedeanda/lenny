@@ -1,0 +1,194 @@
+{
+  "slug": "camille-hearst",
+  "quotes": [
+    {
+      "id": "camille-hearst-001",
+      "speaker": "Camille Hearst",
+      "text": "One of the things that we also know is it's not just the big huge superstars who have those rabid and super engaged fan bases. People are really passionate just about supporting the artists that they love in general. And on Spotify, we want to figure out ways we can help that result in more money that goes directly to the artist.",
+      "timestamp": "00:05:08",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 115,
+        "lineEnd": 121
+      },
+      "themes": ["monetization", "creator-economy", "fan-engagement"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "camille-hearst-002",
+      "speaker": "Camille Hearst",
+      "text": "We call it internally the hamster wheel of content creation. You get on because you love it and then how do you get off. So it's actually an interesting challenge for platforms to think about where can they add value, are there ways to make the content creation process that much easier.",
+      "timestamp": "00:12:52",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 217
+      },
+      "themes": ["creator-burnout", "platform-value", "sustainability"],
+      "zones": ["focus", "chaos"]
+    },
+    {
+      "id": "camille-hearst-003",
+      "speaker": "Camille Hearst",
+      "text": "I actually think it's great that there's platforms who have stepped in and said, 'Let us insert ourselves in the center, let us aggregate, and let us do the hard work of pricing and payment and tax and finance.' It's almost like the perfect marketplace solution. But it's hard because if the supplier doesn't want to actually make money.",
+      "timestamp": "00:11:05",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 205
+      },
+      "themes": ["marketplaces", "monetization", "creator-challenges"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "camille-hearst-004",
+      "speaker": "Camille Hearst",
+      "text": "Consistency and predictability of content creation goes a long way. It's almost like the 10,000 hours. You have to do 10,000 hours of something in order to truly master it. I started at YouTube in 2010 and even back then, that continues to be one of the top pieces of advice.",
+      "timestamp": "00:19:54",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 316,
+        "lineEnd": 322
+      },
+      "themes": ["creator-success", "consistency", "growth"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "camille-hearst-005",
+      "speaker": "Camille Hearst",
+      "text": "In a world with all of this content, there continues to be a need and a space for the curator. A curator is almost like what a record label or a radio station plays. There is a degree of having a brand, having something you stand for, having a vibe or an ethos. Figure out who are those curators who you can associate your content with.",
+      "timestamp": "00:21:32",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 328,
+        "lineEnd": 331
+      },
+      "themes": ["curation", "content-strategy", "distribution"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "camille-hearst-006",
+      "speaker": "Camille Hearst",
+      "text": "A lot of people talk about marketplaces as chicken and egg. I actually just think they're two-sided and you start with the supply. You can optimize for the demand side, but I experienced firsthand the pain of having built this great operations and gray UI and then you open that app and you can't get a ride because there aren't enough cars available.",
+      "timestamp": "00:31:31",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 424,
+        "lineEnd": 427
+      },
+      "themes": ["marketplaces", "supply-side", "growth"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "camille-hearst-007",
+      "speaker": "Camille Hearst",
+      "text": "At the core, every creator needs two things. They need to grow an audience and they need to get paid so that they can make a living. And in some ways, I do think that growing an audience is more important because with that audience, it opens up opportunities in ways that you can monetize.",
+      "timestamp": "00:46:24",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 634,
+        "lineEnd": 637
+      },
+      "themes": ["creator-economy", "audience-building", "monetization"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "camille-hearst-008",
+      "speaker": "Camille Hearst",
+      "text": "I think we should have been talking to potential acquirers from the beginning and sharing our vision. We started those quite late in our journey as a company. When I met a potential CPO who would acquire the company, it was their first time meeting me whereas if it had been their fifth time, we would've had a relationship established.",
+      "timestamp": "00:25:31",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 361,
+        "lineEnd": 364
+      },
+      "themes": ["M&A", "founder-advice", "relationships"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "camille-hearst-009",
+      "speaker": "Camille Hearst",
+      "text": "At Apple, it was very much 'Let's tinker and let's craft and let's build and let's see what feels right.' There's different approaches. The approach to product management was quite different from Google where there are a lot more people from McKinsey and Bain doing 3D chess strategy.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 607,
+        "lineEnd": 610
+      },
+      "themes": ["product-culture", "Apple", "craftsmanship"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "camille-hearst-010",
+      "speaker": "Camille Hearst",
+      "text": "One of my favorite takeaways is taking the things that are the biggest swings and prioritizing those first in terms of product discovery. If you constantly put those off in favor of the lower risk or more predictable smaller swings, how are you ever going to truly innovate and get to the next level.",
+      "timestamp": "00:54:04",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 757,
+        "lineEnd": 760
+      },
+      "themes": ["prioritization", "innovation", "risk-taking"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "camille-hearst-011",
+      "speaker": "Camille Hearst",
+      "text": "It was probably predictable that platforms would win because of the nature of aggregation. Once you have either all of the supply or you've aggregated the demand, it's a really strong network effect. I wouldn't underestimate the strategic ability of some of the big platforms. They were definitely thinking ahead.",
+      "timestamp": "00:15:14",
+      "source": {
+        "slug": "camille-hearst",
+        "path": "episodes/camille-hearst/transcript.md",
+        "lineStart": 238,
+        "lineEnd": 241
+      },
+      "themes": ["platforms", "network-effects", "strategy"],
+      "zones": ["data", "focus"]
+    }
+  ],
+  "themes": ["monetization", "creator-economy", "fan-engagement", "creator-burnout", "platform-value", "sustainability", "marketplaces", "creator-challenges", "consistency", "growth", "curation", "content-strategy", "distribution", "supply-side", "audience-building", "M&A", "founder-advice", "relationships", "product-culture", "Apple", "craftsmanship", "prioritization", "innovation", "risk-taking", "platforms", "network-effects", "strategy"],
+  "takeaways": [
+    "The creator economy hamster wheel is real — platforms need to find ways to smooth out revenue and reduce the burden of constant content creation for creators to sustain their livelihoods",
+    "Marketplaces aren't chicken-and-egg problems — they're two-sided, and you always start with supply because no amount of great UX matters if there's nothing on the shelves",
+    "Consistency and predictability of content creation has been the number one success factor for creators since the early YouTube days in 2010, and it remains true today",
+    "The role of curator as creator is undervalued — in a world drowning in content, trusted tastemakers who can filter and recommend have enormous value",
+    "De-risk your biggest swings first in product discovery — constantly deferring high-risk innovations in favor of safe bets ensures you never truly break through"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.25,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "camille-hearst-006",
+      "why": "Dismisses the popular 'chicken and egg' framing of marketplaces — argues it's not ambiguous at all, you just start with supply, period",
+      "related_zones": ["data", "velocity"]
+    },
+    {
+      "quoteId": "camille-hearst-010",
+      "why": "Argues against safe prioritization — says you should tackle your riskiest, biggest swings first in discovery, not defer them in favor of predictable wins",
+      "related_zones": ["chaos", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["creator-economy", "marketplaces", "monetization"]
+  }
+}

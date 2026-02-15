@@ -1,0 +1,194 @@
+{
+  "slug": "ian-mcallister",
+  "quotes": [
+    {
+      "id": "ian-mcallister-001",
+      "speaker": "Ian McAllister",
+      "text": "If you forget about everything else, forget about politics, forget about promotion, or having a bigger org or whatever, if you simply wake up every day trying to have the biggest impact you can, or if you're a leader trying to use your team to have the biggest impact you can in the company, that's a really good guiding light.",
+      "timestamp": "00:25:37",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 198,
+        "lineEnd": 198
+      },
+      "themes": ["impact", "leadership", "career-growth"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "ian-mcallister-002",
+      "speaker": "Ian McAllister",
+      "text": "Given the same amount of skill intelligence and resources, a product manager with a great innate ability to prioritize is going to generate 5X the impact of someone without that skill.",
+      "timestamp": "00:17:24",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 144
+      },
+      "themes": ["prioritization", "product-management", "leverage"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "ian-mcallister-003",
+      "speaker": "Ian McAllister",
+      "text": "Trust is just built by repeatedly setting and meeting expectations. And I think that's a good mantra to think about as a PM. Am I meeting the expectations that I set? And not just doing good things, but calling your shots, forecasting, setting a goal, and then hitting it.",
+      "timestamp": "00:24:04",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 189
+      },
+      "themes": ["trust", "execution", "goal-setting", "leadership"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "ian-mcallister-004",
+      "speaker": "Ian McAllister",
+      "text": "Trust is the currency of a product manager and a product leader, especially if you're going to grow in your career. If you want to ask for more resources to do something bigger, if your leadership doesn't trust you to use those resources well or do what you said you're going to do, you're probably not going to get them.",
+      "timestamp": "00:13:29",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["trust", "leadership", "resources", "career-growth"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "ian-mcallister-005",
+      "speaker": "Ian McAllister",
+      "text": "You've got to be a clear thinker to be a clear communicator. And so there's two tests in writing well or communicating well. It's both those things. So I found it's pretty valuable in kind of sharpening your ax.",
+      "timestamp": "00:07:42",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 84,
+        "lineEnd": 84
+      },
+      "themes": ["communication", "writing", "clarity"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "ian-mcallister-006",
+      "speaker": "Ian McAllister",
+      "text": "Working backwards is all about the problem and starting there and obsessing about the problem and being guided by it to then go into the solution. When teams do it wrong is they don't do that. They have something they want to build. And if it's not grounded in a customer or customer's problem, you're not working backwards.",
+      "timestamp": "00:47:11",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 303,
+        "lineEnd": 303
+      },
+      "themes": ["working-backwards", "customer-problems", "product-development"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "ian-mcallister-007",
+      "speaker": "Ian McAllister",
+      "text": "He said, 'Remember, this process doesn't have to be efficient because the prerequisite for efficiency is knowing where you're going.' And then he'd leave the room. So I found Jeff to be super encouraging and he found all these times to help train me in the working backwards process.",
+      "timestamp": "00:41:52",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 279,
+        "lineEnd": 279
+      },
+      "themes": ["innovation", "working-backwards", "Jeff-Bezos", "patience"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "ian-mcallister-008",
+      "speaker": "Ian McAllister",
+      "text": "The most common thing that I see that tips me off is when they talk about something, there's different pieces in the pantry and we have these ingredients, we could put them together, we could add these two things together and make a meal out of it. That's not really working backwards.",
+      "timestamp": "00:57:23",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 360,
+        "lineEnd": 360
+      },
+      "themes": ["working-backwards", "anti-patterns", "solution-first-thinking"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "ian-mcallister-009",
+      "speaker": "Ian McAllister",
+      "text": "Being a product leader is not just about building new things, it's about how well you run what you've already built. And if you're really paying attention to the product that you operate, it will give you ideas for things you could do to double down on something that's happening well or to prevent something bad happening.",
+      "timestamp": "00:44:17",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 291,
+        "lineEnd": 291
+      },
+      "themes": ["operations", "continuous-improvement", "product-leadership"],
+      "zones": ["perfection", "data"]
+    },
+    {
+      "id": "ian-mcallister-010",
+      "speaker": "Ian McAllister",
+      "text": "Jeff Bezos said, 'Well it's three things. One, is it a big idea? And then second, is it something we should be doing? And the third test, is there a legitimate plan to succeed? And you got to have all three of those things.'",
+      "timestamp": "00:56:09",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 354,
+        "lineEnd": 354
+      },
+      "themes": ["investment-criteria", "strategy", "Jeff-Bezos", "decision-making"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "ian-mcallister-011",
+      "speaker": "Ian McAllister",
+      "text": "I think Wilke was just great at teaching, taking a moment. It might just take 10 seconds in a meeting to teach. That's something that I've forgotten at different parts of my career. You'll have a lot more lasting effect if you could abstract it to a degree and teach the lesson. Because then that person will hopefully learn the lesson and can apply it to a bunch of future situations.",
+      "timestamp": "00:46:01",
+      "source": {
+        "slug": "ian-mcallister",
+        "path": "episodes/ian-mcallister/transcript.md",
+        "lineStart": 297,
+        "lineEnd": 297
+      },
+      "themes": ["teaching", "leadership", "mentoring", "leverage"],
+      "zones": ["alignment", "perfection"]
+    }
+  ],
+  "themes": ["prioritization", "working-backwards", "trust", "communication", "impact", "execution", "leadership", "product-management", "operations", "decision-making", "teaching", "continuous-improvement"],
+  "takeaways": [
+    "Prioritization is the single highest-leverage PM skill - a great prioritizer generates 5X the impact with identical resources compared to someone without that ability",
+    "Trust is the currency of product leadership, built by repeatedly setting expectations and meeting them - if leadership doesn't trust you, you won't get the resources for bigger bets",
+    "Working backwards means truly starting with the customer problem, not retrofitting a problem onto a solution you already want to build - 'ingredients in the pantry' thinking is the most common anti-pattern",
+    "Product leadership is as much about operating what you've already built as building new things - operational rigor reveals both opportunities and threats",
+    "Focus on impact over promotion - waking up every day trying to have the biggest impact is a better career strategy than optimizing for the next title"
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.10,
+    "intuition": 0.05,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "ian-mcallister-007",
+      "why": "Bezos's insight that innovation doesn't have to be efficient challenges the obsession with speed - you must first know where you're going before optimizing for efficiency",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "ian-mcallister-009",
+      "why": "Argues that operating existing products is as important as building new ones - challenges the common PM desire to always work on greenfield projects",
+      "related_zones": ["perfection", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-management", "working-backwards", "product-leadership"]
+  }
+}

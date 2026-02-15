@@ -1,0 +1,199 @@
+{
+  "slug": "josh-miller",
+  "quotes": [
+    {
+      "id": "josh-miller-q001",
+      "speaker": "Josh Miller",
+      "text": "What we do at The Browser Company is we talk about optimizing feelings. How do we want to make someone feel on the other end of our software? Do we want to make them feel joy? Do we want to make them feel fast? Do we want to make them feel organized? Do we want to make them feel focused? What is the feeling we are trying to evoke in whatever we're doing on a specific project, or a specific feature, or a specific piece of storytelling content?",
+      "timestamp": "00:11:31",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 131,
+        "lineEnd": 131
+      },
+      "themes": ["product-philosophy", "user-experience", "design", "feelings"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "josh-miller-q002",
+      "speaker": "Josh Miller",
+      "text": "We want people that show up to our company with some fire in their belly, something that they are out to do. And for each person it's a little bit different. For some people it may be UI Craft details. For other people, it may be achieving double the performance with a quarter of the engineering headcount. Everyone has something, but they show up with this heartfelt intensity. And I think even relative to everything else, I'm going to say, that's it.",
+      "timestamp": "00:20:11",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 172,
+        "lineEnd": 172
+      },
+      "themes": ["hiring", "culture", "team-building", "values"],
+      "zones": ["perfection", "chaos"]
+    },
+    {
+      "id": "josh-miller-q003",
+      "speaker": "Josh Miller",
+      "text": "Our second value is assume you don't know. And the value is, even if you're a subject matter expert. We have someone in our company that literally built the first version of Chrome and ran it for 16 years. But he more than anyone embodies this beginner's mind of, 'I have no idea how this should work or what will happen.' And the follow up to that value is, 'So we got to get going.'",
+      "timestamp": "00:21:44",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 176,
+        "lineEnd": 176
+      },
+      "themes": ["culture", "values", "beginner-mindset", "velocity"],
+      "zones": ["discovery", "velocity", "chaos"]
+    },
+    {
+      "id": "josh-miller-q004",
+      "speaker": "Josh Miller",
+      "text": "I view our product as our team. And I know a lot of companies say that. I actually think they probably all mean it. I don't think anyone's being disingenuous, but we really mean it. It is the genesis of this company. It is not a new web browser. It is, let's build the dream team, our dream team. And let's build a way of working that is really fun for us and really speaks to our values.",
+      "timestamp": "00:30:06",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 224,
+        "lineEnd": 224
+      },
+      "themes": ["team-building", "culture", "hiring", "vision"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "josh-miller-q005",
+      "speaker": "Josh Miller",
+      "text": "Our goal of interviews is to convince people not to join The Browser Company. If I have an interview with someone, I don't pitch them and say, 'What do you want to ask me? Anything you want? I'll be super honest, most people shouldn't want to work here.'",
+      "timestamp": "00:30:55",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 227,
+        "lineEnd": 227
+      },
+      "themes": ["hiring", "culture", "authenticity"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "josh-miller-q006",
+      "speaker": "Josh Miller",
+      "text": "From the very first person we hired, we celebrated them publicly. The fact that they joined. And in a very heartfelt way, telling you about them as a person and what they did. Long before we had anyone that anyone would've heard of before working at The Browser Company, just because it was earnest, we were really proud. Again, if you think of our original mandate as building the companies, the product, when our first designer joins, we want to tell everyone about it. That's a product launch.",
+      "timestamp": "00:35:57",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 242,
+        "lineEnd": 242
+      },
+      "themes": ["hiring", "culture", "storytelling", "building-in-public"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "josh-miller-q007",
+      "speaker": "Josh Miller",
+      "text": "Building in public showing you our meetings, uncomfortably so, is an act in, 'If we were them, why should they trust us? Why should anyone trust us?' We have your most sensitive personal data. We have your most sensitive professional data. Why should you trust us if we've had our trust broken again and again?",
+      "timestamp": "00:41:10",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 263,
+        "lineEnd": 263
+      },
+      "themes": ["building-in-public", "trust", "transparency"],
+      "zones": ["alignment", "chaos", "discovery"]
+    },
+    {
+      "id": "josh-miller-q008",
+      "speaker": "Josh Miller",
+      "text": "We don't have PMs at the company. My title at Facebook was Product Manager. I love product management. But, we view it not as a team. We view it as a leader, a role on a project, on an effort. And depending on the projects, different types of people should be a PM.",
+      "timestamp": "00:50:07",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 305
+      },
+      "themes": ["org-design", "product-management", "team-structure"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "josh-miller-q009",
+      "speaker": "Josh Miller",
+      "text": "We have a product that everyone in the world uses, where they're all identical, essentially, interchangeable commodities. And if you can get people to use it, you're going to print money. So, the attributes of that business and that product category mean, you have to win on how much do people love your product and feel an emotional connection to it, and choose your brand, your product over the other, almost not rationally, but emotionally.",
+      "timestamp": "01:10:30",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 422,
+        "lineEnd": 422
+      },
+      "themes": ["product-strategy", "branding", "competitive-advantage", "emotion"],
+      "zones": ["intuition", "perfection", "discovery"]
+    },
+    {
+      "id": "josh-miller-q010",
+      "speaker": "Josh Miller",
+      "text": "One of the things we also have purposely done on the storytelling team and otherwise, let's hire radically different archetypes. Ellis cannot be more different than Nash. Nash cannot be more different than Josh. There's some shared values, there's some shared beliefs, but they're very different. Ditto on the design team. Our design team? They are all over the place in terms of who they are, what they've done, their sensibilities, their aspirations.",
+      "timestamp": "01:00:35",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 358,
+        "lineEnd": 358
+      },
+      "themes": ["hiring", "diversity", "team-building", "culture"],
+      "zones": ["chaos", "discovery", "alignment"]
+    },
+    {
+      "id": "josh-miller-q011",
+      "speaker": "Josh Miller",
+      "text": "When you give something a new name, it sheds a lot of preconceived notions of what the thing should be. We found that even with product. So if you say you're building a browser history feature, then the benefit is everyone knows what you're talking about. And the downside is, everyone knows what you're talking about. And you show up with these preconceived notions of what it has to be.",
+      "timestamp": "01:06:00",
+      "source": {
+        "slug": "josh-miller",
+        "path": "episodes/josh-miller/transcript.md",
+        "lineStart": 392,
+        "lineEnd": 392
+      },
+      "themes": ["product-development", "naming", "first-principles", "creativity"],
+      "zones": ["discovery", "chaos", "intuition"]
+    }
+  ],
+  "themes": ["product-philosophy", "user-experience", "design", "feelings", "hiring", "culture", "team-building", "values", "beginner-mindset", "velocity", "vision", "authenticity", "storytelling", "building-in-public", "trust", "transparency", "org-design", "product-management", "team-structure", "product-strategy", "branding", "competitive-advantage", "emotion", "diversity", "naming", "first-principles", "creativity"],
+  "takeaways": [
+    "Optimize for how your product makes people feel rather than purely for metrics -- feelings like joy, speed, and focus often correlate with the metrics you care about anyway.",
+    "Hire for heartfelt intensity: people who show up with fire in their belly and something to prove will do remarkable work when given an ambitious prompt and the freedom to execute.",
+    "Adopt a 'assume you don't know' mindset that biases toward action -- even domain experts should approach new problems with beginner's mind and start prototyping immediately.",
+    "Treat your team as your product: celebrate people publicly, hire radically different archetypes, and view every new hire as a product launch worth announcing to the world.",
+    "Give teams and features new names to shed preconceived notions and force first-principles thinking about what you are actually trying to accomplish."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.20,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.10,
+    "chaos": 0.15,
+    "focus": 0.05
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "josh-miller-q001",
+      "why": "Challenges the Silicon Valley obsession with metrics by arguing teams should optimize for feelings instead of graphs",
+      "related_zones": ["intuition"]
+    },
+    {
+      "quoteId": "josh-miller-q008",
+      "why": "Rejects having PMs as a dedicated org, viewing product management as a rotating role anyone on the team can fill depending on the project",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "josh-miller-q005",
+      "why": "Flips the standard hiring pitch by trying to convince candidates NOT to join, betting that authenticity attracts stronger hires than salesmanship",
+      "related_zones": ["chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "series-a",
+    "primary_topics": ["product-philosophy", "team-building", "culture", "hiring", "building-in-public"]
+  }
+}

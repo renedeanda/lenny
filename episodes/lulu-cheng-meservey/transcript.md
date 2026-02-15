@@ -1,22 +1,15 @@
 ---
 guest: Lulu Cheng Meservey
-title: Gain attention as an underdog with this framework | Lulu Cheng Meservey
-youtube_url: https://www.youtube.com/watch?v=qKXIBE7KRGo
-video_id: qKXIBE7KRGo
+title: Navigating comms and PR | Lulu Cheng Meservey (Substack, Activision Blizzard)
+youtube_url: https://www.youtube.com/watch?v=LTSEOeKV_Hs
+video_id: LTSEOeKV_Hs
 publish_date: 2023-03-27
-description: 'Lulu Cheng Meservey explains how to use the concentric circles framework
-  to win the hearts and minds of your audience.
-
-  🎙️Find the full episode here: https://youtu.be/LTSEOeKV_Hs
-
-
-  —
-
-  ...
-
-  '
-duration_seconds: 164.0
-duration: '2:44'
+description: 'Lulu Cheng Meservey was formerly head of comms at Substack and is currently
+  the Executive Vice President of Corporate Affairs and Chief Communications Officer
+  at Activision Blizzard. She also writes the newsletter Flack, where she shares tactical
+  advice for company comms, PR, and messaging.'
+duration_seconds: 3783.0
+duration: '1:03:03'
 view_count: 2507
 channel: Lenny's Podcast
 keywords:

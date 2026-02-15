@@ -1,0 +1,213 @@
+{
+  "slug": "kevin-yien",
+  "quotes": [
+    {
+      "id": "kevin-yien-001",
+      "speaker": "Kevin Yien",
+      "text": "When you are building a product, you have this team, engineers, designers, so much potential. The purpose of product management, not the person, but the practice, is to convert that potential into as much realized value for someone as possible. Minimum loss.",
+      "timestamp": "00:03:45",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 102,
+        "lineEnd": 103
+      },
+      "themes": ["product-management", "team-dynamics", "value-creation", "definition"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "kevin-yien-002",
+      "speaker": "Kevin Yien",
+      "text": "Truly not every team needs a product manager, but the activities, the outcome that one would drive needs to get done no matter what. The prototypical companies that everyone references when they say 'They never had product managers' are all building for themselves. When you are the customer, why do you need someone else to help make decisions on what to build?",
+      "timestamp": "00:08:41",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 147,
+        "lineEnd": 148
+      },
+      "themes": ["product-management", "team-structure", "building-for-yourself", "roles"],
+      "zones": ["focus", "discovery"]
+    },
+    {
+      "id": "kevin-yien-003",
+      "speaker": "Kevin Yien",
+      "text": "Writing is clarity at scale. A key component to a PM's job is creating clarity both internally and externally. I'm not saying that every PM needs to be a marketer, but you should be able to write really compelling messaging in the voice of the person that you're trying to serve. If you can't sell or support your own product, I don't trust you to build the product.",
+      "timestamp": "00:13:07",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 189,
+        "lineEnd": 190
+      },
+      "themes": ["writing", "product-management", "communication", "craft"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "kevin-yien-004",
+      "speaker": "Kevin Yien",
+      "text": "PM should be doing everything in their power to draw the perimeter of the problem space. Within that, eng, design, everyone else can go as crazy as they want, push up against the bounds. You've now applied the constraints that allow productive conversations. But you need to be obsessed about the final deliverable and whether or not value is actually getting to the customer.",
+      "timestamp": "00:19:24",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 259
+      },
+      "themes": ["product-management", "constraints", "team-dynamics", "execution"],
+      "zones": ["focus", "perfection"]
+    },
+    {
+      "id": "kevin-yien-005",
+      "speaker": "Kevin Yien",
+      "text": "I think it is tempting when we think about engineering product and design to draw these really clear swim lanes and say, 'You do X. I do Y. Don't tread on my area.' But you need these murky overlaps in order to build something really good. Even if the engineers are going to build better than you, you need to come with a strong opinion.",
+      "timestamp": "00:21:46",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 264,
+        "lineEnd": 268
+      },
+      "themes": ["collaboration", "team-dynamics", "product-management", "ownership"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "kevin-yien-006",
+      "speaker": "Kevin Yien",
+      "text": "We all talk about product sense. It's this super mystical thing that no one knows how to get better at. To me, it's just a fancy way of saying you can make good decisions with insufficient data. PMs need as many reps as possible in making decisions, documenting the rationale behind those decisions, and then crucially seeing the outcome of them.",
+      "timestamp": "00:35:32",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 369,
+        "lineEnd": 376
+      },
+      "themes": ["product-sense", "decision-making", "decision-log", "craft"],
+      "zones": ["data", "intuition"]
+    },
+    {
+      "id": "kevin-yien-007",
+      "speaker": "Kevin Yien",
+      "text": "Look around you. There's other teams making decisions. What would you do if you were in that position with the information you have? Write it down. Say why. There's other companies doing crazy things. What would you do if you were responsible for the roadmap? Write it down. A year later, see what they've shipped. It's free, and no one takes the time to do it.",
+      "timestamp": "00:37:06",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 378,
+        "lineEnd": 379
+      },
+      "themes": ["decision-log", "learning", "product-sense", "deliberate-practice"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "kevin-yien-008",
+      "speaker": "Kevin Yien",
+      "text": "When you get to offer stage, I send an email with no more than eight bullet points and I say all the terrible things that are probably going to reinforce their fears. If you can tell them that upfront and they can read that whole email and still be equally excited to join you, you find yourself an A+ hire.",
+      "timestamp": "00:47:11",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 450,
+        "lineEnd": 460
+      },
+      "themes": ["hiring", "unsell-email", "candor", "recruiting"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "kevin-yien-009",
+      "speaker": "Kevin Yien",
+      "text": "No PM should settle for looking through bent glass. Whether it's a research report, something a salesperson is telling you, market research, it's been processed by someone. PMs need direct exposure to raw material. End of story. If you are in a situation where the PM is literally not allowed to talk to a customer, there is something structurally wrong.",
+      "timestamp": "00:54:17",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 510,
+        "lineEnd": 517
+      },
+      "themes": ["user-research", "customer-obsession", "product-management", "first-hand-data"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "kevin-yien-010",
+      "speaker": "Kevin Yien",
+      "text": "Your sales team is a research team, and if you don't view them that way, you are missing out on half the value. There's tools like Gong where you can set up filters and alerts for specific terms. Those get pushed to Slack, you set up workflows to pull their email, drop in your Calendly, and you just have interviews showing up automatically on your calendar.",
+      "timestamp": "00:56:28",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 522,
+        "lineEnd": 523
+      },
+      "themes": ["user-research", "automation", "sales-as-research", "tooling"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "kevin-yien-011",
+      "speaker": "Kevin Yien",
+      "text": "She turns to me and goes, 'Did I draw that?' She used the word draw. She didn't say, 'I entered a prompt and the LLM produced this thing.' The concept of these image generation models is the same as a crayon to her. There is no difference in her mind. We are not even beneath the dust on the surface when it comes to what's going to change.",
+      "timestamp": "01:03:02",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 573,
+        "lineEnd": 583
+      },
+      "themes": ["ai", "generational-shift", "product-vision", "future"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "kevin-yien-012",
+      "speaker": "Kevin Yien",
+      "text": "There is a difference between you not being good at something and a business not needing that thing at a particular moment, or you being very good at something but not in the way that a company needs. I've seen so many times where someone cannot make it work at company A, then you see them five years later just killing it in company B.",
+      "timestamp": "01:06:25",
+      "source": {
+        "slug": "kevin-yien",
+        "path": "episodes/kevin-yien/transcript.md",
+        "lineStart": 591,
+        "lineEnd": 619
+      },
+      "themes": ["career", "failure", "environment-fit", "identity"],
+      "zones": ["intuition", "chaos"]
+    }
+  ],
+  "themes": ["product-management", "team-dynamics", "value-creation", "definition", "team-structure", "building-for-yourself", "roles", "writing", "communication", "craft", "constraints", "execution", "collaboration", "ownership", "product-sense", "decision-making", "decision-log", "learning", "deliberate-practice", "hiring", "unsell-email", "candor", "recruiting", "user-research", "customer-obsession", "first-hand-data", "automation", "sales-as-research", "tooling", "ai", "generational-shift", "product-vision", "future", "career", "failure", "environment-fit", "identity"],
+  "takeaways": [
+    "Product sense is not mystical - it's the ability to make good decisions with insufficient data, and you improve it by keeping a decision log and getting as many reps as possible, including simulating other teams' decisions.",
+    "PMs should draw the perimeter (constraints) for the team AND obsess over the final deliverable - strategy without caring about the details of what ships is incomplete product management.",
+    "The unsell email is the best hiring hack: at offer stage, send candidates the 8 worst things about joining, and if they're still equally excited, you've found an A+ hire who won't leave in 6 months.",
+    "Automate your customer research pipeline by treating your sales team as a research team - use Gong alerts, Zapier workflows, and automated Calendly scheduling to have interviews show up on your calendar without manual effort.",
+    "When you get laid off or fail, separate the business not needing you from you not being good - the same person who flounders at Company A often thrives at Company B when the environment fits."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.20,
+    "intuition": 0.15,
+    "alignment": 0.05,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "kevin-yien-008",
+      "why": "Goes against conventional recruiting wisdom of selling candidates hard at offer stage - instead deliberately tries to scare them away with the worst aspects of the role",
+      "related_zones": ["perfection", "intuition"]
+    },
+    {
+      "quoteId": "kevin-yien-002",
+      "why": "Challenges the assumption that every team needs a PM - argues that companies building for themselves don't need PMs because the builders are the customers",
+      "related_zones": ["focus", "discovery"]
+    },
+    {
+      "quoteId": "kevin-yien-006",
+      "why": "Demystifies product sense from an innate talent to a trainable skill through deliberate practice of documenting and reviewing decisions - challenges the idea that great PMs are born not made",
+      "related_zones": ["data", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-management", "decision-making", "hiring", "user-research", "writing"]
+  }
+}

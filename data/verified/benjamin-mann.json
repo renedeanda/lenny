@@ -1,0 +1,213 @@
+{
+  "slug": "benjamin-mann",
+  "quotes": [
+    {
+      "id": "benjamin-mann-q001",
+      "speaker": "Benjamin Mann",
+      "text": "People here are so mission oriented and they stay because they get these offers and then they say, 'Well, of course I'm not going to leave because my best case scenario at Meta is that we make money and my best case at Anthropic is we affect the future of humanity and try to make AI flourish and human flourishing go well.'",
+      "timestamp": "00:05:23",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 94
+      },
+      "themes": ["mission", "retention", "talent"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "benjamin-mann-q002",
+      "speaker": "Benjamin Mann",
+      "text": "Progress has actually been accelerating where if you look at the cadence of model releases, it used to be once a year and now we're seeing releases every month or three months. But there's this weird time compression effect. Dario compared it to being in a near light speed journey where a day that passes for you is like five days back on earth.",
+      "timestamp": "00:08:06",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 112,
+        "lineEnd": 112
+      },
+      "themes": ["ai-progress", "scaling-laws", "acceleration"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "benjamin-mann-q003",
+      "speaker": "Benjamin Mann",
+      "text": "I like the term transformative AI because it's less about can it do as much as people do and more about objectively is it causing transformation in society and the economy. A very concrete way of measuring that is the Economic Turing Test -- if you contract an agent for a month on a particular job, if it turns out to be a machine rather than a person, then it's passed the Economic Turing Test for that role.",
+      "timestamp": "00:10:57",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 128
+      },
+      "themes": ["agi", "measurement", "economic-impact"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "benjamin-mann-q004",
+      "speaker": "Benjamin Mann",
+      "text": "If you just think about 20 years in the future where we're way past the singularity, it's hard for me to imagine that even capitalism will look at all like it looks today. If we do our jobs, we will have safe aligned superintelligence, a country of geniuses in a data center, and the ability to accelerate positive change in science, technology, education.",
+      "timestamp": "00:12:56",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 136,
+        "lineEnd": 137
+      },
+      "themes": ["future-of-work", "abundance", "singularity"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "benjamin-mann-q005",
+      "speaker": "Benjamin Mann",
+      "text": "People are really bad at modeling exponential progress. If you look at an exponential on a graph, it looks flat and almost zero at the beginning of it, and then suddenly you hit the knee of the curve and things are changing real fast and then it goes vertical. That's the plot that we've been on for a long time.",
+      "timestamp": "00:15:14",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 145
+      },
+      "themes": ["exponential-progress", "cognitive-bias", "ai-progress"],
+      "zones": ["data", "chaos"]
+    },
+    {
+      "id": "benjamin-mann-q006",
+      "speaker": "Benjamin Mann",
+      "text": "The difference between people who use Claude Code very effectively and people who use it not so effectively is are they asking for the ambitious change? And if it doesn't work the first time, asking three more times because our success rate when you just completely start over and try again is much, much higher than if you just try once.",
+      "timestamp": "00:19:28",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 175,
+        "lineEnd": 176
+      },
+      "themes": ["ai-tools", "ambition", "iteration"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "benjamin-mann-q007",
+      "speaker": "Benjamin Mann",
+      "text": "We felt like safety wasn't the top priority there. And there are good reasons you might think that if you thought safety was going to be easy to solve. But at Anthropic we felt that safety is really important, especially on the margin. If you look at who in the world is actually working on safety problems, it's a pretty small set of people. Maybe less than 1,000 people working on it worldwide.",
+      "timestamp": "00:25:23",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 210,
+        "lineEnd": 211
+      },
+      "themes": ["ai-safety", "mission", "openai"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "benjamin-mann-q008",
+      "speaker": "Benjamin Mann",
+      "text": "We don't want the Monkey Paw Scenario of the genie gives these three wishes and then you end up having everything you touch turns to gold. We want the AI to be like, oh, obviously what you really meant was this, and that's what I'm going to help you with. I think it is really quite connected.",
+      "timestamp": "00:30:16",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 232,
+        "lineEnd": 232
+      },
+      "themes": ["alignment", "ai-safety", "user-intent"],
+      "zones": ["intuition", "perfection"]
+    },
+    {
+      "id": "benjamin-mann-q009",
+      "speaker": "Benjamin Mann",
+      "text": "Once we get to superintelligence, it will be too late to align the models probably. This is a problem that's potentially extremely hard and that we need to be working on way ahead of time. Even if there's only a small chance that things go wrong, if we're talking about the whole future of humanity, it's just a dramatic future to be gambling with.",
+      "timestamp": "00:42:12",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 292
+      },
+      "themes": ["ai-safety", "existential-risk", "urgency"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "benjamin-mann-q010",
+      "speaker": "Benjamin Mann",
+      "text": "I just want her to be happy and thoughtful and curious and kind. If I were in a normal era like 10, 20 years ago and I had a kid, maybe I would be trying to line her up for going to a top tier school and doing all the extracurriculars. But at this point, I don't think any of it's going to matter.",
+      "timestamp": "00:22:45",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 197,
+        "lineEnd": 199
+      },
+      "themes": ["parenting", "ai-future", "curiosity"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "benjamin-mann-q011",
+      "speaker": "Benjamin Mann",
+      "text": "Resting in motion -- some people think that the default state is rest, but actually that was never in the state of evolutionary adaptation. Probably always have something to worry about. I think about that as the busy state is the normal state and to try to work at a sustainable pace that it's a marathon, not a sprint.",
+      "timestamp": "01:00:39",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 400
+      },
+      "themes": ["productivity", "sustainability", "mindset"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "benjamin-mann-q012",
+      "speaker": "Benjamin Mann",
+      "text": "Don't build for today, build for six months from now, build for a year from now. And the things that aren't quite working that are working 20% of the time, will start working 100% of the time. That's really what made Claude Code a success.",
+      "timestamp": "01:06:21",
+      "source": {
+        "slug": "benjamin-mann",
+        "path": "episodes/benjamin-mann/transcript.md",
+        "lineStart": 430,
+        "lineEnd": 430
+      },
+      "themes": ["product-vision", "exponential-thinking", "innovation"],
+      "zones": ["velocity", "discovery"]
+    }
+  ],
+  "themes": ["mission", "retention", "talent", "ai-progress", "scaling-laws", "acceleration", "agi", "measurement", "economic-impact", "future-of-work", "abundance", "singularity", "exponential-progress", "cognitive-bias", "ai-tools", "ambition", "iteration", "ai-safety", "openai", "alignment", "user-intent", "existential-risk", "urgency", "parenting", "ai-future", "curiosity", "productivity", "sustainability", "mindset", "product-vision", "exponential-thinking", "innovation"],
+  "takeaways": [
+    "AI progress is accelerating, not plateauing -- model releases have gone from once a year to every few months, and scaling laws continue to hold across 15+ orders of magnitude.",
+    "The Economic Turing Test provides a concrete way to measure AGI: can an AI agent pass as human when contracted for a job for one to three months across a market basket of roles?",
+    "AI safety and product quality are convex, not at odds -- Anthropic's alignment research directly produced Claude's distinctive personality and character that users love.",
+    "Build products for where AI capabilities will be in 6-12 months, not where they are today -- features working 20% of the time now will work 100% of the time soon.",
+    "Even with only a small probability of catastrophic AI outcomes, the stakes are so high that safety research deserves massive investment now, before superintelligence makes alignment far harder."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.15,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "benjamin-mann-q010",
+      "why": "An Anthropic co-founder at the cutting edge of AI says traditional education milestones like top-tier schools won't matter for today's children, prioritizing curiosity and kindness instead.",
+      "related_zones": ["intuition", "chaos"]
+    },
+    {
+      "quoteId": "benjamin-mann-q004",
+      "why": "Predicts capitalism itself will be unrecognizable in 20 years due to superintelligence creating a world of near-free labor and abundance.",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "benjamin-mann-q009",
+      "why": "Argues we must solve AI alignment BEFORE superintelligence arrives because it will be too late afterwards -- a deeply urgent framing most people dismiss.",
+      "related_zones": ["focus", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["ai-safety", "scaling-laws", "future-of-work"]
+  }
+}

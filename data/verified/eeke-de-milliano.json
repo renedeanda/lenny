@@ -1,0 +1,194 @@
+{
+  "slug": "eeke-de-milliano",
+  "quotes": [
+    {
+      "id": "eeke-de-milliano-001",
+      "speaker": "Eeke de Milliano",
+      "text": "I don't think you can be a good writer, unless you're a clear thinker. And if you couldn't write well, I think it was actually pretty hard to be successful at Stripe, at least in the early days. So I think Stripe just cultivated a lot of really good writers, and by input into that, a lot of really good thinkers.",
+      "timestamp": "00:15:26",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["writing-culture", "clear-thinking", "company-culture"],
+      "zones": ["perfection", "alignment"]
+    },
+    {
+      "id": "eeke-de-milliano-002",
+      "speaker": "Eeke de Milliano",
+      "text": "What Stripe was really good at was just making, not just one or two good decisions. It was making a lot of really good decisions all the time, big or small. And that was quite cultural. There was this humongous respect and enthusiasm for thinking. No one would ever say, 'It's a best practice to do X.' People would be like, 'Well, why?' You had to go a few levels deeper.",
+      "timestamp": "00:14:24",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 185,
+        "lineEnd": 189
+      },
+      "themes": ["first-principles", "decision-making", "culture"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "eeke-de-milliano-003",
+      "speaker": "Eeke de Milliano",
+      "text": "Why isn't every team innovative? No one wakes up in the morning and thinks, 'Yeah, today I want to work on boring, incremental stuff.' But most teams do end up working on pretty incremental stuff. What is it that's stopping folks from being creative and thinking bigger?",
+      "timestamp": "00:21:43",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 267,
+        "lineEnd": 269
+      },
+      "themes": ["innovation", "big-thinking", "creativity"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "eeke-de-milliano-004",
+      "speaker": "Eeke de Milliano",
+      "text": "Leaders want the upside of innovation, but they're not really willing to deal with the cost of innovation. Which is like, if you're going to swing big, you will invariably stumble sometimes. So if you want to mitigate that, you have to start shining light on failure. That's really the only way. You have to start normalizing it a little bit.",
+      "timestamp": "00:22:14",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 271,
+        "lineEnd": 275
+      },
+      "themes": ["failure", "innovation", "leadership"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "eeke-de-milliano-005",
+      "speaker": "Eeke de Milliano",
+      "text": "You have to give teams permission to think. Create these moments in your company culture where you're asking people, you're literally saying, 'This is part of your job to think bigger.' At Retool, at the bottom of every team charter we have a section called Think Bigger. 'With 20% more time, what would you do that isn't on this list already?'",
+      "timestamp": "00:24:45",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 291
+      },
+      "themes": ["big-thinking", "planning", "permission"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "eeke-de-milliano-006",
+      "speaker": "Eeke de Milliano",
+      "text": "Crazy Ideas are ideas that we shouldn't, obviously, do. There's a 90% chance that they make no sense. But in the 10% chance that they do, they will make a 10x to 100x difference for the business. At least one, if not two of the three products that we launched this last year were on the crazy ideas list at one point.",
+      "timestamp": "00:25:39",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 295,
+        "lineEnd": 315
+      },
+      "themes": ["crazy-ideas", "innovation-process", "asymmetric-bets"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "eeke-de-milliano-007",
+      "speaker": "Eeke de Milliano",
+      "text": "We really treated them like startups. Retool's the VC, and Retool funds with resources and Retool's existing customer base. But then the teams really had to prove that ROI. Either in engagement, or eventually revenue, in order to be able to move forward.",
+      "timestamp": "00:35:59",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 413,
+        "lineEnd": 415
+      },
+      "themes": ["startup-within", "resource-allocation", "accountability"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "eeke-de-milliano-008",
+      "speaker": "Eeke de Milliano",
+      "text": "Process, by definition, is variance reducing. While you are reducing the standard and bringing folks up to the average, you're also bringing other folks down to the average. And oftentimes, the folks you're bringing down are your highest performers, your most creative thinkers. The folks who actually don't really need process to do their best work.",
+      "timestamp": "00:39:47",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 455,
+        "lineEnd": 457
+      },
+      "themes": ["process", "variance", "high-performers"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "eeke-de-milliano-009",
+      "speaker": "Eeke de Milliano",
+      "text": "The more formulaic, the more mass produced you're trying to make something, the more you quench people's creativity, and the further away you get from the really, really high highs. That to me is the cost of process, and rules, and templates. So if you're going to introduce it, be really sure that you're okay with that cost. And give folks escape hatches.",
+      "timestamp": "00:41:43",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 473,
+        "lineEnd": 475
+      },
+      "themes": ["process", "creativity", "minimum-viable-process"],
+      "zones": ["chaos", "perfection"]
+    },
+    {
+      "id": "eeke-de-milliano-010",
+      "speaker": "Eeke de Milliano",
+      "text": "Build for your best user, not your worst user. It's actually really easy to get stuck focusing on abuse, or all the ways in which the product won't be used well. And then you end up shaping the product in really weird funky ways to make up for that. The worst users should be a fraction of your users anyway.",
+      "timestamp": "00:45:45",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 519,
+        "lineEnd": 523
+      },
+      "themes": ["user-focus", "product-design", "optimism"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "eeke-de-milliano-011",
+      "speaker": "Eeke de Milliano",
+      "text": "Claire, who used to be the COO of Stripe, would always say, 'Are you willing to break the org for this person?' And I always thought that was a really nice framing. Some people are just that good that yeah, of course you'll break the org for them. They're going to break the org in the best way possible.",
+      "timestamp": "00:45:02",
+      "source": {
+        "slug": "eeke-de-milliano",
+        "path": "episodes/eeke-de-milliano/transcript.md",
+        "lineStart": 501,
+        "lineEnd": 503
+      },
+      "themes": ["talent", "org-design", "high-performers"],
+      "zones": ["chaos", "alignment"]
+    }
+  ],
+  "themes": ["writing-culture", "clear-thinking", "company-culture", "first-principles", "decision-making", "innovation", "big-thinking", "creativity", "failure", "leadership", "planning", "crazy-ideas", "asymmetric-bets", "process", "variance", "high-performers", "minimum-viable-process", "user-focus", "product-design", "talent", "org-design"],
+  "takeaways": [
+    "Stripe's success came not from one or two pivotal decisions, but from a culture that consistently produced many good decisions through rigorous first-principles thinking and a strong writing culture.",
+    "Process is variance-reducing by definition — it brings low performers up but drags high performers down, so introduce minimum viable process with explicit escape hatches for creative thinkers.",
+    "Innovation requires giving teams explicit permission to think bigger — Retool operationalizes this with 'Think Bigger' sections in team charters and annual 'Crazy Ideas' docs that have produced multiple shipped products.",
+    "New product initiatives should be treated like internal startups: start with 1-2 people, keep teams separate from the core product, and only fund up when customer traction proves the concept.",
+    "Build for your best user, not your worst — optimizing for abuse cases and edge cases early on shapes products in weird ways and distracts from delighting the users who will actually drive your growth."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.05,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.25,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "eeke-de-milliano-008",
+      "why": "Frames process as fundamentally anti-innovation — argues it brings your best people DOWN to the average, which most process-loving organizations would never admit or accept.",
+      "related_zones": ["chaos", "alignment"]
+    },
+    {
+      "quoteId": "eeke-de-milliano-010",
+      "why": "Challenges the conventional wisdom of building defensively — argues you should ignore abuse cases and worst-case users early on and build exclusively for your best users who get the product immediately.",
+      "related_zones": ["focus", "velocity"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["innovation-culture", "process-design", "product-development"]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "slug": "laura-modi",
+  "quotes": [
+    {
+      "id": "laura-modi-q001",
+      "speaker": "Laura Modi",
+      "text": "I can't imagine a world where I would be without Airbnb. It's one of those experiences where it probably was transformative because you do get an opportunity to work on so many different things.",
+      "timestamp": "00:05:15",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 58,
+        "lineEnd": 58
+      },
+      "themes": ["career-growth", "culture", "breadth"],
+      "zones": ["discovery", "chaos"]
+    },
+    {
+      "id": "laura-modi-q002",
+      "speaker": "Laura Modi",
+      "text": "I think it maybe just starts internally where you have to be able to create a culture first, to all understand that. Because otherwise you're going to be in a position where you're focused on optimizing the technology, efficiency, growth, looking at tools for tools' sake versus tools for users' sake.",
+      "timestamp": "00:07:37",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 70,
+        "lineEnd": 70
+      },
+      "themes": ["culture", "customer-centricity", "product-design"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "laura-modi-q003",
+      "speaker": "Laura Modi",
+      "text": "Energy at Airbnb was the currency. It was like, unless you didn't have that energy, nothing was happening. And I think about that every day. How do you keep energy going? I now reflect back on just how powerful our storytelling was at Airbnb to get people pumped up. Even for some of the smallest features, they would kick off with the most powerful storytelling.",
+      "timestamp": "00:08:33",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 74,
+        "lineEnd": 76
+      },
+      "themes": ["culture", "storytelling", "leadership", "motivation"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "laura-modi-q004",
+      "speaker": "Laura Modi",
+      "text": "Think about who your customer is and that one customer, the exact person, is going to wake up tomorrow morning and there's going to be three things that are just playing on them in the back of their mind, the things that keep them up at night. And if you are not solving for one of those, then you're going to be finding a way to build a brand and to get in the way of that.",
+      "timestamp": "00:26:24",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 180,
+        "lineEnd": 180
+      },
+      "themes": ["branding", "customer-centricity", "product-market-fit"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "laura-modi-q005",
+      "speaker": "Laura Modi",
+      "text": "No brand should ever be in a position of pointing fingers to something that's better or worse. Our only job is to talk about what we do and why we exist and why we believe our product is good.",
+      "timestamp": "00:29:19",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 194,
+        "lineEnd": 194
+      },
+      "themes": ["branding", "positioning", "ethics"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "laura-modi-q006",
+      "speaker": "Laura Modi",
+      "text": "I feel like a secret sauce of just how to get it done half the time. And I really, really do believe the power of branding the mundane is so successful. How much better is Air Dive than a customer service analysis? So much better.",
+      "timestamp": "00:31:21",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 202,
+        "lineEnd": 206
+      },
+      "themes": ["culture", "branding", "internal-communication", "motivation"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "laura-modi-q007",
+      "speaker": "Laura Modi",
+      "text": "One of the biggest beliefs is that an ounce of naivety will be your biggest secret to success. Naivety is the definition of creativity and innovation and canvas and white space and opportunity. I definitely went into starting this company with a level of naivety to how regulated it was, to the stigma associated with it, to how hard it would be.",
+      "timestamp": "00:40:34",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 278,
+        "lineEnd": 278
+      },
+      "themes": ["entrepreneurship", "innovation", "mindset"],
+      "zones": ["chaos", "discovery", "intuition"]
+    },
+    {
+      "id": "laura-modi-q008",
+      "speaker": "Laura Modi",
+      "text": "I look for people who have the ability to make decisions and move fast and not get worried about the outcome. The secret is momentum and just keeping momentum. And if we try and perfect everything, you just miss the boat. Perfect is the enemy of good.",
+      "timestamp": "00:44:15",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 296,
+        "lineEnd": 296
+      },
+      "themes": ["hiring", "velocity", "momentum", "decision-making"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "laura-modi-q009",
+      "speaker": "Laura Modi",
+      "text": "D2C isn't dead. Just the approach for how people did D2C is a bit dated. We should not be paying for every customer and we should be very careful that people aren't getting hooked on the drug that is paid marketing or performance marketing.",
+      "timestamp": "00:46:17",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 312,
+        "lineEnd": 312
+      },
+      "themes": ["growth", "d2c", "paid-marketing", "sustainability"],
+      "zones": ["focus", "velocity"]
+    },
+    {
+      "id": "laura-modi-q010",
+      "speaker": "Laura Modi",
+      "text": "60% of it is your product and the package around the product, which is your brand. So even if you did nothing to market your brand, your product and brand is 60% of it. And then the last 40% is how do you get the word out there? Without that, you're going to be a fast-fashion company, which is also my worst nightmare.",
+      "timestamp": "00:49:55",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 330,
+        "lineEnd": 330
+      },
+      "themes": ["branding", "product", "growth", "word-of-mouth"],
+      "zones": ["perfection", "focus"]
+    },
+    {
+      "id": "laura-modi-q011",
+      "speaker": "Laura Modi",
+      "text": "Momentum really is it. Your job is not just to keep people going on momentum. Your job is to make momentum. And sometimes that momentum has to be manufactured. Creating manufactured deadlines and launch dates. The amount of times people say to me, 'Why are we launching this May 1st?' And I'm like, 'Just because we said it.'",
+      "timestamp": "00:52:56",
+      "source": {
+        "slug": "laura-modi",
+        "path": "episodes/laura-modi/transcript.md",
+        "lineStart": 346,
+        "lineEnd": 348
+      },
+      "themes": ["leadership", "momentum", "execution", "deadlines"],
+      "zones": ["velocity", "chaos"]
+    }
+  ],
+  "themes": ["branding", "culture", "momentum", "storytelling", "customer-centricity", "d2c", "hiring", "leadership", "naivety", "growth", "entrepreneurship"],
+  "takeaways": [
+    "Sometimes slowing growth is the best long-term growth strategy - Bobbie shut down their website for 6 months during the formula shortage to protect existing subscribers, building unshakeable brand loyalty.",
+    "Brand the mundane inside your company - naming internal programs and workflows creates memory recall, motivation, and cultural identity that keeps teams energized.",
+    "An ounce of naivety is a founder's secret weapon - not knowing how hard something is frees you from the status quo and enables creative disruption.",
+    "D2C isn't dead, but paid marketing addiction is - flip the priority to content, community, then commerce, and make your product and brand do 60% of the growth work.",
+    "Manufacture momentum through artificial deadlines and launch dates - if you don't create urgency, projects drift and teams lose energy."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.10,
+    "discovery": 0.10,
+    "data": 0.00,
+    "intuition": 0.15,
+    "alignment": 0.15,
+    "chaos": 0.20,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "laura-modi-q007",
+      "why": "Naivety as a competitive advantage - most people view domain inexperience as a liability, but Modi argues it's the source of creativity and innovation",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "laura-modi-q009",
+      "why": "D2C isn't dead despite the prevailing narrative - the business model works if you avoid the paid marketing drug that destroyed so many D2C brands",
+      "related_zones": ["focus", "velocity"]
+    },
+    {
+      "quoteId": "laura-modi-q011",
+      "why": "Manufacturing fake deadlines is not only acceptable but essential - counters the common criticism that arbitrary deadlines are demoralizing or dishonest",
+      "related_zones": ["velocity", "chaos"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "growth",
+    "primary_topics": ["branding", "d2c", "culture-building", "leadership", "growth-strategy"]
+  }
+}

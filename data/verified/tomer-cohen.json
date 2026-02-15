@@ -1,0 +1,199 @@
+{
+  "slug": "tomer-cohen",
+  "quotes": [
+    {
+      "id": "tomer-cohen-q001",
+      "speaker": "Tomer Cohen",
+      "text": "What I find people to be attached to, especially when you build an environment with a lot of alpha types is that they get attached to being right or wrong and that really creates a lot of lingering in the system, a lot of confusion. And for me, I get attached to clarity and focus. I think that's much more important. That's why when I say I don't mind being wrong, it really comes from a humble place. I would rather go forward with everybody in the same direction than necessarily try to hedge all the time, which will give me no chance of success.",
+      "timestamp": "00:06:46",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 111,
+        "lineEnd": 112
+      },
+      "themes": ["clarity", "leadership", "decision-making"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "tomer-cohen-q002",
+      "speaker": "Tomer Cohen",
+      "text": "I love solutions that are based on first principles. They have a principle thinking about it, there's opinions about it. I push a lot for what is actually your opinion, what is your potentially controversial opinion and the best principles have teeth.",
+      "timestamp": "00:07:35",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 114,
+        "lineEnd": 115
+      },
+      "themes": ["first-principles", "conviction", "product-thinking"],
+      "zones": ["intuition", "focus"]
+    },
+    {
+      "id": "tomer-cohen-q003",
+      "speaker": "Tomer Cohen",
+      "text": "Saying that we should build a simple product for me is useless. Who doesn't want to build a simple product? But saying that I'm willing to sacrifice or trade off this, that's where I get excited. That's a very strong opinion. Why were you willing to trade off those type of vectors to make it happen?",
+      "timestamp": "00:08:18",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 118
+      },
+      "themes": ["trade-offs", "conviction", "product-strategy"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "tomer-cohen-q004",
+      "speaker": "Tomer Cohen",
+      "text": "Somebody will say, 'My top priority for my business is this initiative.' And then I'll say, 'But most of your engineers are working on this migration.' And they'll say, 'Yeah, we have to finish that.' I'm like, 'So why don't you say the migration is my number one priority?' You have to make sure that what you're sharing as a priority is actually manifested in your resourcing.",
+      "timestamp": "00:09:03",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 120,
+        "lineEnd": 124
+      },
+      "themes": ["prioritization", "execution", "resource-allocation"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "tomer-cohen-q005",
+      "speaker": "Tomer Cohen",
+      "text": "If you don't know exactly what you're doing, how can you learn back from why you made that decision? So if you had a clear understanding, ultimately it's a growing organization. This is not a one-off project. We're going to build many projects in the future. So if you're not sure about what we're trying to accomplish, how can you know what you learned from it?",
+      "timestamp": "00:11:39",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 132,
+        "lineEnd": 133
+      },
+      "themes": ["learning", "clarity", "organizational-growth"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "tomer-cohen-q006",
+      "speaker": "Tomer Cohen",
+      "text": "I actually believe in, especially when it comes to products, to really set ambitious goals but then try to over-deliver on them. There's almost like the opposite where people are underplaying it and over delivering, I don't understand what you're trying to do. For me it's like we are here to make an impact. We're here to really set our goals to something really massive.",
+      "timestamp": "00:13:14",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 144,
+        "lineEnd": 145
+      },
+      "themes": ["ambition", "goal-setting", "impact"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "tomer-cohen-q007",
+      "speaker": "Tomer Cohen",
+      "text": "I don't start building from the numbers today. I start backwards. What this could be, what is the potential here? How many professionals exist in their role? How many of them would love to find a place to share and engage with content? I don't start from the existence to set my ambition. I start from what this could be like based on really inspiration and excitement.",
+      "timestamp": "00:14:35",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 150,
+        "lineEnd": 151
+      },
+      "themes": ["vision", "potential", "product-strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "tomer-cohen-q008",
+      "speaker": "Tomer Cohen",
+      "text": "There's so much conversation about zero to one products or scaling products, but you don't have much conversations about minus one to one products, like turnaround products. What you find is it's actually, most of the time it's internally harder to do because there's so much entrenched flows and processes and metrics that people are using on that specific area. So you almost have to change the inner workings of the system to make it work.",
+      "timestamp": "00:17:26",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 162,
+        "lineEnd": 163
+      },
+      "themes": ["turnaround", "product-transformation", "organizational-change"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "tomer-cohen-q009",
+      "speaker": "Tomer Cohen",
+      "text": "After I was leading the mobile team, there was no feed team, there was no unified feed team, there was no feed PM. I asked to do this role, nobody cared about it. I really believed in it. I have strong conviction about what I could do there. And I asked to do this role and we assembled the team around it.",
+      "timestamp": "00:20:07",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 170,
+        "lineEnd": 172
+      },
+      "themes": ["conviction", "initiative", "career-growth"],
+      "zones": ["intuition", "chaos"]
+    },
+    {
+      "id": "tomer-cohen-q010",
+      "speaker": "Tomer Cohen",
+      "text": "What I did was I carved out two million members and I said, 'Those are my members. I'm going to focus on building that mountain peak. I'm going to build for them.' Full liberty and doing whatever, it doesn't hurt numbers, giving the scale and really focus on building a great experience for them.",
+      "timestamp": "00:22:45",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 178,
+        "lineEnd": 178
+      },
+      "themes": ["experimentation", "strategy", "product-development"],
+      "zones": ["discovery", "velocity"]
+    },
+    {
+      "id": "tomer-cohen-q011",
+      "speaker": "Tomer Cohen",
+      "text": "I start from beliefs a lot. I start from what do I believe this could be. My biggest change in my career was when I shifted to more like what do I care about? What am I excited about? What do I have conviction on? I think it's really hard to be a strong product leader without having strong conviction about something. I tend to lead with beliefs versus evidence. I try to prove my beliefs with evidence, but I don't lead with evidence.",
+      "timestamp": "00:28:10",
+      "source": {
+        "slug": "tomer-cohen",
+        "path": "episodes/tomer-cohen/transcript.md",
+        "lineStart": 237,
+        "lineEnd": 247
+      },
+      "themes": ["conviction", "beliefs", "product-leadership"],
+      "zones": ["intuition", "discovery"]
+    }
+  ],
+  "themes": ["clarity", "conviction", "product-leadership", "alignment", "ambition", "product-transformation", "first-principles", "experimentation"],
+  "takeaways": [
+    "Clarity beats correctness: Getting attached to being right or wrong creates organizational confusion. It's better to align everyone in one direction with clear conviction than to hedge across multiple bets.",
+    "Principles need teeth: Strong product opinions require willingness to make real trade-offs. Saying 'build a simple product' is useless unless you articulate what you're willing to sacrifice.",
+    "Priorities must match resourcing: If your top talent and engineers aren't working on what you call your top priority, then it isn't actually your top priority. Alignment means execution reflects stated goals.",
+    "Turnaround products (minus-one-to-one) are harder than zero-to-one because entrenched internal systems, metrics, and politics resist change more than greenfield uncertainty does.",
+    "Lead with conviction, validate with evidence: Strong product leaders start from beliefs about what could be, not from current metrics. Then they use experimentation (like LinkedIn's 2M-member carve-out) to prove those beliefs."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.05,
+    "intuition": 0.20,
+    "alignment": 0.20,
+    "chaos": 0.10,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "tomer-cohen-q008",
+      "why": "Challenges the glorification of zero-to-one building by arguing that turnaround products (minus-one-to-one) are actually harder and less discussed, requiring you to fight entrenched internal systems",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "tomer-cohen-q011",
+      "why": "Argues for leading with beliefs over evidence in product leadership, directly contradicting the data-driven orthodoxy that dominates tech culture",
+      "related_zones": ["intuition", "discovery"]
+    },
+    {
+      "quoteId": "tomer-cohen-q003",
+      "why": "Claims that advocating for simplicity is useless without specifying what you're willing to sacrifice, challenging the common 'keep it simple' mantra",
+      "related_zones": ["focus", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-leadership", "ai-product", "linkedin", "feed-transformation", "organizational-alignment"]
+  }
+}

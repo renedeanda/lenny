@@ -1,0 +1,194 @@
+{
+  "slug": "melissa-perri-20",
+  "quotes": [
+    {
+      "id": "melissa-perri-20-001",
+      "speaker": "Melissa Perri",
+      "text": "This product owner role did not emerge from product management as we know it today. It was a way to help the developers prioritize what to work on. The product owner was held accountable for making sure that they were working on the most pressing things or the highest value things, but that was it.",
+      "timestamp": "00:19:42",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 169,
+        "lineEnd": 169
+      },
+      "themes": ["product-ownership", "agile", "role-clarity"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "melissa-perri-20-002",
+      "speaker": "Melissa Perri",
+      "text": "A lot of large companies turn to Scrum or to the frameworks, and it's because they traditionally didn't grow up building software. They're looking at how do I implement something that has rigor at scale, and that's where you see a lot of Scrum come up.",
+      "timestamp": "00:22:36",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 181,
+        "lineEnd": 181
+      },
+      "themes": ["digital-transformation", "frameworks", "scale"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "melissa-perri-20-003",
+      "speaker": "Melissa Perri",
+      "text": "When people got trained on how to be a product owner, it's usually a two-day class where they teach them how to break down a backlog, do stand-ups with teams, prioritize work. But it doesn't teach them about experimentation, it doesn't teach them about market research, it doesn't teach them about data, it doesn't teach them about any of the things that we need to be a product manager.",
+      "timestamp": "00:18:29",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 163
+      },
+      "themes": ["training", "product-management", "skill-gaps"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "melissa-perri-20-004",
+      "speaker": "Melissa Perri",
+      "text": "I do not recommend using SAFe. Every single person I have talked to who likes SAFe, found success with SAFe, they ended up ripping it up and making it into something else. It's not actually SAFe by the book. If you do that, fine, that's any process.",
+      "timestamp": "00:49:21",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 313,
+        "lineEnd": 319
+      },
+      "themes": ["SAFe", "process", "agile-transformation"],
+      "zones": ["chaos", "velocity"]
+    },
+    {
+      "id": "melissa-perri-20-005",
+      "speaker": "Melissa Perri",
+      "text": "Instead of talking about what's really important, which is how are we serving our customers, how are we winning in this market, how do we stem churn, we're talking instead about what stand-ups are we doing, how do we do this release planning. We're talking about work about work, but we're not actually getting into what are we achieving here.",
+      "timestamp": "00:50:53",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 325,
+        "lineEnd": 325
+      },
+      "themes": ["process-overhead", "outcomes", "customer-focus"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "melissa-perri-20-006",
+      "speaker": "Melissa Perri",
+      "text": "It's okay and I think it's noble to want to train people and put them in different roles. If you're going to spend money upskilling your people, do that, but you also have to intersperse people who know what they're doing. At leadership it's really important to bring in somebody who knows what they're doing to help run this type of thing.",
+      "timestamp": "00:52:00",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 331,
+        "lineEnd": 331
+      },
+      "themes": ["talent-development", "hiring", "transformation"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "melissa-perri-20-007",
+      "speaker": "Melissa Perri",
+      "text": "Take Scrum away. You still need product management. Product owner doesn't exist without Scrum, that's not a thing, but you still need product managers and that's why all product owners should be product managers. That's why I do not like these career trajectories that keep them separate.",
+      "timestamp": "00:56:07",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 349,
+        "lineEnd": 349
+      },
+      "themes": ["career-path", "product-management", "role-clarity"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "melissa-perri-20-008",
+      "speaker": "Melissa Perri",
+      "text": "One of the best questions anybody can ask if they're worried their company is not focused on outcomes: What do we hope will happen when we release this? What metrics are we going to change? How do we instrument it to make sure that's true? Then we can go back and actually see if it changed.",
+      "timestamp": "00:59:24",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 364,
+        "lineEnd": 364
+      },
+      "themes": ["outcomes", "metrics", "discovery"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "melissa-perri-20-009",
+      "speaker": "Melissa Perri",
+      "text": "Organizations are so afraid sometimes to put these career ladders in because it kind of overhauls their traditional ways of working, and then they've got people who've been in these organizations for 40 years and now you're saying, 'Hey, you're actually not in charge of that, the product manager is in charge of that,' and that's scary.",
+      "timestamp": "00:46:58",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 298,
+        "lineEnd": 298
+      },
+      "themes": ["organizational-change", "career-paths", "transformation"],
+      "zones": ["alignment", "chaos"]
+    },
+    {
+      "id": "melissa-perri-20-010",
+      "speaker": "Melissa Perri",
+      "text": "When you look at agile methodologies, what we're really saying there is we want to be able to move quickly and deliver great value to customers. If you embrace those principles, you're going to do well, but if you think of agile as just a defined super cut and dry process where you have to follow every single little step, that's not going to serve you.",
+      "timestamp": "01:17:25",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 460,
+        "lineEnd": 460
+      },
+      "themes": ["agile", "principles", "customer-value"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "melissa-perri-20-011",
+      "speaker": "Melissa Perri",
+      "text": "If I see immediately 'implemented Scrum processes across the organization' on a resume, I'm like, 'No, that's not what I need.' I was looking for what are you going to do to push the strategy? What are you going to do to actually build better products for customers?",
+      "timestamp": "01:03:40",
+      "source": {
+        "slug": "melissa-perri-20",
+        "path": "episodes/melissa-perri-20/transcript.md",
+        "lineStart": 382,
+        "lineEnd": 382
+      },
+      "themes": ["hiring", "outcomes", "strategy"],
+      "zones": ["focus", "data"]
+    }
+  ],
+  "themes": ["agile-transformation", "product-ownership", "SAFe", "career-paths", "digital-transformation", "outcomes", "process-overhead", "role-clarity"],
+  "takeaways": [
+    "The product owner role emerged from Scrum as a developer-facing prioritization role, not from product management. When companies conflate the two, product owners end up as tactical backlog managers without customer discovery, experimentation, or strategic skills.",
+    "SAFe gives executives a comforting blueprint but creates process overhead that displaces real product work. Every successful SAFe adoption Melissa has seen ended with the company ripping it up and building something custom from the parts that worked.",
+    "The most powerful question for outcome-focused teams is: What do we hope will happen when we release this? This single question forces alignment on metrics and creates accountability for whether shipped work actually delivered value.",
+    "Digital transformations fail when led by middle managers whose jobs are most threatened by the change. The C-suite must commit to new career ladders, bring in experienced product leaders, and accept that this is a permanent shift in how the company works.",
+    "Agile at its core is about moving quickly and delivering customer value. When it becomes a rigid ceremony-driven process, teams end up talking about work about work instead of focusing on what they're actually achieving for customers and the business."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.25,
+    "chaos": 0.10,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "melissa-perri-20-004",
+      "why": "Directly recommends against SAFe, the most widely adopted scaling framework, arguing every successful implementation required gutting it",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "melissa-perri-20-005",
+      "why": "Argues that process-heavy agile implementations cause teams to talk about work about work instead of delivering customer value",
+      "related_zones": ["focus", "data"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "advisor",
+    "company_stage": "mixed",
+    "primary_topics": ["agile-transformation", "product-management", "SAFe", "career-paths", "organizational-design"]
+  }
+}
