@@ -15,7 +15,7 @@ const CATEGORIES: { label: string; slugs: string[] }[] = [
   },
   {
     label: 'Strategy & Decision Making',
-    slugs: ['strategy', 'decision-making', 'prioritization', 'first-principles', 'systems-thinking', 'positioning'],
+    slugs: ['strategy', 'decision-making', 'prioritization', 'first-principles', 'systems-thinking', 'positioning', 'vision'],
   },
   {
     label: 'Growth & Metrics',
@@ -31,7 +31,7 @@ const CATEGORIES: { label: string; slugs: string[] }[] = [
   },
   {
     label: 'Personal Growth',
-    slugs: ['career-growth', 'resilience', 'vision'],
+    slugs: ['career-growth', 'resilience'],
   },
 ];
 
