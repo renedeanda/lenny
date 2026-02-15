@@ -1,0 +1,199 @@
+{
+  "slug": "vijay",
+  "quotes": [
+    {
+      "id": "vijay-q001",
+      "speaker": "Vijay Iyengar",
+      "text": "We took all the churn reasons that our customer success and sales teams had been painstakingly collecting for years, grouped them by category, which was roughly product features we needed to build, sorted descending by ARR, took the top 10 things and made that our roadmap, just give every engineer direct access to customers and give them a bucket to go work on.",
+      "timestamp": "00:08:52",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 71,
+        "lineEnd": 71
+      },
+      "themes": ["prioritization", "churn", "roadmap"],
+      "zones": ["velocity", "data"]
+    },
+    {
+      "id": "vijay-q002",
+      "speaker": "Vijay Iyengar",
+      "text": "We needed to optimize for speed, and speed comes when you have extreme clarity on what you want to do and focus. And so we really just optimize for speed in that time. And so in that first year we moved really quickly and we shipped something like a hundred features in that year and closed a lot of gaps. Again, these are all vanity metrics. Measuring number of features doesn't mean anything.",
+      "timestamp": "00:09:41",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 73,
+        "lineEnd": 73
+      },
+      "themes": ["velocity", "focus", "metrics"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "vijay-q003",
+      "speaker": "Vijay Iyengar",
+      "text": "So many great products win or lose based on their architecture. I think Notion, for example, that pages in blocks architecture is so strong, and you can hang so many features off of those core building blocks in a way that has such high impact on region and discovery of those features.",
+      "timestamp": "00:10:53",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 83,
+        "lineEnd": 83
+      },
+      "themes": ["product-architecture", "design", "discovery"],
+      "zones": ["perfection", "discovery"]
+    },
+    {
+      "id": "vijay-q004",
+      "speaker": "Vijay Iyengar",
+      "text": "In a very competitive context where there are just table stakes features that customers need and that it's been validated by the market, you need to optimize for speed more so than anything else. But it is an approach that outlives its usefulness pretty fast. You can't mow your lawn while your house is on fire. You kind of put out the fire and then deal with everything else.",
+      "timestamp": "00:12:54",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 101,
+        "lineEnd": 101
+      },
+      "themes": ["strategy", "prioritization", "competition"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "vijay-q005",
+      "speaker": "Vijay Iyengar",
+      "text": "We said, 'Hey, we can actually do the next three months of projects without any design,' which was a kind of controversial thing to say, 'but we're doing this so that you can take three months with a set of designers and go think about the system architecture of the product, and we'll wait for that to be done before we do any architectural things that might impact the architecture.'",
+      "timestamp": "00:16:05",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 117,
+        "lineEnd": 117
+      },
+      "themes": ["design", "product-architecture", "team-management"],
+      "zones": ["perfection", "chaos"]
+    },
+    {
+      "id": "vijay-q006",
+      "speaker": "Vijay Iyengar",
+      "text": "The trap there is that you leave yourself ripe for disruption in your core because someone else can out invest you in that core. Our takeaway here is you should continue to out invest everyone else in that core, and then invest the profits that come out of that core into the next venture. Invest profits and not people.",
+      "timestamp": "00:17:28",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 123,
+        "lineEnd": 123
+      },
+      "themes": ["strategy", "focus", "growth"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "vijay-q007",
+      "speaker": "Vijay Iyengar",
+      "text": "There's not that many people that need the sixth best CDP or the eighth best feature flagging or the 10th best message targeting tool. And it ends up being, in aggregate will contribute five to 10% to your revenue, won't seriously accelerate your growth rate, and then takes engineers away from the core product.",
+      "timestamp": "00:18:10",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 125,
+        "lineEnd": 125
+      },
+      "themes": ["product-strategy", "focus", "growth"],
+      "zones": ["focus", "data"]
+    },
+    {
+      "id": "vijay-q008",
+      "speaker": "Vijay Iyengar",
+      "text": "Some of those problems have tension with each other. Power and simplicity, there's a trade off there, right? And we want one team to own both, so that they're kind of forced to confront that tension and beat that trade off. And so that's kind of how we think about generally our product team, is these cross-functional EPD teams, each of which that's focused on solving these long-lived paired problems.",
+      "timestamp": "00:20:04",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 139,
+        "lineEnd": 139
+      },
+      "themes": ["team-structure", "product-management", "org-design"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "vijay-q009",
+      "speaker": "Vijay Iyengar",
+      "text": "One of the traps with RICE that we observed is that the C and E, the confidence and effort tends to cause you to prematurely deprioritize potentially high reach, high impact bets, really innovative things. Just ignore the C and E for a little longer than it's comfortable, and just sit with those high reach, high impact ideas with engineers and designers in the room committed to actually trying to solve them.",
+      "timestamp": "00:25:17",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 163,
+        "lineEnd": 165
+      },
+      "themes": ["prioritization", "innovation", "frameworks"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "vijay-q010",
+      "speaker": "Vijay Iyengar",
+      "text": "Engineers will go into that channel and react with an email emoji, which means I'm going to email this customer and find out more. They'll just email the customer and say, 'Hey, I'm the engineer that built this feature. I saw you said this specific thing. Can you tell me more?' They ask the five whys, and then they improve the product on their own.",
+      "timestamp": "00:31:04",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 193,
+        "lineEnd": 193
+      },
+      "themes": ["customer-feedback", "engineering-culture", "empowerment"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "vijay-q011",
+      "speaker": "Vijay Iyengar",
+      "text": "What we recommend instead is just track events from your servers instead of your clients. It's instantly cross platform. It's in an environment you control. And engineers have been tracking events from servers forever. It's called logs. Events are just logs where they have a user ID in them. If it's easier for the developer, it'll get done in a higher quality way.",
+      "timestamp": "00:36:32",
+      "source": {
+        "slug": "vijay",
+        "path": "episodes/vijay/transcript.md",
+        "lineStart": 233,
+        "lineEnd": 235
+      },
+      "themes": ["analytics", "data-quality", "engineering"],
+      "zones": ["data", "perfection"]
+    }
+  ],
+  "themes": ["prioritization", "focus", "product-architecture", "analytics", "customer-feedback", "velocity", "design", "strategy"],
+  "takeaways": [
+    "When your core product is losing to competitors, ruthlessly refocus by sorting churn reasons by ARR and making that your entire roadmap - speed comes from extreme clarity and focus.",
+    "Great products win or lose based on their system architecture - invest in defining the fewest possible building blocks and how they relate, so every new feature inherits maximum reach and discovery.",
+    "Invest profits, not people, into new ventures - pulling engineers off the core product to build bolt-on adjacencies leaves you ripe for disruption and produces mediocre products nobody needs.",
+    "The RICE framework's confidence and effort scores prematurely kill innovative ideas - sit with high-reach, high-impact bets long enough to find creative, lower-effort approaches before scoring them.",
+    "Give engineers and designers direct, ungated access to raw customer feedback - the culture of engineers emailing customers directly and asking the five whys produces better products than any gatekept process."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.15,
+    "discovery": 0.15,
+    "data": 0.15,
+    "intuition": 0.05,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "vijay-q009",
+      "why": "Challenges the widely-adopted RICE framework by arguing that confidence and effort scores systematically kill the most innovative and impactful ideas before they get a fair shot",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "vijay-q005",
+      "why": "Deliberately shipping engineering work without any design input for three months to give designers space to think about system architecture - counterintuitive in a design-driven culture",
+      "related_zones": ["perfection", "chaos"]
+    },
+    {
+      "quoteId": "vijay-q011",
+      "why": "The head of product at an analytics company says the biggest mistake is using client-side SDKs, the very technology most people associate with product analytics tools like Mixpanel",
+      "related_zones": ["data", "perfection"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["product-management", "prioritization", "analytics", "product-architecture"]
+  }
+}

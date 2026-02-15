@@ -1,0 +1,194 @@
+{
+  "slug": "upasna-gautam",
+  "quotes": [
+    {
+      "id": "upasna-gautam-q001",
+      "speaker": "Upasna Gautam",
+      "text": "Reactivity is the root cause of so many of our workplace woes and product management frustrations, and when you're able to pause before reacting you can start to undo and break a lot of those negative patterns in your brain. And in news, and especially the world's biggest breaking news organization, you can cut through that chaos with equanimity because it also really gives you this outsized advantage in everything from stakeholder management, team morale, to the way you're able to translate user feedback, to product development philosophy.",
+      "timestamp": "00:05:11",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 57,
+        "lineEnd": 57
+      },
+      "themes": ["mindfulness", "stakeholder-management", "emotional-intelligence"],
+      "zones": ["chaos", "alignment"]
+    },
+    {
+      "id": "upasna-gautam-q002",
+      "speaker": "Upasna Gautam",
+      "text": "Real power to me comes from equanimity, and that comes from managing your emotional reactions, and not trying to control others. So I think when you're able to cultivate that level of self-awareness for yourself, you're able to chart a clear path forward for your team and serve as a compass in the chaos.",
+      "timestamp": "00:05:59",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 59,
+        "lineEnd": 59
+      },
+      "themes": ["leadership", "self-awareness", "emotional-intelligence"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "upasna-gautam-q003",
+      "speaker": "Upasna Gautam",
+      "text": "We talk to our editorial staff every single day, and after a lot of observation and learning I implemented a system to manage that kind of intake with four different touch points or events. So we have weekly demo days, working sessions, breaking news dress rehearsals, and office hours.",
+      "timestamp": "00:11:04",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 89,
+        "lineEnd": 89
+      },
+      "themes": ["user-research", "process", "stakeholder-management"],
+      "zones": ["alignment", "discovery"]
+    },
+    {
+      "id": "upasna-gautam-q004",
+      "speaker": "Upasna Gautam",
+      "text": "We used to call them user testing sessions, but decided to move away from that and just call them working sessions so they're more collaborative. And again, it's a really critical part of our onboarding process. We usually do three to six of them depending on the size of the group before the team is actually onboarded for two hours per session. So they're like deep dives into their specific workflows.",
+      "timestamp": "00:12:54",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 93,
+        "lineEnd": 93
+      },
+      "themes": ["user-research", "onboarding", "collaboration"],
+      "zones": ["discovery", "alignment"]
+    },
+    {
+      "id": "upasna-gautam-q005",
+      "speaker": "Upasna Gautam",
+      "text": "After those conversations and sessions and events happen, it's our job to translate their needs into the functions that we either maybe already have that we can optimize, we build anew, or we tell them it's not viable. And the good thing is that because they've been along for the ride with us throughout the product discovery process we've earned their trust and respect. So that when we tell them something like it's not viable, they usually get it.",
+      "timestamp": "00:14:33",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["stakeholder-management", "trust", "product-discovery"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "upasna-gautam-q006",
+      "speaker": "Upasna Gautam",
+      "text": "When it comes to product review, and product discovery or design review meetings, in addition to my design lead I've made it a point to bring in my tech lead and engineers along for this product discovery ride, and that's definitely been a game-changer as well. When our engineers are able to understand our journalists' needs at the same level as we are, they're able to define the how to do it with so much greater clarity and precision.",
+      "timestamp": "00:21:46",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 127,
+        "lineEnd": 127
+      },
+      "themes": ["cross-functional", "engineering", "product-discovery"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "upasna-gautam-q007",
+      "speaker": "Upasna Gautam",
+      "text": "It's so important to think of your engineers as partners and not just resources. And when they are embedded into the process right upfront, it makes the whole process in general more efficient.",
+      "timestamp": "00:22:37",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 129,
+        "lineEnd": 129
+      },
+      "themes": ["engineering", "collaboration", "team-culture"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "upasna-gautam-q008",
+      "speaker": "Upasna Gautam",
+      "text": "Since my team's product is an entire platform, it's my job to ensure we're still clear on our goals because they may change on a week-by-week basis. One sprint might be high-priority feature development, in another sprint maybe we're focused on medium-priority optimizations and bug fixes. But we know that any time there's a critical incident in production, it also takes critical priority over everything else. So it's a balancing and juggling act that relies heavily on intuitive decision-making.",
+      "timestamp": "00:27:45",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 161
+      },
+      "themes": ["prioritization", "platform", "decision-making"],
+      "zones": ["intuition", "chaos", "focus"]
+    },
+    {
+      "id": "upasna-gautam-q009",
+      "speaker": "Upasna Gautam",
+      "text": "In order to stay competitive in our modern news landscape, building this content management platform and the technology behind it has taught us how to enable rapid development and integration of new features and workflows. And we've been able to quickly test hypotheses while reducing risk. And because of that we've developed, I think, this unique skill of high agency under high pressure. And I really think that that skill or combination of skills is our superpower, and that is something you can take anywhere.",
+      "timestamp": "00:33:53",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 185,
+        "lineEnd": 187
+      },
+      "themes": ["velocity", "high-agency", "resilience"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "upasna-gautam-q010",
+      "speaker": "Upasna Gautam",
+      "text": "When one of my journalists is venting because this feature is not working the way we told them it was going to, I am shutting my mouth and I'm listening to them vent, and then I'm extracting what the root cause of the problem is. The ability to pause before reacting is the key to mindful communication and being a successful product manager.",
+      "timestamp": "00:37:43",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 196
+      },
+      "themes": ["communication", "listening", "mindfulness"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "upasna-gautam-q011",
+      "speaker": "Upasna Gautam",
+      "text": "How do you become an effective communicator? I think a lot of times we think of speaking articulately first and foremost, or we think about writing well, which those two are really, really important things. But those can't be effective for us as product leaders if we're not listening, so I think listening and being able to converse in the language of the listener is the utmost importance.",
+      "timestamp": "00:39:24",
+      "source": {
+        "slug": "upasna-gautam",
+        "path": "episodes/upasna-gautam/transcript.md",
+        "lineStart": 200,
+        "lineEnd": 200
+      },
+      "themes": ["communication", "listening", "leadership"],
+      "zones": ["intuition", "alignment"]
+    }
+  ],
+  "themes": ["mindfulness", "stakeholder-management", "communication", "product-discovery", "collaboration", "leadership", "high-agency", "process"],
+  "takeaways": [
+    "Equanimity -- the ability to pause before reacting -- is the most important skill for product managers working in high-pressure environments, giving you an outsized advantage in stakeholder management, team morale, and translating user feedback.",
+    "Building four structured touch points with users (demo days, working sessions, dress rehearsals, and office hours) creates a systematic intake process that earns trust and makes it possible to push back when needed.",
+    "Embedding engineers into the product discovery process from day one -- including user testing sessions and design jams -- transforms them from resources into partners, dramatically improving clarity and execution speed.",
+    "Mindful communication means listening first and conversing in the language of the listener, not defaulting to technical jargon; the priority should always be to understand your users' vocabulary and pain points on their terms.",
+    "Working in breaking news builds a transferable superpower: high agency under high pressure, the ability to enable rapid development and test hypotheses while reducing risk under extreme time constraints."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.00,
+    "discovery": 0.15,
+    "data": 0.00,
+    "intuition": 0.20,
+    "alignment": 0.30,
+    "chaos": 0.15,
+    "focus": 0.10
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "upasna-gautam-q002",
+      "why": "Argues that real power comes from managing your own emotional reactions rather than trying to control others -- counter to typical PM advice about influence and authority",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "upasna-gautam-q010",
+      "why": "Advocates shutting your mouth and listening to users vent rather than jumping to solutions -- challenges the expectation that PMs should always have answers ready",
+      "related_zones": ["intuition", "discovery"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "enterprise",
+    "primary_topics": ["product-management", "mindfulness", "stakeholder-management", "news-media", "communication"]
+  }
+}

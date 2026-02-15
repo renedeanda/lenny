@@ -1,0 +1,199 @@
+{
+  "slug": "uri-levine-20",
+  "quotes": [
+    {
+      "id": "uri-levine-20-q001",
+      "speaker": "Uri Levine",
+      "text": "Product market fit in general have only one metric, only one metric, retention. Look, it's really simple, if you create value, they will come back, that's it. If they are not coming back, that means that you are not creating value.",
+      "timestamp": "00:12:20",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 152,
+        "lineEnd": 152
+      },
+      "themes": ["product-market-fit", "retention", "value-creation"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "uri-levine-20-q002",
+      "speaker": "Uri Levine",
+      "text": "When product market fit disappeared, you actually need to go back to square one. And the faster that you realize and you basically say everything that I knew so far is irrelevant anymore. Can I restart? Can I go back to square one and restart? Because if you cannot, you will die.",
+      "timestamp": "00:14:48",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 164,
+        "lineEnd": 164
+      },
+      "themes": ["product-market-fit", "pivoting", "crisis-management"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "uri-levine-20-q003",
+      "speaker": "Uri Levine",
+      "text": "Whatever you are going to decide, you need to decide today, right now. If you want to reduce the burn, the expenses in order to extend the run rate, if you wait two more month, then it's going to become nearly impossible to do. So the longer that you wait, you actually lose options. The only ability to choose is today.",
+      "timestamp": "00:26:58",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 230,
+        "lineEnd": 230
+      },
+      "themes": ["crisis-management", "decision-making", "urgency"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "uri-levine-20-q004",
+      "speaker": "Uri Levine",
+      "text": "If there is a crisis everyone knows, and you don't do anything about it, this is not a good practice. You need to communicate that with your team because they want to know that someone that holds the steering wheel is making the decisions. And if you don't, then you are a sinking ship. And what's going to happen is that the top performing people, they would leave.",
+      "timestamp": "00:27:41",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 233,
+        "lineEnd": 233
+      },
+      "themes": ["leadership", "communication", "crisis-management"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "uri-levine-20-q005",
+      "speaker": "Uri Levine",
+      "text": "He was asked if he can change one thing, and he said, I'm going to replace the 15% skills with additional 15% luck. So luck is good. For me luck, I will define luck as opportunity meets readiness. Readiness is up to you; opportunity, not always.",
+      "timestamp": "00:35:43",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 275,
+        "lineEnd": 275
+      },
+      "themes": ["entrepreneurship", "luck", "preparation"],
+      "zones": ["intuition", "discovery"]
+    },
+    {
+      "id": "uri-levine-20-q006",
+      "speaker": "Uri Levine",
+      "text": "You have only one company, you need to make sure that this company is successful. Not just me is not going to help you to become successful. Just me is going to help you to become successful. When you assume responsibility, you're basically saying, I control my own destiny. When this happens, you increase the likelihood of being successful regardless what happen to the rest of the market.",
+      "timestamp": "00:37:25",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 299,
+        "lineEnd": 299
+      },
+      "themes": ["responsibility", "leadership", "mindset"],
+      "zones": ["focus", "intuition"]
+    },
+    {
+      "id": "uri-levine-20-q007",
+      "speaker": "Uri Levine",
+      "text": "Entrepreneurs never give up. And this is the most successful behavior of startup CEO, never give up, always keep on looking for ways to make it work. It is going to be a journey of failures, and in particular during crisis, but you still need to keep on trying to make it work even though it's way harder.",
+      "timestamp": "00:38:58",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 305,
+        "lineEnd": 305
+      },
+      "themes": ["resilience", "entrepreneurship", "crisis-management"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "uri-levine-20-q008",
+      "speaker": "Uri Levine",
+      "text": "Making decisions with conviction. During crisis, all CEOs in the world need to make hard decisions. And you need to make them with conviction because if you don't, then what will happen is that the team is not going to follow. If the team is not going to follow, then you are not going to be successful.",
+      "timestamp": "00:39:41",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 308,
+        "lineEnd": 308
+      },
+      "themes": ["decision-making", "leadership", "conviction"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "uri-levine-20-q009",
+      "speaker": "Uri Levine",
+      "text": "During crisis, people will appreciate more than anything else transparency. If you hide information from them, then they would leave, they don't trust you anymore. This is where they expect your leadership the most. During crisis, the team is the one that is going to take you out of the crisis, and you need them more than ever. And guess what? They need you.",
+      "timestamp": "00:46:53",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 377,
+        "lineEnd": 377
+      },
+      "themes": ["transparency", "leadership", "team-building"],
+      "zones": ["alignment", "perfection"]
+    },
+    {
+      "id": "uri-levine-20-q010",
+      "speaker": "Uri Levine",
+      "text": "If you reduce burn by 50% today, then you simply increase your run rate to a year. If you don't do it today and you wait three more month, then you only have six more month, total of nine month. If you decided today that you need 12 month, and you don't act today, you will never have 12 month.",
+      "timestamp": "00:52:35",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 398,
+        "lineEnd": 398
+      },
+      "themes": ["cash-management", "urgency", "decision-making"],
+      "zones": ["data", "velocity"]
+    },
+    {
+      "id": "uri-levine-20-q011",
+      "speaker": "Uri Levine",
+      "text": "When you focus on the problem, then the problem is going to serve as the north star of your journey. And when you have a north star, you're going to make less deviation from the course and increase the likelihood of being successful. If I will tell you I'm going to help you to avoid traffic jams, then you do care. When your customer care, they want you to be successful.",
+      "timestamp": "01:04:50",
+      "source": {
+        "slug": "uri-levine-20",
+        "path": "episodes/uri-levine-20/transcript.md",
+        "lineStart": 461,
+        "lineEnd": 461
+      },
+      "themes": ["problem-solving", "customer-focus", "storytelling"],
+      "zones": ["discovery", "focus"]
+    }
+  ],
+  "themes": ["crisis-management", "leadership", "decision-making", "product-market-fit", "resilience", "entrepreneurship", "transparency", "problem-solving"],
+  "takeaways": [
+    "Product market fit has only one metric: retention. If users come back, you're creating value. If they don't, you're not. When product market fit disappears, you must go back to square one immediately.",
+    "In a crisis, decide and act today. The longer you wait to cut burn or adjust strategy, the more options you lose. The math is unforgiving: delay eliminates the possibility of extending runway.",
+    "Transparency with your team during crisis is non-negotiable. Everyone already knows something is wrong, and hiding information destroys trust. Your team will take you out of the crisis, but only if they trust your leadership.",
+    "Never give up, and make decisions with conviction. These are the two most important behaviors of a successful startup CEO, especially during crisis. Without conviction, the team won't follow.",
+    "Fall in love with the problem, not the solution. When the problem serves as your north star, you make fewer deviations, your story becomes more compelling, and customers actively want you to succeed."
+  ],
+  "zone_influence": {
+    "velocity": 0.20,
+    "perfection": 0.05,
+    "discovery": 0.10,
+    "data": 0.10,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.10,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "uri-levine-20-q003",
+      "why": "Counter to common advice of taking time to deliberate - Uri argues the only time to decide is today because delay mathematically eliminates your options",
+      "related_zones": ["velocity", "focus"]
+    },
+    {
+      "quoteId": "uri-levine-20-q002",
+      "why": "Challenges the sunk cost mindset - when product market fit disappears, everything you knew is irrelevant and you must restart from zero, not iterate from where you are",
+      "related_zones": ["chaos", "velocity"]
+    },
+    {
+      "quoteId": "uri-levine-20-q006",
+      "why": "Rejects the common excuse that market conditions or external factors caused failure - only taking full personal responsibility increases likelihood of success",
+      "related_zones": ["focus", "intuition"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "mixed",
+    "primary_topics": ["crisis-management", "entrepreneurship", "startup-survival"]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "slug": "yuhki-yamashata",
+  "quotes": [
+    {
+      "id": "yuhki-yamashata-q001",
+      "speaker": "Yuhki Yamashita",
+      "text": "I actually think that a lot of being a great product manager is being a great storyteller. One is understanding the power of synthesis. A lot of things are said in a review and there's still this bring it all together into a distillation of a message. And even that's a lot of power. What do you take away from all these different opinions that all these leaders had, and how do you push the project forward from there?",
+      "timestamp": "00:12:45",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 154,
+        "lineEnd": 157
+      },
+      "themes": ["storytelling", "synthesis", "product-management"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "yuhki-yamashata-q002",
+      "speaker": "Yuhki Yamashita",
+      "text": "I often talk about memification. There are certain data insights, research insights that were memified to the point where someone like Travis or Dara would just cite this insight in the middle of a meeting, and you know that you've really done your job as a researcher or data scientist or product manager if people are able to draw from that in that way. And that's what ultimately sticks.",
+      "timestamp": "00:15:21",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 166,
+        "lineEnd": 166
+      },
+      "themes": ["storytelling", "communication", "influence"],
+      "zones": ["alignment", "intuition"]
+    },
+    {
+      "id": "yuhki-yamashata-q003",
+      "speaker": "Yuhki Yamashita",
+      "text": "The what and how are things that are shared within the company and not something that PM uniquely drives. But I do think the why is something that I really always hold the PM uniquely responsible for.",
+      "timestamp": "00:19:17",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 196
+      },
+      "themes": ["product-management", "ownership", "purpose"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "yuhki-yamashata-q004",
+      "speaker": "Yuhki Yamashita",
+      "text": "How do they make all these local decisions that you're not a part of, how do you make it so that a great decision's made? And if everyone has an understanding of why we're doing this, what problem we're solving, then people can make really great decisions. It's the only way you can really scale.",
+      "timestamp": "00:20:47",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 205,
+        "lineEnd": 205
+      },
+      "themes": ["scaling", "decision-making", "autonomy"],
+      "zones": ["alignment", "velocity"]
+    },
+    {
+      "id": "yuhki-yamashata-q005",
+      "speaker": "Yuhki Yamashita",
+      "text": "A customer is asking for a feature, but then you would say, okay, why are they asking for it, and back up the problem. But I think there's one more step you can take, which is, why do they have that problem in the first place? And maybe there's something there, and that could be an opportunity to make a bigger product impact by fixing that underlying condition that created the problem in the first place.",
+      "timestamp": "00:21:28",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 211,
+        "lineEnd": 211
+      },
+      "themes": ["customer-feedback", "root-cause-analysis", "product-strategy"],
+      "zones": ["discovery", "intuition"]
+    },
+    {
+      "id": "yuhki-yamashata-q006",
+      "speaker": "Yuhki Yamashita",
+      "text": "We created this new channel, private channel called Concerning Tweets. These are tweets that aren't going viral, by any means. They're just things with one like, sometimes zero likes, but he feels there's an essence of truth to them and we make sure that we look at what's going on there and see if there isn't something much bigger that we should be focusing on.",
+      "timestamp": "00:25:31",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 247,
+        "lineEnd": 247
+      },
+      "themes": ["customer-feedback", "signal-detection", "community"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "yuhki-yamashata-q007",
+      "speaker": "Yuhki Yamashita",
+      "text": "It's really important to balance out the vocal minority with what's actually happening. I really view some of those tweets more as canaries in the coal mine, and inputs into many inputs we have around everything our customers could possibly be experiencing. It's just important, especially as a product manager, to feel like you have this balanced portfolio of different kinds of feedback to know that you don't have any blind spots.",
+      "timestamp": "00:26:31",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 253,
+        "lineEnd": 256
+      },
+      "themes": ["customer-feedback", "data-balance", "research"],
+      "zones": ["data", "discovery"]
+    },
+    {
+      "id": "yuhki-yamashata-q008",
+      "speaker": "Yuhki Yamashita",
+      "text": "If you ask an engineer about how much time it'll cost to go and build something, and it's something that they came up with or they're advocating for, it's almost always half the time as something that you are asking for, as a PM. And that motivation is so different. That's why getting the buy-in of developers is really important, because you want to feel like they're personally vested in this problem.",
+      "timestamp": "00:40:01",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 346,
+        "lineEnd": 349
+      },
+      "themes": ["engineering-collaboration", "motivation", "buy-in"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "yuhki-yamashata-q009",
+      "speaker": "Yuhki Yamashita",
+      "text": "Either you anchor something that matters, but you can't move, or you anchor something that you can move but doesn't actually matter. OKRs were the bane of my existence. When you're working on a core experience, sometimes you're just trying to make the experience better. And sure, I can come up with this BS way to measure what that looks like, but that's not what I'm thinking about every day. So it just seems very performative.",
+      "timestamp": "00:40:50",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 352,
+        "lineEnd": 358
+      },
+      "themes": ["okrs", "metrics", "goal-setting"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "yuhki-yamashata-q010",
+      "speaker": "Yuhki Yamashita",
+      "text": "There are three things that really matter about a good OKR. One is legibility: people look at it and understand what it is. Actionability: I want an OKR to inspire action, it stirs action, makes me want to do something differently. And the third one is authenticity: does this actually, honestly depict what you're trying to do on a day-to-day basis? Because if it doesn't, then it's hard for me to trust that it matters.",
+      "timestamp": "00:46:38",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 379,
+        "lineEnd": 379
+      },
+      "themes": ["okrs", "frameworks", "goal-setting"],
+      "zones": ["focus", "alignment"]
+    },
+    {
+      "id": "yuhki-yamashata-q011",
+      "speaker": "Yuhki Yamashita",
+      "text": "Let's just pretend we ran that experiment. What do you think it'll come back with? The PMs who have the ability to imagine those outcomes, it helps us be much more efficient. A lot of PM is about those shortcuts that you have to take. It's not just about what we build, it's about building the right things. Sometimes, it's just as important to decide not to build something, but it's only possible if you can have that ability to see around corners.",
+      "timestamp": "00:50:43",
+      "source": {
+        "slug": "yuhki-yamashata",
+        "path": "episodes/yuhki-yamashata/transcript.md",
+        "lineStart": 400,
+        "lineEnd": 403
+      },
+      "themes": ["decision-making", "intuition", "efficiency"],
+      "zones": ["intuition", "focus"]
+    }
+  ],
+  "themes": ["storytelling", "customer-feedback", "product-management", "okrs", "decision-making", "community", "scaling", "intuition"],
+  "takeaways": [
+    "The most important skill for product managers is storytelling and synthesis -- distilling many opinions, data points, and ideas into memorable 'memes' that leaders can cite and teams can rally around.",
+    "PMs should uniquely own the 'why' behind decisions, not the what or how. When everyone understands the why, they make great local decisions autonomously, and that's the only way to scale.",
+    "Customer feedback requires a balanced portfolio -- tweets are canaries in the coal mine, not mandates. Figma created a 'Concerning Tweets' channel to capture weak signals without causing organizational panic.",
+    "OKRs often fail because teams either pick metrics they can move but don't matter, or metrics that matter but can't be moved. Good OKRs need three qualities: legibility, actionability, and authenticity.",
+    "Engineering motivation doubles when developers own the problem. If an engineer advocates for building something, it takes half the time versus a PM asking them to build it. Personal accountability drives extraordinary quality."
+  ],
+  "zone_influence": {
+    "velocity": 0.10,
+    "perfection": 0.05,
+    "discovery": 0.15,
+    "data": 0.10,
+    "intuition": 0.15,
+    "alignment": 0.25,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "yuhki-yamashata-q009",
+      "why": "Boldly calls OKRs 'the bane of my existence' and 'performative BS' -- directly challenges the near-universal PM belief that measurable goals are essential for core experience work",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "yuhki-yamashata-q008",
+      "why": "Argues that engineer-originated work takes half the time -- implicitly challenges top-down PM roadmap ownership as inherently less efficient than bottoms-up energy",
+      "related_zones": ["velocity", "alignment"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "public",
+    "primary_topics": ["product-design", "figma", "product-leadership"]
+  }
+}

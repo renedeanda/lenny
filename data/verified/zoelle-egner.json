@@ -1,0 +1,199 @@
+{
+  "slug": "zoelle-egner",
+  "quotes": [
+    {
+      "id": "zoelle-egner-q001",
+      "speaker": "Zoelle Egner",
+      "text": "The importance of relentlessly repeating the exact same stuff over and over again, even if you feel like everyone definitely knows. People will fill in the blanks with totally wild things if you don't continuously have that discipline of repeating yourself. You just have to get used to saying the same stuff. And if you do it correctly, it's super motivating.",
+      "timestamp": "00:14:26",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 145,
+        "lineEnd": 145
+      },
+      "themes": ["leadership", "communication", "messaging"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "zoelle-egner-q002",
+      "speaker": "Zoelle Egner",
+      "text": "The power of having a laughably small MVP for something. In the beginning it was truly, basically, a spreadsheet, and phones, and that was it. Even that, for the first few weeks while we were getting the rest of the infrastructure really going, not only had tremendous impact at one of the most important parts in the pandemic, but also gave us so much information about what we actually needed to build.",
+      "timestamp": "00:15:51",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 161,
+        "lineEnd": 161
+      },
+      "themes": ["mvp", "agility", "experimentation"],
+      "zones": ["velocity", "discovery"]
+    },
+    {
+      "id": "zoelle-egner-q003",
+      "speaker": "Zoelle Egner",
+      "text": "Founders really underestimate how much every single touchpoint a customer has from word of mouth or the ad that brings them in the door, landing pages, signup flows, customer service experiences. Every single one of those moments is building a brand that is adding or removing trust.",
+      "timestamp": "00:26:13",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 231,
+        "lineEnd": 231
+      },
+      "themes": ["brand", "trust", "customer-experience"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "zoelle-egner-q004",
+      "speaker": "Zoelle Egner",
+      "text": "Take the time to not have it be like Jane Doe 12 times in the name list. Have it be references to your industry so that people are like, 'Oh, hey. That's a joke about Steve Jobs. I'm a designer. This person is thinking about me.' It's small stuff, but it tells that person the people who worked on this were thinking about me as a customer, they built it with me in mind.",
+      "timestamp": "00:29:29",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 251,
+        "lineEnd": 253
+      },
+      "themes": ["attention-to-detail", "product-quality", "customer-empathy"],
+      "zones": ["perfection", "intuition"]
+    },
+    {
+      "id": "zoelle-egner-q005",
+      "speaker": "Zoelle Egner",
+      "text": "Airtable got roasted on Twitter for having billboards that were not super specific about a problem. They were actually super effective because we had a different goal than everyone thought. It was all about signaling to very large companies that we were legitimate enough to trust. Everyone thinks you only buy billboards if you're huge. That small signaling thing removed the risk of not closing deals because we were so small.",
+      "timestamp": "00:33:39",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 273,
+        "lineEnd": 277
+      },
+      "themes": ["growth", "signaling", "brand", "unconventional-strategy"],
+      "zones": ["chaos", "intuition"]
+    },
+    {
+      "id": "zoelle-egner-q006",
+      "speaker": "Zoelle Egner",
+      "text": "Although industry virality was really important for us, even more important was inside of company virality, that was the real superpower of Airtable. We'd go from 10 people to 1,000 people a year. No one had a good generic explanation of Airtable that worked for everybody. The magic of Airtable was always seen in its specificity.",
+      "timestamp": "00:40:46",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 335,
+        "lineEnd": 337
+      },
+      "themes": ["virality", "growth", "product-led-growth", "positioning"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "zoelle-egner-q007",
+      "speaker": "Zoelle Egner",
+      "text": "We weren't initially looking for buyers, we were looking for champions, in part so that we could then go to IT six months down the line and be like, 'Look, you have 500 people using this product, it's been very useful for them. It is time for you to pay now.' Not sure IT loved those conversations, but they were really effective for us and meant that it was very, very easy to sell.",
+      "timestamp": "00:45:36",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 351,
+        "lineEnd": 351
+      },
+      "themes": ["champions", "product-led-growth", "sales-strategy"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "zoelle-egner-q008",
+      "speaker": "Zoelle Egner",
+      "text": "A lot of people think that Airtable was a pure product led growth company, and missed that huge customer success component that was always very, very important in the early days. And that helped us ultimately move more towards that PLG motion for a while, but was essential to getting it set up in the first place.",
+      "timestamp": "00:48:08",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 371,
+        "lineEnd": 371
+      },
+      "themes": ["customer-success", "product-led-growth", "retention"],
+      "zones": ["alignment", "focus"]
+    },
+    {
+      "id": "zoelle-egner-q009",
+      "speaker": "Zoelle Egner",
+      "text": "There's not a better evangelist than a person whose career you have materially helped to improve based on matching the right person to the solution so that they can have more impact at their company. One of my unofficial metrics for both marketing and customer success at Airtable was how many people we'd gotten promoted for using the product. I had a running tally of those people.",
+      "timestamp": "00:52:05",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 393,
+        "lineEnd": 393
+      },
+      "themes": ["customer-success", "metrics", "evangelism", "career-growth"],
+      "zones": ["data", "alignment"]
+    },
+    {
+      "id": "zoelle-egner-q010",
+      "speaker": "Zoelle Egner",
+      "text": "A lot of people think that the epitome of product marketing is creating your own category. I think creating a category, getting a new thing in Gartner or whatever, is often a waste of your time. If you can elevate a profession instead of a category, that can make way more sense. A job is an identity and people will fight for an identity. A category of software is a line item on your budget. No one is excited about that.",
+      "timestamp": "00:54:41",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 415,
+        "lineEnd": 419
+      },
+      "themes": ["category-creation", "positioning", "community", "identity"],
+      "zones": ["chaos", "discovery"]
+    },
+    {
+      "id": "zoelle-egner-q011",
+      "speaker": "Zoelle Egner",
+      "text": "Most of the time PR is not going to get you leads or users. What it is good for is credibility. The two goals I always recommend to founders when thinking about using PR are either hiring or maybe improving the response rate for your cold outbound. But just getting a piece of PR to get a piece of PR, it'll help with your internal morale, but I'm not sure it's going to do much help for you.",
+      "timestamp": "01:01:56",
+      "source": {
+        "slug": "zoelle-egner",
+        "path": "episodes/zoelle-egner/transcript.md",
+        "lineStart": 479,
+        "lineEnd": 483
+      },
+      "themes": ["pr", "credibility", "hiring", "growth-strategy"],
+      "zones": ["focus", "data"]
+    }
+  ],
+  "themes": ["customer-success", "brand-trust", "product-led-growth", "growth-strategy", "positioning", "attention-to-detail", "champions", "unconventional-marketing"],
+  "takeaways": [
+    "Every customer touchpoint either adds or removes trust -- founders must obsess over polish and detail even at the earliest stages to punch above their weight as a company.",
+    "Inside-of-company virality was Airtable's real superpower: invest in finding and nurturing champions who will evangelize internally, rather than chasing buyers directly.",
+    "Customer success and marketing are fundamentally the same discipline -- both identify needs, match people to solutions, and remove friction from getting value. Consider investing in customer success before sales.",
+    "Category creation in B2B SaaS is often a waste of time; elevating a profession creates identity that people will fight for, which is far more powerful than a new Gartner quadrant.",
+    "PR is not an acquisition mechanism -- use it strategically for hiring credibility and cold outbound response rates, and prefer a series of smaller launches over one big splash to maintain novelty and momentum."
+  ],
+  "zone_influence": {
+    "velocity": 0.05,
+    "perfection": 0.15,
+    "discovery": 0.20,
+    "data": 0.15,
+    "intuition": 0.10,
+    "alignment": 0.15,
+    "chaos": 0.05,
+    "focus": 0.15
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "zoelle-egner-q010",
+      "why": "Directly challenges the widely-held belief that category creation is the pinnacle of product marketing, arguing it's usually a waste of time compared to elevating professions",
+      "related_zones": ["chaos", "discovery"]
+    },
+    {
+      "quoteId": "zoelle-egner-q005",
+      "why": "Airtable's billboards were mocked by the industry but were actually a deliberate signaling strategy to close enterprise deals -- contrarian use of a channel everyone assumed was wrong",
+      "related_zones": ["chaos", "intuition"]
+    },
+    {
+      "quoteId": "zoelle-egner-q008",
+      "why": "Challenges the narrative that Airtable was a pure PLG success, revealing the hidden customer success engine that actually made the growth flywheel work",
+      "related_zones": ["alignment", "focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "operator",
+    "company_stage": "growth",
+    "primary_topics": ["marketing", "customer-success", "growth-strategy", "brand-building"]
+  }
+}

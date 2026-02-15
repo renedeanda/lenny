@@ -1,0 +1,199 @@
+{
+  "slug": "uri-levine",
+  "quotes": [
+    {
+      "id": "uri-levine-q001",
+      "speaker": "Uri Levine",
+      "text": "If you start with a solution, you might be building something that no one cares and that's really frustrating. So fall in love with the problem. If you start your story with, 'Our company is,' you focus on your solution. If you start with, 'The problem we are solving is,' then you focus on the problem. If your story start with, 'The value that we create for you is,' then you focus on the user. The last two are way better than focus on the solution.",
+      "timestamp": "00:05:47",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 85,
+        "lineEnd": 85
+      },
+      "themes": ["problem-solving", "storytelling", "value-creation"],
+      "zones": ["discovery", "focus"]
+    },
+    {
+      "id": "uri-levine-q002",
+      "speaker": "Uri Levine",
+      "text": "If you tell someone, 'This is the problem I'm going to address,' and they will tell you, 'Oh, I know someone that has this problem,' it's not a real problem. If they will tell you, 'No, no, no, no, no. This is not the problem. The problem is,' and they will give you their description of the problem. This is something that you really want to follow.",
+      "timestamp": "00:09:30",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 97,
+        "lineEnd": 97
+      },
+      "themes": ["problem-validation", "user-research", "startups"],
+      "zones": ["discovery", "data"]
+    },
+    {
+      "id": "uri-levine-q003",
+      "speaker": "Uri Levine",
+      "text": "The biggest enemy of good enough is perfect. You don't need to be perfect. You need to be good enough in order to win the market, and the way that you are going to become good enough is really simple. You start with not good enough and you iterate and iterate and iterate until you become good enough and then you'll win.",
+      "timestamp": "00:17:07",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 133,
+        "lineEnd": 133
+      },
+      "themes": ["iteration", "perfectionism", "product-market-fit"],
+      "zones": ["velocity", "chaos"]
+    },
+    {
+      "id": "uri-levine-q004",
+      "speaker": "Uri Levine",
+      "text": "Product market fit have one metric. One metric. That's it. Retention. That's really simple. If you create value, they will come back. If they're not coming back, that means that you are not creating value.",
+      "timestamp": "00:20:14",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 142,
+        "lineEnd": 142
+      },
+      "themes": ["product-market-fit", "retention", "metrics"],
+      "zones": ["data", "focus"]
+    },
+    {
+      "id": "uri-levine-q005",
+      "speaker": "Uri Levine",
+      "text": "If you ask people what is the value of Waze, then it's not about avoiding traffic. It's about creating certainty and certainty is way higher value than saving time. So you know exactly when you're going to get there and this is a way higher value. And by the way, we learned that in the U.S. market when we spoke with people.",
+      "timestamp": "00:28:29",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 196,
+        "lineEnd": 196
+      },
+      "themes": ["value-creation", "user-research", "product-insight"],
+      "zones": ["discovery", "data", "intuition"]
+    },
+    {
+      "id": "uri-levine-q006",
+      "speaker": "Uri Levine",
+      "text": "If you try to do multiple things at the same time, you will fail. Focus is not about what we are doing, it's about what we are not doing. These are the hard decisions.",
+      "timestamp": "00:33:54",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 214,
+        "lineEnd": 214
+      },
+      "themes": ["focus", "decision-making", "strategy"],
+      "zones": ["focus"]
+    },
+    {
+      "id": "uri-levine-q007",
+      "speaker": "Uri Levine",
+      "text": "A venture capital partner is likely to see between a hundred and 200 companies a year and invest in one or two. 1%. That's it. If you want to increase the likelihood, learn how to tell a good story, start at the strongest point at the beginning, remember that they are users, too, so their emotional engagement is going to come through the usage, the use case, and not through how big the business is.",
+      "timestamp": "00:45:54",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 289,
+        "lineEnd": 289
+      },
+      "themes": ["fundraising", "storytelling", "investors"],
+      "zones": ["intuition", "alignment"]
+    },
+    {
+      "id": "uri-levine-q008",
+      "speaker": "Uri Levine",
+      "text": "Most people are missing the most important slide of their presentation. The most important slide of your presentation is the first slide, not the one that you think about it. The first slide. The one that says Company XYZ intro. This slide is going to be presented for the longest period of time.",
+      "timestamp": "00:48:00",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 301,
+        "lineEnd": 301
+      },
+      "themes": ["fundraising", "presentations", "communication"],
+      "zones": ["intuition", "velocity"]
+    },
+    {
+      "id": "uri-levine-q009",
+      "speaker": "Uri Levine",
+      "text": "If you knew within the first month that the team is not right and you didn't do anything, the problem was not that the team was not right. The problem was that the CEO did not make hard decision. If the CEO does not make that hard decisions, the result is always the same. The top performing people would leave because they don't want to be in a place that is unable to make hard decisions and they have a choice.",
+      "timestamp": "00:54:58",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 370,
+        "lineEnd": 370
+      },
+      "themes": ["leadership", "hiring-firing", "decision-making"],
+      "zones": ["velocity", "alignment"]
+    },
+    {
+      "id": "uri-levine-q010",
+      "speaker": "Uri Levine",
+      "text": "Every time that you hire someone new, mark your calendars for 30 days down the road and ask yourself one question, 'Knowing what I know today, would I hire this person?' If the answer is yes, go to this person and tell them that you are really excited that they've joined and give them more equity. If the answer is no, fire them immediately. They deserve to be successful, but it's not going to happen here.",
+      "timestamp": "00:56:02",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 373,
+        "lineEnd": 376
+      },
+      "themes": ["hiring-firing", "leadership", "team-building"],
+      "zones": ["velocity", "focus"]
+    },
+    {
+      "id": "uri-levine-q011",
+      "speaker": "Uri Levine",
+      "text": "If you are building a product and you don't know that there are other people that are not like you, and you think that you're building the product for yourself, then you're making a big mistake. Watch new users. Simply watch users and see what they're doing. And if they're not doing what you expect them to do, then ask them why, because this why is the one that is going to make your product successful.",
+      "timestamp": "01:06:41",
+      "source": {
+        "slug": "uri-levine",
+        "path": "episodes/uri-levine/transcript.md",
+        "lineStart": 451,
+        "lineEnd": 451
+      },
+      "themes": ["user-research", "product-development", "empathy"],
+      "zones": ["discovery", "data"]
+    }
+  ],
+  "themes": ["problem-solving", "iteration", "user-research", "fundraising", "leadership", "product-market-fit", "value-creation", "decision-making"],
+  "takeaways": [
+    "Fall in love with the problem, not the solution: start every venture by identifying a real problem, validating it with at least 20 strangers, and framing your story around the value you create rather than the technology you build.",
+    "Product market fit is measured by one metric alone -- retention. If users come back, you are creating value. If they do not, iterate relentlessly until you reach 'good enough' rather than chasing perfection.",
+    "The startup journey has sequential phases that demand singular focus: find product market fit first, then shift gears to growth or business model depending on your frequency of use. Trying to do multiple phases simultaneously leads to failure.",
+    "Fundraising is a dance of 100 nos -- investors decide within seconds whether they like you, so lead with your strongest point on the very first slide and tell an emotionally engaging story grounded in the user's problem.",
+    "Fire fast and decisively: set a 30-day calendar reminder after every hire to ask 'Would I hire this person again?' The CEO's failure to make hard people decisions is the root cause of most startup team failures."
+  ],
+  "zone_influence": {
+    "velocity": 0.15,
+    "perfection": 0.05,
+    "discovery": 0.20,
+    "data": 0.15,
+    "intuition": 0.10,
+    "alignment": 0.10,
+    "chaos": 0.05,
+    "focus": 0.20
+  },
+  "contrarian_candidates": [
+    {
+      "quoteId": "uri-levine-q003",
+      "why": "Directly attacks perfectionism as the enemy of progress -- most builders believe quality matters most, but Uri argues 'good enough' wins markets while 'perfect' kills companies.",
+      "related_zones": ["velocity", "chaos"]
+    },
+    {
+      "quoteId": "uri-levine-q005",
+      "why": "Challenges the assumption that navigation apps create value by saving time. The real value is certainty, which is counterintuitive -- users prefer knowing how long a bad route takes over being rerouted to save minutes.",
+      "related_zones": ["discovery", "intuition"]
+    },
+    {
+      "quoteId": "uri-levine-q006",
+      "why": "Reframes focus as subtraction rather than addition. Most founders think focus means working hard on the right thing, but Uri defines it as the courage to stop doing things.",
+      "related_zones": ["focus"]
+    }
+  ],
+  "guest_metadata": {
+    "guest_type": "founder",
+    "company_stage": "mixed",
+    "primary_topics": ["entrepreneurship", "problem-solving", "product-market-fit", "fundraising", "hiring-firing"]
+  }
+}
