@@ -45,7 +45,7 @@ async function generateExploreOGImage() {
       </text>
       <text x="600" y="330" font-family="monospace" font-size="60"
             fill="#ffffff" text-anchor="middle" font-weight="bold">
-        295 EPISODES
+        294 EPISODES
       </text>
 
       <!-- Subtitle -->
