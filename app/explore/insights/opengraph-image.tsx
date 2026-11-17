@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/og';
 
-export const runtime = 'edge';
+// Rendered once at build time (static export).
+export const dynamic = 'force-static';
 export const alt = 'Curated Insights from Lenny\'s Podcast';
 export const size = {
   width: 1200,
