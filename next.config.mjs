@@ -9,8 +9,9 @@ const nextConfig = {
   reactStrictMode: true,
   images: { unoptimized: true },
   // Preview builds (Vercel or Cloudflare) ship without Google Analytics, so they never count as visits.
+  // NEXT_PUBLIC_GA_ID is the old variable name, still read so an existing Vercel setting keeps working.
   env: {
-    NEXT_PUBLIC_GA_ID: isPreviewBuild() ? "" : (process.env.NEXT_PUBLIC_GA_ID?.trim() ?? ""),
+    NEXT_PUBLIC_GA_MEASUREMENT_ID: isPreviewBuild() ? "" : (process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() || process.env.NEXT_PUBLIC_GA_ID?.trim() || ""),
   },
 };
 
