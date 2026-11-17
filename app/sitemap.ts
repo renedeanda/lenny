@@ -1,4 +1,7 @@
 import { MetadataRoute } from 'next';
+
+// Generated once at build time (static export).
+export const dynamic = 'force-static';
 import { allEpisodes } from '@/lib/allEpisodes';
 import { TOPIC_PAGES } from '@/lib/topics';
 

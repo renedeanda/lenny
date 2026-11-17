@@ -1,7 +1,13 @@
 import { Metadata } from 'next';
-import { getEpisodeBySlug } from '@/lib/allEpisodes';
+import { allEpisodes, getEpisodeBySlug } from '@/lib/allEpisodes';
 import { getEpisodeEnrichment } from '@/lib/verifiedQuotes';
 import { PodcastEpisodeSchema, EpisodeFAQSchema, BreadcrumbSchema } from '@/components/StructuredData';
+
+// Every episode page is prerendered at build time (static export); unknown slugs are a plain 404.
+export function generateStaticParams() {
+  return allEpisodes.map((episode) => ({ slug: episode.slug }));
+}
+export const dynamicParams = false;
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;

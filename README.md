@@ -209,6 +209,17 @@ The core architecture (transcript parsing, quote curation, recommendation engine
 
 ---
 
+## Deployment (Cloudflare Workers)
+
+The site is a static export: every page, episode, transcript (`/api/transcripts/<slug>`, a prebuilt JSON file) and OG image is generated at build time into `out/`. `wrangler.jsonc` serves `out/` as Cloudflare Workers static assets, with no Worker code. Keep it committed: without it, `wrangler deploy` tries to set the site up as a server app and fails.
+
+- Build: `npm run build`
+- Deploy the production branch: `npm run deploy:cloudflare`. This carries the security headers in `vercel.json` into Cloudflare's `_headers`, then runs `wrangler deploy`.
+- Preview other branches (optional): `npm run preview:cloudflare`. Every preview page is sent `noindex` and ships without Google Analytics.
+- `NEXT_PUBLIC_GA_ID` is a Cloudflare **build** variable.
+- `vercel.json` sets `git.deploymentEnabled: false`, so Vercel never builds from Git.
+- New episodes need no routing work: `generateStaticParams` in `app/episodes/[slug]/layout.tsx` and `app/api/transcripts/[slug]/route.ts` picks them up at the next build.
+
 ## Contributing
 
 This is primarily a personal project, but contributions are welcome!
