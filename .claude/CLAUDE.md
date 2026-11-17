@@ -377,7 +377,7 @@ npm run build:verified  # Validate curated data
 - The site is a **static export** hosted on Cloudflare Workers static assets (`wrangler.jsonc`). Cloudflare builds with `npm run build`, deploys with `npm run deploy:cloudflare`, and previews other branches with `npm run preview:cloudflare` (noindex, no GA).
 - Everything is prerendered: episode pages and `/api/transcripts/<slug>` come from `generateStaticParams`. Don't add request-time features (`cookies()`, `headers()`, `force-dynamic`, edge runtime, dynamic route handlers); the static export build fails on them.
 - Headers live in `vercel.json` (`scripts/cloudflare-headers.mjs` carries them to Cloudflare). `vercel.json` sets `git.deploymentEnabled: false`: Vercel never builds from Git. Never re-enable it, add deploy hooks or run `wrangler deploy` by hand unless the owner asks.
-- `NEXT_PUBLIC_GA_ID` is a Cloudflare build variable.
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` is a Cloudflare build variable.
 
 ## 🛠️ Development Commands
 

@@ -216,7 +216,7 @@ The site is a static export: every page, episode, transcript (`/api/transcripts/
 - Build: `npm run build`
 - Deploy the production branch: `npm run deploy:cloudflare`. This carries the security headers in `vercel.json` into Cloudflare's `_headers`, then runs `wrangler deploy`.
 - Preview other branches (optional): `npm run preview:cloudflare`. Every preview page is sent `noindex` and ships without Google Analytics.
-- `NEXT_PUBLIC_GA_ID` is a Cloudflare **build** variable.
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` is a Cloudflare **build** variable.
 - `vercel.json` sets `git.deploymentEnabled: false`, so Vercel never builds from Git.
 - New episodes need no routing work: `generateStaticParams` in `app/episodes/[slug]/layout.tsx` and `app/api/transcripts/[slug]/route.ts` picks them up at the next build.
 
