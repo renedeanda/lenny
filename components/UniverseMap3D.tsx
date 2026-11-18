@@ -175,16 +175,6 @@ interface UniverseMap3DProps {
 export default function UniverseMap3D({ primaryZone, topZones, onZoneClick }: UniverseMap3DProps) {
   const [error, setError] = useState<string | null>(null);
 
-  if (error) {
-    return (
-      <div className="w-full h-full flex items-center justify-center text-crimson">
-        <div className="text-center">
-          <p className="text-sm mb-2">3D Universe unavailable</p>
-          <p className="text-xs text-ash-dark">{error}</p>
-        </div>
-      </div>
-    );
-  }
   // Position zones in a circular formation
   const zonePositions: Record<ZoneId, [number, number, number]> = useMemo(() => {
     const radius = 10;
@@ -213,6 +203,16 @@ export default function UniverseMap3D({ primaryZone, topZones, onZoneClick }: Un
     return percentages;
   }, [topZones]);
 
+  if (error) {
+    return (
+      <div className="w-full h-full flex items-center justify-center text-crimson">
+        <div className="text-center">
+          <p className="text-sm mb-2">3D Universe unavailable</p>
+          <p className="text-xs text-ash-dark">{error}</p>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="w-full h-full">
       <Canvas>

@@ -208,7 +208,7 @@ function QuoteCard({ quote, index, onJumpToTranscript, isFavorited, onToggleFavo
 
       {/* Quote Text */}
       <blockquote className="text-ash leading-relaxed mb-4 text-base">
-        "{displayText}"
+        &quot;{displayText}&quot;
         {isLongQuote && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}

@@ -152,7 +152,7 @@ function QuizContent() {
           {userName && (
             <div className="flex items-center justify-center gap-2 text-amber text-xs md:text-sm">
               <User className="w-3 h-3 md:w-4 md:h-4" />
-              <span>{userName}'s Philosophy Assessment</span>
+              <span>{userName}&apos;s Philosophy Assessment</span>
             </div>
           )}
           <div className="flex items-center justify-center gap-3 text-amber/60 text-xs md:text-sm">

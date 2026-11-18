@@ -135,7 +135,7 @@ export default function Footer() {
           <div>
             <h3 className="text-amber font-bold mb-4 text-sm tracking-wider">ABOUT</h3>
             <p className="text-ash-dark text-sm leading-relaxed">
-              Discover your product philosophy through a quiz built from 294 episodes of <span className="text-amber">Lenny's Podcast</span>.
+              Discover your product philosophy through a quiz built from 294 episodes of <span className="text-amber">Lenny&apos;s Podcast</span>.
               Get personalized episode recommendations that match how you work.
             </p>
           </div>
@@ -163,7 +163,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-ash-darker">
             <div>
               © 2026 <a href="https://renedeanda.com" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">René DeAnda</a>
-              {' '} • <a href="https://github.com/ChatPRD/lennys-podcast-transcripts" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">Data from Lenny's Podcast</a>
+              {' '} • <a href="https://github.com/ChatPRD/lennys-podcast-transcripts" target="_blank" rel="noopener noreferrer" className="hover:text-amber transition-colors">Data from Lenny&apos;s Podcast</a>
             </div>
             <div className="flex gap-4">
               <a

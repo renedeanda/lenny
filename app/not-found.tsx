@@ -20,7 +20,7 @@ export default function NotFound() {
             PAGE NOT FOUND
           </h1>
           <p className="text-xl text-ash-dark mb-8">
-            This page doesn't exist
+            This page doesn&apos;t exist
           </p>
 
           {/* Error message */}
@@ -78,7 +78,7 @@ export default function NotFound() {
           {/* ASCII Art Terminal Border */}
           <div className="mt-12 text-ash-darker text-xs">
             <div>╔════════════════════════════════════╗</div>
-            <div>║  PHILOSOPHY QUIZ • LENNY'S PODCAST ║</div>
+            <div>║  PHILOSOPHY QUIZ • LENNY&apos;S PODCAST ║</div>
             <div>║  STATUS: ROUTE_NOT_FOUND          ║</div>
             <div>╚════════════════════════════════════╝</div>
           </div>
