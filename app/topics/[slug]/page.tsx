@@ -22,19 +22,6 @@ export default function TopicPage() {
   const episodes = useMemo(() => getEpisodesForTopic(slug), [slug]);
   const takeaways = useMemo(() => getTakeawaysForTopic(slug), [slug]);
 
-  if (!topic) {
-    return (
-      <div className="min-h-screen bg-void text-ash font-mono flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold text-amber mb-4">Topic Not Found</h1>
-          <Link href="/explore" className="text-ash-dark hover:text-amber transition-colors">
-            Back to Explore
-          </Link>
-        </div>
-      </div>
-    );
-  }
-
   // Get featured quotes — prioritize primary-tagged quotes (first in array)
   // and diverse speakers. Primary quotes come first from getQuotesForTopic,
   // so taking unique speakers in order naturally favors primary-tagged ones.
@@ -49,7 +36,7 @@ export default function TopicPage() {
 
   // Related topics with their own pages
   const relatedTopics = useMemo(() =>
-    TOPIC_PAGES.filter(t => topic.relatedTopics.includes(t.slug)),
+    topic ? TOPIC_PAGES.filter(t => topic.relatedTopics.includes(t.slug)) : [],
     [topic]
   );
 
@@ -59,6 +46,19 @@ export default function TopicPage() {
       trackTopicViewed(slug, quotes.length, episodes.length);
     }
   }, [slug, topic, quotes.length, episodes.length]);
+
+  if (!topic) {
+    return (
+      <div className="min-h-screen bg-void text-ash font-mono flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold text-amber mb-4">Topic Not Found</h1>
+          <Link href="/explore" className="text-ash-dark hover:text-amber transition-colors">
+            Back to Explore
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   const visibleEpisodes = episodes.slice(0, visibleCount);
   const remainingCount = Math.max(0, episodes.length - visibleCount);

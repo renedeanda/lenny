@@ -25,7 +25,7 @@ export default function ContrarianViewCard({ view, onTimestampClick }: Contraria
   return (
     <div className="border-l-2 border-crimson/50 pl-3">
       <p className="text-sm text-ash italic mb-2">
-        "{displayText}"
+        &quot;{displayText}&quot;
         {isLongQuote && (
           <button
             onClick={() => setIsExpanded(!isExpanded)}

@@ -214,8 +214,8 @@ export default function ExplorePage() {
               294 EPISODES
             </h1>
             <p className="text-ash text-lg max-w-2xl leading-relaxed">
-              Search, filter, and explore every conversation from Lenny's Podcast.
-              Real insights from the world's best product leaders, builders, and founders.
+              Search, filter, and explore every conversation from Lenny&apos;s Podcast.
+              Real insights from the world&apos;s best product leaders, builders, and founders.
             </p>
 
             <div className="flex flex-wrap gap-3 mt-4 text-sm">

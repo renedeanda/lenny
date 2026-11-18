@@ -178,7 +178,7 @@ export default function Home() {
               transition={{ delay: 0.8 }}
               className="text-lg md:text-xl text-ash-dark max-w-2xl leading-relaxed"
             >
-              Find podcast episodes that match how you work—based on 294 episodes of Lenny's Podcast
+              Find podcast episodes that match how you work—based on 294 episodes of Lenny&apos;s Podcast
             </motion.p>
           </div>
 

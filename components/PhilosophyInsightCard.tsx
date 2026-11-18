@@ -33,7 +33,7 @@ export default function PhilosophyInsightCard({ userProfile }: Props) {
           {primaryZone.name}
         </h2>
         <p className="text-xl md:text-2xl text-ash italic">
-          "{primaryZone.tagline}"
+          &quot;{primaryZone.tagline}&quot;
         </p>
       </div>
 
