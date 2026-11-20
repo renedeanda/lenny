@@ -11,8 +11,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "generate:og-topics": "node scripts/generate-topic-og-images.js",
-    "deploy:cloudflare": "node scripts/cloudflare-headers.mjs && wrangler deploy",
-    "preview:cloudflare": "node scripts/cloudflare-headers.mjs --preview && wrangler preview"
+    "deploy:cloudflare": "wrangler deploy",
+    "preview:cloudflare": "node scripts/preview-noindex.mjs && wrangler preview"
   },
   "keywords": [],
   "author": "",
